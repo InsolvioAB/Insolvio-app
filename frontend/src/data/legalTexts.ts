@@ -1,5 +1,6 @@
-// Lightweight index file that dynamically loads laws from JSON files
-// This replaces the old monolithic data structure
+// Complete Swedish Legal Texts for Konkursadministration
+// Data source: Sveriges Riksdag (riksdagen.se)
+// Structure optimized for mobile app performance
 
 export type Section = {
   id: string;
@@ -25,28 +26,18 @@ export type LegalText = {
   chapters: Chapter[];
 };
 
-// Import index
-import lawsIndex from './laws/index.json';
+// Import complete law data files
+import { konkurslag } from './laws/konkurslag';
+import { handelsbolag } from './laws/handelsbolag';
+import { las } from './laws/las';
+import { semesterlag } from './laws/semesterlag';
+import { aktiebolagslag } from './laws/aktiebolagslag';
 
-// Function to load a law dynamically
-export async function loadLaw(lawId: string): Promise<LegalText> {
-  const lawInfo = lawsIndex.find((l: any) => l.id === lawId);
-  if (!lawInfo) {
-    throw new Error(`Law ${lawId} not found`);
-  }
-  
-  // Dynamic import based on filename
-  const lawData = await import(`./laws/${lawInfo.fileName}`);
-  return lawData.default;
-}
+export const legalTexts: LegalText[] = [
+  konkurslag,
+  handelsbolag,
+  las,
+  semesterlag,
+  aktiebolagslag,
+];
 
-// Export lightweight list for home screen
-export const legalTexts = lawsIndex.map((law: any) => ({
-  id: law.id,
-  title: law.title,
-  sfsNumber: law.sfsNumber,
-  department: law.department,
-  issued: law.issued,
-  lastAmended: law.lastAmended,
-  chapters: [], // Will be loaded dynamically
-}));
