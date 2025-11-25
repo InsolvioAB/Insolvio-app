@@ -4,7 +4,7 @@
 
 import { LegalText } from '../legalTexts';
 
-export const 1987_672: LegalText = {
+export const konkurslag: LegalText = {
   "id": "sfs-1987-672",
   "title": "Konkurslag (1987:672)",
   "sfsNumber": "1987:672",

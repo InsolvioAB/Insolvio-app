@@ -4,7 +4,7 @@
 
 import { LegalText } from '../legalTexts';
 
-export const 1982_80: LegalText = {
+export const las: LegalText = {
   "id": "sfs-1982-80",
   "title": "Lag (1982:80) om anställningsskydd",
   "sfsNumber": "1982:80",
