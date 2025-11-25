@@ -37,7 +37,7 @@ export default function HomeScreen() {
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Konkursadministration</Text>
         <Text style={styles.headerSubtitle}>
-          Svensk lagsamling för konkursförvaltare
+          Svensk lagsamling för konkursförvaltning
         </Text>
       </View>
       <FlatList
