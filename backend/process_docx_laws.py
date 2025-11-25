@@ -230,11 +230,8 @@ def parse_law_structure(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
     
     return law_data
 
-def generate_typescript_file(law_data: Dict[str, Any], output_path: str):
+def generate_typescript_file(law_data: Dict[str, Any], output_path: str, var_name: str):
     """Generate TypeScript file with law data"""
-    
-    # Clean ID for variable name
-    var_name = law_data['id'].replace('-', '_').replace('sfs_', '')
     
     ts_content = f"""// {law_data['title']}
 // Auto-generated from uploaded DOCX
