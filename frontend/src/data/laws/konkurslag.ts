@@ -40,12 +40,12 @@ export const konkurslag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "Konkursansökan och konkursbeslut  Konkursansökan m.m.  Konkursansökan",
+      "title": "Konkursansökan och konkursbeslut",
       "sections": [
         {
           "id": "kap-2-§-1",
           "number": 1,
-          "text": "regeringsformen, –",
+          "text": "regeringsformen, -",
           "references": []
         },
         {
@@ -251,7 +251,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-4-§-9",
           "number": 9,
-          "text": "En gäldenär, som är eller senare än ett år före konkursansökningen har varit bokföringsskyldig enligt bokföringslagen (1999:1078), ska om inte annat visas anses insolvent, om 1. gäldenären har uppmanats av en borgenär att betala klar och förfallen skuld men underlåtit att göra detta inom en vecka och 2. borgenären begär gäldenären i konkurs inom tre veckor därefter och skulden då ännu inte är betald. Borgenärens uppmaning ska innehålla en upplysning om att en konkursansökan kan följa. Uppmaningen ska delges gäldenären. Delgivning enligt 34–",
+          "text": "En gäldenär, som är eller senare än ett år före konkursansökningen har varit bokföringsskyldig enligt bokföringslagen (1999:1078), ska om inte annat visas anses insolvent, om 1. gäldenären har uppmanats av en borgenär att betala klar och förfallen skuld men underlåtit att göra detta inom en vecka och 2. borgenären begär gäldenären i konkurs inom tre veckor därefter och skulden då ännu inte är betald. Borgenärens uppmaning ska innehålla en upplysning om att en konkursansökan kan följa. Uppmaningen ska delges gäldenären.Delgivning enligt 34-",
           "references": []
         },
         {
@@ -281,7 +281,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-4-§-15",
           "number": 15,
-          "text": "En fordran hos gäldenären som får göras gällande i konkursen kan av borgenären användas till kvittning mot en fordran som gäldenären hade mot honom när konkursbeslutet meddelades. Detta gäller dock inte om kvittning var utesluten utom konkurs på grund av fordringarnas beskaffenhet. Är en fordran beroende av ett villkor som innebär att borgenären har rätt att få ut fordringsbeloppet endast om viss omständighet inträffar, skall borgenären fullgöra sin förpliktelse trots att han annars hade haft rätt att kvitta. Om han före den dag då utdelningsförslaget upprättas visar att villkoret har uppfyllts, har han emellertid rätt att återfå motsvarande belopp i den mån det inte överstiger vad han har att fordra. Finns det anledning att anta att villkoret kommer att uppfyllas senare, skall ett för borgenären beräknat belopp avsättas när utdelningsförslaget upprättas.",
+          "text": "En fordran hos gäldenären som får göras gällande i konkursen kan av borgenären användas till kvittning mot en fordran som gäldenären hade mot honom när konkursbeslutet meddelades. Detta gäller dock inte om kvittning var utesluten utom konkurs på grund av fordringarnas beskaffenhet. Är en fordran beroende av ett villkor som innebär att borgenären har rätt att få ut fordringsbeloppet endast om viss omständighet inträffar, skall borgenären fullgöra sin förpliktelse trots att han annars hade haft rätt att kvitta. Om han före den dag då utdelningsförslaget upprättas visar att villkoret har uppfyllts, har han emellertid rätt att återfå motsvarande belopp i den mån det inte överstiger vad han har att fordra.Finns det anledning att anta att villkoret kommer att uppfyllas senare, skall ett för borgenären beräknat belopp avsättas när utdelningsförslaget upprättas.",
           "references": []
         },
         {
@@ -384,7 +384,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-5-§-15",
           "number": 15,
-          "text": "Den som är skyldig att återbära egendom skall även utge den avkastning som belöper på tiden efter det att återvinning påkallades. Utgörs egendomen av ett penningbelopp eller skall ersättning utges för egendomens värde, utgår ränta enligt",
+          "text": "Den som är skyldig att återbära egendom skall även utge den avkastning som belöper på tiden efter det att återvinning påkallades.Utgörs egendomen av ett penningbelopp eller skall ersättning utges för egendomens värde, utgår ränta enligt",
           "references": []
         },
         {
@@ -445,7 +445,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-1",
           "number": 1,
-          "text": "En gäldenär som är en fysisk person får inte under konkursen driva näringsverksamhet som medför bokföringsskyldighet enligt bokföringslagen (1999:1078). Förbudet omfattar inte verksamhet som innebär utövning av rättighet som avses i –",
+          "text": "En gäldenär som är en fysisk person får inte under konkursen driva näringsverksamhet som medför bokföringsskyldighet enligt bokföringslagen (1999:1078). Förbudet omfattar inte verksamhet som innebär utövning av rättighet som avses i -",
           "references": []
         },
         {
@@ -499,7 +499,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-16",
           "number": 16,
-          "text": "Upptas en borgenärs konkursansökan, skall rätten sätta ut en förhandling för prövning av ansökningen. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom sex veckor. Till förhandlingen skall parterna kallas. Parterna skall i kallelsen upplysas om den i",
+          "text": "Upptas en borgenärs konkursansökan, skall rätten sätta ut en förhandling för prövning av ansökningen. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom sex veckor. Till förhandlingen skall parterna kallas.Parterna skall i kallelsen upplysas om den i",
           "references": []
         },
         {
@@ -541,7 +541,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-37",
           "number": 37,
-          "text": "§ delgivningslagen (2010:1932) endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan. Kungörelsedelgivning enligt",
+          "text": "§ delgivningslagen (2010:1932) endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan.Kungörelsedelgivning enligt",
           "references": []
         }
       ]
@@ -578,7 +578,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-6",
           "number": 6,
-          "text": "tredje stycket skall varje känd borgenär som har särskild förmånsrätt i egendomen ges tillfälle att yttra sig över framställningen. Om ett konkursbeslut upphävts, skall den borgenär vars ansökan lagts till grund för beslutet ges tillfälle att yttra sig över framställningen. Rätten får hålla förhandling i arvodesfrågan, om den finner skäl till det. Till förhandlingen skall förvaltaren, tillsynsmyndigheten, gäldenären samt de borgenärer som har begärt att få yttra sig över arvodesframställningen kallas. I fall som avses i",
+          "text": "tredje stycket skall varje känd borgenär som har särskild förmånsrätt i egendomen ges tillfälle att yttra sig över framställningen.Om ett konkursbeslut upphävts, skall den borgenär vars ansökan lagts till grund för beslutet ges tillfälle att yttra sig över framställningen. Rätten får hålla förhandling i arvodesfrågan, om den finner skäl till det. Till förhandlingen skall förvaltaren, tillsynsmyndigheten, gäldenären samt de borgenärer som har begärt att få yttra sig över arvodesframställningen kallas. I fall som avses i",
           "references": []
         },
         {
@@ -596,7 +596,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-9",
           "number": 9,
-          "text": "Pågår en rättegång mellan gäldenären och någon annan om sådan egendom som hör till konkursboet, får konkursboet överta gäldenärens talan. Om boet, trots att det har underrättats om rättegången, inte övertar gäldenärens talan, skall egendomen anses inte tillhöra konkursboet. Egendomen får inte så länge konkursen pågår utmätas för en fordran som kan göras gällande i konkursen. Om konkursboet övertar gäldenärens talan, tillämpas beträffande boets skyldighet att svara för rättegångskostnad vad som i rättegångsbalken föreskrivs om den till vilken överlåtelse har ägt rum enligt",
+          "text": "Pågår en rättegång mellan gäldenären och någon annan om sådan egendom som hör till konkursboet, får konkursboet överta gäldenärens talan. Om boet, trots att det har underrättats om rättegången, inte övertar gäldenärens talan, skall egendomen anses inte tillhöra konkursboet.Egendomen får inte så länge konkursen pågår utmätas för en fordran som kan göras gällande i konkursen. Om konkursboet övertar gäldenärens talan, tillämpas beträffande boets skyldighet att svara för rättegångskostnad vad som i rättegångsbalken föreskrivs om den till vilken överlåtelse har ägt rum enligt",
           "references": []
         },
         {
@@ -906,7 +906,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-9",
           "number": 9,
-          "text": "Överföring av medel till pensionsstiftelse, som har skett senare än sex månader före fristdagen och som har medfört att stiftelsen fått överskott på kapitalet, går åter till belopp motsvarande överskottet. Har överföringen skett dessförinnan men senare än ett år eller, när åtgärden väsentligen har gynnat gäldenären eller närstående till honom, tre år före fristdagen, går den åter i motsvarande mån, om det inte visas att gäldenären efter överföringen hade kvar utmätningsbar egendom som uppenbart motsvarade hans skulder. Överföring till pensionsstiftelse i annat fall än som sägs i första stycket går åter, om överföringen har skett senare än tre månader före fristdagen. Har överföringen väsentligen gynnat gäldenären eller närstående till honom, går den också åter, om åtgärden har skett dessförinnan men senare än två år före fristdagen och det inte visas att gäldenären varken var eller genom åtgärden blev insolvent. Överföring av medel till personalstiftelse går åter, om överföringen har skett senare än sex månader före fristdagen. Har överföringen skett dessförinnan men senare än ett år eller, när åtgärden väsentligen har gynnat gäldenären eller närstående till honom, tre år före fristdagen, går den åter, om det inte visas att gäldenären efter överföringen hade kvar utmätningsbar egendom som uppenbart motsvarade hans skulder. Om rätt att i särskilda fall återkräva försäkringspremier m.m. finns det bestämmelser i",
+          "text": "Överföring av medel till pensionsstiftelse, som har skett senare än sex månader före fristdagen och som har medfört att stiftelsen fått överskott på kapitalet, går åter till belopp motsvarande överskottet. Har överföringen skett dessförinnan men senare än ett år eller, när åtgärden väsentligen har gynnat gäldenären eller närstående till honom, tre år före fristdagen, går den åter i motsvarande mån, om det inte visas att gäldenären efter överföringen hade kvar utmätningsbar egendom som uppenbart motsvarade hans skulder. Överföring till pensionsstiftelse i annat fall än som sägs i första stycket går åter, om överföringen har skett senare än tre månader före fristdagen. Har överföringen väsentligen gynnat gäldenären eller närstående till honom, går den också åter, om åtgärden har skett dessförinnan men senare än två år före fristdagen och det inte visas att gäldenären varken var eller genom åtgärden blev insolvent. Överföring av medel till personalstiftelse går åter, om överföringen har skett senare än sex månader före fristdagen.Har överföringen skett dessförinnan men senare än ett år eller, när åtgärden väsentligen har gynnat gäldenären eller närstående till honom, tre år före fristdagen, går den åter, om det inte visas att gäldenären efter överföringen hade kvar utmätningsbar egendom som uppenbart motsvarade hans skulder. Om rätt att i särskilda fall återkräva försäkringspremier m.m.finns det bestämmelser i",
           "references": []
         },
         {
@@ -1039,7 +1039,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-5",
           "number": 5,
-          "text": "Om en inteckningshavare eller någon annan borgenär som för sin fordran har förmånsrätt i viss egendom yrkar att den egendomen skall säljas genom förvaltarens försorg och om hans rätt till betalning ur egendomen har lämnats obestridd eller fastställts genom ett lagakraftvunnet avgörande, får försäljning av egendomen inte uppskjutas. Detta gäller dock inte i fråga om egendom som behövs för en rörelse under tid då denna fortsätts med stöd av",
+          "text": "Om en inteckningshavare eller någon annan borgenär som för sin fordran har förmånsrätt i viss egendom yrkar att den egendomen skall säljas genom förvaltarens försorg och om hans rätt till betalning ur egendomen har lämnats obestridd eller fastställts genom ett lagakraftvunnet avgörande, får försäljning av egendomen inte uppskjutas.Detta gäller dock inte i fråga om egendom som behövs för en rörelse under tid då denna fortsätts med stöd av",
           "references": []
         },
         {
@@ -1118,13 +1118,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-13-§-1",
           "number": 1,
-          "text": "tryckfrihetsförordningen, eller –",
+          "text": "tryckfrihetsförordningen, eller -",
           "references": []
         },
         {
           "id": "kap-13-§-5",
           "number": 5,
-          "text": "skall avge över förvaltarens slutredovisning har kommit in till rätten. Utdelningsförslaget och förvaltningsredogörelsen skall hållas tillgängliga hos rätten och tillsynsmyndigheten för den som vill ta del av handlingarna. En uppgift om detta skall tas in i kungörelsen. Den som vill framställa invändning mot utdelningsförslaget skall göra det hos rätten senast den dag som rätten bestämmer och anger i kungörelsen. Denna dag skall bestämmas så att tre veckor förflyter från den tidpunkt då kungörelsen kan antas bli införd i Post- och Inrikes Tidningar.",
+          "text": "skall avge över förvaltarens slutredovisning har kommit in till rätten. Utdelningsförslaget och förvaltningsredogörelsen skall hållas tillgängliga hos rätten och tillsynsmyndigheten för den som vill ta del av handlingarna. En uppgift om detta skall tas in i kungörelsen. Den som vill framställa invändning mot utdelningsförslaget skall göra det hos rätten senast den dag som rätten bestämmer och anger i kungörelsen.Denna dag skall bestämmas så att tre veckor förflyter från den tidpunkt då kungörelsen kan antas bli införd i Post- och Inrikes Tidningar.",
           "references": []
         },
         {
@@ -1192,7 +1192,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-15-§-2",
           "number": 2,
-          "text": "sker, före den dag då underrättelserna sändes ut. Om ackordsförslaget har kommit in i rätt tid, skall rätten inhämta yttrande av förvaltaren huruvida förslaget bör föreläggas borgenärerna. Avstyrker förvaltaren att det sker, får förslaget tas upp endast om rätten finner synnerliga skäl till det.",
+          "text": "sker, före den dag då underrättelserna sändes ut. Om ackordsförslaget har kommit in i rätt tid, skall rätten inhämta yttrande av förvaltaren huruvida förslaget bör föreläggas borgenärerna.Avstyrker förvaltaren att det sker, får förslaget tas upp endast om rätten finner synnerliga skäl till det.",
           "references": []
         },
         {
@@ -1216,7 +1216,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-15-§-12",
           "number": 12,
-          "text": "tas upp på begäran av en borgenär. Innan rätten meddelar beslut i frågan skall gäldenären ges tillfälle att yttra sig, om det lämpligen kan ske. Rätten får hålla förhandling för prövning av fråga om säkerhetsåtgärd. Till förhandlingen skall gäldenären och borgenären kallas. Kallelserna bör delges. Beträffande häktning tillämpas vad som sägs i",
+          "text": "tas upp på begäran av en borgenär. Innan rätten meddelar beslut i frågan skall gäldenären ges tillfälle att yttra sig, om det lämpligen kan ske. Rätten får hålla förhandling för prövning av fråga om säkerhetsåtgärd.Till förhandlingen skall gäldenären och borgenären kallas. Kallelserna bör delges. Beträffande häktning tillämpas vad som sägs i",
           "references": []
         },
         {
@@ -1277,7 +1277,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-16-§-8",
           "number": 8,
-          "text": "Har upphävts genom lag (2019:250).",
+          "text": "Har upphävts genom lag (2019:250). /Kapitlet upphör att gälla U:2026-07-01 genom lag (2025:796).",
           "references": []
         },
         {
@@ -1315,7 +1315,7 @@ export const konkurslag: LegalText = {
     {
       "id": "kap-17",
       "number": 17,
-      "title": "Skadestånd och straff Skadestånd",
+      "title": "Skadestånd och straff",
       "sections": [
         {
           "id": "kap-17-§-1",
@@ -1332,7 +1332,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-17-§-3",
           "number": 3,
-          "text": "i paragrafernas äldre lydelse. 2005:196 1. Denna lag träder i kraft den 1 maj 2005. 2. Vid konkurs som beslutats före ikraftträdandet gäller äldre bestämmelser. 2008:993 1. Denna lag träder i kraft den 1 januari 2009. 2. I fråga om en företagsinteckning enligt den upphävda lagen (2003:528) om företagsinteckning tillämpas äldre bestämmelser. 2010:1951 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15–",
+          "text": "i paragrafernas äldre lydelse. 2005:196 1. Denna lag träder i kraft den 1 maj 2005. 2. Vid konkurs som beslutats före ikraftträdandet gäller äldre bestämmelser. 2008:993 1. Denna lag träder i kraft den 1 januari 2009. 2. I fråga om en företagsinteckning enligt den upphävda lagen (2003:528) om företagsinteckning tillämpas äldre bestämmelser. 2010:1951 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15-",
           "references": []
         },
         {
