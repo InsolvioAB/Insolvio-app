@@ -304,7 +304,7 @@ def process_all_laws():
         
         # Generate TypeScript file
         output_file = output_dir / f"{law_key}.ts"
-        generate_typescript_file(law_data, str(output_file))
+        generate_typescript_file(law_data, str(output_file), law_key)
         
         print("  ✓ Färdig!")
     
