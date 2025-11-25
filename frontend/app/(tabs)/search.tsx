@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts } from '../data/legalTexts';
+import { legalTexts } from '../../src/data/legalTexts';
 
 type SearchResult = {
   lawId: string;
