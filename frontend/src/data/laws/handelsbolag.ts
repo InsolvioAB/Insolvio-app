@@ -70,7 +70,7 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "Handelsbolag",
+      "title": "Handelsbolag Bolagsmännens inbördes rättigheter och skyldigheter",
       "sections": [
         {
           "id": "kap-2-§-1",
@@ -443,8 +443,27 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-11",
       "number": 11,
-      "title": "7 § föräldrabalken.Lag (2014:540).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-11-§-7",
+          "number": 7,
+          "text": "föräldrabalken. Om bolaget inte har någon likvidator som är bosatt i Sverige, ska likvidatorerna bemyndiga en i Sverige bosatt person att ta emot delgivning på bolagets vägnar. Ett sådant bemyndigande får inte lämnas till någon som är underårig eller som har förvaltare enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-11",
+      "number": 11,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-11-§-7",
+          "number": 7,
+          "text": "föräldrabalken.Lag (2014:540).",
+          "references": []
+        },
         {
           "id": "kap-11-§-38",
           "number": 38,
@@ -542,7 +561,7 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "Kapitel 2",
+      "title": "",
       "sections": [
         {
           "id": "kap-2-§-3",
@@ -561,8 +580,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "31 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-2-§-31",
+          "number": 31,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-2-§-5",
           "number": 5,
@@ -580,8 +605,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "5 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-2-§-5",
+          "number": 5,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-2-§-7",
           "number": 7,
@@ -599,8 +630,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "6 eller 8 §.",
+      "title": "6 eller",
       "sections": [
+        {
+          "id": "kap-2-§-8",
+          "number": 8,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-2-§-9",
           "number": 9,
@@ -612,8 +649,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "2 §, svarar den kommanditdelägare som förbehållet avser såsom komplementär för de förbindelser som uppkommit för bolaget genom avtalet.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-1-§-2",
+          "number": 2,
+          "text": ", svarar den kommanditdelägare som förbehållet avser såsom komplementär för de förbindelser som uppkommit för bolaget genom avtalet. Om ett avtal ingås för bolagets räkning och därvid med en kommanditdelägares vetskap och vilja ett företagsnamn används som inte innehåller ordet \"kommanditbolag\", svarar kommanditdelägaren såsom komplementär gentemot den med vilken avtalet ingicks, även om denne på grund av",
+          "references": []
+        },
         {
           "id": "kap-1-§-19",
           "number": 19,
@@ -625,8 +668,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "2 §. Lag (2018:1662).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-1-§-2",
+          "number": 2,
+          "text": ". Lag (2018:1662).",
+          "references": []
+        },
         {
           "id": "kap-1-§-10",
           "number": 10,
@@ -638,8 +687,14 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "2 § på grund av överenskommelse mellan bolagsmännen, är nedsättningen utan verkan i fråga om förpliktelser vid vars tillkomst medkontrahenten varken kände till eller borde ha känt till nedsättningen.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-1-§-2",
+          "number": 2,
+          "text": "på grund av överenskommelse mellan bolagsmännen, är nedsättningen utan verkan i fråga om förpliktelser vid vars tillkomst medkontrahenten varken kände till eller borde ha känt till nedsättningen.",
+          "references": []
+        },
         {
           "id": "kap-1-§-11",
           "number": 11,
@@ -651,7 +706,7 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "Enkla bolag",
+      "title": "Enkla bolag Bolagsmännens inbördes rättigheter och skyldigheter",
       "sections": [
         {
           "id": "kap-4-§-1",
@@ -676,8 +731,27 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "2, 4, 5, 8, 9, 11, 13 och 14 §§ gäller för enkla bolag. Härvid skall det som föreskrivs i 2 kap. 14 § om skada för bolaget i stället gälla skada för någon annan bolagsman.",
+      "title": "2, 4, 5, 8, 9, 11, 13 och",
       "sections": [
+        {
+          "id": "kap-2-§-14",
+          "number": 14,
+          "text": "§ gäller för enkla bolag. Härvid skall det som föreskrivs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-14",
+          "number": 14,
+          "text": "om skada för bolaget i stället gälla skada för någon annan bolagsman.",
+          "references": []
+        },
         {
           "id": "kap-2-§-3",
           "number": 3,
@@ -713,8 +787,88 @@ export const handelsbolag: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "24-27, 29 och 30 §§, 31 § andra och tredje styckena, 33, 34 och 36 §§, 37 § första stycket, andra stycket andra-fjärde meningarna och tredje-femte styckena, 38-43 §§, 44 § första stycket samt 45 §.",
+      "title": "2, 4, 5, 8, 13 och",
       "sections": [
+        {
+          "id": "kap-2-§-14",
+          "number": 14,
+          "text": "§ samt 3 och",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-4",
+          "number": 4,
+          "text": "§ i detta kapitel, om inte något annat har avtalats. Vad som nu har sagts om",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-4",
+          "number": 4,
+          "text": "och",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-3",
+          "number": 3,
+          "text": "i detta kapitel gäller dock inte, om särskild likvidator har förordnats. I övrigt gäller i fråga om bolagets likvidation och upplösning",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "24-27, 29 och",
+      "sections": [
+        {
+          "id": "kap-2-§-30",
+          "number": 30,
+          "text": "§,",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-31",
+          "number": 31,
+          "text": "andra och tredje styckena, 33, 34 och",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-36",
+          "number": 36,
+          "text": "§,",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-37",
+          "number": 37,
+          "text": "första stycket, andra stycket andra-fjärde meningarna och tredje-femte styckena, 38-",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-43",
+          "number": 43,
+          "text": "§,",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-44",
+          "number": 44,
+          "text": "första stycket samt",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-45",
+          "number": 45,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-2-§-8",
           "number": 8,
@@ -725,6 +879,58 @@ export const handelsbolag: LegalText = {
           "id": "kap-2-§-9",
           "number": 9,
           "text": "En likvidator är behörig att företa rättshandlingar på bolagsmännens vägnar endast i den mån det behövs för att bolagsmännens för bolaget avsedda tillgångar skall kunna förvandlas till pengar enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-33",
+          "number": 33,
+          "text": ". Överskrider likvidatorn sin behörighet, är rättshandlingen dock bindande för bolagsmännen, om tredje man varken insåg eller borde ha insett att behörigheten överskreds. Övergångsbestämmelser 1980:1102 4. Fråga huruvida handelsbolag eller enkelt bolag föreligger skall intill utgången av år 1994 bedömas enligt äldre lag. Enkelt bolag, som från och med den 1 januari 1995 blir handelsbolag, skall ansöka om registrering före nämnda dag. Lag (1992:1210). 1993:760 1. Denna lag träder i kraft den 1 januari 1995. 2. För handelsbolag och enkla bolag som har bildats enligt äldre lag gäller den nya lagen med det undantag som följer av punkten 3. 3. För handelsbolag som har bildats före den 1 januari 1995 gäller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-1",
+      "number": 1,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-1-§-1",
+          "number": 1,
+          "text": "i sin äldre lydelse till utgången av år 1995. Om ett sådant bolag vid utgången av 1995 inte har förts in i handelsregistret är bolaget upplöst. 1999:1089 Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. 2000:184 Denna lag träder i kraft den 1 juli 2000. Äldre föreskrifter gäller för beräkning av ränta som avser tid före ikraftträdandet. 2002:353 Denna lag träder i kraft den 1 juli 2002. I fråga om räkenskapsår som inleds före ikraftträdandet gäller äldre bestämmelser. 2005:247 1. Denna lag träder i kraft den 1 juli 2005. 2. Bestämmelserna i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-1",
+      "number": 1,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-1-§-2",
+          "number": 2,
+          "text": "gäller inte om pensions- eller personalstiftelsen har inträtt som bolagsman i handelsbolaget före lagens ikraftträdande och ansökan om registrering av bolagsavtalet har kommit in till Bolagsverket före utgången av december 2005. 2006:867 Denna lag träder i kraft den 1 januari 2007 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2006. 2014:540 1. Denna lag träder i kraft den 1 augusti 2014. 2. Bestämmelsen i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-22",
+          "number": 22,
+          "text": "tillämpas också på fordringar som har kommit till före ikraftträdandet, om bolagsmannens avgång har registrerats i handelsregistret efter ikraftträdandet.",
           "references": []
         }
       ]

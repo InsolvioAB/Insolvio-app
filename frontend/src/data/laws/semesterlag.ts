@@ -13,12 +13,12 @@ export const semesterlag: LegalText = {
   "lastAmended": "t.o.m. SFS 2014:424",
   "chapters": [
     {
-      "id": "kap-10",
-      "number": 10,
-      "title": "socialförsäkringsbalken, eller   3. tid för vilken föräldrapenning lämnas med anledning av barns födelse eller adoption enligt 12 kap.socialförsäkringsbalken, om frånvaron för varje barn eller vid flerbarnsbörd sammanlagt inte överstiger 120 dagar eller för ensamstående förälder 180 dagar.",
+      "id": "kap-12",
+      "number": 12,
+      "title": "socialförsäkringsbalken, om frånvaron för varje barn eller vid flerbarnsbörd sammanlagt inte överstiger 120 dagar eller för ensamstående förälder 180 dagar. I en frånvaroperiod enligt första stycket räknas in även dagar när arbetstagaren inte skulle ha utfört arbete.Lag (2010:1223).",
       "sections": [
         {
-          "id": "kap-10-§-17",
+          "id": "kap-12-§-17",
           "number": 17,
           "text": "Frånvaro från arbetet är semesterlönegrundande när det gäller 1. ledighet med anledning av risk för överförande av smitta, a) om arbetstagaren är berättigad till smittbärarersättning enligt",
           "references": []
@@ -28,7 +28,7 @@ export const semesterlag: LegalText = {
     {
       "id": "kap-46",
       "number": 46,
-      "title": "socialförsäkringsbalken, och      b) om frånvaron under intjänandeåret inte överstiger 180 dagar,   2. ledighet enligt lagen (1988:1465) om ledighet för närståendevård, om frånvaron under intjänandeåret inte överstiger 45 dagar,   3. ledighet för utbildning som till väsentlig del avser fackliga eller med facklig verksamhet sammanhängande frågor eller för ersättningsberättigande teckenspråksutbildning för vissa föräldrar (TUFF), om frånvaron under intjänandeåret inte överstiger 180 dagar och ledigheten inte ger rätt till semesterlön enligt någon annan lag,   4. ledighet på grund av grundutbildning om högst 60 dagar eller repetitionsutbildning enligt lagen (1994:1809) om totalförsvarsplikt, om frånvaron under intjänandeåret inte överstiger 60 dagar, eller   5. ledighet enligt lagen (1986:163) om rätt till ledighet för utbildning i svenska för invandrare.",
+      "title": "socialförsäkringsbalken, och b) om frånvaron under intjänandeåret inte överstiger 180 dagar, 2. ledighet enligt lagen (1988:1465) om ledighet för närståendevård, om frånvaron under intjänandeåret inte överstiger 45 dagar, 3. ledighet för utbildning som till väsentlig del avser fackliga eller med facklig verksamhet sammanhängande frågor eller för ersättningsberättigande teckenspråksutbildning för vissa föräldrar (TUFF), om frånvaron under intjänandeåret inte överstiger 180 dagar och ledigheten inte ger rätt till semesterlön enligt någon annan lag, 4. ledighet på grund av grundutbildning om högst 60 dagar eller repetitionsutbildning enligt lagen (1994:1809) om totalförsvarsplikt, om frånvaron under intjänandeåret inte överstiger 60 dagar, eller 5. ledighet enligt lagen (1986:163) om rätt till ledighet för utbildning i svenska för invandrare. I en frånvaroperiod enligt första stycket räknas in även dagar när arbetstagaren inte skulle ha utfört arbete.Lag (2010:1224). Rätt att spara semesterledighet",
       "sections": [
         {
           "id": "kap-46-§-18",

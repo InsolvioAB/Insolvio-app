@@ -15,7 +15,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "Inledande bestämmelser",
+      "title": "Inledande bestämmelser Tillämpningsområde",
       "sections": [
         {
           "id": "kap-1-§-1",
@@ -84,8 +84,20 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "7 § andra stycket och 30 § andra stycket är dock ej tillämpliga på egendom som avses i första stycket. Lag (2001:377).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-7",
+          "number": 7,
+          "text": "andra stycket och",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-30",
+          "number": 30,
+          "text": "andra stycket är dock ej tillämpliga på egendom som avses i första stycket. Lag (2001:377).",
+          "references": []
+        },
         {
           "id": "kap-4-§-9",
           "number": 9,
@@ -115,7 +127,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "Förfarandet hos kronofogdemyndigheten",
+      "title": "Förfarandet hos kronofogdemyndigheten Ansökan m.m.",
       "sections": [
         {
           "id": "kap-2-§-1",
@@ -158,7 +170,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "rättegångsbalken, i den mån ej annat föreskrivs i denna paragraf.",
+      "title": "rättegångsbalken, i den mån ej annat föreskrivs i denna paragraf. Ombud behöver ej styrka sin behörighet genom fullmakt annat än om kronofogdemyndigheten finner det behövligt. Visar ombud eller biträde oskicklighet eller oförstånd eller är han eljest olämplig, får kronofogdemyndigheten avvisa honom som ombud eller biträde i målet.",
       "sections": [
         {
           "id": "kap-12-§-7",
@@ -183,8 +195,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-33",
       "number": 33,
-      "title": "9 § rättegångsbalken.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-33-§-9",
+          "number": 9,
+          "text": "rättegångsbalken.",
+          "references": []
+        },
         {
           "id": "kap-33-§-9",
           "number": 9,
@@ -196,8 +214,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-32",
       "number": 32,
-      "title": "8 § rättegångsbalken.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-32-§-8",
+          "number": 8,
+          "text": "rättegångsbalken. Förhör",
+          "references": []
+        },
         {
           "id": "kap-32-§-10",
           "number": 10,
@@ -243,10 +267,61 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-4",
+      "number": 4,
+      "title": "14 eller",
+      "sections": [
+        {
+          "id": "kap-4-§-15",
+          "number": 15,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-16",
+      "number": 16,
+      "title": "9 eller",
+      "sections": [
+        {
+          "id": "kap-16-§-12",
+          "number": 12,
+          "text": "eller",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-13",
+          "number": 13,
+          "text": "jämförd med",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "14 och",
+      "sections": [
+        {
+          "id": "kap-4-§-15",
+          "number": 15,
+          "text": "§ förelägger svaranden eller tredje man att fullgöra eller underlåta något, får myndigheten föreskriva vite till belopp som finnes behövligt. Fråga om utdömande av vite som har förelagts enligt första stycket prövas, på talan av Kronofogdemyndigheten, av den tingsrätt som enligt",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-18",
       "number": 18,
-      "title": "1 § prövar överklagande av Kronofogdemyndighetens beslut. Har ändamålet med vitet förfallit, får det ej dömas ut.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "prövar överklagande av Kronofogdemyndighetens beslut. Har ändamålet med vitet förfallit, får det ej dömas ut. Om föreläggande vid vite ej iakttas, kan Kronofogdemyndigheten ge nytt vitesföreläggande utan hinder av att det förra ej har vunnit laga kraft. Lag (2006:672).",
+          "references": []
+        },
         {
           "id": "kap-18-§-16",
           "number": 16,
@@ -258,40 +333,72 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "14 eller 15 § eller 16 kap. 13 § jämförd med nämnda lagrum, får han häktas, om synnerliga skäl föreligger.Fråga om häktning prövas, efter framställning av Kronofogdemyndigheten, av den tingsrätt som enligt 18 kap. 1 § prövar överklagande av Kronofogdemyndighetens beslut.",
+      "title": "14 eller",
       "sections": [
         {
-          "id": "kap-4-§-17",
+          "id": "kap-4-§-15",
+          "number": 15,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-16",
+      "number": 16,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-16-§-13",
+          "number": 13,
+          "text": "jämförd med nämnda lagrum, får han häktas, om synnerliga skäl föreligger.Fråga om häktning prövas, efter framställning av Kronofogdemyndigheten, av den tingsrätt som enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "prövar överklagande av Kronofogdemyndighetens beslut. När framställning om häktning har gjorts, skall förhandling äga rum inför rätten. Till förhandlingen skall Kronofogdemyndigheten och, om hinder ej möter, den som avses med yrkandet kallas. Denne får hämtas, om skäl föreligger därtill. Har han kallats till förhandlingen eller kan det antagas att han har avvikit eller eljest håller sig undan, utgör hans utevaro ej hinder för prövning av yrkandet. I fråga om rätt till biträde och kostnader i målet har vad som föreskrivs i rättegångsbalken om försvarare och om rättegångskostnader i brottmål motsvarande tillämpning. Rätten skall med högst två veckors mellanrum hålla förhandling för att pröva om den som är intagen i häkte fortfarande skall vara häktad. Föreligger ej längre skäl för häktning, skall rätten omedelbart förordna att den häktade skall friges. Ingen får hållas häktad längre tid än tre månader i målet.Beträffande behandlingen i övrigt av frågor om häktning enligt denna paragraf har vad som gäller enligt rättegångsbalken om häktning av misstänkt motsvarande tillämpning.Lag (2006:672).",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-17",
           "number": 17,
           "text": "Vid förrättning får hus, rum eller förvaringsställe genomsökas, om det behövs för att verkställighet skall kunna ske. Behöver förrättningsmannen ha tillträde till utrymme som är tillslutet, får han låta öppna lås eller bereda sig tillträde på annat sätt. Han får dock ej bereda sig tillträde till bostad i innehavarens frånvaro annat än om underrättelse om tiden för förrättningen har sänts till innehavaren med posten eller lämnats på annat lämpligt sätt och det kan antagas att denne håller sig undan eller om eljest särskilda skäl föreligger. För att genomföra förrättning får förrättningsmannen i övrigt använda tvång i den mån det kan anses befogat med hänsyn till omständigheterna.Våld mot person får dock brukas endast om förrättningsmannen möter motstånd och i den mån det med hänsyn till förrättningens ändamål kan anses försvarligt. Beslut",
           "references": []
         },
         {
-          "id": "kap-4-§-18",
+          "id": "kap-18-§-18",
           "number": 18,
           "text": "Beslut skall, i den mån det behövs, ange de skäl på vilka det grundas. Beslut som får överklagas skall innehålla upplysning om vad den som vill föra talan mot beslutet skall iakttaga. Sådan upplysning får dock utelämnas när den är uppenbart obehövlig.",
           "references": []
         },
         {
-          "id": "kap-4-§-19",
+          "id": "kap-18-§-19",
           "number": 19,
           "text": "Kronofogdemyndighetens beslut gäller omedelbart. Vite får dock inte utsökas innan det beslut, genom vilket kronofogdemyndigheten har dömt ut vitet, har vunnit laga kraft. Verkställigheten fortgår även om kronofogdemyndighetens beslut överklagas, om inte något annat föreskrivs i denna balk eller förordnas av en domstol. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-4-§-20",
+          "id": "kap-18-§-20",
           "number": 20,
           "text": "Beslut, som till följd av skrivfel, räknefel eller annat sådant förbiseende innehåller uppenbar oriktighet, får rättas av kronofogdemyndigheten. Om det ej är obehövligt, skall part och annan sakägare beredas tillfälle att yttra sig innan rättelse sker.",
           "references": []
         },
         {
-          "id": "kap-4-§-21",
+          "id": "kap-18-§-21",
           "number": 21,
           "text": "Vad som i balken sägs om beslut gäller i tillämpliga delar även sådan åtgärd av kronofogdemyndigheten som inverkar på parts eller tredje mans rätt. Prövning av tvist",
           "references": []
         },
         {
-          "id": "kap-4-§-22",
+          "id": "kap-18-§-22",
           "number": 22,
           "text": "I tvist vid fördelning av medel som enligt",
           "references": []
@@ -301,8 +408,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-13",
       "number": 13,
-      "title": "7 § tredje stycket prövas av kronofogdemyndigheten anses talan väckt när borgenären anmälde sitt anspråk.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "tredje stycket prövas av kronofogdemyndigheten anses talan väckt när borgenären anmälde sitt anspråk. Om talan ej uppfyller vad som gäller för stämningsansökan i tvistemål, skall kronofogdemyndigheten anmoda borgenären att avhjälpa bristen.",
+          "references": []
+        },
         {
           "id": "kap-13-§-23",
           "number": 23,
@@ -338,8 +451,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-36",
       "number": 36,
-      "title": "21 § rättegångsbalken får dock ej tillämpas.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-36-§-21",
+          "number": 21,
+          "text": "rättegångsbalken får dock ej tillämpas. Tvisten avgörs i samband med fördelning av de medel som tvisten rör.Avgörandet tas upp i beslutet om fördelningen.",
+          "references": []
+        },
         {
           "id": "kap-36-§-24",
           "number": 24,
@@ -349,10 +468,152 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-4",
+      "number": 4,
+      "title": "20, 21 eller",
+      "sections": [
+        {
+          "id": "kap-4-§-22",
+          "number": 22,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "andra stycket föreläggande meddelats att väcka talan vid domstol, skall tvisten prövas av den tingsrätt som enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "prövar överklagande av Kronofogdemyndighetens beslut, om ej annat följer av andra stycket. Om föreläggande har meddelats enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "20, 21, 22 eller",
+      "sections": [
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "i fall då tvisten rör egendom som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "10 eller",
+      "sections": [
+        {
+          "id": "kap-10-§-12",
+          "number": 12,
+          "text": "rättegångsbalken, gäller om domstols behörighet vad som sägs där. Har föreläggande meddelats enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-4-§-23",
+          "number": 23,
+          "text": "första stycket eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-9",
+      "number": 9,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-9-§-11",
+          "number": 11,
+          "text": "tredje stycket, gäller om domstols behörighet vad som i allmänhet är föreskrivet därom. I fall som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-4-§-23",
+          "number": 23,
+          "text": "andra stycket skall tvisten prövas, när fråga är om pantbrev i fastighet, av den tingsrätt som anges i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-10",
+          "number": 10,
+          "text": "rättegångsbalken och annars av den tingsrätt som enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "prövar överklagande av Kronofogdemyndighetens beslut. Har ett föreläggande meddelats enligt",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-3",
       "number": 3,
-      "title": "16 § gäller om domstols behörighet vad som sägs i 43 § första stycket lagen (1999:116) om skiljeförfarande.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-3-§-16",
+          "number": 16,
+          "text": "gäller om domstols behörighet vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-43",
+          "number": 43,
+          "text": "första stycket lagen (1999:116) om skiljeförfarande. I föreläggande skall anges vid vilken domstol talan i första hand bör väckas. Lag (2006:672). Ställande av säkerhet m.m.",
+          "references": []
+        },
         {
           "id": "kap-3-§-25",
           "number": 25,
@@ -370,64 +631,83 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "22 § andra stycket, eller 13 kap. 3 eller 20 §, får pant tillgodogöras i den ordning som gäller för utmätt egendom. Borgen får genast utsökas. Om säkerheten utgörs av företagshypotek, får utmätning genast ske i den egendom som omfattas av företagshypoteket. Detta gäller även när företagshypoteket gäller i annan näringsverksamhet än gäldenärens. Lag (2008:991).",
+      "title": "",
       "sections": [
         {
-          "id": "kap-3-§-27",
+          "id": "kap-3-§-22",
+          "number": 22,
+          "text": "andra stycket, eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "3 eller",
+      "sections": [
+        {
+          "id": "kap-13-§-20",
+          "number": 20,
+          "text": ", får pant tillgodogöras i den ordning som gäller för utmätt egendom. Borgen får genast utsökas. Om säkerheten utgörs av företagshypotek, får utmätning genast ske i den egendom som omfattas av företagshypoteket. Detta gäller även när företagshypoteket gäller i annan näringsverksamhet än gäldenärens. Lag (2008:991).",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-27",
           "number": 27,
           "text": "Staten, kommuner, regioner och kommunalförbund behöver inte ställa säkerhet. Vite får inte föreläggas staten. Lag (2019:841). Fordran som ej är förfallen samt ränta",
           "references": []
         },
         {
-          "id": "kap-3-§-28",
+          "id": "kap-13-§-28",
           "number": 28,
           "text": "Fordran, som ej är förfallen till betalning och ej löper med ränta före förfallodagen, beräknas till det belopp som efter fem procent årlig ränta utgör fordringens värde. Motsvarande gäller, om utfäst ränta är lägre än fem procent.",
           "references": []
         },
         {
-          "id": "kap-3-§-29",
+          "id": "kap-13-§-29",
           "number": 29,
           "text": "När medel som sökanden eller annan sakägare har fått lyfta skall betalas tillbaka, utgår ränta enligt",
           "references": []
         },
         {
-          "id": "kap-3-§-5",
+          "id": "kap-13-§-5",
           "number": 5,
           "text": "räntelagen (1975:635) från den dag medlen utbetalades till och med den dag återbetalning skall ske och enligt",
           "references": []
         },
         {
-          "id": "kap-3-§-6",
+          "id": "kap-13-§-6",
           "number": 6,
           "text": "räntelagen för tiden därefter. Ränta utgår dock ej i den mån det beror på den som är berättigad till medlen att de ej har betalats tillbaka. Särskilda bestämmelser beträffande allmänna mål",
           "references": []
         },
         {
-          "id": "kap-3-§-30",
+          "id": "kap-13-§-30",
           "number": 30,
           "text": "Bestämmelserna i 1 och",
           "references": []
         },
         {
-          "id": "kap-3-§-2",
+          "id": "kap-13-§-2",
           "number": 2,
           "text": "§ samt",
           "references": []
         },
         {
-          "id": "kap-3-§-10",
+          "id": "kap-13-§-10",
           "number": 10,
           "text": "andra stycket gäller inte i allmänt mål. I fråga om sökanden i ett sådant mål gäller inte",
           "references": []
         },
         {
-          "id": "kap-3-§-6",
+          "id": "kap-13-§-6",
           "number": 6,
           "text": "och inte heller",
           "references": []
         },
         {
-          "id": "kap-3-§-29",
+          "id": "kap-13-§-29",
           "number": 29,
           "text": "i fall då exekutionstiteln upphävs. Sökanden i allmänt mål företräds av Kronofogdemyndigheten. Om fråga uppkommer om avvisning enligt",
           "references": []
@@ -435,9 +715,74 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-5",
+          "number": 5,
+          "text": "eller invändning görs mot verkställighet enligt",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-3",
       "number": 3,
-      "title": "Exekutionstitlar",
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-21",
+          "number": 21,
+          "text": "för dock sökanden själv sin talan. I tvister som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "20-23 och",
+      "sections": [
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "§,",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-9",
+      "number": 9,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-9-§-11",
+          "number": 11,
+          "text": "tredje stycket och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "andra stycket samt när talan förs i ett överklagat utsökningsmål företräds sökanden av Skatteverket. I allmänt mål anses ansökan gjord, när indrivningsuppdraget har förts in i Kronofogdemyndighetens system för automatisk databehandling och uppgifterna är tillgängliga för myndigheten.När indrivning begärs enligt särskilda bestämmelser, anses ansökan gjord när ansökningshandlingarna har kommit in till Kronofogdemyndigheten. Lag (2006:672).",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "Exekutionstitlar Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-3-§-1",
@@ -450,7 +795,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-13",
       "number": 13,
-      "title": "kommunallagen (2017:725), eller      b) får verkställas enligt en särskild föreskrift,   7. handling som enligt en särskild föreskrift får läggas till grund för verkställighet, och   8. Kronofogdemyndighetens utslag eller beslut i mål om betalningsföreläggande eller handräckning samt europeiskt betalningsföreläggande som har förklarats verkställbart av Kronofogdemyndigheten.",
+      "title": "kommunallagen (2017:725), eller b) får verkställas enligt en särskild föreskrift, 7. handling som enligt en särskild föreskrift får läggas till grund för verkställighet, och 8. Kronofogdemyndighetens utslag eller beslut i mål om betalningsföreläggande eller handräckning samt europeiskt betalningsföreläggande som har förklarats verkställbart av Kronofogdemyndigheten. Det som i balken sägs om dom gäller, om inte annat föreskrivs, i tillämpliga delar även domstols utslag eller beslut, Kronofogdemyndighetens utslag eller beslut i mål om betalningsföreläggande eller handräckning samt europeiskt betalningsföreläggande som har förklarats verkställbart av Kronofogdemyndigheten. Vidare gäller det som sägs i balken om skiljedom även beslut om avskrivning av skiljeförfarande.Lag (2022:1320).",
       "sections": [
         {
           "id": "kap-13-§-2",
@@ -481,10 +826,29 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "4 § samt 13 kap. 1 och 14 §§.Lag (1995:298).",
+      "title": "",
       "sections": [
         {
-          "id": "kap-8-§-5",
+          "id": "kap-8-§-4",
+          "number": 4,
+          "text": "samt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "1 och",
+      "sections": [
+        {
+          "id": "kap-13-§-14",
+          "number": 14,
+          "text": "§.Lag (1995:298).",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-5",
           "number": 5,
           "text": "Verkställighet får genast ske av 1. dom i växelmål eller checkmål, 2. tredskodom varigenom betalningsskyldighet har ålagts den part som uteblivit eller inte uppfyllt vad som sägs i",
           "references": []
@@ -494,8 +858,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-44",
       "number": 44,
-      "title": "7 a eller 7 b § rättegångsbalken, om inte något annat förordnas med anledning av ansökan om återvinning. Lag (1991:848).",
+      "title": "7 a eller",
       "sections": [
+        {
+          "id": "kap-44-§-7",
+          "number": 7,
+          "text": "rättegångsbalken, om inte något annat förordnas med anledning av ansökan om återvinning. Lag (1991:848).",
+          "references": []
+        },
         {
           "id": "kap-44-§-6",
           "number": 6,
@@ -717,7 +1087,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "Utmätning",
+      "title": "Utmätning Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-4-§-1",
@@ -749,7 +1119,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "särskilda villkor.",
+      "title": "särskilda villkor. Utmätningsordningen",
       "sections": [
         {
           "id": "kap-7-§-3",
@@ -792,7 +1162,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "Kapitel 6",
+      "title": "Här i riket registrerat skepp eller luftfartyg får dock utmätas även om hinder mot säkerställande av utmätningen kan antagas föreligga. Förfarandet",
       "sections": [
         {
           "id": "kap-6-§-8",
@@ -823,52 +1193,97 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "8 § konkurslagen. Detsamma gäller för åtgärder mot arbetsgivare enligt 7 kap. 21 §. Lag (2007:277).",
+      "title": "",
       "sections": [
         {
-          "id": "kap-3-§-9",
+          "id": "kap-3-§-7",
+          "number": 7,
+          "text": "konkurslagen (1987:672) att det skall handläggas vidare i den del som avser utmätning i egendomen. Pågår löneutmätning gäller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-19",
+          "number": 19,
+          "text": ". Egendom som har utmätts före konkursen får säljas och influtna medel redovisas i den utsträckning som följer av",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-8",
+          "number": 8,
+          "text": "konkurslagen. Detsamma gäller för åtgärder mot arbetsgivare enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-21",
+          "number": 21,
+          "text": ". Lag (2007:277).",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-9",
           "number": 9,
           "text": "Har upphävts genom lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-9",
+          "id": "kap-7-§-9",
           "number": 9,
           "text": "Har upphävts genom lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-9",
+          "id": "kap-7-§-9",
           "number": 9,
           "text": "Har upphävts genom lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-9",
+          "id": "kap-7-§-9",
           "number": 9,
           "text": "Har upphävts genom lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-9",
+          "id": "kap-7-§-9",
           "number": 9,
           "text": "Har upphävts genom lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-10",
+          "id": "kap-7-§-10",
           "number": 10,
           "text": "Utmätning skall ske så snart som möjligt efter det att de handlingar som behövs har kommit in till Kronofogdemyndigheten. Om sökanden medger uppskov med utmätningen och uppskovet varar över två månader, förfaller ansökan. Detsamma gäller om sökanden medger uppskov fler än två gånger under ett år.Lag (2007:277).",
           "references": []
         },
         {
-          "id": "kap-3-§-11",
+          "id": "kap-7-§-11",
           "number": 11,
           "text": "Har två eller flera sökt utmätning mot samma gäldenär, ska utmätning för fordringarna ske samtidigt, om inte utmätning för någon av fordringarna därigenom fördröjs oskäligt. Om utmätningen avser ersättning enligt 2-",
           "references": []
         },
         {
-          "id": "kap-3-§-4",
+          "id": "kap-7-§-4",
           "number": 4,
           "text": "§ lagen (1998:714) om ersättning vid frihetsberövanden och andra tvångsåtgärder, och ersättningen får utmätas endast för fordringar som avser skadestånd på grund av brott, gäller första stycket endast för sådana fordringar. Bestämmelserna i",
           "references": []
@@ -878,8 +1293,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "17 § första stycket om jämkning av underhållsbidrag vid utmätning av lön tillämpas även vid annan utmätning. Lag (2022:753).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-17",
+          "number": 17,
+          "text": "första stycket om jämkning av underhållsbidrag vid utmätning av lön tillämpas även vid annan utmätning. Lag (2022:753).",
+          "references": []
+        },
         {
           "id": "kap-7-§-12",
           "number": 12,
@@ -921,8 +1342,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "10-16 §§.",
+      "title": "10-",
       "sections": [
+        {
+          "id": "kap-2-§-16",
+          "number": 16,
+          "text": "§. Förhållandet till tredje man vid utmätning av lös egendom",
+          "references": []
+        },
         {
           "id": "kap-2-§-17",
           "number": 17,
@@ -1042,10 +1469,55 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "4 § andra stycket och 12 kap. 6-10 §§.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-6-§-30",
+          "id": "kap-6-§-5",
+          "number": 5,
+          "text": "och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-5",
+          "number": 5,
+          "text": ". Om nyttjandet av utmätt egendom m.m. finns bestämmelser i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-6",
+      "number": 6,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-6-§-4",
+          "number": 4,
+          "text": "andra stycket och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "6-",
+      "sections": [
+        {
+          "id": "kap-12-§-10",
+          "number": 10,
+          "text": "§.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-30",
           "number": 30,
           "text": "Utmätning medför förmånsrätt i och med beslutet, om inte annat följer av andra, fjärde, femte eller sjätte stycket eller",
           "references": []
@@ -1053,9 +1525,22 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-13",
+          "number": 13,
+          "text": ". Utmätning av här i landet registrerat skepp eller luftfartyg, intecknade reservdelar till sådant luftfartyg eller fast egendom medför inte förmånsrätt förrän ärende angående anteckning om utmätningen tas upp på inskrivningsdag. Upptas på samma inskrivningsdag mer än ett sådant ärende, ska den utmätning som skedde först ha företräde. Om här i landet registrerat skepp eller luftfartyg som har utmätts här blir utmätt i ett annat land innan det har tagits om hand av Kronofogdemyndigheten, ska den rätt som har vunnits genom den förra utmätningen gälla som panträtt. Utmätning av fast egendom eller av luftfartyg i vilket en rättighet skrivits in i inskrivningsregistret för luftfartyg ger företräde framför rättighet i egendomen, om ärende angående anteckning om utmätningen tas upp senast på den inskrivningsdag då inskrivning av rättigheten söks. Utmätning av en rättighet som är registrerad enligt lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument medför förmånsrätt genom registrering av utmätningen enligt den lagen. Utmäts en rättighet som förvaltas enligt",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-3",
       "number": 3,
-      "title": "i nämnda lag inträder förmånsrätten i stället genom underrättelse till förvaltaren om utmätningen. Detsamma gäller om utmätningen avser en panträtt i en rättighet som förvaltas enligt det kapitlet.",
+      "title": "i nämnda lag inträder förmånsrätten i stället genom underrättelse till förvaltaren om utmätningen. Detsamma gäller om utmätningen avser en panträtt i en rättighet som förvaltas enligt det kapitlet. Utmätning av ett elcertifikat eller en rättighet som är registrerad enligt lagen (2011:1200) om elcertifikat medför förmånsrätt genom registrering av utmätningen enligt den lagen. Utmätning av en utsläppsrätt eller en rättighet som är registrerad enligt kommissionens delegerade förordning (EU) 2019/1122 av den 12 mars 2019 om komplettering av Europaparlamentets och rådets direktiv 2003/87/EG vad gäller unionsregistrets funktion medför förmånsrätt genom kontoföringsmyndighetens beslut om avstängning av tillträdesrätten till kontot på grund av utmätningen.Lag (2020:1175).",
       "sections": [
         {
           "id": "kap-3-§-31",
@@ -1134,7 +1619,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-5",
       "number": 5,
-      "title": "Undantag från utmätning",
+      "title": "Undantag från utmätning Undantag med hänsyn till gäldenärens behov",
       "sections": [
         {
           "id": "kap-5-§-1",
@@ -1183,8 +1668,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-18",
       "number": 18,
-      "title": "5 § andra stycket ärvdabalken.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-18-§-5",
+          "number": 5,
+          "text": "andra stycket ärvdabalken. I övrigt är 1 och",
+          "references": []
+        },
         {
           "id": "kap-18-§-2",
           "number": 2,
@@ -1262,7 +1753,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "Kapitel 7",
+      "title": "",
       "sections": [
         {
           "id": "kap-7-§-12",
@@ -1305,7 +1796,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "Säkerställande av utmätning",
+      "title": "Säkerställande av utmätning Lös egendom",
       "sections": [
         {
           "id": "kap-6-§-1",
@@ -1324,8 +1815,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "27 § anses utmätta, skall åtgärd för säkerställande ej utan särskilt yrkande vidtagas innan försäljning har begärts.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-27",
+          "number": 27,
+          "text": "anses utmätta, skall åtgärd för säkerställande ej utan särskilt yrkande vidtagas innan försäljning har begärts.",
+          "references": []
+        },
         {
           "id": "kap-4-§-2",
           "number": 2,
@@ -1349,7 +1846,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "nämnda lag, ska säkerställandet i stället ske genom underrättelse till förvaltaren om utmätningen. Detsamma gäller om utmätningen avser en panträtt i en rättighet som förvaltas enligt det kapitlet.",
+      "title": "nämnda lag, ska säkerställandet i stället ske genom underrättelse till förvaltaren om utmätningen. Detsamma gäller om utmätningen avser en panträtt i en rättighet som förvaltas enligt det kapitlet. Utmätning av ett elcertifikat eller en rättighet som är registrerad enligt lagen (2011:1200) om elcertifikat ska säkerställas genom registrering av utmätningen enligt den lagen. Utmätning av en utsläppsrätt eller en rättighet som är registrerad enligt kommissionens delegerade förordning (EU) 2019/1122 av den 12 mars 2019 om komplettering av Europaparlamentets och rådets direktiv 2003/87/EG vad gäller unionsregistrets funktion ska säkerställas genom kontoföringsmyndighetens beslut om avstängning av tillträdesrätten till kontot på grund av utmätningen.Lag (2020:1175).",
       "sections": [
         {
           "id": "kap-3-§-3",
@@ -1453,7 +1950,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "tullbefogenhetslagen (2024:710). Detsamma gäller när gods i fartyget eller luftfartyget har utmätts. Lag (2024:713).",
+      "title": "tullbefogenhetslagen (2024:710). Detsamma gäller när gods i fartyget eller luftfartyget har utmätts. Lag (2024:713).",
       "sections": [
         {
           "id": "kap-3-§-11",
@@ -1478,8 +1975,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "29 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-29",
+          "number": 29,
+          "text": ". Åtgärden får ej bestå längre än som är nödvändigt. Har utmätning ej följt inom två veckor, skall åtgärden hävas. Biträde av Polismyndigheten",
+          "references": []
+        },
         {
           "id": "kap-4-§-12",
           "number": 12,
@@ -1509,8 +2012,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "3-10 §§.",
+      "title": "3-",
       "sections": [
+        {
+          "id": "kap-12-§-10",
+          "number": 10,
+          "text": "§.",
+          "references": []
+        },
         {
           "id": "kap-12-§-14",
           "number": 14,
@@ -1520,9 +2029,22 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-4",
+      "number": 4,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-4-§-25",
+          "number": 25,
+          "text": ", skall förvärvaren eller, när utmätning sker hos förvärvaren, överlåtaren underrättas och förbud meddelas honom att till annan än kronofogdemyndigheten eller den som myndigheten anvisar betala eller återbetala köpeskilling eller utge annat som på grund av avtalet kan tillkomma gäldenären.",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-7",
       "number": 7,
-      "title": "Utmätning av lön m.m.",
+      "title": "Utmätning av lön m.m. Allmänna bestämelser",
       "sections": [
         {
           "id": "kap-7-§-1",
@@ -1577,8 +2099,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "1 a § första stycket får ske endast om bidragsbeloppet utestår obetalt eller om gäldenären vid två eller flera tillfällen under de senaste två åren före utmätningsbeslutet har underlåtit att betala i rätt tid och det finns anledning att anta att detta skall upprepas.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-1",
+          "number": 1,
+          "text": "första stycket får ske endast om bidragsbeloppet utestår obetalt eller om gäldenären vid två eller flera tillfällen under de senaste två åren före utmätningsbeslutet har underlåtit att betala i rätt tid och det finns anledning att anta att detta skall upprepas. Utmätning får bara ske för bidragsbelopp som är förfallet när verkställighet skall ske eller som förfaller näst därefter.Lag (2004:479). Förfarandet",
+          "references": []
+        },
         {
           "id": "kap-4-§-7",
           "number": 7,
@@ -1626,8 +2154,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "1 a § första stycket ska hävas, om gäldenären betalar förfallna bidrag och uppkomna förrättningskostnader och det finns anledning att anta att gäldenären även i framtiden fullgör bidragsskyldigheten. Lag (2021:790).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-1",
+          "number": 1,
+          "text": "första stycket ska hävas, om gäldenären betalar förfallna bidrag och uppkomna förrättningskostnader och det finns anledning att anta att gäldenären även i framtiden fullgör bidragsskyldigheten. Lag (2021:790).",
+          "references": []
+        },
         {
           "id": "kap-4-§-11",
           "number": 11,
@@ -1669,8 +2203,20 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "4 § konkurslagen (1987:672), om lönen innehållits under konkursen,   3. fordran som avses i 2 § lagen (1993:891) om indrivning av statliga fordringar m.m.,   4. fordran som avser skadestånd på grund av brott.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "konkurslagen (1987:672), om lönen innehållits under konkursen, 3. fordran som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-2",
+          "number": 2,
+          "text": "lagen (1993:891) om indrivning av statliga fordringar m.m., 4. fordran som avser skadestånd på grund av brott. Företrädesrätten enligt första stycket 1 gäller även sådant utländskt underhållsbidrag som får verkställas i Sverige, om bidragsfordringen vid verkställighetstillfället inte är äldre än fem år. Lag (2022:753).",
+          "references": []
+        },
         {
           "id": "kap-3-§-15",
           "number": 15,
@@ -1712,8 +2258,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "4 § föräldrabalken, får belopp som på denna grund tillgodoräknas honom eller henne inte tas i anspråk genom utmätning för fordran, som tillkommer annan än den underhållsberättigade eller någon som har inträtt i dennes rätt, eller för fordran som avser underhållsstöd till samma barn. Lag (2015:756).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-4",
+          "number": 4,
+          "text": "föräldrabalken, får belopp som på denna grund tillgodoräknas honom eller henne inte tas i anspråk genom utmätning för fordran, som tillkommer annan än den underhållsberättigade eller någon som har inträtt i dennes rätt, eller för fordran som avser underhållsstöd till samma barn. Lag (2015:756).",
+          "references": []
+        },
         {
           "id": "kap-7-§-18",
           "number": 18,
@@ -1809,8 +2361,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-19",
       "number": 19,
-      "title": "29 § socialförsäkringsbalken. Lag (2010:1229).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-19-§-29",
+          "number": 29,
+          "text": "socialförsäkringsbalken. Lag (2010:1229).",
+          "references": []
+        },
         {
           "id": "kap-19-§-24",
           "number": 24,
@@ -1822,7 +2380,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-5",
       "number": 5,
-      "title": "Lag (1995:298).",
+      "title": "Lag (1995:298). Straffbestämmelse",
       "sections": [
         {
           "id": "kap-5-§-25",
@@ -1835,7 +2393,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "Allmänna bestämmelser om exekutiv försäljning m. m.",
+      "title": "Allmänna bestämmelser om exekutiv försäljning m. m. Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-8-§-1",
@@ -1848,7 +2406,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-9",
       "number": 9,
-      "title": "finns bestämmelser om indrivning av utmätt fordran och om åtgärder efter utmätning av pantbrev eller intecknat skuldebrev.",
+      "title": "finns bestämmelser om indrivning av utmätt fordran och om åtgärder efter utmätning av pantbrev eller intecknat skuldebrev. Bestämmelser om försäljning av utmätt egendom gäller i tillämpliga delar även när egendom skall säljas exekutivt under konkurs.",
       "sections": [
         {
           "id": "kap-9-§-2",
@@ -1861,7 +2419,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "skyddsbelopp skall bestämmas visar att hans fordran är förenad med bättre särskild förmånsrätt än som följer av utmätningen, kan han begära att försäljningsvillkoren bestäms med hänsyn till förstnämnda förmånsrätt. Härvid tillämpas vad som föreskrivs om borgenärs anslutningsrätt.",
+      "title": "skyddsbelopp skall bestämmas visar att hans fordran är förenad med bättre särskild förmånsrätt än som följer av utmätningen, kan han begära att försäljningsvillkoren bestäms med hänsyn till förstnämnda förmånsrätt. Härvid tillämpas vad som föreskrivs om borgenärs anslutningsrätt. Tidsfrist för försäljning och hinder mot försäljning",
       "sections": [
         {
           "id": "kap-12-§-3",
@@ -1874,7 +2432,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "föreskrivs särskilda tidsfrister beträffande egendom som avses där.",
+      "title": "föreskrivs särskilda tidsfrister beträffande egendom som avses där. Kronofogdemyndigheten får bevilja anstånd med försäljningen på begäran av utmätningssökanden eller gäldenären. På begäran av gäldenären får anstånd beviljas endast om utmätningssökanden medger det eller särskilda skäl föreligger.",
       "sections": [
         {
           "id": "kap-12-§-4",
@@ -1887,8 +2445,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "6 §, får egendomen ej säljas utan gäldenärens samtycke förrän exekutionstiteln har vunnit laga kraft. Detsamma gäller, när utmätning har skett på grund av utslag eller beslut i mål om betalningsföreläggande eller handräckning och gäldenären har sökt återvinning eller överklagat.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-3-§-6",
+          "number": 6,
+          "text": ", får egendomen ej säljas utan gäldenärens samtycke förrän exekutionstiteln har vunnit laga kraft. Detsamma gäller, när utmätning har skett på grund av utslag eller beslut i mål om betalningsföreläggande eller handräckning och gäldenären har sökt återvinning eller överklagat. Lös egendom som har betydande värde eller fast egendom får ej heller i annat fall säljas utan gäldenärens samtycke, om ej exekutionstiteln har vunnit laga kraft eller får verkställas såsom lagakraftägande dom. Lös egendom som hastigt faller i värde eller kräver alltför kostsam vård skall utan hinder av första eller andra stycket säljas så snart som möjligt. Lag (1990:748).",
+          "references": []
+        },
         {
           "id": "kap-3-§-5",
           "number": 5,
@@ -1900,8 +2464,20 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "20, 22 eller 26 § förelagts att väcka talan, får den utmätta egendomen ej utan tredje mannens samtycke säljas innan tvisten har blivit slutligt avgjord eller, när föreläggande har givits tredje man, tiden för väckande av talan har gått ut. Försäljning får dock ske, om det kan antagas att tvisten ej påverkar köpeskillingen i väsentlig mån eller om egendomen är sådan som avses i 4 § tredje stycket i detta kapitel.",
+      "title": "20, 22 eller",
       "sections": [
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "förelagts att väcka talan, får den utmätta egendomen ej utan tredje mannens samtycke säljas innan tvisten har blivit slutligt avgjord eller, när föreläggande har givits tredje man, tiden för väckande av talan har gått ut. Försäljning får dock ske, om det kan antagas att tvisten ej påverkar köpeskillingen i väsentlig mån eller om egendomen är sådan som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-4",
+          "number": 4,
+          "text": "tredje stycket i detta kapitel. Pågår i annat fall rättegång om utmätt egendom, får kronofogdemyndigheten ge det anstånd med försäljningen som är påkallat av omständigheterna.",
+          "references": []
+        },
         {
           "id": "kap-4-§-6",
           "number": 6,
@@ -1925,7 +2501,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "Kapitel 12",
+      "title": "Andel i egendom",
       "sections": [
         {
           "id": "kap-12-§-8",
@@ -2023,8 +2599,20 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-14",
       "number": 14,
-      "title": "18 § konkurslagen (1987:672) får tas ut ur egendomen, om kostnaderna anmäls enligt vad som sägs i 10 § första stycket.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-14-§-18",
+          "number": 18,
+          "text": "konkurslagen (1987:672) får tas ut ur egendomen, om kostnaderna anmäls enligt vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-10",
+          "number": 10,
+          "text": "första stycket. När egendom säljs exekutivt under konkurs eller utmätt fordran drivs in under konkurs, har även borgenär, vars fordran är förenad med förmånsrätt enligt",
+          "references": []
+        },
         {
           "id": "kap-14-§-10",
           "number": 10,
@@ -2042,7 +2630,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-13",
       "number": 13,
-      "title": "Kapitel 13",
+      "title": "Avbrytande av verkställigheten",
       "sections": [
         {
           "id": "kap-13-§-17",
@@ -2061,10 +2649,42 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "5 §, 11 kap. 1 och 2 §§ och 12 kap. 13 §.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-10-§-18",
+          "id": "kap-10-§-5",
+          "number": 5,
+          "text": ",",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-11",
+      "number": 11,
+      "title": "1 och",
+      "sections": [
+        {
+          "id": "kap-11-§-2",
+          "number": 2,
+          "text": "§ och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-13",
+          "number": 13,
+          "text": ". Handräckning efter försäljning",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-18",
           "number": 18,
           "text": "När utmätt egendom har sålts, har köparen rätt att vid behov få handräckning av kronofogdemyndigheten för att komma i besittning av vad han har förvärvat. Därvid gäller i tillämpliga delar vad som sägs i",
           "references": []
@@ -2074,8 +2694,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-16",
       "number": 16,
-      "title": "2-9, 11 och 12 §§.",
+      "title": "2-9, 11 och",
       "sections": [
+        {
+          "id": "kap-16-§-12",
+          "number": 12,
+          "text": "§. Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
         {
           "id": "kap-16-§-19",
           "number": 19,
@@ -2093,7 +2719,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-9",
       "number": 9,
-      "title": "Försäljning av lös egendom i allmänhet och indrivning av utmätt fordran m. m.",
+      "title": "Försäljning av lös egendom i allmänhet och indrivning av utmätt fordran m. m. Allmänna bestämmelser om försäljning",
       "sections": [
         {
           "id": "kap-9-§-1",
@@ -2112,7 +2738,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-11",
       "number": 11,
-      "title": "Kapitel 11",
+      "title": "Försäljning på auktion",
       "sections": [
         {
           "id": "kap-11-§-2",
@@ -2233,8 +2859,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "23 § första stycket får tillämpas även när sekundogäldenären underlåter att betala utmätt fordran utan att ovisshet råder om fordringens bestånd.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-23",
+          "number": 23,
+          "text": "första stycket får tillämpas även när sekundogäldenären underlåter att betala utmätt fordran utan att ovisshet råder om fordringens bestånd.",
+          "references": []
+        },
         {
           "id": "kap-4-§-12",
           "number": 12,
@@ -2258,8 +2890,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "23 § andra stycket, får beslut att egendomen tas i anspråk ej meddelas innan tvisten har blivit slutligt avgjord, om ej domstolen finner att hinder ej möter.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-23",
+          "number": 23,
+          "text": "andra stycket, får beslut att egendomen tas i anspråk ej meddelas innan tvisten har blivit slutligt avgjord, om ej domstolen finner att hinder ej möter. När kronofogdemyndigheten har meddelat beslut att den intecknade egendomen tas i anspråk, anses den utmätt.",
+          "references": []
+        },
         {
           "id": "kap-4-§-15",
           "number": 15,
@@ -2295,7 +2933,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "Försäljning av registrerat skepp",
+      "title": "Försäljning av registrerat skepp Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-10-§-1",
@@ -2320,70 +2958,102 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "27 § eller 8 kap. 1 § tredje stycket, från det att begäran om försäljning kom in till kronofogdemyndigheten, om ej hinder möter eller anstånd beviljas enligt 8 kap. 3 §.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-4-§-4",
+          "id": "kap-4-§-27",
+          "number": 27,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-1",
+          "number": 1,
+          "text": "tredje stycket, från det att begäran om försäljning kom in till kronofogdemyndigheten, om ej hinder möter eller anstånd beviljas enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-3",
+          "number": 3,
+          "text": ". Utlösnings- och anslutningsrätt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-4",
           "number": 4,
           "text": "Borgenär eller annan vars rätt kan vara beroende av skeppets försäljning får utlösa sökanden. Han träder därigenom i sökandens ställe. Den som vill utlösa sökanden skall, innan skeppet har sålts, till kronofogdemyndigheten betala exekutionsfordringen och uppkomna förrättningskostnader.",
           "references": []
         },
         {
-          "id": "kap-4-§-5",
+          "id": "kap-8-§-5",
           "number": 5,
           "text": "Borgenär, vars fordran är förenad med sjöpanträtt i skeppet, kan begära att detta säljs för hans fordran, om hans rätt till betalning är ostridig eller styrks. Hör skeppet till konkursbo, har även borgenär, vars fordran är förenad med panträtt på grund av inteckning, retentionsrätt eller förmånsrätt enligt",
           "references": []
         },
         {
-          "id": "kap-4-§-10",
+          "id": "kap-8-§-10",
           "number": 10,
           "text": "förmånsrättslagen (1970:979), sådan befogenhet. Skall arvode eller annan kostnad för skeppets förvaltning under konkurs utgå ur skeppet, kan förvaltaren begära att det säljs för den fordringen. Om borgenär, vars fordran är förenad med sjöpanträtt i skeppet, har begärt att det säljs för hans fordran, får förfarandet ej läggas ned därför att frågan om försäljning för annan borgenärs eller konkursboets räkning förfaller. I fråga om rätt att utlösa borgenär eller konkursbo som har anslutit sig enligt första eller andra stycket tillämpas bestämmelserna i",
           "references": []
         },
         {
-          "id": "kap-4-§-4",
+          "id": "kap-8-§-4",
           "number": 4,
           "text": ". Åtgärder före auktion",
           "references": []
         },
         {
-          "id": "kap-4-§-6",
+          "id": "kap-8-§-6",
           "number": 6,
           "text": "Auktion skall kungöras i god tid och på lämpligt sätt. Kungörelsen skall innehålla uppgift om sammanträde för fördelning av köpeskillingen.Innehavare av fordran som bör iakttagas vid auktionen skall i kungörelsen uppmanas att anmäla sin rätt till kronofogdemyndigheten senast vid auktionen.",
           "references": []
         },
         {
-          "id": "kap-4-§-7",
+          "id": "kap-8-§-7",
           "number": 7,
           "text": "Minst trettio dagar före auktionen skall underrättelser om försäljningen sändas till sökanden och ägaren samt till kända borgenärer som har sjöpanträtt, panträtt på grund av inteckning eller retentionsrätt. Blir sådan borgenär känd senare, skall underrättelse genast sändas till honom. Har registermyndigheten uppgift om adress, skall den användas. Underrättelse till utrikes ort skall om möjligt sändas med flygpost. Lag (1994:480).",
           "references": []
         },
         {
-          "id": "kap-4-§-8",
+          "id": "kap-8-§-8",
           "number": 8,
           "text": "Har auktionen ej blivit utlyst så som anges i 6 och",
           "references": []
         },
         {
-          "id": "kap-4-§-7",
+          "id": "kap-8-§-7",
           "number": 7,
           "text": "§, skall den inställas och ny tid sättas ut, om bristen är väsentlig och ej kan avhjälpas på annat sätt. Förhandling och sakägarförteckning",
           "references": []
         },
         {
-          "id": "kap-4-§-9",
+          "id": "kap-8-§-9",
           "number": 9,
           "text": "Vid början av auktionen skall kronofogdemyndigheten lämna en kortfattad redogörelse för innehållet i handlingarna och för vidtagna åtgärder. Innehavare av fordran som bör iakttagas vid auktionen skall uppmanas att anmäla den. Har sådan fordran anmälts hos kronofogdemyndigheten före auktionen, skall det meddelas. Närvarande sakägare skall beredas tillfälle att yttra sig om anmälda anspråk och de villkor som skall gälla för försäljningen. När förhandlingen har avslutats, upprättas sakägarförteckning.",
           "references": []
         },
         {
-          "id": "kap-4-§-10",
+          "id": "kap-8-§-10",
           "number": 10,
           "text": "I sakägarförteckningen upptas, förutom exekutionsfordringen, fordran som är förenad med sjöpanträtt, panträtt på grund av inteckning eller retentionsrätt samt förrättningskostnaderna. Om skeppet hör till konkursbo, upptas även arvode och annan kostnad för skeppets förvaltning under konkursen. Är skeppet därjämte utmätt, upptas fordran som skall utgå med förmånsrätt enligt",
           "references": []
         },
         {
-          "id": "kap-4-§-10",
+          "id": "kap-8-§-10",
           "number": 10,
           "text": "förmånsrättslagen (1970:979). Med fordran som är förenad med panträtt på grund av inteckning avses även fordran för vilken skepp har tagits i anspråk enligt",
           "references": []
@@ -2393,8 +3063,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-9",
       "number": 9,
-      "title": "14 § samt rätt till betalning på grund av ägarhypotek.Lag (1994:480).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-9-§-14",
+          "number": 14,
+          "text": "samt rätt till betalning på grund av ägarhypotek.Lag (1994:480).",
+          "references": []
+        },
         {
           "id": "kap-9-§-11",
           "number": 11,
@@ -2418,8 +3094,40 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "4 § sjölagen.Lag (1994:1010).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-3-§-41",
+          "number": 41,
+          "text": "andra stycket andra meningen sjölagen (1994:1009). Panträtt på grund av inteckning får ej åtnjutas för mer än pantbrevets belopp jämte tillägg enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "sjölagen. Understiger fordringen pantbrevets belopp, upptas återstoden som ägarhypotek. Om i skeppet gäller pantbrev som ej innehas av ägaren och någon fordran för vilken pantbrevet utgör säkerhet ej har blivit anmäld, upptas pantbrevets belopp och ett till tio procent av detta belopp beräknat tillägg. Ägarhypotek upptas utan tillägg enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "sjölagen.Lag (1994:1010).",
+          "references": []
+        },
         {
           "id": "kap-3-§-13",
           "number": 13,
@@ -2563,8 +3271,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-18",
       "number": 18,
-      "title": "12 eller 19 § innan han har blivit berättigad därtill. Får han på grund av sådant förordnande ej komma i besittning av skeppet och är hindret ej hävt inom tre månader från utsatt dag för köpeskillingens fördelning, får han frånträda köpet och återfå vad han har betalat jämte upplupen ränta, om han gör anmälan därom hos kronofogdemyndigheten medan hindret alltjämt består.",
+      "title": "12 eller",
       "sections": [
+        {
+          "id": "kap-18-§-19",
+          "number": 19,
+          "text": "innan han har blivit berättigad därtill. Får han på grund av sådant förordnande ej komma i besittning av skeppet och är hindret ej hävt inom tre månader från utsatt dag för köpeskillingens fördelning, får han frånträda köpet och återfå vad han har betalat jämte upplupen ränta, om han gör anmälan därom hos kronofogdemyndigheten medan hindret alltjämt består. Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
         {
           "id": "kap-18-§-24",
           "number": 24,
@@ -2595,7 +3309,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": ", om ej annat föreskrivs nedan.",
+      "title": ", om ej annat föreskrivs nedan. I fråga om vissa främmande luftfartyg eller intecknade reservdelar till sådana luftfartyg skall även tillämpas lagen (1955:229) i anledning av Sveriges tillträde till 1948 års konvention rörande internationellt erkännande av rätt till luftfartyg. Bestämmelserna i detta kapitel gäller ej försäljning av andel i eller villkorlig rätt till luftfartyg eller reservdelar.",
       "sections": [
         {
           "id": "kap-10-§-2",
@@ -2608,8 +3322,53 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "8 § är tillämpligt även när bestämmelse i andra stycket har åsidosatts. Lag (2004:84).",
+      "title": "5, 7 och",
       "sections": [
+        {
+          "id": "kap-10-§-10",
+          "number": 10,
+          "text": "§ skall i stället gälla luftpanträtt. Kungörandet av auktion enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-6",
+          "number": 6,
+          "text": "skall ske minst sex veckor i förväg. Underrättelser enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-7",
+          "number": 7,
+          "text": "skall sändas i rekommenderade brev minst en månad före auktionen. Innehåller inskrivningsregistret för luftfartyg uppgift om adress, skall den användas. Vad som sägs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-8",
+          "number": 8,
+          "text": "är tillämpligt även när bestämmelse i andra stycket har åsidosatts. Lag (2004:84).",
+          "references": []
+        },
         {
           "id": "kap-10-§-2",
           "number": 2,
@@ -2621,10 +3380,68 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "11 § första och tredje styckena ska 12 kap. 26 § första och tredje styckena tillämpas. Rättighet upptas utan att något belopp anges.",
+      "title": "6 och",
       "sections": [
         {
-          "id": "kap-10-§-3",
+          "id": "kap-10-§-9",
+          "number": 9,
+          "text": "§ ska även gälla innehavare av rättighet som ska iakttas vid auktionen. Det som sägs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-7",
+          "number": 7,
+          "text": "om underrättelser ska även gälla kända innehavare av rättigheter som ska iakttas vid auktionen. I sakägarförteckningen upptas, förutom det som anges i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-10",
+          "number": 10,
+          "text": ", även nyttjanderätt som är inskriven eller för vilken inskrivning sökts. I stället för det som föreskrivs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-11",
+          "number": 11,
+          "text": "första och tredje styckena ska",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-26",
+          "number": 26,
+          "text": "första och tredje styckena tillämpas. Rättighet upptas utan att något belopp anges. Som innehavare av rättighet enligt denna paragraf ska även avses innehavare av en rättighet enligt lagen (2015:860) om internationella säkerhetsrätter i lösa saker. Lag (2015:861).",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-3",
           "number": 3,
           "text": "Vad som sägs om pantbrev och tillägg i",
           "references": []
@@ -2634,8 +3451,59 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "22 § handpenning för reservdelarna läggas till köpeskillingen, i den mån den ej skall tillkomma inroparen.",
+      "title": "12 och",
       "sections": [
+        {
+          "id": "kap-10-§-15",
+          "number": 15,
+          "text": "§ skall i stället gälla intecknat skuldebrev och ränta som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-19",
+          "number": 19,
+          "text": "lagen (1955:227) om inskrivning av rätt till luftfartyg. I fall som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-12",
+          "number": 12,
+          "text": "andra stycket upptas, i stället för tio procents tillägg, ett belopp motsvarande ett års ränta enligt det intecknade skuldebrevet. Om reservdelar skall säljas på begäran av borgenär som ej har inteckning för sin fordran, får skyddsbelopp enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-13",
+          "number": 13,
+          "text": "1 ej i något fall bestämmas högre än till två tredjedelar av det värde som i målet har åsatts reservdelarna av sakkunniga som kronofogdemyndigheten har anlitat. I fall som avses i andra stycket får, vid fördelning av influtna medel, den som har inteckning i reservdelarna ej till skada för borgenär som ej har inteckning göra sin rätt gällande till högre belopp än som svarar mot två tredjedelar av köpeskillingen minskad med förrättningskostnaderna. Därvid skall i fall som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-22",
+          "number": 22,
+          "text": "handpenning för reservdelarna läggas till köpeskillingen, i den mån den ej skall tillkomma inroparen.",
+          "references": []
+        },
         {
           "id": "kap-10-§-3",
           "number": 3,
@@ -2653,8 +3521,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "19 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-10-§-19",
+          "number": 19,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-10-§-5",
           "number": 5,
@@ -2664,9 +3538,41 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-15",
+          "number": 15,
+          "text": "endast om all den intecknade egendomen har blivit utmätt och säljs vid gemensamt utrop. I stället för",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-10-§-16",
+          "number": 16,
+          "text": "sjätte stycket gäller",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-33",
+          "number": 33,
+          "text": "lagen (1955:227) om inskrivning av rätt till luftfartyg.",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-12",
       "number": 12,
-      "title": "Försäljning av fast egendom",
+      "title": "Försäljning av fast egendom Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-12-§-1",
@@ -2691,8 +3597,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-9",
       "number": 9,
-      "title": "14 § samt, om ej annat följer av särskilda bestämmelser i kapitlet, rätt till betalning på grund av ägarhypotek.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-9-§-14",
+          "number": 14,
+          "text": "samt, om ej annat följer av särskilda bestämmelser i kapitlet, rätt till betalning på grund av ägarhypotek. Förberedande åtgärder",
+          "references": []
+        },
         {
           "id": "kap-9-§-3",
           "number": 3,
@@ -2770,52 +3682,84 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "27 § eller 8 kap. 1 § tredje stycket, från det att begäran om försäljning kom in till kronofogdemyndigheten, om ej hinder möter eller anstånd beviljas enligt 8 kap. 3 §. Anstånd får ej utan synnerliga skäl medges utöver ett år från nämnda tidpunkt.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-4-§-12",
+          "id": "kap-4-§-27",
+          "number": 27,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-1",
+          "number": 1,
+          "text": "tredje stycket, från det att begäran om försäljning kom in till kronofogdemyndigheten, om ej hinder möter eller anstånd beviljas enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-3",
+          "number": 3,
+          "text": ". Anstånd får ej utan synnerliga skäl medges utöver ett år från nämnda tidpunkt. Utlösnings- och anslutningsrätt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-12",
           "number": 12,
           "text": "Borgenär eller annan vars rätt kan vara beroende av fastighetens försäljning får utlösa sökanden. Han träder därigenom i sökandens ställe. Den som vill utlösa sökanden skall, innan fastigheten har sålts, till kronofogdemyndigheten betala exekutionsfordringen och uppkomna förrättningskostnader.",
           "references": []
         },
         {
-          "id": "kap-4-§-13",
+          "id": "kap-8-§-13",
           "number": 13,
           "text": "Borgenär, vars fordran är förenad med förmånsrätt i fastigheten enligt",
           "references": []
         },
         {
-          "id": "kap-4-§-6",
+          "id": "kap-8-§-6",
           "number": 6,
           "text": "1 eller",
           "references": []
         },
         {
-          "id": "kap-4-§-7",
+          "id": "kap-8-§-7",
           "number": 7,
           "text": "1 eller 2 förmånsrättslagen (1970:979), kan begära att fastigheten säljs för hans fordran, om hans rätt till betalning är ostridig eller styrks. Hör fastigheten till konkursbo, har även borgenär, vars fordran är förenad med panträtt i fastigheten, sådan befogenhet. Förvaltaren i en konkurs kan begära att fastigheten säljs för den rätt till betalning som följer med ett ägarhypotek i fastigheten.Förvaltaren kan också begära att fastigheten säljs för hans fordran avseende arvode och sådana kostnader för fastighetens vård under konkursen som skall utgå ur fastigheten, om konkursgäldenären är en juridisk person. Vill borgenär ansluta sig enligt första stycket, skall han anmäla det hos kronofogdemyndigheten senast två veckor före bevakningssammanträdet. Om borgenär, vars fordran är förenad med förmånsrätt i fastigheten enligt",
           "references": []
         },
         {
-          "id": "kap-4-§-6",
+          "id": "kap-8-§-6",
           "number": 6,
           "text": "1 eller",
           "references": []
         },
         {
-          "id": "kap-4-§-7",
+          "id": "kap-8-§-7",
           "number": 7,
           "text": "1 eller 2 förmånsrättslagen, har begärt att fastigheten säljs för hans fordran, får förfarandet ej läggas ned därför att frågan om försäljning för annan borgenärs eller konkursboets räkning förfaller. I fråga om rätt att lösa ut den som har anslutit sig enligt första eller andra stycket tillämpas bestämmelserna i",
           "references": []
         },
         {
-          "id": "kap-4-§-12",
+          "id": "kap-8-§-12",
           "number": 12,
           "text": ". Lag (1994:444). Försäljning av fastighetstillbehör",
           "references": []
         },
         {
-          "id": "kap-4-§-14",
+          "id": "kap-8-§-14",
           "number": 14,
           "text": "Är det sannolikt att tillbehör kan med fördel säljas för sig utan samtidig försäljning av fastigheten i övrigt, skall kronofogdemyndigheten sätta ut sammanträde för prövning av frågan. Till sammanträdet skall kronofogdemyndigheten kalla sökanden, fastighetens ägare och envar för myndigheten känd innehavare av panträtt i fastigheten eller av annan rättighet som kan påverkas av försäljningen. Blir vid sammanträdet närvarande sakägare ense om att tillbehör bör säljas för sig, förordnar kronofogdemyndigheten i enlighet därmed, om ej särskilda skäl föranleder annat. Uppnås ej enighet om särskild försäljning, får kronofogdemyndigheten förordna därom endast om synnerliga skäl föreligger. Råder tvist om tillbehör, tillämpas vad som sägs i",
           "references": []
@@ -2825,8 +3769,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "5 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-8-§-5",
+          "number": 5,
+          "text": ".",
+          "references": []
+        },
         {
           "id": "kap-8-§-15",
           "number": 15,
@@ -2946,8 +3896,27 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "3 § jordabalken.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-6-§-3",
+          "number": 3,
+          "text": "jordabalken. Understiger fordringen pantbrevets belopp, upptas återstoden som ägarhypotek. Om i fastigheten gäller pantbrev som ej innehas av ägaren och någon fordran för vilken pantbrevet utgör säkerhet ej har blivit anmäld, upptas pantbrevets belopp och ett till tio procent av detta belopp beräknat tillägg. Ägarhypotek upptas utan tillägg enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-6",
+      "number": 6,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-6-§-3",
+          "number": 3,
+          "text": "jordabalken. Om ett pantbrevs belopp är bestämt i utländsk valuta skall, vid tillämpningen av första och andra styckena, pantbrevets belopp jämte tillägg räknas om till svenska kronor. Före omräkningen skall det göras ett påslag om fem procent på pantbrevets belopp jämte tillägg. Påslaget skall dock inte föranleda någon ökning av det belopp som upptas som ägarhypotek. Lag (2004:448).",
+          "references": []
+        },
         {
           "id": "kap-6-§-28",
           "number": 28,
@@ -3025,7 +3994,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-18",
       "number": 18,
-      "title": "Kapitel 18",
+      "title": "Rättighet som ej enligt första stycket är skyddad utan särskilt förbehåll och ej heller har förbehållits enligt andra stycket kan skyddas genom förbehåll vid auktionen enligt",
       "sections": [
         {
           "id": "kap-18-§-39",
@@ -3248,8 +4217,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "19 och 20 §§ jordabalken.",
+      "title": "19 och",
       "sections": [
+        {
+          "id": "kap-7-§-20",
+          "number": 20,
+          "text": "§ jordabalken. Underlåter köpare att fullgöra tidigare ägares skyldigheter mot rättighetshavare enligt",
+          "references": []
+        },
         {
           "id": "kap-7-§-46",
           "number": 46,
@@ -3261,8 +4236,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "20 § första och tredje styckena jordabalken.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-20",
+          "number": 20,
+          "text": "första och tredje styckena jordabalken.",
+          "references": []
+        },
         {
           "id": "kap-7-§-48",
           "number": 48,
@@ -3280,8 +4261,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-18",
       "number": 18,
-      "title": "12 eller 19 §. Får han på grund av sådant förordnande ej tillträda fastigheten och är hindret ej hävt inom tre månader från den bestämda tillträdesdagen, får han frånträda köpet och återfå vad han har betalat jämte upplupen ränta, om han gör anmälan därom hos kronofogdemyndigheten medan hindret alltjämt består.",
+      "title": "12 eller",
       "sections": [
+        {
+          "id": "kap-18-§-19",
+          "number": 19,
+          "text": ". Får han på grund av sådant förordnande ej tillträda fastigheten och är hindret ej hävt inom tre månader från den bestämda tillträdesdagen, får han frånträda köpet och återfå vad han har betalat jämte upplupen ränta, om han gör anmälan därom hos kronofogdemyndigheten medan hindret alltjämt består. Gemensamt intecknade fastigheter",
+          "references": []
+        },
         {
           "id": "kap-18-§-49",
           "number": 49,
@@ -3347,8 +4334,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "3 § jordabalken anses som om fastigheten hade utmätts samtidigt med den ursprungligen utmätta fastigheten.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-6-§-3",
+          "number": 3,
+          "text": "jordabalken anses som om fastigheten hade utmätts samtidigt med den ursprungligen utmätta fastigheten.",
+          "references": []
+        },
         {
           "id": "kap-6-§-54",
           "number": 54,
@@ -3390,8 +4383,27 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-6",
       "number": 6,
-      "title": "12 § andra stycket andra eller tredje meningen jordabalken, får förordnande om fortsatt inteckningsansvar meddelas beträffande gemensam inteckning som besvärar fastigheten endast om fastigheten i förhållande till de andra gemensamt intecknade fastigheterna svarar för hela inteckningen och den fordran som är förenad med panträtt på grund av inteckningen har blivit täckt. Om medel som har influtit genom särskild försäljning av tillbehör utfaller på pantbrevets belopp, får förordnande ej meddelas beträffande motsvarande del av inteckningen.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-6-§-12",
+          "number": 12,
+          "text": "jordabalken får meddelas på begäran av köparen. Har fastighet sålts i fall som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-6",
+      "number": 6,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-6-§-12",
+          "number": 12,
+          "text": "andra stycket andra eller tredje meningen jordabalken, får förordnande om fortsatt inteckningsansvar meddelas beträffande gemensam inteckning som besvärar fastigheten endast om fastigheten i förhållande till de andra gemensamt intecknade fastigheterna svarar för hela inteckningen och den fordran som är förenad med panträtt på grund av inteckningen har blivit täckt. Om medel som har influtit genom särskild försäljning av tillbehör utfaller på pantbrevets belopp, får förordnande ej meddelas beträffande motsvarande del av inteckningen. Begäran om förordnande enligt denna paragraf skall framställas senast vid sammanträdet för köpeskillingens fördelning eller, vid försäljning under hand, innan kronofogdemyndigheten utfärdar köpebrev. Därvid skall pantbrevet ges in, om det inte redan är tillgängligt för kronofogdemyndigheten eller om kronofogdemyndigheten i annat fall finner skäl att medge undantag. Lag (1994:444). Försäljning under hand",
+          "references": []
+        },
         {
           "id": "kap-6-§-57",
           "number": 57,
@@ -3626,8 +4638,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "8 § hela fastigheten säljas på auktion, skall av sakägarförteckningen framgå vilka fordringar och rättigheter som belastar varje särskild andel. Skyddsbeloppet skall bestämmas så att fordringar, som gäller i den först utmätta andelen enbart eller i nämnda andel jämte annan andel och som har bättre rätt än exekutionsfordringen, samt förrättningskostnaderna blir fullt täckta.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-8-§-8",
+          "number": 8,
+          "text": "hela fastigheten säljas på auktion, skall av sakägarförteckningen framgå vilka fordringar och rättigheter som belastar varje särskild andel. Skyddsbeloppet skall bestämmas så att fordringar, som gäller i den först utmätta andelen enbart eller i nämnda andel jämte annan andel och som har bättre rätt än exekutionsfordringen, samt förrättningskostnaderna blir fullt täckta. Är någon av delägarna i konkurs, får borgenär utöva anslutningsrätt enligt",
+          "references": []
+        },
         {
           "id": "kap-8-§-13",
           "number": 13,
@@ -3645,8 +4663,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "9 § andra stycket och försäljningen har vunnit laga kraft samt köparen har fullgjort sin betalningsskyldighet, utfärdar kronofogdemyndigheten köpebrev.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-8-§-9",
+          "number": 9,
+          "text": "andra stycket och försäljningen har vunnit laga kraft samt köparen har fullgjort sin betalningsskyldighet, utfärdar kronofogdemyndigheten köpebrev. Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
         {
           "id": "kap-8-§-69",
           "number": 69,
@@ -3664,7 +4688,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-13",
       "number": 13,
-      "title": "Redovisning av influtna medel",
+      "title": "Redovisning av influtna medel Allmänna bestämmelser om redovisning",
       "sections": [
         {
           "id": "kap-13-§-1",
@@ -3677,8 +4701,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "6 § andra stycket får redovisning ske tidigast i nära anslutning till den tidpunkt då bidraget förfaller till betalning. Lag (1995:298).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-6",
+          "number": 6,
+          "text": "andra stycket får redovisning ske tidigast i nära anslutning till den tidpunkt då bidraget förfaller till betalning. Lag (1995:298).",
+          "references": []
+        },
         {
           "id": "kap-7-§-2",
           "number": 2,
@@ -3702,8 +4732,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "39 eller 54 § har ställt säkerhet för belopp som skall redovisas.",
+      "title": "39 eller",
       "sections": [
+        {
+          "id": "kap-12-§-54",
+          "number": 54,
+          "text": "har ställt säkerhet för belopp som skall redovisas. Fördelning",
+          "references": []
+        },
         {
           "id": "kap-12-§-4",
           "number": 4,
@@ -3727,8 +4763,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "27 § fjärde stycket.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-12-§-27",
+          "number": 27,
+          "text": "fjärde stycket. Som fördelningsdag anses den dag till vilken fördelningssammanträde är utsatt, även om det då finns något hinder mot att verkställa fördelningen. Om det inte hålls något sammanträde, anses den dag då kronofogdemyndighetens beslut meddelas som fördelningsdag. Vid fördelning räknas som fordran i ett mål även sådan förrättningskostnad som avser endast det målet. Begär borgenär betalning för fordran som ej har anmälts i tid, skall utdelning utgå av överskott, om sådant uppkommer.Lag (2004:448).",
+          "references": []
+        },
         {
           "id": "kap-12-§-7",
           "number": 7,
@@ -3740,8 +4782,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "22 och 23 §§. Lag (1994:480).",
+      "title": "22 och",
       "sections": [
+        {
+          "id": "kap-2-§-23",
+          "number": 23,
+          "text": "§. Lag (1994:480).",
+          "references": []
+        },
         {
           "id": "kap-2-§-8",
           "number": 8,
@@ -3771,8 +4819,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-11",
       "number": 11,
-      "title": "3 § tredje stycket.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-11-§-3",
+          "number": 3,
+          "text": "tredje stycket. Utdelning för fordran som ej har tagits upp i förteckningen utgår endast av överskott, om sådant uppkommer.",
+          "references": []
+        },
         {
           "id": "kap-11-§-11",
           "number": 11,
@@ -3802,8 +4856,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "16 §, även om fastigheten ej säljs.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-12-§-16",
+          "number": 16,
+          "text": ", även om fastigheten ej säljs. Avräkning",
+          "references": []
+        },
         {
           "id": "kap-12-§-13",
           "number": 13,
@@ -3815,10 +4875,42 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "11 § första stycket, 11 kap. 1 § och 12 kap. 26 § första stycket.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-10-§-14",
+          "id": "kap-10-§-11",
+          "number": 11,
+          "text": "första stycket,",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-11",
+      "number": 11,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-11-§-1",
+          "number": 1,
+          "text": "och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-26",
+          "number": 26,
+          "text": "första stycket. Utbetalning",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-14",
           "number": 14,
           "text": "Medel får ej betalas ut utan att säkerhet ställs, om 1. utmätning har skett med stöd av",
           "references": []
@@ -3828,10 +4920,48 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-3",
       "number": 3,
-      "title": "5 § 1 eller 6 § och exekutionstiteln ej har vunnit laga kraft eller utmätning har skett på grund av utslag eller beslut i mål om betalningsföreläggande eller handräckning och gäldenären har sökt återvinning eller överklagat,   2. utmätning har skett hos dödsbo för fordran som ej var förenad med särskild förmånsrätt i egendomen och den tid som anges i 8 kap. 6 § första stycket ej har gått till ända,   3. rätten till medlen är beroende av ett överklagande av utmätningen eller den utmätta egendomens försäljning eller av talan som avses i 4 kap. 20--22 eller 26 §,   4. fördelning som har skett vid fördelningssammanträde ej har vunnit laga kraft,   5. i annat fall tvist råder om vem som är betalningsberättigad.Lag (1994:1038).",
+      "title": "",
       "sections": [
         {
-          "id": "kap-3-§-14",
+          "id": "kap-3-§-5",
+          "number": 5,
+          "text": "1 eller",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-6",
+          "number": 6,
+          "text": "och exekutionstiteln ej har vunnit laga kraft eller utmätning har skett på grund av utslag eller beslut i mål om betalningsföreläggande eller handräckning och gäldenären har sökt återvinning eller överklagat, 2. utmätning har skett hos dödsbo för fordran som ej var förenad med särskild förmånsrätt i egendomen och den tid som anges i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-6",
+          "number": 6,
+          "text": "första stycket ej har gått till ända, 3. rätten till medlen är beroende av ett överklagande av utmätningen eller den utmätta egendomens försäljning eller av talan som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "20--22 eller",
+      "sections": [
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": ", 4. fördelning som har skett vid fördelningssammanträde ej har vunnit laga kraft, 5. i annat fall tvist råder om vem som är betalningsberättigad.Lag (1994:1038).",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-14",
           "number": 14,
           "text": "Vid utmätning av lön för underhållsbidrag med företrädesrätt enligt",
           "references": []
@@ -3841,8 +4971,26 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "14 § tillämpas inte 14 § 3 eller 5. Om det finns särskilda skäl, skall dock 14 § 5 tillämpas. Lag (1995:298).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "tillämpas inte",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "3 eller 5. Om det finns särskilda skäl, skall dock",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "5 tillämpas. Lag (1995:298).",
+          "references": []
+        },
         {
           "id": "kap-7-§-15",
           "number": 15,
@@ -3975,8 +5123,26 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "20 § eller 26 § jämförd med 20 § har förlorat sin rätt mot sökanden.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-4-§-20",
+          "number": 20,
+          "text": "eller",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "jämförd med",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-20",
+          "number": 20,
+          "text": "har förlorat sin rätt mot sökanden.",
+          "references": []
+        },
         {
           "id": "kap-4-§-3",
           "number": 3,
@@ -4030,7 +5196,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-16",
       "number": 16,
-      "title": "Annan verkställighet",
+      "title": "Annan verkställighet Avhysning",
       "sections": [
         {
           "id": "kap-16-§-1",
@@ -4121,8 +5287,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-9",
       "number": 9,
-      "title": "4 § första stycket gäller dock ej.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-9-§-4",
+          "number": 4,
+          "text": "första stycket gäller dock ej.",
+          "references": []
+        },
         {
           "id": "kap-9-§-8",
           "number": 8,
@@ -4264,6 +5436,44 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-4",
+      "number": 4,
+      "title": "2-7, 9 och 13-",
+      "sections": [
+        {
+          "id": "kap-4-§-19",
+          "number": 19,
+          "text": "§,",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-22",
+          "number": 22,
+          "text": "första och tredje styckena, 24, 25 och 33-",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-35",
+          "number": 35,
+          "text": "§, 5 och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "3-",
+      "sections": [
+        {
+          "id": "kap-12-§-5",
+          "number": 5,
+          "text": "§. Kvarstad för fordran får ej läggas på lön eller annan förmån som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-7",
       "number": 7,
       "title": "innan den har betalats ut och kan utmätas.",
@@ -4279,16 +5489,41 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "29 § andra stycket och 31 § samt 12 kap. 6-10 §§.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-4-§-15",
+          "id": "kap-4-§-29",
+          "number": 29,
+          "text": "andra stycket och",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-31",
+          "number": 31,
+          "text": "samt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "6-",
+      "sections": [
+        {
+          "id": "kap-12-§-10",
+          "number": 10,
+          "text": "§. Om lös egendom, som har belagts med kvarstad för fordran, hastigt faller i värde eller kräver alltför kostsam vård, får den på begäran av part säljas i den ordning som gäller för utmätt egendom.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-15",
           "number": 15,
           "text": "Kvarstad för fordran hindrar ej att egendomen utmäts eller beläggs med kvarstad för annan fordran. Finns annan egendom att tillgå, skall dock denna tagas i anspråk i första hand, om ej den fordran för vilken utmätning eller kvarstad söks är förenad med särskild förmånsrätt i den kvarstadsbelagda egendomen. Om egendom som har belagts med kvarstad för fordran utmäts för annan fordran vilken ej är förenad med särskild förmånsrätt i egendomen, skall egendomen anses samtidigt utmätt för kvarstadsborgenärens fordran. Sådan utmätningsverkan förfaller, om den sökta utmätningen hävs. Lag (1994:480).",
           "references": []
         },
         {
-          "id": "kap-4-§-16",
+          "id": "kap-12-§-16",
           "number": 16,
           "text": "Beträffande verkställighet av beslut om kvarstad till säkerhet för bättre rätt tillämpas",
           "references": []
@@ -4296,12 +5531,18 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
-      "id": "kap-6",
-      "number": 6,
-      "title": "och 12 kap. 5 §.",
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
       "sections": [
         {
-          "id": "kap-6-§-14",
+          "id": "kap-12-§-5",
+          "number": 5,
+          "text": ". I fråga om verkan av sådan kvarstad gäller",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-14",
           "number": 14,
           "text": ". Pantbrev som gäller i egendomen får dock ej pantsättas, om ej kronofogdemyndigheten efter hörande av sökanden medger det av särskilda skäl. Detsamma gäller skuldebrev som är intecknat i luftfartyg eller reservdelar till luftfartyg.",
           "references": []
@@ -4311,7 +5552,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-17",
       "number": 17,
-      "title": "Kostnader",
+      "title": "Kostnader Inledande bestämmelse",
       "sections": [
         {
           "id": "kap-17-§-1",
@@ -4336,8 +5577,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "49 § har indragits i försäljning av en gemensamt intecknad fastighet, skall dock sökanden i målet ansvara även för kostnader som föranleds av indragningen, om han har sämre rätt än den som har begärt indragning. Lag (2007:277).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-12-§-49",
+          "number": 49,
+          "text": "har indragits i försäljning av en gemensamt intecknad fastighet, skall dock sökanden i målet ansvara även för kostnader som föranleds av indragningen, om han har sämre rätt än den som har begärt indragning. Lag (2007:277).",
+          "references": []
+        },
         {
           "id": "kap-12-§-3",
           "number": 3,
@@ -4347,10 +5594,55 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-21",
+          "number": 21,
+          "text": "eller för sådan handräckning enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-8-§-18",
+          "number": 18,
+          "text": "som behövs för att komma i besittning av lös egendom eller bostad. Sökanden ansvarar inte heller för förrättningskostnaderna i mål om utmätning för fordran som vid utmätning av lön har företrädesrätt enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": ". Vid avhysning och avlägsnande ansvarar sökanden inte för kostnader för förvaring av svarandens egendom eller för andra åtgärder som väsentligen avser att skydda svaranden mot förlust. Detsamma gäller kostnader för försäljning enligt",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-16",
       "number": 16,
-      "title": "7 §. Lag (2017:467).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-16-§-7",
+          "number": 7,
+          "text": ". Lag (2017:467).",
+          "references": []
+        },
         {
           "id": "kap-16-§-4",
           "number": 4,
@@ -4380,8 +5672,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "18 § får genast utsökas hos den mot vilken åtgärden har vidtagits. Lag (1996:130).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-8-§-18",
+          "number": 18,
+          "text": "får genast utsökas hos den mot vilken åtgärden har vidtagits. Lag (1996:130).",
+          "references": []
+        },
         {
           "id": "kap-8-§-8",
           "number": 8,
@@ -4393,8 +5691,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-16",
       "number": 16,
-      "title": "7 §, tas förrättningskostnader för försäljningen ut ur köpeskillingen.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-16-§-7",
+          "number": 7,
+          "text": ", tas förrättningskostnader för försäljningen ut ur köpeskillingen. När förrättningskostnader för avhysning eller avlägsnande tas ut hos svaranden, har kostnader som avses i",
+          "references": []
+        },
         {
           "id": "kap-16-§-3",
           "number": 3,
@@ -4416,10 +5720,35 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-16",
+      "number": 16,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-16-§-14",
+          "number": 14,
+          "text": "tredje stycket eller",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-16",
+          "number": 16,
+          "text": "andra stycket, tas förrättningskostnad för försäljningen ut ur köpeskillingen. Har kronofogdemyndigheten med anledning av kvarstad på fast egendom förordnat om åtgärd som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-12",
       "number": 12,
-      "title": "8 eller 9 §, tas kostnad för åtgärden ut ur behållen avkastning.",
+      "title": "8 eller",
       "sections": [
+        {
+          "id": "kap-12-§-9",
+          "number": 9,
+          "text": ", tas kostnad för åtgärden ut ur behållen avkastning.",
+          "references": []
+        },
         {
           "id": "kap-12-§-11",
           "number": 11,
@@ -4441,10 +5770,29 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-13",
+      "number": 13,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "tredje stycket prövas av kronofogdemyndigheten tillämpas",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-3",
       "number": 3,
-      "title": "6 §.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-3-§-6",
+          "number": 6,
+          "text": ". Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
         {
           "id": "kap-3-§-13",
           "number": 13,
@@ -4474,7 +5822,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-18",
       "number": 18,
-      "title": "Överklagande",
+      "title": "Överklagande Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-18-§-1",
@@ -4487,7 +5835,7 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-10",
       "number": 10,
-      "title": "rättegångsbalken grundar domstols behörighet i tvistemål i allmänhet.",
+      "title": "rättegångsbalken grundar domstols behörighet i tvistemål i allmänhet. I den mån det inte föreskrivs något annat i detta kapitel gäller lagen (1996:242) om domstolsärenden vid överklagande i utsökningsmål. Kronofogdemyndigheten skall dock inte vara part i domstolen. Lag (2006:672). Överklagande av kronofogdemyndighetens beslut",
       "sections": [
         {
           "id": "kap-10-§-2",
@@ -4500,8 +5848,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-12",
       "number": 12,
-      "title": "33 § andra stycket, får överklagas endast av den som har bestritt att sådant förbehåll görs. Lag (1993:516).",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-12-§-33",
+          "number": 33,
+          "text": "andra stycket, får överklagas endast av den som har bestritt att sådant förbehåll görs. Lag (1993:516).",
+          "references": []
+        },
         {
           "id": "kap-12-§-3",
           "number": 3,
@@ -4525,10 +5879,68 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-4",
       "number": 4,
-      "title": "33 eller 34 § eller av kvarstad för fordran enligt 16 kap. 13 § har lämnats utan bifall,   2. ett beslut genom vilket en rättighet inte har förbehållits enligt 12 kap. 33 § andra stycket,   3. ett beslut genom vilket en förrättningsman har förklarats jävig,   4. ett beslut i en fråga som avses i 17 kap. 4 § första stycket,   5. ett beslut i en sådan fråga om verkställighet av en skiljedom som avses i 3 kap. 16 §. Lag (1999:118).",
+      "title": "33 eller",
       "sections": [
         {
-          "id": "kap-4-§-6",
+          "id": "kap-4-§-34",
+          "number": 34,
+          "text": "eller av kvarstad för fordran enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-16",
+      "number": 16,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-16-§-13",
+          "number": 13,
+          "text": "har lämnats utan bifall, 2. ett beslut genom vilket en rättighet inte har förbehållits enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-33",
+          "number": 33,
+          "text": "andra stycket, 3. ett beslut genom vilket en förrättningsman har förklarats jävig, 4. ett beslut i en fråga som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-17",
+      "number": 17,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-17-§-4",
+          "number": 4,
+          "text": "första stycket, 5. ett beslut i en sådan fråga om verkställighet av en skiljedom som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-16",
+          "number": 16,
+          "text": ". Lag (1999:118).",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-6",
           "number": 6,
           "text": "Ett beslut i en fråga som avses i",
           "references": []
@@ -4538,8 +5950,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "10 eller 11 § får inte överklagas. I samband med att ett beslut överklagas, genom vilket föreläggande av vite eller annan påföljd har tillämpats, får dock prövning av föreläggandets giltighet påkallas.",
+      "title": "10 eller",
       "sections": [
+        {
+          "id": "kap-2-§-11",
+          "number": 11,
+          "text": "får inte överklagas. I samband med att ett beslut överklagas, genom vilket föreläggande av vite eller annan påföljd har tillämpats, får dock prövning av föreläggandets giltighet påkallas. Ett beslut som innefattar endast förberedelse till senare beslut och inte rör tredje man får överklagas endast i samband med överklagande av det senare beslutet. Beslutet får dock överklagas särskilt på den grund att målet onödigt uppehålls genom beslutet. En sakägarförteckning får överklagas endast i samband med att den exekutiva försäljningen eller beslutet om fördelningen av influtna medel överklagas. Lag (1994:444).",
+          "references": []
+        },
         {
           "id": "kap-2-§-7",
           "number": 7,
@@ -4551,70 +5969,89 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-8",
       "number": 8,
-      "title": "9 § första stycket eller 12 kap. 49 § tredje stycket ska dock överklagas inom tre veckor från det att beslutet delgavs den klagande.",
+      "title": "",
       "sections": [
         {
-          "id": "kap-8-§-6",
+          "id": "kap-8-§-9",
+          "number": 9,
+          "text": "första stycket eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-12-§-49",
+          "number": 49,
+          "text": "tredje stycket ska dock överklagas inom tre veckor från det att beslutet delgavs den klagande. En exekutiv försäljning ska överklagas inom tre veckor från försäljningen. Ett beslut om fördelning eller utbetalning av medel ska överklagas inom tre veckor från beslutet. Svaranden får dock överklaga ett sådant beslut inom den tid inom vilken utmätningsbeslutet enligt andra stycket första meningen ska överklagas, om den tiden löper ut senare. Ett sådant överklagande som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-6",
           "number": 6,
           "text": "andra stycket andra meningen får göras utan inskränkning till viss tid. Kronofogdemyndighetens beslut i andra fall ska överklagas inom tre veckor från det att beslutet delgavs den klagande.Lag (2015:683).",
           "references": []
         },
         {
-          "id": "kap-8-§-8",
+          "id": "kap-12-§-8",
           "number": 8,
           "text": "Har upphävts genom lag (1996:248).",
           "references": []
         },
         {
-          "id": "kap-8-§-9",
+          "id": "kap-12-§-9",
           "number": 9,
           "text": "Ett överklagande skall ges in till kronofogdemyndigheten. Ett överklagande som inte har kommit in i rätt tid skall avvisas av kronofogdemyndigheten. Om överklagandet har kommit in till tingsrätten inom tiden för överklagande, skall den omständigheten att överklagandet har kommit in till kronofogdemyndigheten först därefter inte föranleda att det avvisas. Om den som vill överklaga ett beslut visar laga förfall innan tiden för överklagande gått ut, skall kronofogdemyndigheten sätta ut ny tid. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-8-§-10",
+          "id": "kap-12-§-10",
           "number": 10,
           "text": "Om överklagandet inte avvisas, skall kronofogdemyndigheten så snart som möjligt sända detta och övriga handlingar i målet till tingsrätten. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-8-§-11",
+          "id": "kap-12-§-11",
           "number": 11,
           "text": "Ett överklagande i ett mål om avlägsnande behöver inte innehålla sådana uppgifter om motparten som avses i",
           "references": []
         },
         {
-          "id": "kap-8-§-5",
+          "id": "kap-12-§-5",
           "number": 5,
           "text": "tredje stycket lagen (1996:242) om domstolsärenden i de fall uppgifterna saknas i målet hos Kronofogdemyndigheten.Lag (2017:467). Vissa bestämmelser om förfarandet i tingsrätten",
           "references": []
         },
         {
-          "id": "kap-8-§-12",
+          "id": "kap-12-§-12",
           "number": 12,
           "text": "Tingsrätten får, utan att motparten dessförinnan har getts tillfälle att yttra sig över överklagandet, förordna att någon åtgärd för verkställighet tills vidare inte skall vidtas eller, om det finns synnerliga skäl, att en redan vidtagen åtgärd skall hävas. Vid utmätning av lön för underhållsbidrag får förordnandet inskränkas till att avse att influtna medel inte skall betala ut. Tingsrätten får också omedelbart förordna att åtgärd för verkställighet skall genomföras och bestå till dess annat förordnas.Lag (1995:298).",
           "references": []
         },
         {
-          "id": "kap-8-§-13",
+          "id": "kap-12-§-13",
           "number": 13,
           "text": "Den omständigheten att ett beslut har meddelats av en jävig förrättningsman skall inte föranleda att beslutet hävs, om jävet uppenbarligen inte har inverkat på beslutet. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-8-§-14",
+          "id": "kap-12-§-14",
           "number": 14,
           "text": "Vid bifall till ett överklagande av ett visst beslut får även ett senare beslut i målet hävas när det kan ske, om detta beslut har samband med det förra beslutet och inte hade vunnit laga kraft mot klaganden när han överklagade det första beslutet. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-8-§-15",
+          "id": "kap-12-§-15",
           "number": 15,
           "text": "Om ett överklagande av ett beslut om fördelning av medel bifalls, gäller det till förmån även för den som inte själv har överklagat beslutet. Lag (1993:516).",
           "references": []
         },
         {
-          "id": "kap-8-§-16",
+          "id": "kap-12-§-16",
           "number": 16,
           "text": "Tingsrättens beslut i en fråga som överklagats dit gäller på det sätt som i",
           "references": []
@@ -4624,8 +6061,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-2",
       "number": 2,
-      "title": "19 § sägs om kronofogdemyndighetens beslut.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-2-§-19",
+          "number": 19,
+          "text": "sägs om kronofogdemyndighetens beslut. I mål om utmätning skall dock en vidtagen åtgärd inte utan särskilt förordnande återgå innan tingsrättens beslut har vunnit laga kraft.Lag (1995:298). Överklagande av tingsrättens beslut, m. m.",
+          "references": []
+        },
         {
           "id": "kap-2-§-16",
           "number": 16,
@@ -4677,10 +6120,133 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-58",
+      "number": 58,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-58-§-13",
+          "number": 13,
+          "text": "rättegångsbalken om återställande av försutten tid gäller även när föreläggande har meddelats enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "20, 21 eller",
+      "sections": [
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "eller",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "andra stycket i denna balk. Användning av särskilt rättsmedel får ej utan synnerliga skäl föranleda att exekutiv försäljning hävs. Lag (1988:1454). Övergångsbestämmelser 1984:695 Denna lag träder i kraft den 1 januari 1985. Om sakägarförteckningen har upprättats före ikraftträdandet tillämpas fortfarande äldre bestämmelser. 1985:983 Denna lag träder i kraft den 1 juli 1986. Har någon före ikraftträdandet tagit emot egendom för förvaring, tillämpas dock äldre bestämmelser. 1987:755 Denna lag träder i kraft den 1 januari 1988. Bestämmelserna i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-3-§-7",
+          "number": 7,
+          "text": "andra stycket i dess äldre lydelse gäller dock fortfarande i fråga om mål som handlagts enligt lagen (1974:8) om rättegången i tvistemål om mindre värden. 1990:669 Denna lag träder i kraft den 1 juli 1990. Äldre bestämmelser i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-15",
+      "number": 15,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-15-§-14",
+          "number": 14,
+          "text": "gäller till den 1 januari 1991. 1990:748 1. Denna lag träder i kraft den dag regeringen bestämmer. 2. Äldre föreskrifter gäller fortfarande i fråga om utslag eller beslut som meddelats enligt lagen (1946:808) om lagsökning och betalningsföreläggande samt handräckningslagen (1981:847). 1991:848 Denna lag träder i kraft den dag regeringen bestämmer. Äldre föreskrifter gäller fortfarande i fråga om mål om lagsökning, betalningsföreläggande och handräckning där talan väckts före ikraftträdandet. 1992:636 Denna lag träder i kraft den 1 januari 1993. I enskilda mål om införsel som har kommit in till kronofogdemyndigheten före ikraftträdandet får ersättning tas ut för sådana förrättningskostnader som uppkommer efter utgången av 1994.Sådana förrättningskostnader får genast tas ut genom införsel hos gäldenären. I övrigt gäller äldre föreskrifter fortfarande i fråga om utsökningsmål som har kommit in till kronofogdemyndigheten före ikraftträdandet. Lag (1994:1983). 1992:831 Denna lag träder i kraft den 1 januari 1993. I fall då gäldenären har förvärvat varan före ikraftträdandet gäller äldre föreskrifter. 1993:516 Denna lag träder i kraft den 1 januari 1994. I fråga om beslut som meddelats av kronofogdemyndighet före ikraftträdandet gäller äldre föreskrifter. 1994:480 Denna lag träder i kraft den 1 juli 1994. Äldre föreskrifter tillämpas fortfarande i fråga om betalningssäkring som verkställts före ikraftträdandet. 1994:1413 Denna lag träder i kraft, i fråga om",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-15",
+          "number": 15,
+          "text": "den 1 januari 1995, och i övrigt den dag regeringen bestämmer. I fråga om",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-2-§-15",
+          "number": 15,
+          "text": "gäller äldre bestämmelser om talan väckts före ikraftträdandet. 1994:1964 Denna lag träder i kraft den 1 januari 1995 och tillämpas på underhållsbidrag för vilka den ursprungliga förfallodagen inträtt den 31 december 1991 eller senare. 1995:298 1. Denna lag träder i kraft den 1 april 1996. 2. De nya föreskrifterna skall tillämpas även i mål som har anhängiggjorts före ikraftträdandet beträffande förhållande som hänför sig till tiden därefter. I fråga om överklagande av ett beslut om införsel tillämpas efter ikraftträdandet de nya föreskrifterna om överklagande av ett beslut om utmätning. 3. Om det vid ikraftträdandet pågår verkställighet av ett beslut om införsel eller utmätning av lön, skall kronofogdemyndigheten ompröva beslutet med tillämpning av de nya föreskrifterna i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-4-§-9",
+          "number": 9,
+          "text": "anses ha kommit in till kronofogdemyndigheten på dagen för ikraftträdandet. 5. En ansökan om införsel som har gjorts före ikraftträdandet skall anses som en ansökan om utmätning med begäran om begränsad tillgångsundersökning enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-4-§-9",
+          "number": 9,
+          "text": ". Lag (1996:130). 6. Den nya bestämmelsen i",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-7",
       "number": 7,
-      "title": "Om ett sådant beslut vid ikraftträdandet är föremål för prövning i domstol, skall kronofogdemyndigheten avvakta med omprövningen tills domstolsprövningen är avslutad.   4. Mål som har anhängiggjorts före ikraftträdandet skall vid beräkning av den ettåriga handläggningstiden enligt 4 kap. 9 § anses ha kommit in till kronofogdemyndigheten på dagen för ikraftträdandet.   5. En ansökan om införsel som har gjorts före ikraftträdandet skall anses som en ansökan om utmätning med begäran om begränsad tillgångsundersökning enligt 4 kap. 9 d §. Lag (1996:130).   6. Den nya bestämmelsen i 7 kap. 14 § andra stycket tillämpas endast på underhållsbidrag för vilka den ursprungliga förfallodagen inträtt den 31 december 1991 eller senare.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "andra stycket tillämpas endast på underhållsbidrag för vilka den ursprungliga förfallodagen inträtt den 31 december 1991 eller senare. 1996:1032 1. Denna lag träder i kraft den 1 januari 1997. 2. I fråga om fordran enligt lagen (1964:143) om bidragsförskott eller lagen (1984:1095) om förlängt bidragsförskott för studerande gäller",
+          "references": []
+        },
         {
           "id": "kap-7-§-23",
           "number": 23,
@@ -4692,8 +6258,14 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-7",
       "number": 7,
-      "title": "16 § första stycket tilldelats fordran enligt lagen (1996:1030) om underhållsstöd skall i första hand avräknas på fordringar som för samma barn uppkommit enligt den upphävda lagen (1964:143) om bidragsförskott och den upphävda lagen (1984:1095) om förlängt bidragsförskott för studerande.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-7-§-16",
+          "number": 16,
+          "text": "första stycket tilldelats fordran enligt lagen (1996:1030) om underhållsstöd skall i första hand avräknas på fordringar som för samma barn uppkommit enligt den upphävda lagen (1964:143) om bidragsförskott och den upphävda lagen (1984:1095) om förlängt bidragsförskott för studerande. 1999:118 1. Denna lag träder i kraft den 1 april 1999. 2. Äldre bestämmelser tillämpas beträffande en ansökan om verkställighet som gjorts före ikraftträdandet. 3. Äldre bestämmelser gäller fortfarande vid tillämpningen av",
+          "references": []
+        },
         {
           "id": "kap-7-§-12",
           "number": 12,
@@ -4703,14 +6275,98 @@ export const utsökningsbalken: LegalText = {
       ]
     },
     {
+      "id": "kap-2",
+      "number": 2,
+      "title": "15, 16 och",
+      "sections": [
+        {
+          "id": "kap-2-§-24",
+          "number": 24,
+          "text": "§ gäller fortfarande i fråga om talan med anledning av ett föreläggande som har meddelats före ikraftträdandet. 3. Äldre föreskrifter i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "gäller fortfarande i fråga om överklagande av beslut som har meddelats före ikraftträdandet. 4. Äldre föreskrifter i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-18-§-17",
+          "number": 17,
+          "text": "första meningen om överklagandeförbud gäller fortfarande i fråga om beslut som har meddelats före ikraftträdandet. 2007:277 1. Denna lag träder i kraft den 1 januari 2008. 2. Om exekutiv försäljning har skett före ikraftträdandet, gäller",
+          "references": []
+        }
+      ]
+    },
+    {
       "id": "kap-17",
       "number": 17,
-      "title": "3 § i paragrafens äldre lydelse.",
+      "title": "",
       "sections": [
+        {
+          "id": "kap-17-§-3",
+          "number": 3,
+          "text": "i paragrafens äldre lydelse. 2010:1937 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15-",
+          "references": []
+        },
         {
           "id": "kap-17-§-17",
           "number": 17,
           "text": "§ delgivningslagen (1970:428) har fattats före den 1 april 2011 eller om en handling har skickats eller lämnats före denna tidpunkt. 2015:756 1. Denna lag träder i kraft den 1 april 2016. 2. Bestämmelsen i den äldre lydelsen gäller fortfarande för belopp som tillgodoräknas en gäldenär enligt den upphävda",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-19",
+      "number": 19,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-19-§-19",
+          "number": 19,
+          "text": "socialförsäkringsbalken. 2021:80 1. Denna lag träder i kraft den 1 mars 2021. 2. Äldre bestämmelser gäller för avgiftsförelägganden som har godkänts före ikraftträdandet. 2021:790 Denna lag träder i kraft den 1 juni 2022 i fråga om",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-5",
+          "number": 5,
+          "text": "och i övrigt den 1 augusti 2021. 2022:753 Denna lag träder i kraft den 10 september 2022 i fråga om",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "",
+      "sections": [
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "och i övrigt den 1 juli 2022. 2022:1320 1. Denna lag träder i kraft den 1 september 2022. 2. Lagen tillämpas inte på Centrala studiestödsnämndens beslut som har meddelats före den 1 september 2025. För sådana beslut gäller äldre föreskrifter. 3. Äldre föreskrifter gäller även för förvaltningsmyndighets beslut som har meddelats före ikraftträdandet.",
           "references": []
         }
       ]
