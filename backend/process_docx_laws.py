@@ -32,7 +32,7 @@ LAWS_INFO = {
         'department': 'Justitiedepartementet L1',
         'issued': '1980-12-11',
         'lastAmended': 't.o.m. SFS 2018:1662',
-        'url': 'https://customer-assets.emergentagent.com/job_docuapp-6/artifacts/67sfbudp_Lag%20om%20handelsbolag%20och%20enkla%20bolag.docx'
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/7srkn5sg_Lag%20om%20handelsbolag%20och%20enkla%20bolag.docx'
     },
     'utsökningsbalken': {
         'id': 'sfs-utsokningsbalken',
@@ -41,7 +41,7 @@ LAWS_INFO = {
         'department': 'Justitiedepartementet',
         'issued': '',
         'lastAmended': '',
-        'url': 'https://customer-assets.emergentagent.com/job_docuapp-6/artifacts/2w17y3lx_Utso%CC%88kningsbalken.docx'
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/xth7a1xs_Utso%CC%88kningsbalken.docx'
     },
     'aktiebolagslag': {
         'id': 'sfs-2005-551',
@@ -50,7 +50,7 @@ LAWS_INFO = {
         'department': 'Justitiedepartementet',
         'issued': '2005-04-28',
         'lastAmended': 't.o.m. SFS 2024:862',
-        'url': 'https://customer-assets.emergentagent.com/job_docuapp-6/artifacts/nehhh736_ABL.docx'
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/hu9ke7nv_ABL.docx'
     },
     'las': {
         'id': 'sfs-1982-80',
@@ -59,7 +59,7 @@ LAWS_INFO = {
         'department': 'Arbetsmarknadsdepartementet ARM',
         'issued': '1982-02-24',
         'lastAmended': 't.o.m. SFS 2022:836',
-        'url': 'https://customer-assets.emergentagent.com/job_docuapp-6/artifacts/9bi1sjz2_LAS.docx'
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/n6eix6dg_LAS.docx'
     },
     'semesterlag': {
         'id': 'sfs-1977-480',
