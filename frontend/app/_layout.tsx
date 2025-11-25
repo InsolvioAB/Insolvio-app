@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { BookmarksProvider } from './contexts/BookmarksContext';
-import { NotesProvider } from './contexts/NotesContext';
+import { BookmarksProvider } from '../src/contexts/BookmarksContext';
+import { NotesProvider } from '../src/contexts/NotesContext';
 
 export default function RootLayout() {
   return (
