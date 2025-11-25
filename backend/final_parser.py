@@ -50,9 +50,16 @@ def parse_swedish_law_final(text: str, law_info: Dict[str, str]) -> Dict[str, An
     }
     
     # Remove everything before first chapter or section
+    # Also skip table of contents by looking for actual section content (paragraphs with text)
     first_content = re.search(r'(\d+\s+kap\.|^\d+\s+§)', text, re.MULTILINE)
     if first_content:
-        text = text[first_content.start():]
+        # Check if this might be table of contents - look for actual paragraph marker
+        toc_end = re.search(r'1 kap\.[^\n]*\n[^\n]*\n+1\s+§', text[first_content.start():], re.MULTILINE)
+        if toc_end:
+            # Found start of actual content after TOC
+            text = text[first_content.start() + toc_end.start():]
+        else:
+            text = text[first_content.start():]
     
     # Check if law has chapters
     has_chapters = bool(re.search(r'\d+\s+kap\.', text))
