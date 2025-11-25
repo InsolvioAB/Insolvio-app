@@ -1,66 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   View,
   Text,
-  TextInput,
-  TouchableOpacity,
   ScrollView,
   StyleSheet,
-  KeyboardAvoidingView,
-  Platform,
-  Alert,
 } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Ionicons } from '@expo/vector-icons';
-
-const HOME_TEXT_KEY = '@konkurskoll_home_text';
-
-export default function HomeScreen() {
-  const [isEditing, setIsEditing] = useState(false);
-  const [homeText, setHomeText] = useState('');
-  const [tempText, setTempText] = useState('');
-
-  useEffect(() => {
-    loadHomeText();
-  }, []);
-
-  const loadHomeText = async () => {
-    try {
-      const savedText = await AsyncStorage.getItem(HOME_TEXT_KEY);
-      if (savedText !== null) {
-        setHomeText(savedText);
-        setTempText(savedText);
-      } else {
-        // Default text
-        const defaultText = `Välkommen till Konkurskoll
-
-Detta är din personliga startsida där du kan lägga till egna anteckningar, viktiga påminnelser eller annan information som du vill ha lätt tillgänglig.
-
-Tryck på redigera-knappen för att ändra denna text.`;
-        setHomeText(defaultText);
-        setTempText(defaultText);
-      }
-    } catch (error) {
-      console.error('Error loading home text:', error);
-    }
-  };
-
-  const saveHomeText = async () => {
-    try {
-      await AsyncStorage.setItem(HOME_TEXT_KEY, tempText);
-      setHomeText(tempText);
-      setIsEditing(false);
-      Alert.alert('Sparat', 'Din text har sparats');
-    } catch (error) {
-      console.error('Error saving home text:', error);
-      Alert.alert('Fel', 'Kunde inte spara texten');
-    }
-  };
-
-  const handleCancel = () => {
-    setTempText(homeText);
-    setIsEditing(false);
-  };
+import { homeContent } from '../../src/content/homeContent';
 
   return (
     <KeyboardAvoidingView
