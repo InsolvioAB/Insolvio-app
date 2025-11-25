@@ -12,6 +12,7 @@ import mammoth
 from typing import Dict, List, Any, Tuple
 from pathlib import Path
 from final_parser import parse_swedish_law_final
+from docx_direct_parser import parse_docx_directly
 
 # Law information metadata
 LAWS_INFO = {
