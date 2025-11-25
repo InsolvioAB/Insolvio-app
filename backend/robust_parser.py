@@ -54,18 +54,24 @@ def parse_swedish_law(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
     chapter_matches = list(re.finditer(chapter_pattern, text, re.DOTALL | re.IGNORECASE))
     
     for chapter_match in chapter_matches:
-        chapter_num = int(chapter_match.group(1))
+        # Extract chapter number from the match
+        chapter_num_match = re.match(r'(\d+)\s+kap\.', chapter_match.group(0))
+        if not chapter_num_match:
+            continue
+        chapter_num = int(chapter_num_match.group(1))
         chapter_content = chapter_match.group(0)
         
         # Extract chapter title (text between "X kap." and first "Y §")
-        title_match = re.match(r'\d+\s*kap\.\s*(.*?)(?=\d+\s*§|$)', chapter_content, re.DOTALL | re.IGNORECASE)
-        chapter_title = "Kapitel " + str(chapter_num)
+        title_match = re.match(r'\d+\s+kap\.\s*(.*?)(?=\d+\s+§|$)', chapter_content, re.DOTALL)
+        chapter_title = f"Kapitel {chapter_num}"
         if title_match:
             title_text = title_match.group(1).strip()
             # Remove version markers
             title_text = re.sub(r'/[^/]+/', '', title_text).strip()
-            if title_text and len(title_text) > 3 and not title_text.startswith('§'):
-                chapter_title = title_text[:100]
+            # Take only first line or up to 100 chars
+            first_line = title_text.split('\n')[0].strip()
+            if first_line and len(first_line) > 3 and not first_line.startswith('§'):
+                chapter_title = first_line[:100]
         
         # Parse sections within this chapter
         sections = parse_sections_in_chapter(chapter_content, chapter_num)
