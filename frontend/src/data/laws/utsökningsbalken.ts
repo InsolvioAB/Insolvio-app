@@ -15,24 +15,2201 @@ export const utsökningsbalken: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "Fullständig text",
+      "title": "Inledande bestämmelser",
       "sections": [
         {
           "id": "kap-1-§-1",
           "number": 1,
-          "text": "SFS nr: 1981:774Departement/myndighet: Justitiedepartementet L2Utfärdad: 1981-06-25Ändrad: t.o.m. SFS 2024:786Övrig text: SFS 1989:844 ikrafttr.- och överg.best. till 1989:842Ändringsregister: SFSR (Regeringskansliet)Källa: Fulltext (Regeringskansliet) Innehåll: 1 kap. Inledande bestämmelser 2 kap. Förfarandet hos kronofogdemyndigheten 3 kap. Exekutionstitlar 4 kap. Utmätning 5 kap. Undantag från utmätning 6 kap. Säkerställande av utmätning 7 kap. Utmätning av lön m.m. 8 kap. Allmänna bestämmelser om exekutiv försäljning m. m. 9 kap. Försäljning av lös egendom i allmänhet och indrivning av utmätt fordran m. m. 10 kap. Försäljning av registrerat skepp 11 kap. Försäljning av registrerat luftfartyg m. m. 12 kap. Försäljning av fast egendom 13 kap. Redovisning av influtna medel 14 kap. Verkan av exekutiv försäljning m. m. 15 kap. Har upphävts genom lag (1995:298). 16 kap. Annan verkställighet 17 kap. Kostnader 18 kap. Överklagande Övergångsbestämmelser 1 kap. Inledande bestämmelser Tillämpningsområde 1 § Denna balk är tillämplig i fråga om verkställighet av dom eller annan exekutionstitel, som innefattar betalningsskyldighet eller annan förpliktelse, samt i fråga om verkställighet av beslut om kvarstad eller annan liknande säkerhetsåtgärd. Verkställighet som avser betalningsskyldighet sker genom utmätning.Verkställighet som avser annan förpliktelse eller säkerhetsåtgärd sker i den ordning som anges i 16 kap. Lag (1995:298). 2 § Har i annan lag meddelats bestämmelse som avviker från denna balk, gäller den bestämmelsen. Exekutiv myndighet 3 § Verkställighet åvilar Kronofogdemyndigheten. Mål om verkställighet (utsökningsmål) handläggs av kronofogde eller annan tjänsteman hos Kronofogdemyndigheten (förrättningsman).Lag (2006:672). 4 § Mot förrättningsman gäller samma jäv som i 4 kap. rättegångsbalken föreskrivs i fråga om domare. Jäv får ej grundas på åtgärd som förrättningsmannen har vidtagit i tjänsten eller på gärning som har förövats mot honom i eller för hans tjänst. 5 § Känner förrättningsman till omständighet som kan antagas utgöra jäv mot honom, skall han självmant ge det till känna. Har fråga om jäv mot förrättningsman uppkommit och har ej annan trätt i hans ställe, skall kronofogdemyndigheten snarast besluta i jävsfrågan.Förrättningsmannen får själv pröva jävsfrågan endast om annan tjänsteman ej kan träda i hans ställe utan olägligt uppskov. Förrättningsman som är jävig får utan hinder därav vidtaga åtgärd som ej kan uppskjutas utan olägenhet. Vissa föreskrifter om mål och parter m.m. 6 § Utsökningsmål handläggs som enskilt mål eller allmänt mål. Allmänt mål är mål om uttagande av böter, vite, skatt, tull, avgift och andra medel som staten har rätt till och som får utsökas utan föregående dom samt, enligt vad regeringen närmare föreskriver, annan liknande fordran som staten eller en kommun har rätt till. I annan lag kan föreskrivas att även mål om uttagande av någon annan fordran är allmänt mål. Annat mål än som avses i andra stycket är enskilt mål. Lag (1993:893). 7 § Den som begär verkställighet hos kronofogdemyndigheten kallas sökande. I allmänt mål anses staten eller kommun som sökande. Sökandens motpart hos kronofogdemyndigheten benämns svarande eller, i mål som rör fordran mot honom, gäldenär. När viss egendom svarar för fordran, skall vad som sägs om gäldenär i tillämpliga delar gälla ägaren, även om han ej är personligen betalningsskyldig. Den som ej är sökande eller svarande kallas tredje man. Tredje man hos vilken en gäldenär själv har fordran kallas sekundogäldenär. Tillämpning av bestämmelser som rör fartyg, luftfartyg eller fast egendom 8 § Vad som sägs i denna balk om registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg gäller, om ej annat följer av vad som är särskilt föreskrivet, även egendom som utom riket är införd i register motsvarande fartygsregistrets skeppsdel eller luftfartygsregistret eller, beträffande reservdelar, egendom som är intecknad utom riket. Bestämmelserna i 4 kap. 7 § andra stycket och 30 § andra stycket är dock ej tillämpliga på egendom som avses i första stycket. Lag (2001:377). 9 § Med fartyg jämställs fartyg under byggnad. I fråga om skeppsbygge skall härvid vad som sägs om fartygsregistrets skeppsdel i stället avse fartygsregistrets skeppsbyggnadsdel. Lag (2001:377). 10 § Vad som sägs om registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg gäller i tillämpliga delar även andel i och villkorlig rätt till sådan egendom, om ej annat föreskrivs. 11 § Med fast egendom avses fastighet, visst område av fastighet, samfälld mark samt andel i och villkorlig rätt till sådan egendom. Vad som sägs om fast egendom gäller i tillämpliga delar även tomträtt. 12 § Vad som sägs om pantbrev i fastighet gäller i tillämpliga delar även vilandebevis. 2 kap. Förfarandet hos kronofogdemyndigheten Ansökan m.m. 1 § En ansökan om verkställighet görs muntligen eller skriftligen. Ett utslag i mål om betalningsföreläggande eller handräckning verkställs självmant av Kronofogdemyndigheten, om inte sökanden i målet har angett att verkställighet inte ska ske. En ansökan om verkställighet anses gjord när utslaget meddelades. Lag (2021:790). 2 § Sökanden ska ange den åtgärd som han eller hon yrkar. När en ansökan görs ska den exekutionstitel som ligger till grund för ansökan ges in. Om anspråket grundas på ett löpande skuldebrev eller någon annan handling, vars uppvisande utgör villkor för en rätt att kräva betalning eller begära att någon annan förpliktelse fullgörs, ska den handlingen ges in i original. Sökanden behöver inte ge in exekutionstiteln, om den är ett utslag i mål om betalningsföreläggande eller om den är en dom eller ett strafföreläggande som på grund av föreskrift i lag eller annan författning har översänts till Kronofogdemyndigheten från en domstol eller en annan myndighet. Lag (2021:790). 3 § Ett barns ansökan om verkställighet som avser skadestånd på grund av brott får göras av endast en vårdnadshavare, om den andra vårdnadshavaren är gäldenär eller om det annars finns särskilda skäl. Lag (2022:1320). 4 § Har upphävts genom lag (2006:672). 5 § Om en ansökan är så bristfällig att den inte kan läggas till grund för prövning i sak och om sökanden inte följer ett föreläggande att avhjälpa bristen, skall ansökan avvisas. Lag (1993:893). 6 § Beträffande parts behörighet samt ställföreträdare eller ombud för och biträde åt part tillämpas 11 och 12 kap. rättegångsbalken, i den mån ej annat föreskrivs i denna paragraf. Ombud behöver ej styrka sin behörighet genom fullmakt annat än om kronofogdemyndigheten finner det behövligt. Visar ombud eller biträde oskicklighet eller oförstånd eller är han eljest olämplig, får kronofogdemyndigheten avvisa honom som ombud eller biträde i målet. 7 § I 22 § förvaltningslagen (2017:900) finns bestämmelser om hur ankomstdagen för handlingar bestäms. En handling som avser en anmälan eller någon annan åtgärd som ska ske innan utmätt egendom säljs, sammanträde avslutas eller beslut meddelas, anses dock inkommen i rätt tid endast om innehållet i handlingen har hunnit bli känt för förrättningsmannen före nämnda tidpunkt. Lag (2020:920). 8 § Kronofogdemyndigheten får vid behov anlita tolk. Tolk som ej fullgör uppdraget i tjänsten har rätt till ersättning av allmänna medel. I fråga om översättning av ansökan eller annan handling som ej är avfattad på svenska tillämpas 33 kap. 9 § rättegångsbalken. 9 § Underlåter part eller tredje man att fullgöra något som åligger honom i utsökningsmål och finns anledning antaga att han har laga förfall, skall underlåtenheten ej leda till påföljd eller eljest läggas honom till last i målet. Auktion eller bevakningssammanträde skall dock ej inställas annat än om synnerliga skäl föreligger. Har någon förelagts att väcka talan inom viss tid och visar han laga förfall före utgången av den tiden, skall kronofogdemyndigheten sätta ut ny tid. I fråga om vad som skall räknas som laga förfall tillämpas 32 kap. 8 § rättegångsbalken. Förhör 10 § Kronofogdemyndigheten får hålla förhör med svaranden, om det behövs. Svaranden får föreläggas att inställa sig personligen vid vite av högst femtusen kronor. Till ett sådant förhör ska vid behov även sökanden kallas. Sökanden får föreläggas att inställa sig vid påföljd av att hans eller hennes ansökan annars förfaller. Sökanden får föreläggas att inställa sig personligen vid vite av högst femtusen kronor. Lag (2022:799). 11 § Förhör får vid behov hållas med tredje man som är sakägare eller som enligt denna balk är skyldig att lämna upplysningar. Tredje man får föreläggas att inställa sig personligen vid vite av högst femtusen kronor. Lag (2022:799). 12 § Fråga om utdömande av vite som har förelagts enligt 10 eller 11 § prövas av Kronofogdemyndigheten. Om ändamålet med vitet har förfallit, får vitet inte dömas ut. En svarande eller tredje man som har kallats att inställa sig till förhör vid vite får hämtas om han eller hon uteblir från förhöret. Lag (2022:799). 13 § Tredje man som har inställt sig för att höras får tillerkännas skälig ersättning av allmänna medel för inställelsen. 14 § Har vid förhör förebringats uppgift om enskilds personliga eller ekonomiska förhållanden, vars röjande kan antagas medföra att den enskilde eller någon honom närstående lider avsevärd skada eller betydande men, kan kronofogdemyndigheten förordna att uppgiften ej får röjas obehörigen. Tvångsmedel 15 § När Kronofogdemyndigheten enligt 4 kap. 14 eller 15 § eller 16 kap. 9 eller 12 § eller 13 § jämförd med 4 kap. 14 och 15 §§ förelägger svaranden eller tredje man att fullgöra eller underlåta något, får myndigheten föreskriva vite till belopp som finnes behövligt. Fråga om utdömande av vite som har förelagts enligt första stycket prövas, på talan av Kronofogdemyndigheten, av den tingsrätt som enligt 18 kap. 1 § prövar överkla",
-          "references": [
-            "1 §",
-            "10 §",
-            "11 §",
-            "12 §",
-            "13 §",
-            "14 §",
-            "15 §",
-            "15 §§",
-            "18 kap. 1 §",
-            "2 §"
-          ]
+          "text": "Denna balk är tillämplig i fråga om verkställighet av dom eller annan exekutionstitel, som innefattar betalningsskyldighet eller annan förpliktelse, samt i fråga om verkställighet av beslut om kvarstad eller annan liknande säkerhetsåtgärd. Verkställighet som avser betalningsskyldighet sker genom utmätning.Verkställighet som avser annan förpliktelse eller säkerhetsåtgärd sker i den ordning som anges i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-2",
+      "number": 2,
+      "title": "Förfarandet hos kronofogdemyndigheten",
+      "sections": [
+        {
+          "id": "kap-2-§-2",
+          "number": 2,
+          "text": "andra stycket rör i vad mån utmätt pantbrev eller annan inteckningshandling utgör säkerhet för fordran. Förhållandet till tredje man vid utmätning av fast egendom",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-4",
+          "number": 4,
+          "text": "Har upphävts genom lag (2006:672).",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-5",
+          "number": 5,
+          "text": "eller invändning görs mot verkställighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-6",
+          "number": 6,
+          "text": "Beträffande parts behörighet samt ställföreträdare eller ombud för och biträde åt part tillämpas 11 och",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-7",
+          "number": 7,
+          "text": ", skall kronofogdemyndigheten ange hur det skall förfaras med dem om fordringen faller bort helt eller delvis.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-8",
+          "number": 8,
+          "text": "När medel avsätts enligt",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-9",
+          "number": 9,
+          "text": "Om alla berörda sakägare är ense om hur medlen skall fördelas, skall fördelningen ske i enlighet därmed. Särskilda bestämmelser beträffande registrerat skepp, registrerat luftfartyg m. m. och fast egendom",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-10",
+          "number": 10,
+          "text": "När registrerat skepp, registrerat luftfartyg, intecknade reservdelar till luftfartyg eller fastighet har sålts på auktion, skall behållen avkastning av egendomen, ersättning som har influtit med anledning av misslyckat försök att sälja egendomen och tillskott som någon har betalat för att bevara sin rätt vid försäljningen fördelas tillsammans med köpeskillingen för egendomen. Medel som har influtit genom särskild försäljning av tillbehör till fastighet skall fördelas samtidigt som köpeskillingen för fastigheten. Fördelningen skall ske i enlighet med sakägarförteckningen, om det ej framgår att fordran understiger vad som anges i förteckningen. Angående begränsning av inteckningshavares rätt vid försäljning av intecknade reservdelar till luftfartyg finns föreskrift i",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-15",
+          "number": 15,
+          "text": "§ tillämpas även i hovrätten och Högsta domstolen. Bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-16",
+          "number": 16,
+          "text": "§. Förhållandet till tredje man vid utmätning av lös egendom",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-17",
+          "number": 17,
+          "text": "Lös egendom får utmätas, om det framgår att egendomen tillhör gäldenären eller om han enligt 18 eller",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-18",
+          "number": 18,
+          "text": "Gäldenären anses vara ägare till lös egendom som han har i sin besittning, om det ej framgår att egendomen tillhör annan. I fråga om registrerat skepp eller registrerat luftfartyg gäller dock att egendomen anses tillhöra gäldenären, om denne är inskriven som ägare och det ej framgår att egendomen tillhör annan.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-19",
+          "number": 19,
+          "text": "skall anses vara ägare.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-20",
+          "number": 20,
+          "text": "Utmäts lös egendom enligt 17, 18 eller",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-21",
+          "number": 21,
+          "text": "Sedan utmätt lös egendom har sålts eller utmätt fordran har drivits in, gäller",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-22",
+          "number": 22,
+          "text": "Kan viss lös egendom ej utmätas enligt 17-",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-23",
+          "number": 23,
+          "text": "Har fordran eller annan rättighet blivit utmätt och råder ovisshet om fordringens eller rättighetens bestånd, skall kronofogdemyndigheten, om skäl föreligger, förelägga sökanden att inom en månad från det att föreläggandet delgavs honom väcka talan i saken mot tredje mannen.Efterkommer sökanden ej föreläggandet, skall utmätningen hävas, om ej tredje mannen inom den angivna tiden har väckt talan i saken mot sökanden. Första stycket gäller även när ovissheten i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-24",
+          "number": 24,
+          "text": "Fast egendom får utmätas, om det framgår att egendomen tillhör gäldenären. Har gäldenären lagfart på egendomen, får utmätning ske, om det ej framgår att egendomen tillhör annan.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-25",
+          "number": 25,
+          "text": "När överlåtelse av fast egendom beror av villkor som ännu ej är uppfyllt, hindrar ej överlåtelsen att egendomen utmäts för fordran hos överlåtaren. Utmätningen omfattar i sådant fall även överlåtarens rätt mot den som har förvärvat egendomen. Uppfylls villkoret, gäller utmätningen därefter endast överlåtarens rätt mot förvärvaren. Utmätning av fast egendom får även äga rum för fordran hos den som har förvärvat egendomen, fastän hans förvärv beror av villkor. Återgår hans förvärv, omfattar utmätningen därefter endast den rätt som han i sådant fall har mot den som överlät egendomen.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-26",
+          "number": 26,
+          "text": "Utmäts fast egendom och påstår tredje man bättre rätt till egendomen, gäller vad som sägs i 20 och",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-28",
+          "number": 28,
+          "text": "Medel vilka gäldenären betalar till kronofogdemyndigheten i anhängigt mål anses omedelbart utmätta i målet, om betalningen ej har skett med villkor som strider häremot. Verkan av utmätning",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-29",
+          "number": 29,
+          "text": "När utmätning har beslutats, får gäldenären ej till skada för sökanden förfoga över egendomen genom överlåtelse eller på annat sätt, om ej kronofogdemyndigheten efter hörande av sökanden medger det av särskilda skäl. Första stycket utgör ej hinder mot pantsättning av pantbrev eller annan inteckningshandling som gäller i egendomen. Om förbud mot pantsättning av sådan handling när den har tagits i förvar av kronofogdemyndigheten finns bestämmelser i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-3",
+      "number": 3,
+      "title": "Kapitel 3",
+      "sections": [
+        {
+          "id": "kap-3-§-1",
+          "number": 1,
+          "text": "Verkställighet får under de förutsättningar som anges i detta kapitel ske på grund av följande exekutionstitlar: 1. domstols dom, utslag eller beslut, 2. förlikning som är stadfäst av en domstol och medlingsöverenskommelse som har förklarats verkställbar av en domstol, 3. godkänt strafföreläggande, godkänt föreläggande av ordningsbot eller godkänt avgiftsföreläggande, 4. skiljedom eller beslut om avskrivning av ett skiljeförfarande, 5. förbindelse angående underhållsbidrag, 6. förvaltningsmyndighets beslut som a) innefattar betalningsskyldighet, förutsatt att beslutet får överklagas i annan ordning än den som gäller för laglighetsprövning enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-2",
+          "number": 2,
+          "text": "Genom utmätning får tagas i anspråk egendom som ej är undantagen på grund av bestämmelse i denna balk eller på grund av särskild föreskrift.I den mån pantbrev i skepp eller fastighet ej utgör säkerhet för fordran får det utmätas hos den intecknade egendomens ägare. Motsvarande gäller skuldebrev som är intecknat i luftfartyg eller reservdelar till luftfartyg. För utmätning av lön och vissa andra förmåner gäller enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-3",
+          "number": 3,
+          "text": "Utmäts annan fordran eller rättighet än som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "konkurslagen (1987:672), om lönen innehållits under konkursen, 3. fordran som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-5",
+          "number": 5,
+          "text": "Har tredje man eller sökanden enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-6",
+          "number": 6,
+          "text": "och exekutionstiteln ej har vunnit laga kraft eller utmätning har skett på grund av utslag eller beslut i mål om betalningsföreläggande eller handräckning och gäldenären har sökt återvinning eller överklagat, 2. utmätning har skett hos dödsbo för fordran som ej var förenad med särskild förmånsrätt i egendomen och den tid som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-7",
+          "number": 7,
+          "text": "konkurslagen (1987:672) att det skall handläggas vidare i den del som avser utmätning i egendomen. Pågår löneutmätning gäller",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-8",
+          "number": 8,
+          "text": "konkurslagen. Detsamma gäller för åtgärder mot arbetsgivare enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-9",
+          "number": 9,
+          "text": "§ lagen (1993:891) om indrivning av statliga fordringar m.m. Bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-10",
+          "number": 10,
+          "text": "andra stycket skall inte tillämpas i ett allmänt mål. Bestämmelser om uppskov i allmänna mål finns i 7-",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-11",
+          "number": 11,
+          "text": "skall inte tillämpas i allmänt mål om Kronofogdemyndigheten har avbrutit indrivningen enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-12",
+          "number": 12,
+          "text": "Kan utmätning av viss lös egendom ej ske genast, får kronofogdemyndigheten likväl vid behov taga egendomen i förvar eller vidtaga annan åtgärd som anges i 1-",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-13",
+          "number": 13,
+          "text": "I övrigt anges i sakägarförteckningen 1. sammanlagda beloppet av fordringar med bättre rätt än exekutionsfordringen och förrättningskostnaderna (skyddsbeloppet) samt vilka fordringar som är skyddade, 2. det lägsta bud som måste avges för att skeppet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-14",
+          "number": 14,
+          "text": "skall få säljas, 3. betalningsvillkoren. Villkor för försäljning",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-15",
+          "number": 15,
+          "text": "Avdrag för preliminär skatt har företräde framför utmätning av lön. En fordran enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-16",
+          "number": 16,
+          "text": "gäller om domstols behörighet vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-17",
+          "number": 17,
+          "text": "Bor gäldenären varaktigt tillsammans med sin make och överstiger underhållsbidrag till maken eller till makarnas barn vad som skäligen bör tillkomma den underhållsberättigade, får bidraget vid tillämpningen av 14 och",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-18",
+          "number": 18,
+          "text": "Innan skeppet ropas ut skall redogörelse lämnas för innehållet i sakägarförteckningen. Upplysning skall lämnas om att skeppet ropas ut med förbehåll att inrop skall prövas enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-19",
+          "number": 19,
+          "text": "Innan inrop godtas skall kronofogdemyndigheten pröva, om det i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-20",
+          "number": 20,
+          "text": "Sedan inrop har godtagits skall inroparen omedelbart lämna föreskriven handpenning. Kronofogdemyndigheten kan dock på begäran göra ett kort uppehåll i handläggningen för att bereda inroparen tillfälle att anskaffa handpenning, om uppehållet ej kan antagas medföra beaktansvärd olägenhet. Lämnas ej handpenning, skall skeppet ropas ut på nytt. Fullgör ej inroparen sin betalningsskyldighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-21",
+          "number": 21,
+          "text": "för dock sökanden själv sin talan. I tvister som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-22",
+          "number": 22,
+          "text": "andra stycket, eller",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-23",
+          "number": 23,
+          "text": "Köparen skall fullgöra sin betalningsskyldighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-26",
+          "number": 26,
+          "text": "När säkerhet ska tas i anspråk av Kronofogdemyndigheten enligt",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-31",
+          "number": 31,
+          "text": "Utmätning ger kronofogdemyndigheten rätt att vidtaga de åtgärder beträffande egendomen som behövs för att sökandens rätt skall tagas till vara. Kronofogdemyndigheten har härvid samma befogenheter som annars tillkommer egendomens ägare. Myndigheten får dock ej väcka talan vid domstol eller svara i mål angående egendomen.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-32",
+          "number": 32,
+          "text": "Har upphävts genom lag (2006:672). Hävande av utmätning och annan rättelse",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-33",
+          "number": 33,
+          "text": "att viss egendom ej borde ha utmätts, skall rättelse ske. Sådan rättelse får dock ej vidtagas senare än två veckor från utmätningsbeslutet.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-34",
+          "number": 34,
+          "text": "Finner kronofogdemyndigheten av annat skäl än som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-35",
+          "number": 35,
+          "text": "Kronofogdemyndigheten skall, om ej särskilda skäl föranleder annat, höra sökanden innan rättelse sker enligt 33 eller",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-36",
+          "number": 36,
+          "text": "Bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-41",
+          "number": 41,
+          "text": "andra stycket andra meningen sjölagen (1994:1009). Panträtt på grund av inteckning får ej åtnjutas för mer än pantbrevets belopp jämte tillägg enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-4",
+      "number": 4,
+      "title": "rättegångsbalken föreskrivs i fråga om domare. Jäv får ej grundas på åtgärd som förrättningsmannen h",
+      "sections": [
+        {
+          "id": "kap-4-§-1",
+          "number": 1,
+          "text": "Utmätning får äga rum när verkställighet som avser betalningsskyldighet är medgiven enligt",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-2",
+          "number": 2,
+          "text": "Pengar samt löpande skuldebrev och annan handling, vars uppvisande utgör villkor för rätt att kräva betalning eller begära att någon annan förpliktelse fullgörs, ska tas i förvar. Utmäts pantbrev i skepp eller fastighet eller skuldebrev som är intecknat i luftfartyg eller reservdelar till luftfartyg hos den intecknade egendomens ägare, ska pantbrevet eller inteckningshandlingen tas i förvar. Om beslutet om utmätning av pantbrev avser ett datapantbrev, ska Kronofogdemyndigheten begära att den statliga lantmäterimyndigheten beslutar att sådana registreringsåtgärder som anges i 7-",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-3",
+          "number": 3,
+          "text": "första stycket förlorat sin rätt till här i landet registrerat skepp eller luftfartyg som registrerats i inskrivningsregistret för luftfartyg, är han berättigad till ersättning av staten enligt samma bestämmelser som gäller när sådan ersättning skall betalas med anledning av att ägarens rätt har gått förlorad genom frivillig försäljning.Motsvarande gäller, när tredje man enligt",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-4",
+          "number": 4,
+          "text": "tredje stycket i detta kapitel. Pågår i annat fall rättegång om utmätt egendom, får kronofogdemyndigheten ge det anstånd med försäljningen som är påkallat av omständigheterna.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-5",
+          "number": 5,
+          "text": "Känner förrättningsman till omständighet som kan antagas utgöra jäv mot honom, skall han självmant ge det till känna. Har fråga om jäv mot förrättningsman uppkommit och har ej annan trätt i hans ställe, skall kronofogdemyndigheten snarast besluta i jävsfrågan.Förrättningsmannen får själv pröva jävsfrågan endast om annan tjänsteman ej kan träda i hans ställe utan olägligt uppskov. Förrättningsman som är jävig får utan hinder därav vidtaga åtgärd som ej kan uppskjutas utan olägenhet. Vissa föreskrifter om mål och parter m.m.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-6",
+          "number": 6,
+          "text": "När utmätning har skett hos dödsbo, får egendomen ej utan dödsboets samtycke säljas innan en månad har förflutit från det att bouppteckning förrättades eller tiden för förrättandet gick ut eller, om boet förvaltas av boutredningsman, innan uppgörelse har skett med borgenärerna. Försäljning får dock ske, om sökanden har särskild förmånsrätt i egendomen på annan grund än utmätningen eller om egendomen är sådan som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-7",
+          "number": 7,
+          "text": "Den som begär verkställighet hos kronofogdemyndigheten kallas sökande. I allmänt mål anses staten eller kommun som sökande. Sökandens motpart hos kronofogdemyndigheten benämns svarande eller, i mål som rör fordran mot honom, gäldenär. När viss egendom svarar för fordran, skall vad som sägs om gäldenär i tillämpliga delar gälla ägaren, även om han ej är personligen betalningsskyldig. Den som ej är sökande eller svarande kallas tredje man. Tredje man hos vilken en gäldenär själv har fordran kallas sekundogäldenär. Tillämpning av bestämmelser som rör fartyg, luftfartyg eller fast egendom",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-8",
+          "number": 8,
+          "text": "Vad som sägs i denna balk om registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg gäller, om ej annat följer av vad som är särskilt föreskrivet, även egendom som utom riket är införd i register motsvarande fartygsregistrets skeppsdel eller luftfartygsregistret eller, beträffande reservdelar, egendom som är intecknad utom riket. Bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-9",
+          "number": 9,
+          "text": "anses ha kommit in till kronofogdemyndigheten på dagen för ikraftträdandet. 5. En ansökan om införsel som har gjorts före ikraftträdandet skall anses som en ansökan om utmätning med begäran om begränsad tillgångsundersökning enligt",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-10",
+          "number": 10,
+          "text": "Vad som sägs om registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg gäller i tillämpliga delar även andel i och villkorlig rätt till sådan egendom, om ej annat föreskrivs.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-11",
+          "number": 11,
+          "text": "Med fast egendom avses fastighet, visst område av fastighet, samfälld mark samt andel i och villkorlig rätt till sådan egendom. Vad som sägs om fast egendom gäller i tillämpliga delar även tomträtt.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-12",
+          "number": 12,
+          "text": "Vad som sägs om pantbrev i fastighet gäller i tillämpliga delar även vilandebevis.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-13",
+          "number": 13,
+          "text": "Om säkerställande av utmätning av fast egendom och om nyttjande av sådan egendom finns bestämmelser i",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-14",
+          "number": 14,
+          "text": "Vid utmätning av lön har följande fordringar i nämnd ordning företräde framför andra fordringsanspråk: 1. fordran som avser underhållsbidrag enligt äktenskapsbalken och föräldrabalken, 2. konkursbos fordran på gäldenärens lön enligt",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-15",
+          "number": 15,
+          "text": "§ förelägger svaranden eller tredje man att fullgöra eller underlåta något, får myndigheten föreskriva vite till belopp som finnes behövligt. Fråga om utdömande av vite som har förelagts enligt första stycket prövas, på talan av Kronofogdemyndigheten, av den tingsrätt som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-16",
+          "number": 16,
+          "text": "Bestämmelserna i 14 och",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-20",
+          "number": 20,
+          "text": "har förlorat sin rätt mot sökanden.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-22",
+          "number": 22,
+          "text": "första och tredje styckena, 24, 25 och 33-",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-23",
+          "number": 23,
+          "text": "första stycket eller",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-25",
+          "number": 25,
+          "text": ", skall förvärvaren eller, när utmätning sker hos förvärvaren, överlåtaren underrättas och förbud meddelas honom att till annan än kronofogdemyndigheten eller den som myndigheten anvisar betala eller återbetala köpeskilling eller utge annat som på grund av avtalet kan tillkomma gäldenären.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-26",
+          "number": 26,
+          "text": "i fall då tvisten rör egendom som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-27",
+          "number": 27,
+          "text": "anses utmätta, skall åtgärd för säkerställande ej utan särskilt yrkande vidtagas innan försäljning har begärts.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-29",
+          "number": 29,
+          "text": ". Åtgärden får ej bestå längre än som är nödvändigt. Har utmätning ej följt inom två veckor, skall åtgärden hävas. Biträde av Polismyndigheten",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-34",
+          "number": 34,
+          "text": "eller av kvarstad för fordran enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-5",
+      "number": 5,
+      "title": "Undantag från utmätning",
+      "sections": [
+        {
+          "id": "kap-5-§-1",
+          "number": 1,
+          "text": "Från utmätning undantas 1. kläder och andra föremål som tjänar uteslutande till gäldenärens personliga bruk, till skäligt värde, 2. möbler, husgeråd och annan utrustning, i den mån egendomen är nödvändig för ett hem och dess skötsel, 3. arbetsredskap och annan utrustning som behövs för gäldenärens förvärvsverksamhet eller yrkesutbildning samt djur, foder och sådant som i övrigt behövs för hans försörjning, allt till skäligt värde, 4. föremål med sådant övervägande personligt värde för gäldenären att det måste anses uppenbart obilligt att taga egendomen i anspråk, 5. hyresrätt till lägenhet som tjänar gäldenären till stadigvarande bostad eller behövs för hans förvärvsverksamhet, även om hyresrätten får överlåtas, 6. bostadsrätt till lägenhet som tjänar gäldenären till stadigvarande bostad, såvida ej gäldenären vid förvärv av bostadsrätten har åsidosatt tillbörlig hänsyn mot sina borgenärer eller det med hänsyn till gäldenärens behov och bostadsrättens värde är oskäligt att bostadsrätten undantas från utmätning, 7. pengar, banktillgodohavande, annan fordran och förnödenheter, i den mån annat ej är föreskrivet och tillgången skäligen fordras för underhåll åt gäldenären till dess inkomst som täcker behovet är att vänta, dock ej utan synnerliga skäl för längre tid än en månad.",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-2",
+          "number": 2,
+          "text": "När gäldenären har familj, bestäms vad som får undantagas enligt",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-3",
+          "number": 3,
+          "text": "Vid utmätning hos dödsbo gäller 1 och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-6",
+      "number": 6,
+      "title": "Här i riket registrerat skepp eller luftfartyg får dock utmätas även om hinder mot säkerställande av",
+      "sections": [
+        {
+          "id": "kap-6-§-1",
+          "number": 1,
+          "text": "Utmätning av lös egendom skall säkerställas enligt vad som sägs i detta kapitel. Säkerställande enligt 2-",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-3",
+          "number": 3,
+          "text": "jordabalken. Understiger fordringen pantbrevets belopp, upptas återstoden som ägarhypotek. Om i fastigheten gäller pantbrev som ej innehas av ägaren och någon fordran för vilken pantbrevet utgör säkerhet ej har blivit anmäld, upptas pantbrevets belopp och ett till tio procent av detta belopp beräknat tillägg. Ägarhypotek upptas utan tillägg enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-4",
+          "number": 4,
+          "text": "andra stycket och",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-8",
+          "number": 8,
+          "text": "Har upphävts genom lag (2006:672).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-9",
+          "number": 9,
+          "text": "Om gäldenären under handläggningstiden försätts i konkurs, skall målets handläggning avbrytas. Gäller målet en fordran med panträtt i viss egendom, följer det av",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-12",
+          "number": 12,
+          "text": "jordabalken får meddelas på begäran av köparen. Har fastighet sålts i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-27",
+          "number": 27,
+          "text": "första, tredje och fjärde styckena,",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-28",
+          "number": 28,
+          "text": "Rättighet upptas utan att något belopp anges.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-29",
+          "number": 29,
+          "text": "I övrigt anges i sakägarförteckningen 1. sammanlagda beloppet av fordringar med bättre rätt än exekutionsfordringen och förrättningskostnaderna (skyddsbeloppet) samt vilka fordringar som är skyddade, 2. i vad mån behållen köpeskilling för tillbehör skall användas för betalning av fordringar som har upptagits i förteckningen, 3. det lägsta bud som måste avges för att fastigheten enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-30",
+          "number": 30,
+          "text": "I sakägarförteckningen skall i förekommande fall erinras om 1. verkan av underlåten uppsägning av arrende- eller hyresavtal i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-31",
+          "number": 31,
+          "text": "Om försäljningen enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-32",
+          "number": 32,
+          "text": "skall få säljas, 4. vilka rättigheter som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-33",
+          "number": 33,
+          "text": "första stycket är skyddade utan förbehåll eller enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-35",
+          "number": 35,
+          "text": ". Återstoden av den kontanta köpeskillingen skall betalas senast tio veckor efter det att köpehandlingen upprättades.Försummas det, är köpet ogiltigt. Blir köpet ogiltigt, gäller bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-36",
+          "number": 36,
+          "text": "tredje stycket har medgivit ägaren.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-37",
+          "number": 37,
+          "text": "skall ske på avvikande villkor, upprättas sakägarförteckningen i enlighet därmed. Villkor för försäljning på auktion",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-38",
+          "number": 38,
+          "text": "första stycket samt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-39",
+          "number": 39,
+          "text": "även vid det gemensamma utropet. Vid tillämpning av",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-40",
+          "number": 40,
+          "text": "skall prövningen huruvida avsevärt högre köpeskilling kan uppnås avse den sammanlagda köpeskillingen för samtliga fastigheter som har ropats in vid auktionen. Handpenning skall lämnas efter varje inrop, även om inropad fastighet skall ropas ut på nytt. Om inropet ej skall bestå, återlämnas handpenningen. Fordran som på grund av gemensam inteckning är förenad med panträtt i såld fastighet betalas kontant, om ej köparen och den som enligt sakägarförteckningen är betalningsberättigad avtalar annat. Fortsatt inteckningsansvar",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-43",
+          "number": 43,
+          "text": "om handpenning. Vad som sägs om auktion i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-45",
+          "number": 45,
+          "text": "om vissa rättsföljder och",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-46",
+          "number": 46,
+          "text": "andra stycket samt rätt till förlängt avtal eller skadestånd som enligt lag tillkommer arrendator eller hyresgäst om han blir uppsagd med anledning av fastighetens försäljning, 2. rätt att bo kvar såsom hyresgäst som enligt lag tillkommer bostadsrättshavare, 3. rätt att bo kvar på fastigheten som kronofogdemyndigheten enligt",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-47",
+          "number": 47,
+          "text": ". Köparen skall lämna handpenning enligt vad som föreskrivs i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-49",
+          "number": 49,
+          "text": ", skall den ursprungligen utmätta fastigheten ropas ut först. Om därvid ej uppnås bud som förslår till betalning av någon del av exekutionsfordringen, får fastigheten ej säljas. Blir den ej såld, skall ej heller den indragna fastigheten säljas. Fastighet som endast i andra hand svarar för fordran med panträtt på grund av gemensam inteckning får ej säljas för den fordringen innan det har visat sig att betalning ej kan utgå ur den fastighet som svarar i första hand. I andra hand ansvarig fastighet får ej heller säljas, om dess ägare eller annan sakägare betalar den brist för vilken fastigheten skall svara eller ställer säkerhet för beloppet. Gemensamt utrop av fastigheterna behöver ej ske annat än om särskilda skäl föreligger.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-54",
+          "number": 54,
+          "text": "Vid auktionen skall fastigheterna ropas ut var för sig. Därefter skall de ropas ut gemensamt, om de har samma ägare. Efterföljande gemensamt utrop skall även eljest äga rum, om full betalning ej har uppnåtts för fordran för vilken samtliga fastigheter svarar eller fastigheternas ägare är ense om att de skall ropas ut gemensamt. Uppnås vid gemensamt utrop högre bud än summan av buden vid de särskilda utropen, skall budet vid det gemensamma utropet ha företräde. Den köpeskilling som har bjudits vid det gemensamma utropet skall fördelas på fastigheterna efter de värden som har åsatts dem i målet. Fastighets andel i den gemensamma köpeskillingen utgör dock minst vad som har bjudits för den fastigheten vid särskilt utrop. Har någon av fastigheterna ropats ut med tillbehör som ej ingick i det värde efter vilket dess andel i köpeskillingen skall beräknas eller ropats ut utan tillbehör som omfattades av nämnda värde, skall den fastighetens värde vid tillämpningen av det sagda jämkas efter vad som påkallas av nämnda förhållande. Uppgår i fråga om någon av fastigheterna dess andel i köpeskillingen och andra tillgängliga medel ej till skyddsbeloppet och skall därför frågan om den fastighetens försäljning förfalla, skall de övriga fastigheterna ropas ut gemensamt. Uppnås ej bud som förslår till betalning av någon del av exekutionsfordringen, får ej någon av fastigheterna säljas. Har fastighet indragits i försäljningen med stöd av",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-55",
+          "number": 55,
+          "text": "Om rättighet har förbehållits vid särskilt utrop, skall förbehållet gälla även vid efterföljande gemensamt utrop. Har rättigheten ej förbehållits vid det särskilda utropet, tillämpas",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-56",
+          "number": 56,
+          "text": "Sådant förordnande av kronofogdemyndigheten om fortsatt inteckningsansvar som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-58",
+          "number": 58,
+          "text": "Vid försäljning under hand skall en sakägarförteckning upprättas. Därvid tillämpas 25 och",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-59",
+          "number": 59,
+          "text": "Innan fastigheten bjuds ut till försäljning under hand skall ägaren och sökanden ges tillfälle att yttra sig. Innehavare av sådana fordringar och rättigheter som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-60",
+          "number": 60,
+          "text": "Om inte något annat följer av",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-61",
+          "number": 61,
+          "text": "Säljs ej egendomen under hand, skall den bjudas ut till försäljning på auktion, om ej sökanden avstår därifrån. Försäljning av villkorlig rätt till fastighet eller av andel i fastighet m. m.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-62",
+          "number": 62,
+          "text": "Bestämmelserna i 3-",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-63",
+          "number": 63,
+          "text": "Har, i fall då överlåtelse av fastighet är beroende av villkor, fastigheten blivit utmätt för fordran hos överlåtaren, får försäljning ej ske förrän det visar sig om villkoret uppfylls. Vad som sägs i första stycket gäller också om del av fastighet genom överlåtelse har kommit i särskild ägares hand och fastigheten har blivit utmätt för fordran hos överlåtaren innan fastighetsbildning som enligt lag utgör villkor för överlåtelsens giltighet har kommit till stånd.Skulle det medföra betydande tidsutdräkt att avvakta huruvida fastighetsbildningen kommer till stånd, får dock fastigheten säljas med förbehåll för den rätt som tillkommer förvärvaren. Försäljningen omfattar då även gäldenärens rätt mot förvärvaren. Köparen svarar för gäldenärens skyldigheter mot förvärvaren.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-64",
+          "number": 64,
+          "text": "Har, i fall då förvärv av fastighet eller del av fastighet är beroende av villkor, egendomen blivit utmätt för fordran hos förvärvaren, skall kronofogdemyndigheten bjuda ut gäldenärens rätt till egendomen till försäljning i den ordning som gäller för exekutiv försäljning av utmätt rättighet. Kommer försäljning till stånd, svarar köparen för gäldenärens skyldigheter mot sin fångesman. Ansökan om inteckning, som har gjorts samma dag som utmätningen eller senare, förfaller genom försäljningen, om ej kronofogdemyndigheten på begäran av köparen förordnar annat. Kan det utan betydande tidsutdräkt avvaktas om det för förvärvet gällande villkoret uppfylls, kan anstånd med försäljningen medges tills det visar sig om så blir fallet. Uppfylls villkoret, sker försäljning i den ordning som i allmänhet gäller för exekutiv försäljning av fast egendom. När försäljning som har skett enligt första stycket har vunnit laga kraft och köparen har fullgjort sin betalningsskyldighet, utfärdar kronofogdemyndigheten köpehandling.",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-65",
+          "number": 65,
+          "text": "Bestämmelserna i 63 och",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-66",
+          "number": 66,
+          "text": "Om villkoret uppfylls i fall som avses i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-7",
+      "number": 7,
+      "title": "särskilda villkor.",
+      "sections": [
+        {
+          "id": "kap-7-§-1",
+          "number": 1,
+          "text": "första stycket 3 eller 4 och blir därefter rättigheten som sådan utmätt för annan fordran, har den förra fordringen företräde till betalning ur vad som flyter in till följd av den senare utmätningen. I fråga om fordran med företrädesrätt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-2",
+          "number": 2,
+          "text": "Vad som föreskrivs om utmätning av lön gäller även utmätning av annan förmån som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-3",
+          "number": 3,
+          "text": "Utmätning skall ske endast om det belopp som kan beräknas flyta in, efter avdrag för kostnader som uppkommer efter utmätningen, ger ett överskott som gör åtgärden försvarlig. Av utmätningsbar egendom bör i första hand tagas i anspråk sådan tillgång som kan användas till fordringens betalning med minsta kostnad, förlust eller annan olägenhet för gäldenären, om ej annat följer av 4--",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-4",
+          "number": 4,
+          "text": "Sökande, vars fordran är förenad med särskild förmånsrätt, har rätt att i första hand få utmätning av egendom vari förmånsrätten gäller.Annan tillgång får ej utmätas för fordringen, om det är till skada för annan sökande, såvida ej utmätning sker på villkor att betalning i första hand skall utgå ur den egendom vari förmånsrätten gäller.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-5",
+          "number": 5,
+          "text": "Registrerat skepp, registrerat luftfartyg, intecknade reservdelar till luftfartyg eller fast egendom får endast om sökanden begär det utmätas för fordran som ej är förenad särskild förmånsrätt i egendomen.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-6",
+          "number": 6,
+          "text": "Tillgångar som hör samman får ej skiljas utan särskilda skäl. Tillbehör till fartyg, luftfartyg eller fastighet får ej utmätas särskilt för sig. Omfattar inteckning i luftfartyg även reservdelar, får ej någon av de på viss plats förvarade reservdelarna utmätas särskilt för sig utan inteckningshavarens samtycke.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-7",
+          "number": 7,
+          "text": "Lös egendom får utmätas endast om egendomen är tillgänglig vid förrättningen eller om egendomen ändå på grund av registrering, upplysningar vid förhör eller annan utredning kan identifieras och hinder ej kan antagas möta mot säkerställande av utmätningen enligt vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-8",
+          "number": 8,
+          "text": "Handling, som ej är nämnd i 2 eller",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-9",
+          "number": 9,
+          "text": "Har upphävts genom lag (2007:277).",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-10",
+          "number": 10,
+          "text": "Utöver vad som följer av 1-",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-11",
+          "number": 11,
+          "text": "Har två eller flera sökt utmätning mot samma gäldenär, ska utmätning för fordringarna ske samtidigt, om inte utmätning för någon av fordringarna därigenom fördröjs oskäligt. Om utmätningen avser ersättning enligt 2-",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-12",
+          "number": 12,
+          "text": "Innan utmätning sker skall underrättelse om målet sändas till gäldenären med posten eller lämnas på annat lämpligt sätt.Underrättelsen skall ske så tidigt att gäldenären kan beräknas få tillräcklig tid att bevaka sin rätt. Föreligger risk att gäldenären skaffar undan eller förstör egendom eller är saken eljest brådskande, behöver gäldenären ej underrättas.Underrättelse behövs ej heller, om gäldenären saknar känt hemvist och det ej har kunnat klarläggas var han uppehåller sig.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-13",
+          "number": 13,
+          "text": "Utmätning får ske utan hinder av att gäldenären ej är närvarande, om det ej behövs att han får tillfälle att yttra sig vid förrättningen.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-14",
+          "number": 14,
+          "text": "Gäldenären skall lämna de uppgifter som är tillgängliga för honom och som behövs för kronofogdemyndighetens prövning av vad som bör undantagas från utmätning. Myndigheten skall förfara efter vad som är känt eller kan utrönas utan omgång.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-15",
+          "number": 15,
+          "text": "Anvisar gäldenären viss egendom till utmätning, hindrar bestämmelserna om förbud mot utmätning i 1-",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-16",
+          "number": 16,
+          "text": "Bestämmelser om förhör med gäldenären eller tredje man och om tvångsmedel i samband med att upplysningar begärs av gäldenären eller tredje man finns i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-17",
+          "number": 17,
+          "text": "för att han skall få lyfta medlen, får dessa mot säkerhet betalas ut till den som i andra hand är berättigad till dem, om ej särskilda skäl föreligger.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-18",
+          "number": 18,
+          "text": "Har utmätning för fordran med företrädesrätt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-19",
+          "number": 19,
+          "text": ". Egendom som har utmätts före konkursen får säljas och influtna medel redovisas i den utsträckning som följer av",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-20",
+          "number": 20,
+          "text": "§ jordabalken. Underlåter köpare att fullgöra tidigare ägares skyldigheter mot rättighetshavare enligt",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-21",
+          "number": 21,
+          "text": "Bestämmelserna i 1, 13, 14 och",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-22",
+          "number": 22,
+          "text": "Arbetar gäldenären i annans förvärvsverksamhet utan lön eller mot uppenbart för låg ersättning och kan utmätning därför inte ske eller ske endast med för lågt belopp, får kronofogdemyndigheten ålägga arbetsgivaren att, för tid efter det att beslut därom har meddelats och till dess annat beslutas, till myndigheten utge så mycket som hade kunnat tas ut genom utmätning, om skälig lön hade betalats för arbetet. Innan ett sådant beslut meddelas skall gäldenären och arbetsgivaren ges tillfälle att yttra sig. En åtgärd som avses i första stycket räknas som utmätning av lön.Underlåter arbetsgivaren att utge belopp som har bestämts genom beslutet, gäller vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-23",
+          "number": 23,
+          "text": "Har arbetsgivaren innehållit medel vid utmätning av lön i allmänt mål för fordran som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-35",
+          "number": 35,
+          "text": "fjärde stycket även om auktionen överklagas. Utan hinder av att auktionen överklagas får köparen tillträda fastigheten på den bestämda dagen, om ej dessförinnan annat har förordnats enligt",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-46",
+          "number": 46,
+          "text": "första stycket, gäller i fråga om skyldighet för tidigare ägare att ersätta rättighetshavaren dennes skada vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-48",
+          "number": 48,
+          "text": "Köparen skall fullgöra sin betalningsskyldighet enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-8",
+      "number": 8,
+      "title": "Allmänna bestämmelser om exekutiv försäljning m. m.",
+      "sections": [
+        {
+          "id": "kap-8-§-1",
+          "number": 1,
+          "text": "Utmätt egendom säljs genom kronofogdemyndighetens försorg. I",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-3",
+          "number": 3,
+          "text": ". Utlösnings- och anslutningsrätt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-4",
+          "number": 4,
+          "text": "Borgenär eller annan vars rätt kan vara beroende av skeppets försäljning får utlösa sökanden. Han träder därigenom i sökandens ställe. Den som vill utlösa sökanden skall, innan skeppet har sålts, till kronofogdemyndigheten betala exekutionsfordringen och uppkomna förrättningskostnader.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-5",
+          "number": 5,
+          "text": "Borgenär, vars fordran är förenad med sjöpanträtt i skeppet, kan begära att detta säljs för hans fordran, om hans rätt till betalning är ostridig eller styrks. Hör skeppet till konkursbo, har även borgenär, vars fordran är förenad med panträtt på grund av inteckning, retentionsrätt eller förmånsrätt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-6",
+          "number": 6,
+          "text": "Auktion skall kungöras i god tid och på lämpligt sätt. Kungörelsen skall innehålla uppgift om sammanträde för fördelning av köpeskillingen.Innehavare av fordran som bör iakttagas vid auktionen skall i kungörelsen uppmanas att anmäla sin rätt till kronofogdemyndigheten senast vid auktionen.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-7",
+          "number": 7,
+          "text": "§, skall den inställas och ny tid sättas ut, om bristen är väsentlig och ej kan avhjälpas på annat sätt. Förhandling och sakägarförteckning",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-8",
+          "number": 8,
+          "text": "Har auktionen ej blivit utlyst så som anges i 6 och",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-9",
+          "number": 9,
+          "text": "Vid början av auktionen skall kronofogdemyndigheten lämna en kortfattad redogörelse för innehållet i handlingarna och för vidtagna åtgärder. Innehavare av fordran som bör iakttagas vid auktionen skall uppmanas att anmäla den. Har sådan fordran anmälts hos kronofogdemyndigheten före auktionen, skall det meddelas. Närvarande sakägare skall beredas tillfälle att yttra sig om anmälda anspråk och de villkor som skall gälla för försäljningen. När förhandlingen har avslutats, upprättas sakägarförteckning.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-10",
+          "number": 10,
+          "text": "förmånsrättslagen (1970:979), sådan befogenhet. Skall arvode eller annan kostnad för skeppets förvaltning under konkurs utgå ur skeppet, kan förvaltaren begära att det säljs för den fordringen. Om borgenär, vars fordran är förenad med sjöpanträtt i skeppet, har begärt att det säljs för hans fordran, får förfarandet ej läggas ned därför att frågan om försäljning för annan borgenärs eller konkursboets räkning förfaller. I fråga om rätt att utlösa borgenär eller konkursbo som har anslutit sig enligt första eller andra stycket tillämpas bestämmelserna i",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-11",
+          "number": 11,
+          "text": "gäller ej i allmänt mål.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-12",
+          "number": 12,
+          "text": "Borgenär eller annan vars rätt kan vara beroende av fastighetens försäljning får utlösa sökanden. Han träder därigenom i sökandens ställe. Den som vill utlösa sökanden skall, innan fastigheten har sålts, till kronofogdemyndigheten betala exekutionsfordringen och uppkomna förrättningskostnader.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-13",
+          "number": 13,
+          "text": "Borgenär, vars fordran är förenad med förmånsrätt i fastigheten enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-14",
+          "number": 14,
+          "text": "Är det sannolikt att tillbehör kan med fördel säljas för sig utan samtidig försäljning av fastigheten i övrigt, skall kronofogdemyndigheten sätta ut sammanträde för prövning av frågan. Till sammanträdet skall kronofogdemyndigheten kalla sökanden, fastighetens ägare och envar för myndigheten känd innehavare av panträtt i fastigheten eller av annan rättighet som kan påverkas av försäljningen. Blir vid sammanträdet närvarande sakägare ense om att tillbehör bör säljas för sig, förordnar kronofogdemyndigheten i enlighet därmed, om ej särskilda skäl föranleder annat. Uppnås ej enighet om särskild försäljning, får kronofogdemyndigheten förordna därom endast om synnerliga skäl föreligger. Råder tvist om tillbehör, tillämpas vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-15",
+          "number": 15,
+          "text": "Särskild försäljning av tillbehör sker enligt bestämmelserna om försäljning av utmätt lös egendom i allmänhet. Tillbehör som säljs för sig upphör att höra till fastigheten, även om det ej skiljs från denna.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-16",
+          "number": 16,
+          "text": "Vad som har influtit genom särskild försäljning av tillbehör tillkommer dem som har fordringar med rätt i fastigheten med det företräde mellan dem som gäller enligt lag. Den som har fordran med panträtt i fastigheten kan avstå från betalning utan att det minskar hans rätt i fastigheten i övrigt. Innehavare av fordran med panträtt på grund av gemensam inteckning får dock ej avstå från betalning ur tillbehörsmedel under annan förutsättning än att samtycke till avståendet har lämnats av såväl ägare till övriga av inteckningen besvärade fastigheter som innehavare av panträtt vilken gäller i en eller flera av fastigheterna med lika rätt som eller sämre rätt än inteckningen. Avstående som inverkar på villkoren vid fastighetens försäljning på auktion skall ske senast vid bevakningssammanträdet och kan därefter ej återkallas.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-17",
+          "number": 17,
+          "text": "Om medel som har influtit genom särskild försäljning av tillbehör förslår att förnöja sökanden samt dem som har bättre rätt och ej har avstått från betalning, skall förfarandet avbrytas, såvida ej egendomen är avträdd till konkurs och förvaltaren begär att förfarandet skall fortgå. Åtgärder före försäljning på auktion",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-18",
+          "number": 18,
+          "text": "Tid och plats för auktion på fastighet bestäms av kronofogdemyndigheten. Fastighetens ägare och innehavare av nyttjanderätt till fastigheten är skyldiga att låta fastigheten visas på lämplig tid.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-19",
+          "number": 19,
+          "text": "För förhandling om försäljningen skall bevakningssammanträde hållas antingen samma dag som auktionen eller lämplig dag före denna.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-20",
+          "number": 20,
+          "text": "Auktionen skall kungöras i god tid och på lämpligt sätt.Kungörelsen skall innehålla uppgift om bevakningssammanträde och sammanträde för fördelning av köpeskillingen. Innehavare av fordran eller rättighet som bör iakttagas vid auktionen skall i kungörelsen uppmanas att anmäla sin rätt till kronofogdemyndigheten senast vid bevakningssammanträdet. Har kronofogdemyndigheten förordnat om särskild försäljning av tillbehör, får kungörelsen ej utfärdas förrän försäljningen har vunnit laga kraft och köpeskillingen har betalats eller frågan om sådan försäljning har förfallit.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-21",
+          "number": 21,
+          "text": "Sökanden, ägaren samt kända innehavare av fordringar och rättigheter som bör iakttagas vid auktionen skall i god tid särskilt underrättas om denna. Har anslutning enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-22",
+          "number": 22,
+          "text": "Har auktionen och sammanträdena ej blivit utlysta så som anges i 20 och",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-23",
+          "number": 23,
+          "text": "Vid bevakningssammanträdet skall kronofogdemyndigheten lämna en kortfattad redogörelse för innehållet i handlingarna och för vidtagna åtgärder. Innehavare av fordran eller rättighet som bör iakttagas vid auktionen skall uppmanas att anmäla den. Har sådan fordran eller rättighet anmälts hos kronofogdemyndigheten före sammanträdet, skall det meddelas. Närvarande sakägare skall beredas tillfälle att yttra sig om anmälda anspråk och de villkor som skall gälla för försäljningen. Om tillbehör har sålts för sig, behandlas särskilt hur den behållna köpeskillingen för tillbehöret skall användas, i den mån det inverkar på villkoren för fastighetens försäljning. Sakägarförteckning",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-24",
+          "number": 24,
+          "text": "När förhandlingen vid bevakningssammanträdet har avslutats, upprättas sakägarförteckning.",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-25",
+          "number": 25,
+          "text": "I sakägarförteckningen upptas förutom exekutionsfordringen 1. fordran som skall utgå med förmånsrätt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-26",
+          "number": 26,
+          "text": "Fordringar och rättigheter upptas efter det företräde som gäller enligt lag. Ränta och annan biförpliktelse upptas före fordringens kapitalbelopp, om ej borgenären yrkar annat. Förrättningskostnaderna upptas närmast före exekutionsfordringen. Fordran eller rättighet upptas även om den är beroende av villkor eller tvistig. Är panträtt för fordran beroende av att sökt inteckning beviljas eller är inskrivning av rättighet sökt men ännu ej beviljad, upptas fordringen eller rättigheten med det företräde som tillkommer den om inteckningen eller inskrivningen beviljas. När försäljning har begärts av förvaltaren i konkurs, anses konkursboet som sökande utan förmånsrätt, om ej anslutning har skett enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-27",
+          "number": 27,
+          "text": "Fordran upptas med det belopp till vilket den beräknas uppgå på tillträdesdagen, dock med den begränsning som kan följa av att panträtt ej får åtnjutas för mer än pantbrevets belopp jämte tillägg enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-68",
+          "number": 68,
+          "text": "När andel i fastighet har sålts enligt",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-69",
+          "number": 69,
+          "text": "Bestämmelserna i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-9",
+      "number": 9,
+      "title": "Kapitel 9",
+      "sections": [
+        {
+          "id": "kap-9-§-1",
+          "number": 1,
+          "text": "Utmätt lös egendom säljs på offentlig auktion eller under hand. För försäljning under hand gäller särskilda förutsättningar enligt",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-2",
+          "number": 2,
+          "text": "Om sökanden beträffande egendom för vilken enligt 10-",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-3",
+          "number": 3,
+          "text": "Utmätt fastighet skall beskrivas och värderas så snart det är lämpligt med hänsyn till det fortsatta förfarandet. Tillbehör skall anges i beskrivningen och värderas för sig i den mån det är påkallat med hänsyn till deras värde eller av annan orsak. Om fastighet som är intecknad gemensamt med annan fastighet skall säljas och särskilt taxeringsvärde saknas för någon av fastigheterna, skall var och en av dem värderas. Vid behov får sakkunnig person anlitas för beskrivning och värdering.",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-4",
+          "number": 4,
+          "text": "Fastighetens ägare skall på anmodan tillhandahålla de handlingar som visar hans äganderätt eller tjänar till upplysning om rättigheter som besvärar fastigheten eller om tillbehör till denna och uppge vilka som har fordran eller rättighet som bör iakttagas vid egendomens försäljning. Kronofogdemyndigheten skall även på annat sätt söka införskaffa utredning i dessa hänseenden samt om den belastning som rättighet utgör och det vederlag som utgår.",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-5",
+          "number": 5,
+          "text": "Pantbrev som gäller i fastigheten och inte är belånat får tas i förvar av Kronofogdemyndigheten. Sedan pantbrevet har tagits i förvar, får det inte pantförskrivas utan myndighetens tillstånd. I fråga om datapantbrev ska Kronofogdemyndigheten i stället begära att den statliga lantmäterimyndigheten beslutar om att sådana registreringsåtgärder som anges i 7-",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-6",
+          "number": 6,
+          "text": "Ägare till utmätt fastighet får ej minska dess värde genom att överlåta tillbehör eller genom att annat än till husbehov avverka skog, bedriva grus- eller stentäkt eller på annat sätt utnyttja naturtillgångarna eller förändra fastigheten. Om ej annat följer av 8 eller",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-7",
+          "number": 7,
+          "text": "På begäran av borgenär kan kronofogdemyndigheten vid behov taga vård om tillbehör till fastigheten.",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-8",
+          "number": 8,
+          "text": ". Kronofogdemyndigheten får uppdraga åt annan att hålla auktion. Detta kapitel gäller ej sådan lös egendom som avses i 10 eller",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-9",
+          "number": 9,
+          "text": ", får han i övrigt tillgodogöra sig vanlig avkastning till dess fastigheten har sålts och skall tillträdas av köparen. Sådan rätt föreligger dock ej i fråga om växande gröda eller annan avkastning som har förklarats ingå i försäljningen. Ägaren får ej upplåta rättighet som går utöver vad som är medgivet enligt första stycket. Kronofogdemyndigheten kan förbjuda honom att upplåta rättighet som kan försvåra fastighetens försäljning. På begäran av ägaren kan kronofogdemyndigheten medge undantag från första eller andra stycket i den mån det kan ske utan intrång i utmätningssökandens rätt och i övrigt är lämpligt.",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-10",
+          "number": 10,
+          "text": "Arrendeavgift, hyra och annan avkastning som syssloman uppbär skall redovisas till kronofogdemyndigheten vid tidpunkt som myndigheten bestämmer. Tidsfrist för försäljning",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-11",
+          "number": 11,
+          "text": "tredje stycket, gäller om domstols behörighet vad som i allmänhet är föreskrivet därom. I fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-12",
+          "number": 12,
+          "text": "Fordran upptas med det belopp till vilket den beräknas uppgå den dag då fördelningssammanträde skall äga rum. Beträffande fordran med sjöpanträtt skall iakttagas vad som föreskrivs i",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-13",
+          "number": 13,
+          "text": "Beträffande verkställighet av beslut om kvarstad för fordran tillämpas vad som föreskrivs om utmätning i",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-14",
+          "number": 14,
+          "text": "samt, om ej annat följer av särskilda bestämmelser i kapitlet, rätt till betalning på grund av ägarhypotek. Förberedande åtgärder",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-67",
+          "number": 67,
+          "text": "Har endast andel i fastighet blivit utmätt men skall enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-10",
+      "number": 10,
+      "title": "10 eller",
+      "sections": [
+        {
+          "id": "kap-10-§-2",
+          "number": 2,
+          "text": "Bestämmelserna i detta kapitel gäller ej försäljning av andel i eller villkorlig rätt till skepp. Tidsfrist för försäljning",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-3",
+          "number": 3,
+          "text": "Utmätt skepp bör säljas inom fyra månader från utmätningen eller, i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-4",
+          "number": 4,
+          "text": "Vid försäljning av flera luftfartyg skall varje luftfartyg ropas ut för sig. Luftfartyg som är i samma ägares hand och svarar för samma fordringar skall dock ropas ut gemensamt, om ägaren eller borgenär ej begär särskild försäljning av visst eller vissa luftfartyg. Särskild sakägarförteckning skall upprättas för egendom som ropas ut för sig.Beträffande fordran för vilken flera luftfartyg svarar skall i förteckningen anmärkas att mindre belopp än som anges i förteckningen kan komma att falla på egendomen till följd av att köpeskillingen för annan egendom lämnar tillgång till betalning av fordringen eller del därav. Bestämmelserna i första stycket gäller också i fråga om försäljning av luftfartyg och intecknade reservdelar. Luftfartyg och reservdelar får dock ej ropas ut gemensamt, om fordran har bevakats av borgenär som ej har inteckning i reservdelarna. Reservdelar som ej ropas ut gemensamt med luftfartyg kan på begäran av ägaren eller borgenär ropas ut i skilda poster, med förbehåll att försäljning av sådan post sker endast om försäljningen med hänsyn även till de bud som avges för andra poster kan godtagas enligt",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-5",
+          "number": 5,
+          "text": "Omfattar inteckning flera luftfartyg eller luftfartyg och reservdelar, får fordringen innestå enligt",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-6",
+          "number": 6,
+          "text": "skall ske minst sex veckor i förväg. Underrättelser enligt",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-7",
+          "number": 7,
+          "text": "skall sändas i rekommenderade brev minst en månad före auktionen. Innehåller inskrivningsregistret för luftfartyg uppgift om adress, skall den användas. Vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-9",
+          "number": 9,
+          "text": "§ ska även gälla innehavare av rättighet som ska iakttas vid auktionen. Det som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-10",
+          "number": 10,
+          "text": "rättegångsbalken och annars av den tingsrätt som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-11",
+          "number": 11,
+          "text": "första och tredje styckena ska",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-12",
+          "number": 12,
+          "text": "rättegångsbalken, gäller om domstols behörighet vad som sägs där. Har föreläggande meddelats enligt",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-13",
+          "number": 13,
+          "text": "1 ej i något fall bestämmas högre än till två tredjedelar av det värde som i målet har åsatts reservdelarna av sakkunniga som kronofogdemyndigheten har anlitat. I fall som avses i andra stycket får, vid fördelning av influtna medel, den som har inteckning i reservdelarna ej till skada för borgenär som ej har inteckning göra sin rätt gällande till högre belopp än som svarar mot två tredjedelar av köpeskillingen minskad med förrättningskostnaderna. Därvid skall i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-15",
+          "number": 15,
+          "text": "§ skall i stället gälla intecknat skuldebrev och ränta som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-16",
+          "number": 16,
+          "text": "sjätte stycket gäller",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-19",
+          "number": 19,
+          "text": "lagen (1955:227) om inskrivning av rätt till luftfartyg. I fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-22",
+          "number": 22,
+          "text": "handpenning för reservdelarna läggas till köpeskillingen, i den mån den ej skall tillkomma inroparen.",
+          "references": []
+        },
+        {
+          "id": "kap-10-§-33",
+          "number": 33,
+          "text": "lagen (1955:227) om inskrivning av rätt till luftfartyg.",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-11",
+      "number": 11,
+      "title": "Försäljning på auktion",
+      "sections": [
+        {
+          "id": "kap-11-§-1",
+          "number": 1,
+          "text": "Beträffande exekutiv försäljning av registrerat luftfartyg och intecknade reservdelar till luftfartyg tillämpas",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-3",
+          "number": 3,
+          "text": "Vid auktionen skall kronofogdemyndigheten, när anledning föreligger, lämna en kortfattad redogörelse för vad som har förekommit i målet.Vidare skall, när det finns anledning, borgenär som har rätt till betalning ur egendomen uppmanas att anmäla sin fordran samt villkoren för försäljningen anges.",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-5",
+          "number": 5,
+          "text": "tredje stycket. Om två auktioner har hållits utan att egendomen har blivit såld och det saknas anledning att anta att egendomen kan säljas inom rimlig tid, ska ett nytt försäljningsförsök inte göras. Om en ny auktion ska hållas, gäller 2-",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-6",
+          "number": 6,
+          "text": "Om det inte lämnas något bud som godtas och fullföljs genom att köpeskillingen eller handpenning betalas genast, ska ett nytt försäljningsförsök göras, om inte sökanden avstår från det. Detsamma gäller, om ett bud har blivit ogiltigt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-7",
+          "number": 7,
+          "text": "När en ny auktion hålls sedan ett bud har blivit ogiltigt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-8",
+          "number": 8,
+          "text": "Utmätt egendom bör säljas under hand, om det är sannolikt att högre köpeskilling kan uppnås därigenom och sådan försäljning även i övrigt är ändamålsenlig. Sökanden, gäldenären och annan känd sakägare vars rätt beror av försäljningen skall beredas tillfälle att yttra sig i frågan, om anledning föreligger därtill. Försäljning får dock ej ske under hand, om egendomen häftar för sjö- eller luftpanträtt eller ovisshet råder härom samt det ej är känt vem som gör anspråk på sådan panträtt eller var han uppehåller sig.",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-9",
+          "number": 9,
+          "text": "Innan egendom säljs under hand skall anbud fordras in. I fråga om försäljningsvillkoren tillämpas 4 och",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-10",
+          "number": 10,
+          "text": "Har utmätning skett av egendom som gäldenären har förvärvat på kredit under förbehåll om återtaganderätt för kreditgivaren, får egendomen säljas endast om köpeskillingen förslår till betalning av kreditgivarens fordran eller försäljningen med kreditgivarens samtycke i målet sker med förbehåll för hans eller hennes rätt enligt avtalet. Kreditgivarens fordran bestäms enligt",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-11",
+          "number": 11,
+          "text": "Om utmätt fordran är förfallen till betalning, skall kronofogdemyndigheten utan dröjsmål anmoda sekundogäldenären att betala sin skuld till myndigheten. Betalar sekundogäldenären ej frivilligt, skall kronofogdemyndigheten utsöka fordringen, om exekutionstitel finns. Vad som föreskrivs i",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-12",
+          "number": 12,
+          "text": "Avbryts förfarandet i fråga om egendom som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-36",
+          "number": 36,
+          "text": "konsumentkreditlagen (2010:1846) eller enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-12",
+      "number": 12,
+      "title": "rättegångsbalken, i den mån ej annat föreskrivs i denna paragraf.",
+      "sections": [
+        {
+          "id": "kap-12-§-1",
+          "number": 1,
+          "text": "Utmätt fast egendom säljs på offentlig auktion, om ej annat följer av 15 eller",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-2",
+          "number": 2,
+          "text": "Vad som i detta kapitel sägs om fordran som är förenad med panträtt gäller även fordran för vilken fast egendom har tagits i anspråk enligt",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-3",
+          "number": 3,
+          "text": "Försäljning av utmätt egendom skall ske utan dröjsmål, om ej hinder möter. I 10-",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-4",
+          "number": 4,
+          "text": "När utmätning har skett med stöd av",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-5",
+          "number": 5,
+          "text": ". Om nyttjandet av utmätt egendom m.m. finns bestämmelser i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-6",
+          "number": 6,
+          "text": "En fordran som skall beaktas skall tas upp med det belopp som den uppgår till på fördelningsdagen. Vid bedömningen av om en fordran är förenad med särskild förmånsrätt i en fastighet skall ett pantbrev vars belopp är bestämt i utländsk valuta räknas om till svenska kronor enligt den kurs som gäller på fördelningsdagen. Pantbrevets belopp får dock inte sättas högre än det belopp som har bestämts vid omräkning enligt",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-7",
+          "number": 7,
+          "text": "§ lagen om samäganderätt. Första stycket gäller ej andel i fordran, om andelen utan olägenhet kan drivas in för sig. Är så ej fallet, gäller första stycket i fråga om såväl indrivning som försäljning av hela fordringen.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-8",
+          "number": 8,
+          "text": "Kronofogdemyndigheten får vid behov anlita tolk. Tolk som ej fullgör uppdraget i tjänsten har rätt till ersättning av allmänna medel. I fråga om översättning av ansökan eller annan handling som ej är avfattad på svenska tillämpas",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-9",
+          "number": 9,
+          "text": "Bifalls yrkande om försäljning som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-10",
+          "number": 10,
+          "text": "När utmätning har skett av annat fartyg än registrerat skepp eller gods i fartyg eller av luftfartyg som ej är registrerat eller gods i luftfartyg, har borgenär, vars fordran är förenad med sjöpanträtt eller luftpanträtt i egendomen, rätt att få betalning ur egendomen, om han anmäler sin fordran hos kronofogdemyndigheten innan egendomen säljs eller, om försäljning sker under hand, senast när fördelning skall äga rum. Borgenär, som har gjort anmälan som avses i första stycket, kan, om hans rätt till betalning är ostridig eller styrks, begära att egendomen säljs för hans fordran. Har sådan begäran framställts, får förfarandet ej läggas ned därför att frågan om försäljning för utmätningssökandens fordran förfaller.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-11",
+          "number": 11,
+          "text": "Borgenär, vars fordran är förenad med handpanträtt eller retentionsrätt i utmätt egendom, är skyldig att taga betalning i förtid i den ordning som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-12",
+          "number": 12,
+          "text": "I fråga om kostnader i tvist vid fördelning av medel som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-13",
+          "number": 13,
+          "text": ". Handräckning efter försäljning",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-14",
+          "number": 14,
+          "text": "Utmäts fast egendom i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-16",
+          "number": 16,
+          "text": ", även om fastigheten ej säljs. Avräkning",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-18",
+          "number": 18,
+          "text": "När utmätt egendom har sålts, har köparen rätt att vid behov få handräckning av kronofogdemyndigheten för att komma i besittning av vad han har förvärvat. Därvid gäller i tillämpliga delar vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-26",
+          "number": 26,
+          "text": "första stycket. Utbetalning",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-30",
+          "number": 30,
+          "text": "Utmätning medför förmånsrätt i och med beslutet, om inte annat följer av andra, fjärde, femte eller sjätte stycket eller",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-33",
+          "number": 33,
+          "text": "andra stycket, 3. ett beslut genom vilket en förrättningsman har förklarats jävig, 4. ett beslut i en fråga som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-49",
+          "number": 49,
+          "text": "tredje stycket ska dock överklagas inom tre veckor från det att beslutet delgavs den klagande. En exekutiv försäljning ska överklagas inom tre veckor från försäljningen. Ett beslut om fördelning eller utbetalning av medel ska överklagas inom tre veckor från beslutet. Svaranden får dock överklaga ett sådant beslut inom den tid inom vilken utmätningsbeslutet enligt andra stycket första meningen ska överklagas, om den tiden löper ut senare. Ett sådant överklagande som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-54",
+          "number": 54,
+          "text": "har ställt säkerhet för belopp som skall redovisas. Fördelning",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-13",
+      "number": 13,
+      "title": "Kapitel 13",
+      "sections": [
+        {
+          "id": "kap-13-§-1",
+          "number": 1,
+          "text": "Medel som har flutit in till kronofogdemyndigheten i mål om utmätning skall redovisas så snart som möjligt. Är influtet belopp ringa och kan det antas att ytterligare medel kommer att flyta in i målet, får myndigheten avvakta med redovisningen. Vid utmätning för ej förfallet underhållsbidrag enligt",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-2",
+          "number": 2,
+          "text": "I vad mån verkställighet på grund av utländsk exekutionstitel får äga rum här i riket framgår av särskilda föreskrifter. Dom",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-3",
+          "number": 3,
+          "text": "Dom får verkställas utan särskilda villkor, när den har vunnit laga kraft. Har talan fullföljts endast mot viss del av dom, får domen i övrigt, när det kan ske, verkställas såsom lagakraftägande dom, om ej annat förordnas med anledning av den fullföljda talan.",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-4",
+          "number": 4,
+          "text": "Dom som ej har vunnit laga kraft får verkställas i fall och under villkor som anges i 5-",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-5",
+          "number": 5,
+          "text": "räntelagen (1975:635) från den dag medlen utbetalades till och med den dag återbetalning skall ske och enligt",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-6",
+          "number": 6,
+          "text": "räntelagen för tiden därefter. Ränta utgår dock ej i den mån det beror på den som är berättigad till medlen att de ej har betalats tillbaka. Särskilda bestämmelser beträffande allmänna mål",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "tredje stycket prövas av kronofogdemyndigheten anses talan väckt när borgenären anmälde sitt anspråk. Om talan ej uppfyller vad som gäller för stämningsansökan i tvistemål, skall kronofogdemyndigheten anmoda borgenären att avhjälpa bristen.",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-9",
+          "number": 9,
+          "text": "§. Bestämmelser om hinder mot att utmätt egendom säljs eller influtna medel betalas ut finns i",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-10",
+          "number": 10,
+          "text": "första stycket andra meningen och andra stycket tredje meningen,",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-11",
+          "number": 11,
+          "text": "andra meningen,",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-12",
+          "number": 12,
+          "text": "första stycket och",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-14",
+          "number": 14,
+          "text": ". Parts utevaro från förhandlingen utgör ej hinder för prövning av tvisten. Om bevisning gäller vad som föreskrivs i rättegångsbalken för tvistemål.Bestämmelserna om häkte i",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-15",
+          "number": 15,
+          "text": "Säljs egendom exekutivt under konkurs, skall betalning utgå för de konkursboets kostnader som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-17",
+          "number": 17,
+          "text": "Verkställigheten skall avbrytas, om influtna medel förslår att täcka sökandens fordran och fordringar med lika eller bättre rätt till betalning ur medlen samt kostnad som skall tagas ut i målet. Undantag från första stycket följer av",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-23",
+          "number": 23,
+          "text": "Kronofogdemyndigheten skall sätta ut muntlig förhandling i tvisten och kalla parterna till förhandlingen. I fråga om sådan förhandling tillämpas bestämmelserna om förhör i",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-28",
+          "number": 28,
+          "text": "Fordran, som ej är förfallen till betalning och ej löper med ränta före förfallodagen, beräknas till det belopp som efter fem procent årlig ränta utgör fordringens värde. Motsvarande gäller, om utfäst ränta är lägre än fem procent.",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-29",
+          "number": 29,
+          "text": "När medel som sökanden eller annan sakägare har fått lyfta skall betalas tillbaka, utgår ränta enligt",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-30",
+          "number": 30,
+          "text": "Bestämmelserna i 1 och",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-14",
+      "number": 14,
+      "title": "Kapitel 14",
+      "sections": [
+        {
+          "id": "kap-14-§-1",
+          "number": 1,
+          "text": "Exekutiv försäljning ger köparen samma rätt till den sålda egendomen som frivillig försäljning, om ej annat följer av vad som sägs i detta kapitel.",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-2",
+          "number": 2,
+          "text": "När utmätning av viss egendom ger företräde framför överlåtelse av egendomen, gäller det till förmån även för den som förvärvar egendomen vid exekutiv försäljning. Detsamma gäller, när tredje man efter föreläggande enligt",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-10",
+          "number": 10,
+          "text": "första stycket. När egendom säljs exekutivt under konkurs eller utmätt fordran drivs in under konkurs, har även borgenär, vars fordran är förenad med förmånsrätt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-16",
+          "number": 16,
+          "text": "Om rätt till betalning när registrerat skepp, registrerat luftfartyg, intecknade reservdelar till luftfartyg eller fast egendom har utmätts gäller bestämmelserna i 10-",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-18",
+          "number": 18,
+          "text": "konkurslagen (1987:672) får tas ut ur egendomen, om kostnaderna anmäls enligt vad som sägs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-16",
+      "number": 16,
+      "title": "Kapitel 16",
+      "sections": [
+        {
+          "id": "kap-16-§-2",
+          "number": 2,
+          "text": "Har i annan lag meddelats bestämmelse som avviker från denna balk, gäller den bestämmelsen. Exekutiv myndighet",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-3",
+          "number": 3,
+          "text": "gäller ej i allmänt mål. I sådant mål skall försäljning av utmätt egendom ske utan dröjsmål, om ej hinder möter eller anstånd lämnas av kronofogdemyndigheten.",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-4",
+          "number": 4,
+          "text": "Mot förrättningsman gäller samma jäv som i",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-6",
+          "number": 6,
+          "text": "Kronofogdemyndigheten skall vid behov ombesörja transport av egendom som skall bortföras, hyra utrymme för förvaring av egendomen och vidtaga andra liknande åtgärder som föranleds av avhysningen. Innan åtgärd enligt första stycket vidtas, skall parterna underrättas, om det kan ha betydelse för dem. Den som har mottagit egendom för förvaring i fall som avses i första stycket har rätt till skälig ersättning av svaranden för förvaringen.Har egendomen inte hämtats tre månader efter avhysningen, får den som har mottagit egendomen sälja den och ta ut sin fordran ur köpeskillingen eller, om egendomen uppenbarligen saknar försäljningsvärde, bortskaffa den. Innan egendomen säljs eller bortskaffas skall svaranden, om han kan nås, anmanas att hämta egendomen. Anmaningsskyldigheten anses fullgjord genom att anmaningen har sänts i rekommenderat brev till svarandens kända adress. I övrigt tillämpas 5--",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-7",
+          "number": 7,
+          "text": "Skall avhysning ske från annat än bostad och underlåter svaranden att ta hand om egendomen och kan ej heller lämpligt förvaringsutrymme anskaffas, får kronofogdemyndigheten förordna att egendomen skall säljas. Kan egendomen antagas sakna försäljningsvärde, får i stället förordnas att den skall förstöras. Egendom som tillhör tredje man får säljas eller förstöras endast om denne underlåter att själv ta hand om egendomen. Innan förordnande enligt första stycket meddelas skall svaranden och, om egendomen tillhör tredje man, denne beredas tillfälle att yttra sig.Härvid tillämpas",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-9",
+          "number": 9,
+          "text": "Förrättningskostnad för verkställighet av beslut om kvarstad eller annan säkerhetsåtgärd, vilken alltjämt består när verkställighet äger rum för det anspråk som har föranlett åtgärden, anses som förrättningskostnad för sistnämnda verkställighet. Om egendom som är belagd med kvarstad för fordran utmäts för annan fordran, anses förrättningskostnad för verkställighet av kvarstaden som förrättningskostnad i målet om utmätning.",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-10",
+          "number": 10,
+          "text": "Om lös egendom som har belagts med kvarstad säljs enligt",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-12",
+          "number": 12,
+          "text": "§. Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-13",
+          "number": 13,
+          "text": "jämförd med",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-14",
+          "number": 14,
+          "text": "tredje stycket eller",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-16",
+          "number": 16,
+          "text": "andra stycket, tas förrättningskostnad för försäljningen ut ur köpeskillingen. Har kronofogdemyndigheten med anledning av kvarstad på fast egendom förordnat om åtgärd som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-19",
+          "number": 19,
+          "text": "Bestämmelserna i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-17",
+      "number": 17,
+      "title": "Kostnader",
+      "sections": [
+        {
+          "id": "kap-17-§-2",
+          "number": 2,
+          "text": "Sökanden ansvarar mot staten för förrättningskostnaderna i målet, om inte något annat följer av 3 eller",
+          "references": []
+        },
+        {
+          "id": "kap-17-§-3",
+          "number": 3,
+          "text": "i paragrafens äldre lydelse. 2010:1937 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15-",
+          "references": []
+        },
+        {
+          "id": "kap-17-§-4",
+          "number": 4,
+          "text": "eller av särskild föreskrift. Betalar sökanden inte en grundavgift inom förelagd tid, får Kronofogdemyndigheten avskriva målet. I fråga om kostnader för en åtgärd som har begärts av någon annan än sökanden i målet skall den som har begärt åtgärden anses som sökande. När en fastighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-17-§-17",
+          "number": 17,
+          "text": "§ delgivningslagen (1970:428) har fattats före den 1 april 2011 eller om en handling har skickats eller lämnats före denna tidpunkt. 2015:756 1. Denna lag träder i kraft den 1 april 2016. 2. Bestämmelsen i den äldre lydelsen gäller fortfarande för belopp som tillgodoräknas en gäldenär enligt den upphävda",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-18",
+      "number": 18,
+      "title": "Kapitel 18",
+      "sections": [
+        {
+          "id": "kap-18-§-1",
+          "number": 1,
+          "text": "prövar överklagande av Kronofogdemyndighetens beslut, om ej annat följer av andra stycket. Om föreläggande har meddelats enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-2",
+          "number": 2,
+          "text": "§ ej tillämpliga vid utmätning hos juridisk person.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-3",
+          "number": 3,
+          "text": "gäller ej i allmänt mål.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-4",
+          "number": 4,
+          "text": "Om egendom som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-5",
+          "number": 5,
+          "text": "andra stycket ärvdabalken. I övrigt är 1 och",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-7",
+          "number": 7,
+          "text": "Skadestånd, som tillkommer gäldenären med anledning av personskada, frihetsberövande, falskt åtal, ärekränkning eller annat sådant, får inte utmätas medan skadeståndet innestår hos den som ska betala ut det. Om skadeståndet har bestämts att betalas i form av livränta, gäller förbudet mot utmätning rätten till livräntan. När skadeståndet har betalats ut får det som hålls avskilt inte utmätas, om skadeståndet ska tillgodose ett kvarstående försörjningsbehov eller, i annat fall, om mindre än två år har gått från utbetalningen. Om utmätningsfordringen avser skadestånd på grund av brott, gäller första och andra styckena inte ersättning enligt 2-",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-8",
+          "number": 8,
+          "text": "Rätt till pension eller till annan livränta än som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-9",
+          "number": 9,
+          "text": "När rätt till litterärt eller konstnärligt verk eller annat sådant ej får utmätas, får ej heller rätt till vederlag för utnyttjande av rättigheten utmätas innan denna har utnyttjats så som förutsätts för att vederlag skall utgå och vederlaget kan beräknas.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-10",
+          "number": 10,
+          "text": "Om förbud mot utmätning i vissa andra fall gäller särskilda föreskrifter.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-11",
+          "number": 11,
+          "text": "Beträffande utmätning av lön och vissa andra förmåner finns bestämmelser i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-16",
+          "number": 16,
+          "text": "Efterkommer ej gäldenären eller tredje man föreläggande enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-17",
+          "number": 17,
+          "text": "Vid förrättning får hus, rum eller förvaringsställe genomsökas, om det behövs för att verkställighet skall kunna ske. Behöver förrättningsmannen ha tillträde till utrymme som är tillslutet, får han låta öppna lås eller bereda sig tillträde på annat sätt. Han får dock ej bereda sig tillträde till bostad i innehavarens frånvaro annat än om underrättelse om tiden för förrättningen har sänts till innehavaren med posten eller lämnats på annat lämpligt sätt och det kan antagas att denne håller sig undan eller om eljest särskilda skäl föreligger. För att genomföra förrättning får förrättningsmannen i övrigt använda tvång i den mån det kan anses befogat med hänsyn till omständigheterna.Våld mot person får dock brukas endast om förrättningsmannen möter motstånd och i den mån det med hänsyn till förrättningens ändamål kan anses försvarligt. Beslut",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-18",
+          "number": 18,
+          "text": "Beslut skall, i den mån det behövs, ange de skäl på vilka det grundas. Beslut som får överklagas skall innehålla upplysning om vad den som vill föra talan mot beslutet skall iakttaga. Sådan upplysning får dock utelämnas när den är uppenbart obehövlig.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-19",
+          "number": 19,
+          "text": "innan han har blivit berättigad därtill. Får han på grund av sådant förordnande ej komma i besittning av skeppet och är hindret ej hävt inom tre månader från utsatt dag för köpeskillingens fördelning, får han frånträda köpet och återfå vad han har betalat jämte upplupen ränta, om han gör anmälan därom hos kronofogdemyndigheten medan hindret alltjämt består. Särskild bestämmelse beträffande allmänna mål",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-20",
+          "number": 20,
+          "text": "Beslut, som till följd av skrivfel, räknefel eller annat sådant förbiseende innehåller uppenbar oriktighet, får rättas av kronofogdemyndigheten. Om det ej är obehövligt, skall part och annan sakägare beredas tillfälle att yttra sig innan rättelse sker.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-21",
+          "number": 21,
+          "text": "Vad som i balken sägs om beslut gäller i tillämpliga delar även sådan åtgärd av kronofogdemyndigheten som inverkar på parts eller tredje mans rätt. Prövning av tvist",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-22",
+          "number": 22,
+          "text": "I tvist vid fördelning av medel som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-24",
+          "number": 24,
+          "text": "Bestämmelsen i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-25",
+          "number": 25,
+          "text": "första stycket 1. Borgenär som har pantbrev kan ej efter fastighetens försäljning mot köparen göra gällande panträtt i fastigheten för större fordran än som har avräknats på köpeskillingen jämte utfäst ränta därå från tillträdesdagen samt framtida skadestånd och kostnad som föranleds av fordringsförhållandet. Köparen blir personligen betalningsskyldig för vad som enligt överenskommelse har avräknats på den kontanta köpeskillingen och den förre ägaren blir fri från ansvar härför. I fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-26",
+          "number": 26,
+          "text": "tredje stycket eller 3. fordringen är förenad med panträtt endast i andel i fastigheten. För ägarhypotek skall, även om det faller inom skyddsbeloppet, kontant betalning alltid erläggas. I den mån avräkning ej skall ske enligt första stycket skall köpeskillingen för fastigheten betalas kontant, om ej inroparen visar att han har avtalat annat med den som enligt sakägarförteckningen är betalningsberättigad. Om det enligt förteckningen är ovisst vem ett belopp tillkommer, får det ej avräknas.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-32",
+          "number": 32,
+          "text": "angivna villkoret för försäljning är uppfyllt. Även om detta är förhållandet får inropet ej godtagas, om det är sannolikt att avsevärt högre köpeskilling kan uppnås. Utan hinder av första stycket skall inrop godtagas, om samtliga berörda sakägare medger det. Sökanden kan medge att inrop godtas fastän förrättningskostnaderna ej har blivit täckta. Inrop får ej mot sökandens bestridande godtagas, om exekutionsfordringen ej täcks.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-33",
+          "number": 33,
+          "text": "första stycket är skyddad utan särskilt förbehåll och ej heller har förbehållits enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-34",
+          "number": 34,
+          "text": "I avräkning på köpeskillingen för fastigheten skall innestå kapitalbeloppet av sådan fordran inom skyddsbeloppet som är förenad med panträtt och ej enligt sakägarförteckningen skall betalas med köpeskilling för tillbehör. Detta gäller dock ej, om 1. fordringen är förfallen till betalning senast på tillträdesdagen och borgenären har yrkat kontant betalning, 2. fordringen är sådan som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-35",
+          "number": 35,
+          "text": "Den som ropar in fastigheten är skyldig att efter inropet lämna handpenning som motsvarar en tiondel av köpeskillingen, dock inte mer än som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-36",
+          "number": 36,
+          "text": "Som tillträdesdag räknas den dag då enligt kungörelse fördelningssammanträdet skall äga rum. Kronofogdemyndigheten kan dock medge inroparen att taga vård om fastigheten eller del därav före tillträdesdagen. Kronofogdemyndigheten får förordna att obetald avkastning av fastigheten, som enligt 8 eller",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-37",
+          "number": 37,
+          "text": "På begäran av de sakägare vilkas rätt beror därav kan försäljningen, såvitt avser annat än erläggande av handpenning och den återstående kontanta köpeskillingen samt tiden för tillträde, ske på andra villkor än som anges i detta kapitel. Skyddsbeloppet får höjas även om borgenär som ej själv har begärt försäljning motsätter sig det. Begäran som avses i första stycket skall framställas senast vid bevakningssammanträdet. Auktion",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-38",
+          "number": 38,
+          "text": "Vid auktionen skall, i den mån det är påkallat med hänsyn till värdet av fastighetens tillbehör eller av annan orsak, anges vilken egendom som skall följa fastigheten och i vad mån egendom som framstår som tillbehör ej skall följa den. Vad sålunda har angivits är avgörande för vad försäljningen omfattar i den delen. I övrigt ingår i försäljningen vad som enligt lag utgör tillbehör till fastigheten. Råder tvist om tillbehör, skall det anmälas. Redogörelse skall lämnas för innehållet i sakägarförteckningen.Upplysning skall lämnas om att fastigheten ropas ut med förbehåll att inrop skall prövas enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-39",
+          "number": 39,
+          "text": "Om sakägarförteckningen upptager rättighet som ej enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-40",
+          "number": 40,
+          "text": "Innan inrop godtas skall kronofogdemyndigheten pröva, om det i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-41",
+          "number": 41,
+          "text": "Sedan inrop har godtagits skall inroparen omedelbart lämna föreskriven handpenning. Kronofogdemyndigheten kan dock på begäran göra ett kort uppehåll i handläggningen för att bereda inroparen tillfälle att anskaffa handpenning, om uppehållet ej kan antagas medföra beaktansvärd olägenhet. Lämnas ej handpenning, skall fastigheten ropas ut på nytt. I fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-42",
+          "number": 42,
+          "text": "Sker ej inrop som godtas och fullföljs genom att handpenning lämnas, skall nytt försäljningsförsök göras, om sökanden begär det inom en vecka från auktionen. Har inrop blivit ogiltigt enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-43",
+          "number": 43,
+          "text": "ersättningsskyldiga intill motsvarande belopp. Obetald del av den kontanta köpeskillingen ska betalas senast vid det sammanträde som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-44",
+          "number": 44,
+          "text": "Sedan auktion som har lett till försäljning av fastigheten har vunnit laga kraft och köparen har fullgjort sin betalningsskyldighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-45",
+          "number": 45,
+          "text": "Sedan fastigheten har sålts svarar den ej för fordran som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-46",
+          "number": 46,
+          "text": "Köpare som har fullgjort sin betalningsskyldighet enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-47",
+          "number": 47,
+          "text": "I fråga om rättighet som ej skall upphöra omedelbart efter fastighetens försäljning gäller följande bestämmelser. På arrendeavgift, hyra eller annat vederlag för rättigheten som förfaller till betalning mer än sex månader eller, i fråga om arrende, mer än ett år efter tillträdesdagen får rättighetshavaren ej avräkna fordran hos den förre ägaren. I fråga om sådant belopp gäller ej heller betalning som rättighetshavaren har erlagt till den förre ägaren eller annan uppgörelse med denne. Fordran som rättighetshavare har förvärvat eller förskottsbetalning eller uppgörelse som har skett efter det att fastigheten har utmätts får ej åberopas mot köparen, om rättighetshavaren ägde eller hade bort äga kännedom om utmätningen. Angående rättighetshavares rätt till ersättning av tidigare ägare, om rättigheten upphör med anledning av fastighetens försäljning, finns bestämmelser i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-49",
+          "number": 49,
+          "text": "När någon av flera gemensamt intecknade fastigheter skall säljas på auktion, har den som har fordran med panträtt på grund av den gemensamma inteckningen rätt att indraga annan av de intecknade fastigheterna i försäljningen, om den svarar för det intecknade beloppet eller del av detta före den fastighet som skall säljas. Skall denna säljas för panträttshavarens fordran eller för fordran som har lika eller bättre rätt, får han även indraga fastighet som svarar för inteckningen först efter den fastighet som skall säljas. Yrkande om indragning skall framställas hos kronofogdemyndigheten senast vid bevakningssammanträdet. Fastighetens ägare skall beredas tillfälle att yttra sig över yrkandet. Bevakningssammanträde och auktion skall inställas och nya tider sättas ut, om det behövs för att yrkandet skall hinna prövas. Bifalls yrkandet, anses den indragna fastigheten utmätt när beslutet meddelas. Den får ej säljas innan beslutet har vunnit laga kraft.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-50",
+          "number": 50,
+          "text": "Om en av flera gemensamt intecknade fastigheter skall säljas på auktion, skall fordran med panträtt på grund av den gemensamma inteckningen upptagas i sakägarförteckningen med det belopp för vilket fastigheten svarar i förhållande till de andra fastigheterna. Beloppet skall betalas kontant, om ej annat avtalas mellan köparen och den som enligt sakägarförteckningen är betalningsberättigad.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-51",
+          "number": 51,
+          "text": "Om samtliga fastigheter som besväras av gemensam inteckning skall säljas på auktion och förhållande som anges i",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-52",
+          "number": 52,
+          "text": "andra stycket ej föreligger, upprättas gemensam sakägarförteckning för fastigheterna.Rättighet i någon av fastigheterna skall härvid anses upplåten i dem alla. Vid auktionen ropas fastigheterna ut gemensamt.",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-53",
+          "number": 53,
+          "text": "Särskild sakägarförteckning skall upprättas för varje fastighet som skall säljas. Förteckningen upprättas som om försäljningen hade begärts på grund av den bästa gemensamma inteckningen, om ej exekutionsfordringen har bättre rätt. Fordran med panträtt på grund av gemensam inteckning upptas för varje fastighet med det belopp för vilket fastigheten svarar i förhållande till de andra fastigheterna. Kan ansvaret komma att vid försäljningen vidgas härutöver, skall det anmärkas. Beträffande fastighet som svarar endast i andra hand anges om sådant ansvar kan ifrågakomma. När fastighet har indragits i försäljningen enligt",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-55",
+          "number": 55,
+          "text": "§. När samtliga fastigheter som besväras av gemensam inteckning skall säljas, gäller likaledes 53-",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-19",
+      "number": 19,
+      "title": "Kapitel 19",
+      "sections": [
+        {
+          "id": "kap-19-§-19",
+          "number": 19,
+          "text": "socialförsäkringsbalken. 2021:80 1. Denna lag träder i kraft den 1 mars 2021. 2. Äldre bestämmelser gäller för avgiftsförelägganden som har godkänts före ikraftträdandet. 2021:790 Denna lag träder i kraft den 1 juni 2022 i fråga om",
+          "references": []
+        },
+        {
+          "id": "kap-19-§-24",
+          "number": 24,
+          "text": "Sedan lön har betalats ut, kan medlen utmätas endast i enlighet med vad som sägs i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-32",
+      "number": 32,
+      "title": "Kapitel 32",
+      "sections": [
+        {
+          "id": "kap-32-§-8",
+          "number": 8,
+          "text": "rättegångsbalken. Förhör",
+          "references": []
+        },
+        {
+          "id": "kap-32-§-12",
+          "number": 12,
+          "text": "Fråga om utdömande av vite som har förelagts enligt 10 eller",
+          "references": []
+        },
+        {
+          "id": "kap-32-§-13",
+          "number": 13,
+          "text": "Tredje man som har inställt sig för att höras får tillerkännas skälig ersättning av allmänna medel för inställelsen.",
+          "references": []
+        },
+        {
+          "id": "kap-32-§-14",
+          "number": 14,
+          "text": "Har vid förhör förebringats uppgift om enskilds personliga eller ekonomiska förhållanden, vars röjande kan antagas medföra att den enskilde eller någon honom närstående lider avsevärd skada eller betydande men, kan kronofogdemyndigheten förordna att uppgiften ej får röjas obehörigen. Tvångsmedel",
+          "references": []
+        },
+        {
+          "id": "kap-32-§-15",
+          "number": 15,
+          "text": "När Kronofogdemyndigheten enligt",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-33",
+      "number": 33,
+      "title": "Kapitel 33",
+      "sections": [
+        {
+          "id": "kap-33-§-9",
+          "number": 9,
+          "text": "rättegångsbalken.",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-36",
+      "number": 36,
+      "title": "Kapitel 36",
+      "sections": [
+        {
+          "id": "kap-36-§-21",
+          "number": 21,
+          "text": "rättegångsbalken får dock ej tillämpas. Tvisten avgörs i samband med fördelning av de medel som tvisten rör.Avgörandet tas upp i beslutet om fördelningen.",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-44",
+      "number": 44,
+      "title": "7 a eller",
+      "sections": [
+        {
+          "id": "kap-44-§-6",
+          "number": 6,
+          "text": "Annan dom varigenom betalningsskyldighet har ålagts än som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-8",
+          "number": 8,
+          "text": "Dom varigenom någon har förpliktats att utge lös egendom får verkställas genast, om säkerhet ställs för återbäring av egendomen jämte avkastning. Detta gäller dock ej, om förpliktelsen har ålagts som särskild rättsverkan av brott.",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-9",
+          "number": 9,
+          "text": "Dom, som enligt annan lag eller enligt förordnande av domstolen får verkställas innan den har vunnit laga kraft, verkställs såsom lagakraftägande dom, om ej annat följer av lagen eller förordnandet.",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-11",
+          "number": 11,
+          "text": "Utslag eller beslut i mål om betalningsföreläggande eller handräckning genom vilket någon har ålagts betalningsskyldighet får verkställas genast, om inte något annat beslutas med anledning av ansökan om återvinning eller överklagande. Har gäldenären sökt återvinning eller överklagat, tillämpas det som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-12",
+          "number": 12,
+          "text": "Utslag eller beslut i mål om handräckning verkställs, utom i fall som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-15",
+          "number": 15,
+          "text": "En skiljedom som grundas på skiljeavtal får verkställas, om 1. skiljeavtalet inte innehåller något förbehåll om rätt för part att föra talan mot domen eller, när ett sådant förbehåll finns, tiden för parts talan har gått ut utan att talan har förts, och 2. domen uppfyller föreskrifterna om skriftlighet och undertecknande i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-16",
+          "number": 16,
+          "text": "Finns det anledning att anta att en skiljedom som enligt",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-17",
+          "number": 17,
+          "text": "Bestämmelserna i 15 och",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-18",
+          "number": 18,
+          "text": "Finns inte på grund av bestämmelserna i 15 eller",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-20",
+          "number": 20,
+          "text": "En förvaltningsmyndighets beslut får verkställas när det har fått laga kraft. Ett sådant beslut får dock verkställas innan det har fått laga kraft, om det är särskilt föreskrivet. Vid verkställighet av ett beslut enligt första stycket tillämpas",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-21",
+          "number": 21,
+          "text": "Visar svaranden att han har fullgjort betalningsskyldighet eller annan förpliktelse som ansökningen om verkställighet avser, får verkställighet ej äga rum. Detsamma gäller om svaranden till kvittning åberopar fordran, som har fastställts genom exekutionstitel vilken får verkställas eller som grundas på skuldebrev eller annat skriftligt fordringsbevis, och i övrigt förutsättningar för kvittning föreligger. Gör svaranden gällande att annat förhållande som rör parternas mellanhavande utgör hinder mot verkställighet och kan invändningen ej lämnas utan avseende, får verkställighet ej heller äga rum. Föreligger fall som avses i första eller andra stycket och har åtgärd för verkställighet redan vidtagits i målet, skall åtgärden återgå, om det kan ske. Kronofogdemyndighetens beslut med anledning av invändning som avses i första eller andra stycket hindrar ej att saken prövas i rättegång. Upphävande av exekutionstitel",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-22",
+          "number": 22,
+          "text": "första stycket tredje och fjärde meningarna och andra och tredje styckena gäller ej i allmänt mål. Dom eller beslut, varigenom någon har dömts att utge böter eller vite eller har ålagts sådan särskild rättsverkan av brott som innefattar betalningsskyldighet, får ej verkställas förrän domen eller beslutet har vunnit laga kraft. Annan exekutionstitel i allmänt mål får verkställas innan den har vunnit laga kraft, om det är särskilt föreskrivet. Exekutionstitel i allmänt mål verkställs såsom lagakraftägande dom.I stället för vad som sägs i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-23",
+          "number": 23,
+          "text": "tredje stycket. I fråga om verkställighet på grund av handling som avses i",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-24",
+          "number": 24,
+          "text": "Har innehållet i exekutionstitel tagits upp i saköreslängd, restlängd eller annan sådan handling som har upprättats enligt särskild föreskrift, får verkställighet äga rum på grund av handlingen.",
+          "references": []
+        },
+        {
+          "id": "kap-44-§-31",
+          "number": 31,
+          "text": "första stycket lagen (1999:116) om skiljeförfarande. I fråga om ersättning till skiljeman får skiljedomen verkställas, om 1. domen i denna del inte har angripits inom föreskriven tid, och 2. domen uppfyller föreskrifterna om skriftlighet och undertecknande i",
+          "references": []
+        }
+      ]
+    },
+    {
+      "id": "kap-58",
+      "number": 58,
+      "title": "Kapitel 58",
+      "sections": [
+        {
+          "id": "kap-58-§-13",
+          "number": 13,
+          "text": "rättegångsbalken om återställande av försutten tid gäller även när föreläggande har meddelats enligt",
+          "references": []
         }
       ]
     }
