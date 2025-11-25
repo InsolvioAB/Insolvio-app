@@ -13,9 +13,9 @@ import {
 } from 'react-native';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts } from '../data/legalTexts';
-import { useBookmarks } from '../contexts/BookmarksContext';
-import { useNotes } from '../contexts/NotesContext';
+import { legalTexts } from '../../src/data/legalTexts';
+import { useBookmarks } from '../../src/contexts/BookmarksContext';
+import { useNotes } from '../../src/contexts/NotesContext';
 
 export default function LawViewerScreen() {
   const { id, section } = useLocalSearchParams<{ id: string; section?: string }>();
