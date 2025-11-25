@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useBookmarks } from '../contexts/BookmarksContext';
-import { legalTexts } from '../data/legalTexts';
+import { useBookmarks } from '../../src/contexts/BookmarksContext';
+import { legalTexts } from '../../src/data/legalTexts';
 
 export default function BookmarksScreen() {
   const { bookmarks, removeBookmark } = useBookmarks();
