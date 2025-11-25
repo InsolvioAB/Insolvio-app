@@ -130,31 +130,37 @@ def parse_law_structure(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
         "chapters": []
     }
     
-    # Split into lines for processing
-    lines = text.split('\n')
+    # Remove header information (everything before first chapter)
+    # Look for first chapter marker
+    first_chapter_pos = re.search(r'\d+\s*kap\.', text, re.IGNORECASE)
+    if first_chapter_pos:
+        text = text[first_chapter_pos.start():]
+    
+    # Split into sentences/paragraphs for better processing
+    # Use regex to split on chapter and section markers while keeping them
+    parts = re.split(r'(\d+\s*kap\.[^\n]*|\d+(?:\s+[a-z])?\s*§)', text, flags=re.IGNORECASE)
     
     current_chapter = None
     current_section = None
-    section_text_buffer = []
     
-    for line in lines:
-        line = line.strip()
-        if not line:
+    i = 0
+    while i < len(parts):
+        part = parts[i].strip()
+        
+        if not part:
+            i += 1
             continue
         
-        # Match chapter: "1 kap." or "Kapitel 1" or "1 Kap."
-        chapter_match = re.match(r'^(\d+)\s*[Kk]ap(?:itel)?\.?\s*(.*)$', line)
+        # Check if this is a chapter marker
+        chapter_match = re.match(r'^(\d+)\s*kap\.(.*)$', part, re.IGNORECASE)
         if chapter_match:
             # Save previous section if exists
-            if current_section and section_text_buffer:
-                current_section['text'] = clean_text(' '.join(section_text_buffer))
-                current_section['references'] = extract_references(current_section['text'])
+            if current_section and current_section.get('text'):
                 if current_chapter:
                     current_chapter['sections'].append(current_section)
-                section_text_buffer = []
             
             # Save previous chapter if exists
-            if current_chapter:
+            if current_chapter and current_chapter['sections']:
                 law_data['chapters'].append(current_chapter)
             
             # Start new chapter
@@ -168,15 +174,14 @@ def parse_law_structure(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
                 "sections": []
             }
             current_section = None
+            i += 1
             continue
         
-        # Match section: "1 §" or "2 a §"
-        section_match = re.match(r'^(\d+(?:\s+[a-z])?)\s*§', line)
+        # Check if this is a section marker
+        section_match = re.match(r'^(\d+(?:\s+[a-z])?)\s*§$', part)
         if section_match:
             # Save previous section if exists
-            if current_section and section_text_buffer:
-                current_section['text'] = clean_text(' '.join(section_text_buffer))
-                current_section['references'] = extract_references(current_section['text'])
+            if current_section and current_section.get('text'):
                 if current_chapter:
                     current_chapter['sections'].append(current_section)
             
@@ -187,26 +192,35 @@ def parse_law_structure(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
             except:
                 section_num = len(current_chapter['sections']) + 1 if current_chapter else 1
             
-            # Get text after section marker
-            section_text = line[section_match.end():].strip()
-            section_text_buffer = [section_text] if section_text else []
+            # Get the text from next part
+            section_text = ""
+            if i + 1 < len(parts):
+                section_text = parts[i + 1].strip()
+                i += 1  # Skip next part as we've used it
             
-            current_section = {
-                "id": f"kap-{current_chapter['number'] if current_chapter else 0}-§-{section_num}",
-                "number": section_num,
-                "text": "",
-                "references": []
-            }
+            if current_chapter:
+                current_section = {
+                    "id": f"kap-{current_chapter['number']}-§-{section_num}",
+                    "number": section_num,
+                    "text": clean_text(section_text),
+                    "references": extract_references(section_text)
+                }
+            i += 1
             continue
         
-        # Add line to current section
-        if current_section:
-            section_text_buffer.append(line)
+        # Otherwise, if we have a current section, add to its text
+        if current_section and part:
+            current_text = current_section.get('text', '')
+            if current_text:
+                current_section['text'] = clean_text(current_text + ' ' + part)
+            else:
+                current_section['text'] = clean_text(part)
+            current_section['references'] = extract_references(current_section['text'])
+        
+        i += 1
     
     # Save last section
-    if current_section and section_text_buffer:
-        current_section['text'] = clean_text(' '.join(section_text_buffer))
-        current_section['references'] = extract_references(current_section['text'])
+    if current_section and current_section.get('text'):
         if current_chapter:
             current_chapter['sections'].append(current_section)
     
