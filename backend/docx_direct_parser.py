@@ -111,6 +111,7 @@ def parse_docx_directly(docx_path: str, law_info: Dict[str, str]) -> Dict[str, A
             
             # Start new chapter
             current_chapter_num = chap_num
+            # Don't limit title length - keep full title
             current_chapter_title = clean_text(chap_title) if chap_title else f"Kapitel {chap_num}"
             current_section_num = None
             current_section_text = []
