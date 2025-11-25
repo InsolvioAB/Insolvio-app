@@ -67,7 +67,8 @@ def parse_docx_directly(docx_path: str, law_info: Dict[str, str]) -> Dict[str, A
     current_section_text = []
     
     in_actual_content = False  # Skip table of contents
-    first_section_found = False
+    first_chapter_with_section_found = False
+    last_was_chapter = False
     
     for para in doc.paragraphs:
         text = para.text.strip()
@@ -76,14 +77,21 @@ def parse_docx_directly(docx_path: str, law_info: Dict[str, str]) -> Dict[str, A
             continue
         
         # Detect when we've reached actual content (after TOC)
-        # Look for pattern like "1 kap. Title \n 1 § Text..."
-        if not first_section_found:
+        # Look for chapter followed by section with substantial content
+        is_chap, chap_num, chap_title = is_chapter_heading(text)
+        if is_chap:
+            last_was_chapter = True
+            if not in_actual_content:
+                # This might be start of actual content, continue to check next para
+                pass
+        elif last_was_chapter:
             is_sec, sec_num, sec_text = is_section_marker(text)
             if is_sec and sec_text and len(sec_text) > 20:  # Real section with content
-                first_section_found = True
                 in_actual_content = True
+                first_chapter_with_section_found = True
+            last_was_chapter = False
         
-        # If not yet in actual content and this looks like TOC, skip
+        # If not yet in actual content, skip
         if not in_actual_content:
             continue
         
