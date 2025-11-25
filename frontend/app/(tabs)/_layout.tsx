@@ -38,8 +38,8 @@ export default function TabLayout() {
         options={{
           title: 'Hem',
           headerShown: false,
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" size={size} color={color} />
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="home-outline" size={26} color={color} />
           ),
         }}
       />
@@ -47,8 +47,8 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Lagar',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="book-outline" size={size} color={color} />
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="book-outline" size={26} color={color} />
           ),
         }}
       />
@@ -56,8 +56,8 @@ export default function TabLayout() {
         name="search"
         options={{
           title: 'Sök',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="search-outline" size={size} color={color} />
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="search-outline" size={26} color={color} />
           ),
         }}
       />
@@ -65,8 +65,8 @@ export default function TabLayout() {
         name="bookmarks"
         options={{
           title: 'Bokmärken',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="bookmark-outline" size={size} color={color} />
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="bookmark-outline" size={26} color={color} />
           ),
         }}
       />
