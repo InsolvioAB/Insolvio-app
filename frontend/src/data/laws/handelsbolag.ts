@@ -20,7 +20,7 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-1-§-1",
           "number": 1,
-          "text": "i sin äldre lydelse till utgången av år 1995. Om ett sådant bolag vid utgången av 1995 inte har förts in i handelsregistret är bolaget upplöst. 1999:1089 Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. 2000:184 Denna lag träder i kraft den 1 juli 2000. Äldre föreskrifter gäller för beräkning av ränta som avser tid före ikraftträdandet. 2002:353 Denna lag träder i kraft den 1 juli 2002. I fråga om räkenskapsår som inleds före ikraftträdandet gäller äldre bestämmelser. 2005:247 1. Denna lag träder i kraft den 1 juli 2005. 2. Bestämmelserna i",
+          "text": "Ett handelsbolag föreligger, om två eller flera har avtalat att gemensamt utöva näringsverksamhet i ett bolag och bolaget har förts in i handelsregistret. Bestämmelser om företagsnamn för handelsbolag finns i lagen (2018:1653) om företagsnamn och handelsregisterlagen (1974:157). Lag (2018:1662).",
           "references": []
         },
         {
@@ -30,39 +30,9 @@ export const handelsbolag: LegalText = {
           "references": []
         },
         {
-          "id": "kap-1-§-3",
-          "number": 3,
-          "text": "Ett enkelt bolag föreligger, om två eller flera har avtalat att utöva verksamhet i bolag utan att handelsbolag föreligger enligt",
-          "references": []
-        },
-        {
           "id": "kap-1-§-4",
           "number": 4,
           "text": "Ett handelsbolag men inte ett enkelt bolag kan förvärva rättigheter och ikläda sig skyldigheter samt föra talan inför domstolar och andra myndigheter.",
-          "references": []
-        },
-        {
-          "id": "kap-1-§-9",
-          "number": 9,
-          "text": "lagen (1967:531) om tryggande av pensionsutfästelse m.m. får inte vara bolagsman i ett handelsbolag. Detsamma gäller för en personalstiftelse enligt",
-          "references": []
-        },
-        {
-          "id": "kap-1-§-10",
-          "number": 10,
-          "text": "Nedsätts det belopp med vilket en kommanditdelägare svarar enligt",
-          "references": []
-        },
-        {
-          "id": "kap-1-§-11",
-          "number": 11,
-          "text": "Om inte något annat har avtalats, medför en kommanditdelägares död inte att bolaget skall träda i likvidation.",
-          "references": []
-        },
-        {
-          "id": "kap-1-§-19",
-          "number": 19,
-          "text": "handelsregisterlagen (1974:157) ska anses ha haft vetskap om att det skett ett förbehåll enligt",
           "references": []
         }
       ]
@@ -75,8 +45,11 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-1",
           "number": 1,
-          "text": "Bolagsmännens inbördes rättigheter och skyldigheter under bolagets bestånd bestäms genom avtal. I den mån bolagsmännen inte har träffat avtal om något annat skall 2-4 och 6-",
-          "references": []
+          "text": "Bolagsmännens inbördes rättigheter och skyldigheter under bolagets bestånd bestäms genom avtal. I den mån bolagsmännen inte har träffat avtal om något annat skall 2-4 och 6-16 §§ tillämpas. Oavsett vad bolagsmännen har avtalat skall 5 § tillämpas.",
+          "references": [
+            "5 §",
+            "6-16 §§"
+          ]
         },
         {
           "id": "kap-2-§-2",
@@ -99,20 +72,19 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-5",
           "number": 5,
-          "text": "Även en bolagsman som är utesluten från förvaltningen har rätt att granska bolagets räkenskaper och att få kännedom om bolagets angelägenheter. Denna kontrollrätt får inte utövas vid en tidpunkt eller på ett sätt som innebär särskilda olägenheter för bolaget.",
-          "references": []
-        },
-        {
-          "id": "kap-2-§-6",
-          "number": 6,
-          "text": "För varje räkenskapsår skall en bolagsman tillgodoräknas dels ränta på den insats han hade kvar i bolaget vid räkenskapsårets början, dels ett skäligt arvode för sin förvaltning av bolagets angelägenheter. Räntan skall beräknas enligt den räntefot som motsvarar den av Riksbanken fastställda referensränta enligt",
-          "references": []
+          "text": "Även en bolagsman som är utesluten från förvaltningen har rätt att granska bolagets räkenskaper och att få kännedom om bolagets angelägenheter. Denna kontrollrätt får inte utövas vid en tidpunkt eller på ett sätt som innebär särskilda olägenheter för bolaget. 6 § För varje räkenskapsår skall en bolagsman tillgodoräknas dels ränta på den insats han hade kvar i bolaget vid räkenskapsårets början, dels ett skäligt arvode för sin förvaltning av bolagets angelägenheter. Räntan skall beräknas enligt den räntefot som motsvarar den av Riksbanken fastställda referensränta enligt 9 § räntelagen (1975:635) som gällde vid räkenskapsårets början med ett tillägg av två procentenheter. Lag (2002:353).",
+          "references": [
+            "6 §",
+            "9 §"
+          ]
         },
         {
           "id": "kap-2-§-7",
           "number": 7,
-          "text": "Det överskott eller den brist som finns sedan bolagsmännen har tillgodoräknats ränta och arvode enligt",
-          "references": []
+          "text": "Det överskott eller den brist som finns sedan bolagsmännen har tillgodoräknats ränta och arvode enligt 6 § utgör räkenskapsårets resultat.",
+          "references": [
+            "6 §"
+          ]
         },
         {
           "id": "kap-2-§-8",
@@ -123,8 +95,10 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-9",
           "number": 9,
-          "text": "Sedan årsredovisningen eller årsbokslutet har upprättats, har bolagsmännen rätt att få ut vad som har tillgodoförts dem enligt 6 och",
-          "references": []
+          "text": "Sedan årsredovisningen eller årsbokslutet har upprättats, har bolagsmännen rätt att få ut vad som har tillgodoförts dem enligt 6 och 8 §§. Om en bolagsmans behållna insats är lägre än den skall vara enligt vad som avtalats mellan bolagsmännen, skall dock så mycket av vad som tillkommer honom hållas inne som behövs för att fylla bristen. Lag (1999:1089).",
+          "references": [
+            "8 §§"
+          ]
         },
         {
           "id": "kap-2-§-10",
@@ -147,8 +121,11 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-13",
           "number": 13,
-          "text": "Har en bolagsman haft nödvändig eller nyttig kostnad för bolagets räkning, är han berättigad till ränta på sin fordran från den dag fordringen kom till. Räntan beräknas enligt",
-          "references": []
+          "text": "Har en bolagsman haft nödvändig eller nyttig kostnad för bolagets räkning, är han berättigad till ränta på sin fordran från den dag fordringen kom till. Räntan beräknas enligt 5 § räntelagen (1975:635) för tiden fram till dess ränta skall utgå enligt 6 § samma lag. Försummar en bolagsman att göra avtalat tillskott eller att redovisa influtna medel, skall han betala ränta beräknad enligt 6 § räntelagen från den dag tillskottet eller redovisningen bort ske.",
+          "references": [
+            "5 §",
+            "6 §"
+          ]
         },
         {
           "id": "kap-2-§-14",
@@ -157,16 +134,24 @@ export const handelsbolag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-2-§-15",
+          "number": 15,
+          "text": "Talan för bolagets räkning mot en bolagsman om skadestånd på grund av beslut eller åtgärd under ett räkenskapsår skall väckas, om talan förs i en bolagsmans namn, senast ett år från det årsredovisningen eller årsbokslutet blev tillgängligt för sistnämnde bolagsman eller, om talan förs i bolagets namn, senast ett år från det årsredovisningen eller årsbokslutet blev tillgängligt för samtliga bolagsmän. Har tiden för talan försuttits eller har årsredovisning eller årsbokslut inte upprättats, kan talan ändå väckas, om det inte i årsredovisningen eller årsbokslutet eller på annat sätt till bolagsmännen har lämnats i väsentliga hänseenden riktiga och fullständiga uppgifter om det beslut eller den åtgärd som ligger till grund för talan. Talan som avses i detta stycke kan dock inte väckas sedan tre år har förflutit från utgången av det räkenskapsår då beslutet fattades eller åtgärden vidtogs. Utan hinder av första eller andra stycket kan skadeståndstalan som grundas på brott föras mot en bolagsman. Lag (1999:1089).",
+          "references": []
+        },
+        {
           "id": "kap-2-§-16",
           "number": 16,
-          "text": "§ tillämpas. Oavsett vad bolagsmännen har avtalat skall",
+          "text": "En bolagsman som vill klandra en årsredovisning eller ett årsbokslut skall väcka talan senast ett år efter det att årsredovisningen eller årsbokslutet blev tillgängligt för honom. Lag (1999:1089). Bolagets och bolagsmännens förhållande till tredje man",
           "references": []
         },
         {
           "id": "kap-2-§-17",
           "number": 17,
-          "text": "Var och en av bolagsmännen företräder bolaget, om inte något annat har avtalats eller följer av",
-          "references": []
+          "text": "Var och en av bolagsmännen företräder bolaget, om inte något annat har avtalats eller följer av 31 §. En bolagsman som har visat trolöshet i bolagets angelägenheter kan på talan av någon annan bolagsman av domstol skiljas från rätten att företräda bolaget. Domstolens avgörande får verkställas utan hinder av att det inte har vunnit laga kraft.",
+          "references": [
+            "31 §"
+          ]
         },
         {
           "id": "kap-2-§-18",
@@ -189,8 +174,10 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-21",
           "number": 21,
-          "text": "Överlåter en bolagsman utan samtycke av de övriga bolagsmännen sin andel i bolaget till någon annan eller utmäts och försäljs andelen eller övergår annars en bolagsmans andel utan samtycke av de övriga bolagsmännen till någon annan, har överlåtelsen, försäljningen eller övergången följande verkan mot bolaget. Bolagsmannens rättsinnehavare har rätt att under bolagets bestånd få ut vad bolagsmannen enligt",
-          "references": []
+          "text": "Överlåter en bolagsman utan samtycke av de övriga bolagsmännen sin andel i bolaget till någon annan eller utmäts och försäljs andelen eller övergår annars en bolagsmans andel utan samtycke av de övriga bolagsmännen till någon annan, har överlåtelsen, försäljningen eller övergången följande verkan mot bolaget. Bolagsmannens rättsinnehavare har rätt att under bolagets bestånd få ut vad bolagsmannen enligt 9 § har haft rätt att lyfta och att vid bolagsskiftet få ut den del av behållna tillgångar som belöper på bolagsmannen. Rättsinnehavaren har samma rätt som bolagsmannen att säga upp bolaget eller att på annat sätt kräva dess upplösning. I bolagsavtalet kan intas förbehåll att en bolagsman eller någon annan skall ha rätt att lösa en rättighet som enligt första stycket övergår till ny innehavare. Förbehållet skall ange 1. vilka som är lösningsberättigade och, om lösningsrätt inte skall kunna utövas vid vissa fång, vilka slags fång som har undantagits, 2. den ordning i vilken lösningsrätten tillkommer de lösningsberättigade inbördes, 3. den tid, inte överstigande två månader från anmälan hos den uppgivne lösningsberättigade om en rättighets övergång, inom vilken lösningsanspråk skall framställas hos bolaget, 4. den tid inom vilken lösen skall erläggas, vilken tid inte får överstiga en månad räknat från den tidpunkt då lösenbeloppet blev bestämt. Om tillämpningen av en föreskrift i bolagsavtalet rörande lösenbeloppet skulle bereda någon otillbörlig fördel, kan jämkning ske. Tvister om lösningsrätt och om lösenbeloppets storlek prövas av tre skiljemän enligt lagen (1929:145) om skiljemän, om inte annat föreskrivs i bolagsavtalet. Innan det visar sig att lösningsrätten inte begagnas, kan den till vilken rättigheterna enligt första stycket har övergått inte utöva annan av fånget härflytande rätt gentemot bolaget än rätt att få ut vad fångesmannen under bolagets bestånd skulle ha haft rätt att lyfta enligt 9 §.",
+          "references": [
+            "9 §"
+          ]
         },
         {
           "id": "kap-2-§-22",
@@ -219,14 +206,18 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-26",
           "number": 26,
-          "text": "Dör en bolagsman, skall bolaget genast träda i likvidation, om inte något annat har avtalats eller följer av 29 eller",
-          "references": []
+          "text": "Dör en bolagsman, skall bolaget genast träda i likvidation, om inte något annat har avtalats eller följer av 29 eller 30 §.",
+          "references": [
+            "30 §"
+          ]
         },
         {
           "id": "kap-2-§-27",
           "number": 27,
-          "text": "Försätts en bolagsman i konkurs, skall bolaget genast träda i lik vidation, om inte något annat följer av 29 eller",
-          "references": []
+          "text": "Försätts en bolagsman i konkurs, skall bolaget genast träda i lik vidation, om inte något annat följer av 29 eller 30 §.",
+          "references": [
+            "30 §"
+          ]
         },
         {
           "id": "kap-2-§-28",
@@ -237,31 +228,47 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-29",
           "number": 29,
-          "text": "Bolagsmännen får avtala att, om det finns grund för likvidation enligt 24-",
-          "references": []
+          "text": "Bolagsmännen får avtala att, om det finns grund för likvidation enligt 24-27 §§, en bolagsman eller hans rättsinnehavare skall utträda ur bolaget i stället för att bolaget skall träda i likvidation. Ett sådant avtal gäller inte mot en bolagsmans konkursbo såvida inte konkursboet har biträtt avtalet.",
+          "references": [
+            "24-27 §§"
+          ]
         },
         {
           "id": "kap-2-§-30",
           "number": 30,
-          "text": "Om det finns grund för likvidation enligt 24-",
-          "references": []
+          "text": "Om det finns grund för likvidation enligt 24-27 §§, kan i stället för att bolaget träder i likvidation uteslutning ske av den bolagsman till vilken likvidationsgrunden kan hänföras eller dennes rättsinnehavare. För att uteslutning skall få ske måste följande iakttas. De övriga bolagsmännen skall vara ense om uteslutningen. Den som begärs utesluten skall erhålla ett lösenbelopp som kan antas motsvara vad han skulle ha erhållit om bolagsskifte i stället hade ägt rum. Den som begärs utesluten har rätt att kräva att säkerhet ställs för att hans ansvar för bolagets förbindelser inte tas i anspråk i större omfattning än som kan antas ha blivit fallet om i stället för uteslutning bolagsskifte hade ägt rum. Första stycket gäller inte, om något annat har avtalats mellan bolagsmännen.",
+          "references": [
+            "24-27 §§"
+          ]
         },
         {
           "id": "kap-2-§-31",
           "number": 31,
-          "text": ". En bolagsman som har visat trolöshet i bolagets angelägenheter kan på talan av någon annan bolagsman av domstol skiljas från rätten att företräda bolaget. Domstolens avgörande får verkställas utan hinder av att det inte har vunnit laga kraft.",
+          "text": "Under likvidationen vidtas förvaltningsåtgärder av alla bolagsmännen i förening, om inte något annat har avtalats eller särskild likvidator har förordnats. Vad som nu sagts gäller även rätten att företräda bolaget. En bolagsman har rätt att under likvidationen låta sig företrädas av ombud vid medverkan i bolagets angelägenheter, om inte något annat har avtalats mellan bolagsmännen. Under likvidationen får dödsboet efter en bolagsman företrädas av endast en ställföreträdare eller ett ombud, om inte något annat har avtalats mellan bolagsmännen.",
           "references": []
         },
         {
           "id": "kap-2-§-32",
           "number": 32,
-          "text": "Bestämmelserna i",
-          "references": []
+          "text": "Bestämmelserna i 5 § gäller under likvidationen. Om inte något annat har avtalats i fråga om bolagsmännens inbördes rättigheter och skyldigheter, gäller under likvidationen 2 §, 3 § tredje stycket, 4, 6, 8 och 12-16 §§. Bestämmelserna i 3 § tredje stycket och 4 § gäller dock inte, om särskild likvidator har förordnats. När bolaget har trätt i likvidation, får kallelse på bolagets okända borgenärer sökas av bolagsman eller likvidator.",
+          "references": [
+            "12-16 §§",
+            "2 §",
+            "3 §",
+            "4 §",
+            "5 §"
+          ]
         },
         {
           "id": "kap-2-§-33",
           "number": 33,
           "text": "När bolaget har trätt i likvidation, skall bolagets egendom i den mån det behövs för likvidationen så snart det kan ske förvandlas till pengar genom försäljning på offentlig auktion eller på annat lämpligt sätt. Bolagets rörelse får fortsättas, om det behövs för en ändamålsenlig avveckling eller för att de anställda skall få skälig tid för att skaffa ny anställning.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-34",
+          "number": 34,
+          "text": "Om inte något annat har avtalats mellan bolagsmännen, får tillgångarna inte skiftas innan alla kända skulder har blivit betalda eller behövliga medel har avsatts för sådan betalning. Varje bolagsman har rätt att ur de behållna tillgångarna få tillbaka sin behållna insats enligt den senaste årsredovisningen eller det senaste årsbokslutet. Om varken årsredovisning eller årsbokslut har upprättats, har varje bolagsman rätt att få ut vad han har betalat in till bolaget som insats. Om inte behållningen räcker till, räknas bristen som förlust. Uppstår ett överskott, utgör detta den slutliga vinsten. Lag (1999:1089).",
           "references": []
         },
         {
@@ -279,13 +286,59 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-37",
           "number": 37,
-          "text": "Om det är sannolikt att likvidationen oskäligt uppehålls eller annars utförs på ett sådant sätt att en bolagsmans rätt därigenom äventyras, får en domstol på ansökan av bolagsmannen besluta att likvidationen ska verkställas av en eller flera likvidatorer som utses av domstolen. Ansökan ska göras hos rätten i den ort där bolaget har sin hemvist. Ansökan ska innehålla uppgift om samtliga bolagsmäns namn och adress. De bolagsmän som inte har deltagit i ansökan ska delges denna på det sätt som är föreskrivet om stämning i tvistemål. De ska ges tillfälle att yttra sig över ansökan. En bolagsman får utses till likvidator. En likvidator får inte vara underårig eller i konkurs eller ha förvaltare enligt",
+          "text": "Om det är sannolikt att likvidationen oskäligt uppehålls eller annars utförs på ett sådant sätt att en bolagsmans rätt därigenom äventyras, får en domstol på ansökan av bolagsmannen besluta att likvidationen ska verkställas av en eller flera likvidatorer som utses av domstolen. Ansökan ska göras hos rätten i den ort där bolaget har sin hemvist. Ansökan ska innehålla uppgift om samtliga bolagsmäns namn och adress. De bolagsmän som inte har deltagit i ansökan ska delges denna på det sätt som är föreskrivet om stämning i tvistemål. De ska ges tillfälle att yttra sig över ansökan. En bolagsman får utses till likvidator. En likvidator får inte vara underårig eller i konkurs eller ha förvaltare enligt 11 kap. 7 § föräldrabalken. Om bolaget inte har någon likvidator som är bosatt i Sverige, ska likvidatorerna bemyndiga en i Sverige bosatt person att ta emot delgivning på bolagets vägnar. Ett sådant bemyndigande får inte lämnas till någon som är underårig eller som har förvaltare enligt 11 kap. 7 § föräldrabalken. Lag (2014:540).",
+          "references": [
+            "11 kap. 7 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-38",
+          "number": 38,
+          "text": "Har flera likvidatorer blivit utsedda, skall de ha hand om uppdraget gemensamt, om inte rätten förordnar att uppdraget skall delas på visst sätt mellan dem. En likvidator kan när som helst entledigas av rätten. Är bolagsmännen ense om att återta likvidationen, skall rätten återkalla förordnandet för likvidator. Ett beslut om förordnande eller entledigande av likvidator skall gälla omedelbart även om det överklagas.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-39",
+          "number": 39,
+          "text": "En likvidator skall med iakttagande av 33 och 34 §§ genomföra likvidationen i bolagsmännens ställe. En likvidator som inte är bolagsman får inte handlägga frågor om avtal mellan honom och bolaget. Inte heller får han handlägga frågor om avtal mellan bolaget och tredje man, om han har ett väsentligt intresse i frågan som kan strida mot bolagets. Vad som nu har sagts om avtal gäller även rättegång och annan talan.",
+          "references": [
+            "34 §§"
+          ]
+        },
+        {
+          "id": "kap-2-§-40",
+          "number": 40,
+          "text": "En likvidator har rätt till skäligt arvode och till ersättning för kostnader för att utföra uppdraget. 41 § Sedan en likvidator har fullgjort sitt uppdrag, skall han så snart det kan ske avge slutredovisning för sin förvaltning genom en förvaltningsberättelse rörande likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för bolagsskiftet. Till berättelsen skall fogas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall av likvidatorn delges var och en av bolagsmännen.",
+          "references": [
+            "41 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-42",
+          "number": 42,
+          "text": "Bestämmelserna i 14 och 15 §§ gäller även i fråga om skadeståndsskyldighet för likvidatorer. Bestämmelserna i 15 § om årsredovisning och årsbokslut skall i stället gälla slutredovisningen. Lag (1999:1089).",
+          "references": [
+            "15 §",
+            "15 §§"
+          ]
+        },
+        {
+          "id": "kap-2-§-43",
+          "number": 43,
+          "text": "Om ett bolagsskifte har förrättats av likvidator, har varje bolagsman rätt att klandra skiftet genom att väcka talan mot de övriga bolagsmännen inom tre månader från det slutredovisningen delgavs honom.",
           "references": []
         },
         {
           "id": "kap-2-§-44",
           "number": 44,
-          "text": "första stycket samt",
+          "text": "Bolaget är upplöst när skifte har ägt rum eller, om en likvidator har haft hand om likvidationen, när slutredovisningen har delgetts var och en av bolagsmännen. Om bolaget är försatt i konkurs och denna avslutas utan överskott, är bolaget upplöst när konkursen avslutas. Finns det överskott, ska bolaget träda i likvidation. I artikel 48.2 i Europaparlamentets och rådets förordning (EU) 2015/848 av den 20 maj 2015 om insolvensförfaranden finns en särskild bestämmelse om när en juridisk person eller ett företag ska anses upplöst. Lag (2017:474).",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-45",
+          "number": 45,
+          "text": "Om det framkommer någon tillgång för bolaget efter dess upplösning eller om talan väcks mot bolaget eller om det på annat sätt uppkommer behov av en likvidationsåtgärd, skall likvidationen fortsättas.",
           "references": []
         }
       ]
@@ -298,7 +351,82 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-3-§-1",
           "number": 1,
-          "text": "I fråga om kommanditbolag gäller",
+          "text": "I fråga om kommanditbolag gäller 2 kap., om inte något annat föreskrivs.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-2",
+          "number": 2,
+          "text": "Samtliga bolagsmän får inte vara kommanditdelägare. Stiftelser eller ideella föreningar får inte vara komplementärer. Åsidosätts dessa föreskrifter, anses bolaget som handelsbolag enligt 2 kap.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-3",
+          "number": 3,
+          "text": "Om inte något annat har avtalats, får en kommanditdelägare vid bolagets upplösning eller när han utträder ur bolaget inte påföras en förlust som överstiger vad han har satt in eller åtagit sig att sätta in i bolaget.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "Om inte något annat har avtalats, har en kommanditdelägare inte rätt att ta del i förvaltningen av bolagets angelägenheter. I fråga om förvaltningsåtgärder under likvidation gäller dock 2 kap. 31 §.",
+          "references": [
+            "2 kap. 31 §",
+            "31 §"
+          ]
+        },
+        {
+          "id": "kap-3-§-5",
+          "number": 5,
+          "text": "Om det inte genom avtal har bestämts efter vilken grund en kommanditdelägare skall ta del i vinst och förlust och bolagsmännen inte heller kan enas om det, ankommer det på rätten att avgöra denna fråga efter skälighet.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-6",
+          "number": 6,
+          "text": "Bolagsmännen får avtala att kommanditdelägare inte skall ha kontrollrätt som avses i 2 kap. 5 §.",
+          "references": [
+            "2 kap. 5 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-3-§-7",
+          "number": 7,
+          "text": "Kommanditdelägare är inte behöriga att företräda bolaget. En rättshandling som en kommanditdelägare företar för bolaget blir dock bindande för bolaget, om den mot vilken rättshandlingen företogs varken insåg eller borde ha insett att den som företog rättshandlingen var kommanditdelägare.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-8",
+          "number": 8,
+          "text": "En kommanditdelägare fullgör sin skyldighet att svara för bolagets förpliktelser genom att betala in sin utfästa insats till bolaget. På begäran av den som har en fordran mot bolaget som är förfallen till betalning är en kommanditdelägare skyldig att betala in sin utfästa insats till bolaget. En kommanditdelägares utfästa insats anses som inte inbetald i den mån han har återtagit något av insatsen eller, innan en uppkommen brist i insatsen har blivit fylld, lyft vad som har tillgodoförts honom enligt 2 kap. 6 eller 8 §.",
+          "references": [
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-3-§-9",
+          "number": 9,
+          "text": "Om kommanditbolaget ingår ett avtal med tredje man och denne vid avtalets ingående varken kände till eller borde ha känt till att det skett ett förbehåll enligt 1 kap. 2 §, svarar den kommanditdelägare som förbehållet avser såsom komplementär för de förbindelser som uppkommit för bolaget genom avtalet. Om ett avtal ingås för bolagets räkning och därvid med en kommanditdelägares vetskap och vilja ett företagsnamn används som inte innehåller ordet \"kommanditbolag\", svarar kommanditdelägaren såsom komplementär gentemot den med vilken avtalet ingicks, även om denne på grund av 19 § handelsregisterlagen (1974:157) ska anses ha haft vetskap om att det skett ett förbehåll enligt 1 kap. 2 §. Lag (2018:1662).",
+          "references": [
+            "1 kap. 2 §",
+            "19 §",
+            "2 §"
+          ]
+        },
+        {
+          "id": "kap-3-§-10",
+          "number": 10,
+          "text": "Nedsätts det belopp med vilket en kommanditdelägare svarar enligt 1 kap. 2 § på grund av överenskommelse mellan bolagsmännen, är nedsättningen utan verkan i fråga om förpliktelser vid vars tillkomst medkontrahenten varken kände till eller borde ha känt till nedsättningen.",
+          "references": [
+            "1 kap. 2 §",
+            "2 §"
+          ]
+        },
+        {
+          "id": "kap-3-§-11",
+          "number": 11,
+          "text": "Om inte något annat har avtalats, medför en kommanditdelägares död inte att bolaget skall träda i likvidation.",
           "references": []
         }
       ]
@@ -311,87 +439,79 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-4-§-1",
           "number": 1,
-          "text": "Bolagsmännens inbördes rättigheter och skyldigheter under bolagets bestånd bestäms genom avtal. I den mån bolagsmännen inte har träffat avtal om något annat skall 2-",
-          "references": []
+          "text": "Bolagsmännens inbördes rättigheter och skyldigheter under bolagets bestånd bestäms genom avtal. I den mån bolagsmännen inte har träffat avtal om något annat skall 2-4 §§ tillämpas.",
+          "references": [
+            "2-4 §§"
+          ]
         },
         {
           "id": "kap-4-§-2",
           "number": 2,
-          "text": "Bestämmelserna i",
+          "text": "Bestämmelserna i 2 kap. 2, 4, 5, 8, 9, 11, 13 och 14 §§ gäller för enkla bolag. Härvid skall det som föreskrivs i 2 kap. 14 § om skada för bolaget i stället gälla skada för någon annan bolagsman.",
+          "references": [
+            "14 §",
+            "14 §§",
+            "2 kap. 14 §",
+            "2 kap. 2, 4, 5, 8, 9, 11, 13 och 14 §§"
+          ]
+        },
+        {
+          "id": "kap-4-§-3",
+          "number": 3,
+          "text": "Åtgärder i förvaltningen av bolagets angelägenheter får vidtas endast med samtliga bolagsmäns samtycke. Dock får en åtgärd som inte tål uppskov vidtas fastän en bolagsman inte har deltagit i beslutet om åtgärden, om bolagsmannen inte har hunnit tillkallas eller om han till följd av sjukdom eller av annan anledning inte är i stånd att ta del i förvaltningen av bolagets angelägenheter. Har bolagsmännen avtalat att en förvaltningsåtgärd får vidtas utan samtycke av samtliga bolagsmän, får åtgärden dock inte vidtas, om den förbjuds av en bolagsman som inte är utesluten från förvaltningen.",
           "references": []
         },
         {
           "id": "kap-4-§-4",
           "number": 4,
-          "text": "§ tillämpas.",
+          "text": "Talan om skadestånd av en bolagsman mot någon annan bolagsman skall väckas senast tre år efter utgången av det år då det beslut fattades eller den åtgärd vidtogs som ligger till grund för talan. Utan hinder av första stycket kan skadeståndstalan som grundas på brott föras mot en bolagsman. Bolagsmännens förhållande till tredje man",
           "references": []
-        }
-      ]
-    },
-    {
-      "id": "kap-11",
-      "number": 11,
-      "title": "Kapitel 11",
-      "sections": [
+        },
         {
-          "id": "kap-11-§-7",
+          "id": "kap-4-§-5",
+          "number": 5,
+          "text": "Genom ett avtal som sluts på bolagsmännens vägnar eller under en benämning varmed bolagsmännen samfällt betecknas blir endast den bolagsman som har deltagit i avtalet berättigad eller förpliktad i förhållande till medkontrahenten. Har flera bolagsmän deltagit i avtalet, har de lika rätt i förhållande till medkontrahenten och svarar solidariskt för vad som har utfästs. Vad som nu har sagts gäller inte, om något annat har bestämts i avtalet.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-6",
+          "number": 6,
+          "text": "Används vid ingående av ett avtal en benämning varmed bolagsmännen samfällt betecknas, får benämningen inte innehålla något av orden \"handelsbolag\", \"aktiebolag\", \"förening\" eller \"stiftelse\". Om så ändå sker, svarar de bolagsmän med vilkas vetskap och vilja det har skett solidariskt för förbindelser gentemot den som varken insåg eller borde ha insett att benämningen avsåg ett enkelt bolag. Bolagets likvidation och upplösning",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-7",
           "number": 7,
-          "text": "föräldrabalken. Om bolaget inte har någon likvidator som är bosatt i Sverige, ska likvidatorerna bemyndiga en i Sverige bosatt person att ta emot delgivning på bolagets vägnar. Ett sådant bemyndigande får inte lämnas till någon som är underårig eller som har förvaltare enligt",
+          "text": "Under bolagets likvidation gäller i fråga om bolagsmännens inbördes rättigheter och skyldigheter 2 kap. 2, 4, 5, 8, 13 och 14 §§ samt 3 och 4 §§ i detta kapitel, om inte något annat har avtalats. Vad som nu har sagts om 2 kap. 4 § och 3 § i detta kapitel gäller dock inte, om särskild likvidator har förordnats. I övrigt gäller i fråga om bolagets likvidation och upplösning 2 kap. 24-27, 29 och 30 §§, 31 § andra och tredje styckena, 33, 34 och 36 §§, 37 § första stycket, andra stycket andra-fjärde meningarna och tredje-femte styckena, 38-43 §§, 44 § första stycket samt 45 §.",
+          "references": [
+            "14 §§",
+            "2 kap. 2, 4, 5, 8, 13 och 14 §§",
+            "2 kap. 4 §",
+            "3 §",
+            "30 §§",
+            "31 §",
+            "36 §§",
+            "37 §",
+            "38-43 §§",
+            "4 §"
+          ]
+        },
+        {
+          "id": "kap-4-§-8",
+          "number": 8,
+          "text": "Ansökan om förordnande av likvidator skall göras hos rätten i den ort där någon av bolagsmännen har sitt hemvist. Föreligger sådana ansökningar vid skilda domstolar, skall den ansökan som kom in senare inte tas upp till prövning.",
           "references": []
         },
         {
-          "id": "kap-11-§-15",
-          "number": 15,
-          "text": "§ gäller även i fråga om skadeståndsskyldighet för likvidatorer. Bestämmelserna i",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-34",
-          "number": 34,
-          "text": "§ genomföra likvidationen i bolagsmännens ställe. En likvidator som inte är bolagsman får inte handlägga frågor om avtal mellan honom och bolaget. Inte heller får han handlägga frågor om avtal mellan bolaget och tredje man, om han har ett väsentligt intresse i frågan som kan strida mot bolagets. Vad som nu har sagts om avtal gäller även rättegång och annan talan.",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-38",
-          "number": 38,
-          "text": "Har flera likvidatorer blivit utsedda, skall de ha hand om uppdraget gemensamt, om inte rätten förordnar att uppdraget skall delas på visst sätt mellan dem. En likvidator kan när som helst entledigas av rätten. Är bolagsmännen ense om att återta likvidationen, skall rätten återkalla förordnandet för likvidator. Ett beslut om förordnande eller entledigande av likvidator skall gälla omedelbart även om det överklagas.",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-39",
-          "number": 39,
-          "text": "En likvidator skall med iakttagande av 33 och",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-40",
-          "number": 40,
-          "text": "En likvidator har rätt till skäligt arvode och till ersättning för kostnader för att utföra uppdraget.",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-41",
-          "number": 41,
-          "text": "Sedan en likvidator har fullgjort sitt uppdrag, skall han så snart det kan ske avge slutredovisning för sin förvaltning genom en förvaltningsberättelse rörande likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för bolagsskiftet. Till berättelsen skall fogas redovisningshandlingar för hela likvidationstiden.Berättelsen och redovisningshandlingarna skall av likvidatorn delges var och en av bolagsmännen.",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-42",
-          "number": 42,
-          "text": "Bestämmelserna i 14 och",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-43",
-          "number": 43,
-          "text": "Om ett bolagsskifte har förrättats av likvidator, har varje bolagsman rätt att klandra skiftet genom att väcka talan mot de övriga bolagsmännen inom tre månader från det slutredovisningen delgavs honom.",
-          "references": []
-        },
-        {
-          "id": "kap-11-§-45",
-          "number": 45,
-          "text": "Om det framkommer någon tillgång för bolaget efter dess upplösning eller om talan väcks mot bolaget eller om det på annat sätt uppkommer behov av en likvidationsåtgärd, skall likvidationen fortsättas.",
-          "references": []
+          "id": "kap-4-§-9",
+          "number": 9,
+          "text": "En likvidator är behörig att företa rättshandlingar på bolagsmännens vägnar endast i den mån det behövs för att bolagsmännens för bolaget avsedda tillgångar skall kunna förvandlas till pengar enligt 2 kap. 33 §. Överskrider likvidatorn sin behörighet, är rättshandlingen dock bindande för bolagsmännen, om tredje man varken insåg eller borde ha insett att behörigheten överskreds. Övergångsbestämmelser 1980:1102 4. Fråga huruvida handelsbolag eller enkelt bolag föreligger skall intill utgången av år 1994 bedömas enligt äldre lag. Enkelt bolag, som från och med den 1 januari 1995 blir handelsbolag, skall ansöka om registrering före nämnda dag. Lag (1992:1210). 1993:760 1. Denna lag träder i kraft den 1 januari 1995. 2. För handelsbolag och enkla bolag som har bildats enligt äldre lag gäller den nya lagen med det undantag som följer av punkten 3. 3. För handelsbolag som har bildats före den 1 januari 1995 gäller 1 kap. 1 § i sin äldre lydelse till utgången av år 1995. Om ett sådant bolag vid utgången av 1995 inte har förts in i handelsregistret är bolaget upplöst. 1999:1089 Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. 2000:184 Denna lag träder i kraft den 1 juli 2000. Äldre föreskrifter gäller för beräkning av ränta som avser tid före ikraftträdandet. 2002:353 Denna lag träder i kraft den 1 juli 2002. I fråga om räkenskapsår som inleds före ikraftträdandet gäller äldre bestämmelser. 2005:247 1. Denna lag träder i kraft den 1 juli 2005. 2. Bestämmelserna i 1 kap. 2 a § gäller inte om pensions- eller personalstiftelsen har inträtt som bolagsman i handelsbolaget före lagens ikraftträdande och ansökan om registrering av bolagsavtalet har kommit in till Bolagsverket före utgången av december 2005. 2006:867 Denna lag träder i kraft den 1 januari 2007 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2006. 2014:540 1. Denna lag träder i kraft den 1 augusti 2014. 2. Bestämmelsen i 2 kap. 22 a § tillämpas också på fordringar som har kommit till före ikraftträdandet, om bolagsmannens avgång har registrerats i handelsregistret efter ikraftträdandet.",
+          "references": [
+            "1 kap. 1 §",
+            "1 §",
+            "2 kap. 33 §",
+            "33 §"
+          ]
         }
       ]
     }
