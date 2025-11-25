@@ -7,62 +7,40 @@ import {
 } from 'react-native';
 import { homeContent } from '../../src/content/homeContent';
 
+export default function HomeScreen() {
   return (
-    <KeyboardAvoidingView
-      style={styles.container}
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-    >
+    <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Hem</Text>
-        {!isEditing ? (
-          <TouchableOpacity
-            style={styles.editButton}
-            onPress={() => setIsEditing(true)}
-          >
-            <Ionicons name="create-outline" size={24} color="#2563eb" />
-            <Text style={styles.editButtonText}>Redigera</Text>
-          </TouchableOpacity>
-        ) : (
-          <View style={styles.actionButtons}>
-            <TouchableOpacity
-              style={styles.cancelButton}
-              onPress={handleCancel}
-            >
-              <Text style={styles.cancelButtonText}>Avbryt</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.saveButton}
-              onPress={saveHomeText}
-            >
-              <Text style={styles.saveButtonText}>Spara</Text>
-            </TouchableOpacity>
-          </View>
-        )}
       </View>
 
       <ScrollView
         style={styles.content}
         contentContainerStyle={styles.contentContainer}
-        keyboardShouldPersistTaps="handled"
       >
-        {isEditing ? (
-          <TextInput
-            style={styles.textInput}
-            value={tempText}
-            onChangeText={setTempText}
-            multiline
-            placeholder="Skriv din text här..."
-            placeholderTextColor="#9ca3af"
-            autoFocus
-            textAlignVertical="top"
-          />
-        ) : (
-          <View style={styles.textDisplay}>
-            <Text style={styles.displayText}>{homeText}</Text>
+        <View style={styles.welcomeCard}>
+          <Text style={styles.mainTitle}>{homeContent.title}</Text>
+        </View>
+
+        {homeContent.sections.map((section, index) => (
+          <View key={index} style={styles.section}>
+            <Text style={styles.sectionHeading}>{section.heading}</Text>
+            <Text style={styles.sectionContent}>{section.content}</Text>
           </View>
-        )}
+        ))}
+
+        <View style={styles.footer}>
+          <Text style={styles.footerText}>{homeContent.footer}</Text>
+        </View>
+
+        <View style={styles.infoBox}>
+          <Text style={styles.infoText}>
+            💡 <Text style={styles.infoBold}>För tillhandahållare:</Text> Redigera innehållet på denna sida genom att ändra filen{' '}
+            <Text style={styles.infoCode}>frontend/src/content/homeContent.ts</Text>
+          </Text>
+        </View>
       </ScrollView>
-    </KeyboardAvoidingView>
+    </View>
   );
 }
 
