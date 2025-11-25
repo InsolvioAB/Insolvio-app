@@ -74,9 +74,11 @@ def parse_docx_directly(docx_path: str, law_info: Dict[str, str]) -> Dict[str, A
         if not text:
             continue
         
-        # Start parsing at first "1 kap." that is followed by section content
-        if not in_actual_content and '1 kap.' in text and text.startswith('1 kap.'):
-            in_actual_content = True
+        # Start parsing at first "1 kap." OR at first "1 §" (for laws without chapters)
+        if not in_actual_content:
+            if ('1 kap.' in text and text.startswith('1 kap.')) or \
+               (text.startswith('1 §') and len(text) > 10):
+                in_actual_content = True
         
         # If not yet in actual content, skip
         if not in_actual_content:
