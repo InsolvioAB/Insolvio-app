@@ -15,23 +15,227 @@ export const semesterlag: LegalText = {
     {
       "id": "kap-1",
       "number": 1,
-      "title": "Fullständig text",
+      "title": "Semesterlag (1977:480)",
       "sections": [
         {
           "id": "kap-1-§-1",
           "number": 1,
-          "text": "SFS nr: 1977:480Departement/myndighet: Arbetsmarknadsdepartementet ARMUtfärdad: 1977-06-09Ändrad: t.o.m. SFS 2014:424Övrig text: Rättelseblad 2009:1439 har iakttagits.Ändringsregister: SFSR (Regeringskansliet)Källa: Fulltext (Regeringskansliet) Innehåll: Övergångsbestämmelser Semesterförmåner 1 § Arbetstagare har rätt till semesterförmåner enligt denna lag. Semesterförmånerna utgörs av semesterledighet, semesterlön och semesterersättning. Särskilda bestämmelser för vissa arbetstagare finns i 1. lagen (1963:115) om förlängd semester för vissa arbetstagare med radiologiskt arbete, 2. lagen (2010:449) om Försvarsmaktens personal vid internationella militära insatser, och 3. lagen (2012:332) om vissa försvarsmaktsanställningar.Lag (2012:333). Överenskommelser mellan arbetsgivare och arbetstagare 2 § Ett avtal, som innebär att arbetstagares rättigheter enligt denna lag inskränks, är ogiltigt i den delen. Detta gäller dock inte, om något annat framgår av lagen.Lag (2009:1439). 2 a § Genom avtal får avvikelse göras från 5, 12, 12 b, 19-21 och 30 a §§, i den utsträckning som framgår av de bestämmelserna. Genom kollektivavtal, som på arbetstagarsidan har slutits eller godkänts av en central arbetstagarorganisation, får avvikelse göras från 3, 3 a, 9, 11 § andra stycket, 16-16 b, 22, 26, 26 a, 29, 29 a och 30 §§. En arbetsgivare, som är bunden av ett kollektivavtal som omfattar frågor som avses i första och andra styckena, får i dessa frågor tillämpa avtalet även på en arbetstagare som inte är medlem av den avtalsslutande arbetstagarorganisationen. Detta gäller under förutsättning att arbetstagaren sysselsätts i arbete som avses med avtalet och inte omfattas av något annat tillämpligt kollektivavtal.Lag (2009:1439). Semesterår och intjänandeår 3 § Med semesterår avses tiden från och med den 1 april ett år till och med den 31 mars påföljande år. Motsvarande tid närmast före ett semesterår kallas intjänandeår.Lag (2009:1439). Semesterledighet och semesterdagar 3 a § Semesterledighet avser hela dagar. I ledigheten ingår enstaka semesterdagar eller en period av semesterdagar, inklusive arbetsfria dagar. Ledigheten börjar och slutar med en semesterdag. Lördag och söndag räknas inte som semesterdagar annat än i fall som avses i 9 § tredje stycket. Med söndag jämställs allmän helgdag samt midsommarafton, julafton och nyårsafton.Lag (2009:1439). 4 § En arbetstagare har rätt till tjugofem semesterdagar varje semesterår. Om anställningen påbörjas efter den 31 augusti under semesteråret, har arbetstagaren rätt till endast fem semesterdagar. Under semesterledighet ska arbetstagaren ha semesterlön, om sådan har tjänats in enligt 7 §. Lag (2009:1439). 5 § När det gäller en anställning som avses pågå i högst tre månader och som inte varar längre tid, får det avtalas att semesterledighet inte ska läggas ut. I sådant fall har arbetstagaren rätt till semesterersättning. Arbetstagare i gymnasial lärlingsanställning har rätt till semesterledighet enbart om detta har avtalats särskilt. En arbetstagare i sådan anställning har rätt till semesterersättning för den semesterlön som tjänats in men inte tagits ut. Sådan ersättning ska, om inte annat avtalats eller följer av 28 § första och andra styckena eller 30 §, betalas ut senast en månad efter vårterminens slut.Lag (2014:424). 6 § En arbetstagare som byter anställning har rätt till semesterledighet i den nya anställningen endast i den utsträckning arbetstagaren inte redan har haft sådan ledighet i den tidigare anställningen. Om överföring av semesterförmåner till ny anställning hos samma arbetsgivare finns bestämmelser i 30 b §.Lag (2009:1439). Semesterdagar med semesterlön 7 § Antalet semesterdagar med semesterlön beräknas på följande sätt. Från de dagar arbetstagaren har varit anställd hos arbetsgivaren under intjänandeåret (anställningstiden) subtraheras de dagar då arbetstagaren varit helt frånvarande från arbetet utan lön. Frånvaro som beror på semesterledighet, permittering, korttidsarbete eller ledighet som enligt 17-17 b §§ är semesterlönegrundande, liksom arbetsfria dagar som infaller under sådana frånvaroperioder, ska dock räknas in i anställningstiden. Differensen divideras med antalet dagar under intjänandeåret. Kvoten multipliceras med tjugofem. Om ett brutet tal då uppstår, avrundas detta till närmast högre hela tal. Lag (2013:950). Semesterdagar utan semesterlön 8 § En arbetstagare får avstå från rätt till semesterledighet som inte är förenad med semesterlön. En arbetstagare ska på begäran lämna arbetsgivaren besked om sina önskemål när det gäller utläggningen av semesterledighet utan semesterlön eller i vilken omfattning arbetstagaren önskar avstå från sådan ledighet. Besked behöver inte lämnas innan arbetsgivaren har meddelat hur många semesterdagar utan lön arbetstagaren har eller kan beräknas få rätt till. Har semesterledighet utan lön lagts ut med anledning av arbetstagarens besked enligt första stycket, får arbetstagaren inte senare avstå från ledigheten utom i fall som anges i 13 §. Lag (2009:1439). Semesterledighet för arbetstagare som regelbundet arbetar lördag eller söndag 9 § En arbetstagare, som regelbundet arbetar lördag eller söndag eller båda dessa dagar, har vid semesterledighet som omfattar minst fem dagar rätt till ledighet motsvarande tid av veckoslut, dels under semesterledigheten, dels antingen omedelbart före eller omedelbart efter denna. Omfattar semesterledigheten minst nitton dagar har arbetstagaren rätt till ledighet motsvarande tid av veckoslut såväl omedelbart före som omedelbart efter ledigheten, om inte särskilda skäl talar emot detta. Har i fall som avses i första stycket arbetstagaren ledighet av motsvarande omfattning en veckodag, som inte är lördag eller söndag, och som infaller under semesterledigheten, räknas den veckodagen som semesterdag. Om semesterledigheten är kortare än fem dagar och arbetstagaren är ledig en lördag eller söndag, som annars skulle ha utgjort arbetsdag, räknas sådan dag som semesterdag. Arbetsfri dag ska då inte anses som semesterdag.Lag (2009:1439). Semesterledighetens förläggning 10 § Mellan parter som träffar kollektivavtal om löner och allmänna anställningsvillkor bör det, om arbetstagarparten begär det, även träffas kollektivavtal om medbestämmanderätt för arbetstagarna i frågor som rör förläggningen av semesterledighet. I fråga om en arbetstagare för vilken ett sådant avtal inte har träffats gäller bestämmelserna i andra och tredje styckena. Det som föreskrivs om arbetsgivares förhandlingsskyldighet i 11 och 13 §§ lagen (1976:580) om medbestämmande i arbetslivet ska tillämpas på motsvarande sätt när det gäller förläggning av sådan semesterledighet som avses i 12 §. Om arbetstagaren inte företräds av en förhandlingsberättigad organisation eller om en sådan organisation inte önskar förhandla, ska arbetsgivaren samråda med arbetstagaren om ledighetens förläggning. När det gäller förläggningen av annan semesterledighet än sådan som avses i 12 §, ska arbetsgivaren samråda med arbetstagaren, om förhandling med arbetstagarens organisation inte har ägt rum. Lag (2009:1439). 11 § Om det inte går att komma överens om hur semesterledighet ska förläggas, bestämmer arbetsgivaren om förläggningen, om inte något annat har avtalats. Har beslut om förläggning av semesterledigheten träffats på något annat sätt än genom överenskommelse med en arbetstagare eller dennes företrädare, ska arbetsgivaren underrätta arbetstagaren om beslutet. Underrättelsen ska lämnas senast två månader före ledighetens början. Om det finns särskilda skäl, får den lämnas senare, dock om möjligt minst en månad före ledighetens början. Lag (2009:1439). 12 § Om inte annat har avtalats, ska semesterledigheten förläggas så, att arbetstagaren får en ledighetsperiod av minst fyra veckor under juni-augusti. Även utan stöd av avtal får en sådan semesterperiod förläggas till annan tid, när särskilda skäl föranleder det. Lag (2009:1439). 12 a § Semesterledighet ska förläggas så, att arbetstagare med lägre sysselsättningsgrad än heltid eller med oregelbunden arbetstid får lika lång ledighet som en arbetstagare som arbetar heltid eller en arbetstagare med regelbunden arbetstid. Lag (2009:1439). 12 b § Av semesterdagar som läggs ut under ett visst semesterår ska dagar med semesterlön läggas ut först, om inte annat har avtalats. Lag (2009:1439). Semesterledighet vid permittering eller korttidsarbete 13 § Beslutar en arbetsgivare om permittering som arbetstagaren inte hade anledning att räkna med när besked lämnades enligt 8 §, har arbetstagaren rätt att avstå från utlagd semesterledighet utan semesterlön, om ledigheten sammanfaller med permitteringsperioden. Har en arbetstagare lämnat besked enligt 8 § innan han eller hon fått information om hur arbetstiden ska läggas ut vid korttidsarbete, har arbetstagaren rätt att avstå från utlagd semesterledighet utan semesterlön, om semesterledigheten sammanfaller med tid då arbetstagaren ska vara helt frånvarande på grund av korttidsarbete. Första och andra styckena gäller dock endast om arbetstagaren underrättar arbetsgivaren senast två veckor före semesterledighetens början. Får arbetstagaren först senare kännedom om permitteringen eller hur arbetstiden ska läggas ut vid korttidsarbete, får arbetstagaren avstå från semesterledigheten om han eller hon utan dröjsmål underrättar arbetsgivaren. Har semesterledigheten då inletts, upphör ledigheten vid utgången av den dag då arbetsgivaren underrättades. Lag (2013:950). Semesterledighet i samband med uppsägning och sjukdom m.m. 14 § Semesterledighet får inte utan arbetstagarens medgivande förläggas till uppsägningstid. Skulle vid uppsägning från arbetsgivarens sida uppsägningstiden helt eller delvis infalla under redan utlagd semesterledighet och beror uppsägningen på förhållanden som inte hänför sig till arbetstagaren personligen, ska semesterledighetens förläggning i samma mån upphävas, om arbe",
+          "text": "Arbetstagare har rätt till semesterförmåner enligt denna lag. Semesterförmånerna utgörs av semesterledighet, semesterlön och semesterersättning. Särskilda bestämmelser för vissa arbetstagare finns i 1. lagen (1963:115) om förlängd semester för vissa arbetstagare med radiologiskt arbete, 2. lagen (2010:449) om Försvarsmaktens personal vid internationella militära insatser, och 3. lagen (2012:332) om vissa försvarsmaktsanställningar. Lag (2012:333). Överenskommelser mellan arbetsgivare och arbetstagare 2 § Ett avtal, som innebär att arbetstagares rättigheter enligt denna lag inskränks, är ogiltigt i den delen. Detta gäller dock inte, om något annat framgår av lagen. Lag (2009:1439).",
           "references": [
-            "1 §",
-            "10 §",
+            "2 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-2",
+          "number": 2,
+          "text": "Genom avtal får avvikelse göras från 5, 12, 12 b, 19-21 och 30 a §§, i den utsträckning som framgår av de bestämmelserna. Genom kollektivavtal, som på arbetstagarsidan har slutits eller godkänts av en central arbetstagarorganisation, får avvikelse göras från 3, 3 a, 9, 11 § andra stycket, 16-16 b, 22, 26, 26 a, 29, 29 a och 30 §§. En arbetsgivare, som är bunden av ett kollektivavtal som omfattar frågor som avses i första och andra styckena, får i dessa frågor tillämpa avtalet även på en arbetstagare som inte är medlem av den avtalsslutande arbetstagarorganisationen. Detta gäller under förutsättning att arbetstagaren sysselsätts i arbete som avses med avtalet och inte omfattas av något annat tillämpligt kollektivavtal. Lag (2009:1439). Semesterår och intjänandeår 3 § Med semesterår avses tiden från och med den 1 april ett år till och med den 31 mars påföljande år. Motsvarande tid närmast före ett semesterår kallas intjänandeår. Lag (2009:1439). Semesterledighet och semesterdagar",
+          "references": [
             "11 §",
-            "12 §",
-            "13 §",
-            "13 §§",
-            "14 §",
-            "2 §",
+            "3 §",
+            "30 §§"
+          ]
+        },
+        {
+          "id": "kap-1-§-3",
+          "number": 3,
+          "text": "Semesterledighet avser hela dagar. I ledigheten ingår enstaka semesterdagar eller en period av semesterdagar, inklusive arbetsfria dagar. Ledigheten börjar och slutar med en semesterdag. Lördag och söndag räknas inte som semesterdagar annat än i fall som avses i 9 § tredje stycket. Med söndag jämställs allmän helgdag samt midsommarafton, julafton och nyårsafton. Lag (2009:1439).",
+          "references": [
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-4",
+          "number": 4,
+          "text": "En arbetstagare har rätt till tjugofem semesterdagar varje semesterår. Om anställningen påbörjas efter den 31 augusti under semesteråret, har arbetstagaren rätt till endast fem semesterdagar. Under semesterledighet ska arbetstagaren ha semesterlön, om sådan har tjänats in enligt 7 §. Lag (2009:1439).",
+          "references": [
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-5",
+          "number": 5,
+          "text": "När det gäller en anställning som avses pågå i högst tre månader och som inte varar längre tid, får det avtalas att semesterledighet inte ska läggas ut. I sådant fall har arbetstagaren rätt till semesterersättning. Arbetstagare i gymnasial lärlingsanställning har rätt till semesterledighet enbart om detta har avtalats särskilt. En arbetstagare i sådan anställning har rätt till semesterersättning för den semesterlön som tjänats in men inte tagits ut. Sådan ersättning ska, om inte annat avtalats eller följer av 28 § första och andra styckena eller 30 §, betalas ut senast en månad efter vårterminens slut. Lag (2014:424).",
+          "references": [
             "28 §",
-            "3 §"
+            "30 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-6",
+          "number": 6,
+          "text": "En arbetstagare som byter anställning har rätt till semesterledighet i den nya anställningen endast i den utsträckning arbetstagaren inte redan har haft sådan ledighet i den tidigare anställningen. Om överföring av semesterförmåner till ny anställning hos samma arbetsgivare finns bestämmelser i 30 b §. Lag (2009:1439). Semesterdagar med semesterlön",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-7",
+          "number": 7,
+          "text": "Antalet semesterdagar med semesterlön beräknas på följande sätt. Från de dagar arbetstagaren har varit anställd hos arbetsgivaren under intjänandeåret (anställningstiden) subtraheras de dagar då arbetstagaren varit helt frånvarande från arbetet utan lön. Frånvaro som beror på semesterledighet, permittering, korttidsarbete eller ledighet som enligt 17-17 b §§ är semesterlönegrundande, liksom arbetsfria dagar som infaller under sådana frånvaroperioder, ska dock räknas in i anställningstiden. Differensen divideras med antalet dagar under intjänandeåret. Kvoten multipliceras med tjugofem. Om ett brutet tal då uppstår, avrundas detta till närmast högre hela tal. Lag (2013:950). Semesterdagar utan semesterlön",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-8",
+          "number": 8,
+          "text": "En arbetstagare får avstå från rätt till semesterledighet som inte är förenad med semesterlön. En arbetstagare ska på begäran lämna arbetsgivaren besked om sina önskemål när det gäller utläggningen av semesterledighet utan semesterlön eller i vilken omfattning arbetstagaren önskar avstå från sådan ledighet. Besked behöver inte lämnas innan arbetsgivaren har meddelat hur många semesterdagar utan lön arbetstagaren har eller kan beräknas få rätt till. Har semesterledighet utan lön lagts ut med anledning av arbetstagarens besked enligt första stycket, får arbetstagaren inte senare avstå från ledigheten utom i fall som anges i 13 §. Lag (2009:1439). Semesterledighet för arbetstagare som regelbundet arbetar lördag eller söndag",
+          "references": [
+            "13 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-9",
+          "number": 9,
+          "text": "En arbetstagare, som regelbundet arbetar lördag eller söndag eller båda dessa dagar, har vid semesterledighet som omfattar minst fem dagar rätt till ledighet motsvarande tid av veckoslut, dels under semesterledigheten, dels antingen omedelbart före eller omedelbart efter denna. Omfattar semesterledigheten minst nitton dagar har arbetstagaren rätt till ledighet motsvarande tid av veckoslut såväl omedelbart före som omedelbart efter ledigheten, om inte särskilda skäl talar emot detta. Har i fall som avses i första stycket arbetstagaren ledighet av motsvarande omfattning en veckodag, som inte är lördag eller söndag, och som infaller under semesterledigheten, räknas den veckodagen som semesterdag. Om semesterledigheten är kortare än fem dagar och arbetstagaren är ledig en lördag eller söndag, som annars skulle ha utgjort arbetsdag, räknas sådan dag som semesterdag. Arbetsfri dag ska då inte anses som semesterdag. Lag (2009:1439). Semesterledighetens förläggning",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-10",
+          "number": 10,
+          "text": "Mellan parter som träffar kollektivavtal om löner och allmänna anställningsvillkor bör det, om arbetstagarparten begär det, även träffas kollektivavtal om medbestämmanderätt för arbetstagarna i frågor som rör förläggningen av semesterledighet. I fråga om en arbetstagare för vilken ett sådant avtal inte har träffats gäller bestämmelserna i andra och tredje styckena. Det som föreskrivs om arbetsgivares förhandlingsskyldighet i 11 och 13 §§ lagen (1976:580) om medbestämmande i arbetslivet ska tillämpas på motsvarande sätt när det gäller förläggning av sådan semesterledighet som avses i 12 §. Om arbetstagaren inte företräds av en förhandlingsberättigad organisation eller om en sådan organisation inte önskar förhandla, ska arbetsgivaren samråda med arbetstagaren om ledighetens förläggning. När det gäller förläggningen av annan semesterledighet än sådan som avses i 12 §, ska arbetsgivaren samråda med arbetstagaren, om förhandling med arbetstagarens organisation inte har ägt rum. Lag (2009:1439).",
+          "references": [
+            "12 §",
+            "13 §§"
+          ]
+        },
+        {
+          "id": "kap-1-§-11",
+          "number": 11,
+          "text": "Om det inte går att komma överens om hur semesterledighet ska förläggas, bestämmer arbetsgivaren om förläggningen, om inte något annat har avtalats. Har beslut om förläggning av semesterledigheten träffats på något annat sätt än genom överenskommelse med en arbetstagare eller dennes företrädare, ska arbetsgivaren underrätta arbetstagaren om beslutet. Underrättelsen ska lämnas senast två månader före ledighetens början. Om det finns särskilda skäl, får den lämnas senare, dock om möjligt minst en månad före ledighetens början. Lag (2009:1439).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-12",
+          "number": 12,
+          "text": "Om inte annat har avtalats, ska semesterledigheten förläggas så, att arbetstagaren får en ledighetsperiod av minst fyra veckor under juni-augusti. Även utan stöd av avtal får en sådan semesterperiod förläggas till annan tid, när särskilda skäl föranleder det. Lag (2009:1439).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-13",
+          "number": 13,
+          "text": "Beslutar en arbetsgivare om permittering som arbetstagaren inte hade anledning att räkna med när besked lämnades enligt 8 §, har arbetstagaren rätt att avstå från utlagd semesterledighet utan semesterlön, om ledigheten sammanfaller med permitteringsperioden. Har en arbetstagare lämnat besked enligt 8 § innan han eller hon fått information om hur arbetstiden ska läggas ut vid korttidsarbete, har arbetstagaren rätt att avstå från utlagd semesterledighet utan semesterlön, om semesterledigheten sammanfaller med tid då arbetstagaren ska vara helt frånvarande på grund av korttidsarbete. Första och andra styckena gäller dock endast om arbetstagaren underrättar arbetsgivaren senast två veckor före semesterledighetens början. Får arbetstagaren först senare kännedom om permitteringen eller hur arbetstiden ska läggas ut vid korttidsarbete, får arbetstagaren avstå från semesterledigheten om han eller hon utan dröjsmål underrättar arbetsgivaren. Har semesterledigheten då inletts, upphör ledigheten vid utgången av den dag då arbetsgivaren underrättades. Lag (2013:950). Semesterledighet i samband med uppsägning och sjukdom m.m.",
+          "references": [
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-14",
+          "number": 14,
+          "text": "Semesterledighet får inte utan arbetstagarens medgivande förläggas till uppsägningstid. Skulle vid uppsägning från arbetsgivarens sida uppsägningstiden helt eller delvis infalla under redan utlagd semesterledighet och beror uppsägningen på förhållanden som inte hänför sig till arbetstagaren personligen, ska semesterledighetens förläggning i samma mån upphävas, om arbetstagaren begär det. Första och andra styckena gäller inte om uppsägningstiden överstiger sex månader. Lag (2009:1439).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-15",
+          "number": 15,
+          "text": "Om det under semesterledigheten infaller en eller flera dagar då arbetstagaren inte hade kunnat arbeta på grund av sjukdom eller arbetsskada, eller en eller flera dagar som är semesterlönegrundande enligt 17 a och 17 b §§ ska, om arbetstagaren utan dröjsmål begär det, sådana dagar inte räknas som semesterdagar. I sådant fall ska de semesterdagar som återstår förläggas i ett sammanhang, om arbetstagaren inte medger annat. Lag (2011:129). Beräkning av semesterlön",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-16",
+          "number": 16,
+          "text": "Semesterlön för en arbetstagare som har lön bestämd per vecka eller månad beräknas enligt 16 a §, om inte annat framgår av andra stycket eller arbetsgivaren väljer att beräkna semesterlönen enligt 16 b §. Semesterlön beräknas enligt 16 b § för en arbetstagare som har 1. lön som inte är bestämd per vecka eller månad, 2. lön som regelbundet består av en fast och en rörlig del om den rörliga lönedelen kan uppskattas till minst tio procent av den sammanlagda lönen under semesteråret, eller 3. en sysselsättningsgrad som har varierat under intjänandeåret, eller som har 4. ändrat sysselsättningsgrad mellan intjänandeåret och semestertillfället, eller 5. varit frånvarande under intjänandeåret av skäl som inte är semesterlönegrundande enligt 17-17 b §§, dock inte om frånvaron pågått i samma omfattning under hela intjänandeåret och pågår i den omfattningen vid semestertillfället. Särskilda bestämmelser om vissa förmåner vid beräkning av semesterlön finns i 24 och 25 §§. Lag (2009:1439). Semesterlön enligt sammalöneregeln",
+          "references": [
+            "25 §§"
+          ]
+        },
+        {
+          "id": "kap-1-§-17",
+          "number": 17,
+          "text": "Frånvaro från arbetet är semesterlönegrundande när det gäller ledighet på grund av sjukdom, om frånvaron under intjänandeåret inte överstiger 180 dagar, eller om frånvaron beror på arbetsskada. I sådan frånvaroperiod inräknas även dagar när arbetstagaren inte skulle ha utfört arbete. Frånvaron upphör att vara semesterlönegrundande då arbetstagaren varit helt eller delvis frånvarande från arbetet under ett helt intjänandeår, utan längre avbrott i frånvaron än fjorton dagar i en följd. Lag (2009:1439). 17 a § Frånvaro från arbetet är semesterlönegrundande när det gäller ledighet enligt föräldraledighetslagen (1995:584) i fråga om 1. ledighet enligt 8 § första stycket nämnda lag, om frånvaron under intjänandeåret inte överstiger 120 dagar, eller för ensamstående förälder 180 dagar, 2. tid för vilken graviditetspenning utges enligt 10 kap. socialförsäkringsbalken, eller 3. tid för vilken föräldrapenning lämnas med anledning av barns födelse eller adoption enligt 12 kap. socialförsäkringsbalken, om frånvaron för varje barn eller vid flerbarnsbörd sammanlagt inte överstiger 120 dagar eller för ensamstående förälder 180 dagar. I en frånvaroperiod enligt första stycket räknas in även dagar när arbetstagaren inte skulle ha utfört arbete. Lag (2010:1223). 17 b § Frånvaro från arbetet är semesterlönegrundande när det gäller 1. ledighet med anledning av risk för överförande av smitta, a) om arbetstagaren är berättigad till smittbärarersättning enligt 46 kap. socialförsäkringsbalken, och b) om frånvaron under intjänandeåret inte överstiger 180 dagar, 2. ledighet enligt lagen (1988:1465) om ledighet för närståendevård, om frånvaron under intjänandeåret inte överstiger 45 dagar, 3. ledighet för utbildning som till väsentlig del avser fackliga eller med facklig verksamhet sammanhängande frågor eller för ersättningsberättigande teckenspråksutbildning för vissa föräldrar (TUFF), om frånvaron under intjänandeåret inte överstiger 180 dagar och ledigheten inte ger rätt till semesterlön enligt någon annan lag, 4. ledighet på grund av grundutbildning om högst 60 dagar eller repetitionsutbildning enligt lagen (1994:1809) om totalförsvarsplikt, om frånvaron under intjänandeåret inte överstiger 60 dagar, eller 5. ledighet enligt lagen (1986:163) om rätt till ledighet för utbildning i svenska för invandrare. I en frånvaroperiod enligt första stycket räknas in även dagar när arbetstagaren inte skulle ha utfört arbete. Lag (2010:1224). Rätt att spara semesterledighet",
+          "references": [
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-18",
+          "number": 18,
+          "text": "En arbetstagare, som under ett semesterår har rätt till mer än tjugo semesterdagar med lön, får spara en eller flera sådana överskjutande dagar till ett senare semesterår. En sparad semesterdag ska läggas ut inom fem år från utgången av det semesterår då den sparades, om inte annat följer av 20 § andra stycket. Semesterdagar får inte sparas under ett semesterår då arbetstagaren får ut semesterdagar, som har sparats från tidigare år. Lag (2009:1439). 19 § Vill en arbetstagare spara semesterdagar eller ta ut sparade semesterdagar i anslutning till semesterledigheten i övrigt, ska arbetsgivaren underrättas i samband med att förläggningen av årets semesterledighet bestäms. Underrättelse behöver dock inte lämnas förrän arbetsgivaren har meddelat hur många semesterdagar med lön arbetstagaren har eller kan beräknas få rätt till. En arbetstagare som vill ta ut sparade semesterdagar utan sammanhang med semesterledigheten i övrigt, ska meddela arbetsgivaren detta senast två månader i förväg. Första stycket gäller endast om inte annat har avtalats. Lag (2009:1439). Förläggning av sparade semesterdagar",
+          "references": [
+            "19 §",
+            "20 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-20",
+          "number": 20,
+          "text": "Sparade semesterdagar ska förläggas till det semesterår som arbetstagaren väljer. Detta gäller dock inte om något annat har avtalats eller om det finns särskilda skäl mot att semesterdagarna förläggs till det året. Om arbetstagaren har avsett att sparade semesterdagar ska förläggas till det femte året efter det semesterår då de sparades och om sådan förläggning skulle medföra betydande olägenhet, får överenskommelse träffas om att semesterdagarna ska läggas ut under det sjätte året. Lag (2009:1439).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-21",
+          "number": 21,
+          "text": "Önskar en arbetstagare samtidigt få ut minst fem sparade semesterdagar, ska dessa och hela semesterledigheten för semesteråret läggas ut i en följd, om inte annat har avtalats. Lag (2009:1439). Semesterlön för sparade semesterdagar",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-22",
+          "number": 22,
+          "text": "Semesterlön för sparade semesterdagar beräknas enligt 16-16 b §§. Samtliga sparade semesterdagar som läggs ut ska betraktas som intjänade under det närmast föregående intjänandeåret. Lag (2009:1439).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-23",
+          "number": 23,
+          "text": "Har upphävts genom lag (2009:1439). Särskilda bestämmelser om semesterlön 24 § Vid beräkning av semesterlön ska hänsyn inte tas till förmån av fri bostad eller till en löneförmån, som är avsedd att utgöra ersättning för särskilda kostnader. Lag (2009:1439). 25 § En arbetstagare, som får fri kost i arbetsgivarens hushåll, har rätt till skälig kostersättning för de semesterdagar då förmånen inte har utnyttjats till någon del. Lag (2009:1439). Utbetalning av semesterlön",
+          "references": [
+            "24 §",
+            "25 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-26",
+          "number": 26,
+          "text": "Arbetsgivaren ska betala ut semesterlön till arbetstagaren i samband med semesterledigheten. Semesterlön för rörliga lönedelar som avses i 16 a § tredje stycket ska betalas senast en månad efter semesterårets utgång. Lag (2009:1439). Semesterlön för semester som inte har kunnat läggas ut 26 a § Semesterdagar med semesterlön som inte har sparats enligt 18 § och som inte har kunnat läggas ut under semesteråret ersätts med semesterlön. Sådan semesterlön bestäms enligt grunderna för beräkning av semesterlön i 16-16 b §§, och ska betalas ut senast en månad efter semesterårets utgång. Semesterlön betalas dock ut endast för det antal dagar som tillsammans med det antal dagar som intjänats under intjänandeåret överstiger tjugofem. Lag (2009:1439).",
+          "references": [
+            "18 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-27",
+          "number": 27,
+          "text": "Har upphävts genom lag (2009:1439). Semesterersättning",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-28",
+          "number": 28,
+          "text": "Om anställningen upphör innan arbetstagaren har fått den semesterlön som tjänats in, ska arbetstagaren i stället få semesterersättning. Detta gäller inte om annat följer av 30 b eller 31 §. Motsvarande ska gälla om arbetstagarens anställningsvillkor ändras så att semesterledighet med semesterlön ska förläggas redan under intjänandeåret. I sådant fall ska bestämmelserna om semesterersättning tillämpas som om anställningen hade upphört vid den tidpunkt från vilken de nya anställningsvillkoren ska gälla. Särskilda bestämmelser om semesterersättning finns i 5 § för 1. arbetstagare som anställs för arbete som avses pågå i högst tre månader, och 2. arbetstagare i gymnasial lärlingsanställning. Lag (2014:424).",
+          "references": [
+            "31 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-29",
+          "number": 29,
+          "text": "Semesterersättning bestäms enligt grunderna för beräkning av semesterlön. För sparade semesterdagar ska semesterersättning beräknas som om de tagits ut under det semesterår då anställningen upphörde. Lag (2009:1439). 29 a § Har en arbetstagare mottagit semesterlön i förskott, minskas semesterersättningen med sådan semesterlön. Detta gäller dock inte, om den semesterlön som togs emot i förskott utbetalades mer än fem år före anställningens upphörande eller om anställningen har upphört på grund av 1. arbetstagarens sjukdom, 2. förhållanden som avses i 4 § tredje stycket lagen (1982:80) om anställningsskydd, eller 3. uppsägning från arbetsgivarens sida som beror på förhållanden som inte hänför sig till arbetstagaren personligen, utom när uppsägning sker i samband med en konkurs. Lag (2009:1439). Utbetalning av semesterersättning",
+          "references": [
+            "4 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-30",
+          "number": 30,
+          "text": "Semesterersättning ska betalas ut till arbetstagaren utan oskäligt dröjsmål och senast en månad efter anställningens upphörande. Om det inte går att beräkna semesterersättning inom en månad efter anställningens upphörande, ska den betalas ut inom en vecka efter det att hindret mot att beräkna ersättningen upphörde. Lag (2009:1439). Okontrollerade arbetstagare 30 a § Om en arbetstagare utför arbete under sådana förhållanden att det inte kan anses vara arbetsgivarens uppgift att vaka över hur arbetet är ordnat, får avtal träffas om avvikelse från bestämmelserna om förläggning av semesterledighet i 9-15 §§. Sådan avvikelse får inte innebära en inskränkning i arbetstagarens rätt att ta ut tjugofem semesterdagar, eller det mindre antal semesterdagar som arbetstagaren har rätt till varje semesterår. Lag (2009:1439). Ny anställning i anslutning till en tidigare anställning",
+          "references": [
+            "9-15 §§"
+          ]
+        },
+        {
+          "id": "kap-1-§-32",
+          "number": 32,
+          "text": "Arbetsgivare som bryter mot denna lag skall till arbetstagaren utge, förutom den semesterlön eller semesterersättning vartill arbetstagaren kan vara berättigad, ersättning för uppkommen skada. Vid bedömande om och i vad mån skada har uppstått skall hänsyn tagas även till arbetstagarens intresse av att erhålla semesterledighet och till övriga omständigheter av annan än rent ekonomisk betydelse. Om det med hänsyn till skadans storlek eller andra omständigheter är skäligt, kan skadeståndet nedsättas eller helt bortfalla. Preskription",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-33",
+          "number": 33,
+          "text": "En arbetstagare som vill begära semesterlön, semesterersättning eller skadestånd enligt denna lag ska väcka talan inom två år från utgången av det semesterår då arbetstagaren enligt lagen skulle ha fått den förmån som begäran gäller. Försummar arbetstagaren det, är rätten till talan förlorad. Lag (2009:1439). Rättegång",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-34",
+          "number": 34,
+          "text": "Mål om tillämpning av denna lag handlägges enligt lagen (1974:371) om rättegången i arbetstvister. Övergångsbestämmelser 1985:86 Denna lag träder i kraft den 1 juli 1985. Den nya bestämmelsen om semesterlönegrundande frånvaro i samband med havandeskapspenning tillämpas endast på frånvaro som har inträffat efter ikraftträdandet. 1988:1468 1. Denna lag träder i kraft den 1 juli 1989. 2. Äldre bestämmelser skall gälla i fråga om ersättning enligt lagen (1956:293) om ersättning åt smittbärare. Lag (1989:339). 1990:102 1. Denna lag träder i kraft den 1 april 1990. Semesterledighet enligt den nya lagen utgår dock först under semesteråret den 1 april 1991 - den 31 mars 1992, om ej annat överenskommes. 2. Kollektivavtal eller annat avtal, som har träffats med utgångspunkt i äldre lag och innefattar sämre förmåner än som följer av den nya lagen, är i sådan del utan verkan. 1992:1329 Denna lag träder i kraft den 1 april 1993. Såvitt avser semesterledighet tillämpas den nya lagen dock först under semesteråret den 1 april 1994--den 31 mars 1995. 1993:334 Denna lag träder i kraft den 1 juni 1993. De nya bestämmelserna tillämpas vid beräkning av semesterlön för tid från och med den 1 april 1993. Semesterlön som intjänats före ikraftträdandet skall dock inte minskas. 1994:1688 Denna lag träder i kraft den 1 januari 1995. Lagen skall dock inte tillämpas beträffande en övergång av ett företag, en verksamhet eller en del av en verksamhet som inträffat före ikraftträdandet. 1999:1399 Denna lag träder i kraft den 1 juli 2001. Den äldre lydelsen gäller fortfarande i fråga om studiestöd som beviljats enligt den upphävda studiestödslagen (1973:349) eller enligt övergångsbestämmelserna till studiestödslagen (1999:1395). 2002:625 1. Denna lag träder i kraft den 1 januari 2003. 2. Äldre bestämmelser gäller fortfarande för särskilt utbildningsbidrag som avser tid före ikraftträdandet. 2006:1529 1. Denna lag träder i kraft den 1 januari 2007. 2. Äldre bestämmelser gäller fortfarande i fråga om rekryteringsbidrag som har lämnats enligt den upphävda lagen (2002:624) om rekryteringsbidrag till vuxenstuderande. 2009:1439 1. Denna lag träder i kraft den 1 april 2010. 2. De nya bestämmelserna i 17 § tillämpas första gången på frånvaroperioder som påbörjas efter ikraftträdandet. När det gäller den som vid lagens ikraftträdande på deltid är frånvarande från arbetet på grund av sjukdom eller arbetsskada, ska de nya bestämmelserna tillämpas redan från ikraftträdandet. Lag (2011:129).",
+          "references": [
+            "17 §"
           ]
         }
       ]
