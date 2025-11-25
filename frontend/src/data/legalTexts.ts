@@ -33,6 +33,7 @@ import { las } from './laws/las';
 import { semesterlag } from './laws/semesterlag';
 import { aktiebolagslag } from './laws/aktiebolagslag';
 import { utsökningsbalken } from './laws/utsökningsbalken';
+import { lönegaranti } from './laws/lönegaranti';
 
 export const legalTexts: LegalText[] = [
   konkurslag,
@@ -41,5 +42,6 @@ export const legalTexts: LegalText[] = [
   aktiebolagslag,
   las,
   semesterlag,
+  lönegaranti,
 ];
 
