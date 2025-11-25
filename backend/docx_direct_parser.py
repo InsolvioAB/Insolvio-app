@@ -179,4 +179,85 @@ def parse_docx_directly(docx_path: str, law_info: Dict[str, str]) -> Dict[str, A
     for chapter in law_data['chapters']:
         chapter['sections'].sort(key=lambda x: x['number'])
     
+    # If no chapters found (law without chapter structure like LAS)
+    if not law_data['chapters']:
+        return parse_law_without_chapters(doc, law_info)
+    
+    return law_data
+
+def parse_law_without_chapters(doc: Document, law_info: Dict[str, str]) -> Dict[str, Any]:
+    """
+    Parse laws that don't have chapter structure
+    Only sections: 1 §, 2 §, etc.
+    """
+    law_data = {
+        "id": law_info['id'],
+        "title": law_info['title'],
+        "sfsNumber": law_info['sfsNumber'],
+        "department": law_info['department'],
+        "issued": law_info['issued'],
+        "lastAmended": law_info['lastAmended'],
+        "chapters": [{
+            "id": "kap-1",
+            "number": 1,
+            "title": law_info['title'],
+            "sections": []
+        }]
+    }
+    
+    sections_dict = {}
+    current_section_num = None
+    current_section_text = []
+    in_actual_content = False
+    
+    for para in doc.paragraphs:
+        text = para.text.strip()
+        
+        if not text:
+            continue
+        
+        # Start at first section marker with content
+        if not in_actual_content and text.startswith('1 §') and len(text) > 10:
+            in_actual_content = True
+        
+        if not in_actual_content:
+            continue
+        
+        # Check if this is a section marker
+        is_sec, sec_num, sec_text = is_section_marker(text)
+        if is_sec:
+            # Save previous section
+            if current_section_num and current_section_text:
+                text_content = ' '.join(current_section_text)
+                text_content = clean_text(text_content)
+                if text_content and len(text_content) > 10 and current_section_num not in sections_dict:
+                    sections_dict[current_section_num] = {
+                        "id": f"kap-1-§-{current_section_num}",
+                        "number": current_section_num,
+                        "text": text_content,
+                        "references": extract_references(text_content)
+                    }
+            
+            # Start new section
+            current_section_num = sec_num
+            current_section_text = [sec_text] if sec_text else []
+        else:
+            # Add to current section
+            if current_section_num is not None:
+                current_section_text.append(text)
+    
+    # Save last section
+    if current_section_num and current_section_text:
+        text_content = ' '.join(current_section_text)
+        text_content = clean_text(text_content)
+        if text_content and len(text_content) > 10 and current_section_num not in sections_dict:
+            sections_dict[current_section_num] = {
+                "id": f"kap-1-§-{current_section_num}",
+                "number": current_section_num,
+                "text": text_content,
+                "references": extract_references(text_content)
+            }
+    
+    law_data['chapters'][0]['sections'] = sorted(sections_dict.values(), key=lambda x: x['number'])
+    
     return law_data
