@@ -49,7 +49,8 @@ def parse_swedish_law(text: str, law_info: Dict[str, str]) -> Dict[str, Any]:
     
     # Split into chapter-section units using lookahead
     # This regex finds "X kap." and captures everything until next "Y kap." or end
-    chapter_pattern = r'(\d+)\s*kap\.\s*([^\d]*?)(?=\d+\s*kap\.|$)'
+    # Using lookahead to not consume the next chapter marker
+    chapter_pattern = r'(\d+)\s+kap\..*?(?=\d+\s+kap\.|$)'
     chapter_matches = list(re.finditer(chapter_pattern, text, re.DOTALL | re.IGNORECASE))
     
     for chapter_match in chapter_matches:
