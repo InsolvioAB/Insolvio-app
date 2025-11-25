@@ -69,6 +69,15 @@ LAWS_INFO = {
         'issued': '1977-06-09',
         'lastAmended': 't.o.m. SFS 2014:424',
         'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/5rb9ford_Semesterlag.docx'
+    },
+    'lönegaranti': {
+        'id': 'sfs-1992-497',
+        'title': 'Lag (1992:497) om lönegaranti',
+        'sfsNumber': '1992:497',
+        'department': 'Arbetsmarknadsdepartementet ARM',
+        'issued': '1992-05-14',
+        'lastAmended': '',
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/dpvfmr4z_Lag%20om%20lo%CC%88negaranti.docx'
     }
 }
 
