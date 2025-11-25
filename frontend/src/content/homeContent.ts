@@ -6,12 +6,12 @@
  */
 
 export const homeContent = {
-  title: "Välkommen till Konkurskoll",
+  title: "Välkommen till Insolvio",
   
   sections: [
     {
-      heading: "Om Konkurskoll",
-      content: `Konkurskoll är en mobil applikation för svenska konkursförvaltare och jurister som arbetar med konkursärenden. Här hittar du kompletta lagtexter offline, alltid tillgängliga när du behöver dem.`,
+      heading: "Om Insolvio",
+      content: `Insolvio är en kostnadsfri mobil applikation för svenska konkursförvaltare, jurister och handläggare som arbetar med konkursärenden. Här hittar du kompletta lagtexter offline, alltid tillgängliga när du behöver dem.`,
     },
     {
       heading: "Tillgängliga lagar",
@@ -37,5 +37,5 @@ export const homeContent = {
     },
   ],
   
-  footer: "Version 1.0 • Senast uppdaterad: November 2025",
+  footer: "info@insolvio.se",
 };
