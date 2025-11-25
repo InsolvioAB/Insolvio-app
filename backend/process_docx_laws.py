@@ -284,9 +284,9 @@ def process_all_laws():
         
         print(f"  ✓ Extraherade {len(text)} tecken")
         
-        # Parse structure using advanced parser
+        # Parse structure using robust parser
         print("  Parsar lagstruktur...")
-        law_data = parse_law_advanced(text, law_info)
+        law_data = parse_swedish_law(text, law_info)
         
         if not law_data['chapters']:
             print("  ⚠ Ingen struktur hittades, sparar som ett kapitel...")
