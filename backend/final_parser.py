@@ -124,11 +124,22 @@ def parse_swedish_law_final(text: str, law_info: Dict[str, str]) -> Dict[str, An
                 next_token = tokens[i + 1].strip()
                 # If next token is not a section or chapter marker, it's the title
                 if not re.match(r'^\d+\s+kap\.$|^\d+(?:\s+[a-z])?\s+§$', next_token):
-                    # Extract title (up to first sentence or 100 chars)
-                    title_text = next_token.split('\n')[0].strip()
+                    # Extract title - take everything before first newline or paragraph marker
+                    lines = next_token.split('\n')
+                    title_text = lines[0].strip()
+                    
+                    # Remove version markers and clean
                     title_text = re.sub(r'/[^/]*/', '', title_text).strip()
-                    if title_text and len(title_text) > 3 and not is_version_marker(title_text):
-                        current_chapter_title = title_text[:100]
+                    
+                    # Check if this is a real title (not version marker, not too short, not starting with section)
+                    if (title_text and 
+                        len(title_text) > 3 and 
+                        len(title_text) < 150 and
+                        not is_version_marker(title_text) and
+                        not re.match(r'^\d+\s+§', title_text) and
+                        not title_text.startswith('Lag (') and
+                        not title_text.startswith('SFS ')):
+                        current_chapter_title = title_text
                     else:
                         current_chapter_title = f"Kapitel {new_chapter_num}"
                     i += 1  # Skip the title token
