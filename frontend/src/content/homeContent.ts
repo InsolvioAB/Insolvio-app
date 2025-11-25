@@ -21,7 +21,8 @@ export const homeContent = {
 • Utsökningsbalken
 • Aktiebolagslag (2005:551)
 • Lag om anställningsskydd (LAS)
-• Semesterlag (1977:480)`,
+• Semesterlag (1977:480)
+• Lag om lönegaranti (1992:497)`,
     },
     {
       heading: "Funktioner",
