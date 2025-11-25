@@ -22,7 +22,7 @@ LAWS_INFO = {
         'department': 'Justitiedepartementet L2',
         'issued': '1987-06-11',
         'lastAmended': 't.o.m. SFS 2025:796',
-        'url': 'https://customer-assets.emergentagent.com/job_docuapp-6/artifacts/8bq8hd9u_Konkurslagen.docx'
+        'url': 'https://customer-assets.emergentagent.com/job_lawfinder-8/artifacts/thmel8uh_Konkurslag.docx'
     },
     'handelsbolag': {
         'id': 'sfs-1980-1102',
