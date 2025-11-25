@@ -64,68 +64,74 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#111827',
   },
-  editButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  editButtonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#2563eb',
-  },
-  actionButtons: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  cancelButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 8,
-    backgroundColor: '#f3f4f6',
-  },
-  cancelButtonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#6b7280',
-  },
-  saveButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 8,
-    backgroundColor: '#2563eb',
-  },
-  saveButtonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#ffffff',
-  },
   content: {
     flex: 1,
   },
   contentContainer: {
     padding: 16,
+    gap: 16,
   },
-  textInput: {
+  welcomeCard: {
+    backgroundColor: '#2563eb',
+    borderRadius: 16,
+    padding: 24,
+    marginBottom: 8,
+  },
+  mainTitle: {
+    fontSize: 28,
+    fontWeight: '700',
+    color: '#ffffff',
+    textAlign: 'center',
+  },
+  section: {
     backgroundColor: '#ffffff',
-    borderWidth: 1,
-    borderColor: '#d1d5db',
     borderRadius: 12,
-    padding: 16,
-    fontSize: 16,
-    lineHeight: 24,
+    padding: 20,
+    gap: 12,
+  },
+  sectionHeading: {
+    fontSize: 18,
+    fontWeight: '700',
     color: '#111827',
-    minHeight: 400,
   },
-  textDisplay: {
-    backgroundColor: '#ffffff',
+  sectionContent: {
+    fontSize: 15,
+    lineHeight: 22,
+    color: '#4b5563',
+  },
+  footer: {
+    backgroundColor: '#f3f4f6',
     borderRadius: 12,
     padding: 16,
-    minHeight: 400,
+    alignItems: 'center',
   },
-  displayText: {
-    fontSize: 16,
-    lineHeight: 24,
-    color: '#374151',
+  footerText: {
+    fontSize: 13,
+    color: '#6b7280',
+    textAlign: 'center',
+  },
+  infoBox: {
+    backgroundColor: '#fef3c7',
+    borderLeftWidth: 4,
+    borderLeftColor: '#f59e0b',
+    borderRadius: 8,
+    padding: 16,
+    marginTop: 8,
+  },
+  infoText: {
+    fontSize: 13,
+    lineHeight: 20,
+    color: '#78350f',
+  },
+  infoBold: {
+    fontWeight: '700',
+  },
+  infoCode: {
+    fontFamily: 'monospace',
+    fontSize: 12,
+    backgroundColor: '#fde68a',
+    paddingHorizontal: 4,
+    paddingVertical: 2,
+    borderRadius: 4,
   },
 });
