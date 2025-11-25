@@ -11,6 +11,7 @@ import requests
 import mammoth
 from typing import Dict, List, Any, Tuple
 from pathlib import Path
+from advanced_parser import parse_law_advanced
 
 # Law information metadata
 LAWS_INFO = {
