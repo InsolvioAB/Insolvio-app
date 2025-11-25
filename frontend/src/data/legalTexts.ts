@@ -32,12 +32,14 @@ import { handelsbolag } from './laws/handelsbolag';
 import { las } from './laws/las';
 import { semesterlag } from './laws/semesterlag';
 import { aktiebolagslag } from './laws/aktiebolagslag';
+import { utsökningsbalken } from './laws/utsökningsbalken';
 
 export const legalTexts: LegalText[] = [
   konkurslag,
   handelsbolag,
+  utsökningsbalken,
+  aktiebolagslag,
   las,
   semesterlag,
-  aktiebolagslag,
 ];
 
