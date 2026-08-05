@@ -11,7 +11,7 @@ export const homeContent = {
   sections: [
     {
       heading: "Om Insolvio",
-      content: `Insolvio är en kostnadsfri mobil applikation för svenska konkursförvaltare, jurister och handläggare som arbetar med konkursförvaltning. Här hittar du kompletta lagtexter offline, alltid tillgängliga när du behöver dem.`,
+      content: `Insolvio är en kostnadsfri mobil applikation för konkursförvaltare, jurister och handläggare som arbetar med konkursförvaltning i Sverige. Här hittar du kompletta lagtexter offline, alltid tillgängliga när du behöver dem.`,
     },
     {
       heading: "Tillgängliga lagar",
