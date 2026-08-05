@@ -11,6 +11,7 @@ import {
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts } from '../../src/data/legalTexts';
+import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
 
 type SearchResult = {
   lawId: string;
@@ -107,7 +108,7 @@ export default function SearchScreen() {
         onPress={() => router.push(`/law/${item.lawId}?section=${item.sectionId}`)}
       >
         <View style={styles.resultHeader}>
-          <Ionicons name="document-text-outline" size={20} color="#2563eb" />
+          <Ionicons name="document-text-outline" size={20} color={colors.greenPrimary} />
           <Text style={styles.resultLawTitle}>{item.lawTitle}</Text>
         </View>
         <View style={styles.resultLocation}>
@@ -126,11 +127,11 @@ export default function SearchScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.searchContainer}>
         <View style={styles.searchBar}>
-          <Ionicons name="search" size={20} color="#9ca3af" />
+          <Ionicons name="search" size={20} color={colors.mutedText} />
           <TextInput
             style={styles.searchInput}
             placeholder="Sök nyckelord, § eller kapitel..."
-            placeholderTextColor="#9ca3af"
+            placeholderTextColor={colors.mutedText}
             value={searchQuery}
             onChangeText={setSearchQuery}
             autoCapitalize="none"
@@ -138,7 +139,7 @@ export default function SearchScreen() {
           />
           {searchQuery.length > 0 && (
             <TouchableOpacity onPress={() => setSearchQuery('')}>
-              <Ionicons name="close-circle" size={20} color="#9ca3af" />
+              <Ionicons name="close-circle" size={20} color={colors.mutedText} />
             </TouchableOpacity>
           )}
         </View>
@@ -151,7 +152,7 @@ export default function SearchScreen() {
 
       {searchQuery.length === 0 ? (
         <View style={styles.emptyState}>
-          <Ionicons name="search-outline" size={64} color="#d1d5db" />
+          <Ionicons name="search-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Sök i lagtexter</Text>
           <Text style={styles.emptyText}>
             Sök efter nyckelord, paragrafnummer (t.ex. "5 §") eller kapitel (t.ex. "3 kap")
@@ -159,7 +160,7 @@ export default function SearchScreen() {
         </View>
       ) : searchResults.length === 0 ? (
         <View style={styles.emptyState}>
-          <Ionicons name="sad-outline" size={64} color="#d1d5db" />
+          <Ionicons name="sad-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Inga resultat</Text>
           <Text style={styles.emptyText}>
             Försök med andra sökord
@@ -181,69 +182,76 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f9fafb',
+    backgroundColor: colors.cream,
   },
   searchContainer: {
-    backgroundColor: '#ffffff',
-    padding: 16,
+    backgroundColor: colors.white,
+    padding: spacing.md,
     borderBottomWidth: 1,
-    borderBottomColor: '#e5e7eb',
+    borderBottomColor: colors.dividerLight,
   },
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f3f4f6',
+    backgroundColor: colors.cream,
     borderRadius: 10,
-    paddingHorizontal: 12,
+    paddingHorizontal: spacing.md,
     paddingVertical: 10,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
   },
   searchInput: {
     flex: 1,
-    marginLeft: 8,
+    marginLeft: spacing.sm,
     fontSize: 16,
-    color: '#111827',
+    fontFamily: typography.fontFamily.regular,
+    color: colors.ink,
   },
   resultCount: {
-    marginTop: 8,
+    marginTop: spacing.sm,
     fontSize: 14,
-    color: '#6b7280',
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
   },
   resultsList: {
-    padding: 16,
+    padding: spacing.md,
   },
   resultCard: {
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
+    backgroundColor: colors.white,
+    borderRadius: borderRadius.md,
+    padding: spacing.md,
+    marginBottom: spacing.md,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.1,
     shadowRadius: 3,
     elevation: 2,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
   },
   resultHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 8,
+    marginBottom: spacing.sm,
   },
   resultLawTitle: {
     fontSize: 14,
-    fontWeight: '600',
-    color: '#2563eb',
-    marginLeft: 8,
+    fontFamily: typography.fontFamily.semiBold,
+    color: colors.greenPrimary,
+    marginLeft: spacing.sm,
   },
   resultLocation: {
-    marginBottom: 8,
+    marginBottom: spacing.sm,
   },
   locationText: {
     fontSize: 13,
-    color: '#6b7280',
-    fontWeight: '500',
+    fontFamily: typography.fontFamily.medium,
+    color: colors.mutedText,
   },
   resultText: {
     fontSize: 14,
-    color: '#374151',
+    fontFamily: typography.fontFamily.regular,
+    color: colors.darkText,
     lineHeight: 20,
   },
   emptyState: {
@@ -253,15 +261,15 @@ const styles = StyleSheet.create({
     padding: 32,
   },
   emptyTitle: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#111827',
-    marginTop: 16,
-    marginBottom: 8,
+    ...createHeadingStyle(18),
+    color: colors.ink,
+    marginTop: spacing.md,
+    marginBottom: spacing.sm,
   },
   emptyText: {
     fontSize: 14,
-    color: '#6b7280',
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
     textAlign: 'center',
     lineHeight: 20,
   },
