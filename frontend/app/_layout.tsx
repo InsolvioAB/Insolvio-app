@@ -13,6 +13,7 @@ export default function RootLayout() {
   useEffect(() => {
     async function loadFonts() {
       try {
+        console.log('🔤 Starting to load Open Sans fonts...');
         await Font.loadAsync({
           'OpenSans_400Regular': require('../assets/fonts/OpenSans-Regular.ttf'),
           'OpenSans_500Medium': require('../assets/fonts/OpenSans-Medium.ttf'),
@@ -20,9 +21,10 @@ export default function RootLayout() {
           'OpenSans_700Bold': require('../assets/fonts/OpenSans-Bold.ttf'),
           'OpenSans_800ExtraBold': require('../assets/fonts/OpenSans-ExtraBold.ttf'),
         });
+        console.log('✅ Open Sans fonts loaded successfully!');
         setFontsLoaded(true);
       } catch (error) {
-        console.error('Error loading fonts:', error);
+        console.error('❌ Error loading fonts:', error);
         setFontsLoaded(true); // Continue even if fonts fail to load
       }
     }
