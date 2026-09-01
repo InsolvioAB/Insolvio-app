@@ -101,12 +101,14 @@ const styles = StyleSheet.create({
   lawTitle: {
     fontSize: 16,
     fontFamily: typography.fontFamily.semiBold,
+    fontWeight: typography.weights.semiBold,
     color: colors.ink,
     marginBottom: 4,
   },
   lawSubtitle: {
     fontSize: 13,
     fontFamily: typography.fontFamily.regular,
+    fontWeight: typography.weights.regular,
     color: colors.mutedText,
   },
   lawMetadata: {
@@ -117,6 +119,7 @@ const styles = StyleSheet.create({
   metadataText: {
     fontSize: 12,
     fontFamily: typography.fontFamily.regular,
+    fontWeight: typography.weights.regular,
     color: colors.weakText,
   },
 });

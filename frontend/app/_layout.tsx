@@ -15,11 +15,7 @@ export default function RootLayout() {
       try {
         console.log('🔤 Starting to load Open Sans fonts...');
         await Font.loadAsync({
-          'OpenSans_400Regular': require('../assets/fonts/OpenSans-Regular.ttf'),
-          'OpenSans_500Medium': require('../assets/fonts/OpenSans-Medium.ttf'),
-          'OpenSans_600SemiBold': require('../assets/fonts/OpenSans-SemiBold.ttf'),
-          'OpenSans_700Bold': require('../assets/fonts/OpenSans-Bold.ttf'),
-          'OpenSans_800ExtraBold': require('../assets/fonts/OpenSans-ExtraBold.ttf'),
+          'Open Sans': require('../assets/fonts/OpenSans-Regular.ttf'),
         });
         console.log('✅ Open Sans fonts loaded successfully!');
         setFontsLoaded(true);

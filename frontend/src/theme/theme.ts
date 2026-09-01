@@ -40,24 +40,26 @@ export const colors = {
 };
 
 export const typography = {
-  // Font family
+  // Font family - using 'Open Sans' for web, falls back to system font if not loaded
   fontFamily: {
-    regular: 'OpenSans_400Regular',
-    medium: 'OpenSans_500Medium',
-    semiBold: 'OpenSans_600SemiBold',
-    bold: 'OpenSans_700Bold',
-    extraBold: 'OpenSans_800ExtraBold',
+    regular: 'Open Sans',
+    medium: 'Open Sans',
+    semiBold: 'Open Sans',
+    bold: 'Open Sans',
+    extraBold: 'Open Sans',
   },
   
   // Rubriker - weight 600, tight tracking
   heading: {
-    fontFamily: 'OpenSans_600SemiBold',
+    fontFamily: 'Open Sans',
+    fontWeight: '600' as const,
     letterSpacing: -0.015,
   },
   
   // Etiketter/eyebrows - versaler, wide tracking
   label: {
-    fontFamily: 'OpenSans_600SemiBold',
+    fontFamily: 'Open Sans',
+    fontWeight: '600' as const,
     textTransform: 'uppercase' as const,
     letterSpacing: 0.22,
   },
@@ -91,6 +93,7 @@ export const borderRadius = {
 // Helper för att skapa heading styles
 export const createHeadingStyle = (fontSize: number) => ({
   fontFamily: typography.heading.fontFamily,
+  fontWeight: typography.heading.fontWeight,
   fontSize,
   letterSpacing: fontSize * typography.heading.letterSpacing,
 });
@@ -98,6 +101,7 @@ export const createHeadingStyle = (fontSize: number) => ({
 // Helper för att skapa label styles
 export const createLabelStyle = (fontSize: number) => ({
   fontFamily: typography.label.fontFamily,
+  fontWeight: typography.label.fontWeight,
   fontSize,
   letterSpacing: fontSize * typography.label.letterSpacing,
   textTransform: typography.label.textTransform,
