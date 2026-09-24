@@ -6,11 +6,9 @@ import {
   StyleSheet,
   TouchableOpacity,
   Modal,
-  Alert,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { homeContent } from '../../src/content/homeContent';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
@@ -43,24 +41,6 @@ export default function HomeScreen() {
 
   const hasActivity = recentlyViewed.length > 0 || bookmarks.length > 0;
 
-  const handleResetTestData = () => {
-    Alert.alert(
-      'Rensa testdata',
-      'Detta tar bort sparade bokmärken och senast visade lagar på den här enheten, så att du kan se välkomstvyn igen. Endast för test.',
-      [
-        { text: 'Avbryt', style: 'cancel' },
-        {
-          text: 'Rensa',
-          style: 'destructive',
-          onPress: async () => {
-            await AsyncStorage.removeItem('@konkurs_bookmarks');
-            await AsyncStorage.removeItem('@konkurs_recently_viewed');
-            Alert.alert('Klart', 'Testdata borttagen. Ladda om appen (skaka enheten och tryck på Reload) för att se välkomstvyn.');
-          },
-        },
-      ]
-    );
-  };
 
   return (
     <View style={styles.container}>
@@ -190,9 +170,6 @@ export default function HomeScreen() {
               </View>
             )}
 
-            <TouchableOpacity style={styles.resetButton} onPress={handleResetTestData}>
-              <Text style={styles.resetButtonText}>Rensa testdata (endast för test)</Text>
-            </TouchableOpacity>
           </ScrollView>
         </View>
       </Modal>
@@ -425,16 +402,5 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
     textAlign: 'center',
-  },
-  resetButton: {
-    alignItems: 'center',
-    paddingVertical: spacing.md,
-    marginTop: spacing.sm,
-  },
-  resetButtonText: {
-    fontSize: 13,
-    fontFamily: typography.fontFamily.regular,
-    color: '#b45309',
-    textDecorationLine: 'underline',
   },
 });
