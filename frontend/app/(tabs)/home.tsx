@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   View,
   Text,
   ScrollView,
   StyleSheet,
   TouchableOpacity,
-  Modal,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { homeContent } from '../../src/content/homeContent';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
@@ -37,22 +35,13 @@ export default function HomeScreen() {
   const router = useRouter();
   const { recentlyViewed } = useRecentlyViewed();
   const { bookmarks } = useBookmarks();
-  const [infoVisible, setInfoVisible] = useState(false);
 
   const hasActivity = recentlyViewed.length > 0 || bookmarks.length > 0;
-
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Hem</Text>
-        <TouchableOpacity
-          style={styles.infoButton}
-          onPress={() => setInfoVisible(true)}
-          accessibilityLabel="Om Insolvio"
-        >
-          <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
-        </TouchableOpacity>
       </View>
 
       <ScrollView
@@ -135,44 +124,6 @@ export default function HomeScreen() {
           </View>
         )}
       </ScrollView>
-
-      <Modal
-        visible={infoVisible}
-        animationType="slide"
-        presentationStyle="pageSheet"
-        onRequestClose={() => setInfoVisible(false)}
-      >
-        <View style={styles.modalContainer}>
-          <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Om Insolvio</Text>
-            <TouchableOpacity onPress={() => setInfoVisible(false)}>
-              <Ionicons name="close" size={28} color={colors.ink} />
-            </TouchableOpacity>
-          </View>
-          <ScrollView
-            style={styles.modalContent}
-            contentContainerStyle={styles.modalContentContainer}
-          >
-            <View style={styles.welcomeCard}>
-              <Text style={styles.mainTitle}>{homeContent.title}</Text>
-            </View>
-
-            {homeContent.sections.map((section, index) => (
-              <View key={index} style={styles.infoSection}>
-                <Text style={styles.sectionHeading}>{section.heading}</Text>
-                <Text style={styles.sectionContent}>{section.content}</Text>
-              </View>
-            ))}
-
-            {!!homeContent.footer && (
-              <View style={styles.footer}>
-                <Text style={styles.footerText}>{homeContent.footer}</Text>
-              </View>
-            )}
-
-          </ScrollView>
-        </View>
-      </Modal>
     </View>
   );
 }
@@ -195,15 +146,6 @@ const styles = StyleSheet.create({
   title: {
     ...createHeadingStyle(24),
     color: colors.ink,
-  },
-  infoButton: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    borderWidth: 1,
-    borderColor: colors.dividerLight,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   content: {
     flex: 1,
@@ -335,72 +277,5 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: typography.fontFamily.bold,
     color: colors.greenPrimary,
-  },
-  modalContainer: {
-    flex: 1,
-    backgroundColor: colors.cream,
-  },
-  modalHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: 20,
-    backgroundColor: colors.white,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.dividerLight,
-  },
-  modalTitle: {
-    ...createHeadingStyle(20),
-    color: colors.ink,
-  },
-  modalContent: {
-    flex: 1,
-  },
-  modalContentContainer: {
-    padding: spacing.md,
-    gap: spacing.md,
-  },
-  welcomeCard: {
-    backgroundColor: colors.deepGreen,
-    borderRadius: borderRadius.lg,
-    padding: spacing.lg,
-    marginBottom: spacing.sm,
-  },
-  mainTitle: {
-    ...createHeadingStyle(24),
-    color: colors.cream,
-    textAlign: 'center',
-  },
-  infoSection: {
-    backgroundColor: colors.white,
-    borderRadius: borderRadius.md,
-    padding: 20,
-    gap: spacing.md,
-    borderWidth: 1,
-    borderColor: colors.dividerLight,
-  },
-  sectionHeading: {
-    ...createHeadingStyle(18),
-    color: colors.ink,
-  },
-  sectionContent: {
-    fontSize: 15,
-    lineHeight: 22,
-    fontFamily: typography.fontFamily.regular,
-    color: colors.darkText,
-  },
-  footer: {
-    backgroundColor: colors.cream,
-    borderRadius: borderRadius.md,
-    padding: spacing.md,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: colors.dividerLight,
-  },
-  footerText: {
-    fontSize: 13,
-    fontFamily: typography.fontFamily.regular,
-    color: colors.mutedText,
-    textAlign: 'center',
   },
 });
