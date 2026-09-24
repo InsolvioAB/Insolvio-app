@@ -16,6 +16,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { legalTexts } from '../../src/data/legalTexts';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
+import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 export default function LawViewerScreen() {
@@ -30,6 +31,7 @@ export default function LawViewerScreen() {
   
   const { addBookmark, removeBookmark, isBookmarked } = useBookmarks();
   const { addNote, updateNote, deleteNote, getNote } = useNotes();
+  const { addRecentlyViewed } = useRecentlyViewed();
   
   const law = legalTexts.find((l) => l.id === id);
 
@@ -48,6 +50,16 @@ export default function LawViewerScreen() {
       }, 500);
     }
   }, [section, law]);
+
+
+  useEffect(() => {
+    if (!law) return;
+    const chapter = section
+      ? law.chapters.find((c) => c.sections.some((s) => s.id === section))
+      : undefined;
+    const sectionItem = chapter?.sections.find((s) => s.id === section);
+    addRecentlyViewed(law.id, law.title, chapter?.number, sectionItem?.number, sectionItem?.id);
+  }, [law, section]);
 
   if (!law) {
     return (

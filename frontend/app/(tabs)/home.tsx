@@ -1,46 +1,201 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
   ScrollView,
   StyleSheet,
+  TouchableOpacity,
+  Modal,
+  Alert,
 } from 'react-native';
+import { useRouter } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { homeContent } from '../../src/content/homeContent';
-import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
+import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
+import { useBookmarks } from '../../src/contexts/BookmarksContext';
+import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
+
+function formatRelativeTime(timestamp: number): string {
+  const diffMs = Date.now() - timestamp;
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  if (diffDays <= 0) return 'Visad idag';
+  if (diffDays === 1) return 'Visad igår';
+  return `Visad för ${diffDays} dagar sedan`;
+}
+
+function formatEntryTitle(lawTitle: string, chapterNumber?: number, sectionNumber?: number): string {
+  if (chapterNumber && sectionNumber) {
+    return `${lawTitle} — ${chapterNumber} kap. ${sectionNumber} §`;
+  }
+  if (chapterNumber) {
+    return `${lawTitle} — ${chapterNumber} kap.`;
+  }
+  return lawTitle;
+}
 
 export default function HomeScreen() {
+  const router = useRouter();
+  const { recentlyViewed } = useRecentlyViewed();
+  const { bookmarks } = useBookmarks();
+  const [infoVisible, setInfoVisible] = useState(false);
+
+  const hasActivity = recentlyViewed.length > 0 || bookmarks.length > 0;
+
+  const handleResetTestData = () => {
+    Alert.alert(
+      'Rensa testdata',
+      'Detta tar bort sparade bokmärken och senast visade lagar på den här enheten, så att du kan se välkomstvyn igen. Endast för test.',
+      [
+        { text: 'Avbryt', style: 'cancel' },
+        {
+          text: 'Rensa',
+          style: 'destructive',
+          onPress: async () => {
+            await AsyncStorage.removeItem('@konkurs_bookmarks');
+            await AsyncStorage.removeItem('@konkurs_recently_viewed');
+            Alert.alert('Klart', 'Testdata borttagen. Ladda om appen (skaka enheten och tryck på Reload) för att se välkomstvyn.');
+          },
+        },
+      ]
+    );
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Hem</Text>
+        <TouchableOpacity
+          style={styles.infoButton}
+          onPress={() => setInfoVisible(true)}
+          accessibilityLabel="Om Insolvio"
+        >
+          <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
+        </TouchableOpacity>
       </View>
 
       <ScrollView
         style={styles.content}
         contentContainerStyle={styles.contentContainer}
       >
-        <View style={styles.welcomeCard}>
-          <Text style={styles.mainTitle}>{homeContent.title}</Text>
-        </View>
+        <TouchableOpacity
+          style={styles.searchBar}
+          onPress={() => router.push('/search')}
+          activeOpacity={0.7}
+        >
+          <Ionicons name="search" size={20} color={colors.mutedText} />
+          <Text style={styles.searchPlaceholder}>Sök nyckelord, § eller kapitel ...</Text>
+        </TouchableOpacity>
 
-        {homeContent.sections.map((section, index) => (
-          <View key={index} style={styles.section}>
-            <Text style={styles.sectionHeading}>{section.heading}</Text>
-            <Text style={styles.sectionContent}>{section.content}</Text>
+        {!hasActivity && (
+          <View style={styles.emptyState}>
+            <View style={styles.logoBadge}>
+              <Text style={styles.logoBadgeText}>IN</Text>
+            </View>
+            <Text style={styles.emptyTitle}>Välkommen till Insolvio</Text>
+            <Text style={styles.emptyText}>
+              Sök i lagtexter eller bläddra bland lagarna för att komma igång.
+            </Text>
+            <Text style={styles.emptySubtext}>
+              Dina senaste sökningar och bokmärken visas här så snart du har använt appen.
+            </Text>
           </View>
-        ))}
+        )}
 
-        <View style={styles.footer}>
-          <Text style={styles.footerText}>{homeContent.footer}</Text>
-        </View>
+        {recentlyViewed.length > 0 && (
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>Senast visade</Text>
+            <View style={styles.list}>
+              {recentlyViewed.map((entry) => (
+                <TouchableOpacity
+                  key={`${entry.lawId}-${entry.timestamp}`}
+                  style={styles.listRow}
+                  onPress={() =>
+                    router.push(
+                      entry.sectionId
+                        ? `/law/${entry.lawId}?section=${entry.sectionId}`
+                        : `/law/${entry.lawId}`
+                    )
+                  }
+                  activeOpacity={0.7}
+                >
+                  <View style={styles.rowIcon}>
+                    <Ionicons name="document-text" size={20} color={colors.greenPrimary} />
+                  </View>
+                  <View style={styles.rowTextContainer}>
+                    <Text style={styles.rowTitle} numberOfLines={1}>
+                      {formatEntryTitle(entry.lawTitle, entry.chapterNumber, entry.sectionNumber)}
+                    </Text>
+                    <Text style={styles.rowSubtitle}>{formatRelativeTime(entry.timestamp)}</Text>
+                  </View>
+                  <Ionicons name="chevron-forward" size={20} color={colors.mutedText} />
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+        )}
 
-        <View style={styles.infoBox}>
-          <Text style={styles.infoText}>
-            💡 <Text style={styles.infoBold}>För tillhandahållare:</Text> Redigera innehållet på denna sida genom att ändra filen{' '}
-            <Text style={styles.infoCode}>frontend/src/content/homeContent.ts</Text>
-          </Text>
-        </View>
+        {bookmarks.length > 0 && (
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>Bokmärken</Text>
+            <TouchableOpacity
+              style={styles.bookmarksCard}
+              onPress={() => router.push('/bookmarks')}
+              activeOpacity={0.7}
+            >
+              <View style={styles.bookmarksCardIcon}>
+                <Ionicons name="bookmark" size={20} color={colors.greenPrimary} />
+              </View>
+              <Text style={styles.bookmarksCardText}>
+                {bookmarks.length} sparade bokmärken
+              </Text>
+              <Text style={styles.bookmarksCardLink}>Visa alla ›</Text>
+            </TouchableOpacity>
+          </View>
+        )}
       </ScrollView>
+
+      <Modal
+        visible={infoVisible}
+        animationType="slide"
+        presentationStyle="pageSheet"
+        onRequestClose={() => setInfoVisible(false)}
+      >
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Om Insolvio</Text>
+            <TouchableOpacity onPress={() => setInfoVisible(false)}>
+              <Ionicons name="close" size={28} color={colors.ink} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView
+            style={styles.modalContent}
+            contentContainerStyle={styles.modalContentContainer}
+          >
+            <View style={styles.welcomeCard}>
+              <Text style={styles.mainTitle}>{homeContent.title}</Text>
+            </View>
+
+            {homeContent.sections.map((section, index) => (
+              <View key={index} style={styles.infoSection}>
+                <Text style={styles.sectionHeading}>{section.heading}</Text>
+                <Text style={styles.sectionContent}>{section.content}</Text>
+              </View>
+            ))}
+
+            {!!homeContent.footer && (
+              <View style={styles.footer}>
+                <Text style={styles.footerText}>{homeContent.footer}</Text>
+              </View>
+            )}
+
+            <TouchableOpacity style={styles.resetButton} onPress={handleResetTestData}>
+              <Text style={styles.resetButtonText}>Rensa testdata (endast för test)</Text>
+            </TouchableOpacity>
+          </ScrollView>
+        </View>
+      </Modal>
     </View>
   );
 }
@@ -64,10 +219,167 @@ const styles = StyleSheet.create({
     ...createHeadingStyle(24),
     color: colors.ink,
   },
+  infoButton: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   content: {
     flex: 1,
   },
   contentContainer: {
+    padding: spacing.md,
+    gap: spacing.md,
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    backgroundColor: colors.white,
+    borderRadius: borderRadius.lg,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 14,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
+  },
+  searchPlaceholder: {
+    fontSize: 15,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  emptyState: {
+    alignItems: 'center',
+    paddingTop: spacing.xxl,
+    paddingHorizontal: spacing.md,
+    gap: spacing.sm,
+  },
+  logoBadge: {
+    width: 72,
+    height: 72,
+    borderRadius: borderRadius.xl,
+    backgroundColor: colors.deepGreen,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: spacing.sm,
+  },
+  logoBadgeText: {
+    ...createHeadingStyle(22),
+    color: colors.cream,
+  },
+  emptyTitle: {
+    ...createHeadingStyle(20),
+    color: colors.ink,
+    textAlign: 'center',
+  },
+  emptyText: {
+    fontSize: 15,
+    lineHeight: 22,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.darkText,
+    textAlign: 'center',
+  },
+  emptySubtext: {
+    fontSize: 13,
+    lineHeight: 20,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+    textAlign: 'center',
+    marginTop: spacing.sm,
+  },
+  section: {
+    gap: spacing.sm,
+  },
+  sectionLabel: {
+    ...createLabelStyle(12),
+    color: colors.mutedText,
+  },
+  list: {
+    gap: spacing.sm,
+  },
+  listRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    backgroundColor: colors.white,
+    borderRadius: borderRadius.md,
+    padding: spacing.md,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
+  },
+  rowIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: borderRadius.md,
+    backgroundColor: '#e8f4f0',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  rowTextContainer: {
+    flex: 1,
+    gap: 2,
+  },
+  rowTitle: {
+    fontSize: 15,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.ink,
+  },
+  rowSubtitle: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  bookmarksCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    backgroundColor: colors.deepGreen,
+    borderRadius: borderRadius.md,
+    padding: spacing.md,
+  },
+  bookmarksCardIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: borderRadius.md,
+    backgroundColor: colors.dividerDark,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bookmarksCardText: {
+    flex: 1,
+    fontSize: 15,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.cream,
+  },
+  bookmarksCardLink: {
+    fontSize: 14,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.greenPrimary,
+  },
+  modalContainer: {
+    flex: 1,
+    backgroundColor: colors.cream,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 20,
+    backgroundColor: colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.dividerLight,
+  },
+  modalTitle: {
+    ...createHeadingStyle(20),
+    color: colors.ink,
+  },
+  modalContent: {
+    flex: 1,
+  },
+  modalContentContainer: {
     padding: spacing.md,
     gap: spacing.md,
   },
@@ -78,11 +390,11 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   mainTitle: {
-    ...createHeadingStyle(28),
+    ...createHeadingStyle(24),
     color: colors.cream,
     textAlign: 'center',
   },
-  section: {
+  infoSection: {
     backgroundColor: colors.white,
     borderRadius: borderRadius.md,
     padding: 20,
@@ -114,29 +426,15 @@ const styles = StyleSheet.create({
     color: colors.mutedText,
     textAlign: 'center',
   },
-  infoBox: {
-    backgroundColor: '#fef3c7',
-    borderLeftWidth: 4,
-    borderLeftColor: colors.greenPrimary,
-    borderRadius: borderRadius.sm,
-    padding: spacing.md,
+  resetButton: {
+    alignItems: 'center',
+    paddingVertical: spacing.md,
     marginTop: spacing.sm,
   },
-  infoText: {
+  resetButtonText: {
     fontSize: 13,
-    lineHeight: 20,
     fontFamily: typography.fontFamily.regular,
-    color: '#78350f',
-  },
-  infoBold: {
-    fontFamily: typography.fontFamily.bold,
-  },
-  infoCode: {
-    fontFamily: 'monospace',
-    fontSize: 12,
-    backgroundColor: '#fde68a',
-    paddingHorizontal: 4,
-    paddingVertical: 2,
-    borderRadius: 4,
+    color: '#b45309',
+    textDecorationLine: 'underline',
   },
 });
