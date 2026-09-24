@@ -44,6 +44,7 @@ export default function RootLayout() {
           <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="law/[id]" options={{ presentation: 'card', headerShown: true, title: 'Lag' }} />
+            <Stack.Screen name="about" options={{ presentation: 'card', headerShown: true, title: 'Om Insolvio' }} />
           </Stack>
           </RecentlyViewedProvider>
         </NotesProvider>
