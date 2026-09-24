@@ -16,11 +16,13 @@ import { Ionicons } from '@expo/vector-icons';
 import { legalTexts } from '../../src/data/legalTexts';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
+import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 export default function LawViewerScreen() {
   const { id, section } = useLocalSearchParams<{ id: string; section?: string }>();
   const scrollViewRef = useRef<ScrollView>(null);
+  const sectionRefs = useRef<Record<string, View | null>>({});
   
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
@@ -30,6 +32,7 @@ export default function LawViewerScreen() {
   
   const { addBookmark, removeBookmark, isBookmarked } = useBookmarks();
   const { addNote, updateNote, deleteNote, getNote } = useNotes();
+  const { addRecentlyViewed } = useRecentlyViewed();
   
   const law = legalTexts.find((l) => l.id === id);
 
@@ -42,12 +45,33 @@ export default function LawViewerScreen() {
       if (chapter) {
         setExpandedChapters(new Set([chapter.id]));
       }
-      // Scroll to section after a short delay
+      // Scroll to section after a short delay (allows the chapter to expand first)
       setTimeout(() => {
-        // This would require refs on section elements in production
+        const sectionNode = sectionRefs.current[section];
+        if (sectionNode && scrollViewRef.current) {
+          sectionNode.measureLayout(
+            scrollViewRef.current as any,
+            (x, y) => {
+              scrollViewRef.current?.scrollTo({ y: Math.max(y - 20, 0), animated: true });
+            },
+            () => {
+              // Measurement failed (e.g. node not yet mounted) - fail silently
+            }
+          );
+        }
       }, 500);
     }
   }, [section, law]);
+
+
+  useEffect(() => {
+    if (!law) return;
+    const chapter = section
+      ? law.chapters.find((c) => c.sections.some((s) => s.id === section))
+      : undefined;
+    const sectionItem = chapter?.sections.find((s) => s.id === section);
+    addRecentlyViewed(law.id, law.title, chapter?.number, sectionItem?.number, sectionItem?.id);
+  }, [law, section]);
 
   if (!law) {
     return (
@@ -199,6 +223,9 @@ export default function LawViewerScreen() {
                   return (
                     <View
                       key={sectionItem.id}
+                      ref={(el) => {
+                        sectionRefs.current[sectionItem.id] = el;
+                      }}
                       style={[
                         styles.sectionContainer,
                         section === sectionItem.id && styles.highlightedSection,

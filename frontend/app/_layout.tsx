@@ -5,6 +5,7 @@ import { View, ActivityIndicator } from 'react-native';
 import * as Font from 'expo-font';
 import { BookmarksProvider } from '../src/contexts/BookmarksContext';
 import { NotesProvider } from '../src/contexts/NotesContext';
+import { RecentlyViewedProvider } from '../src/contexts/RecentlyViewedContext';
 import { colors } from '../src/theme/theme';
 
 export default function RootLayout() {
@@ -39,10 +40,12 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <BookmarksProvider>
         <NotesProvider>
+          <RecentlyViewedProvider>
           <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="law/[id]" options={{ presentation: 'card', headerShown: true, title: 'Lag' }} />
           </Stack>
+          </RecentlyViewedProvider>
         </NotesProvider>
       </BookmarksProvider>
     </GestureHandlerRootView>
