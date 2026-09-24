@@ -10,22 +10,12 @@ export default function AboutScreen() {
         style={styles.content}
         contentContainerStyle={styles.contentContainer}
       >
-        <View style={styles.welcomeCard}>
-          <Text style={styles.mainTitle}>{homeContent.title}</Text>
-        </View>
-
         {homeContent.sections.map((section, index) => (
           <View key={index} style={styles.infoSection}>
             <Text style={styles.sectionHeading}>{section.heading}</Text>
             <Text style={styles.sectionContent}>{section.content}</Text>
           </View>
         ))}
-
-        {!!homeContent.footer && (
-          <View style={styles.footer}>
-            <Text style={styles.footerText}>{homeContent.footer}</Text>
-          </View>
-        )}
       </ScrollView>
     </View>
   );
@@ -42,17 +32,6 @@ const styles = StyleSheet.create({
   contentContainer: {
     padding: spacing.md,
     gap: spacing.md,
-  },
-  welcomeCard: {
-    backgroundColor: colors.deepGreen,
-    borderRadius: borderRadius.lg,
-    padding: spacing.lg,
-    marginBottom: spacing.sm,
-  },
-  mainTitle: {
-    ...createHeadingStyle(24),
-    color: colors.cream,
-    textAlign: 'center',
   },
   infoSection: {
     backgroundColor: colors.white,
@@ -71,19 +50,5 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     fontFamily: typography.fontFamily.regular,
     color: colors.darkText,
-  },
-  footer: {
-    backgroundColor: colors.cream,
-    borderRadius: borderRadius.md,
-    padding: spacing.md,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: colors.dividerLight,
-  },
-  footerText: {
-    fontSize: 13,
-    fontFamily: typography.fontFamily.regular,
-    color: colors.mutedText,
-    textAlign: 'center',
   },
 });
