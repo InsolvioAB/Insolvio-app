@@ -6,6 +6,7 @@ import {
   FlatList,
   TouchableOpacity,
   SafeAreaView,
+  Alert,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -16,6 +17,21 @@ import { colors, typography, spacing, borderRadius, createHeadingStyle } from '.
 export default function BookmarksScreen() {
   const { bookmarks, removeBookmark } = useBookmarks();
   const router = useRouter();
+
+  const handleDeleteBookmark = (sectionId: string) => {
+    Alert.alert(
+      'Ta bort bokmärke?',
+      'Bokmärket tas bort permanent.',
+      [
+        { text: 'Avbryt', style: 'cancel' },
+        {
+          text: 'Ta bort',
+          style: 'destructive',
+          onPress: () => removeBookmark(sectionId),
+        },
+      ]
+    );
+  };
 
   // Get full details for each bookmark
   const bookmarkDetails = bookmarks.map((bookmark) => {
@@ -64,7 +80,7 @@ export default function BookmarksScreen() {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.deleteButton}
-          onPress={() => removeBookmark(item.sectionId)}
+          onPress={() => handleDeleteBookmark(item.sectionId)}
         >
           <Ionicons name="trash-outline" size={20} color="#ef4444" />
         </TouchableOpacity>
