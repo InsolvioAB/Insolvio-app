@@ -1,6 +1,6 @@
 // Lag (1992:497) om lönegaranti
-// Auto-generated from uploaded DOCX
-// Last amended: 
+// Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
+// Last amended: t.o.m. SFS 2025:800
 
 import { LegalText } from '../legalTexts';
 
@@ -9,8 +9,8 @@ export const lönegaranti: LegalText = {
   "title": "Lag (1992:497) om lönegaranti",
   "sfsNumber": "1992:497",
   "department": "Arbetsmarknadsdepartementet ARM",
-  "issued": "1992-05-14",
-  "lastAmended": "",
+  "issued": "1992-06-04",
+  "lastAmended": "t.o.m. SFS 2025:800",
   "chapters": [
     {
       "id": "kap-1",
@@ -18,16 +18,38 @@ export const lönegaranti: LegalText = {
       "title": "Lag (1992:497) om lönegaranti",
       "sections": [
         {
+          "id": "kap-1-§-1",
+          "number": 1,
+          "text": "Staten svarar enligt denna lag för betalning av arbetstagares fordran (statlig lönegaranti) hos en arbetsgivare som 1. har försatts i konkurs i Sverige eller i ett annat nordiskt land, 2. genomgår företagsrekonstruktion, eller 3. i ett annat land i Europeiska unionen (EU-land) eller inom Europeiska ekonomiska samarbetsområdet (EES-land) än Sverige är föremål för ett sådant insolvensförfarande som avses i artikel 2.1 i Europaparlamentets och rådets direktiv 2008/94/EG av den 22 oktober 2008 om skydd för arbetstagare vid arbetsgivarens insolvens, i lydelsen enligt Europaparlamentets och rådets direktiv (EU) 2015/1794. Lag (2022:983).",
+          "references": []
+        },
+        {
           "id": "kap-1-§-2",
           "number": 2,
           "text": "Om konkursen har inträffat i ett annat nordiskt land, lämnas betalning enligt garantin endast för en sådan fordran som avser anställning med övervägande anknytning till Sverige eller svenska förhållanden. Lag (1997:204).",
           "references": []
         },
         {
+          "id": "kap-1-§-2a",
+          "number": 2,
+          "text": "I fall som avses i 1 § 3 lämnas betalning enligt garantin endast om arbetstagaren för arbetsgivarens räkning utför eller utförde sitt arbete främst i Sverige. Om arbetsgivaren har försatts i konkurs i Sverige och arbetstagaren utför eller utförde sitt arbete för arbetsgivarens räkning främst i ett annat EU- eller EES-land lämnas inte betalning enligt garantin. Lag (2005:681).",
+          "references": [
+            "1 §"
+          ]
+        },
+        {
           "id": "kap-1-§-3",
           "number": 3,
           "text": "Om arbetsgivaren tidigare har varit försatt i konkurs, betalas inte fordringar som har gjorts eller hade kunnat göras gällande i den konkursen.",
           "references": []
+        },
+        {
+          "id": "kap-1-§-3a",
+          "number": 3,
+          "text": "Vad som i denna lag sägs om konkurs gäller i tillämpliga delar när en arbetsgivare är föremål för ett sådant insolvensförfarande som avses i 1 § 3. Lag (2005:681).",
+          "references": [
+            "1 §"
+          ]
         },
         {
           "id": "kap-1-§-4",
@@ -48,25 +70,42 @@ export const lönegaranti: LegalText = {
           "references": []
         },
         {
+          "id": "kap-1-§-6a",
+          "number": 6,
+          "text": "Den myndighet som regeringen bestämmer betalar ut garantibelopp (utbetalande myndighet). Lag (2019:530). Garantins omfattning",
+          "references": []
+        },
+        {
           "id": "kap-1-§-7",
           "number": 7,
-          "text": "Vid konkurs lämnas betalning enligt garantin för sådan fordran på lön eller annan ersättning och på pension som har förmånsrätt enligt 12 eller 13 § förmånsrättslagen (1970:979). Vid företagsrekonstruktion lämnas betalning enligt garantin för fordran på lön eller annan ersättning och på pension som skulle haft förmånsrätt enligt 12 eller 13 § förmånsrättslagen om arbetsgivaren i stället hade försatts i konkurs. Lag (2005:273). 7 a § Betalning enligt garantin lämnas också för fordran på uppsägningslön för tid efter en månad från konkursbeslutet. Detsamma gäller vid beslut om företagsrekonstruktion, i den mån arbetstagaren under uppsägningstiden inte utfört och inte heller borde ha utfört arbete för arbetsgivarens räkning. Fordran på uppsägningslön omfattas av garantin längst för uppsägningstid som beräknats enligt 11 § lagen (1982:80) om anställningsskydd. Uppsägningslön för tid under vilken arbetstagaren inte utför arbete för annan och inte heller driver egen rörelse omfattas av garantin endast om arbetstagaren kan visa att han eller hon har anmält sig som arbetssökande hos den offentliga arbetsförmedlingen. För uppsägningstid omfattar garantin endast lön eller ersättning som överstiger inkomst vilken arbetstagaren under den tid lönen eller ersättningen avser har haft av egen rörelse eller har förvärvat eller borde ha kunnat förvärva i en annan anställning. Vid bestämmande av i vilken utsträckning fordran på lön eller ersättning under uppsägningstid omfattas av garantin skall med samtidig inkomst i annan anställning jämställas aktivitetsstöd som lämnas till den som deltar i ett arbetsmarknadspolitiskt program, i den mån stödet avser samma tid som lönen eller ersättningen och arbetstagaren har blivit berättigad till stödet efter uppsägningen. Betalning enligt garantin lämnas dock inte till sådan arbetstagare som avses i 12 § sjätte stycket förmånsrättslagen (1970:979). Lag (2005:273).",
+          "text": "Vid konkurs lämnas betalning enligt garantin för sådan fordran på lön eller annan ersättning och på pension som har förmånsrätt enligt 12 eller 13 § förmånsrättslagen (1970:979). Vid företagsrekonstruktion lämnas betalning enligt garantin för fordran på lön eller annan ersättning och på pension som skulle haft förmånsrätt enligt 12 eller 13 § förmånsrättslagen om arbetsgivaren i stället hade försatts i konkurs. Lag (2005:273).",
+          "references": [
+            "13 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-7a",
+          "number": 7,
+          "text": "Betalning enligt garantin lämnas också för fordran på uppsägningslön för tid efter en månad från konkursbeslutet. Detsamma gäller vid beslut om företagsrekonstruktion, i den mån arbetstagaren under uppsägningstiden inte utfört och inte heller borde ha utfört arbete för arbetsgivarens räkning. Fordran på uppsägningslön omfattas av garantin längst för uppsägningstid som beräknats enligt 11 § lagen (1982:80) om anställningsskydd. Uppsägningslön för tid under vilken arbetstagaren inte utför arbete för annan och inte heller driver egen rörelse omfattas av garantin endast om arbetstagaren kan visa att han eller hon har anmält sig som arbetssökande hos den offentliga arbetsförmedlingen. För uppsägningstid omfattar garantin endast lön eller ersättning som överstiger inkomst vilken arbetstagaren under den tid lönen eller ersättningen avser har haft av egen rörelse eller har förvärvat eller borde ha kunnat förvärva i en annan anställning. Vid bestämmande av i vilken utsträckning fordran på lön eller ersättning under uppsägningstid omfattas av garantin skall med samtidig inkomst i annan anställning jämställas aktivitetsstöd som lämnas till den som deltar i ett arbetsmarknadspolitiskt program, i den mån stödet avser samma tid som lönen eller ersättningen och arbetstagaren har blivit berättigad till stödet efter uppsägningen. Betalning enligt garantin lämnas dock inte till sådan arbetstagare som avses i 12 § sjätte stycket förmånsrättslagen (1970:979). Lag (2005:273).",
           "references": [
             "11 §",
-            "12 §",
-            "13 §"
+            "12 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-7b",
+          "number": 7,
+          "text": "Betalning enligt garantin lämnas inte vid konkurs eller företagsrekonstruktion för sådan del av fordran på lön eller pension som enligt 5 kap. 2 § konkurslagen (1987:672) inte får göras gällande i konkurs. Lag (2005:273).",
+          "references": [
+            "2 §",
+            "5 kap. 2 §"
           ]
         },
         {
           "id": "kap-1-§-8",
           "number": 8,
-          "text": " Om någon på grund av en fordran som omfattas av garantin har ansökt om att gäldenären skall försättas i konkurs, lämnas betalning även för kostnaden för det och, om konkursen har avskrivits enligt 10 kap. 1 § konkurslagen (1987:672), för den kostnad som han har blivit ålagd att betala enligt 14 kap. 3 § samma lag.",
-          "references": [
-            "1 §",
-            "10 kap. 1 §",
-            "14 kap. 3 §",
-            "3 §"
-          ]
+          "text": "Om någon på grund av en fordran som omfattas av garantin har ansökt om att gäldenären ska försättas i konkurs, lämnas betalning även för kostnaden för det. Lag (2025:800).",
+          "references": []
         },
         {
           "id": "kap-1-§-9",
@@ -77,6 +116,18 @@ export const lönegaranti: LegalText = {
             "2 kap. 6 och 7 §§",
             "7 §§"
           ]
+        },
+        {
+          "id": "kap-1-§-9a",
+          "number": 9,
+          "text": "har upphävts genom lag (1997:204).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-9b",
+          "number": 9,
+          "text": "En lönefordran ersätts inte om det finns grundad anledning att anta att en av förutsättningarna för den anställning eller det anställningsvillkor på vilket fordran grundar sig har varit att den skulle betalas helt eller delvis genom lönegarantin. Lag (1994:636). Arbetstagarens upplysningsskyldighet",
+          "references": []
         },
         {
           "id": "kap-1-§-10",
@@ -122,7 +173,7 @@ export const lönegaranti: LegalText = {
         {
           "id": "kap-1-§-15",
           "number": 15,
-          "text": " Förvaltaren ska för arbetstagarens räkning bevaka fordringar som enligt förvaltarens bedömning är klara. Bevakningen får ske genom att förvaltaren till rätten lämnar två kopior av en sådan underrättelse som han eller hon har lämnat till den utbetalande myndigheten enligt 11 § och anger att den avser bevakning. Förvaltaren ska genast underrätta arbetstagaren om bevakningen. Lag (2019:530).",
+          "text": "Förvaltaren ska för arbetstagarens räkning bevaka fordringar som enligt förvaltarens bedömning är klara. Som bevakning får förvaltaren använda en sådan underrättelse som han eller hon har lämnat till den utbetalande myndigheten enligt 11 §. Förvaltaren ska genast underrätta arbetstagaren om bevakningen. Lag (2025:800). Konkurs utan bevakning och företagsrekonstruktion",
           "references": [
             "11 §"
           ]
@@ -142,10 +193,15 @@ export const lönegaranti: LegalText = {
         {
           "id": "kap-1-§-18",
           "number": 18,
-          "text": "Om förvaltaren eller rekonstruktören, efter att ha fattat beslut om betalning enligt garantin, får upplysningar enligt 10 eller 23 b § eller på annat sätt får kännedom om något förhållande som påverkar frågan till vilken del arbetstagarens fordran omfattas av rätt till betalning enligt garantin, ska förvaltaren eller rekonstruktören snarast ompröva sitt beslut om garantibelopp som ännu inte har betalats ut. Om omprövningen medför att utbetalning enligt garantin ska ske med ett annat belopp än tidigare, ska förvaltaren eller rekonstruktören samma dag sända en underrättelse om beslutets innehåll till den utbetalande myndigheten. Lag (2024:1327). 19 § Kopia av ett beslut enligt 16 eller 18 § skall samma dag som beslutet meddelades sändas till arbetstagaren och den myndighet som har tillsyn över förvaltningen i konkurser. Lag (2006:711).",
+          "text": "Om förvaltaren eller rekonstruktören, efter att ha fattat beslut om betalning enligt garantin, får upplysningar enligt 10 eller 23 b § eller på annat sätt får kännedom om något förhållande som påverkar frågan till vilken del arbetstagarens fordran omfattas av rätt till betalning enligt garantin, ska förvaltaren eller rekonstruktören snarast ompröva sitt beslut om garantibelopp som ännu inte har betalats ut. Om omprövningen medför att utbetalning enligt garantin ska ske med ett annat belopp än tidigare, ska förvaltaren eller rekonstruktören samma dag sända en underrättelse om beslutets innehåll till den utbetalande myndigheten. Lag (2024:1327).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-19",
+          "number": 19,
+          "text": "Kopia av ett beslut enligt 16 eller 18 § skall samma dag som beslutet meddelades sändas till arbetstagaren och den myndighet som har tillsyn över förvaltningen i konkurser. Lag (2006:711).",
           "references": [
-            "18 §",
-            "19 §"
+            "18 §"
           ]
         },
         {
@@ -155,12 +211,37 @@ export const lönegaranti: LegalText = {
           "references": []
         },
         {
+          "id": "kap-1-§-20a",
+          "number": 20,
+          "text": "Vid företagsrekonstruktion skall rekonstruktören, på begäran av den myndighet som avses i 19 §, lämna sådana uppgifter om fordringar hos gäldenären som kan ha betydelse för betalning enligt garantin. Lag (2006:711). Lönegaranti vid gränsöverskridande situationer",
+          "references": [
+            "19 §"
+          ]
+        },
+        {
           "id": "kap-1-§-21",
           "number": 21,
           "text": "Om en arbetstagare begär betalning enligt garantin för en fordran som han eller hon har mot en arbetsgivare som har försatts i konkurs i ett annat nordiskt land eller som i ett annat EU- eller EES-land än Sverige är föremål för ett sådant insolvensförfarande som avses i 1 § 3, skall arbetstagaren ansöka om utbetalning av garantibelopp hos den myndighet som avses i 19 §. Statens talan förs av den myndighet som avses i 19 §. Lag (2006:711).",
           "references": [
             "1 §",
             "19 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-21a",
+          "number": 21,
+          "text": "Om en arbetstagare begär betalning enligt garantin för en fordran som han eller hon har mot en arbetsgivare som i ett annat EU- eller EES-land än Sverige är föremål för ett sådant insolvensförfarande som avses i 1 § 3, skall tillsynsmyndigheten begära information om arbetstagarens utestående fordringar hos den behöriga garantiinstitutionen i det landet. Om en arbetsgivare som har försatts i konkurs i Sverige har arbetstagare i ett annat EU- eller EES-land, skall tillsynsmyndigheten lämna relevant information om fordringarna vid förfrågan från den behöriga garantiinstitutionen i det landet. Regeringen eller den myndighet regeringen bestämmer meddelar närmare föreskrifter om utbyte av information mellan tillsynsmyndigheten och behöriga garantiinstitutioner i andra länder. Lag (2005:681).",
+          "references": [
+            "1 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-21b",
+          "number": 21,
+          "text": "Det som sägs i 18 § om omprövning ska även gälla för tillsynsmyndigheten i fråga om beslut enligt 21 §. Lag (2024:1327). Utbetalning av garantibelopp",
+          "references": [
+            "18 §",
+            "21 §"
           ]
         },
         {
@@ -174,6 +255,24 @@ export const lönegaranti: LegalText = {
           "number": 23,
           "text": "Garantibelopp får inte betalas ut innan arbetstagarens fordran har förfallit till betalning. Åberopas motfordran hos arbetstagaren, får ett garantibelopp, som motsvarar en sådan del av motfordran med vilken kvittning kan ske enligt lagen (1970:215) om arbetsgivares kvittningsrätt, betalas ut först om det framgår att det inte finns någon motfordran.",
           "references": []
+        },
+        {
+          "id": "kap-1-§-23a",
+          "number": 23,
+          "text": "Innan ett garantibelopp betalas ut ska den utbetalande myndigheten skyndsamt kontrollera ett beslut eller en underrättelse om lönegaranti från en förvaltare, en rekonstruktör eller tillsynsmyndigheten i syfte att motverka felaktiga utbetalningar. Kontrollen ska göras mot sådana uppgifter i Skatteverkets beskattningsdatabas som avses i 2 kap. 3 § första stycket 1-5, 7, 8 och 11 lagen (2001:181) om behandling av uppgifter i Skatteverkets beskattningsverksamhet och mot andra uppgifter som förekommer i den utbetalande myndighetens lönegarantiverksamhet. En sådan kontroll ska även göras efter det att ett garantibelopp har betalats ut, om det finns skäl för det. Lag (2024:1327).",
+          "references": [
+            "2 kap. 3 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-23b",
+          "number": 23,
+          "text": "Uppgifter som förekommer i den utbetalande myndighetens lönegarantiverksamhet och som kan antas ha särskild betydelse för en underrättelse enligt 12 § eller en omprövning av beslut enligt 18 § ska skyndsamt lämnas till förvaltaren, rekonstruktören eller tillsynsmyndigheten. En uppgift som omfattas av sekretess ska inte lämnas ut om övervägande skäl talar för att det intresse som sekretessen ska skydda har företräde framför intresset av att uppgiften lämnas ut. Om uppgifter har lämnats ut får ett garantibelopp inte betalas ut innan förvaltaren, rekonstruktören eller tillsynsmyndigheten har omprövat sitt tidigare ställningstagande om lönegaranti eller underrättat den utbetalande myndigheten om att uppgifterna inte ger anledning till en ny bedömning. Lag (2024:1327).",
+          "references": [
+            "12 §",
+            "18 §"
+          ]
         },
         {
           "id": "kap-1-§-24",
@@ -279,13 +378,14 @@ export const lönegaranti: LegalText = {
         {
           "id": "kap-1-§-37",
           "number": 37,
-          "text": "Den utbetalande myndigheten får behandla personuppgifter om det behövs för kontroll och utbetalning av garantibelopp och för att i övrigt utföra sina uppgifter i lönegarantiverksamheten. Personuppgifter som behandlas enligt första stycket får också behandlas om det behövs för att fullgöra uppgiftslämnande som sker i överensstämmelse med lag eller förordning. Lag (2024:1327). 38 § Rätten att göra invändningar enligt artikel 21.1 i Europaparlamentets och rådets förordning (EU) 201646/EG (allmän dataskyddsförordning) gäller inte vid sådan behandling av personuppgifter i den utbetalande myndighetens lönegarantiverksamhet som är tillåten enligt denna lag eller föreskrifter som har meddelats i anslutning till lagen. Lag (2024:1327). Övergångsbestämmelser 1992:497 1. Denna lag träder i kraft den 1 juli 1992, då lagen (1970:741) om statlig lönegaranti vid konkurs skall upphöra att gälla. 2. Äldre föreskrifter gäller fortfarande för fordran hos en arbetsgivare som har försatts i konkurs före ikraftträdandet. 1994:636 1. Denna lag träder i kraft den 1 juli 1994. 2. Den äldre bestämmelsen i 25 § om utbetalning av garantibelopp skall fortfarande gälla i fråga om fordringar mot arbetsgivare som har försatts i konkurs före ikraftträdandet. 2003:544 1. Denna lag träder i kraft den 1 januari 2004. 2. I fråga om en konkurs som har beslutats på grund av en ansökan som gjorts före ikraftträdandet tillämpas äldre bestämmelser. 2005:273 1. Denna lag träder i kraft den 1 juni 2005. 2. De nya bestämmelserna om lönegaranti vid företagsrekonstruktion skall tillämpas om beslutet om företagsrekonstruktion fattas på grund av en ansökan om företagsrekonstruktion som inkommit till tingsrätten den 1 juni 2005 eller senare. 2005:681 Denna lag träder i kraft den 7 oktober 2005 och tillämpas i fråga om insolvensförfaranden som inletts därefter. 2008:995 1. Denna lag träder i kraft den 1 januari 2009. 2. I en konkurs eller företagsrekonstruktion som har beslutats på grund av en ansökan som har inkommit till domstolen före ikraftträdandet tillämpas äldre bestämmelser. 2024:1327 1. Denna lag träder i kraft den 1 februari 2025. 2. Äldre föreskrifter gäller fortfarande för fordringar hos en arbetsgivare som före ikraftträdandet har försatts i konkurs eller blivit föremål för något annat insolvensförfarande som avses i 1 §. 2025:800 1. Denna lag träder i kraft den 1 juli 2026. 2. Den äldre lydelsen av 8 § gäller för en konkurs som har beslutats före ikraftträdandet.",
-          "references": [
-            "1 §",
-            "25 §",
-            "38 §",
-            "8 §"
-          ]
+          "text": "Den utbetalande myndigheten får behandla personuppgifter om det behövs för kontroll och utbetalning av garantibelopp och för att i övrigt utföra sina uppgifter i lönegarantiverksamheten. Personuppgifter som behandlas enligt första stycket får också behandlas om det behövs för att fullgöra uppgiftslämnande som sker i överensstämmelse med lag eller förordning. Lag (2024:1327).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-38",
+          "number": 38,
+          "text": "Rätten att göra invändningar enligt artikel 21.1 i Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning) gäller inte vid sådan behandling av personuppgifter i den utbetalande myndighetens lönegarantiverksamhet som är tillåten enligt denna lag eller föreskrifter som har meddelats i anslutning till lagen. Lag (2024:1327).",
+          "references": []
         }
       ]
     }

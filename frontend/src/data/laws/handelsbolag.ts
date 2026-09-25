@@ -1,5 +1,5 @@
 // Lag (1980:1102) om handelsbolag och enkla bolag
-// Auto-generated from uploaded DOCX
+// Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
 // Last amended: t.o.m. SFS 2018:1662
 
 import { LegalText } from '../legalTexts';
@@ -28,6 +28,23 @@ export const handelsbolag: LegalText = {
           "number": 2,
           "text": "Ett kommanditbolag är ett handelsbolag i vilket en eller flera bolagsmän har förbehållit sig att inte svara för bolagets förbindelser med mera än han har satt in eller åtagit sig att sätta in i bolaget. En sådan bolagsman kallas kommanditdelägare. Annan bolagsman i kommanditbolaget kallas komplementär.",
           "references": []
+        },
+        {
+          "id": "kap-1-§-2a",
+          "number": 2,
+          "text": "En pensionsstiftelse enligt 9 § lagen (1967:531) om tryggande av pensionsutfästelse m.m. får inte vara bolagsman i ett handelsbolag. Detsamma gäller för en personalstiftelse enligt 27 § samma lag. Lag (2005:247).",
+          "references": [
+            "27 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-3",
+          "number": 3,
+          "text": "Ett enkelt bolag föreligger, om två eller flera har avtalat att utöva verksamhet i bolag utan att handelsbolag föreligger enligt 1 §. Lag (1993:760).",
+          "references": [
+            "1 §"
+          ]
         },
         {
           "id": "kap-1-§-4",
@@ -64,6 +81,12 @@ export const handelsbolag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-2-§-3a",
+          "number": 3,
+          "text": "I bokföringslagen (1999:1078) finns bestämmelser om när ett handelsbolag skall upprätta en årsredovisning eller ett årsbokslut. Lag (2006:867).",
+          "references": []
+        },
+        {
           "id": "kap-2-§-4",
           "number": 4,
           "text": "Om ett bolagsavtal föreskriver att en bolagsman skall sköta förvaltningen eller viss del av den, får han skiljas från uppdraget eller avsäga sig detta endast om det finns en viktig grund.",
@@ -72,9 +95,14 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-5",
           "number": 5,
-          "text": "Även en bolagsman som är utesluten från förvaltningen har rätt att granska bolagets räkenskaper och att få kännedom om bolagets angelägenheter. Denna kontrollrätt får inte utövas vid en tidpunkt eller på ett sätt som innebär särskilda olägenheter för bolaget. 6 § För varje räkenskapsår skall en bolagsman tillgodoräknas dels ränta på den insats han hade kvar i bolaget vid räkenskapsårets början, dels ett skäligt arvode för sin förvaltning av bolagets angelägenheter. Räntan skall beräknas enligt den räntefot som motsvarar den av Riksbanken fastställda referensränta enligt 9 § räntelagen (1975:635) som gällde vid räkenskapsårets början med ett tillägg av två procentenheter. Lag (2002:353).",
+          "text": "Även en bolagsman som är utesluten från förvaltningen har rätt att granska bolagets räkenskaper och att få kännedom om bolagets angelägenheter. Denna kontrollrätt får inte utövas vid en tidpunkt eller på ett sätt som innebär särskilda olägenheter för bolaget.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-6",
+          "number": 6,
+          "text": "För varje räkenskapsår skall en bolagsman tillgodoräknas dels ränta på den insats han hade kvar i bolaget vid räkenskapsårets början, dels ett skäligt arvode för sin förvaltning av bolagets angelägenheter. Räntan skall beräknas enligt den räntefot som motsvarar den av Riksbanken fastställda referensränta enligt 9 § räntelagen (1975:635) som gällde vid räkenskapsårets början med ett tillägg av två procentenheter. Lag (2002:353).",
           "references": [
-            "6 §",
             "9 §"
           ]
         },
@@ -184,6 +212,14 @@ export const handelsbolag: LegalText = {
           "number": 22,
           "text": "Inträder en ny bolagsman i bolaget, svarar han även för de förbindelser som bolaget har ingått dessförinnan. En bolagsman som avgår svarar inte för de förbindelser av bolaget som uppkommer efter avgången, om bolagets medkontrahent kände till eller borde ha känt till att bolagsmannen avgått.",
           "references": []
+        },
+        {
+          "id": "kap-2-§-22a",
+          "number": 22,
+          "text": "En fordran mot en bolagsman på grund av bolagsmannens ansvar enligt 20 eller 22 § preskriberas senast fem år efter det att bolagsmannens avgång registrerades i handelsregistret, om inte preskriptionen dessförinnan avbryts mot bolagsmannen. Lag (2014:540).",
+          "references": [
+            "22 §"
+          ]
         },
         {
           "id": "kap-2-§-23",
@@ -309,10 +345,14 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-2-§-40",
           "number": 40,
-          "text": "En likvidator har rätt till skäligt arvode och till ersättning för kostnader för att utföra uppdraget. 41 § Sedan en likvidator har fullgjort sitt uppdrag, skall han så snart det kan ske avge slutredovisning för sin förvaltning genom en förvaltningsberättelse rörande likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för bolagsskiftet. Till berättelsen skall fogas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall av likvidatorn delges var och en av bolagsmännen.",
-          "references": [
-            "41 §"
-          ]
+          "text": "En likvidator har rätt till skäligt arvode och till ersättning för kostnader för att utföra uppdraget.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-41",
+          "number": 41,
+          "text": "Sedan en likvidator har fullgjort sitt uppdrag, skall han så snart det kan ske avge slutredovisning för sin förvaltning genom en förvaltningsberättelse rörande likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för bolagsskiftet. Till berättelsen skall fogas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall av likvidatorn delges var och en av bolagsmännen.",
+          "references": []
         },
         {
           "id": "kap-2-§-42",
@@ -505,10 +545,8 @@ export const handelsbolag: LegalText = {
         {
           "id": "kap-4-§-9",
           "number": 9,
-          "text": "En likvidator är behörig att företa rättshandlingar på bolagsmännens vägnar endast i den mån det behövs för att bolagsmännens för bolaget avsedda tillgångar skall kunna förvandlas till pengar enligt 2 kap. 33 §. Överskrider likvidatorn sin behörighet, är rättshandlingen dock bindande för bolagsmännen, om tredje man varken insåg eller borde ha insett att behörigheten överskreds. Övergångsbestämmelser 1980:1102 4. Fråga huruvida handelsbolag eller enkelt bolag föreligger skall intill utgången av år 1994 bedömas enligt äldre lag. Enkelt bolag, som från och med den 1 januari 1995 blir handelsbolag, skall ansöka om registrering före nämnda dag. Lag (1992:1210). 1993:760 1. Denna lag träder i kraft den 1 januari 1995. 2. För handelsbolag och enkla bolag som har bildats enligt äldre lag gäller den nya lagen med det undantag som följer av punkten 3. 3. För handelsbolag som har bildats före den 1 januari 1995 gäller 1 kap. 1 § i sin äldre lydelse till utgången av år 1995. Om ett sådant bolag vid utgången av 1995 inte har förts in i handelsregistret är bolaget upplöst. 1999:1089 Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. 2000:184 Denna lag träder i kraft den 1 juli 2000. Äldre föreskrifter gäller för beräkning av ränta som avser tid före ikraftträdandet. 2002:353 Denna lag träder i kraft den 1 juli 2002. I fråga om räkenskapsår som inleds före ikraftträdandet gäller äldre bestämmelser. 2005:247 1. Denna lag träder i kraft den 1 juli 2005. 2. Bestämmelserna i 1 kap. 2 a § gäller inte om pensions- eller personalstiftelsen har inträtt som bolagsman i handelsbolaget före lagens ikraftträdande och ansökan om registrering av bolagsavtalet har kommit in till Bolagsverket före utgången av december 2005. 2006:867 Denna lag träder i kraft den 1 januari 2007 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2006. 2014:540 1. Denna lag träder i kraft den 1 augusti 2014. 2. Bestämmelsen i 2 kap. 22 a § tillämpas också på fordringar som har kommit till före ikraftträdandet, om bolagsmannens avgång har registrerats i handelsregistret efter ikraftträdandet.",
+          "text": "En likvidator är behörig att företa rättshandlingar på bolagsmännens vägnar endast i den mån det behövs för att bolagsmännens för bolaget avsedda tillgångar skall kunna förvandlas till pengar enligt 2 kap. 33 §. Överskrider likvidatorn sin behörighet, är rättshandlingen dock bindande för bolagsmännen, om tredje man varken insåg eller borde ha insett att behörigheten överskreds.",
           "references": [
-            "1 kap. 1 §",
-            "1 §",
             "2 kap. 33 §",
             "33 §"
           ]
