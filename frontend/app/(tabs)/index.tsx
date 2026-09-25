@@ -54,6 +54,7 @@ export default function HomeScreen() {
         </Text>
       </View>
       <FlatList
+        style={styles.list}
         data={legalTexts}
         renderItem={renderLawItem}
         keyExtractor={(item) => item.id}
@@ -84,6 +85,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
+  },
+  list: {
+    flex: 1,
   },
   listContent: {
     padding: spacing.md,
