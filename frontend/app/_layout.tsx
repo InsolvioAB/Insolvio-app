@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Stack } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { View, ActivityIndicator } from 'react-native';
 import * as Font from 'expo-font';
 import { BookmarksProvider } from '../src/contexts/BookmarksContext';
@@ -38,6 +39,7 @@ export default function RootLayout() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
       <BookmarksProvider>
         <NotesProvider>
           <RecentlyViewedProvider>
@@ -49,6 +51,7 @@ export default function RootLayout() {
           </RecentlyViewedProvider>
         </NotesProvider>
       </BookmarksProvider>
+      </SafeAreaProvider>
     </GestureHandlerRootView>
   );
 }
