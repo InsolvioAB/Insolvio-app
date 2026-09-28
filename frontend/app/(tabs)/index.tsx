@@ -60,6 +60,21 @@ export default function HomeScreen() {
         keyExtractor={(item) => item.id}
         contentContainerStyle={styles.listContent}
         showsVerticalScrollIndicator={false}
+        ListHeaderComponent={
+          RECENTLY_UPDATED_LAW_IDS.size > 0 ? (
+            <TouchableOpacity
+              style={styles.newsBanner}
+              onPress={() => router.push('/nyheter')}
+              activeOpacity={0.7}
+            >
+              <Ionicons name="notifications-outline" size={20} color={colors.greenHover} />
+              <Text style={styles.newsBannerText}>
+                {RECENTLY_UPDATED_LAW_IDS.size} {RECENTLY_UPDATED_LAW_IDS.size === 1 ? 'lag har' : 'lagar har'} uppdaterats nyligen
+              </Text>
+              <Text style={styles.newsBannerLink}>Nyheter ›</Text>
+            </TouchableOpacity>
+          ) : null
+        }
       />
     </SafeAreaView>
   );
@@ -91,6 +106,27 @@ const styles = StyleSheet.create({
   },
   listContent: {
     padding: spacing.md,
+  },
+  newsBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    backgroundColor: colors.deepGreen,
+    borderRadius: borderRadius.md,
+    padding: spacing.md,
+    marginBottom: spacing.md,
+  },
+  newsBannerText: {
+    flex: 1,
+    fontSize: 13,
+    lineHeight: 19,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.cream,
+  },
+  newsBannerLink: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.cream,
   },
   lawCard: {
     backgroundColor: colors.white,
