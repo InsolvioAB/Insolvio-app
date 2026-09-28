@@ -1,0 +1,24 @@
+name = 'backend'
+
+[image]
+image = 'registry.eu-north-1.nhost.run/39861ace-ba50-4cfe-aec0-981545042203:v3'
+
+[[environment]]
+name = 'NHOST_GRAPHQL_URL'
+value = 'https://lnwgpzajoiexsivukypq.graphql.eu-north-1.nhost.run/v1'
+
+[[environment]]
+name = 'NHOST_ADMIN_SECRET'
+value = '4w34gp2pg3nz3epb3xtwjv4v'
+
+[[ports]]
+port = 8000
+type = 'http'
+publish = true
+
+[resources]
+replicas = 1
+
+[resources.compute]
+cpu = 1000
+memory = 2048
