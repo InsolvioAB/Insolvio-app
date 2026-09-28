@@ -32,7 +32,6 @@ import { handelsbolag } from './laws/handelsbolag';
 import { las } from './laws/las';
 import { semesterlag } from './laws/semesterlag';
 import { aktiebolagslag } from './laws/aktiebolagslag';
-import { utsökningsbalken } from './laws/utsökningsbalken';
 import { lönegaranti } from './laws/lönegaranti';
 import { företagsrekonstruktion } from './laws/foretagsrekonstruktion';
 import { förmånsrättslag } from './laws/formansrattslag';
@@ -43,7 +42,6 @@ import { jordabalken12Kap } from './laws/jordabalken_12kap';
 export const legalTexts: LegalText[] = [
   konkurslag,
   handelsbolag,
-  utsökningsbalken,
   aktiebolagslag,
   las,
   semesterlag,
