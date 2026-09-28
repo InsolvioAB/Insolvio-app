@@ -855,7 +855,7 @@ export const aktiebolagslag: LegalText = {
     {
       "id": "kap-5",
       "number": 5,
-      "title": "2 § 6 och 7 och 6 kap. 2 och 3 §§ lagen (1995:1560) om årsredovisning i försäkringsföretag.",
+      "title": "Aktiebok",
       "sections": [
         {
           "id": "kap-5-§-1",
@@ -1025,134 +1025,6 @@ export const aktiebolagslag: LegalText = {
           "text": "I ett avstämningsbolag ska en utskrift eller annan framställning av aktieboken hållas tillgänglig hos bolaget för alla som vill ta del av den. I en sådan utskrift eller framställning ska aktieägarna och förvaltarna tas upp i alfabetisk ordning. Utskriften eller framställningen får inte vara äldre än tre månader. Om aktieboken förs av en värdepapperscentral enligt ett sådant avtal som avses i 12 § andra stycket, ska utskriften eller framställningen även hållas tillgänglig hos värdepapperscentralen. Var och en som begär det har rätt att mot ersättning för kostnaderna få en aktuell utskrift av aktieboken eller del av den. En aktieägare ska inte tas upp i en utskrift eller framställning enligt denna paragraf, om hans eller hennes aktieinnehav uppgår till högst 500 aktier. Om en aktieägare äger samtliga aktier i bolaget, ska dock hans eller hennes aktieinnehav alltid redovisas. Lag (2016:60).",
           "references": [
             "12 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-38",
-          "number": 38,
-          "text": "När den anmälningstid som har satts ut i kallelsen på okända borgenärer har löpt ut och alla kända skulder har betalats, skall likvidatorn skifta bolagets återstående tillgångar. Om det råder tvist om en skuld eller om en skuld inte har förfallit till betalning eller av annan orsak inte kan betalas, skall pengar sättas av till betalning av skulden och återstoden skiftas. Talan mot skifte",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-39",
-          "number": 39,
-          "text": "En aktieägare som är missnöjd med skiftet får väcka talan mot bolaget senast tre månader efter det att slutredovisning enligt 40 § lades fram på bolagsstämma. Om skiftet ändras till följd av en talan enligt första stycket, skall den som har uppburit för mycket återbära överskjutande del. På värdet av den egendom som skall återbäras skall mottagaren betala ränta enligt 5 § räntelagen (1975:635) från det att egendomen lämnades ut till dess att ränta skall betalas enligt 6 § räntelagen till följd av 3 eller 4 § samma lag. Om det uppkommer brist vid återbäringen, är de personer som har medverkat till skiftet ansvariga för denna enligt bestämmelserna i 17 kap. 7 §. Slutredovisning",
-          "references": [
-            "17 kap. 7 §",
-            "4 §",
-            "40 §",
-            "5 §",
-            "6 §",
-            "7 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-40",
-          "number": 40,
-          "text": "När uppdraget som likvidator har fullgjorts, skall likvidatorn så snart som möjligt lämna slutredovisning för förvaltningen genom en förvaltningsberättelse som avser likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för skiftet. Tillsammans med berättelsen skall lämnas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall lämnas till bolagets revisor. Revisorn skall inom en månad därefter lämna en revisionsberättelse över slutredovisningen och förvaltningen under likvidationen. När revisionsberättelsen har lämnats till likvidatorn, skall han eller hon genast kalla aktieägarna till en bolagsstämma för granskning av slutredovisningen. Förvaltningsberättelsen med bifogade redovisningshandlingar och revisionsberättelsen skall under minst två veckor före bolagsstämman hållas tillgängliga hos bolaget för aktieägarna. Kopior av handlingarna skall genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna skall läggas fram på stämman. Bolagsstämman skall fatta beslut angående ansvarsfrihet för likvidatorn. I fråga om beslutet gäller bestämmelserna i 7 kap. 14 § andra stycket. Lag (2007:317). Bolagets upplösning",
-          "references": [
-            "14 §",
-            "7 kap. 14 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-41",
-          "number": 41,
-          "text": "När likvidatorn har lagt fram slutredovisningen, är bolaget upplöst. Likvidatorn skall genast anmäla detta för registrering i aktiebolagsregistret. Kopior av de handlingar som anges i 40 § tredje stycket skall bifogas anmälan. Preskription av rätt till andel i tillgångarna",
-          "references": [
-            "40 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-42",
-          "number": 42,
-          "text": "En aktieägare som inte inom fem år efter det att slutredovisningen lades fram på bolagsstämma anmäler sig för att lyfta vad han eller hon har fått vid skiftet förlorar sin rätt till andel i de skiftade tillgångarna. Med tillämpning av 44 § ska kvarvarande tillgångar då skiftas mellan bolagets övriga aktieägare. Om tillgångarna är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgångarna i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Skadeståndstalan",
-          "references": [
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-43",
-          "number": 43,
-          "text": "Trots bestämmelserna i 41 § kan ägare till en tiondel av samtliga aktier hos likvidatorn begära bolagsstämma för behandling av en fråga om talan om skadestånd till bolaget enligt 29 kap. 1-3 §§. I så fall skall bestämmelsen i 7 kap. 17 § andra stycket tillämpas. Fortsatt likvidation",
-          "references": [
-            "1-3 §§",
-            "17 §",
-            "41 §",
-            "7 kap. 17 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-44",
-          "number": 44,
-          "text": "Om en tillgång framkommer för bolaget efter dess upplösning enligt 41 § eller om talan väcks mot bolaget eller det av annat skäl uppkommer behov av en likvidationsåtgärd, ska likvidationen fortsätta. Likvidatorn ska genast anmäla den fortsatta likvidationen för registrering i aktiebolagsregistret. Kallelse till den första bolagsstämman efter återupptagandet ska ske enligt bolagsordningen. Dessutom ska skriftlig kallelse sändas till varje aktieägare vars postadress är införd i aktieboken eller på annat sätt känd för bolaget. Om den tillgång som avses i första stycket är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgången i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Upphörande av likvidation",
-          "references": [
-            "41 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-45",
-          "number": 45,
-          "text": "Om bolaget har gått i likvidation på grund av bolagsstämmans beslut eller, i de fall som avses i 17 § och 51 § första stycket, på grund av domstols beslut, kan stämman sedan bolagets revisor har yttrat sig besluta att likvidationen skall upphöra och bolagets verksamhet återupptas. Ett sådant beslut får dock inte fattas, om 1. det finns grund för tvångslikvidation enligt 11 eller 12 §, 2. bolagets eget kapital, beräknat enligt 14 §, enligt revisorns yttrande inte uppgår till det registrerade aktiekapitalet, eller 3. utskiftning har ägt rum. När bolagsstämman beslutar att likvidationen skall upphöra, skall den samtidigt välja styrelse. Likvidatorn skall se till att beslutet om att likvidationen skall upphöra och valet av styrelse genast anmäls för registrering i aktiebolagsregistret. Beslutet får inte verkställas förrän det har registrerats.",
-          "references": [
-            "12 §",
-            "14 §",
-            "17 §",
-            "51 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-46",
-          "number": 46,
-          "text": "Om ett likvidationsbeslut som har gått i verkställighet har blivit upphävt genom en domstols dom eller beslut som har vunnit laga kraft, skall likvidatorn genast anmäla detta för registrering i aktiebolagsregistret samt, om det upphävda likvidationsbeslutet är sådant som avses i 11, 12, 17 eller 21 §, kalla till bolagsstämma för val av styrelse. Lag (2005:812).",
-          "references": [
-            "21 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-47",
-          "number": 47,
-          "text": "När en likvidation har upphört enligt 45 eller 46 §, skall 40 § tillämpas. Kopior av de handlingar som anges i 40 § tredje stycket skall ges in till Bolagsverket. Konkurs Registrering",
-          "references": [
-            "40 §",
-            "46 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-48",
-          "number": 48,
-          "text": "Beslut om konkurs och beslut om företagsrekonstruktion skall registreras i aktiebolagsregistret. Företrädare för bolaget i dess egenskap av konkursgäldenär",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-49",
-          "number": 49,
-          "text": "Under konkursen företräds bolaget som konkursgäldenär av den styrelse och verkställande direktör eller de likvidatorer som fanns vid konkursens början. Bestämmelserna i denna lag om rätt att avgå, om entledigande och om nytillsättning gäller dock även under konkursen. Bolagets upplösning efter konkurs",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-50",
-          "number": 50,
-          "text": "Om bolaget är försatt i konkurs och denna avslutas utan överskott, är bolaget upplöst när konkursen avslutas. Finns det efter konkursens avslutande tillgångar som inte omfattas av konkursen eller väcks talan mot bolaget eller uppkommer det av annat skäl behov av en likvidationsåtgärd, ska allmän domstol på ansökan av den som berörs besluta om likvidation. Ett sådant beslut gäller omedelbart. Kallelse till den första bolagsstämman efter beslutet ska ske enligt 44 § andra stycket. I artikel 48.2 i Europaparlamentets och rådets förordning (EU) 2015/848 av den 20 maj 2015 om insolvensförfaranden finns en särskild bestämmelse om när en juridisk person eller ett företag ska anses upplöst. Lag (2017:484). Likvidation efter överskottskonkurs m.m.",
-          "references": [
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-51",
-          "number": 51,
-          "text": "Om en konkurs avslutas med överskott eller läggs ner efter en frivillig uppgörelse, eller om egendomen i konkursboet återställs till bolaget till följd av att ett ackord har fastställts, ska allmän domstol i anslutning till att konkursen har avslutats besluta att bolaget ska gå i likvidation. Ett sådant beslut gäller omedelbart. Om bolaget var i likvidation när det försattes i konkurs ska likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket. Lag (2025:804). Särskilda bestämmelser om tillhandahållande av förslag till beslut m.m. i vissa publika aktiebolag",
-          "references": [
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-52",
-          "number": 52,
-          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516).",
-          "references": [
-            "3 §",
-            "4 §"
           ]
         }
       ]
@@ -3032,7 +2904,7 @@ export const aktiebolagslag: LegalText = {
     {
       "id": "kap-11",
       "number": 11,
-      "title": "9 § om försäljning av överskjutande teckningsrätter,",
+      "title": "Ökning av aktiekapitalet, utgivande av nya aktier, upptagande av vissa penninglån, m.m.",
       "sections": [
         {
           "id": "kap-11-§-1",
@@ -3306,7 +3178,7 @@ export const aktiebolagslag: LegalText = {
     {
       "id": "kap-13",
       "number": 13,
-      "title": "18 § om tilldelning av aktier,",
+      "title": "Nyemission av aktier",
       "sections": [
         {
           "id": "kap-13-§-1",
@@ -5174,6 +5046,29 @@ export const aktiebolagslag: LegalText = {
           "text": "Vid ett publikt aktiebolags överlåtelse av egna aktier på annat sätt än som anges i 32 § tillämpas 1. det som gäller vid nyemission av aktier enligt:",
           "references": [
             "32 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-36",
+          "number": 36,
+          "text": "I sådana fall som anges i 35 § skall i förslaget till beslut följande anges: 1. det högsta antal aktier, i förekommande fall fördelat på aktieslag, som skall överlåtas, 2. den rätt att förvärva aktier som aktieägarna eller någon annan skall ha, 3. den tid inom vilken aktieägare eller annan kan utnyttja sin rätt att förvärva aktier, 4. den tid inom vilken aktierna skall betalas eller, i förekommande fall, att teckning skall ske genom betalning, 5. den fördelningsgrund som styrelsen skall tillämpa beträffande aktier som inte tecknas med företrädesrätt, 6. avstämningsdagen, om bolaget är avstämningsbolag och aktieägare skall ha företrädesrätt vid överlåtelsen, 7. det belopp som skall betalas för varje aktie, 8. villkor om apport eller att aktie skall tecknas med kvittningsrätt, och 9. övriga särskilda villkor för överlåtelsen. Tiden som anges i första stycket 3 får inte understiga två veckor. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 13 kap. 12 § har skett, eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om överlåtelsen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. I stället för en sådan uppgift som anges i första stycket 7 får det anges att styrelsen eller den som styrelsen utser inom sig skall bemyndigas att innan den tid som avses i första stycket 3 börjar löpa besluta vilket belopp som skall betalas för varje aktie. Ett sådant bemyndigande får lämnas endast om aktierna skall tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är avstämningsbolag och aktieägare skall ha företrädesrätt att förvärva aktier, skall bemyndigandet utformas så att beloppet bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Lag (2007:566).",
+          "references": [
+            "12 §",
+            "13 kap. 12 §",
+            "35 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-37",
+          "number": 37,
+          "text": "Beslut om överlåtelse enligt 35 § skall innehålla de uppgifter som anges i 36 §. I förekommande fall skall beslutet innehålla 1. ett förordnande som avses i 11 kap. 9 §, 2. ett förordnande om att kuponger som hör till aktiebreven skall användas som teckningsrättsbevis, 3. upplysningar om att redogörelse och yttrande som avses i 13 kap. 7 och 8 §§ har lämnats.",
+          "references": [
+            "11 kap. 9 §",
+            "13 kap. 7 och 8 §§",
+            "35 §",
+            "36 §",
+            "8 §§",
+            "9 §"
           ]
         }
       ]
@@ -7379,6 +7274,134 @@ export const aktiebolagslag: LegalText = {
             "5 §",
             "6 kap. 2 §",
             "6 kap. 3 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-38",
+          "number": 38,
+          "text": "När den anmälningstid som har satts ut i kallelsen på okända borgenärer har löpt ut och alla kända skulder har betalats, skall likvidatorn skifta bolagets återstående tillgångar. Om det råder tvist om en skuld eller om en skuld inte har förfallit till betalning eller av annan orsak inte kan betalas, skall pengar sättas av till betalning av skulden och återstoden skiftas. Talan mot skifte",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-39",
+          "number": 39,
+          "text": "En aktieägare som är missnöjd med skiftet får väcka talan mot bolaget senast tre månader efter det att slutredovisning enligt 40 § lades fram på bolagsstämma. Om skiftet ändras till följd av en talan enligt första stycket, skall den som har uppburit för mycket återbära överskjutande del. På värdet av den egendom som skall återbäras skall mottagaren betala ränta enligt 5 § räntelagen (1975:635) från det att egendomen lämnades ut till dess att ränta skall betalas enligt 6 § räntelagen till följd av 3 eller 4 § samma lag. Om det uppkommer brist vid återbäringen, är de personer som har medverkat till skiftet ansvariga för denna enligt bestämmelserna i 17 kap. 7 §. Slutredovisning",
+          "references": [
+            "17 kap. 7 §",
+            "4 §",
+            "40 §",
+            "5 §",
+            "6 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-40",
+          "number": 40,
+          "text": "När uppdraget som likvidator har fullgjorts, skall likvidatorn så snart som möjligt lämna slutredovisning för förvaltningen genom en förvaltningsberättelse som avser likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för skiftet. Tillsammans med berättelsen skall lämnas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall lämnas till bolagets revisor. Revisorn skall inom en månad därefter lämna en revisionsberättelse över slutredovisningen och förvaltningen under likvidationen. När revisionsberättelsen har lämnats till likvidatorn, skall han eller hon genast kalla aktieägarna till en bolagsstämma för granskning av slutredovisningen. Förvaltningsberättelsen med bifogade redovisningshandlingar och revisionsberättelsen skall under minst två veckor före bolagsstämman hållas tillgängliga hos bolaget för aktieägarna. Kopior av handlingarna skall genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna skall läggas fram på stämman. Bolagsstämman skall fatta beslut angående ansvarsfrihet för likvidatorn. I fråga om beslutet gäller bestämmelserna i 7 kap. 14 § andra stycket. Lag (2007:317). Bolagets upplösning",
+          "references": [
+            "14 §",
+            "7 kap. 14 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-41",
+          "number": 41,
+          "text": "När likvidatorn har lagt fram slutredovisningen, är bolaget upplöst. Likvidatorn skall genast anmäla detta för registrering i aktiebolagsregistret. Kopior av de handlingar som anges i 40 § tredje stycket skall bifogas anmälan. Preskription av rätt till andel i tillgångarna",
+          "references": [
+            "40 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-42",
+          "number": 42,
+          "text": "En aktieägare som inte inom fem år efter det att slutredovisningen lades fram på bolagsstämma anmäler sig för att lyfta vad han eller hon har fått vid skiftet förlorar sin rätt till andel i de skiftade tillgångarna. Med tillämpning av 44 § ska kvarvarande tillgångar då skiftas mellan bolagets övriga aktieägare. Om tillgångarna är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgångarna i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Skadeståndstalan",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-43",
+          "number": 43,
+          "text": "Trots bestämmelserna i 41 § kan ägare till en tiondel av samtliga aktier hos likvidatorn begära bolagsstämma för behandling av en fråga om talan om skadestånd till bolaget enligt 29 kap. 1-3 §§. I så fall skall bestämmelsen i 7 kap. 17 § andra stycket tillämpas. Fortsatt likvidation",
+          "references": [
+            "1-3 §§",
+            "17 §",
+            "41 §",
+            "7 kap. 17 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-44",
+          "number": 44,
+          "text": "Om en tillgång framkommer för bolaget efter dess upplösning enligt 41 § eller om talan väcks mot bolaget eller det av annat skäl uppkommer behov av en likvidationsåtgärd, ska likvidationen fortsätta. Likvidatorn ska genast anmäla den fortsatta likvidationen för registrering i aktiebolagsregistret. Kallelse till den första bolagsstämman efter återupptagandet ska ske enligt bolagsordningen. Dessutom ska skriftlig kallelse sändas till varje aktieägare vars postadress är införd i aktieboken eller på annat sätt känd för bolaget. Om den tillgång som avses i första stycket är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgången i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Upphörande av likvidation",
+          "references": [
+            "41 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-45",
+          "number": 45,
+          "text": "Om bolaget har gått i likvidation på grund av bolagsstämmans beslut eller, i de fall som avses i 17 § och 51 § första stycket, på grund av domstols beslut, kan stämman sedan bolagets revisor har yttrat sig besluta att likvidationen skall upphöra och bolagets verksamhet återupptas. Ett sådant beslut får dock inte fattas, om 1. det finns grund för tvångslikvidation enligt 11 eller 12 §, 2. bolagets eget kapital, beräknat enligt 14 §, enligt revisorns yttrande inte uppgår till det registrerade aktiekapitalet, eller 3. utskiftning har ägt rum. När bolagsstämman beslutar att likvidationen skall upphöra, skall den samtidigt välja styrelse. Likvidatorn skall se till att beslutet om att likvidationen skall upphöra och valet av styrelse genast anmäls för registrering i aktiebolagsregistret. Beslutet får inte verkställas förrän det har registrerats.",
+          "references": [
+            "12 §",
+            "14 §",
+            "17 §",
+            "51 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-46",
+          "number": 46,
+          "text": "Om ett likvidationsbeslut som har gått i verkställighet har blivit upphävt genom en domstols dom eller beslut som har vunnit laga kraft, skall likvidatorn genast anmäla detta för registrering i aktiebolagsregistret samt, om det upphävda likvidationsbeslutet är sådant som avses i 11, 12, 17 eller 21 §, kalla till bolagsstämma för val av styrelse. Lag (2005:812).",
+          "references": [
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-47",
+          "number": 47,
+          "text": "När en likvidation har upphört enligt 45 eller 46 §, skall 40 § tillämpas. Kopior av de handlingar som anges i 40 § tredje stycket skall ges in till Bolagsverket. Konkurs Registrering",
+          "references": [
+            "40 §",
+            "46 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-48",
+          "number": 48,
+          "text": "Beslut om konkurs och beslut om företagsrekonstruktion skall registreras i aktiebolagsregistret. Företrädare för bolaget i dess egenskap av konkursgäldenär",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-49",
+          "number": 49,
+          "text": "Under konkursen företräds bolaget som konkursgäldenär av den styrelse och verkställande direktör eller de likvidatorer som fanns vid konkursens början. Bestämmelserna i denna lag om rätt att avgå, om entledigande och om nytillsättning gäller dock även under konkursen. Bolagets upplösning efter konkurs",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-50",
+          "number": 50,
+          "text": "Om bolaget är försatt i konkurs och denna avslutas utan överskott, är bolaget upplöst när konkursen avslutas. Finns det efter konkursens avslutande tillgångar som inte omfattas av konkursen eller väcks talan mot bolaget eller uppkommer det av annat skäl behov av en likvidationsåtgärd, ska allmän domstol på ansökan av den som berörs besluta om likvidation. Ett sådant beslut gäller omedelbart. Kallelse till den första bolagsstämman efter beslutet ska ske enligt 44 § andra stycket. I artikel 48.2 i Europaparlamentets och rådets förordning (EU) 2015/848 av den 20 maj 2015 om insolvensförfaranden finns en särskild bestämmelse om när en juridisk person eller ett företag ska anses upplöst. Lag (2017:484). Likvidation efter överskottskonkurs m.m.",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-51",
+          "number": 51,
+          "text": "Om en konkurs avslutas med överskott eller läggs ner efter en frivillig uppgörelse, eller om egendomen i konkursboet återställs till bolaget till följd av att ett ackord har fastställts, ska allmän domstol i anslutning till att konkursen har avslutats besluta att bolaget ska gå i likvidation. Ett sådant beslut gäller omedelbart. Om bolaget var i likvidation när det försattes i konkurs ska likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket. Lag (2025:804). Särskilda bestämmelser om tillhandahållande av förslag till beslut m.m. i vissa publika aktiebolag",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-52",
+          "number": 52,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516).",
+          "references": [
+            "3 §",
+            "4 §"
           ]
         }
       ]
