@@ -42,22 +42,13 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Hem</Text>
-        <View style={styles.headerActions}>
-          <TouchableOpacity
-            style={styles.infoButton}
-            onPress={() => router.push('/nyheter')}
-            accessibilityLabel="Nyheter"
-          >
-            <Ionicons name="notifications-outline" size={22} color={colors.ink} />
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.infoButton}
-            onPress={() => router.push('/about')}
-            accessibilityLabel="Om Insolvio"
-          >
-            <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
-          </TouchableOpacity>
-        </View>
+        <TouchableOpacity
+          style={styles.infoButton}
+          onPress={() => router.push('/about')}
+          accessibilityLabel="Om Insolvio"
+        >
+          <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
+        </TouchableOpacity>
       </View>
 
       <ScrollView
@@ -162,11 +153,6 @@ const styles = StyleSheet.create({
   title: {
     ...createHeadingStyle(24),
     color: colors.ink,
-  },
-  headerActions: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.sm,
   },
   infoButton: {
     width: 36,
