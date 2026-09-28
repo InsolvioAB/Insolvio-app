@@ -6,6 +6,10 @@ import { Ionicons } from '@expo/vector-icons';
 import { legalTexts } from '../../src/data/legalTexts';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
+// Placeholder list of recently-amended law IDs, pending real per-law
+// amendment tracking in the law data itself.
+const RECENTLY_UPDATED_LAW_IDS = new Set(['sfs-1987-672', 'sfs-2005-551']);
+
 export default function HomeScreen() {
   const router = useRouter();
 
@@ -17,7 +21,14 @@ export default function HomeScreen() {
       <View style={styles.lawCardHeader}>
         <Ionicons name="document-text" size={24} color={colors.greenPrimary} />
         <View style={styles.lawCardContent}>
-          <Text style={styles.lawTitle}>{item.title}</Text>
+          <View style={styles.lawTitleRow}>
+            <Text style={styles.lawTitle}>{item.title}</Text>
+            {RECENTLY_UPDATED_LAW_IDS.has(item.id) && (
+              <View style={styles.updatedBadge}>
+                <Text style={styles.updatedBadgeText}>UPPDATERAD</Text>
+              </View>
+            )}
+          </View>
           <Text style={styles.lawSubtitle}>SFS {item.sfsNumber}</Text>
         </View>
         <Ionicons name="chevron-forward" size={20} color={colors.mutedText} />
@@ -43,6 +54,7 @@ export default function HomeScreen() {
         </Text>
       </View>
       <FlatList
+        style={styles.list}
         data={legalTexts}
         renderItem={renderLawItem}
         keyExtractor={(item) => item.id}
@@ -74,6 +86,9 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
   },
+  list: {
+    flex: 1,
+  },
   listContent: {
     padding: spacing.md,
   },
@@ -99,12 +114,29 @@ const styles = StyleSheet.create({
     flex: 1,
     marginLeft: spacing.md,
   },
+  lawTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    marginBottom: 4,
+  },
   lawTitle: {
     fontSize: 16,
     fontFamily: typography.fontFamily.semiBold,
     fontWeight: typography.weights.semiBold,
     color: colors.ink,
-    marginBottom: 4,
+  },
+  updatedBadge: {
+    backgroundColor: '#d8f0e6',
+    borderRadius: borderRadius.sm,
+    paddingHorizontal: spacing.sm,
+    paddingVertical: 2,
+  },
+  updatedBadgeText: {
+    fontSize: 10,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.darkText,
+    letterSpacing: 0.3,
   },
   lawSubtitle: {
     fontSize: 13,
