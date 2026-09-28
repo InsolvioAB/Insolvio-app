@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { newsItems } from '../src/content/newsContent';
+import { activeNewsItems } from '../src/content/newsContent';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
 
 export default function NyheterScreen() {
@@ -16,7 +16,7 @@ export default function NyheterScreen() {
       >
         <Text style={styles.intro}>Senaste lagändringarna i lagar du använder</Text>
 
-        {newsItems.map((item) => (
+        {activeNewsItems.map((item) => (
           <View key={item.id} style={styles.card}>
             <View style={styles.cardHeader}>
               <Text style={styles.date}>{item.date}</Text>
