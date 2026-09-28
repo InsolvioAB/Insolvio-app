@@ -24,6 +24,62 @@ type SearchResult = {
   matchType: 'keyword' | 'section' | 'chapter';
 };
 
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// A snippet of `text` centered on the first occurrence of `query` (if any),
+// so the matched word is actually visible instead of always showing the
+// start of a section that might be hundreds of characters before the match.
+function getSnippet(text: string, query: string, radius = 90): string {
+  const trimmedQuery = query.trim();
+  if (!trimmedQuery) {
+    return text.length > 200 ? `${text.substring(0, 200)}...` : text;
+  }
+  const matchIndex = text.toLowerCase().indexOf(trimmedQuery.toLowerCase());
+  if (matchIndex === -1) {
+    return text.length > 200 ? `${text.substring(0, 200)}...` : text;
+  }
+  const start = Math.max(0, matchIndex - radius);
+  const end = Math.min(text.length, matchIndex + trimmedQuery.length + radius);
+  const prefix = start > 0 ? '...' : '';
+  const suffix = end < text.length ? '...' : '';
+  return `${prefix}${text.substring(start, end)}${suffix}`;
+}
+
+// Renders `text` as a sequence of <Text> spans, with every case-insensitive
+// occurrence of `query` wrapped in a highlighted span.
+function HighlightedText({ text, query, style, highlightStyle, numberOfLines }: {
+  text: string;
+  query: string;
+  style: any;
+  highlightStyle: any;
+  numberOfLines?: number;
+}) {
+  const trimmedQuery = query.trim();
+  if (!trimmedQuery) {
+    return (
+      <Text style={style} numberOfLines={numberOfLines}>
+        {text}
+      </Text>
+    );
+  }
+  const parts = text.split(new RegExp(`(${escapeRegExp(trimmedQuery)})`, 'gi'));
+  return (
+    <Text style={style} numberOfLines={numberOfLines}>
+      {parts.map((part, i) =>
+        part.toLowerCase() === trimmedQuery.toLowerCase() ? (
+          <Text key={i} style={highlightStyle}>
+            {part}
+          </Text>
+        ) : (
+          part
+        )
+      )}
+    </Text>
+  );
+}
+
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
@@ -98,9 +154,7 @@ export default function SearchScreen() {
   }, [searchQuery]);
 
   const renderSearchResult = ({ item }: { item: SearchResult }) => {
-    const highlightedText = item.sectionText.length > 200
-      ? `${item.sectionText.substring(0, 200)}...`
-      : item.sectionText;
+    const snippet = getSnippet(item.sectionText, searchQuery);
 
     return (
       <TouchableOpacity
@@ -116,9 +170,13 @@ export default function SearchScreen() {
             {item.chapterTitle} • {item.sectionNumber} §
           </Text>
         </View>
-        <Text style={styles.resultText} numberOfLines={3}>
-          {highlightedText}
-        </Text>
+        <HighlightedText
+          text={snippet}
+          query={searchQuery}
+          style={styles.resultText}
+          highlightStyle={styles.resultTextHighlight}
+          numberOfLines={3}
+        />
       </TouchableOpacity>
     );
   };
@@ -253,6 +311,11 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.darkText,
     lineHeight: 20,
+  },
+  resultTextHighlight: {
+    fontFamily: typography.fontFamily.bold,
+    backgroundColor: '#fff3b0',
+    color: colors.ink,
   },
   emptyState: {
     flex: 1,
