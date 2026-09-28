@@ -1,5 +1,5 @@
 // Konkurslag (1987:672)
-// Auto-generated from uploaded DOCX
+// Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
 // Last amended: t.o.m. SFS 2025:796
 
 import { LegalText } from '../legalTexts';
@@ -32,7 +32,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-1-§-3",
           "number": 3,
-          "text": " Förvaltningen av ett konkursbo handhas av en eller flera förvaltare. Förvaltningen av boet står under tillsyn av tillsynsmyndigheten. Lag (2006:706).",
+          "text": "Förvaltningen av ett konkursbo handhas av en eller flera förvaltare. Tillsynsmyndigheten utövar tillsyn över förvaltningen. Tillsynsmyndigheten utför även de andra uppgifter som anges i denna lag. Lag (2025:796).",
           "references": []
         },
         {
@@ -50,7 +50,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-1-§-6",
           "number": 6,
-          "text": " Om det i någon annan lag har meddelats någon bestämmelse som avviker från denna lag, gäller den bestämmelsen. Angående tillämpligheten av rättegångsbalken ges bestämmelser i det följande.",
+          "text": "Om en annan lag innehåller en bestämmelse som avviker från denna lag, tillämpas den bestämmelsen. Lag (2025:796).",
           "references": []
         }
       ]
@@ -63,7 +63,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-1",
           "number": 1,
-          "text": " En ansökan om konkurs görs skriftligen till den tingsrätt där gäldenären svarar i tvistemål som angår betalningsskyldighet i allmänhet. Sökanden ska ange och styrka de omständigheter som gör rätten behörig, om de inte är kända. En ansökan ska avvisas, om det inte av den framgår vilken tingsrätt som är behörig och sökanden inte följer ett föreläggande att avhjälpa bristen. I 3 och 4 §§ lagen (2017:473) med kompletterande bestämmelser till 2015 års insolvensförordning finns ytterligare bestämmelser om ansökans innehåll. Lag (2021:538).",
+          "text": "En ansökan om konkurs görs skriftligen till tingsrätten. Sökanden ska ange och styrka de omständigheter som gör rätten behörig, om de inte är kända. En ansökan ska avvisas, om det inte av den framgår vilken tingsrätt som är behörig och sökanden inte följer ett föreläggande att avhjälpa bristen. I 3 och 4 §§ lagen (2017:473) med kompletterande bestämmelser till 2015 års insolvensförordning finns det ytterligare bestämmelser om ansökans innehåll. Lag (2025:796).",
           "references": [
             "4 §§"
           ]
@@ -71,7 +71,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-2",
           "number": 2,
-          "text": "En enskilds konkursansökan ska vara egenhändigt undertecknad av sökanden eller sökandens ombud. Om ansökan ges in elektroniskt, ska den skrivas under med en sådan avancerad elektronisk underskrift som avses i artikel 3 i Europaparlamentets och rådets förordning (EU) nr 91093Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Har en konkursansökan gjorts hos en tingsrätt som inte är behörig, skall rätten genast sända handlingarna i ärendet till den tingsrätt som enligt vad dessa visar är behörig och underrätta sökanden. Ansökan skall anses gjord, när ansökningshandlingen kom in till den förra tingsrätten. Lag (2021:538).",
+          "text": "En enskilds konkursansökan ska vara egenhändigt undertecknad av sökanden eller sökandens ombud. Om ansökan ges in elektroniskt, ska den skrivas under med en sådan avancerad elektronisk underskrift som avses i artikel 3 i Europaparlamentets och rådets förordning (EU) nr 910/2014 av den 23 juli 2014 om elektronisk identifiering och betrodda tjänster för elektroniska transaktioner på den inre marknaden och om upphävande av direktiv 1999/93/EG, i den ursprungliga lydelsen. Lag (2021:538).",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-2a",
+          "number": 2,
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Har en konkursansökan gjorts hos en tingsrätt som inte är behörig, skall rätten genast sända handlingarna i ärendet till den tingsrätt som enligt vad dessa visar är behörig och underrätta sökanden. Ansökan skall anses gjord, när ansökningshandlingen kom in till den förra tingsrätten. Lag (2021:538).",
           "references": []
         },
         {
@@ -103,6 +109,17 @@ export const konkurslag: LegalText = {
           ]
         },
         {
+          "id": "kap-2-§-6a",
+          "number": 6,
+          "text": "I 24 kap. 1 § lagen (2015:1016) om resolution och i 3 kap. 2 § lagen (2022:739) med kompletterande bestämmelser till EU:s förordning om återhämtning och resolution av centrala motparter finns det särskilda bestämmelser om en konkursansökan som avser en gäldenär som omfattas av någon av de lagarna. Lag (2025:796). Bevisning om obestånd",
+          "references": [
+            "1 §",
+            "2 §",
+            "24 kap. 1 §",
+            "3 kap. 2 §"
+          ]
+        },
+        {
           "id": "kap-2-§-7",
           "number": 7,
           "text": "En uppgift av gäldenären att han är insolvent skall godtas, om det inte finns särskilda skäl att inte göra det.",
@@ -111,17 +128,27 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-8",
           "number": 8,
-          "text": "Om inte annat visas, anses en gäldenär vara insolvent, när det vid verkställighet enligt 4 kap. utsökningsbalken inom de senaste sex månaderna före konkursansökningen har framgått att han saknat tillgångar till full betalning av utmätningsfordringen. Detsamma gäller, om gäldenären har förklarat sig ställa in sina betalningar. 9 § En gäldenär, som är eller senare än ett år före konkursansökningen har varit bokföringsskyldig enligt bokföringslagen (1999:1078), ska om inte annat visas anses insolvent, om 1. gäldenären har uppmanats av en borgenär att betala klar och förfallen skuld men underlåtit att göra detta inom en vecka och 2. borgenären begär gäldenären i konkurs inom tre veckor därefter och skulden då ännu inte är betald. Borgenärens uppmaning ska innehålla en upplysning om att en konkursansökan kan följa. Uppmaningen ska delges gäldenären. Delgivning enligt 34-37 §§ delgivningslagen (2010:1932) får ske endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan. Första och andra styckena gäller inte sådana juridiska personer som anges i 2 kap. 2 § bokföringslagen och som inte driver näringsverksamhet. Lag (2010:1951). Konkurshinder 10 § En borgenär har inte rätt att få gäldenären försatt i konkurs, om 1. borgenären har betryggande pant eller därmed jämförlig säkerhet i egendom som tillhör gäldenären, 2. tredje man har ställt betryggande säkerhet för borgenärens fordran och konkursansökningen strider mot villkoren för säkerhetens ställande, 3. borgenärens fordran inte är förfallen till betalning och betryggande säkerhet erbjuds av tredje man. Med säkerhet som har ställts eller erbjuds av tredje man avses även borgen, om borgensmannen svarar som för egen skuld.",
+          "text": "Om inte annat visas, anses en gäldenär vara insolvent, när det vid verkställighet enligt 4 kap. utsökningsbalken inom de senaste sex månaderna före konkursansökningen har framgått att han saknat tillgångar till full betalning av utmätningsfordringen. Detsamma gäller, om gäldenären har förklarat sig ställa in sina betalningar.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-9",
+          "number": 9,
+          "text": "En gäldenär, som är eller senare än ett år före konkursansökningen har varit bokföringsskyldig enligt bokföringslagen (1999:1078), ska om inte annat visas anses insolvent, om 1. gäldenären har uppmanats av en borgenär att betala klar och förfallen skuld men underlåtit att göra detta inom en vecka och 2. borgenären begär gäldenären i konkurs inom tre veckor därefter och skulden då ännu inte är betald. Borgenärens uppmaning ska innehålla en upplysning om att en konkursansökan kan följa. Uppmaningen ska delges gäldenären. Delgivning enligt 34-37 §§ delgivningslagen (2010:1932) får ske endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan. Första och andra styckena gäller inte sådana juridiska personer som anges i 2 kap. 2 § bokföringslagen och som inte driver näringsverksamhet. Lag (2010:1951). Konkurshinder",
           "references": [
-            "10 §",
             "2 kap. 2 §",
             "2 §",
-            "34-37 §§",
-            "9 §"
+            "34-37 §§"
           ]
         },
         {
           "id": "kap-2-§-10",
+          "number": 10,
+          "text": "En borgenär har inte rätt att få gäldenären försatt i konkurs, om 1. borgenären har betryggande pant eller därmed jämförlig säkerhet i egendom som tillhör gäldenären, 2. tredje man har ställt betryggande säkerhet för borgenärens fordran och konkursansökningen strider mot villkoren för säkerhetens ställande, 3. borgenärens fordran inte är förfallen till betalning och betryggande säkerhet erbjuds av tredje man. Med säkerhet som har ställts eller erbjuds av tredje man avses även borgen, om borgensmannen svarar som för egen skuld.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-10a",
           "number": 10,
           "text": "Om det pågår en företagsrekonstruktion, ska en borgenärs ansökan om konkurs, ifall gäldenären begär det, förklaras vilande i avvaktan på att företagsrekonstruktionen upphör. Om det finns särskilda skäl att anta att borgenärens rätt allvarligt äventyras, får dock rätten besluta att försätta gäldenären i konkurs. Innan ett sådant beslut meddelas ska rekonstruktören ges tillfälle att yttra sig. Lag (2022:979). Säkerhetsåtgärder",
           "references": []
@@ -158,10 +185,15 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-14",
           "number": 14,
-          "text": "Upptas en gäldenärs konkursansökan, skall rätten genast pröva ansökningen. Gäldenärens konkursansökan skall dock prövas vid en förhandling, om 1. det med hänsyn till tillgängliga upplysningar eller av någon annan anledning finns särskilda skäl att inte godta uppgiften om gäldenärens insolvens eller 2. ansökningen avser ett dödsbo som inte står under förvaltning av boutredningsman och ansökningen inte har gjorts av samtliga delägare. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom en månad. Till förhandlingen skall gäldenären kallas. I fall som avses i andra stycket 2 skall även de dödsbodelägare som inte har biträtt ansökningen kallas. Ansökningen kan prövas slutligt även om gäldenären uteblir från förhandlingen. I kallelsen skall han upplysas om detta. En konkursansökan som avses i andra stycket 2 skall förklaras vilande, om det görs en framställning om att dödsboets egendom skall avträdas till förvaltning av boutredningsman. Om dödsboets egendom avträds till förvaltning av boutredningsman, förfaller konkursansökningen. 15 § En kallelse som avses i 14 § tredje stycket ska delges. Kallelsen får delges enligt 34-37 §§ delgivningslagen (2010:1932) endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan. Kungörelsedelgivning enligt 48 § första stycket 1 delgivningslagen får ske även när gäldenären vistas på känd ort utomlands, om delgivning annars inte kan ske här i landet och rätten med hänsyn till omständigheterna finner att det inte är skäligt att kräva att delgivningen verkställs utomlands. Lag (2010:1951).",
+          "text": "Upptas en gäldenärs konkursansökan, skall rätten genast pröva ansökningen. Gäldenärens konkursansökan skall dock prövas vid en förhandling, om 1. det med hänsyn till tillgängliga upplysningar eller av någon annan anledning finns särskilda skäl att inte godta uppgiften om gäldenärens insolvens eller 2. ansökningen avser ett dödsbo som inte står under förvaltning av boutredningsman och ansökningen inte har gjorts av samtliga delägare. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom en månad. Till förhandlingen skall gäldenären kallas. I fall som avses i andra stycket 2 skall även de dödsbodelägare som inte har biträtt ansökningen kallas. Ansökningen kan prövas slutligt även om gäldenären uteblir från förhandlingen. I kallelsen skall han upplysas om detta. En konkursansökan som avses i andra stycket 2 skall förklaras vilande, om det görs en framställning om att dödsboets egendom skall avträdas till förvaltning av boutredningsman. Om dödsboets egendom avträds till förvaltning av boutredningsman, förfaller konkursansökningen.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-15",
+          "number": 15,
+          "text": "En kallelse som avses i 14 § tredje stycket ska delges. Kallelsen får delges enligt 34-37 §§ delgivningslagen (2010:1932) endast om det med beaktande av vad som har framkommit i det aktuella delgivningsärendet eller vid andra delgivningsförsök med gäldenären finns anledning att anta att denne har avvikit eller på annat sätt håller sig undan. Kungörelsedelgivning enligt 48 § första stycket 1 delgivningslagen får ske även när gäldenären vistas på känd ort utomlands, om delgivning annars inte kan ske här i landet och rätten med hänsyn till omständigheterna finner att det inte är skäligt att kräva att delgivningen verkställs utomlands. Lag (2010:1951).",
           "references": [
             "14 §",
-            "15 §",
             "34-37 §§",
             "48 §"
           ]
@@ -169,12 +201,18 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-16",
           "number": 16,
-          "text": "Upptas en borgenärs konkursansökan, skall rätten sätta ut en förhandling för prövning av ansökningen. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom sex veckor. Till förhandlingen skall parterna kallas. Parterna skall i kallelsen upplysas om den i 19 § föreskrivna påföljden av att part uteblir. I kallelsen till gäldenären skall denne föreläggas att svara på konkursansökningen vid förhandlingen. I kallelsen skall även anges att gäldenären inte behöver inställa sig, om han före förhandlingen skriftligen medger ansökningen och rätten inte särskilt underrättar honom om att förhandlingen ändå skall hållas. 17 § I fråga om kallelser enligt 16 § tillämpas 15 §. Gäldenären ska samtidigt med kallelsen delges de av borgenären ingivna handlingarna. Om delgivning med gäldenären sker enligt 38 eller 48 § delgivningslagen (2010:1932), får rätten förordna att gäldenärens egendom sätts under särskild vård. Kostnaden för vården ska betalas av borgenären. Lag (2010:1951).",
+          "text": "Upptas en borgenärs konkursansökan, skall rätten sätta ut en förhandling för prövning av ansökningen. Förhandlingen skall hållas inom två veckor från det att ansökningen kom in till rätten. Om det finns särskilda skäl, får den hållas senare, dock senast inom sex veckor. Till förhandlingen skall parterna kallas. Parterna skall i kallelsen upplysas om den i 19 § föreskrivna påföljden av att part uteblir. I kallelsen till gäldenären skall denne föreläggas att svara på konkursansökningen vid förhandlingen. I kallelsen skall även anges att gäldenären inte behöver inställa sig, om han före förhandlingen skriftligen medger ansökningen och rätten inte särskilt underrättar honom om att förhandlingen ändå skall hållas.",
+          "references": [
+            "19 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-17",
+          "number": 17,
+          "text": "I fråga om kallelser enligt 16 § tillämpas 15 §. Gäldenären ska samtidigt med kallelsen delges de av borgenären ingivna handlingarna. Om delgivning med gäldenären sker enligt 38 eller 48 § delgivningslagen (2010:1932), får rätten förordna att gäldenärens egendom sätts under särskild vård. Kostnaden för vården ska betalas av borgenären. Lag (2010:1951).",
           "references": [
             "15 §",
             "16 §",
-            "17 §",
-            "19 §",
             "48 §"
           ]
         },
@@ -211,7 +249,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-23",
           "number": 23,
-          "text": " I fråga om rätt till ersättning för kostnader vid prövning av en borgenärs konkursansökan gäller 18 kap. rättegångsbalken i tillämpliga delar. Bestämmelsen i 18 kap. 2 § skall dock inte tillämpas. Borgenären får utan hinder av 14 § samma kapitel i konkursen göra gällande fordran på ersättning för sådana kostnader i den ordning som gäller för andra fordringar. Åtgärder vid konkursbeslut m. m.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ I fråga om rätt till ersättning för kostnader vid prövning av en borgenärs konkursansökan gäller 18 kap. rättegångsbalken i tillämpliga delar. Bestämmelsen i 18 kap. 2 § skall dock inte tillämpas. Borgenären får utan hinder av 14 § samma kapitel i konkursen göra gällande fordran på ersättning för sådana kostnader i den ordning som gäller för andra fordringar. Åtgärder vid konkursbeslut m. m.",
           "references": [
             "14 §",
             "18 kap. 2 §",
@@ -227,13 +265,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-2-§-25",
           "number": 25,
-          "text": "Om högre rätt upphäver ett beslut om konkurs, skall tingsrätten genast kungöra den högre rättens beslut. Egendomen i boet skall återställas till gäldenären i den mån den inte behövs för betalning av konkurskostnaderna och andra skulder som boet har ådragit sig.  Överflyttning av en konkurs",
+          "text": "Om högre rätt upphäver ett beslut om konkurs, skall tingsrätten genast kungöra den högre rättens beslut. Egendomen i boet skall återställas till gäldenären i den mån den inte behövs för betalning av konkurskostnaderna och andra skulder som boet har ådragit sig. Överflyttning av en konkurs",
           "references": []
         },
         {
           "id": "kap-2-§-26",
           "number": 26,
-          "text": " Om det sedan ett beslut om konkurs har meddelats finns synnerliga skäl för att handlägga konkursen på någon annan ort, kan rätten efter samråd med tingsrätten på den andra orten bestämma att konkursen skall handläggas av den senare domstolen.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om det sedan ett beslut om konkurs har meddelats finns synnerliga skäl för att handlägga konkursen på någon annan ort, kan rätten efter samråd med tingsrätten på den andra orten bestämma att konkursen skall handläggas av den senare domstolen.",
           "references": []
         }
       ]
@@ -252,7 +290,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-3-§-2",
           "number": 2,
-          "text": " En rättshandling mellan gäldenären och någon annan som företas senast dagen efter den då kungörelsen om konkursbeslutet var införd i Post- och Inrikes Tidningar ska trots 1 § gälla, om det inte visas att den andre kände till beslutet eller att det fanns omständigheter som gav honom eller henne skälig anledning att anta att gäldenären var försatt i konkurs. En överlåtelse av eller ett annat förfogande över egendom som på grund av detta ska gälla, ska dock, om konkursboet utan oskäligt uppehåll begär det, gå åter mot att boet ersätter den andre vad han eller hon har betalat jämte nödvändig eller nyttig kostnad. Första stycket andra meningen gäller inte egendom som anges i 8 kap. 10 § andra stycket. Infriar någon en förpliktelse mot gäldenären efter den tidpunkt som anges i första stycket, ska det tillgodoräknas honom eller henne, om det av omständigheterna framgår att han eller hon var i god tro. En uppsägning eller en annan liknande rättshandling som företas mot eller av gäldenären efter sagda tidpunkt ska gälla, om det av omständigheterna framgår att den andre var i god tro och det är uppenbart oskäligt att rättshandlingen blir ogiltig mot konkursboet. Det finns särskilda bestämmelser om verkan av gäldenärens överlåtelse eller pantsättning av löpande skuldebrev, aktiebrev eller vissa andra jämförbara värdehandlingar. Lag (2014:1456).",
+          "text": "En rättshandling mellan gäldenären och någon annan som företas senast dagen efter den dag konkursbeslutet kungjordes ska trots 1 § gälla, om det inte visas att den andre kände till beslutet eller att det fanns omständigheter som gav honom eller henne skälig anledning att anta att gäldenären var försatt i konkurs. En överlåtelse av eller ett annat förfogande över egendom som enligt första stycket ska gälla, ska ändå gå åter om konkursboet utan oskäligt uppehåll begär det och boet ersätter den andre vad han eller hon har betalat tillsammans med nödvändig eller nyttig kostnad som han eller hon har haft. Det gäller dock inte sådan egendom som anges i 8 kap. 10 § andra stycket. Om någon infriar en förpliktelse mot gäldenären efter den tidpunkt som anges i första stycket, ska det tillgodoräknas honom eller henne, om det av omständigheterna framgår att han eller hon var i god tro. En uppsägning eller en annan liknande rättshandling som företas mot eller av gäldenären efter den tidpunkten ska gälla, om det av omständigheterna framgår att den andre var i god tro och det är uppenbart oskäligt att rättshandlingen blir ogiltig mot konkursboet. Det finns särskilda bestämmelser om verkan av gäldenärens överlåtelse eller pantsättning av löpande skuldebrev, aktiebrev eller vissa andra jämförbara värdehandlingar. Lag (2025:796). Egendom som ingår i ett konkursbo",
           "references": [
             "1 §",
             "10 §",
@@ -292,7 +330,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-3-§-6",
           "number": 6,
-          "text": " En tvist mellan förvaltaren och gäldenären eller någon annan i en fråga som avses i 5 § ska prövas av tillsynsmyndigheten på ansökan av förvaltaren, en borgenär, gäldenären eller en underhållsberättigad. Myndigheten ska inhämta yttranden i den omfattning som behövs för prövningen. Myndighetens beslut gäller omedelbart, även om det överklagas. Beslutet ska efter ansökan ändras, om senare upplysta omständigheter eller ändrade förhållanden motiverar det. Tillsynsmyndighetens beslut i ett ärende som avses i första stycket får överklagas av den vars rätt berörs av beslutet. I fråga om ett sådant överklagande tillämpas bestämmelserna i utsökningsbalken om överklagande av beslut om utmätning av lön. Lag (2021:791).",
+          "text": "En tvist mellan förvaltaren och gäldenären eller någon annan i en fråga som avses i 5 § ska prövas av tillsynsmyndigheten på ansökan av förvaltaren, en borgenär, gäldenären eller en underhållsberättigad. Tillsynsmyndigheten ska på ansökan ändra sitt beslut, om det är motiverat med hänsyn till senare anförda omständigheter eller ändrade förhållanden. Lag (2025:796). Utmätning vid konkurs",
           "references": [
             "5 §"
           ]
@@ -309,11 +347,16 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-3-§-8",
           "number": 8,
-          "text": "Har utmätning hos gäldenären skett innan beslut om konkurs meddelats, skall verkställigheten fortgå utan hinder av konkursen, om inte något annat följer av andra eller tredje stycket. Om utmätningssökanden inte hade panträtt och om den förmånsrätt som han har vunnit genom utmätningen skall gå åter, skall belopp, som enligt utsökningsbalken skulle ha betalts till utmätningssökanden eller annan borgenär som inte hade panträtt, i stället redovisas till förvaltaren. Verkställigheten skall på begäran av förvaltaren uppskjutas, om det behövs för att borgenärers rätt skall kunna tas till vara eller om det finns några andra synnerliga skäl för det. Uppskov får begäras även av en borgenär vars rätt kan bero därav. Om en auktion är utsatt, skall konkursboet betala den kostnad som blir onyttig genom uppskovet. Hade utmätningssökanden inte panträtt och skall den förmånsrätt som han har vunnit genom utmätningen gå åter, skall även utmätningen gå åter om förvaltaren begär det innan egendomen har blivit såld. Rättegång vid konkurs m.m. 9 § Pågår en rättegång mellan gäldenären och någon annan om sådan egendom som hör till konkursboet, får konkursboet överta gäldenärens talan. Om boet, trots att det har underrättats om rättegången, inte övertar gäldenärens talan, skall egendomen anses inte tillhöra konkursboet. Egendomen får inte så länge konkursen pågår utmätas för en fordran som kan göras gällande i konkursen. Om konkursboet övertar gäldenärens talan, tillämpas beträffande boets skyldighet att svara för rättegångskostnad vad som i rättegångsbalken föreskrivs om den till vilken överlåtelse har ägt rum enligt 13 kap. 7 § samma balk. Förs talan mot gäldenären angående en fordran som kan göras gällande i konkursen, får konkursboet inträda i rättegången vid sidan av gäldenären. Gäldenären skall underrätta domstolen om konkursen i de fall som avses i första och andra styckena. Domstolen skall lämna konkursboet meddelande om rättegången. I mål om betalningsföreläggande eller handräckning gäller vad som nu sagts om domstolen i stället kronofogdemyndigheten. Lag (1991:857).",
+          "text": "Har utmätning hos gäldenären skett innan beslut om konkurs meddelats, skall verkställigheten fortgå utan hinder av konkursen, om inte något annat följer av andra eller tredje stycket. Om utmätningssökanden inte hade panträtt och om den förmånsrätt som han har vunnit genom utmätningen skall gå åter, skall belopp, som enligt utsökningsbalken skulle ha betalts till utmätningssökanden eller annan borgenär som inte hade panträtt, i stället redovisas till förvaltaren. Verkställigheten skall på begäran av förvaltaren uppskjutas, om det behövs för att borgenärers rätt skall kunna tas till vara eller om det finns några andra synnerliga skäl för det. Uppskov får begäras även av en borgenär vars rätt kan bero därav. Om en auktion är utsatt, skall konkursboet betala den kostnad som blir onyttig genom uppskovet. Hade utmätningssökanden inte panträtt och skall den förmånsrätt som han har vunnit genom utmätningen gå åter, skall även utmätningen gå åter om förvaltaren begär det innan egendomen har blivit såld. Rättegång vid konkurs m.m.",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-9",
+          "number": 9,
+          "text": "Pågår en rättegång mellan gäldenären och någon annan om sådan egendom som hör till konkursboet, får konkursboet överta gäldenärens talan. Om boet, trots att det har underrättats om rättegången, inte övertar gäldenärens talan, skall egendomen anses inte tillhöra konkursboet. Egendomen får inte så länge konkursen pågår utmätas för en fordran som kan göras gällande i konkursen. Om konkursboet övertar gäldenärens talan, tillämpas beträffande boets skyldighet att svara för rättegångskostnad vad som i rättegångsbalken föreskrivs om den till vilken överlåtelse har ägt rum enligt 13 kap. 7 § samma balk. Förs talan mot gäldenären angående en fordran som kan göras gällande i konkursen, får konkursboet inträda i rättegången vid sidan av gäldenären. Gäldenären skall underrätta domstolen om konkursen i de fall som avses i första och andra styckena. Domstolen skall lämna konkursboet meddelande om rättegången. I mål om betalningsföreläggande eller handräckning gäller vad som nu sagts om domstolen i stället kronofogdemyndigheten. Lag (1991:857).",
           "references": [
             "13 kap. 7 §",
-            "7 §",
-            "9 §"
+            "7 §"
           ]
         },
         {
@@ -420,9 +463,14 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-4-§-14",
           "number": 14,
-          "text": "Vid återvinning skall den egendom som gäldenären har utgett återbäras till konkursboet. Den som har lämnat gäldenären något vederlag för egendomen har rätt att återfå vad han har utgett. Detta gäller dock inte ett sådant vederlag som inte har kommit boet till godo, om den som lämnade vederlaget hade eller borde ha haft kännedom om att gäldenärens avsikt var att undanhålla borgenärerna detta. Finns den egendom som skall återbäras enligt första eller andra stycket inte i behåll, skall ersättning för dess värde utges. Är återbäring av viss egendom förenad med särskild olägenhet för den förpliktade, kan det medges honom att utge ersättning i egendomens ställe. 15 § Den som är skyldig att återbära egendom skall även utge den avkastning som belöper på tiden efter det att återvinning påkallades. Utgörs egendomen av ett penningbelopp eller skall ersättning utges för egendomens värde, utgår ränta enligt 5 § räntelagen (1975:635) till och med den dag då skyldighet att återbära beloppet eller utge ersättningen inträder och enligt 6 § räntelagen för tiden därefter. Skall någon återbära egendom vid återvinning enligt 5 §, kan han förklaras skyldig att utge även avkastning som belöper på tiden från det att han mottog egendomen till dess att återvinning påkallades. Ränta för sådan tid beräknas enligt 5 § räntelagen. Den som har lagt ned nödvändig eller nyttig kostnad på egendom som återbärs har rätt till ersättning för denna, om det inte finns särskilda skäl mot det. Återvinns en säkerhet som grundas på inteckning, skall inteckningshandlingen återställas eller, om den behövs som bevis för fordringen, tillhandahållas för utbyte eller dödning av inteckningen. Kan det inte ske, skall ersättning utges.",
+          "text": "Vid återvinning skall den egendom som gäldenären har utgett återbäras till konkursboet. Den som har lämnat gäldenären något vederlag för egendomen har rätt att återfå vad han har utgett. Detta gäller dock inte ett sådant vederlag som inte har kommit boet till godo, om den som lämnade vederlaget hade eller borde ha haft kännedom om att gäldenärens avsikt var att undanhålla borgenärerna detta. Finns den egendom som skall återbäras enligt första eller andra stycket inte i behåll, skall ersättning för dess värde utges. Är återbäring av viss egendom förenad med särskild olägenhet för den förpliktade, kan det medges honom att utge ersättning i egendomens ställe.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-15",
+          "number": 15,
+          "text": "Den som är skyldig att återbära egendom skall även utge den avkastning som belöper på tiden efter det att återvinning påkallades. Utgörs egendomen av ett penningbelopp eller skall ersättning utges för egendomens värde, utgår ränta enligt 5 § räntelagen (1975:635) till och med den dag då skyldighet att återbära beloppet eller utge ersättningen inträder och enligt 6 § räntelagen för tiden därefter. Skall någon återbära egendom vid återvinning enligt 5 §, kan han förklaras skyldig att utge även avkastning som belöper på tiden från det att han mottog egendomen till dess att återvinning påkallades. Ränta för sådan tid beräknas enligt 5 § räntelagen. Den som har lagt ned nödvändig eller nyttig kostnad på egendom som återbärs har rätt till ersättning för denna, om det inte finns särskilda skäl mot det. Återvinns en säkerhet som grundas på inteckning, skall inteckningshandlingen återställas eller, om den behövs som bevis för fordringen, tillhandahållas för utbyte eller dödning av inteckningen. Kan det inte ske, skall ersättning utges.",
           "references": [
-            "15 §",
             "5 §",
             "6 §"
           ]
@@ -444,16 +492,22 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-4-§-18",
           "number": 18,
-          "text": "Om egendom som kan återvinnas har överlåtits till annan, har konkursboet samma rätt till återvinning mot denne, om han kände till eller borde ha känt till de omständigheter som grundar denna rätt. Talan om återvinning m. m. 19 § Förvaltaren får påkalla återvinning 1. genom att väcka talan vid allmän domstol, 2. genom att göra anmärkning mot bevakning eller i samband med utdelningsförfarandet bestrida yrkande i annan ordning om betalnings- eller förmånsrätt i konkursen eller 3. genom att göra invändning mot annat yrkande som i rättegång framställs mot konkursboet. Om förvaltaren inte vill påkalla återvinning och inte heller ingår förlikning i saken, får en borgenär påkalla återvinning genom att väcka talan vid allmän domstol. För återgång av förmånsrätt som har vunnits genom utmätning behövs inte någon särskild åtgärd. Lag (1994:481).",
-          "references": [
-            "19 §"
-          ]
+          "text": "Om egendom som kan återvinnas har överlåtits till annan, har konkursboet samma rätt till återvinning mot denne, om han kände till eller borde ha känt till de omständigheter som grundar denna rätt. Talan om återvinning m. m.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-19",
+          "number": 19,
+          "text": "Förvaltaren får påkalla återvinning 1. genom att väcka talan vid allmän domstol, 2. genom att göra anmärkning mot bevakning eller i samband med utdelningsförfarandet bestrida yrkande i annan ordning om betalnings- eller förmånsrätt i konkursen eller 3. genom att göra invändning mot annat yrkande som i rättegång framställs mot konkursboet. Om förvaltaren inte vill påkalla återvinning och inte heller ingår förlikning i saken, får en borgenär påkalla återvinning genom att väcka talan vid allmän domstol. För återgång av förmånsrätt som har vunnits genom utmätning behövs inte någon särskild åtgärd. Lag (1994:481).",
+          "references": []
         },
         {
           "id": "kap-4-§-20",
           "number": 20,
-          "text": " Talan vid allmän domstol om återvinning får väckas inom ett år från dagen för konkursbeslutet. Talan får även väckas inom sex månader från det att anledning därtill blev känd för konkursboet. Har gäldenären avhänt sig fast egendom eller är det fråga om återgång av en bodelning, får talan även väckas inom sex månader från den dag då lagfart söktes eller bodelningshandlingen gavs in till rätten. En borgenär som för talan svarar för rättegångskostnaden men har rätt att få ersättning för denna av boet, i den mån kostnaden täcks av vad som har kommit boet till godo genom rättegången.",
-          "references": []
+          "text": "En talan om återvinning enligt 19 § första stycket 1 eller andra stycket ska väckas genom stämning vid den tingsrätt som har beslutat om konkursen. En talan om återvinning får väckas inom ett år från dagen för konkursbeslutet. Talan får även väckas inom sex månader från det att anledningen till talan blev känd för konkursboet. Om gäldenären har avhänt sig fast egendom eller om det är fråga om återgång av en bodelning, får talan även väckas inom sex månader från den dag då lagfart söktes eller bodelningshandlingen gavs in till rätten. En borgenär som för talan ansvarar för rättegångskostnaden men har rätt att få ersättning för denna av boet, i den utsträckning kostnaden täcks av vad som har tillförts boet genom rättegången. Lag (2025:796).",
+          "references": [
+            "19 §"
+          ]
         },
         {
           "id": "kap-4-§-21",
@@ -489,13 +543,18 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-5-§-3",
           "number": 3,
-          "text": "En fordran på pension får i konkurs inte göras gällande till den del den betalas av en pensionsstiftelse. Fordringar med solidariskt betalningsansvar 4 § Har flera utfäst eller på något annat sätt ådragit sig solidariskt betalningsansvar och är skulden delvis betald, skall utdelning för borgenärens återstående fordran i en solidariskt ansvarig gäldenärs konkurs beräknas på fordringens belopp utan avdrag för avbetalning som en medgäldenär har gjort, 1. om avbetalningen har skett genom ackord, konkurs eller annan fördelning av en insolvent medgäldenärs bo, 2. om den har skett senare än tre månader före den i 4 kap. 2 § angivna fristdagen eller 3. om och i den mån avbetalningen har medfört rätt för medgäldenären att söka tillbaka beloppet av konkursgäldenären (regressrätt). Har konkursgäldenären infriat en medgäldenärs regressfordran och äger återvinning därav inte rum, skall dock avdrag göras. Om utdelningen överstiger borgenärens återstående fordran, skall överskottet fördelas enligt vad som följer av gäldenärernas inbördes ansvarighet för fordringen. Hur utdelning för en fordran hos ett handelsbolag beräknas i en bolagsmans konkurs är föreskrivet i 2 kap. 20 § lagen (1980:1102) om handelsbolag och enkla bolag.",
+          "text": "En fordran på pension får i konkurs inte göras gällande till den del den betalas av en pensionsstiftelse. Fordringar med solidariskt betalningsansvar",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-4",
+          "number": 4,
+          "text": "Har flera utfäst eller på något annat sätt ådragit sig solidariskt betalningsansvar och är skulden delvis betald, skall utdelning för borgenärens återstående fordran i en solidariskt ansvarig gäldenärs konkurs beräknas på fordringens belopp utan avdrag för avbetalning som en medgäldenär har gjort, 1. om avbetalningen har skett genom ackord, konkurs eller annan fördelning av en insolvent medgäldenärs bo, 2. om den har skett senare än tre månader före den i 4 kap. 2 § angivna fristdagen eller 3. om och i den mån avbetalningen har medfört rätt för medgäldenären att söka tillbaka beloppet av konkursgäldenären (regressrätt). Har konkursgäldenären infriat en medgäldenärs regressfordran och äger återvinning därav inte rum, skall dock avdrag göras. Om utdelningen överstiger borgenärens återstående fordran, skall överskottet fördelas enligt vad som följer av gäldenärernas inbördes ansvarighet för fordringen. Hur utdelning för en fordran hos ett handelsbolag beräknas i en bolagsmans konkurs är föreskrivet i 2 kap. 20 § lagen (1980:1102) om handelsbolag och enkla bolag.",
           "references": [
             "2 kap. 20 §",
             "2 §",
             "20 §",
-            "4 kap. 2 §",
-            "4 §"
+            "4 kap. 2 §"
           ]
         },
         {
@@ -546,11 +605,16 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-5-§-11",
           "number": 11,
-          "text": "För en fordran som är förenad med förmånsrätt och som löper med ränta skall ränta beräknas till den dag då utdelningsförslaget upprättas eller, om medlen betalas ut i förskott, dagen för utbetalningen. Om en fordran som är förenad med förmånsrätt men som inte löper med ränta hade kunnat göras räntebärande genom delgivning av stämning eller av ansökan om betalningsföreläggande, skall ränta för den beräknas enligt 5 § räntelagen (1975:635) från dagen för konkursbeslutet, om fordringen då var förfallen till betalning och annars från den senare dag då fordringen förfaller till betalning. Räntan skall beräknas till dag som avses i första stycket. För fordringar utan förmånsrätt beräknas från dagen för konkursbeslutet ränta mellan borgenärerna endast om boet räcker till betalning av mer än beloppet av alla fordringar i konkursen utan förmånsrätt, i förekommande fall inberäknat vid konkursbeslutet upplupen ränta. Räntan bestäms med tillämpning av första och andra styckena. Lag (1991:857). 12 § För en fordran som inte löper med ränta före förfallodagen skall utdelning beräknas endast på det belopp som efter fem procents årlig ränta utgör fordringens värde nedan angiven dag, om fordringen då inte var förfallen, nämligen 1. om fordringen utgår fullt eller med förmånsrätt, den dag då utdelningsförslaget upprättas, 2. om fordringen inte är förenad med förmånsrätt och inte utgår fullt, dagen för konkursbeslutet. Betalas medel ut i förskott till borgenären för en fordran som avses i första stycket 1 och var fordringen då inte förfallen, skall utdelningen i stället beräknas efter fordringens värde på betalningsdagen. Värdering av vissa fordringar",
+          "text": "För en fordran som är förenad med förmånsrätt och som löper med ränta skall ränta beräknas till den dag då utdelningsförslaget upprättas eller, om medlen betalas ut i förskott, dagen för utbetalningen. Om en fordran som är förenad med förmånsrätt men som inte löper med ränta hade kunnat göras räntebärande genom delgivning av stämning eller av ansökan om betalningsföreläggande, skall ränta för den beräknas enligt 5 § räntelagen (1975:635) från dagen för konkursbeslutet, om fordringen då var förfallen till betalning och annars från den senare dag då fordringen förfaller till betalning. Räntan skall beräknas till dag som avses i första stycket. För fordringar utan förmånsrätt beräknas från dagen för konkursbeslutet ränta mellan borgenärerna endast om boet räcker till betalning av mer än beloppet av alla fordringar i konkursen utan förmånsrätt, i förekommande fall inberäknat vid konkursbeslutet upplupen ränta. Räntan bestäms med tillämpning av första och andra styckena. Lag (1991:857).",
           "references": [
-            "12 §",
             "5 §"
           ]
+        },
+        {
+          "id": "kap-5-§-12",
+          "number": 12,
+          "text": "För en fordran som inte löper med ränta före förfallodagen skall utdelning beräknas endast på det belopp som efter fem procents årlig ränta utgör fordringens värde nedan angiven dag, om fordringen då inte var förfallen, nämligen 1. om fordringen utgår fullt eller med förmånsrätt, den dag då utdelningsförslaget upprättas, 2. om fordringen inte är förenad med förmånsrätt och inte utgår fullt, dagen för konkursbeslutet. Betalas medel ut i förskott till borgenären för en fordran som avses i första stycket 1 och var fordringen då inte förfallen, skall utdelningen i stället beräknas efter fordringens värde på betalningsdagen. Värdering av vissa fordringar",
+          "references": []
         },
         {
           "id": "kap-5-§-13",
@@ -585,11 +649,16 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-5-§-17",
           "number": 17,
-          "text": "En fordran på ersättning som tillkommer en borgensman eller någon annan med anledning av en förpliktelse som han har infriat (regressfordran) anses vid tillämpningen av 15 och 16 §§ ha förvärvats när hans förpliktelse grundades. Även om bevakningsförfarande äger rum i konkursen, behöver en borgenär som har rätt att kvitta inte bevaka sin fordran i den mån den täcks av gäldenärens fordran. När kvittning inte får ske, får borgenären trots det på sin skuld avräkna vad som borde ha tillkommit honom som utdelning i konkursen, om hans fordran intill skuldbeloppet hade bevakats i rätt tid. Överlåter boet en fordran så att en borgenär därigenom förlorar rätten till kvittning, skall boet gottgöra borgenären för detta. Ett konkursbos ansvar för lönefordringar 18 § Om en arbetstagare fortsätter att fullgöra sina åtaganden enligt anställningsavtalet, ansvarar konkursboet för arbetstagarens fordran på lön eller annan ersättning för arbete som belöper på tid efter en månad från konkursbeslutet. Lag (2003:538). /Kapitelrubriken upphör att gälla U:2026-07-01",
+          "text": "En fordran på ersättning som tillkommer en borgensman eller någon annan med anledning av en förpliktelse som han har infriat (regressfordran) anses vid tillämpningen av 15 och 16 §§ ha förvärvats när hans förpliktelse grundades. Även om bevakningsförfarande äger rum i konkursen, behöver en borgenär som har rätt att kvitta inte bevaka sin fordran i den mån den täcks av gäldenärens fordran. När kvittning inte får ske, får borgenären trots det på sin skuld avräkna vad som borde ha tillkommit honom som utdelning i konkursen, om hans fordran intill skuldbeloppet hade bevakats i rätt tid. Överlåter boet en fordran så att en borgenär därigenom förlorar rätten till kvittning, skall boet gottgöra borgenären för detta. Ett konkursbos ansvar för lönefordringar",
           "references": [
-            "16 §§",
-            "18 §"
+            "16 §§"
           ]
+        },
+        {
+          "id": "kap-5-§-18",
+          "number": 18,
+          "text": "Om en arbetstagare fortsätter att fullgöra sina åtaganden enligt anställningsavtalet, ansvarar konkursboet för arbetstagarens fordran på lön eller annan ersättning för arbete som belöper på tid efter en månad från konkursbeslutet. Lag (2003:538).",
+          "references": []
         }
       ]
     },
@@ -599,15 +668,46 @@ export const konkurslag: LegalText = {
       "title": "Gäldenärens skyldigheter under boutredningen",
       "sections": [
         {
+          "id": "kap-6-§-1",
+          "number": 1,
+          "text": "En gäldenär som är en fysisk person får inte under konkursen driva näringsverksamhet som medför bokföringsskyldighet enligt bokföringslagen (1999:1078). Förbudet omfattar inte verksamhet som innebär utövning av rättighet som avses i - 2 kap. 1 § regeringsformen, - 1 kap. 1 §, 4 kap. 1 §, 6 kap. 1 § eller 13 kap. 1 § tryckfrihetsförordningen, eller - 1 kap. 1 §, 3 kap. 1, 3, 4 eller 10 § eller 11 kap. 2 § yttrandefrihetsgrundlagen. Förbudet omfattar inte heller jordbruksverksamhet. Bestämmelser om näringsförbud efter särskild prövning finns i lagen (2014:836) om näringsförbud. Lag (2018:1911). Upplysnings- och närvaroplikt under konkurs Upplysnings- och närvaroplikt under boutredningen",
+          "references": [
+            "1 kap. 1 §",
+            "1 §",
+            "10 §",
+            "11 kap. 2 §",
+            "13 kap. 1 §",
+            "2 kap. 1 §",
+            "2 §",
+            "4 kap. 1 §",
+            "6 kap. 1 §"
+          ]
+        },
+        {
           "id": "kap-6-§-2",
           "number": 2,
-          "text": " Gäldenären skall ge rätten, tillsynsmyndigheten, förvaltare och granskningsmän de upplysningar av betydelse för konkursutredningen som de begär. Upplysningsskyldigheten omfattar även egendom, som inte ingår i boet på grund av att den finns utomlands. Gäldenären skall på begäran av förvaltaren närvara vid bouppteckningsförrättningen. Är gäldenären en juridisk person och finns det flera ställföreträdare, gäller denna skyldighet dock inte för en sådan ställföreträdare vars närvaro förvaltaren anser sakna betydelse för boutredningen. Vid förlikningssammanträde och sammanträde för prövning av ackordsförslag skall gäldenären närvara, om han inte har laga förfall eller rätten medger att han uteblir. Att gäldenären uteblir från ett sammanträde hindrar inte att de ärenden som skall förekomma på sammanträdet handläggs. Lag (1995:793).",
+          "text": "Gäldenären ska ge rätten, tillsynsmyndigheten, förvaltare och granskare de upplysningar av betydelse för konkursutredningen som de begär. Upplysningsskyldigheten omfattar även egendom som inte ingår i boet på grund av att den finns utomlands. Gäldenären ska på begäran av förvaltaren närvara vid boupp- teckningsförrättningen. Om gäldenären är en juridisk person och det finns flera ställföreträdare, gäller denna skyldighet dock inte för en sådan ställföreträdare vars närvaro förvaltaren anser sakna betydelse för boutredningen. Lag (2025:796). Bekräftelse av bouppteckningen och edgång",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-2a",
+          "number": 2,
+          "text": "Gäldenären ska lämna en bouppteckningsbekräftelse inför förvaltaren. Gäldenären ska göra de tillägg till och ändringar i bouppteckningen som han eller hon anser behövs. Gäldenären ska därefter med sin underskrift på heder och samvete bekräfta att bouppteckningens uppgifter om tillgångar, skulder och räkenskapsinformation med gjorda tillägg och ändringar är riktiga och att det enligt hans eller hennes vetskap inte oriktigt har utelämnats eller tagits upp någon tillgång eller skuld. För en underskrift enligt andra stycket tillämpas 2 kap. 2 §. Lag (2021:538).",
+          "references": [
+            "2 kap. 2 §",
+            "2 §"
+          ]
+        },
+        {
+          "id": "kap-6-§-2b",
+          "number": 2,
+          "text": "Gäldenärens bekräftelse enligt 2 a § ska lämnas vid ett bouppteckningssammanträde. Förvaltaren ska hålla sammanträdet senast två månader efter konkursbeslutet, om det inte är nödvändigt att det hålls senare. Förvaltaren ska till bouppteckningssammanträdet kalla gäldenären, tillsynsmyndigheten och i förekommande fall den borgenär som har gjort konkursansökan. Lag (2021:538).",
           "references": []
         },
         {
           "id": "kap-6-§-3",
           "number": 3,
-          "text": " På begäran av förvaltaren ska gäldenären avlägga bouppteckningsed inför rätten i stället för att lämna en bekräftelse enligt 2 a §. Eden ska avläggas vid ett edgångssammanträde. Rätten ska hålla sammanträdet så snart som möjligt. Gäldenären, förvaltaren, tillsynsmyndigheten och i förekommande fall den borgenär som har gjort konkursansökan ska kallas till sammanträdet. Gäldenären ska vid edgångssammanträdet göra de tillägg till och ändringar i bouppteckningen som han eller hon anser behövs och under ed intyga att bouppteckningens uppgifter om tillgångar, skulder och räkenskapsinformation med gjorda tillägg och ändringar är riktiga och att det enligt hans eller hennes vetskap inte oriktigt har utelämnats eller tagits upp någon tillgång eller skuld. Lag (2021:538).",
+          "text": "På ansökan av förvaltaren ska gäldenären avlägga bouppteckningsed inför rätten i stället för att lämna en bekräftelse enligt 2 a §. Till ansökan ska bouppteckningen bifogas. Eden ska avläggas vid ett edgångssammanträde. Rätten ska hålla sammanträdet så snart som möjligt. Gäldenären, förvaltaren, tillsynsmyndigheten och i förekommande fall den borgenär som har gjort konkursansökan ska kallas till sammanträdet. Gäldenären ska vid edgångssammanträdet göra de tillägg till och ändringar i bouppteckningen som han eller hon anser behövs och under ed intyga att bouppteckningens uppgifter om tillgångar, skulder och räkenskapsinformation med gjorda tillägg och ändringar är riktiga och att det enligt hans eller hennes vetskap inte oriktigt har utelämnats eller tagits upp någon tillgång eller skuld. Lag (2025:796).",
           "references": []
         },
         {
@@ -621,7 +721,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-5",
           "number": 5,
-          "text": " Någon annan än gäldenären ska vid ett sammanträde lämna en bekräftelse enligt 2 a § eller bekräfta en viss uppgift i bouppteckningen, om det kan antas vara av betydelse för boutredningen. Till sammanträdet ska förvaltaren kalla den som ska lämna bekräftelsen, tillsynsmyndigheten och i förekommande fall den som har begärt bekräftelsen. På begäran av förvaltaren ska någon annan än gäldenären, i stället för att lämna en bekräftelse enligt första stycket, vid ett sammanträde inför rätten avlägga bouppteckningsed enligt 3 § eller beediga en viss uppgift i bouppteckningen, om det kan antas vara av betydelse för boutredningen. Rätten ska hålla sammanträdet så snart som möjligt. Till sammanträdet ska rätten kalla förvaltaren och de som anges i första stycket andra meningen. Med undantag för den som är närstående till gäldenären gäller första och andra styckena inte den som avses i 36 kap. 5 § rättegångsbalken, när det gäller en uppgift som han eller hon inte får höras om som vittne. Om förvaltaren avslår en begäran om att någon annan än gäldenären ska lämna en bekräftelse enligt första stycket, får den som framställt begäran hänskjuta frågan till rättens prövning. Lag (2021:538).",
+          "text": "Någon annan än gäldenären ska vid ett sammanträde lämna en bekräftelse enligt 2 a § eller bekräfta en viss uppgift i bouppteckningen, om det kan antas vara av betydelse för boutredningen. Till sammanträdet ska förvaltaren kalla den som ska lämna bekräftelsen, tillsynsmyndigheten och i förekommande fall den som har begärt bekräftelsen. På ansökan av förvaltaren ska någon annan än gäldenären, i stället för att lämna en bekräftelse enligt första stycket, vid ett sammanträde inför rätten avlägga bouppteckningsed enligt 3 § eller beediga en viss uppgift i bouppteckningen, om det kan antas vara av betydelse för boutredningen. Rätten ska hålla sammanträdet så snart som möjligt. Till sammanträdet ska rätten kalla förvaltaren och de som anges i första stycket. Med undantag för den som är närstående till gäldenären gäller första och andra styckena inte den som avses i 36 kap. 5 § rättegångsbalken, när det gäller en uppgift som han eller hon inte får höras om som vittne. Lag (2025:796).",
           "references": [
             "3 §",
             "36 kap. 5 §",
@@ -629,15 +729,51 @@ export const konkurslag: LegalText = {
           ]
         },
         {
+          "id": "kap-6-§-5a",
+          "number": 5,
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om det finns anledning till det får rätten besluta att den som ska avlägga ed får göra det inför en annan tingsrätt. Är den som ska avlägga ed sjuk, får eden avläggas där han eller hon vistas. Lag (2021:538).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-5b",
+          "number": 5,
+          "text": "Det som någon annanstans än i detta kapitel är föreskrivet om bekräftelse av bouppteckningen och om bouppteckningssammanträde ska i förekommande fall tillämpas på bouppteckningsed och edgångssammanträde. Lag (2021:538). Tvångsmedel m.m.",
+          "references": []
+        },
+        {
           "id": "kap-6-§-6",
           "number": 6,
-          "text": " Gäldenären får inte efter det att konkursbeslutet har meddelats och innan han eller hon har bekräftat eller beedigat bouppteckningen bege sig utomlands utan rättens medgivande. Om det senare under konkursen finns skäl att befara att gäldenären genom att lämna landet undandrar sig en skyldighet som föreskrivs i denna lag, får gäldenären förbjudas att resa utomlands. Om gäldenären byter vistelseort, ska gäldenären meddela förvaltaren var han eller hon vistas. Om det finns skäl att befara att gäldenären åsidosätter ett förbud att resa utomlands, får gäldenären åläggas att lämna ifrån sig sitt pass till tillsynsmyndigheten. Om gäldenären inte har något pass, får det meddelas förbud att utfärda pass för honom eller henne. Om det finns skäl att befara att gäldenären genom att lämna den ort där han eller hon är bosatt undandrar sig en skyldighet som föreskrivs i denna lag, får gäldenären förbjudas att lämna orten. Lag (2021:538).",
+          "text": "Gäldenären får inte utan medgivande resa utomlands efter det att konkursbeslutet har meddelats och innan han eller hon har bekräftat eller beedigat bouppteckningen. Ett beslut i fråga om medgivande att resa utomlands meddelas av förvaltaren på ansökan av gäldenären. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-6a",
+          "number": 6,
+          "text": "Om det efter att gäldenären har bekräftat eller beedigat bouppteckningen finns skäl att befara att gäldenären genom att lämna landet undandrar sig en skyldighet som föreskrivs i denna lag, får gäldenären förbjudas att resa utomlands. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-6b",
+          "number": 6,
+          "text": "Om det finns skäl att befara att gäldenären åsidosätter ett förbud att resa utomlands, får gäldenären åläggas att lämna ifrån sig sitt pass till tillsynsmyndigheten. Om gäldenären inte har något pass, får ett förbud att utfärda pass för honom eller henne meddelas. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-6c",
+          "number": 6,
+          "text": "Om det finns skäl att befara att gäldenären genom att lämna den ort där han eller hon är bosatt undandrar sig en skyldighet som föreskrivs i denna lag, får gäldenären förbjudas att lämna orten. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-6d",
+          "number": 6,
+          "text": "Om gäldenären byter vistelseort, ska gäldenären meddela förvaltaren var han eller hon vistas. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-6-§-7",
           "number": 7,
-          "text": " Ett beslut om reseförbud eller om åläggande för gäldenären att lämna ifrån sig sitt pass eller om förbud att utfärda pass meddelas av rätten på begäran av förvaltaren eller tillsynsmyndigheten. När det inte längre finns skäl för ett sådant beslut, skall beslutet omedelbart hävas. Innan rätten meddelar beslut i en fråga som avses i denna paragraf, skall rätten ge gäldenären, förvaltaren och tillsynsmyndigheten tillfälle att yttra sig, om det lämpligen kan ske och det inte är utan betydelse. Rätten får också hålla förhandling i frågan. Till en sådan förhandling skall tillsynsmyndigheten, förvaltaren och gäldenären kallas. Kallelsen till gäldenären bör delges. Ett beslut om reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass skall delges gäldenären.",
+          "text": "Ett beslut enligt 6 a-6 c §§ meddelas av rätten på ansökan av förvaltaren. När det inte längre finns skäl för ett sådant beslut, ska det omedelbart hävas. Innan ett beslut meddelas, ska rätten ge gäldenären och tillsynsmyndigheten tillfälle att yttra sig, om det lämpligen kan ske och det inte är utan betydelse. Ett beslut om reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass ska delges gäldenären. Lag (2025:796).",
           "references": []
         },
         {
@@ -652,16 +788,15 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-9",
           "number": 9,
-          "text": " Om gäldenären inte fullgör en skyldighet enligt 2-3, 5 eller 6 § eller överträder ett reseförbud enligt 6 §, får han eller hon efter omständigheterna antingen hämtas eller häktas. Detsamma gäller om det finns skäl att befara att gäldenären inte kommer att fullgöra en sådan skyldighet eller kommer att överträda ett sådant förbud. Om någon annan än gäldenären inte fullgör en skyldighet enligt 5 § att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, får han eller hon efter omständigheterna föreläggas vite, hämtas eller häktas. Häktning i de fall som avses i första och andra styckena får ske endast om det finns synnerliga skäl för det. Om gäldenären har överträtt ett reseförbud enligt 6 §, ska han eller hon dock häktas om det inte är uppenbart att det är onödigt. Kostnaden för hämtning eller häktning betalas av staten. Lag (2021:538).",
+          "text": "Om gäldenären inte fullgör en skyldighet enligt 2-4 eller 6 b-6 d § eller överträder ett reseförbud enligt 6 eller 6 a §, får han eller hon efter omständigheterna antingen hämtas eller häktas. Detsamma gäller om det finns skäl att befara att gäldenären inte kommer att fullgöra en sådan skyl- dighet eller kommer att överträda ett sådant förbud. Om någon annan än gäldenären inte fullgör en skyldighet enligt 5 § att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, får han eller hon efter omständigheterna föreläggas vite, hämtas eller häktas. Häktning i de fall som avses i första och andra styckena får ske endast om det finns synnerliga skäl för det. Om gäldenären har överträtt ett reseförbud enligt 6 eller 6 a § ska han eller hon dock häktas om det inte är uppenbart att det är onödigt. Kostnaden för hämtning eller häktning betalas av staten. Lag (2025:796).",
           "references": [
-            "5 §",
-            "6 §"
+            "5 §"
           ]
         },
         {
           "id": "kap-6-§-10",
           "number": 10,
-          "text": " Frågor om åtgärder enligt 9 § eller om utdömande av förelagt vite prövas av rätten på begäran av förvaltaren eller tillsynsmyndigheten. Innan rätten beslutar i en fråga som avses i denna paragraf, skall rätten ge den som avses med åtgärden, förvaltaren och tillsynsmyndigheten tillfälle att yttra sig, om det lämpligen kan ske och det inte är utan betydelse. Begärs någon häktad, skall rätten på yrkande förordna biträde åt honom, om det inte är uppenbart att sådant inte behövs. Biträdet har rätt till ersättning av staten för arbete, tidsspillan och utlägg. Rätten kan ålägga den som häktningsyrkandet riktas mot att såsom förlorande part helt eller delvis ersätta statens kostnader för biträdet. Ogillas häktningsyrkandet och beror detta på att sökanden inte har haft godtagbara skäl för yrkandet, skall sökanden ersätta statens kostnader för biträdet.",
+          "text": "Frågor om åtgärder enligt 9 § eller om utdömande av förelagt vite prövas av rätten på ansökan av förvaltaren. Innan rätten meddelar sitt beslut, ska den som avses med åtgärden och tillsynsmyndigheten ges tillfälle att yttra sig, om det lämpligen kan ske och det inte är utan betydelse. Om någon begärs häktad ska rätten på yrkande förordna ett biträde åt honom eller henne, om det inte är uppenbart att ett sådant inte behövs. Biträdet har rätt till ersättning av staten för arbete, tidsspillan och utlägg. Rätten får besluta att den som häktningsyrkandet riktas mot såsom förlorande part helt eller delvis ska ersätta statens kostnader för biträdet. Om häktningsyrkandet avslås och detta beror på att förvaltaren inte har haft godtagbara skäl för yrkandet, ska han eller hon ersätta statens kostnader för biträdet. Lag (2025:796).",
           "references": [
             "9 §"
           ]
@@ -669,9 +804,20 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-11",
           "number": 11,
-          "text": "*  Rätten får hålla förhandling för att pröva en fråga som avses i 10 §. Har häktning begärts, skall förhandling hållas, om det inte är fara i dröjsmål. Till förhandlingen skall tillsynsmyndigheten, förvaltaren och, om möjligt, den som avses med åtgärden kallas. Den sistnämndes kallelse skall delges. Han får hämtas till förhandlingen, om det finns skäl till det. Har han kallats till förhandlingen eller kan det antas att han har avvikit eller på annat sätt håller sig undan, hindrar hans utevaro inte att yrkandet prövas. Har rätten beslutat om häktning av någon som inte var närvarande vid rätten, skall, så snart beslutet har verkställts, anmälan om detta göras hos rätten. När en sådan anmälan har gjorts, skall förhandling i häktningsfrågan hållas snarast och senast fyra dagar efter det att häktningsbeslutet verkställdes. Rätten skall med högst två veckors mellanrum hålla förhandling för att pröva om den som är intagen i häkte fortfarande skall vara häktad. Finns det inte längre skäl för häktning, skall rätten omedelbart förordna att den häktade skall friges. Ingen får under konkursen hållas häktad längre tid än tre månader.",
+          "text": "* /Upphör att gälla U:2026-07-01/ Rätten får hålla förhandling för att pröva en fråga som avses i 10 §. Har häktning begärts, skall förhandling hållas, om det inte är fara i dröjsmål. Till förhandlingen skall tillsynsmyndigheten, förvaltaren och, om möjligt, den som avses med åtgärden kallas. Den sistnämndes kallelse skall delges. Han får hämtas till förhandlingen, om det finns skäl till det. Har han kallats till förhandlingen eller kan det antas att han har avvikit eller på annat sätt håller sig undan, hindrar hans utevaro inte att yrkandet prövas. Har rätten beslutat om häktning av någon som inte var närvarande vid rätten, skall, så snart beslutet har verkställts, anmälan om detta göras hos rätten. När en sådan anmälan har gjorts, skall förhandling i häktningsfrågan hållas snarast och senast fyra dagar efter det att häktningsbeslutet verkställdes. Rätten skall med högst två veckors mellanrum hålla förhandling för att pröva om den som är intagen i häkte fortfarande skall vara häktad. Finns det inte längre skäl för häktning, skall rätten omedelbart förordna att den häktade skall friges. Ingen får under konkursen hållas häktad längre tid än tre månader.",
           "references": [
             "10 §"
+          ]
+        },
+        {
+          "id": "kap-6-§-12",
+          "number": 12,
+          "text": "Om någon är häktad med stöd av 2 kap. 12 §, skall rätten i samband med konkursbeslutet pröva om denne fortfarande skall vara häktad. Föreligger skäl till häktning enligt 9 §, skall häktningen bestå. Vid tillämpning av 11 § fjärde stycket inräknas även tid under vilken gäldenären hållits häktad med stöd av 2 kap. 12 §.",
+          "references": [
+            "11 §",
+            "12 §",
+            "2 kap. 12 §",
+            "9 §"
           ]
         },
         {
@@ -687,9 +833,10 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-14",
           "number": 14,
-          "text": " Om gäldenären är i behov av det, har han eller hon vid en inställelse till följd av 2-5 a §§ rätt till skälig ersättning av konkursboet för resa och uppehälle inom landet. Detta gäller även för en sådan person som avses i 13 §. Om någon annan än den som avses i 13 § ska inställa sig enligt 5 § för att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, har han eller hon rätt till skälig ersättning av konkursboet för sin inställelse. Beslut om ersättning meddelas av rätten, om ersättningen avser inställelse inför rätten. I andra fall beslutar förvaltaren om ersättning. Förskott får beviljas på ersättningen. Ett beslut enligt detta stycke gäller omedelbart, om inte något annat förordnas. Om förvaltaren vägrar ersättning eller förskott på ersättning med begärt belopp enligt denna paragraf, får den som framställt begäran hänskjuta fråga till rättens prövning. Lag (2021:538).",
+          "text": "Om gäldenären är i behov av det, har han eller hon vid en inställelse till följd av 2-4 §§ rätt till skälig ersättning av konkursboet för resa och uppehälle inom landet. Detta gäller även för en sådan person som avses i 13 §. Om någon annan än den som avses i 13 § ska inställa sig enligt 5 § för att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, har han eller hon rätt till skälig ersättning av konkursboet för sin inställelse. Rätten beslutar om ersättning, om ersättningen avser inställelse inför rätten. I andra fall beslutar förvaltaren om ersättning. Förskott får beviljas på ersättningen. Lag (2025:796).",
           "references": [
             "13 §",
+            "2-4 §§",
             "5 §"
           ]
         }
@@ -715,31 +862,31 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-3",
           "number": 3,
-          "text": " Innan rätten utser förvaltare eller fattar beslut om att flera förvaltare skall finnas, skall tillsynsmyndigheten höras. Frågor om att utse flera förvaltare eller att dela förvaltningen mellan flera förvaltare tas upp på begäran av tillsynsmyndigheten, förvaltare, en granskningsman eller en borgenär. Tillsynsmyndigheten och förvaltaren skall höras. Rätten får, om det behövs, pröva frågan vid en förhandling. Till förhandlingen skall tillsynsmyndigheten, förvaltaren och, om frågan har väckts av någon annan, denne kallas.",
+          "text": "Innan rätten utser förvaltare ska tillsynsmyndigheten höras. En ansökan om att utse flera förvaltare eller att dela förvaltningen mellan flera förvaltare får göras av tillsynsmyndigheten, en förvaltare, en granskare eller en borgenär. Tillsynsmyndigheten och förvaltaren ska höras. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-7-§-4",
           "number": 4,
-          "text": "Om flera förvaltare handhar förvaltningen odelad, får de endast gemensamt avhända boet någon rättighet eller vidta en åtgärd som kan medföra en förpliktelse för boet. Finns det två förvaltare och kan de inte enas beträffande en åtgärd eller ett beslut som enligt denna lag ankommer på dem eller är förvaltarna flera än två och finns det inte majoritet för en viss mening, skall den mening gälla som tillsynsmyndigheten biträder.  Entledigande av förvaltare m. m.",
+          "text": "Om flera förvaltare handhar förvaltningen odelad, får de endast gemensamt avhända boet någon rättighet eller vidta en åtgärd som kan medföra en förpliktelse för boet. Finns det två förvaltare och kan de inte enas beträffande en åtgärd eller ett beslut som enligt denna lag ankommer på dem eller är förvaltarna flera än två och finns det inte majoritet för en viss mening, skall den mening gälla som tillsynsmyndigheten biträder. Entledigande av förvaltare m. m.",
           "references": []
         },
         {
           "id": "kap-7-§-5",
           "number": 5,
-          "text": " Om en förvaltare begär att få avgå och visar skäl till det, skall rätten entlediga honom. En förvaltare som inte är lämplig eller av någon annan orsak bör skiljas från uppdraget skall entledigas av rätten. Frågor om entledigande tas upp på begäran av tillsynsmyndigheten, en granskningsman, en borgenär eller gäldenären. En förvaltare får inte entledigas utan att tillsynsmyndigheten har hörts. Om någon annan än förvaltaren själv har begärt att förvaltaren skall entledigas, skall rätten, om det inte av särskilda skäl är onödigt, pröva frågan vid en förhandling. Till förhandlingen skall tillsynsmyndigheten, förvaltaren och, om frågan har väckts av någon annan, denne kallas. Om det är av särskilt intresse att borgenärerna hörs, skall de kallas till förhandlingen genom kungörelse. Rätten får, om den finner skäl till det, i avvaktan på förhandlingen försätta en förvaltare ur tjänstgöring. Innan det sker skall tillsynsmyndigheten höras. Om en förvaltare försätts ur tjänstgöring, kan rätten utse någon annan att under tiden fullgöra hans åligganden.  Entledigande av förvaltare",
+          "text": "Om en förvaltare ansöker om att få avgå och visar skäl för det, ska rätten entlediga honom eller henne. En förvaltare som inte är lämplig eller av någon annan orsak bör skiljas från uppdraget ska entledigas av rätten. En ansökan om entledigande får göras av tillsynsmyndigheten, en granskare, en borgenär eller gäldenären. En förvaltare får inte entledigas utan att tillsynsmyndigheten har hörts. Om rätten håller sammanträde, ska tillsynsmyndigheten kallas. Om det är av särskilt intresse att borgenärerna hörs, ska de kallas till sammanträdet genom kungörelse. Rätten får besluta att en förvaltare ska skiljas från sitt uppdrag för tiden till dess att ärendet om entledigande avgörs, om det finns särskilda skäl. Innan rätten beslutar om det ska tillsynsmyndigheten höras. Rätten får utse någon annan att under tiden fullgöra förvaltarens uppgifter. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-7-§-6",
           "number": 6,
-          "text": "Om en förvaltare entledigas, skall rätten genast utse en ny förvaltare. Första stycket gäller inte om det finns flera förvaltare och någon av dem entledigas samt rätten, efter att ha hört tillsynsmyndigheten, finner att det inte är nödvändigt att utse någon annan i den entledigades ställe.  Rådgivare och förlikningsman",
+          "text": "Om en förvaltare entledigas, skall rätten genast utse en ny förvaltare. Första stycket gäller inte om det finns flera förvaltare och någon av dem entledigas samt rätten, efter att ha hört tillsynsmyndigheten, finner att det inte är nödvändigt att utse någon annan i den entledigades ställe. Rådgivare och förlikningsman",
           "references": []
         },
         {
           "id": "kap-7-§-7",
           "number": 7,
-          "text": " Om rätten av särskilda skäl finner det behövligt, får den, efter att ha hört tillsynsmyndigheten, uppdra åt en lämplig person att vara rådgivare åt förvaltaren vid förvaltningen av boet eller att som förlikningsman biträda rätten med utredning och förlikning i en tvistefråga som har uppkommit genom anmärkning mot en bevakning eller att fullgöra båda dessa uppgifter. Den som är anställd vid en domstol får inte vara rådgivare eller förlikningsman. När uppdraget är slutfört skall det genast anmälas till rätten. Samtidigt skall en redogörelse lämnas för det arbete som uppdraget har medfört. Rätten skall återkalla uppdraget när anmälan har gjorts eller när det annars finns skäl till återkallelse. Förvaltarens allmänna åligganden m. m.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om rätten av särskilda skäl finner det behövligt, får den, efter att ha hört tillsynsmyndigheten, uppdra åt en lämplig person att vara rådgivare åt förvaltaren vid förvaltningen av boet eller att som förlikningsman biträda rätten med utredning och förlikning i en tvistefråga som har uppkommit genom anmärkning mot en bevakning eller att fullgöra båda dessa uppgifter. Den som är anställd vid en domstol får inte vara rådgivare eller förlikningsman. När uppdraget är slutfört skall det genast anmälas till rätten. Samtidigt skall en redogörelse lämnas för det arbete som uppdraget har medfört. Rätten skall återkalla uppdraget när anmälan har gjorts eller när det annars finns skäl till återkallelse. Förvaltarens allmänna åligganden m. m.",
           "references": []
         },
         {
@@ -751,7 +898,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-9",
           "number": 9,
-          "text": " Förvaltaren är skyldig att på begäran lämna upplysningar om boet och dess förvaltning till rätten, borgenärer, granskningsmän, gäldenären eller tillsynsmyndigheten. Förvaltaren är dock inte skyldig att lämna borgenärer, granskningsmän eller gäldenärer upplysningar om en anmälan enligt 16 § innan han avger slutredovisning. Lag (2002:1125).",
+          "text": "Förvaltaren är skyldig att på begäran lämna upplysningar om boet och dess förvaltning till rätten, en borgenär, en granskare, gäldenären eller tillsynsmyndigheten. Trots första stycket är förvaltaren inte skyldig att lämna en borgenär, en granskare eller gäldenären upplysningar om en underrättelse enligt 16 § innan förvaltaren lämnar sin slutredovisning. Lag (2025:796).",
           "references": [
             "16 §"
           ]
@@ -759,7 +906,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-10",
           "number": 10,
-          "text": " Förvaltaren ska inhämta tillsynsmyndighetens synpunkter i viktigare frågor och inför beslut i frågor som av någon anledning är svårbedömda. Förvaltaren ska i viktigare frågor ge särskilt berörda borgenärer tillfälle att yttra sig, om det inte finns något hinder mot det. Även gäldenären ska ges tillfälle att yttra sig i sådana frågor, om det lämpligen kan ske. Lag (2025:796).",
+          "text": "Förvaltaren ska inhämta tillsynsmyndighetens synpunkter i viktigare frågor och inför beslut i frågor som av någon anledning är svårbedömda. Förvaltaren ska i viktigare frågor ge särskilt berörda borgenärer tillfälle att yttra sig, om det inte finns något hinder mot det. Även gäldenären ska ges tillfälle att yttra sig i sådana frågor, om det lämpligen kan ske. Lag (2025:796).",
           "references": []
         },
         {
@@ -777,7 +924,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-13",
           "number": 13,
-          "text": " Förvaltaren ska upprätta en bouppteckning. I den ska boets tillgångar tas upp till noggrant uppskattade värden. I bouppteckningen ska vidare boets skulder tas upp med uppgift om varje borgenärs namn och adress. Bouppteckningen ska dessutom innehålla en bedömning av om utdelning kan förväntas i konkursen. Om det finns anledning, ska bouppteckningen också innehålla uppgift om egendom som inte ingår i boet på grund av att den finns utomlands. Om gäldenären har uppgett att sådan egendom saknas, ska bouppteckningen innehålla uppgift om detta. I den utsträckning det behövs ska bouppteckningen också innehålla en förteckning över boets räkenskapsinformation och annat material som rör boet. Förvaltaren ska ge in bouppteckningen till rätten och tillsynsmyndigheten så snart som möjligt och senast en vecka före bouppteckningssammanträdet. Om ett bevakningsförfarande ska äga rum och det ännu inte har getts in någon bouppteckning till rätten, ska förvaltaren så snart som möjligt och senast en vecka från beslutet om bevakningsförfarandet skicka en förteckning över borgenärerna med uppgift om varje borgenärs adress till rätten och tillsynsmyndigheten. I konkurs hos ett kreditinstitut ska till bouppteckningen eller borgenärsförteckningen bifogas uppgift om insättningsborgenärerna och deras fordringsbelopp med upplupen ränta. Motsvarande gäller i ett värdepappersbolags konkurs, om bolaget har tillstånd att ta emot insättningar på konto. I ett livförsäkringsföretags eller ett tjänstepensionsföretags konkurs ska det på motsvarande sätt bifogas uppgift om försäkringstagarna och andra ersättningsberättigade och om deras fordringar. I konkurs hos ett försäkringsföretag som får meddela trafikförsäkring ska det på motsvarande sätt bifogas uppgift om vilka som har ingått ett avtal om trafikförsäkring och andra ersättningsberättigade enligt sådana avtal och om deras fordringar som grundas på ett sådant avtal. Lag (2023:668).",
+          "text": "Förvaltaren ska upprätta en bouppteckning. I den ska boets tillgångar tas upp till noggrant uppskattade värden. I bouppteckningen ska vidare boets skulder tas upp med uppgifter om varje borgenär. Bouppteckningen ska dessutom innehålla en bedömning av om utdelning kan förväntas i konkursen. Om det finns anledning, ska bouppteckningen också innehålla en uppgift om egendom som inte ingår i boet på grund av att den finns utomlands. Om gäldenären har uppgett att sådan egendom saknas, ska bouppteckningen innehålla en uppgift om detta. I den utsträckning det behövs ska bouppteckningen också innehålla en förteckning över boets räkenskapsinformation och annat material som rör boet. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-13a",
+          "number": 13,
+          "text": "Förvaltaren ska ge in bouppteckningen till tillsynsmyndigheten så snart som möjligt och senast en vecka före bouppteckningssammanträdet. Lag (2025:796).",
           "references": []
         },
         {
@@ -789,21 +942,39 @@ export const konkurslag: LegalText = {
           ]
         },
         {
+          "id": "kap-7-§-14a",
+          "number": 14,
+          "text": "Har upphävts genom lag (2021:791).",
+          "references": []
+        },
+        {
           "id": "kap-7-§-15",
           "number": 15,
-          "text": " Förvaltaren ska snarast upprätta en skriftlig berättelse (förvaltarberättelse) om boets tillstånd och om orsakerna till gäldenärens obestånd, i den utsträckning de har kunnat klarläggas. Om möjligt ska förvaltaren också ange vid vilken tidpunkt obeståndet kan antas ha inträtt. Förvaltarberättelsen ska vidare innehålla 1. en översikt över tillgångar och skulder av olika slag, 2. en uppgift om huruvida det har förekommit något sådant förhållande som kan motivera återvinning till konkursboet, 3. en uppgift om huruvida det finns skälig anledning att anta att någon enligt aktiebolagslagen (2005:551) eller lagen (2018:672) om ekonomiska föreningar är skyldig att återlämna olaglig vinstutdelning eller annan olaglig utbetalning eller att enligt dessa lagar eller lagen (1980:1102) om handelsbolag och enkla bolag betala skadestånd till ett aktiebolag, en ekonomisk förening eller ett handelsbolag, 4. i förekommande fall en uppgift om vid vilken tidpunkt skyldighet enligt 25 kap. 13 § aktiebolagslagen att upprätta en kontrollbalansräkning kan antas ha inträtt, om denna tidpunkt kan klarläggas, och 5. en uppgift om vilket bokföringssystem en gäldenär som är eller under det senaste året före konkursansökan har varit bokföringsskyldig har tillämpat och hur bokföringsskyldigheten har fullgjorts. Lag (2025:796).",
+          "text": "Förvaltaren ska snarast upprätta en skriftlig berättelse (förvaltarberättelse) om boets tillstånd och om orsakerna till gäldenärens obestånd, i den utsträckning de har kunnat klarläggas. Om möjligt ska förvaltaren också ange vid vilken tidpunkt obeståndet kan antas ha inträtt. Förvaltarberättelsen ska vidare innehålla 1. en översikt över tillgångar och skulder av olika slag, 2. en uppgift om huruvida det har förekommit något sådant förhållande som kan motivera återvinning till konkursboet, 3. en uppgift om huruvida det finns skälig anledning att anta att någon enligt aktiebolagslagen (2005:551) eller lagen (2018:672) om ekonomiska föreningar är skyldig att återlämna olaglig vinstutdelning eller annan olaglig utbetalning eller att enligt dessa lagar eller lagen (1980:1102) om handelsbolag och enkla bolag betala skadestånd till ett aktiebolag, en ekonomisk förening eller ett handelsbolag, 4. i förekommande fall en uppgift om vid vilken tidpunkt skyldighet enligt 25 kap. 13 § aktiebolagslagen att upprätta en kontrollbalansräkning kan antas ha inträtt, om denna tidpunkt kan klarläggas, och 5. en uppgift om vilket bokföringssystem en gäldenär som är eller under det senaste året före konkursansökan har varit bokföringsskyldig har tillämpat och hur bokföringsskyldigheten har fullgjorts. Lag (2025:796).",
           "references": [
             "13 §",
             "25 kap. 13 §"
           ]
         },
         {
+          "id": "kap-7-§-15a",
+          "number": 15,
+          "text": "Förvaltaren ska snarast och senast sex månader från konkursbeslutet ge in förvaltarberättelsen till tillsynsmyndigheten och låta varje borgenär som begär det få del av den. Om gäldenären har varit bokföringsskyldig ska den balansräkning som gäldenären senast har upprättat bifogas till förvaltarberättelsen. Tillsynsmyndigheten får på ansökan av förvaltaren bevilja anstånd med att ge in förvaltarberättelsen, om det finns särskilda skäl. Lag (2025:796).",
+          "references": []
+        },
+        {
           "id": "kap-7-§-16",
           "number": 16,
-          "text": "Om förvaltaren finner att gäldenären kan misstänkas för något brott som avses i 11 kap. brottsbalken, ska han omedelbart underrätta allmän åklagare om det och ange grunden för misstanken. Detsamma gäller om gäldenären har drivit näringsverksamhet och det under konkursförvaltningen kommer fram att gäldenären kan misstänkas för något annat brott av inte ringa beskaffenhet som har samband med verksamheten. Kan det misstänkas att gäldenären eller, om denne är en juridisk person, någon sådan företrädare som avses i 3 § lagen (2014:836) om näringsförbud har förfarit på ett sådant sätt att näringsförbud kan komma i fråga, ska förvaltaren omedelbart underrätta åklagaren om detta och ange grunden för misstanken. Lag (2014:841). 16 a § Förvaltaren skall till den myndighet som enligt 26 kap. miljöbalken har att utöva tillsyn anmäla om han har anledning att anta att konkursgäldenären har lämnat kvar kemiska produkter, biotekniska organismer eller farligt avfall som behöver omhändertas. Detsamma gäller vid misstanke om mark- eller vattenföroreningar. Lag (1998:810).",
+          "text": "Om förvaltaren finner att gäldenären kan misstänkas för något brott som avses i 11 kap. brottsbalken, ska han omedelbart underrätta allmän åklagare om det och ange grunden för misstanken. Detsamma gäller om gäldenären har drivit näringsverksamhet och det under konkursförvaltningen kommer fram att gäldenären kan misstänkas för något annat brott av inte ringa beskaffenhet som har samband med verksamheten. Kan det misstänkas att gäldenären eller, om denne är en juridisk person, någon sådan företrädare som avses i 3 § lagen (2014:836) om näringsförbud har förfarit på ett sådant sätt att näringsförbud kan komma i fråga, ska förvaltaren omedelbart underrätta åklagaren om detta och ange grunden för misstanken. Lag (2014:841).",
           "references": [
             "3 §"
           ]
+        },
+        {
+          "id": "kap-7-§-16a",
+          "number": 16,
+          "text": "Förvaltaren skall till den myndighet som enligt 26 kap. miljöbalken har att utöva tillsyn anmäla om han har anledning att anta att konkursgäldenären har lämnat kvar kemiska produkter, biotekniska organismer eller farligt avfall som behöver omhändertas. Detsamma gäller vid misstanke om mark- eller vattenföroreningar. Lag (1998:810).",
+          "references": []
         },
         {
           "id": "kap-7-§-17",
@@ -828,13 +999,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-20",
           "number": 20,
-          "text": " Om konkursen inte är avslutad vid utgången av den sjätte kalendermånaden efter konkursbeslutet, ska förvaltaren inom en månad därefter till tillsynsmyndigheten ge in en berättelse (halvårsberättelse), där de åtgärder som har vidtagits och som återstår att vidta för att avsluta konkursen ska anges. Halvårsberättelsen ska innehålla uppgifter om in- och utbetalningar under perioden eller en kronologisk och systematisk sammanställning av boets affärshändelser. Om pengar under någon del av denna period har varit insatta i ett kreditinstitut, ska till berättelsen bifogas kontoutdrag från institutet för hela perioden. Senare under konkursen ska förvaltaren inom en månad från utgången av varje sexmånadersperiod lämna en halvårsberättelse för den senaste perioden. Halvårsberättelsen ska då även innehålla upplysningar om orsakerna till att konkursen inte har avslutats och en bedömning av när den kan avslutas. Förvaltaren ska snarast skicka en kopia av halvårsberättelsen till rätten. Lag (2021:538).",
+          "text": "Om konkursen inte är avslutad vid utgången av den sjätte kalendermånaden efter konkursbeslutet, ska förvaltaren inom en månad därefter till tillsynsmyndigheten ge in en berättelse (halvårsberättelse), där de åtgärder som har vidtagits och som återstår att vidta för att avsluta konkursen ska anges. Halvårsberättelsen ska innehålla uppgifter om in- och utbetalningar under perioden eller en kronologisk och systematisk sammanställning av boets affärshändelser. Om pengar under någon del av denna period har varit insatta i ett kreditinstitut, ska kontoutdrag från institutet för hela perioden bifogas till halvårsberättelsen. Senare under konkursen ska förvaltaren inom en månad från utgången av varje sexmånadersperiod lämna en halvårsberättelse för den senaste perioden. Halvårsberättelsen ska då även innehålla upplysningar om orsakerna till att konkursen inte har avslutats och en bedömning av när den kan avslutas. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-7-§-21",
           "number": 21,
-          "text": " Också sedan konkursen har avslutats skall förvaltaren, så länge boets medel är insatta i bank eller kreditmarknadsföretag, inom en månad från utgången av varje kalenderår till tillsynsmyndigheten lämna sådana uppgifter som sägs i 20 § första stycket andra och tredje meningarna. När några medel inte längre finns att lyfta, skall förvaltaren anmäla det till myndigheten. Förvaltaren skall samtidigt redovisa i vad mån utbetalning av utdelningsmedel skett med stöd av 11 kap. 13 a §. Lag (2004:431).",
+          "text": "Om medel som tillhör boet har varit insatta i ett kreditinstitut efter det att konkursen har avslutats, ska förvaltaren anmäla till tillsynsmyndigheten när det inte längre finns några medel att lyfta. Om det vid utgången av ett kalenderår fortfarande finns insatta medel, ska förvaltaren anmäla det till tillsynsmyndigheten inom tre månader från utgången av året, om inte en anmälan enligt första stycket gjorts dessförinnan. I en anmälan enligt första eller andra stycket ska förvaltaren redovisa sådana uppgifter och kontoutdrag som anges i 20 § första stycket andra och tredje meningarna. Förvaltaren ska även redovisa i vilken utsträckning utdelningsmedel har betalats ut med stöd av 11 kap. 13 a §. Förvaltarens redo- visning ska endast avse den period som inte omfattas av tidigare lämnad redovisning. Lag (2025:796).",
           "references": [
             "20 §"
           ]
@@ -874,7 +1045,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-27",
           "number": 27,
-          "text": " Tillsynsmyndigheten skall övervaka att förvaltningen bedrivs på ett ändamålsenligt sätt i överensstämmelse med denna lag och andra författningar. Den skall då särskilt se till att avvecklingen av konkursen inte fördröjs i onödan. Myndigheten får, när den finner det lämpligt, inventera konkursboets kassa och övriga tillgångar samt begära redovisning av förvaltaren. Om särskilda omständigheter motiverar det, får myndigheten utse en eller flera revisorer för granskning av boets räkenskaper och förvaltningen i övrigt.",
+          "text": "Tillsynsmyndigheten ska övervaka att förvaltningen bedrivs på ett ändamålsenligt sätt i överensstämmelse med denna lag och andra författningar. Myndigheten ska särskilt se till att avvecklingen av konkursen inte tar längre tid än nödvändigt. Tillsynsmyndigheten får, när den anser att det är lämpligt, inventera konkursboets kassa och övriga tillgångar och begära redovisning av förvaltaren. Tillsynsmyndigheten får, om särskilda omständigheter motiverar det, utse en eller flera revisorer för granskning av boets räkenskaper och förvaltningen i övrigt. Lag (2025:796).",
           "references": []
         },
         {
@@ -886,7 +1057,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-29",
           "number": 29,
-          "text": " Tillsynsmyndighetens beslut enligt denna lag får inte överklagas i andra fall än de som avses i 3 kap. 6 §. Särskild granskning",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Tillsynsmyndighetens beslut enligt denna lag får inte överklagas i andra fall än de som avses i 3 kap. 6 §. Särskild granskning",
           "references": [
             "3 kap. 6 §",
             "6 §"
@@ -895,16 +1066,20 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-30",
           "number": 30,
-          "text": " Om en borgenär begär det, ska rätten förordna en granskningsman att med de befogenheter som anges i denna lag övervaka förvaltningen på borgenärens vägnar. Till granskningsman ska den som borgenären föreslår utses, om han eller hon är lämplig. Granskningsmannen ska ha tillgång till boets räkenskapsinformation och annat material som rör boet. Om borgenären begär det, ska även en ersättare för granskningsmannen utses. Bestämmelserna om granskningsman gäller även för ersättaren. Rätten ska entlediga granskningsmannen om denne eller borgenären begär det eller om granskningsmannen visar sig inte vara lämplig. Ersättningen till granskningsmannen ska betalas av borgenären. Lag (2021:538).",
+          "text": "På ansökan av en borgenär ska tillsynsmyndigheten förordna en granskare att med de befogenheter som anges i denna lag övervaka förvaltningen för borgenärens räkning. Till granskare ska den som borgenären föreslår utses, om han eller hon är lämplig. Tillsynsmyndigheten ska ge förvaltaren tillfälle att yttra sig över en ansökan enligt första stycket. Granskaren ska ha tillgång till boets räkenskapsinformation och annat material som rör boet. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-7-§-31",
           "number": 31,
-          "text": " Tillsynsmyndigheten ska entlediga granskaren, om denne eller borgenären ansöker om det, eller om granskaren visar sig inte vara lämplig. Lag (2025:796). 32 §  Granskarens ersättning ska betalas av borgenären. Lag (2025:796).",
-          "references": [
-            "32 §"
-          ]
+          "text": "Tillsynsmyndigheten ska entlediga granskaren, om denne eller borgenären ansöker om det, eller om granskaren visar sig inte vara lämplig. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-32",
+          "number": 32,
+          "text": "Granskarens ersättning ska betalas av borgenären. Lag (2025:796).",
+          "references": []
         }
       ]
     },
@@ -935,17 +1110,29 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-8-§-3",
           "number": 3,
-          "text": "Har gäldenären överklagat konkursbeslutet, får inte mot hans vilja någon egendom i boet säljas förrän hovrätten har prövat överklagandet. Första stycket utgör inte hinder mot 1. sådan försäljning som föranleds av bestämmelserna i 3 kap. 7 och 8 §§ samt 2 och 10 §§ i detta kapitel, 2. försäljning av sådan lös egendom som är utsatt för förskämning eller snar förstörelse eller hastigt faller i värde eller kräver alltför kostsam vård, 3. försäljning i annat fall av lös egendom, i den mån medel annars skulle saknas till betalning av utgifter för boet. Lag (1995:793). 4 § Om gäldenären ger in ett ackordsförslag, får egendomen i boet inte säljas innan ackordsfrågan har avgjorts. Vad som nu har sagts utgör inte hinder mot en försäljning om 1. den är förenlig med ackordsförslaget, 2. den föranleds av skäl som sägs i 3 § andra stycket 1 och 2, 3. den behövs för ändamål som anges i 12 kap. 24 § eller 4. det finns andra särskilda skäl. 5 § Om en inteckningshavare eller någon annan borgenär som för sin fordran har förmånsrätt i viss egendom yrkar att den egendomen skall säljas genom förvaltarens försorg och om hans rätt till betalning ur egendomen har lämnats obestridd eller fastställts genom ett lagakraftvunnet avgörande, får försäljning av egendomen inte uppskjutas. Detta gäller dock inte i fråga om egendom som behövs för en rörelse under tid då denna fortsätts med stöd av 2 § och inte heller om förvaltaren anser att anstånd är nödvändigt för att förhindra att konkursboet tillfogas avsevärd förlust eller att genomförandet av ett ackord väsentligt försvåras samt anstånd inte är oskäligt mot borgenären. Försäljning av fast egendom",
+          "text": "Har gäldenären överklagat konkursbeslutet, får inte mot hans vilja någon egendom i boet säljas förrän hovrätten har prövat överklagandet. Första stycket utgör inte hinder mot 1. sådan försäljning som föranleds av bestämmelserna i 3 kap. 7 och 8 §§ samt 2 och 10 §§ i detta kapitel, 2. försäljning av sådan lös egendom som är utsatt för förskämning eller snar förstörelse eller hastigt faller i värde eller kräver alltför kostsam vård, 3. försäljning i annat fall av lös egendom, i den mån medel annars skulle saknas till betalning av utgifter för boet. Lag (1995:793).",
           "references": [
             "10 §§",
-            "12 kap. 24 §",
-            "2 §",
-            "24 §",
             "3 kap. 7 och 8 §§",
-            "3 §",
-            "4 §",
-            "5 §",
             "8 §§"
+          ]
+        },
+        {
+          "id": "kap-8-§-4",
+          "number": 4,
+          "text": "Om gäldenären ger in ett ackordsförslag, får egendomen i boet inte säljas innan ackordsfrågan har avgjorts. Vad som nu har sagts utgör inte hinder mot en försäljning om 1. den är förenlig med ackordsförslaget, 2. den föranleds av skäl som sägs i 3 § andra stycket 1 och 2, 3. den behövs för ändamål som anges i 12 kap. 24 § eller 4. det finns andra särskilda skäl.",
+          "references": [
+            "12 kap. 24 §",
+            "24 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-8-§-5",
+          "number": 5,
+          "text": "Om en inteckningshavare eller någon annan borgenär som för sin fordran har förmånsrätt i viss egendom yrkar att den egendomen skall säljas genom förvaltarens försorg och om hans rätt till betalning ur egendomen har lämnats obestridd eller fastställts genom ett lagakraftvunnet avgörande, får försäljning av egendomen inte uppskjutas. Detta gäller dock inte i fråga om egendom som behövs för en rörelse under tid då denna fortsätts med stöd av 2 § och inte heller om förvaltaren anser att anstånd är nödvändigt för att förhindra att konkursboet tillfogas avsevärd förlust eller att genomförandet av ett ackord väsentligt försvåras samt anstånd inte är oskäligt mot borgenären. Försäljning av fast egendom",
+          "references": [
+            "2 §"
           ]
         },
         {
@@ -960,7 +1147,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-8-§-7",
           "number": 7,
-          "text": " Försäljning av lös egendom som inte sker genom fortsättande av gäldenärens rörelse ska ske på auktion eller på annat sätt efter vad förvaltaren anser vara mest fördelaktigt för boet. Om egendom säljs till konkursgäldenären eller någon denne sådan närstående person som anges i 4 kap. 3 § ska försäljningen ha föregåtts av ett offentligt anbuds- förfarande, om särskilda skäl inte gör det obehövligt. Lös egendom i vilken en borgenär har panträtt eller någon annan särskild förmånsrätt får inte utan hans samtycke säljas på annat sätt än på auktion, om hans rätt är beroende av försäljningen. Även om samtycke inte lämnas, får egendomen säljas på annat sätt än på auktion, om det är sannolikt att högre pris uppnås därigenom och om tillsynsmyndigheten medger det. Samtycke enligt andra stycket krävs inte när förvaltaren säljer finansiella instrument, upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, eller valuta till gällande marknadspris eller när det är fråga om försäljning av lös egendom genom fortsättande av gäldenärens rörelse. Särskilda bestämmelser om överlåtelse av försäkringsbestånd finns i 14 kap. 16 § försäkringsrörelselagen (2010:2043) och 11 kap. 26 § lagen (2019:742) om tjänstepensionsföretag. Lag (2019:745).",
+          "text": "Förvaltaren får sälja lös egendom genom att fortsätta gäldenärens rörelse, på auktion eller på något annat sätt som förvaltaren anser vara mest fördelaktigt för boet. Om egendom säljs till gäldenären eller någon som är närstående till gäldenären enligt 4 kap. 3 § ska försäljningen ha föregåtts av ett offentligt anbudsförfarande, om inte särskilda skäl gör att det inte behövs. Lös egendom som en borgenär har panträtt eller någon annan särskild förmånsrätt i får inte utan borgenärens samtycke säljas på annat sätt än på auktion, om borgenärens rätt är beroende av försäljningen. Egendomen får dock säljas på annat sätt än på auktion även om samtycke inte lämnas, om det är sannolikt att det leder till ett högre pris. Samtycke enligt andra stycket krävs inte när förvaltaren säljer 1. finansiella instrument som är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, 2. valuta till gällande marknadspris, eller 3. lös egendom genom fortsättande av gäldenärens rörelse. Särskilda bestämmelser om överlåtelse av försäkringsbestånd finns i 14 kap. 16 § försäkringsrörelselagen (2010:2043) och 11 kap. 26 § lagen (2019:742) om tjänstepensionsföretag. Lag (2025:796).",
           "references": [
             "11 kap. 26 §",
             "14 kap. 16 §",
@@ -989,17 +1176,23 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-8-§-10",
           "number": 10,
-          "text": "En borgenär som innehar lös egendom med handpanträtt får själv ombesörja att egendomen säljs på auktion. En sådan försäljning får dock inte utan förvaltarens samtycke ske tidigare än fyra veckor efter bouppteckningssammanträdet. Borgenären ska minst en vecka innan borgenären vidtar någon åtgärd för att sälja egendomen ge förvaltaren tillfälle att lösa in egendomen. Om det är fråga om ett fartyg eller gods i fartyg eller i luftfartyg eller intecknade reservdelar till luftfartyg, ska egendomen säljas exekutivt. Finansiella instrument, valuta och sådant guld som har ställts som säkerhet till en central motpart och som uppfyller kraven i kommissionens delegerade förordning (EU) nr 1532012 med avseende på tekniska tillsynsstandarder för krav på centrala motparter får omedelbart säljas eller realiseras genom avräkning av en borgenär som har egendomen som säkerhet, om det sker på ett affärsmässigt rimligt sätt. Detsamma gäller fordringar som uppkommit på grund av att ett kreditinstitut, eller ett motsvarande utländskt institut, har beviljat ett penninglån. Om säkerheten består av onoterade aktier i konkursgäldenärens dotterbolag, ska borgenären dock först fråga förvaltaren om konkursboet vill lösa in aktierna. Borgenären ska minst tre veckor i förväg underrätta förvaltaren om tid och plats för en auktion som inte hålls i exekutiv ordning. Om egendomen har sålts på annat sätt än exekutivt, ska borgenären redovisa för förvaltaren vad som har flutit in. Om borgenären inte själv vill sälja egendomen, får förvaltaren ombesörja försäljningen. En inteckning i luftfartyg eller i reservdelar till luftfartyg som har lämnats som pant av den intecknade egendomens ägare får dock inte säljas av förvaltaren. Förvaltaren får bara låta sälja den rätt till andel i inteckningen som enligt vad som är särskilt föreskrivet kan tillkomma gäldenären. Lag (2021:538). Kungörande av auktion i vissa fall",
+          "text": "En borgenär som innehar lös egendom med handpanträtt får själv ombesörja att egendomen säljs på auktion. En sådan försäljning får dock inte utan förvaltarens samtycke ske tidigare än fyra veckor efter bouppteckningssammanträdet. Borgenären ska minst en vecka innan borgenären vidtar någon åtgärd för att sälja egendomen ge förvaltaren tillfälle att lösa in egendomen. Om det är fråga om ett fartyg eller gods i fartyg eller i luftfartyg eller intecknade reservdelar till luftfartyg, ska egendomen säljas exekutivt. Finansiella instrument, valuta och sådant guld som har ställts som säkerhet till en central motpart och som uppfyller kraven i kommissionens delegerade förordning (EU) nr 153/2013 av den 19 december 2012 om komplettering av Europaparlamentets och rådets förordning (EU) nr 648/2012 med avseende på tekniska tillsynsstandarder för krav på centrala motparter får omedelbart säljas eller realiseras genom avräkning av en borgenär som har egendomen som säkerhet, om det sker på ett affärsmässigt rimligt sätt. Detsamma gäller fordringar som uppkommit på grund av att ett kreditinstitut, eller ett motsvarande utländskt institut, har beviljat ett penninglån. Om säkerheten består av onoterade aktier i konkursgäldenärens dotterbolag, ska borgenären dock först fråga förvaltaren om konkursboet vill lösa in aktierna. Borgenären ska minst tre veckor i förväg underrätta förvaltaren om tid och plats för en auktion som inte hålls i exekutiv ordning. Om egendomen har sålts på annat sätt än exekutivt, ska borgenären redovisa för förvaltaren vad som har flutit in. Om borgenären inte själv vill sälja egendomen, får förvaltaren ombesörja försäljningen. En inteckning i luftfartyg eller i reservdelar till luftfartyg som har lämnats som pant av den intecknade egendomens ägare får dock inte säljas av förvaltaren. Förvaltaren får bara låta sälja den rätt till andel i inteckningen som enligt vad som är särskilt föreskrivet kan tillkomma gäldenären. Lag (2021:538). Kungörande av auktion i vissa fall",
           "references": []
         },
         {
           "id": "kap-8-§-11",
           "number": 11,
-          "text": "Om konkursboets egendom ska säljas på auktion genom förvaltarens försorg, ska förvaltaren låta kungöra auktionen på det sätt och inom den tid som föreskrivs för kungörande av exekutiv auktion på sådan egendom som det är fråga om. Första stycket tillämpas också beträffande en auktion som enligt 10 § ombesörjs av en borgenär. Lag (2014:152). 12 § Förvaltaren får kungöra en av honom utsatt auktion i mindre utsträckning än som följer av 11 § första stycket, om han anser att det är tillräckligt. Detta gäller dock inte i fråga om kungörande av 1. auktion på fast egendom, registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg, om inte gäldenären samtycker till det, 2. auktion på någon annan lös egendom i vilken en borgenär har panträtt eller någon annan särskild förmånsrätt, om inte borgenären samtycker till det. Sådant samtycke av gäldenären som sägs i första stycket 1 krävs inte, om gäldenären har avvikit eller på något annat sätt håller sig undan.",
+          "text": "Om konkursboets egendom ska säljas på auktion genom förvaltarens försorg, ska förvaltaren låta kungöra auktionen på det sätt och inom den tid som föreskrivs för kungörande av exekutiv auktion på sådan egendom som det är fråga om. Första stycket tillämpas också beträffande en auktion som enligt 10 § ombesörjs av en borgenär. Lag (2014:152).",
           "references": [
-            "10 §",
-            "11 §",
-            "12 §"
+            "10 §"
+          ]
+        },
+        {
+          "id": "kap-8-§-12",
+          "number": 12,
+          "text": "Förvaltaren får kungöra en av honom utsatt auktion i mindre utsträckning än som följer av 11 § första stycket, om han anser att det är tillräckligt. Detta gäller dock inte i fråga om kungörande av 1. auktion på fast egendom, registrerat skepp, registrerat luftfartyg eller intecknade reservdelar till luftfartyg, om inte gäldenären samtycker till det, 2. auktion på någon annan lös egendom i vilken en borgenär har panträtt eller någon annan särskild förmånsrätt, om inte borgenären samtycker till det. Sådant samtycke av gäldenären som sägs i första stycket 1 krävs inte, om gäldenären har avvikit eller på något annat sätt håller sig undan.",
+          "references": [
+            "11 §"
           ]
         },
         {
@@ -1024,28 +1217,27 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-1",
           "number": 1,
-          "text": " Rätten får efter framställning från förvaltaren besluta att bevakningsförfarande skall äga rum i konkursen. Bevakning bör äga rum, om fordringar utan förmånsrätt kan antas erhålla utdelning i konkursen. Utöver vad som följer av första stycket bör under tiden den 1 januari--den 30 juni 1988 bevakningsförfarande äga rum om det med hänsyn till handläggningen av ärenden enligt lagen (1970:741) om statlig lönegaranti vid konkurs finns skäl för det. Lag (1987:1135).",
+          "text": "Förvaltaren får besluta att ett bevakningsförfarande ska genomföras i konkursen. Ett bevakningsförfarande bör genomföras om fordringar utan förmånsrätt kan antas få utdelning i konkursen. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-2",
           "number": 2,
-          "text": " Beslutar rätten att bevakningsförfarande skall äga rum, skall rätten bestämma inom vilken tid bevakning skall ske. Tiden för bevakning skall utgöra minst fyra och högst tio veckor från dagen för beslutet att anordna bevakningsförfarandet.",
+          "text": "Tiden för att bevaka fordringar ska vara fyra veckor från dagen för beslutet om bevakningsförfarandet. Om det behövs med hänsyn till förhållandena i konkursen, får förvaltaren bestämma en längre tid, dock högst åtta veckor. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-3",
           "number": 3,
-          "text": " Rätten skall genast kungöra vad som har beslutats enligt 1 och 2 §§.",
-          "references": [
-            "2 §§"
-          ]
+          "text": "Förvaltaren ska genast kungöra att ett bevakningsförfarande ska genomföras och vilken bevakningstid som gäller. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-9-§-4",
           "number": 4,
-          "text": " En borgenär skall inom den tid som har bestämts för bevakning av fordringar skriftligen hos rätten anmäla sin fordran och den förmånsrätt han vill göra gällande. Undantag från denna skyldighet följer dock av 4 kap. 21 §, 5 kap. 8 § och 17 § andra stycket samt 5 § i detta kapitel. Att en fordran som omfattas av lönegarantilagen (1992:497) i vissa fall bevakas genom förvaltaren följer av den lagen. Lag (1992:498).",
+          "text": "En borgenär ska inom bevakningstiden skriftligen hos förvaltaren anmäla sin fordran och den förmånsrätt som borgenären vill göra gällande (bevakning). Undantag från denna skyldighet finns i 4 kap. 21 §, 5 kap. 8 § och 17 § andra stycket samt 5 § i detta kapitel. En fordran som har tagits upp i en förteckning enligt 6 a, 6 b eller 6 c § ska anses bevakad i konkursen. Att en fordran i vissa andra fall bevakas genom förvaltaren framgår av 15 § lönegarantilagen (1992:497). Lag (2025:796).",
           "references": [
+            "15 §",
             "17 §",
             "21 §",
             "4 kap. 21 §",
@@ -1057,12 +1249,8 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-5",
           "number": 5,
-          "text": " En borgenär som till säkerhet för sin fordran har panträtt i fast eller lös egendom behöver inte bevaka fordran för att få rätt till betalning ur den pantsatta egendomen. En borgenär som har en fordran hos ett kreditinstitut på grund av en insättning på räkning behöver inte bevaka sin fordran i institutets konkurs, om en uppgift om fordran har lämnats enligt 7 kap. 13 § femte stycket. Motsvarande gäller för värdepappersbolag som har tillstånd att ta emot insättningar på konto. En försäkringstagare eller en annan ersättningsberättigad behöver inte bevaka sin fordran i ett livförsäkringsföretags eller ett tjänstepensionsföretags konkurs, om en uppgift om fordran har lämnats enligt 7 kap. 13 § femte stycket. Motsvarande gäller för ett försäkringsföretag som får meddela trafikförsäkring. Lag (2023:668). 5 §  En borgenär som till säkerhet för sin fordran har panträtt i fast eller lös egendom behöver inte bevaka fordran för att få rätt till betalning ur den pantsatta egendomen. Lag (2025:796).",
-          "references": [
-            "13 §",
-            "5 §",
-            "7 kap. 13 §"
-          ]
+          "text": "En borgenär som till säkerhet för sin fordran har panträtt i fast eller lös egendom behöver inte bevaka fordran för att få rätt till betalning ur den pantsatta egendomen. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-9-§-6",
@@ -1071,36 +1259,56 @@ export const konkurslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-9-§-6a",
+          "number": 6,
+          "text": "Förvaltaren ska inom bevakningstiden upprätta en förteckning över fordringar som vid beslutet om bevakningsförfarande hade förskottsbetalats enligt 11 kap. 15 §. Förteckningen ska innehålla uppgifter om borgenärerna och deras förskottsbetalade fordringsbelopp. Lag (2025:796).",
+          "references": [
+            "11 kap. 15 §",
+            "15 §"
+          ]
+        },
+        {
+          "id": "kap-9-§-6b",
+          "number": 6,
+          "text": "I konkurs hos ett kreditinstitut ska förvaltaren inom bevakningstiden upprätta en förteckning över insättningsborgenärernas fordringar. Motsvarande gäller i ett värdepappersbolags konkurs, om bolaget har tillstånd att ta emot insättningar på konto. Förteckningen ska innehålla uppgifter om borgenärerna och deras fordringsbelopp med upplupen ränta. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-6c",
+          "number": 6,
+          "text": "I konkurs hos ett livförsäkringsföretag eller ett tjänstepensionsföretag ska förvaltaren inom bevakningstiden upprätta en förteckning över försäkringstagarnas och andra ersättningsberättigades fordringar. Motsvarande gäller i konkurs hos ett försäkringsföretag som får meddela trafik- försäkring, men endast för fordringar som grundas på avtal om en sådan försäkring. Förteckningen ska innehålla uppgifter om borgenärerna och deras fordringsbelopp med upplupen ränta. Lag (2025:796).",
+          "references": []
+        },
+        {
           "id": "kap-9-§-7",
           "number": 7,
-          "text": " Rätten ska genast efter bevakningstidens utgång se till att förvaltaren får del av de inkomna bevakningshandlingarna. Förvaltaren ska skyndsamt upprätta en förteckning över de fordringar som har bevakats. För varje fordran ska beloppet anges och, om förmånsrätt har yrkats, den åberopade grunden för den samt den plats i förmånsrättsordningen som fordran får enligt borgenärens yrkande. Förvaltaren ska skicka en kopia av förteckningen till rätten och tillsynsmyndigheten. Lag (2021:538).",
+          "text": "När bevakningstiden har gått ut ska förvaltaren genast skicka kopior av bevakningarna till tillsynsmyndigheten tillsammans med en förteckning enligt 6 a, 6 b eller 6 c §, om en sådan har upprättats. Myndigheten ska hålla handlingarna tillgängliga för den som vill ta del av dem. Förvaltaren ska skyndsamt upprätta en förteckning över de fordringar som har bevakats. För varje fordran ska beloppet anges och, om förmånsrätt har yrkats, den åberopade grunden för den samt den plats i förmånsrättsordningen som fordran får enligt borgenärens yrkande. Fordringar som framgår av en förteckning enligt 6 a, 6 b eller 6 c § får anges genom hän- visning till den förteckningen. Förvaltaren ska skicka en kopia av bevakningsförteckningen till tillsynsmyndigheten, som ska hålla den tillgänglig för den som vill ta del av den. Lag (2025:796). Anmärkning",
           "references": []
         },
         {
           "id": "kap-9-§-8",
           "number": 8,
-          "text": " Tiden för att göra anmärkningar mot bevakningarna ska vara två veckor från bevakningstidens utgång. Om det behövs med hänsyn till förhållandena i konkursen, får förvaltaren bestämma en längre anmärkningstid. Det ska göras i samband med beslutet om bevakningsförfarandet eller, om det är lämpligare, vid en senare tidpunkt, dock senast vid bevakningstidens utgång. Förvaltaren ska underrätta tillsynsmyndigheten, gäldenären och de borgenärer som har bevakat fordringar i konkursen om anmärkningstiden och om var bevakningarna hålls tillgängliga. Lag (2025:796).",
+          "text": "Tiden för att göra anmärkningar mot bevakningarna ska vara två veckor från bevakningstidens utgång. Om det behövs med hänsyn till förhållandena i konkursen, får förvaltaren bestämma en längre anmärkningstid. Det ska göras i samband med beslutet om bevakningsförfarandet eller, om det är lämpligare, vid en senare tidpunkt, dock senast vid bevakningstidens utgång. Förvaltaren ska underrätta tillsynsmyndigheten, gäldenären och de borgenärer som har bevakat fordringar i konkursen om anmärkningstiden och om var bevakningarna hålls tillgängliga. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-9",
           "number": 9,
-          "text": " Förvaltaren ska granska bevakningarna. Om förvaltaren finner anledning till anmärkning mot något yrkande om betalnings- eller förmånsrätt, ska han eller hon skriftligen anmäla det till rätten inom den tid som har bestämts enligt 8 § första stycket 1. I anmärkningen ska grunden för den anges tydligt. Även en borgenär som har bevakat en fordran i konkursen och gäldenären får framställa anmärkning mot en bevakning. En sådan anmärkning ska framställas inom den tid och på det sätt som anges i första stycket. Lag (2021:538).",
-          "references": [
-            "8 §"
-          ]
+          "text": "Förvaltaren ska granska bevakningarna. Om förvaltaren finner anledning till anmärkning mot något yrkande om betalnings- eller förmånsrätt, ska han eller hon göra en skriftlig anmärkning om detta inom anmärkningstiden. I anmärkningen ska grunden för den anges tydligt. Även en borgenär som har en bevakad fordran i konkursen och gäldenären får göra en anmärkning mot en bevakning. En sådan anmärkning ska göras till förvaltaren inom anmärkningstiden och på det sätt som anges i första stycket. När anmärkningstiden har gått ut ska förvaltaren genast skicka kopior av anmärkningarna till tillsynsmyndigheten, som ska hålla dem tillgängliga för den som vill ta del av dem. Förvaltaren ska även underrätta gäldenären och den borgenär mot vars bevakning en anmärkning har gjorts och då bifoga en kopia av anmärkningen. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-9-§-10",
           "number": 10,
-          "text": " Om en anmärkning görs av någon av dem som har rätt till det, gäller den också för de andra, även om de inte har tagit del i anmärkningen.",
+          "text": "En anmärkning gäller också till förmån för övriga som har rätt att göra en anmärkning. Den som har gjort en anmärkning får med bindande verkan för övriga anmärkningsberättigade återkalla eller inskränka sin anmärkning eller ingå en förlikning med den bevakande borgenären. Om flera har gjort en anmärkning mot en bevakad fordran gäller en förlikning endast om samtliga har godtagit den. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-11",
           "number": 11,
-          "text": " Den som har rätt att framställa anmärkning mot en bevakning får efter anmärkningstidens utgång till stöd för en gjord anmärkning åberopa även en annan omständighet än sådan som har angetts i anmärkningsskriften. Efter förlikningssammanträdet får dock en ny omständighet som innebär att grunden för anmärkningen ändras åberopas endast om omständigheten varken var eller borde ha varit känd för den anmärkningsberättigade eller om det i övrigt finns särskilda skäl för att ändå tillåta att omständigheten åberopas. Om en ny omständighet åberopas i ett annat sammanhang än vid förlikningssammanträdet eller vid en förhandling, gäller i fråga om formen för åberopandet vad som föreskrivs om anmärkning i 9 § första stycket.",
+          "text": "Den som har gjort en anmärkning mot en bevakning får efter anmärkningstidens utgång till stöd för anmärkningen även åberopa en omständighet som inte tidigare har angetts. Då gäller det som föreskrivs om anmärkning i 9 §. Om en bevakningstvist har överlämnats till rätten enligt 15 § får en ny omständighet som innebär att grunden för anmärkningen ändras endast tillåtas om den som gjort anmärkningen varken kände till eller borde ha känt till omständigheten innan tvisten överlämnades eller om det i övrigt finns särskilda skäl för att tillåta att omständigheten åberopas. Lag (2025:796).",
           "references": [
+            "15 §",
             "9 §"
           ]
         },
@@ -1113,13 +1321,15 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-13",
           "number": 13,
-          "text": " Tvistefrågor som har uppkommit genom framställda anmärkningar och som inte har förlikts skall handläggas vid ett förlikningssammanträde inför rätten. Vid detta får förvaltaren, borgenärerna och gäldenären föra talan. Till sammanträdet skall förvaltaren, de borgenärer mot vars bevakningar anmärkningar riktats och de som framställt anmärkningarna kallas. Förvaltaren skall närvara vid sammanträdet. Att han uteblir hindrar dock inte att sammanträdet genomförs. Tillsynsmyndigheten har rätt att delta vid sammanträdet. Rätten skall vid sammanträdet utreda tvistefrågorna och söka åstadkomma förlikning. De närvarande som har rätt att föra talan får med bindande verkan för dem som har uteblivit medge att en anmärkning förfaller eller inskränks eller uppdra åt förvaltaren att ingå förlikning med en borgenär mot vars bevakning en anmärkning har gjorts. Är både en borgenär och en borgensman eller någon annan som förutom gäldenären ansvarar för borgenärens fordran närvarande och kan de inte enas, gäller borgenärens mening om inte de andra löser ut honom eller ställer betryggande säkerhet för fordringen.",
-          "references": []
+          "text": "Förvaltaren ska, i samband med underrättelsen enligt 9 § tredje stycket, uppmana den borgenär mot vars bevakning en anmärkning har gjorts att inom viss tid yttra sig över anmärkningen och bifoga de handlingar som styrker fordran eller förmånsrätten, om det inte har gjorts tidigare. Förvaltaren ska verka för förlikning av de tvistefrågor som har uppkommit genom en anmärkning, om det inte är olämpligt. Lag (2025:796).",
+          "references": [
+            "9 §"
+          ]
         },
         {
           "id": "kap-9-§-14",
           "number": 14,
-          "text": " Beslut enligt 13 § tredje stycket får överklagas av den som enligt 13 § första stycket är taleberättigad, om han anser att beslutet inte har tillkommit på lagligt sätt. Beslutet överklagas till hovrätten inom tre veckor från dagen för beslutet. Om inte hovrätten förordnar annat, skall beslutet gälla omedelbart. Lag (1995:793).",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Beslut enligt 13 § tredje stycket får överklagas av den som enligt 13 § första stycket är taleberättigad, om han anser att beslutet inte har tillkommit på lagligt sätt. Beslutet överklagas till hovrätten inom tre veckor från dagen för beslutet. Om inte hovrätten förordnar annat, skall beslutet gälla omedelbart. Lag (1995:793).",
           "references": [
             "13 §"
           ]
@@ -1127,19 +1337,19 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-15",
           "number": 15,
-          "text": " Tvistefrågor som inte har blivit förlikta skall prövas av rätten vid en förhandling. Rätten skall vid förlikningssammanträdet förbereda de återstående tvistefrågorna så att de kan behandlas slutligt vid förhandlingen. Förhandlingen skall om möjligt hållas i omedelbar anslutning till förlikningssammanträdet. Om det inte sker, skall rätten sätta ut förhandlingen till en dag inom fyra veckor efter sammanträdet eller, om det finns särskilda skäl för det, senare dag. Till en sådan förhandling skall förvaltaren, de borgenärer mot vars bevakningar anmärkningarna riktats och de som framställt anmärkningarna kallas.",
+          "text": "Om en bevakningstvist kvarstår, ska förvaltaren senast fyra veckor efter anmärkningstidens utgång överlämna tvisten till rätten. Förvaltaren ska bifoga de handlingar som rör tvisten. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-16",
           "number": 16,
-          "text": " Tvistefrågor angående fordringar som har bevakats skall prövas snarast och om möjligt avgöras på en gång. Kräver vissa fordringar längre tid för att utredas och prövas, skall rätten besluta särskilt över de tvistefrågor som kan avgöras tidigare. Beror någon borgenärs anspråk på prövningen i en särskild rättegång, får det inte fördröja avgörandet. I sådant fall skall rätten fastställa hans rätt i konkursen för det belopp som kan bli bestämt genom dom i den rättegången. Har ett ackordsförslag tagits upp, får rättens prövning av en tvistefråga skjutas upp till dess ackordsfrågan har avgjorts, om det är ändamålsenligt.",
+          "text": "Rätten ska handlägga ett ärende om bevakningstvister skyndsamt. Om vissa tvister kräver längre tid för att avgöras, ska rätten först pröva de tvister som kan avgöras tidigare. Ärendets avgörande får inte fördröjas av att någon borgenärs anspråk beror på prövningen i en särskild rättegång. I ett sådant fall ska rätten fastställa borgenärens rätt i konkursen för det belopp som kan bli bestämt genom dom i den rättegången. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-9-§-17",
           "number": 17,
-          "text": " Förlikning angående en anmärkning som har framställts mot en fordran får inte ingås på något annat sätt än som sägs i 13 §, om inte alla vars rätt är beroende av förlikningen samtycker till det.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Förlikning angående en anmärkning som har framställts mot en fordran får inte ingås på något annat sätt än som sägs i 13 §, om inte alla vars rätt är beroende av förlikningen samtycker till det.",
           "references": [
             "13 §"
           ]
@@ -1147,29 +1357,27 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-18",
           "number": 18,
-          "text": " Om ett beslut varigenom en anmärkning mot en fordran har ogillats ändras av högre rätt, gäller det även för dem som inte har sökt ändring i beslutet.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om ett beslut varigenom en anmärkning mot en fordran har ogillats ändras av högre rätt, gäller det även för dem som inte har sökt ändring i beslutet.",
           "references": []
         },
         {
           "id": "kap-9-§-19",
           "number": 19,
-          "text": " Genom ett beslut i en tvist angående en bevakad fordran avgörs endast vilken rätt som tillkommer fordringen i konkursen.",
+          "text": "Ett beslut i en bevakningstvist gäller även för övriga anmärkningsberättigade. Genom beslutet avgörs endast vilken rätt som tillkommer fordran i konkursen. Lag (2025:796). Efterbevakning",
           "references": []
         },
         {
           "id": "kap-9-§-20",
           "number": 20,
-          "text": " Om bevakningsförfarande har ägt rum, får en borgenär som efter bevakningstidens utgång vill anmäla en fordran eller yrka förmånsrätt skriftligen göra det på det sätt som föreskrivs i 6 §. Som ersättning för de kostnader för kungörelse, kallelser och underrättelser som föranleds av efterbevakningen ska borgenären till staten i förskott erlägga en avgift motsvarande tre procent av prisbasbeloppet enligt 2 kap. 6 och 7 §§ socialförsäkringsbalken. Lag (2010:1239).",
+          "text": "En borgenär som efter bevakningstidens utgång vill anmäla en fordran eller yrka förmånsrätt får skriftligen göra det hos förvaltaren på det sätt som föreskrivs i 6 § (efterbevakning). Som ersättning för kostnader som uppkommer på grund av efter- bevakningen ska borgenären i förskott betala en efterbevakningsavgift till staten. Regeringen får meddela föreskrifter om avgiften. Lag (2025:796).",
           "references": [
-            "2 kap. 6 och 7 §§",
-            "6 §",
-            "7 §§"
+            "6 §"
           ]
         },
         {
           "id": "kap-9-§-21",
           "number": 21,
-          "text": " Tiden för att anmärka mot en efterbevakning ska vara två veckor från den dag efterbevakningsavgiften betalades. Om det behövs med hänsyn till förhållandena i konkursen får förvaltaren bestämma en längre anmärkningstid, dock högst fyra veckor. När efterbevakningsavgiften har betalats ska förvaltaren genast lämna en kopia av efterbevakningen till tillsynsmyndigheten och underrätta myndigheten om anmärkningstiden. Myndigheten ska hålla efterbevakningen till- gänglig för den som vill ta del av den. Förvaltaren ska underrätta gäldenären och de borgenärer som har bevakat fordringar i konkursen om efterbevakningen, om var den hålls tillgänglig och om anmärkningstiden. Lag (2025:796).",
+          "text": "Tiden för att anmärka mot en efterbevakning ska vara två veckor från den dag efterbevakningsavgiften betalades. Om det behövs med hänsyn till förhållandena i konkursen får förvaltaren bestämma en längre anmärkningstid, dock högst fyra veckor. När efterbevakningsavgiften har betalats ska förvaltaren genast lämna en kopia av efterbevakningen till tillsynsmyndigheten och underrätta myndigheten om anmärkningstiden. Myndigheten ska hålla efterbevakningen till- gänglig för den som vill ta del av den. Förvaltaren ska underrätta gäldenären och de borgenärer som har bevakat fordringar i konkursen om efterbevakningen, om var den hålls tillgänglig och om anmärkningstiden. Lag (2025:796).",
           "references": []
         },
         {
@@ -1190,7 +1398,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-10-§-1",
           "number": 1,
-          "text": " Om rätten efter att ha hört förvaltaren finner att konkursboets tillgångar inte räcker till betalning av uppkomna och väntade konkurskostnader och andra skulder som boet har ådragit sig, skall rätten besluta om avskrivning av konkursen.",
+          "text": "Tillsynsmyndigheten ska besluta om avskrivning av en konkurs om konkursboets tillgångar inte räcker till betalning av uppkomna och väntade konkurskostnader och andra skulder som boet har ådragit sig. Ett beslut om avskrivning meddelas på ansökan av förvaltaren. En sådan ansökan ska göras så snart det finns grund för den. Lag (2025:796).",
           "references": []
         },
         {
@@ -1204,8 +1412,16 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-10-§-3",
           "number": 3,
-          "text": " Om någon fordran inte görs gällande och inte heller kan antas komma att göras gällande, skall rätten efter anmälan av förvaltaren genast besluta om avskrivning av konkursen. Om rätten har beslutat att bevakningsförfarande skall äga rum, får konkursen avskrivas först efter bevakningstidens utgång.",
+          "text": "Om någon fordran inte görs gällande och inte heller kan antas komma att göras gällande ska förvaltaren, så snart det finns grund för det, ansöka hos tillsynsmyndigheten om avskrivning av konkursen. Tillsynsmyndigheten ska genast besluta om avskrivning. Om ett bevakningsförfarande har inletts, får konkursen avskrivas först efter bevakningstidens utgång. Lag (2025:796).",
           "references": []
+        },
+        {
+          "id": "kap-10-§-4",
+          "number": 4,
+          "text": "Om det återstår tillgångar i boet när konkurskostnaderna och andra skulder som boet har ådragit sig har betalats, ska förvaltaren överlämna kvarvarande tillgångar till den eller de borgenärer som har rätt till dem, om det i fall som avses i 1 § står klart hur tillgångarna ska fördelas. I övriga fall ska förvaltaren återställa egendomen till gäldenären. Lag (2025:796).",
+          "references": [
+            "1 §"
+          ]
         },
         {
           "id": "kap-10-§-5",
@@ -1232,9 +1448,8 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-2",
           "number": 2,
-          "text": " Utdelning skall ske så snart som all tillgänglig egendom har förvandlats till pengar. Om egendom i sådana fall som avses i 8 kap. 6 § andra stycket eller 8 § andra stycket inte har blivit såld, utgör det inte hinder för utdelning. Har bevakningsförfarande ägt rum, får utdelning inte ske förrän den enligt 9 kap. 8 § bestämda anmärkningstiden har gått ut och, om anmärkning har framställts, förlikningssammanträde har hållits. 2 §  Utdelning ska ske så snart all tillgänglig egendom har omvandlats till pengar. Utdelning får ske trots att egendom i sådana fall som avses i 8 kap. 6 § andra stycket eller 8 § andra stycket inte har blivit såld. Om ett bevak- ningsförfarande har inletts får utdelning inte ske förrän anmärkningstiden enligt 9 kap. 8 § har gått ut. Lag (2025:796).",
+          "text": "Utdelning ska ske så snart all tillgänglig egendom har omvandlats till pengar. Utdelning får ske trots att egendom i sådana fall som avses i 8 kap. 6 § andra stycket eller 8 § andra stycket inte har blivit såld. Om ett bevak- ningsförfarande har inletts får utdelning inte ske förrän anmärkningstiden enligt 9 kap. 8 § har gått ut. Lag (2025:796).",
           "references": [
-            "2 §",
             "6 §",
             "8 kap. 6 §",
             "8 §",
@@ -1258,34 +1473,39 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-5",
           "number": 5,
-          "text": " När ett utdelningsförslag har upprättats, skall förvaltaren genast skicka förslaget med bifogad förvaltningsredogörelse till rätten och tillsynsmyndigheten.",
+          "text": "När ett utdelningsförslag har upprättats, ska förvaltaren genast ge in förslaget med bifogad förvaltningsredogörelse till tillsynsmyndigheten. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-11-§-6",
           "number": 6,
-          "text": " Rätten skall kungöra att ett utdelningsförslag har upprättats, så snart det utlåtande som tillsynsmyndigheten enligt 13 kap. 5 § skall avge över förvaltarens slutredovisning har kommit in till rätten. Utdelningsförslaget och förvaltningsredogörelsen skall hållas tillgängliga hos rätten och tillsynsmyndigheten för den som vill ta del av handlingarna. En uppgift om detta skall tas in i kungörelsen. Den som vill framställa invändning mot utdelningsförslaget skall göra det hos rätten senast den dag som rätten bestämmer och anger i kungörelsen. Denna dag skall bestämmas så att tre veckor förflyter från den tidpunkt då kungörelsen kan antas bli införd i Post- och Inrikes Tidningar.",
-          "references": [
-            "13 kap. 5 §",
-            "5 §"
-          ]
+          "text": "Tillsynsmyndigheten ska kungöra att ett utdelningsförslag har upprättats. Utdelningsförslaget och förvaltningsredogörelsen ska hållas tillgängliga hos tillsynsmyndigheten för den som vill ta del av handlingarna. Detta ska anges i kungörelsen. Den som vill invända mot utdelningsförslaget ska göra det hos tillsynsmyndigheten senast tre veckor från dagen för kungörandet. Detta ska anges i kungörelsen. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-6a",
+          "number": 6,
+          "text": "En invändning om att en fordran eller en förmånsrätt borde ha tagits upp i utdelningsförslaget är utan verkan, om fordran eller förmånsrätten trots bevakningsskyldighet inte har bevakats eller efterbevakats senast då utdelningsförslaget upprättades. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-11-§-7",
           "number": 7,
-          "text": " När tiden för invändning har gått ut, skall rätten fastställa utdelningen i konkursen i enlighet med utdelningsförslaget, om det inte genom invändning eller på något annat sätt framgår att fel eller brist som inverkar på någons rätt föreligger. Om en fordran eller en förmånsrätt inte har bevakats eller efterbevakats senast då utdelningsförslaget upprättades, fastän bevakningsskyldighet har förelegat, är en invändning att fordringen eller förmånsrätten borde ha tagits upp i utdelningsförslaget utan verkan. Om rätten finner att utdelning inte bör fastställas enligt förslaget, skall rätten antingen göra behövliga ändringar i det och fastställa det sålunda ändrade förslaget eller återförvisa ärendet till förvaltaren. Att ett nytt utdelningsförslag har upprättats skall kungöras endast om det finns skäl till det. Om kungörelse inte utfärdas, skall de borgenärer som berörs av ändringarna i utdelningsförslaget underrättas om det. I sådant fall skall invändning mot förslaget framställas inom tre veckor från dagen efter den då underrättelserna sändes ut. Slutdagen skall anges i underrättelserna.",
+          "text": "När tiden för invändning har gått ut, ska utdelningen i konkursen fastställas i enlighet med utdelningsförslaget, om det inte genom en invändning eller på något annat sätt framgår att det finns fel eller brister som inverkar på någons rätt. Om utdelningen inte bör fastställas enligt förslaget, ska den fastställas med behövliga ändringar eller återförvisas till förvaltaren. Tillsynsmyndigheten prövar utdelningsförslaget. Om det i något annat fall än som anges i 6 a § har gjorts en invändning mot utdelningsförslaget, ska dock tillsynsmyndigheten med ett eget yttrande överlämna prövningen av förslaget till rätten. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-11-§-8",
           "number": 8,
-          "text": " Om rätten anser att det finns anledning att inte fastställa utdelning enligt förslaget, skall den genom underrättelser bereda förvaltaren och den för vilken en ifrågasatt ändring skulle vara till nackdel tillfälle att yttra sig, om det inte är uppenbart obehövligt. Den som har framställt invändning mot utdelningsförslaget skall få tillfälle att ta del av ett yttrande, om det inte är obehövligt. Rätten får hålla förhandling för att pröva en fråga om att fastställa utdelningsförslaget. Förhandling skall hållas, om det begärs av den som har framställt invändning mot förslaget, den för vilken en ifrågasatt ändring skulle vara till nackdel eller, i fråga om återvinning, förvaltaren. Till förhandlingen skall nu nämnda personer alltid kallas.",
-          "references": []
+          "text": "När förvaltaren efter återförvisning upprättar ett nytt utdelningsförslag, ska det ges in till tillsynsmyndigheten. Det nya förslaget ska kungöras endast om det finns skäl för det. I så fall tillämpas 6 §. Om förslaget inte kungörs, ska de borgenärer som berörs av ändringarna i utdelningsförslaget underrättas om förslaget. I så fall ska en invändning mot förslaget göras hos tillsynsmyndigheten inom tre veckor från dagen efter den dag då underrättelsen skickades. Detta ska anges i underrättelsen. Lag (2025:796). Utbetalning av utdelningsmedel",
+          "references": [
+            "6 §"
+          ]
         },
         {
           "id": "kap-11-§-9",
           "number": 9,
-          "text": " När beslutet att fastställa utdelningen och beslut att bestämma arvode till förvaltaren har vunnit laga kraft, skall förvaltaren snarast till borgenärerna skicka de medel som tillkommer dem, om inte hinder mot utbetalning enligt 10 § andra eller tredje stycket föreligger. Har förvaltaren skickat medlen till en borgenär under dennes senast kända adress, behöver förvaltaren inte vidta någon ytterligare åtgärd för att verkställa betalningen. När medlen har skickats till borgenärerna, skall förvaltaren anmäla det till rätten och tillsynsmyndigheten.",
+          "text": "När beslutet att fastställa utdelningen och beslutet att bestämma arvode till förvaltaren har fått laga kraft, ska förvaltaren snarast till borgenärerna betala ut de medel som de har rätt till, om det inte finns hinder mot utbetalning enligt 10 § andra eller tredje stycket. Om förvaltaren har skickat medlen till en borgenär på dennes senast kända adress, behöver förvaltaren inte vidta någon ytterligare åtgärd för att verkställa betalningen. När medlen har betalats ut till borgenärerna ska förvaltaren anmäla det till tillsynsmyndigheten. Lag (2025:796).",
           "references": [
             "10 §"
           ]
@@ -1304,16 +1524,27 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-11",
           "number": 11,
-          "text": "Säkerhet enligt 10 § ska bestå av pant eller borgen. Borgen ska ställas såsom för egen skuld och, om den ingås av två eller flera personer gemensamt, vara solidarisk. Om en bank eller något annat jämförbart kreditinstitut ska ställa säkerhet, får förvaltaren godta en utfästelse av institutet att infria den förpliktelse som säkerheten ska avse. Staten, kommuner, regioner och kommunalförbund behöver inte ställa säkerhet. Lag (2019:862). 12 § En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år räknat från 1. dagen då beslutet att fastställa utdelningen fick laga kraft, eller 2. den senare dag då borgenären blev berättigad att lyfta medlen utan att ställa säkerhet. De medel som en borgenär har förlorat sin rätt till ska fördelas mellan de borgenärer som har bevarat sin rätt och i andra hand överlämnas till gäldenären. Lag (2021:538).",
+          "text": "Säkerhet enligt 10 § ska bestå av pant eller borgen. Borgen ska ställas såsom för egen skuld och, om den ingås av två eller flera personer gemensamt, vara solidarisk. Om en bank eller något annat jämförbart kreditinstitut ska ställa säkerhet, får förvaltaren godta en utfästelse av institutet att infria den förpliktelse som säkerheten ska avse. Staten, kommuner, regioner och kommunalförbund behöver inte ställa säkerhet. Lag (2019:862).",
           "references": [
-            "10 §",
-            "12 §"
+            "10 §"
           ]
+        },
+        {
+          "id": "kap-11-§-12",
+          "number": 12,
+          "text": "En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år räknat från 1. dagen då beslutet att fastställa utdelningen fick laga kraft, eller 2. den senare dag då borgenären blev berättigad att lyfta medlen utan att ställa säkerhet. De medel som en borgenär har förlorat sin rätt till ska fördelas mellan de borgenärer som har bevarat sin rätt och i andra hand överlämnas till gäldenären. Lag (2021:538).",
+          "references": []
         },
         {
           "id": "kap-11-§-13",
           "number": 13,
           "text": "När medel som har tillagts en borgenär i ett förslag till utdelning betalas ut, har borgenären rätt också till den ränta som har upplupit på medlen från den dag då utdelningsförslaget upprättades.",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-13a",
+          "number": 13,
+          "text": "Om det sammanlagda belopp som tillkommer en borgenär understiger 300 kronor ska beloppet inte betalas ut till borgenären, om det inte finns särskilda skäl för det. Beloppet ska i stället fördelas på övriga utdelningsberättigade som inte har tillgodosetts fullt ut. Lag (2021:538). Förskottsbetalning",
           "references": []
         },
         {
@@ -1327,7 +1558,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-15",
           "number": 15,
-          "text": " Förskottsbetalning skall utgå för en fordran med förmånsrätt, om det lämpligen kan ske. Förskottsbetalning skall utgå för en fordran utan förmånsrätt, om det är uppenbart att tillgångarna räcker till betalning av tio procent av sådana fordringar och det inte finns särskilda skäl mot det. Förskottsbetalning för en fordran utgår endast i den mån det kan antas att utdelning kommer att belöpa på denna. Är fordringen beroende av villkor eller tvistig, får förskott inte betalas ut. När bevakningsskyldighet föreligger, får förskottsbetalning ske endast till en borgenär som har bevakat sin fordran i konkursen.",
+          "text": "Förskott ska betalas för en fordran med förmånsrätt, om det är lämpligt. Förskott ska betalas för en fordran utan förmånsrätt, om det är uppenbart att tillgångarna räcker till betalning av tio procent av sådana fordringar och det inte finns särskilda skäl mot det. Förskott får betalas endast i den utsträckning det kan antas att borgenären kommer att få utdelning för fordran. Om fordran är beroende av villkor eller är tvistig får förskott inte betalas. När ett bevakningsförfarande har inletts får förskott betalas till en bevakningsskyldig borgenär endast om borgenären har bevakat sin fordran i konkursen. Lag (2025:796).",
           "references": []
         },
         {
@@ -1342,16 +1573,14 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-17",
           "number": 17,
-          "text": " Om förvaltaren vägrar förskottsbetalning med begärt belopp, får borgenären hänskjuta frågan till rättens prövning. När en konkurs anses avslutad m. m.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om förvaltaren vägrar förskottsbetalning med begärt belopp, får borgenären hänskjuta frågan till rättens prövning. När en konkurs anses avslutad m. m.",
           "references": []
         },
         {
           "id": "kap-11-§-18",
           "number": 18,
-          "text": " En konkurs anses avslutad när tingsrätten har fastställt utdelning enligt 7 §. Detta gäller även om en tvist angående en fordran som har gjorts gällande i konkursen eller en fråga om underhåll åt gäldenären ännu inte är slutligt avgjord eller någon ytterligare tillgång till följd av rättegång eller på något annat sätt senare kan komma att tillföras konkursboet. Även om konkursen är avslutad, får ett ackordsförslag som har getts in tidigare prövas enligt 12 kap.",
-          "references": [
-            "7 §"
-          ]
+          "text": "En konkurs anses avslutad när utdelning har fastställts. Detta gäller även om en tvist som avser en fordran som har gjorts gällande i konkursen eller en fråga om underhåll åt gäldenären ännu inte är slutligt avgjord eller om någon ytterligare tillgång till följd av rättegång eller på något annat sätt senare kan komma att tillföras konkursboet. Även om konkursen är avslutad, får ett ackordsförslag som har getts in tidigare prövas enligt 12 kap. Lag (2025:796). Efterutdelning",
+          "references": []
         },
         {
           "id": "kap-11-§-19",
@@ -1364,7 +1593,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-20",
           "number": 20,
-          "text": " Om det är oklart hur medlen skall fördelas, skall ett förslag till efterutdelning upprättas. I sådant fall tillämpas bestämmelserna i detta kapitel om utdelning, utbetalning av utdelningsmedel och förskottsbetalning. I förslaget till efterutdelning kan utdelning beräknas även för en fordran som har blivit känd efter det att utdelningförslag enligt 4 § upprättades. En fordran får beaktas utan bevakning trots att bevakningsförfarande förut har varit anordnat i konkursen. Har så inte varit fallet, får rätten emellertid besluta om bevakningsförfarande inför efterutdelningen. Av nytillkomna medel skall en borgenär för en fordran som inte har tagits upp i utdelningsförslag enligt 4 § först så långt medlen räcker tilldelas så mycket som skulle ha tillagts fordringen, om denna hade beaktats i utdelningsförslaget. Därefter får han tillsammans med övriga borgenärer ta del i vad som kan återstå.",
+          "text": "Om det är oklart hur medlen ska fördelas, ska förvaltaren upprätta ett förslag till efterutdelning. I så fall tillämpas bestämmelserna i detta kapitel om utdelning, utbetalning av utdelningsmedel och förskottsbetalning. I förslaget till efterutdelning kan utdelning beräknas även för en fordran som har blivit känd efter det att ett utdelningsförslag enligt 4 § upprättades. En fordran får beaktas utan bevakning trots att ett bevakningsförfarande har genomförts i konkursen. Om ett bevakningsförfarande inte har genomförts, får förvaltaren besluta om ett sådant inför efterutdelningen. Av nytillkomna medel ska en borgenär för en fordran som inte har tagits upp i ett utdelningsförslag enligt 4 § först så långt medlen räcker tilldelas så mycket som skulle ha tillagts fordran, om denna hade beaktats i utdelningsförslaget. Därefter får borgenären tillsammans med övriga borgenärer ta del av det som kan återstå. Lag (2025:796).",
           "references": [
             "4 §"
           ]
@@ -1372,7 +1601,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-21",
           "number": 21,
-          "text": " Om förvaltaren anser att de nytillkomna medlen kan fördelas utan att ett förslag till efterutdelning upprättas och om tillsynsmyndigheten medger det, får förvaltaren dela ut medlen till berättigade borgenärer utan att föregående bestämmelser i detta kapitel iakttas. För utbetalningen gäller dock 9 § andra stycket och 13 a §. En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år räknat från det att förvaltaren har anmält till rätten att medlen har skickats till borgenären. Första stycket tillämpas också för det fall att det finns skäl att upprätta ett utdelningsförslag men medlen inte räcker till betalning av de kostnader som är förenade med detta. Lag (2021:538).",
+          "text": "Om förvaltaren anser att de nytillkomna medlen kan fördelas utan att ett förslag till efterutdelning upprättas, får förvaltaren dela ut medlen till berättigade borgenärer utan att tillämpa de föregående bestämmelserna i detta kapitel. För utbetalningen gäller dock 9 § andra och tredje styckena och 13 a §. En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år från det att förvaltaren har anmält till tillsyns- myndigheten att medlen har betalats till borgenären. Första stycket tillämpas också om det finns skäl att upprätta ett utdelningsförslag men medlen inte räcker till betalning av de kostnader som är förenade med detta. Lag (2025:796). Viss anmälningsskyldighet m.m.",
           "references": [
             "9 §"
           ]
@@ -1395,7 +1624,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-1",
           "number": 1,
-          "text": " Visar gäldenären att han har kommit överens om betalningen av sina skulder eller på annat sätt träffat uppgörelse med de borgenärer vars fordringar har bevakats eller, när bevakning inte behövs, vars fordringar är kända för förvaltaren, skall rätten på ansökan av gäldenären besluta om nedläggning av konkursen. Innan beslut meddelas skall förvaltaren höras. Om bevakningsförfarande äger rum, får beslut om att lägga ned konkursen inte meddelas före bevakningstidens utgång. Rätten kan förordna att boets egendom inte får säljas innan ansökningen har prövats, om egendomen inte behöver säljas av någon sådan anledning som avses i 8 kap. 3 § andra stycket 2 och 3.",
+          "text": "Om gäldenären visar att han eller hon har kommit överens om betalningen av sina skulder eller på något annat sätt träffat en uppgörelse med de borgenärer vars fordringar har bevakats eller, när bevakning inte behövs, vars fordringar är kända för förvaltaren, ska tillsynsmyndigheten på ansökan av gäldenären besluta att lägga ned konkursen. Innan ett beslut meddelas ska förvaltaren höras. Om ett bevakningsförfarande har inletts får ett beslut om att lägga ned konkursen inte meddelas före bevakningstidens utgång. Tillsynsmyndigheten får besluta att boets egendom inte får säljas innan ansökan har prövats, om egendomen inte behöver säljas av en sådan anledning som avses i 8 kap. 3 § andra stycket 2 och 3. Lag (2025:796).",
           "references": [
             "3 §",
             "8 kap. 3 §"
@@ -1410,11 +1639,16 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-3",
           "number": 3,
-          "text": " Reglerna i 4--28 §§ om ackord är tillämpliga endast i en konkurs i vilken det har beslutats att bevakningsförfarande skall äga rum. 4 §  Om gäldenären vill bjuda ackord, skall han tillställa rätten ett ackordsförslag. I förslaget skall anges 1. hur mycket gäldenären bjuder i betalning, 2. när betalningen skall ske, 3. om säkerhet har ställts för ackordet och vari säkerheten i så fall består. 4 §  En gäldenär får ansöka om ackord i konkursen. Ansökan ska ges in till förvaltaren och ska innehålla ett ackordsförslag som anger 1. hur mycket gäldenären erbjuder i betalning, 2. när betalningen ska ske, och 3. om säkerhet har ställts för ackordet och vad den i så fall består av. Lag (2025:796).",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Reglerna i 4--28 §§ om ackord är tillämpliga endast i en konkurs i vilken det har beslutats att bevakningsförfarande skall äga rum.",
           "references": [
-            "28 §§",
-            "4 §"
+            "28 §§"
           ]
+        },
+        {
+          "id": "kap-12-§-4",
+          "number": 4,
+          "text": "En gäldenär får ansöka om ackord i konkursen. Ansökan ska ges in till förvaltaren och ska innehålla ett ackordsförslag som anger 1. hur mycket gäldenären erbjuder i betalning, 2. när betalningen ska ske, och 3. om säkerhet har ställts för ackordet och vad den i så fall består av. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-12-§-5",
@@ -1427,37 +1661,36 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-6",
           "number": 6,
-          "text": " Ett ackordsförslag får tas upp endast om det kommer in till rätten före den dag då kungörelsen om utdelningsförslaget i konkursen är införd i Post- och Inrikes Tidningar eller, när utbyte enligt 15 kap. 2 § sker, före den dag då underrättelserna sändes ut. Om ackordsförslaget har kommit in i rätt tid, skall rätten inhämta yttrande av förvaltaren huruvida förslaget bör föreläggas borgenärerna. Avstyrker förvaltaren att det sker, får förslaget tas upp endast om rätten finner synnerliga skäl till det. 6 §  En ansökan om ackord får tas upp till prövning endast om 1. den ges in till förvaltaren före den dag då utdelningsförslaget kungjordes eller, när kungörelser ersätts med skriftliga underrättelser enligt 15 kap. 2 §, före den dag då underrättelserna skickades, 2. gäldenären har bekräftat bouppteckningen, och 3. ett bevakningsförfarande har genomförts. Lag (2025:796).",
+          "text": "En ansökan om ackord får tas upp till prövning endast om 1. den ges in till förvaltaren före den dag då utdelningsförslaget kungjordes eller, när kungörelser ersätts med skriftliga underrättelser enligt 15 kap. 2 §, före den dag då underrättelserna skickades, 2. gäldenären har bekräftat bouppteckningen, och 3. ett bevakningsförfarande har genomförts. Lag (2025:796).",
           "references": [
             "15 kap. 2 §",
-            "2 §",
-            "6 §"
+            "2 §"
           ]
         },
         {
           "id": "kap-12-§-7",
           "number": 7,
-          "text": " Möter enligt 4--6 §§ hinder mot att ackordsförslaget tas upp, skall det avvisas.",
+          "text": "Förvaltaren ska avvisa en ansökan om ackord, om inte de krav som anges i 4-6 §§ är uppfyllda eller om förvaltaren anser att ackordsförslaget inte ska presenteras för borgenärerna. Om ansökan inte avvisas, ska förvaltaren snarast överlämna ansökan med tillhörande handlingar till rätten och bifoga ett eget yttrande i frågan om huruvida ackordsförslaget bör antas av borgenärerna. Förvaltaren ska till rätten samtidigt med ansökan ge in en förteckning över de borgenärer som har rätt att rösta i ackordsfrågan, med uppgifter om de fordringsbelopp för vilka rösträtt får utövas. Lag (2025:796). Sammanträde för prövning av ackordsförslag",
           "references": [
-            "6 §§"
+            "4-6 §§"
           ]
         },
         {
           "id": "kap-12-§-8",
           "number": 8,
-          "text": " Om ackordsförslaget tas upp, ska rätten genast kalla borgenärerna till ett sammanträde för att pröva förslaget. Innan gäldenären har bekräftat bouppteckningen, får kallelse utfärdas endast om det finns synnerliga skäl för det. Kallelsen ska kungöras. Sammanträdet får inte hållas tidigare än tre veckor efter det att ackordsförslaget togs upp och inte heller innan tvistefrågor som har uppkommit genom anmärkningar mot bevakade fordringar har handlagts vid förlikningssammanträdet. Lag (2021:538).",
+          "text": "Om ansökan överlämnas till rätten, ska rätten genast kalla borgenärerna och gäldenären till ett sammanträde för att pröva förslaget. Kallelsen ska kungöras. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-12-§-9",
           "number": 9,
-          "text": " Förvaltaren skall snarast till rätten inkomma med yttrande huruvida han anser att ackordsförslaget bör antas av borgenärerna. Yttrandet skall hållas tillgängligt för borgenärerna vid sammanträdet för prövning av ackordsförslaget, om det inte har sänts till dem tidigare.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Förvaltaren skall snarast till rätten inkomma med yttrande huruvida han anser att ackordsförslaget bör antas av borgenärerna. Yttrandet skall hållas tillgängligt för borgenärerna vid sammanträdet för prövning av ackordsförslaget, om det inte har sänts till dem tidigare.",
           "references": []
         },
         {
           "id": "kap-12-§-10",
           "number": 10,
-          "text": " Vid sammanträdet för prövning av ackordsförslaget ska förvaltaren närvara. Om gäldenären inte kan infinna sig personligen, bör han eller hon inställa sig genom ombud. Förvaltaren ska tillhandahålla en förteckning över de borgenärer som har rätt att rösta i ackordsfrågan, med uppgift om de fordringsbelopp för vilka rösträtt får utövas. Om det mot någon av dessa fordringar har framställts en anmärkning som inte har prövats eller för det fall efterbevakning har skett, anmärkningstiden ännu inte har gått ut, ska det särskilt anges i förteckningen. Om gäldenären inte har bekräftat bouppteckningen, ska anledningen till det uppges vid sammanträdet. Lag (2021:538).",
+          "text": "Vid sammanträdet för prövning av ackordsförslaget ska förvaltaren närvara. Lag (2025:796).",
           "references": []
         },
         {
@@ -1469,7 +1702,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-12",
           "number": 12,
-          "text": " En anmärkning som har framställts mot en fordran utgör inte hinder mot att borgenären deltar med fordringen i omröstningen. Är utgången av omröstningen beroende av om fordringen skall beaktas eller inte, skall rätten vid sammanträdet utreda tvistefrågan och söka åstadkomma förlikning. De närvarande får med bindande verkan för dem som har uteblivit medge att en anmärkning förfaller eller inskränks eller uppdra åt förvaltaren att ingå förlikning med borgenären. Kan förlikning inte träffas, skall frågan handläggas enligt vad som sägs i 17 § första stycket för bestämmande av omröstningens utgång. Har en anmärkning mot någon yrkad fordran eller förmånsrätt prövats enligt 9 kap. 16 §, skall rättens avgörande dock tillämpas vid omröstningen i ackordsfrågan, om det inte före omröstningen visas att avgörandet har ändrats av högre rätt. Förlikning angående en anmärkning som har framställts mot en fordran får inte ingås på något annat sätt än som har nämnts nu, om inte alla vars rätt är beroende av förlikningen samtycker till det.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ En anmärkning som har framställts mot en fordran utgör inte hinder mot att borgenären deltar med fordringen i omröstningen. Är utgången av omröstningen beroende av om fordringen skall beaktas eller inte, skall rätten vid sammanträdet utreda tvistefrågan och söka åstadkomma förlikning. De närvarande får med bindande verkan för dem som har uteblivit medge att en anmärkning förfaller eller inskränks eller uppdra åt förvaltaren att ingå förlikning med borgenären. Kan förlikning inte träffas, skall frågan handläggas enligt vad som sägs i 17 § första stycket för bestämmande av omröstningens utgång. Har en anmärkning mot någon yrkad fordran eller förmånsrätt prövats enligt 9 kap. 16 §, skall rättens avgörande dock tillämpas vid omröstningen i ackordsfrågan, om det inte före omröstningen visas att avgörandet har ändrats av högre rätt. Förlikning angående en anmärkning som har framställts mot en fordran får inte ingås på något annat sätt än som har nämnts nu, om inte alla vars rätt är beroende av förlikningen samtycker till det.",
           "references": [
             "16 §",
             "17 §",
@@ -1497,13 +1730,13 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-16",
           "number": 16,
-          "text": " Anser en borgenär eller gäldenären att ett beslut genom vilket ett ackordsförslag har förkastats av borgenärerna inte har tillkommit på lagligt sätt, får han överklaga beslutet i hovrätten inom tre veckor från beslutet. Gäldenären får dock överklaga beslutet endast om hans rätt kan vara beroende av det. Beslutet tillämpas omedelbart, om inte något annat förordnas. Lag (1990:1072). Fastställelse av ackord",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Anser en borgenär eller gäldenären att ett beslut genom vilket ett ackordsförslag har förkastats av borgenärerna inte har tillkommit på lagligt sätt, får han överklaga beslutet i hovrätten inom tre veckor från beslutet. Gäldenären får dock överklaga beslutet endast om hans rätt kan vara beroende av det. Beslutet tillämpas omedelbart, om inte något annat förordnas. Lag (1990:1072). Fastställelse av ackord",
           "references": []
         },
         {
           "id": "kap-12-§-17",
           "number": 17,
-          "text": " Har ett ackordsförslag antagits vid sammanträdet men finns det enligt 19 § anledning att inte fastställa ackordet, skall ackordsfrågan prövas av rätten vid en förhandling. Detsamma gäller, om det vid sammanträdet inte kan avgöras om förslaget har antagits eller förkastats av borgenärerna. Om ackordsfrågan inte skall prövas vid en förhandling, skall rätten fastställa ackordet. Beslut i ackordsfrågan skall meddelas inom en vecka, om inte längre rådrum är nödvändigt på grund av särskilda omständigheter.",
+          "text": "Om ett ackordsförslag har antagits vid sammanträdet, ska rätten fastställa ackordet under förutsättning att 19 § inte är tillämplig. Om det vid sammanträdet inte kan avgöras om ackordsförslaget har antagits eller förkastats ska rätten även pröva den frågan. Rätten ska besluta i ackordsfrågan inom en vecka, om det inte är nödvändigt med mer tid på grund av särskilda omständigheter. Lag (2025:796).",
           "references": [
             "19 §"
           ]
@@ -1511,19 +1744,23 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-18",
           "number": 18,
-          "text": " Är utgången av omröstningen över ackordsförslaget beroende av om kvarstående anmärkningar godkänns eller inte och finns det i övrigt skäl att fastställa ackordet, skall rätten vid förhandlingen först pröva anmärkningarna eller så många av dem att utgången av omröstningen blir densamma vare sig övriga anmärkningar godkänns eller inte. 19 § Ett ackord får inte fastställas, om 1. ärendet inte har handlagts på föreskrivet sätt och felet kan ha inverkat på ackordsfrågans utgång, 2. ackordet inte uppfyller de villkor som anges i 5 §, 3. det finns skälig anledning att anta att gäldenären i hemlighet har gynnat någon borgenär i avsikt att inverka på ackordsfrågan eller att något annat svek har ägt rum vid ackordet eller 4. ackordet uppenbart är till skada för borgenärerna. Även om första stycket inte är tillämpligt får rätten efter omständigheterna vägra att fastställa ackordet, om en borgenär eller en borgensman eller någon annan som förutom gäldenären svarar för fordringen har bestritt fastställelse på grund av att 1. betryggande säkerhet för ackordets fullgörande inte finns, 2. ackordet är till skada för borgenärerna eller 3. ackordet av någon annan särskild anledning inte bör medges. Vägras fastställelse enligt första stycket 1 och är inte förslaget förkastat av borgenärerna eller förfallet, skall borgenärerna på nytt pröva ackordsförslaget och ett sammanträde sättas ut för detta. Ett sådant sammanträde får hållas tidigast tio dagar efter beslutet om vägrad fastställelse. Borgenärerna skall kallas till sammanträdet. Kallelsen skall kungöras.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Är utgången av omröstningen över ackordsförslaget beroende av om kvarstående anmärkningar godkänns eller inte och finns det i övrigt skäl att fastställa ackordet, skall rätten vid förhandlingen först pröva anmärkningarna eller så många av dem att utgången av omröstningen blir densamma vare sig övriga anmärkningar godkänns eller inte.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-19",
+          "number": 19,
+          "text": "Ett ackord får inte fastställas, om 1. ärendet inte har handlagts på föreskrivet sätt och felet kan ha inverkat på ackordsfrågans utgång, 2. ackordet inte uppfyller de villkor som anges i 5 §, 3. det finns skälig anledning att anta att gäldenären i hemlighet har gynnat någon borgenär i avsikt att inverka på ackordsfrågan eller att något annat svek har ägt rum vid ackordet eller 4. ackordet uppenbart är till skada för borgenärerna. Även om första stycket inte är tillämpligt får rätten efter omständigheterna vägra att fastställa ackordet, om en borgenär eller en borgensman eller någon annan som förutom gäldenären svarar för fordringen har bestritt fastställelse på grund av att 1. betryggande säkerhet för ackordets fullgörande inte finns, 2. ackordet är till skada för borgenärerna eller 3. ackordet av någon annan särskild anledning inte bör medges. Vägras fastställelse enligt första stycket 1 och är inte förslaget förkastat av borgenärerna eller förfallet, skall borgenärerna på nytt pröva ackordsförslaget och ett sammanträde sättas ut för detta. Ett sådant sammanträde får hållas tidigast tio dagar efter beslutet om vägrad fastställelse. Borgenärerna skall kallas till sammanträdet. Kallelsen skall kungöras.",
           "references": [
-            "19 §",
             "5 §"
           ]
         },
         {
           "id": "kap-12-§-20",
           "number": 20,
-          "text": " En förhandling enligt 17 § skall äga rum så snart som möjligt. Till förhandlingen skall förvaltaren, gäldenären och de borgenärer som var närvarande vid sammanträde som avses i 8 § kallas. 20 §  Om rätten håller ett sammanträde vid en prövning enligt 17 §, ska förvaltaren, gäldenären och de borgenärer som var närvarande vid det sammanträde som avses i 8 § kallas. Lag (2025:796). Verkan av ackord",
+          "text": "Om rätten håller ett sammanträde vid en prövning enligt 17 §, ska förvaltaren, gäldenären och de borgenärer som var närvarande vid det sammanträde som avses i 8 § kallas. Lag (2025:796). Verkan av ackord",
           "references": [
             "17 §",
-            "20 §",
             "8 §"
           ]
         },
@@ -1568,13 +1805,25 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-12-§-26",
           "number": 26,
-          "text": " På begäran av en borgenär vars fordran omfattas av ackordet kan rätten, om det finns skäl till det, förordna förvaltaren eller någon annan lämplig person att utöva tillsyn över att gäldenären fullgör sina åtaganden enligt ackordet. Om det behövs, skall även en ersättare för tillsynsmannen förordnas. Gäldenären skall ge tillsynsmannen de uppgifter som denne begär och följa de anvisningar som tillsynsmannen lämnar. Tillsynsmannen skall entledigas av rätten, om det visar sig att han inte är lämplig eller att han av någon annan särskild orsak bör skiljas från uppdraget.",
+          "text": "På ansökan av en borgenär vars fordran omfattas av ackordet får tillsynsmyndigheten, om det finns skäl för det, förordna förvaltaren eller någon annan lämplig person att utöva tillsyn över att gäldenären fullgör sina åtaganden enligt ackordet. Om det behövs, ska även en ersättare för tillsynspersonen förordnas. Innan ett beslut om fastställelse av ackord har meddelats, får en ansökan enligt första stycket även göras hos rätten. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-26a",
+          "number": 26,
+          "text": "Gäldenären ska lämna de upplysningar till tillsynspersonen som han eller hon begär. Gäldenären ska också följa de anvisningar som tillsynspersonen lämnar. Tillsynspersonen ska entledigas av tillsynsmyndigheten, om det visar sig att han eller hon inte är lämplig eller av någon annan särskild orsak bör skiljas från uppdraget. Lag (2025:796).",
           "references": []
         },
         {
           "id": "kap-12-§-27",
           "number": 27,
-          "text": " Arvode till tillsynsmannen och ersättning för de kostnader som uppdraget har medfört skall prövas av rätten, om tillsynsmannen eller gäldenären begär det. Så länge ackordet inte har fullgjorts, får en sådan begäran framställas också av en borgenär vars fordran omfattas av ackordet.",
+          "text": "Tillsynspersonens arvode och ersättning för de kostnader som uppdraget har medfört ska prövas av tillsynsmyndigheten på ansökan av tillsynspersonen eller gäldenären. Så länge ackordet inte har fullgjorts, får en sådan ansökan göras även av en borgenär vars fordran omfattas av ackordet. Ett beslut om arvode och ersättning enligt första stycket gäller när det har fått laga kraft. Lag (2025:796). Förverkande av ackord",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-28",
+          "number": 28,
+          "text": "På ansökan av en borgenär vars fordran omfattas av ackordet får rätten förklara att den eftergift som gäldenären har fått genom ackordet förfaller, om 1. gäldenären a) har gjort sig skyldig till oredlighet mot borgenärer, b) har gjort sig skyldig till uppsåtligt försvårande av konkurs eller exekutiv förrättning, eller c) i hemlighet har gynnat någon borgenär i syfte att inverka på ackordsfrågan, 2. gäldenären inte har uppfyllt sina skyldigheter enligt 26 a §, eller 3. gäldenären på något annat sätt uppenbart har försummat sina åtaganden enligt ackordet. Förlikning är inte tillåten i en fråga som avses i första stycket. Även om den eftergift som gäldenären har fått genom ackordet förklaras förfallen, får borgenärerna göra ackordet i övrigt gällande mot gäldenären eller mot den som har gått i borgen för ackordet. Lag (2025:796).",
           "references": []
         }
       ]
@@ -1587,20 +1836,26 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-13-§-1",
           "number": 1,
-          "text": "Förvaltaren skall avge slutredovisning för sin förvaltning i enlighet med vad som föreskrivs i detta kapitel. En förvaltare som avgår innan konkursen är avslutad skall avge slutredovisning, även om han har haft hand om förvaltningen tillsammans med andra förvaltare. Har förvaltningen varit delad, behöver redovisningen omfatta endast den del av förvaltningen som har ankommit på den avgående förvaltaren ensam. Om förvaltarens skyldighet att under konkursen redovisa medelsförvaltningen m. m. finns det bestämmelser i 7 kap. 18--21 §§. 2 § Slutredovisning skall avges 1. om konkursbeslutet hävs av högre rätt, 2. om förvaltaren avgår före konkursens slut, 3. om konkursen avskrivs på grund av otillräckliga tillgångar, 4. om konkursen avskrivs därför att ingen fordran har gjorts gällande i konkursen, 5. vid utdelning och vid efterutdelning enligt 11 kap. 20 §, 6. vid efterutdelning enligt 11 kap. 21 §, 7. om konkursen läggs ned efter frivillig uppgörelse, 8. om egendomen i boet återställs till gäldenären till följd av att ackord har fastställts.",
+          "text": "Förvaltaren skall avge slutredovisning för sin förvaltning i enlighet med vad som föreskrivs i detta kapitel. En förvaltare som avgår innan konkursen är avslutad skall avge slutredovisning, även om han har haft hand om förvaltningen tillsammans med andra förvaltare. Har förvaltningen varit delad, behöver redovisningen omfatta endast den del av förvaltningen som har ankommit på den avgående förvaltaren ensam. Om förvaltarens skyldighet att under konkursen redovisa medelsförvaltningen m. m. finns det bestämmelser i 7 kap. 18--21 §§.",
+          "references": [
+            "21 §§"
+          ]
+        },
+        {
+          "id": "kap-13-§-2",
+          "number": 2,
+          "text": "Slutredovisning skall avges 1. om konkursbeslutet hävs av högre rätt, 2. om förvaltaren avgår före konkursens slut, 3. om konkursen avskrivs på grund av otillräckliga tillgångar, 4. om konkursen avskrivs därför att ingen fordran har gjorts gällande i konkursen, 5. vid utdelning och vid efterutdelning enligt 11 kap. 20 §, 6. vid efterutdelning enligt 11 kap. 21 §, 7. om konkursen läggs ned efter frivillig uppgörelse, 8. om egendomen i boet återställs till gäldenären till följd av att ackord har fastställts.",
           "references": [
             "11 kap. 20 §",
             "11 kap. 21 §",
-            "2 §",
             "20 §",
-            "21 §",
-            "21 §§"
+            "21 §"
           ]
         },
         {
           "id": "kap-13-§-3",
           "number": 3,
-          "text": " Slutredovisningen skall avges till tillsynsmyndigheten. Till slutredovisningen skall förvaltaren bifoga de handlingar som är av betydelse för kontroll av redovisningen. Förvaltaren skall ge in en kopia av redovisningen till rätten. I fall som avses i 2 § 1, 4 och 7 skall en kopia samtidigt lämnas till gäldenären.",
+          "text": "Slutredovisningen ska ges in till tillsynsmyndigheten. Till slutredovisningen ska förvaltaren bifoga de handlingar som är av betydelse för kontroll av redovisningen. I de fall som avses i 2 § 1, 4 och 7 ska gäldenären få del av slutredovisningen. Lag (2025:796).",
           "references": [
             "2 §"
           ]
@@ -1608,25 +1863,21 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-13-§-4",
           "number": 4,
-          "text": " I fall som avses i 2 § 5 skall slutredovisningen avges samtidigt som utdelningsförslaget ges in till rätten. I övriga i 2 § avsedda fall skall förvaltaren avge redovisningen så snart som möjligt. 4 §  I de fall som avses i 2 § 5 ska slutredovisningen ges in tillsammans med utdelningsförslaget. I övriga fall ska förvaltaren lämna redovisningen så snart som möjligt. Lag (2025:796).  Granskning av slutredovisningen",
+          "text": "I de fall som avses i 2 § 5 ska slutredovisningen ges in tillsammans med utdelningsförslaget. I övriga fall ska förvaltaren lämna redovisningen så snart som möjligt. Lag (2025:796). Granskning av slutredovisningen",
           "references": [
-            "2 §",
-            "4 §"
+            "2 §"
           ]
         },
         {
           "id": "kap-13-§-5",
           "number": 5,
-          "text": " Tillsynsmyndigheten skall i de fall som avses i 2 § 2, 3, 5, 6 och 8 granska slutredovisningen samt i de fall som avses i 2 § 2, 5 och 8 avge utlåtande över densamma. Tillsynsmyndigheten skall skicka utlåtandet till rätten. Redovisningen och utlåtandet skall hållas tillgängliga hos rätten och tillsynsmyndigheten för dem som vill ta del av handlingarna.  Åtgärder för granskning av slutredovisningen 5 §  Slutredovisningen ska hållas tillgänglig hos tillsynsmyndigheten för den som vill granska den. Lag (2025:796).",
-          "references": [
-            "2 §",
-            "5 §"
-          ]
+          "text": "Slutredovisningen ska hållas tillgänglig hos tillsynsmyndigheten för den som vill granska den. Lag (2025:796).",
+          "references": []
         },
         {
           "id": "kap-13-§-6",
           "number": 6,
-          "text": " I fall som avses i 2 § 5 skall av den kungörelse som rätten utfärdar enligt 11 kap. 6 § framgå att slutredovisningen och utlåtandet är tillgängliga för granskning och var handlingarna finns. I fall som avses i 2 § 2 och 8 skall rätten, när tillsynsmyndigheten har lämnat sitt utlåtande, kungöra att slutredovisningen och utlåtandet har avgetts samt var handlingarna är tillgängliga för granskning. I de kungörelser som nämns i första och andra styckena skall det anges vad den som vill klandra redovisningen måste göra.",
+          "text": "I de fall som avses i 2 § 5 ska det av den kungörelse som utfärdas enligt 11 kap. 6 § framgå att slutredovisningen är tillgänglig för granskning hos tillsynsmyndigheten. I de fall som avses i 2 § 2 och 8 ska tillsynsmyndigheten kungöra att slutredovisningen är tillgänglig för granskning hos myndigheten. I kungörelsen ska det anges vad den som vill klandra redovisningen måste göra. Lag (2025:796). Klander av slutredovisningen",
           "references": [
             "11 kap. 6 §",
             "2 §",
@@ -1636,7 +1887,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-13-§-7",
           "number": 7,
-          "text": " Förvaltarens slutredovisning får klandras av tillsynsmyndigheten och gäldenären. Även en borgenär får klandra redovisningen, om hans rätt kan vara beroende av den. Talan om klander av slutredovisning väcks genom stämning vid den tingsrätt där konkursen är eller har varit anhängig. I fall som avses i 2 § 2, 5 och 8 skall talan väckas senast den dag som rätten bestämmer och anger i kungörelsen. Denna dag skall bestämmas så att tre månader förflyter från den tidpunkt då kungörelsen kan antas bli införd i Post- och Inrikes Tidningar. I övriga fall skall talan väckas inom tre månader från den dag då kopian av redovisningen kom in till rätten.",
+          "text": "Förvaltarens slutredovisning får klandras av tillsynsmyndigheten och gäldenären. Även en borgenär får klandra slutredovisningen, om hans eller hennes rätt kan vara beroende av den. En talan om klander av slutredovisning väcks genom stämning vid den tingsrätt som har beslutat om konkursen. Till stämningsansökan ska redovisningen bifogas. I de fall som avses i 2 § 2, 5 och 8 ska talan väckas senast tre månader från dagen för kungörandet. Detta ska anges i kungörelsen. I övriga fall ska talan väckas inom tre månader från den dag slutredovisningen kom in till tillsynsmyndigheten. Lag (2025:796).",
           "references": [
             "2 §"
           ]
@@ -1661,6 +1912,17 @@ export const konkurslag: LegalText = {
       "title": "Konkurskostnader",
       "sections": [
         {
+          "id": "kap-14-§-1",
+          "number": 1,
+          "text": "Med konkurskostnad avses 1. arvode och kostnadsersättning till förvaltare, 2. ersättning till ett sakkunnigt biträde enligt 16 §, 3. avgifter enligt 17 § första stycket, och 4. ersättning och förskott på ersättning till gäldenären eller någon annan för inställelse enligt 6 kap. 14 §. Lag (2025:796).",
+          "references": [
+            "14 §",
+            "16 §",
+            "17 §",
+            "6 kap. 14 §"
+          ]
+        },
+        {
           "id": "kap-14-§-2",
           "number": 2,
           "text": "Konkurskostnaderna skall utgå ur konkursboet framför andra skulder som boet har ådragit sig. I den mån konkurskostnaderna inte kan tas ut ur boet, skall de betalas av staten, om inte något annat följer av 3 §. Om förvaltaren har haft kostnader för försäljning av fast egendom och de inte kan tas ut ur egendomens avkastning och köpeskilling eller annars ur boet, skall de betalas av staten. Lag (2005:190).",
@@ -1671,7 +1933,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-3",
           "number": 3,
-          "text": " Om en konkurs har uppstått på ansökan av någon annan borgenär än staten och om konkursen avskrivs enligt 10 kap. 1 §, ska, i den mån konkurskostnaderna inte kan tas ut ur boet, borgenären svara för dessa, dock högst med ett belopp som motsvarar en tiondel av det vid tiden för konkursbeslutet gällande prisbasbeloppet enligt 2 kap. 6 och 7 §§ socialförsäkringsbalken. Är flera borgenärer betalningsskyldiga, svarar de solidariskt. I beslutet om avskrivning ska ansvarig borgenär åläggas att betala konkurskostnaderna med den angivna begränsningen. Kan kostnaderna inte heller tas ut av borgenären, ska de betalas av staten. Lag (2010:1239).",
+          "text": "Om en konkurs har beslutats på ansökan av någon annan borgenär än staten eller en borgenär vars fordran omfattas av statlig lönegaranti enligt lönegarantilagen (1992:497) och om konkursen avskrivs enligt 10 kap. 1 §, ska borgenären ansvara för konkurskostnaderna i den utsträckning dessa inte kan tas ur boet. Ansvaret är begränsat till ett belopp som motsvarar tre tiondelar av det vid tiden för konkursbeslutet gällande prisbasbeloppet enligt 2 kap. 6 och 7 §§ socialförsäkringsbalken. Om flera borgenärer vid tidpunkten för konkursbeslutet har ansökt om konkurs ansvarar de solidariskt för beloppet. I beslutet om avskrivning ska den eller de ansvariga borgenärerna förpliktas att betala konkurskostnaderna med den angivna begränsningen. Om kostnaderna inte kan tas ut av borgenären, ska de betalas av staten. Lag (2025:796). Förvaltarens arvode",
           "references": [
             "1 §",
             "10 kap. 1 §",
@@ -1682,10 +1944,11 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-4",
           "number": 4,
-          "text": " Arvodet till förvaltaren bestäms av rätten. Om det har utsetts flera förvaltare, skall särskilt arvode bestämmas för var och en av dem. Arvodet får inte bestämmas till ett högre belopp än som med hänsyn till det arbete som uppdraget har krävt, den omsorg och skicklighet varmed det har utförts samt boets omfattning kan anses utgöra skälig ersättning för uppdraget. Regeringen eller den myndighet som regeringen bestämmer fastställer taxa som skall tillämpas vid bestämmande av arvode till förvaltaren om konkursen avskrivs enligt 10 kap. 1 §.",
+          "text": "Arvodet till förvaltaren bestäms av tillsynsmyndigheten eller, i fall som avses i 9 § andra stycket, av rätten. Om det har utsetts flera förvaltare, ska ett särskilt arvode bestämmas för var och en av dem. Arvodet får inte bestämmas till ett högre belopp än som med hänsyn till det arbete som uppdraget har krävt, den omsorg och skicklighet varmed det har utförts samt boets omfattning kan anses utgöra skälig ersättning för uppdraget. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om en taxa som ska tillämpas när förvaltarens arvode bestäms, om konkursen skrivs av enligt 10 kap. 1 §. Lag (2025:796).",
           "references": [
             "1 §",
-            "10 kap. 1 §"
+            "10 kap. 1 §",
+            "9 §"
           ]
         },
         {
@@ -1700,7 +1963,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-6",
           "number": 6,
-          "text": " Arvodet bestäms efter framställning av förvaltaren. Har det utsetts flera förvaltare, bör deras arvoden bestämmas på en gång, om det lämpligen kan ske. I arvodesframställningen skall förvaltaren ange det belopp som han begär och, om det kan komma i fråga att bestämma ett särskilt arvode för viss egendom, även det beloppet. Till framställningen skall bifogas en redogörelse för det arbete som uppdraget har medfört med en specificerad räkning, som utvisar det begärda beloppets fördelning på de olika förvaltningsåtgärderna. Har förvaltaren anlitat ett sådant biträde som avses i 7 kap. 11 § och har biträdet erhållit gottgörelse eller har förvaltaren tillgodoförts ersättning för utgifter, skall det anges i redogörelsen. Om det finns anledning att bestämma ett särskilt arvode för viss egendom, skall förvaltaren tillhandahålla rätten en förteckning över de kända rättsägare som har särskild förmånsrätt i egendomen.",
+          "text": "Arvodet bestäms efter ansökan av förvaltaren till tillsynsmyndigheten. Om det har utsetts flera förvaltare, ska deras arvoden bestämmas samtidigt, om det är lämpligt. Förvaltaren ska i ansökan ange det belopp som han eller hon begär i arvode. Till ansökan ska förvaltaren bifoga en redogörelse för det arbete som uppdraget har medfört med en specificerad räkning, som utvisar det begärda beloppets fördelning på de olika förvaltningsåtgärderna. Om förvaltaren har anlitat ett sakkunnigt biträde med stöd av 7 kap. 11 § och biträdet har fått ersättning eller förvaltaren har tillgodoförts ersättning för utgifter, ska det anges i redogörelsen. Lag (2025:796).",
           "references": [
             "11 §",
             "7 kap. 11 §"
@@ -1709,13 +1972,15 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-7",
           "number": 7,
-          "text": " Avser en arvodesframställning endast att ett särskilt arvode skall bestämmas för viss egendom, får rätten avgöra om det finns skäl att ta upp yrkandet till prövning innan arvode i övrigt bestäms.",
-          "references": []
+          "text": "Om det finns anledning att bestämma ett särskilt arvode för viss egendom, ska förvaltaren i ansökan enligt 6 § ange även det beloppet. Förvaltaren ska till ansökan bifoga en förteckning över de kända rättsägare som har särskild förmånsrätt i egendomen. Om en ansökan avser endast att ett särskilt arvode ska bestämmas för viss egendom, får tillsynsmyndigheten avgöra om det finns skäl att pröva ansökan innan arvodet i övrigt bestäms. Lag (2025:796).",
+          "references": [
+            "6 §"
+          ]
         },
         {
           "id": "kap-14-§-8",
           "number": 8,
-          "text": " Tillsynsmyndigheten ska ge gäldenären och de borgenärer som har begärt det tillfälle att yttra sig över ansökan om arvode. Om förvaltaren begär ett särskilt arvode för viss egendom, ska varje känd borgenär som har särskild förmånsrätt i egendomen ges tillfälle att yttra sig över ansökan. Om ett konkursbeslut har upphävts, ska den borgenär vars ansökan lagts till grund för beslutet ges tillfälle att yttra sig över ansökan. Första stycket gäller inte i ett fall som avses i 9 a § eller när konkursen skrivs av eller läggs ned eller vid efterutdelning enligt 11 kap. 21 §. Lag (2025:796).",
+          "text": "Tillsynsmyndigheten ska ge gäldenären och de borgenärer som har begärt det tillfälle att yttra sig över ansökan om arvode. Om förvaltaren begär ett särskilt arvode för viss egendom, ska varje känd borgenär som har särskild förmånsrätt i egendomen ges tillfälle att yttra sig över ansökan. Om ett konkursbeslut har upphävts, ska den borgenär vars ansökan lagts till grund för beslutet ges tillfälle att yttra sig över ansökan. Första stycket gäller inte i ett fall som avses i 9 a § eller när konkursen skrivs av eller läggs ned eller vid efterutdelning enligt 11 kap. 21 §. Lag (2025:796).",
           "references": [
             "11 kap. 21 §",
             "21 §"
@@ -1724,38 +1989,49 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-9",
           "number": 9,
-          "text": " I fall då tingsrätten har att fastställa utdelning eller efterutdelning i konkursen skall beslut i arvodesfrågan meddelas samtidigt med beslutet om fastställelse, när inte något annat följer av 7 §. Oberoende av om talan har förts mot ett beslut om att fastställa utdelning eller efterutdelning får högre rätt som ändrar lägre rätts beslut i arvodesfrågan göra den ändring i beslutet om fastställelse som föranleds därav eller, om det behövs, återförvisa utdelningsfrågan till förvaltaren. Den domstol som har att pröva en fråga om utdelning eller efterutdelning får bestämma tilläggsarvode till förvaltaren för arbete i anledning av handläggningen av frågan vid domstolen.",
+          "text": "Om utdelning eller efterutdelning i konkursen ska fastställas, ska beslut i arvodesfrågan meddelas samtidigt som beslutet om fastställelse, om inte något annat följer av 7 § andra stycket. Om tillsynsmyndigheten enligt 11 kap. 7 § tredje stycket ska överlämna prövningen av utdelningsförslaget till rätten, ska även arvodesansökan överlämnas dit. Tillsynsmyndigheten ska bifoga ett eget yttrande över ansökan. Även om ett beslut om att fastställa utdelning eller efterutdelning inte har överklagats får en domstol som ändrar tillsynsmyndighetens eller lägre rätts beslut i arvodesfrågan göra den ändring i beslutet om fastställelse som den förstnämnda ändringen motiverar eller, om det behövs, återförvisa utdelningsfrågan till förvaltaren. Lag (2025:796).",
           "references": [
+            "11 kap. 7 §",
             "7 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-9a",
+          "number": 9,
+          "text": "Tillsynsmyndigheten eller den domstol som prövar en fråga om utdelning eller efterutdelning får bestämma tilläggsarvode till förvaltaren för arbete i anledning av handläggningen av frågan vid myndigheten respektive domstolen. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-10",
+          "number": 10,
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Om konkursen avskrivs eller läggs ned eller om efterutdelning enligt 11 kap. 21 § äger rum, skall rätten höra tillsynsmyndigheten innan arvode till förvaltaren bestäms. Lag (2005:190).",
+          "references": [
+            "11 kap. 21 §",
+            "21 §"
           ]
         },
         {
           "id": "kap-14-§-11",
           "number": 11,
-          "text": " En förvaltare får inte lyfta sitt arvode förrän han har avgett slutredovisningen för sin förvaltning. När arvodesframställningen lämnats in till rät-ten får dock förvaltaren, utan särskilt beslut av rätten, lyfta den del av det begärda arvodet som motsvarar den mervärdesskatt som beräknats för arvodet. Lag (2003:893).",
+          "text": "Ett beslut om arvode gäller när det har fått laga kraft. Förvaltaren har rätt till den ränta som har upplupit på medel som har avsatts för arvodet från den dag då slutredovisningen lämnades in till tillsynsmyndigheten. När en ansökan om arvode har lämnats in till tillsynsmyndigheten får förvaltaren, utan särskilt beslut av myndigheten, lyfta den del av det begärda arvodet som motsvarar den mervärdesskatt som har beräknats för arvodet. Lag (2025:796). Förskott på förvaltarens arvode",
           "references": []
         },
         {
           "id": "kap-14-§-12",
           "number": 12,
-          "text": " Rätten får tillerkänna förvaltaren skäligt belopp att utgå i förskott innan slutligt arvode bestäms, om det är rimligt med hänsyn till omfattningen av det arbete som uppdraget har medfört, den tid under vilken konkursen har varat och ytterligare beräknas pågå samt övriga förhållanden. En framställning om förskott skall ange det belopp som begärs och de skäl som åberopas för förskottsbetalningen. Till framställningen skall bifogas en redogörelse för det arbete som uppdraget har medfört och en uppgift om boets ekonomiska ställning. Rätten skall inhämta yttrande i förskottsfrågan av tillsynsmyndigheten.",
+          "text": "Tillsynsmyndigheten får på ansökan av förvaltaren besluta om förskott med ett skäligt belopp innan slutligt arvode bestäms, om det är rimligt med hänsyn till omfattningen av det arbete som uppdraget har medfört, den tid som konkursen har pågått och ytterligare beräknas pågå samt övriga förhållanden. I ansökan om förskott ska förvaltaren ange det belopp som begärs och de skäl som åberopas för förskottsbetalningen. Till ansökan ska förvaltaren bifoga en redogörelse för det arbete som uppdraget har medfört och en uppgift om boets ekonomiska ställning. Lag (2025:796). Förvaltarens ersättning för kostnader",
           "references": []
         },
         {
           "id": "kap-14-§-13",
           "number": 13,
-          "text": "Förvaltaren får under förvaltningens gång ur konkursboet ta ut medel för att betala de kostnader som uppdraget medför. Uttagen skall anges i förvaltarens slutredovisning. 14 §  Avskrivs konkursen enligt 10 kap. 1 §, skall rätten bestämma kostnadsersättningen och ersättningen enligt 2 § andra stycket till förvaltaren samtidigt som arvodet bestäms. Tillsynsmyndigheten skall höras också över begäran om ersättning för kostnader. Lag (2005:190).",
-          "references": [
-            "1 §",
-            "10 kap. 1 §",
-            "14 §",
-            "2 §"
-          ]
+          "text": "Förvaltaren får under förvaltningens gång ur konkursboet ta ut medel för att betala de kostnader som uppdraget medför. Uttagen skall anges i förvaltarens slutredovisning.",
+          "references": []
         },
         {
           "id": "kap-14-§-14",
           "number": 14,
-          "text": " Om konkursen skrivs av enligt 10 kap. 1 §, ska tillsynsmyndigheten på ansökan av förvaltaren bestämma kostnadsersättningen och ersättningen enligt 2 § andra stycket till förvaltaren samtidigt som arvodet bestäms. Ett beslut om ersättning gäller när det har fått laga kraft. Lag (2025:796). Övriga konkurskostnader",
+          "text": "Om konkursen skrivs av enligt 10 kap. 1 §, ska tillsynsmyndigheten på ansökan av förvaltaren bestämma kostnadsersättningen och ersättningen enligt 2 § andra stycket till förvaltaren samtidigt som arvodet bestäms. Ett beslut om ersättning gäller när det har fått laga kraft. Lag (2025:796). Övriga konkurskostnader",
           "references": [
             "1 §",
             "10 kap. 1 §",
@@ -1765,7 +2041,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-15",
           "number": 15,
-          "text": " Rätten bestämmer arvodet till en sådan rådgivare eller förlikningsman som har utsetts enligt 7 kap. 7 § efter att ha hört tillsynsmyndigheten och förvaltaren. Härvid tillämpas 4 § andra stycket och 5 §.",
+          "text": "/Upphör att gälla U:2026-07-01 genom lag (2025:796)./ Rätten bestämmer arvodet till en sådan rådgivare eller förlikningsman som har utsetts enligt 7 kap. 7 § efter att ha hört tillsynsmyndigheten och förvaltaren. Härvid tillämpas 4 § andra stycket och 5 §.",
           "references": [
             "4 §",
             "5 §",
@@ -1785,19 +2061,18 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-14-§-17",
           "number": 17,
-          "text": " Ersättningen till staten för tillsynen över förvaltningen utgår enligt föreskrifter som regeringen meddelar. Ersättningen till staten för sådana konkurskostnader som avses i 1 § första stycket 6 utgår enligt föreskrifter som meddelas av regeringen eller den myndighet som regeringen bestämmer.",
+          "text": "En avgift får tas ut för ersättning till staten för handläggning av ärenden under konkursen och för tillsynen över förvaltningen. Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om avgifter enligt första stycket och om betalning av sådana avgifter. I 9 kap. 20 § finns det bestämmelser om avgift vid efterbevakning. Lag (2025:796). Fördelning av konkurskostnaderna på olika slag av egendom",
           "references": [
-            "1 §"
+            "20 §",
+            "9 kap. 20 §"
           ]
         },
         {
           "id": "kap-14-§-18",
           "number": 18,
-          "text": " Av arvodet till förvaltaren eller sådan rådgivare eller förlikningsman som har utsetts enligt 7 kap. 7 § ska, om det i boet finns egendom i vilken särskild förmånsrätt gäller och i den mån det inverkar på de borgenärers rätt som inte har sådan förmånsrätt i egendomen eller på statens ansvar för konkurskostnaderna, den del som avser egendomen i fråga fastställas att betalas ur egendomens avkastning och köpeskilling. Då särskild förmånsrätt gäller i boet tillhörig egendom, får inte till skada för någon med samma eller bättre förmånsrätt, av egendomens avkastning och köpeskilling betalas någon annan konkurskostnad än som har sagts i första stycket. Särskild förmånsrätt enligt 5 § förmånsrättslagen (1970:979), hindrar dock inte att egendomen används till betalning också av övriga konkurskostnader, i den mån det inte finns annan egendom i boet som kan användas till betalning. Med arvode som sägs i första stycket jämställs vid tillämpningen av denna paragraf konkursboets kostnader för vård och försäljning av egendomen i fråga. Lag (2008:993).",
+          "text": "Av arvodet till förvaltaren ska, om det i boet finns egendom i vilken särskild förmånsrätt gäller och i den utsträckning det inverkar på de borgenärers rätt som inte har sådan förmånsrätt i egendomen eller på statens ansvar för konkurskostnaderna, den del som avser egendomen fastställas att betalas ur egendomens avkastning och köpeskilling. Om särskild förmånsrätt gäller i egendom som tillhör boet, får inte någon annan konkurskostnad än som anges i första stycket betalas av egendomens avkastning och köpeskilling om det skadar någon med samma eller bättre förmånsrätt. Särskild förmånsrätt enligt 5 § förmånsrättslagen (1970:979) hindrar dock inte att egendomen används till betalning också av övriga konkurskostnader, i den utsträckning det inte finns någon annan egendom i boet som kan användas till betalning. Med särskilt arvode jämställs vid tillämpningen av första och andra styckena konkursboets kostnader för vård och försäljning av egendomen i fråga. Lag (2025:796).",
           "references": [
-            "5 §",
-            "7 kap. 7 §",
-            "7 §"
+            "5 §"
           ]
         }
       ]
@@ -1810,18 +2085,22 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-15-§-1",
           "number": 1,
-          "text": "Kungörelser enligt denna lag ska ske i Post- och Inrikes Tidningar. Om det finns särskilda skäl får därutöver en kungörelse ske på annat sätt. Dagen för kungörande enligt denna lag är den dag då kungörelsen infördes i Post- och Inrikes Tidningar. I 8 kap. 11-13 §§ finns särskilda bestämmelser om kungörande av auktion i vissa fall. Lag (2021:538). Utbyte av kungörelse mot skriftliga underrättelser till borgenärerna 2 §  I en konkurs vari bevakningsförfarande har ägt rum skall följande kungörelser ersättas med skriftliga underrättelser till borgenärerna, om det saknas anledning att anta att kostnaden för tillkännagivandet med kungörelse blir lägre eller att kungörelse i övrigt är lämpligare, nämligen 1. kungörelse med kallelse till förhandling angående entledigande av förvaltare, 2. kungörelse med information om att ett förslag till utdelning eller efterutdelning har upprättats samt att slutredovisningen och tillsynsmyndighetens utlåtande över den finns tillgängliga för granskning, 3. kungörelse av beslut om att lägga ned konkursen på grund av frivillig uppgörelse, 4. kungörelse med information om att slutredovisningen och tillsynsmyndighetens utlåtande över den finns tillgängliga för granskning i fall då förvaltare avgår före konkursens slut. Om utbyte sker i de fall som anges i första stycket 2, 3 eller 4 skall tid som avses i 11 kap. 6 § tredje stycket, 13 kap. 7 § tredje stycket och 16 kap. 9 § första stycket i stället räknas från dagen efter den då underrättelserna sändes ut. 2 §  I en konkurs där ett bevakningsförfarande har inletts ska följande kungörelser ersättas med skriftliga underrättelser till borgenärerna, om det saknas anledning att anta att kostnaden blir lägre med kungörelse eller att kungörelse i övrigt är lämpligare, nämligen 1. kungörelse med kallelse till sammanträde om entledigande av förvaltare, 2. kungörelse med information om att ett förslag till utdelning eller efterutdelning har upprättats och att slutredovisningen finns tillgänglig för granskning, 3. kungörelse av beslut om att lägga ned konkursen på grund av en frivillig uppgörelse, och 4. kungörelse med information om att slutredovisningen finns tillgänglig för granskning i fall då förvaltare avgår före konkursens slut. När kungörelser ersätts med skriftliga underrättelser enligt första stycket 2, 3 eller 4, ska den tid som avses i 11 kap. 6 § tredje stycket, 13 kap. 7 § tredje stycket och 16 kap. 16 § i stället räknas från dagen efter den dag då under- rättelserna skickades. Lag (2025:796). Utbyte av underrättelser och kallelser till borgenärerna mot kungörelse",
+          "text": "Kungörelser enligt denna lag ska ske i Post- och Inrikes Tidningar. Om det finns särskilda skäl får därutöver en kungörelse ske på annat sätt. Dagen för kungörande enligt denna lag är den dag då kungörelsen infördes i Post- och Inrikes Tidningar. I 8 kap. 11-13 §§ finns särskilda bestämmelser om kungörande av auktion i vissa fall. Lag (2021:538). Utbyte av kungörelse mot skriftliga underrättelser till borgenärerna",
+          "references": [
+            "11-13 §§"
+          ]
+        },
+        {
+          "id": "kap-15-§-2",
+          "number": 2,
+          "text": "I en konkurs där ett bevakningsförfarande har inletts ska följande kungörelser ersättas med skriftliga underrättelser till borgenärerna, om det saknas anledning att anta att kostnaden blir lägre med kungörelse eller att kungörelse i övrigt är lämpligare, nämligen 1. kungörelse med kallelse till sammanträde om entledigande av förvaltare, 2. kungörelse med information om att ett förslag till utdelning eller efterutdelning har upprättats och att slutredovisningen finns tillgänglig för granskning, 3. kungörelse av beslut om att lägga ned konkursen på grund av en frivillig uppgörelse, och 4. kungörelse med information om att slutredovisningen finns tillgänglig för granskning i fall då förvaltare avgår före konkursens slut. När kungörelser ersätts med skriftliga underrättelser enligt första stycket 2, 3 eller 4, ska den tid som avses i 11 kap. 6 § tredje stycket, 13 kap. 7 § tredje stycket och 16 kap. 16 § i stället räknas från dagen efter den dag då under- rättelserna skickades. Lag (2025:796). Utbyte av underrättelser och kallelser till borgenärerna mot kungörelse",
           "references": [
             "11 kap. 6 §",
-            "11-13 §§",
             "13 kap. 7 §",
             "16 kap. 16 §",
-            "16 kap. 9 §",
             "16 §",
-            "2 §",
             "6 §",
-            "7 §",
-            "9 §"
+            "7 §"
           ]
         },
         {
@@ -1833,10 +2112,14 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-15-§-4",
           "number": 4,
-          "text": "Skriftliga kallelser och underrättelser enligt denna lag ska ske med post eller på något annat lämpligt sätt, om inte något annat följer av särskilda föreskrifter om delgivning. Om förvaltaren ska underrätta någon om innehållet i en handling eller om något annat, får det ske genom delgivning. Lag (2021:538). Registrering av konkurser 5 § I lagen (2017:473) med kompletterande bestämmelser till 2015 års insolvensförordning finns bestämmelser om registrering av konkurser i ett insolvensregister. Lag (2019:250).",
-          "references": [
-            "5 §"
-          ]
+          "text": "Skriftliga kallelser och underrättelser enligt denna lag ska ske med post eller på något annat lämpligt sätt, om inte något annat följer av särskilda föreskrifter om delgivning. Om förvaltaren ska underrätta någon om innehållet i en handling eller om något annat, får det ske genom delgivning. Lag (2021:538). Registrering av konkurser",
+          "references": []
+        },
+        {
+          "id": "kap-15-§-5",
+          "number": 5,
+          "text": "I lagen (2017:473) med kompletterande bestämmelser till 2015 års insolvensförordning finns bestämmelser om registrering av konkurser i ett insolvensregister. Lag (2019:250).",
+          "references": []
         },
         {
           "id": "kap-15-§-6",
@@ -1861,7 +2144,7 @@ export const konkurslag: LegalText = {
     {
       "id": "kap-16",
       "number": 16,
-      "title": "Bestämmelser om handläggning och överklagande m.m.",
+      "title": "Handläggningen av konkursärenden",
       "sections": [
         {
           "id": "kap-16-§-1",
@@ -1916,34 +2199,29 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-16-§-7",
           "number": 7,
-          "text": "Mot beslut enligt 12 kap. 18 § med anledning av en framställd anmärkning får talan inte föras. Mot följande beslut får talan inte föras särskilt, nämligen 1. beslut i fråga om vägrat återtagande eller om ändring i ett ackordsförslag enligt 12 kap. 14 §, 2. beslut enligt 12 kap. 19 § att borgenärerna på nytt skall pröva ackordsfrågan. 8 § Tillsynsmyndigheten får överklaga tingsrättens beslut, om beslutet rör 1. utseende eller entledigande av förvaltare, antalet förvaltare eller delning av förvaltningen mellan flera förvaltare, 2. arvode, kostnadsersättning eller förskott till förvaltare, 3. reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass, förbud att utfärda pass, hämtning eller häktning eller föreläggande eller utdömande av vite, 4. uppdrag som eller arvode till rådgivare eller förlikningsman, 5. avslag på en framställning om att inleda bevakningsförfarande, 6. avskrivning av konkurs enligt 10 kap. 1 §. Lag (2006:706).",
+          "text": "Mot beslut enligt 12 kap. 18 § med anledning av en framställd anmärkning får talan inte föras. Mot följande beslut får talan inte föras särskilt, nämligen 1. beslut i fråga om vägrat återtagande eller om ändring i ett ackordsförslag enligt 12 kap. 14 §, 2. beslut enligt 12 kap. 19 § att borgenärerna på nytt skall pröva ackordsfrågan.",
           "references": [
-            "1 §",
-            "10 kap. 1 §",
             "12 kap. 14 §",
             "12 kap. 18 §",
             "12 kap. 19 §",
             "14 §",
             "18 §",
-            "19 §",
-            "8 §"
+            "19 §"
           ]
         },
         {
           "id": "kap-16-§-8",
           "number": 8,
-          "text": "Av 2 kap. 1 § framgår att en ansökan om konkurs ska göras till tingsrätten. Regeringen kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om vilka tingsrätter som får pröva en konkursansökan. En ansökan till tingsrätten under en konkurs görs till den tingsrätt som har beslutat om konkursen. Lag (2025:796).",
+          "text": "Tillsynsmyndigheten får överklaga tingsrättens beslut, om beslutet rör 1. utseende eller entledigande av förvaltare, antalet förvaltare eller delning av förvaltningen mellan flera förvaltare, 2. arvode, kostnadsersättning eller förskott till förvaltare, 3. reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass, förbud att utfärda pass, hämtning eller häktning eller föreläggande eller utdömande av vite, 4. uppdrag som eller arvode till rådgivare eller förlikningsman, 5. avslag på en framställning om att inleda bevakningsförfarande, 6. avskrivning av konkurs enligt 10 kap. 1 §. Lag (2006:706).",
           "references": [
             "1 §",
-            "2 kap. 1 §",
-            "7 §",
-            "8 kap. 7 §"
+            "10 kap. 1 §"
           ]
         },
         {
           "id": "kap-16-§-9",
           "number": 9,
-          "text": "Ett sådant beslut av tingsrätten som avses i 5 § får överklagas hos hovrätten. Överklagandet skall ske inom tre veckor från den dag då beslutet meddelades. Är det fråga om ett konkursbeslut eller ett beslut om nedläggning av en konkurs på grund av frivillig uppgörelse, räknas dock tiden för överklagande från den dag då kungörelsen om beslutet var införd i Post- och Inrikes Tidningar. Beslut om åläggande av reseförbud, om skyldighet för gäldenären att lämna ifrån sig sitt pass, om förbud att utfärda pass samt om någons häktande eller kvarhållande i häkte får överklagas utan inskränkning till viss tid. Detsamma gäller klagan mot ett beslut på den grunden att förfarandet onödigt uppehålls genom beslutet. Lag (1994:1050). ",
+          "text": "Ett sådant beslut av tingsrätten som avses i 5 § får överklagas hos hovrätten. Överklagandet skall ske inom tre veckor från den dag då beslutet meddelades. Är det fråga om ett konkursbeslut eller ett beslut om nedläggning av en konkurs på grund av frivillig uppgörelse, räknas dock tiden för överklagande från den dag då kungörelsen om beslutet var införd i Post- och Inrikes Tidningar. Beslut om åläggande av reseförbud, om skyldighet för gäldenären att lämna ifrån sig sitt pass, om förbud att utfärda pass samt om någons häktande eller kvarhållande i häkte får överklagas utan inskränkning till viss tid. Detsamma gäller klagan mot ett beslut på den grunden att förfarandet onödigt uppehålls genom beslutet. Lag (1994:1050). /Kapitlet träder i kraft I:2026-07-01/",
           "references": [
             "5 §"
           ]
@@ -1957,16 +2235,31 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-16-§-11",
           "number": 11,
-          "text": "Tiden för att överklaga tingsrättens konkursbeslut räknas från den dag då beslutet kungjordes. Lag (2025:796). 12 § Tillsynsmyndigheten får överklaga tingsrättens beslut i ett ansökningsärende, om beslutet avser 1. utseende eller entledigande av en förvaltare, antalet förvaltare eller delning av förvaltningen mellan flera förvaltare, 2. arvode till förvaltare, eller 3. reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass, förbud att utfärda pass, hämtning eller häktning eller föreläggande eller utdömande av vite. Lag (2025:796). 13 § Ett beslut som innebär att en bevakningstvist avgörs får överklagas för sig inom tre veckor från dagen för beslutet. Lag (2025:796). Överklagandeärenden i domstol Behörig tingsrätt",
-          "references": [
-            "12 §",
-            "13 §"
-          ]
+          "text": "Tiden för att överklaga tingsrättens konkursbeslut räknas från den dag då beslutet kungjordes. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-12",
+          "number": 12,
+          "text": "Tillsynsmyndigheten får överklaga tingsrättens beslut i ett ansökningsärende, om beslutet avser 1. utseende eller entledigande av en förvaltare, antalet förvaltare eller delning av förvaltningen mellan flera förvaltare, 2. arvode till förvaltare, eller 3. reseförbud eller skyldighet för gäldenären att lämna ifrån sig sitt pass, förbud att utfärda pass, hämtning eller häktning eller föreläggande eller utdömande av vite. Lag (2025:796).",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-13",
+          "number": 13,
+          "text": "Ett beslut som innebär att en bevakningstvist avgörs får överklagas för sig inom tre veckor från dagen för beslutet. Lag (2025:796). Överklagandeärenden i domstol Behörig tingsrätt",
+          "references": []
         },
         {
           "id": "kap-16-§-14",
           "number": 14,
-          "text": "Ett överklagande av ett beslut av tillsynsmyndigheten eller förvaltaren görs till den tingsrätt som har beslutat om konkursen. Lag (2025:796). Överklagande av tillsynsmyndighetens beslut 15 § Tillsynsmyndighetens beslut får överklagas till tingsrätten, om det avser 1. tvist enligt 3 kap. 6 §, 2. anstånd med att lämna förvaltarberättelse enligt 7 kap. 15 a §, 3. frågor som gäller granskare enligt 7 kap. 30 § första stycket samt 31 och 32 §§, 4. avskrivning av konkurs enligt 10 kap. 1 eller 3 §, 5. fastställande av utdelning enligt 11 kap. 7 §, 6. nedläggning av konkurs eller försäljningsförbud enligt 12 kap. 1 §, 7. frågor som gäller tillsynsperson enligt 12 kap. 26 §, 26 a § andra stycket och 27 §, 8. arvode till förvaltare enligt 14 kap. 4 §, 9. förskott på arvode enligt 14 kap. 12 §, eller 10. sådana ersättningar som avses i 14 kap. 14 §. Andra beslut av tillsynsmyndigheten enligt denna lag får inte överklagas. Lag (2025:796).",
+          "text": "Ett överklagande av ett beslut av tillsynsmyndigheten eller förvaltaren görs till den tingsrätt som har beslutat om konkursen. Lag (2025:796). Överklagande av tillsynsmyndighetens beslut",
+          "references": []
+        },
+        {
+          "id": "kap-16-§-15",
+          "number": 15,
+          "text": "Tillsynsmyndighetens beslut får överklagas till tingsrätten, om det avser 1. tvist enligt 3 kap. 6 §, 2. anstånd med att lämna förvaltarberättelse enligt 7 kap. 15 a §, 3. frågor som gäller granskare enligt 7 kap. 30 § första stycket samt 31 och 32 §§, 4. avskrivning av konkurs enligt 10 kap. 1 eller 3 §, 5. fastställande av utdelning enligt 11 kap. 7 §, 6. nedläggning av konkurs eller försäljningsförbud enligt 12 kap. 1 §, 7. frågor som gäller tillsynsperson enligt 12 kap. 26 §, 26 a § andra stycket och 27 §, 8. arvode till förvaltare enligt 14 kap. 4 §, 9. förskott på arvode enligt 14 kap. 12 §, eller 10. sådana ersättningar som avses i 14 kap. 14 §. Andra beslut av tillsynsmyndigheten enligt denna lag får inte överklagas. Lag (2025:796).",
           "references": [
             "1 §",
             "11 kap. 7 §",
@@ -1977,24 +2270,32 @@ export const konkurslag: LegalText = {
             "14 kap. 14 §",
             "14 kap. 4 §",
             "14 §",
-            "15 §"
+            "26 §"
           ]
         },
         {
           "id": "kap-16-§-16",
           "number": 16,
-          "text": "Tiden för att överklaga tillsynsmyndighetens beslut om nedläggning av konkurs enligt 12 kap. 1 § räknas från den dag då beslutet kungjordes. Lag (2025:796). Överklagande av förvaltarens beslut 17 § Förvaltarens beslut får överklagas till tingsrätten, om det avser 1. avslag på en begäran om bekräftelse enligt 6 kap. 5 §, 2. undantag från reseförbud enligt 6 kap. 6 §, 3. ersättning och förskott på ersättning till gäldenären eller någon annan enligt 6 kap. 14 §, 4. avslag på begärd förskottsbetalning enligt 11 kap. 14 §, eller 5. avvisning av en ansökan om ackord enligt 12 kap. 7 §. Andra beslut av förvaltaren enligt denna lag får inte överklagas. Lag (2025:796).",
+          "text": "Tiden för att överklaga tillsynsmyndighetens beslut om nedläggning av konkurs enligt 12 kap. 1 § räknas från den dag då beslutet kungjordes. Lag (2025:796). Överklagande av förvaltarens beslut",
           "references": [
             "1 §",
+            "12 kap. 1 §"
+          ]
+        },
+        {
+          "id": "kap-16-§-17",
+          "number": 17,
+          "text": "Förvaltarens beslut får överklagas till tingsrätten, om det avser 1. avslag på en begäran om bekräftelse enligt 6 kap. 5 §, 2. undantag från reseförbud enligt 6 kap. 6 §, 3. ersättning och förskott på ersättning till gäldenären eller någon annan enligt 6 kap. 14 §, 4. avslag på begärd förskottsbetalning enligt 11 kap. 14 §, eller 5. avvisning av en ansökan om ackord enligt 12 kap. 7 §. Andra beslut av förvaltaren enligt denna lag får inte överklagas. Lag (2025:796).",
+          "references": [
             "11 kap. 14 §",
-            "12 kap. 1 §",
             "12 kap. 7 §",
             "14 §",
-            "17 §",
             "5 §",
             "6 kap. 14 §",
             "6 kap. 5 §",
-            "6 kap. 6 §"
+            "6 kap. 6 §",
+            "6 §",
+            "7 §"
           ]
         },
         {
@@ -2059,7 +2360,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-17-§-3",
           "number": 3,
-          "text": " Om en borgenärs konkursansökan inte bifalls och om borgenären när han gav in sin ansökan saknade skälig anledning att anta att gäldenären var på obestånd, skall borgenären ersätta gäldenären den skada som skäligen kan anses ha orsakats denne genom ansökningen och dess handläggning. Om ett beslut om konkurs upphävs, skall den borgenär vars ansökan lagts till grund för konkursbeslutet ersätta gäldenären för konkurskostnader som utgått ur konkursboet. Detta gäller dock inte om konkursen upphävs på grund av att gäldenären har åberopat en ny omständighet eller ett nytt bevis. Borgenären svarar inte heller för kostnader i konkursen som gäldenären har orsakat av vårdslöshet. Om flera borgenärer är ersättningsskyldiga, svarar de solidariskt för ersättningen. Talan om skadestånd enligt första eller ersättning enligt andra stycket skall väckas vid den tingsrätt där ärendet om gäldenärens försättande i konkurs är eller har varit anhängigt. I detta ärende får sådan talan väckas utan stämning. Lag (2005:190).",
+          "text": "Om en borgenärs konkursansökan inte bifalls och om borgenären när ansökan gavs in saknade skälig anledning att anta att gäldenären var på obestånd, ska borgenären ersätta gäldenären för den skada som ansökan och handläggningen av den skäligen kan anses ha orsakat gäldenären. Om ett beslut om konkurs upphävs, ska den borgenär vars ansökan har lagts till grund för konkursbeslutet ersätta gäldenären för konkurskostnader som har tagits ur konkursboet. Detta gäller dock inte om konkursen upphävs på grund av att gäldenären har åberopat en ny omständighet eller ett nytt bevis. Borgenären ansvarar inte heller för kostnader i konkursen som gäldenären har orsakat av vårdslöshet. Om flera borgenärer vid tidpunkten för konkursbeslutet har ansökt om konkurs ansvarar de solidariskt för ersättningen. En talan om skadestånd enligt första stycket eller ersättning enligt andra stycket ska väckas vid den tingsrätt som har beslutat om konkursen. Lag (2025:796). Straff m.m.",
           "references": []
         },
         {
@@ -2080,7 +2381,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-17-§-6",
           "number": 6,
-          "text": " Åtal mot en gäldenär för brott som avses i 11 kap. brottsbalken och åtal mot en borgenär för brott som sägs i 5 § får väckas vid den tingsrätt där konkursen är eller har varit anhängig.",
+          "text": "Ett åtal mot en gäldenär för brott som avses i 11 kap. brottsbalken och ett åtal mot en borgenär för brott som avses i 5 § får väckas vid den tingsrätt som har beslutat om konkursen. Lag (2025:796).",
           "references": [
             "5 §"
           ]
@@ -2088,19 +2389,8 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-17-§-7",
           "number": 7,
-          "text": "Allmän åklagare och Polismyndigheten ska ha tillgång till alla handlingar som rör boet och som kan lämna upplysning om huruvida gäldenären har gjort sig skyldig till brottsligt förfarande mot sina borgenärer. Lag (2014:610). Övergångsbestämmelser 1987:672 1. Denna lag träder i kraft den 1 januari 1988. Genom lagen upphävs, med de begränsningar som anges under 2, 3, 5 och 6, konkurslagen (1921:225), lagen (1921:226) om nya konkurslagens införande och vad i avseende därå skall iakttas samt lagen (1956:217) om vissa kreditinrättningars konkurs. 2. Äldre föreskrifter gäller fortfarande i fråga om en konkurs, i vilken konkursbeslutet har meddelats före ikraftträdandet. Vad som i dessa föreskrifter sägs om konkursdomaren skall dock i stället avse tingsrätten. Vid fullgörandet av en uppgift som enligt äldre lag ankommer på konkursdomaren består rätten av en lagfaren domare. Skall efter ikraftträdandet av den nya lagen en fråga hänskjutas till rätten enligt 93 § tredje stycket, 108 § fjärde stycket eller 164 § första stycket konkurslagen (1921:225), handläggs frågan i den ordning som är föreskriven i den nya lagen för motsvarande fall. 3. Är en konkursansökan anhängig vid ikraftträdandet, tillämpas äldre föreskrifter vid prövningen av ansökningen. 4. Sådana underrättelser med anledning av en konkurs som enligt någon föreskrift i lag eller annan författning ankommer på konkursdomaren skall i stället lämnas av tingsrätten. 5. I fråga om återvinning av en rättshandling eller åtgärd som avses i 4 kap. 5--9 §§ och som har ägt rum före lagens ikraftträdande gäller 30--34 §§ konkurslagen (1921:225). 6. I fråga om rätten att göra gällande fordran på lön, arvode eller pension för tiden före lagens ikraftträdande gäller 100 a § konkurslagen (1921:225). 7. Förekommer i lag eller annan författning någon föreskrift om att en åtgärd skall ha vidtagits viss tid efter första borgenärssammanträdet i konkurs eller att en viss rättsverkan skall inträda viss tid efter detta sammanträde, skall fristen i stället räknas från edgångssammanträdet. 8. En fordran som har fastställts genom en sådan skiljedom som avses i 12 § lagen (1981:775) om införande av utsökningsbalken skall godtas som stöd för borgenärs behörighet att begära gäldenären i konkurs, om skiljedomen får verkställas enligt första meningen i nämnda paragraf och en domstol inte har meddelat ett sådant förordnande som avses i 3 kap. 18 § utsökningsbalken. 9. Vad som sägs i den nya lagen om registrerat skepp gäller även i fråga om båt som enligt punkt 5 övergångsbestämmelserna till lagen (1973:1064) om ändring i sjölagen (1891:35 s.1) är upptagen i skeppsregistret. 10. Förekommer i lag eller annan författning någon hänvisning till en föreskrift som har ersatts genom en föreskrift i denna lag, tillämpas i stället den nya föreskriften. 1989:1084 Denna lag träder i kraft den 1 februari 1990. Äldre bestämmelser tillämpas dock om konkursförfarande har inletts före ikraftträdandet. 1990:1072 Denna lag träder i kraft den 1 januari 1991. Äldre bestämmelser gäller dock i fråga om tid för besvär över beslut som meddelats före ikraftträdandet. 1991:857 Denna lag träder i kraft den dag regeringen bestämmer. Äldre föreskrifter gäller fortfarande i fråga om mål om lagsökning, betalningsföreläggande och handräckning där talan väckts före ikraftträdandet. 1991:999 1. Denna lag träder i kraft den 1 augusti 1991. 2. Vad som i 8 kap. 7 och 10 §§ sägs om värdepappersinstitut skall också gälla sådan fondkommissionär som med stöd av punkt 3 i övergångsbestämmelserna till lagen (1991:981) om värdepappersrörelse driver rörelse enligt fondkommissionslagen (1979:748). 1994:481 Denna lag träder i kraft den 1 juli 1994. Äldre föreskrifter tillämpas i fråga om betalningssäkring som verkställts före ikraftträdandet. 1995:308 Denna lag träder i kraft den 1 april 1996. Föreskrifterna i 3 kap. 4 § tredje stycket gäller i sin äldre lydelse om en förvaltare före ikraftträdandet har gjort anspråk på en förmån som avses i den paragrafen. 1995:793 Denna lag träder i kraft den 1 oktober 1995 såvitt avser 15 kap. 5-8 §§ och i övrigt den 1 juli 1995. 1996:775 1. Denna lag träder i kraft den 1 september 1996. 2. I fråga om återvinning av en rättshandling som avses i 4 kap. 1 § 1 i dess äldre lydelse och som har ägt rum före ikraftträdandet gäller bestämmelsen i dess äldre lydelse. 3. Har konkursansökan föregåtts av förordnande av god man enligt ackordslagen (1970:847), gäller 4 kap. 2 § i dess äldre lydelse. 1999:1095 Denna lag träder i kraft den 1 januari 2000 och tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 1999. 2003:538 1. Denna lag träder i kraft den 1 januari 2004. 2. I fråga om företagshypotek på grund av en inteckning som har beviljats före ikraftträdandet tillämpas äldre bestämmelser fram till den 1 januari 2005. 3. Vid en konkurs som har beslutats på grund av en ansökan som gjorts före ikraftträdandet tillämpas alltid äldre bestämmelser. 2005:190 Denna lag träder i kraft den 1 maj 2005. Om beslut om konkurs har fattats före ikraftträdandet, gäller 14 kap. 8 och 10 §§ samt 17 kap. 3 § i paragrafernas äldre lydelse. 2005:196 1. Denna lag träder i kraft den 1 maj 2005. 2. Vid konkurs som beslutats före ikraftträdandet gäller äldre bestämmelser. 2008:993 1. Denna lag träder i kraft den 1 januari 2009. 2. I fråga om en företagsinteckning enligt den upphävda lagen (2003:528) om företagsinteckning tillämpas äldre bestämmelser. 2010:1951 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om ett beslut om delgivning enligt 15-17 §§ delgivningslagen (1970:428) har fattats före den 1 april 2011 eller om en handling har skickats eller lämnats före denna tidpunkt. 2011:731 1. Denna lag träder i kraft den 30 juni 2011. 2. Vid konkurs som beslutats före ikraftträdandet gäller äldre bestämmelser. 2011:1328 1. Denna lag träder i kraft den 1 januari 2012. 2. Äldre bestämmelser gäller fortfarande i fråga om skatt eller avgift enligt skattebetalningslagen (1997:483). 2014:513 1. Denna lag träder i kraft den 1 augusti 2014. 2. Vid konkurs som beslutats före ikraftträdandet gäller äldre bestämmelser. 2014:1456 1. Denna lag träder i kraft den 1 mars 2015. 2. Vid en konkurs som beslutats före ikraftträdandet gäller äldre föreskrifter. 2019:250 1. Denna lag träder i kraft den 1 juni 2019. 2. Äldre föreskrifter gäller fortfarande för konkurser som har beslutats före ikraftträdandet. 2020:1031 1. Denna lag träder i kraft den 1 januari 2021. 2. Äldre bestämmelser gäller dock fortfarande för aktiebolag och ekonomiska föreningar som omfattas av punkt 2 och 3 i ikraftträdande- och övergångsbestämmelserna till lagen (2020:1026) om upphävande av lagen (2004:299) om inlåningsverksamhet och insättningar i sådana företag. 2021:538 1. Denna lag träder i kraft den 1 juli 2021. 2. Om konkursen har beslutats före ikraftträdandet gäller 2 kap. 24 §, 6 kap. 3-5 §§ och 11 kap. 12, 13 a och 21 §§ i deras äldre lydelser. 3. De nya 6 kap. 2 a, 2 b och 5 a §§ gäller endast i en konkurs som har beslutats efter ikraftträdandet. 2022:979 1. Denna lag träder i kraft den 1 augusti 2022. 2. Den äldre lydelsen av 5 kap. 14 § gäller fortfarande när en gäldenär har fått ackord enligt den upphävda lagen (1996:764) om företagsrekonstruktion. 2023:668 1. Denna lag träder i kraft den 1 augusti 2024. 2. Äldre föreskrifter gäller fortfarande för konkurser som har beslutats före ikraftträdandet. 2025:796 1. Denna lag träder i kraft den 1 juli 2026. 2. Den upphävda 2 kap. 23 § och de äldre lydelserna av 14 kap. 3 § och 17 kap. 3 § gäller fortfarande, om konkursen har beslutats före ikraftträdandet. 3. De upphävda 9 kap. 14, 17 och 18 §§ och de äldre lydelserna av 6 kap. 2 §, 7 kap. 13 §, 9 kap. 2-13, 15, 16 och 19-22 §§ och 11 kap. 2 och 15 §§ gäller fortfarande, om ett bevakningsförfarande har inletts före ikraftträdandet. Detsamma gäller det upphävda 16 kap. men endast i fråga om handläggningen av bevakningsförfarandet. 4. De upphävda 7 kap. 7 § och 14 kap. 15 § gäller fortfarande, om en rådgivare eller förlikningsman har utsetts före ikraftträdandet. Detsamma gäller den äldre lydelsen av 14 kap. 1 § men endast i fråga om ersättning till rådgivare eller förlikningsman. 5. Äldre föreskrifter gäller för en viss åtgärd, om en framställan om åtgärden har getts in till tingsrätten före ikraftträdandet. Det gäller dock inte en framställan om att ett bevakningsförfarande ska anordnas. 6. Om tingsrätten vid ikraftträdandet inte handlägger någon fråga som avses i 2-5, ska konkursärendet avskrivas från vidare handläggning. Detsamma gäller när tingsrätten efter ikraftträdandet har avslutat handläggningen av samtliga sådana frågor som avses i 2-5 som var aktuella vid ikraftträdandet. 7. När en fråga i en konkurs som har inletts före ikraftträdandet ska anhängiggöras i tingsrätten, ska den tingsrätt som enligt förhållandena vid beslutet om konkurs skulle ha beslutat om konkursen enligt de nya bestämmelserna vara behörig. Detsamma gäller vid väckande av en talan enligt 4 kap. 20 §, 13 kap. 7 § eller 17 kap. 3 eller 6 §.",
-          "references": [
-            "1 §",
-            "10 §§",
-            "108 §",
-            "11 kap. 2 och 15 §§",
-            "12 §",
-            "13 kap. 7 §",
-            "13 §",
-            "14 kap. 1 §",
-            "14 kap. 15 §",
-            "14 kap. 3 §"
-          ]
+          "text": "Allmän åklagare och Polismyndigheten ska ha tillgång till alla handlingar som rör boet och som kan lämna upplysning om huruvida gäldenären har gjort sig skyldig till brottsligt förfarande mot sina borgenärer. Lag (2014:610).",
+          "references": []
         }
       ]
     }

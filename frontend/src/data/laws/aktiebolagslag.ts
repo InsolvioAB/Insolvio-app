@@ -1,6 +1,6 @@
 // Aktiebolagslag (2005:551)
-// Auto-generated from uploaded DOCX
-// Last amended: t.o.m. SFS 2024:862
+// Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
+// Last amended: t.o.m. SFS 2025:804
 
 import { LegalText } from '../legalTexts';
 
@@ -8,15 +8,21 @@ export const aktiebolagslag: LegalText = {
   "id": "sfs-2005-551",
   "title": "Aktiebolagslag (2005:551)",
   "sfsNumber": "2005:551",
-  "department": "Justitiedepartementet",
-  "issued": "2005-04-28",
-  "lastAmended": "t.o.m. SFS 2024:862",
+  "department": "Justitiedepartementet L1",
+  "issued": "2005-06-16",
+  "lastAmended": "t.o.m. SFS 2025:804",
   "chapters": [
     {
       "id": "kap-1",
       "number": 1,
       "title": "Inledande bestämmelser",
       "sections": [
+        {
+          "id": "kap-1-§-1",
+          "number": 1,
+          "text": "Denna lag innehåller bestämmelser om aktiebolag. Bestämmelserna avser - bildande av aktiebolag (2 kap.), - bolagsordning (3 kap.), - aktierna (4 kap.), - aktiebok (5 kap.), - aktiebrev (6 kap.), - bolagsstämma (7 kap.), - bolagets ledning (8 kap.), - revision (9 kap.), - allmän och särskild granskning (10 kap.), - ökning av aktiekapitalet, utgivande av nya aktier, upptagande av vissa penninglån, m.m. (11 kap.), - fondemission (12 kap.), - nyemission av aktier (13 kap.), - emission av teckningsoptioner med åtföljande teckning av nya aktier (14 kap.), - emission av konvertibler med åtföljande konvertering till nya aktier (15 kap.), - vissa riktade emissioner m.m. (16 kap.), - vissa närståendetransaktioner (16 a kap.), - värdeöverföringar från bolaget (17 kap.), - vinstutdelning (18 kap.), - förvärv av egna aktier m.m. (19 kap.), - minskning av aktiekapitalet, den bundna överkursfonden och reservfonden (20 kap.), - lån från bolaget till aktieägare m.fl. (21 kap.), - inlösen av minoritetsaktier (22 kap.), - fusion av aktiebolag (23 kap.), - delning av aktiebolag (24 kap.), - likvidation och konkurs (25 kap.), - byte av bolagskategori (26 kap.), - registrering (27 kap.), - aktiebolagets företagsnamn (28 kap.), - skadestånd (29 kap.), - straff och vite (30 kap.), - överklagande (31 kap.), och - aktiebolag med särskild vinstutdelningsbegränsning (32 kap.). Lag (2020:985). Privata och publika aktiebolag",
+          "references": []
+        },
         {
           "id": "kap-1-§-2",
           "number": 2,
@@ -44,19 +50,29 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-1-§-5",
           "number": 5,
-          "text": "Om aktiekapitalet är bestämt i kronor, ska det uppgå till minst 25 000 kronor. Om aktiekapitalet är bestämt i euro och har varit bestämt i euro sedan bolaget bildades, ska det uppgå till minst det belopp i euro som enligt den av Europeiska centralbanken då fastställda växelkursen motsvarade 25 000 kronor. Har aktiekapitalet tidigare varit bestämt i kronor, ska det uppgå till minst det belopp i euro som vid bytet av redovisningsvaluta motsvarade 25 000 kronor. I fråga om publika aktiebolag gäller 14 § i stället för första och andra styckena. Lag (2019:1264). 6 § Om aktiekapitalet är fördelat på flera aktier, representerar varje aktie en lika stor andel av aktiekapitalet. Aktiens andel i aktiekapitalet utgör aktiens kvotvärde. Förbud mot spridning av aktier m.m. i privata aktiebolag",
+          "text": "Om aktiekapitalet är bestämt i kronor, ska det uppgå till minst 25 000 kronor. Om aktiekapitalet är bestämt i euro och har varit bestämt i euro sedan bolaget bildades, ska det uppgå till minst det belopp i euro som enligt den av Europeiska centralbanken då fastställda växelkursen motsvarade 25 000 kronor. Har aktiekapitalet tidigare varit bestämt i kronor, ska det uppgå till minst det belopp i euro som vid bytet av redovisningsvaluta motsvarade 25 000 kronor. I fråga om publika aktiebolag gäller 14 § i stället för första och andra styckena. Lag (2019:1264).",
           "references": [
-            "14 §",
-            "6 §"
+            "14 §"
           ]
+        },
+        {
+          "id": "kap-1-§-6",
+          "number": 6,
+          "text": "Om aktiekapitalet är fördelat på flera aktier, representerar varje aktie en lika stor andel av aktiekapitalet. Aktiens andel i aktiekapitalet utgör aktiens kvotvärde. Förbud mot spridning av aktier m.m. i privata aktiebolag",
+          "references": []
         },
         {
           "id": "kap-1-§-7",
           "number": 7,
-          "text": "Ett privat aktiebolag eller en aktieägare i ett sådant bolag får inte genom annonsering försöka sprida aktier eller teckningsrätter i bolaget eller skuldebrev eller teckningsoptioner som bolaget har gett ut. Ett privat aktiebolag eller en aktieägare i ett sådant bolag får inte heller på annat sätt försöka sprida i första stycket angivna värdepapper genom att erbjuda fler än 200 personer att teckna eller förvärva värdepapperen. Detta gäller dock inte om erbjudandet riktar sig enbart till en krets som i förväg har anmält intresse av sådana erbjudanden och antalet utbjudna poster inte överstiger 200. Förbuden i första och andra styckena gäller inte erbjudanden som avser överlåtelse till högst tio förvärvare. Förbuden gäller inte heller i fråga om aktiebolag med särskild vinstutdelningsbegränsning. Lag (2005:812). 8 § Sådana värdepapper som anges i 7 § får, så länge bolaget är privat, inte bli föremål för handel på en reglerad marknad, en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet eller någon annan organiserad marknadsplats. Lag (2007:566). Var det finns definitioner och förklaringar",
+          "text": "Ett privat aktiebolag eller en aktieägare i ett sådant bolag får inte genom annonsering försöka sprida aktier eller teckningsrätter i bolaget eller skuldebrev eller teckningsoptioner som bolaget har gett ut. Ett privat aktiebolag eller en aktieägare i ett sådant bolag får inte heller på annat sätt försöka sprida i första stycket angivna värdepapper genom att erbjuda fler än 200 personer att teckna eller förvärva värdepapperen. Detta gäller dock inte om erbjudandet riktar sig enbart till en krets som i förväg har anmält intresse av sådana erbjudanden och antalet utbjudna poster inte överstiger 200. Förbuden i första och andra styckena gäller inte erbjudanden som avser överlåtelse till högst tio förvärvare. Förbuden gäller inte heller i fråga om aktiebolag med särskild vinstutdelningsbegränsning. Lag (2005:812).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-8",
+          "number": 8,
+          "text": "Sådana värdepapper som anges i 7 § får, så länge bolaget är privat, inte bli föremål för handel på en reglerad marknad, en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet eller någon annan organiserad marknadsplats. Lag (2007:566). Var det finns definitioner och förklaringar",
           "references": [
-            "7 §",
-            "8 §"
+            "7 §"
           ]
         },
         {
@@ -83,6 +99,28 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-1-§-10a",
+          "number": 10,
+          "text": "Vid tillämpningen av denna lag ska med ett avstämningsregister enligt lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument jämställas ett motsvarande register som förs av en sådan värdepapperscentral som avses i Europaparlamentets och rådets förordning (EU) nr 909/2014 av den 23 juli 2014 om förbättrad värdepappersavveckling i Europeiska unionen och om värdepapperscentraler samt ändring av direktiv 98/26/EG och 2014/65/EU och förordning (EU) nr 236/2012 och som är etablerad i ett annat land inom Europeiska ekonomiska samarbetsområdet än Sverige. Ett konto i ett sådant register ska jämställas med ett avstämningskonto enligt lagen om värdepapperscentraler och kontoföring av finansiella instrument. Lag (2025:319).",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-10b",
+          "number": 10,
+          "text": "Med värdepapperscentral och värdepapperscentral från tredjeland avses detsamma som i 1 kap. 3 § lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument. Vid tillämpningen av 5 kap. 12, 12 a, 16, 18 och 19 §§ denna lag ska med värdepapperscentral jämställas en värdepapperscentral från tredjeland som är erkänd enligt artikel 25 i Europaparlamentets och rådets förordning (EU) nr 909/2014. Lag (2025:319). Begreppen moderbolag, dotterföretag och koncern",
+          "references": [
+            "1 kap. 3 §",
+            "19 §§",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-1-§-11",
+          "number": 11,
+          "text": "Ett aktiebolag är moderbolag och en annan juridisk person är dotterföretag, om aktiebolaget 1. innehar mer än hälften av rösterna för samtliga aktier eller andelar i den juridiska personen, 2. äger aktier eller andelar i den juridiska personen och på grund av avtal med andra delägare i denna förfogar över mer än hälften av rösterna för samtliga aktier eller andelar, 3. äger aktier eller andelar i den juridiska personen och har rätt att utse eller avsätta mer än hälften av ledamöterna i dess styrelse eller motsvarande ledningsorgan, eller 4. äger aktier eller andelar i den juridiska personen och har rätt att ensamt utöva ett bestämmande inflytande över denna på grund av avtal med den juridiska personen eller på grund av föreskrift i dess bolagsordning, bolagsavtal eller därmed jämförbara stadgar. Vidare är en juridisk person dotterföretag till moderbolaget, om ett annat dotterföretag till moderbolaget eller moderbolaget tillsammans med ett eller flera andra dotterföretag eller flera andra dotterföretag tillsammans 1. innehar mer än hälften av rösterna för samtliga aktier eller andelar i den juridiska personen, 2. äger aktier eller andelar i den juridiska personen och på grund av avtal med andra delägare i denna förfogar över mer än hälften av rösterna för samtliga aktier eller andelar, eller 3. äger aktier eller andelar i den juridiska personen och har rätt att utse eller avsätta mer än hälften av ledamöterna i dess styrelse eller motsvarande ledningsorgan. Om ett dotterföretag äger aktier eller andelar i en juridisk person och på grund av avtal med den juridiska personen eller på grund av föreskrift i dess bolagsordning, bolagsavtal eller därmed jämförbara stadgar har rätt att ensamt utöva ett bestämmande inflytande över den juridiska personen, är även denna dotterföretag till moderbolaget. Moderbolag och dotterföretag utgör tillsammans en koncern. Med koncernföretag avses i denna lag företag i samma koncern.",
+          "references": []
+        },
+        {
           "id": "kap-1-§-12",
           "number": 12,
           "text": "I de fall som avses i 11 § första stycket 1-3 och andra stycket skall sådana rättigheter som tillkommer någon som handlar i eget namn men för en annan fysisk eller juridisk persons räkning anses tillkomma den personen. Vid bestämmandet av antalet röster i ett dotterföretag beaktas inte de aktier och andelar i dotterföretaget som innehas av dotterföretaget självt eller av dess dotterföretag. Detsamma gäller aktier och andelar som innehas av den som handlar i eget namn men för dotterföretagets eller dess dotterföretags räkning. Begreppet tillämplig lag om årsredovisning",
@@ -91,9 +129,21 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-1-§-12a",
+          "number": 12,
+          "text": "Med tillämplig lag om årsredovisning avses i denna lag årsredovisningslagen (1995:1554) eller, i fråga om aktiebolag som helt eller delvis omfattas av lagen (1995:1559) om årsredovisning i kreditinstitut och värdepappersbolag eller lagen (1995:1560) om årsredovisning i försäkringsföretag, dessa respektive lagar och de föreskrifter som har meddelats med stöd av dem. I fråga om bolag som upprättar eller ska upprätta koncernredovisning enligt Europaparlamentets och rådets förordning (EG) nr 1606/2002 av den 19 juli 2002 om tillämpning av internationella redovisningsstandarder avses även, såvitt gäller koncernredovisningen, de redovisningsstandarder som har antagits med stöd av förordningen. Lag (2010:2071). Vissa bestämmelsers tillämpning när bolaget saknar revisor",
+          "references": []
+        },
+        {
+          "id": "kap-1-§-12b",
+          "number": 12,
+          "text": "Bestämmelserna i denna lag om bolagets revisor och om den revisionsberättelse som bolagets revisor lämnar gäller endast om bolaget enligt lag ska ha revisor eller ändå har en revisor. Lag (2010:834). Undertecknande med elektronisk underskrift",
+          "references": []
+        },
+        {
           "id": "kap-1-§-13",
           "number": 13,
-          "text": "En handling enligt denna lag som ska vara undertecknad får, om något annat inte anges, undertecknas med en sådan avancerad elektronisk underskrift som avses i artikel 3 i Europaparlamentets och rådets förordning (EU) nr 91093/EG, i den ursprungliga lydelsen. Lag (2016:643). Särskilda bestämmelser för publika aktiebolag",
+          "text": "En handling enligt denna lag som ska vara undertecknad får, om något annat inte anges, undertecknas med en sådan avancerad elektronisk underskrift som avses i artikel 3 i Europaparlamentets och rådets förordning (EU) nr 910/2014 av den 23 juli 2014 om elektronisk identifiering och betrodda tjänster för elektroniska transaktioner på den inre marknaden och om upphävande av direktiv 1999/93/EG, i den ursprungliga lydelsen. Lag (2016:643). Särskilda bestämmelser för publika aktiebolag",
           "references": []
         },
         {
@@ -112,35 +162,58 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-2-§-1",
           "number": 1,
-          "text": "Ett aktiebolag bildas av en eller flera fysiska eller juridiska personer (stiftare). Lag (2014:539). 2 § Den som är underårig eller i konkurs eller som har förvaltare enligt 11 kap. 7 § föräldrabalken kan inte vara stiftare. Att detsamma gäller den som har näringsförbud följer av 11 § lagen (2014:836) om näringsförbud. Lag (2014:848). Åtgärder som skall vidtas vid bolagsbildningen 3 § Vid bolagsbildningen skall följande åtgärder vidtas: 1. Stiftarna skall upprätta ett utkast till en stiftelseurkund enligt bestämmelserna i 5-10 §§. 2. En eller flera bland stiftarna skall teckna sig för samtliga aktier i bolaget enligt bestämmelserna i 12 §. 3. Aktierna skall betalas enligt bestämmelserna i 15-19 §§. 4. Stiftarna skall färdigställa, datera och underteckna stiftelseurkunden. 5. Styrelsen skall anmäla bolaget för registrering enligt bestämmelserna i 22 och 23 §§. När bolaget anses bildat",
+          "text": "Ett aktiebolag bildas av en eller flera fysiska eller juridiska personer (stiftare). Lag (2014:539).",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-2",
+          "number": 2,
+          "text": "Den som är underårig eller i konkurs eller som har förvaltare enligt 11 kap. 7 § föräldrabalken kan inte vara stiftare. Att detsamma gäller den som har näringsförbud följer av 11 § lagen (2014:836) om näringsförbud. Lag (2014:848). Åtgärder som skall vidtas vid bolagsbildningen",
           "references": [
             "11 kap. 7 §",
             "11 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-3",
+          "number": 3,
+          "text": "Vid bolagsbildningen skall följande åtgärder vidtas: 1. Stiftarna skall upprätta ett utkast till en stiftelseurkund enligt bestämmelserna i 5-10 §§. 2. En eller flera bland stiftarna skall teckna sig för samtliga aktier i bolaget enligt bestämmelserna i 12 §. 3. Aktierna skall betalas enligt bestämmelserna i 15-19 §§. 4. Stiftarna skall färdigställa, datera och underteckna stiftelseurkunden. 5. Styrelsen skall anmäla bolaget för registrering enligt bestämmelserna i 22 och 23 §§. När bolaget anses bildat",
+          "references": [
             "12 §",
             "15-19 §§",
-            "2 §",
             "23 §§",
-            "3 §",
-            "5-10 §§",
-            "7 §"
+            "5-10 §§"
           ]
         },
         {
           "id": "kap-2-§-4",
           "number": 4,
-          "text": "Bolaget anses bildat när stiftelseurkunden har undertecknats av samtliga stiftare. Av 24 och 25 §§ framgår att frågan om bolagsbildning faller om registrering inte sker inom viss tid och att bolaget får rättshandlingsförmåga först i och med registreringen av bolaget. Stiftelseurkunden Stiftelseurkundens innehåll 5 § I stiftelseurkunden ska stiftarna ange 1. hur mycket som ska betalas för varje aktie (teckningskursen), och 2. fullständigt namn, postadress och personnummer eller, om sådant saknas, födelsedatum för styrelseledamot och, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Om revisorn är ett registrerat revisionsbolag, ska bolagets organisationsnummer eller något annat identifieringsnummer anges. I förekommande fall ska det även anges om 1. en aktie ska kunna tecknas med rätt eller skyldighet att betala aktien med någon annan egendom än pengar, 2. en aktie ska kunna tecknas med rätt eller skyldighet för bolaget att överta egendom mot någon annan ersättning än aktier, 3. en aktie ska kunna tecknas med andra villkor, 4. bolaget ska ersätta kostnader för bolagets bildande, och 5. någon på något annat sätt ska få särskilda rättigheter eller förmåner av bolaget. En sådan bestämmelse som avses i andra stycket ska återges i sin helhet i stiftelseurkunden. Teckningskursen enligt första stycket 1 får inte understiga aktiens kvotvärde. Kvotvärdet ska då beräknas på grundval av bolagsordningens uppgifter om aktiekapital och antal aktier. Om det i bolagsordningen föreskrivs ett minimikapital och ett maximikapital och ett lägsta och högsta antal aktier, ska beräkningen ske genom att det högsta angivna aktiekapitalet divideras med det högsta antalet aktier eller det lägsta angivna aktiekapitalet med det lägsta antalet aktier. Om teckningskursen överstiger aktiens kvotvärde ska det framgå av stiftelseurkunden hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985).",
+          "text": "Bolaget anses bildat när stiftelseurkunden har undertecknats av samtliga stiftare. Av 24 och 25 §§ framgår att frågan om bolagsbildning faller om registrering inte sker inom viss tid och att bolaget får rättshandlingsförmåga först i och med registreringen av bolaget. Stiftelseurkunden Stiftelseurkundens innehåll",
           "references": [
-            "25 §§",
-            "5 §"
+            "25 §§"
           ]
+        },
+        {
+          "id": "kap-2-§-5",
+          "number": 5,
+          "text": "I stiftelseurkunden ska stiftarna ange 1. hur mycket som ska betalas för varje aktie (teckningskursen), och 2. fullständigt namn, postadress och personnummer eller, om sådant saknas, födelsedatum för styrelseledamot och, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Om revisorn är ett registrerat revisionsbolag, ska bolagets organisationsnummer eller något annat identifieringsnummer anges. I förekommande fall ska det även anges om 1. en aktie ska kunna tecknas med rätt eller skyldighet att betala aktien med någon annan egendom än pengar, 2. en aktie ska kunna tecknas med rätt eller skyldighet för bolaget att överta egendom mot någon annan ersättning än aktier, 3. en aktie ska kunna tecknas med andra villkor, 4. bolaget ska ersätta kostnader för bolagets bildande, och 5. någon på något annat sätt ska få särskilda rättigheter eller förmåner av bolaget. En sådan bestämmelse som avses i andra stycket ska återges i sin helhet i stiftelseurkunden. Teckningskursen enligt första stycket 1 får inte understiga aktiens kvotvärde. Kvotvärdet ska då beräknas på grundval av bolagsordningens uppgifter om aktiekapital och antal aktier. Om det i bolagsordningen föreskrivs ett minimikapital och ett maximikapital och ett lägsta och högsta antal aktier, ska beräkningen ske genom att det högsta angivna aktiekapitalet divideras med det högsta antalet aktier eller det lägsta angivna aktiekapitalet med det lägsta antalet aktier. Om teckningskursen överstiger aktiens kvotvärde ska det framgå av stiftelseurkunden hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985).",
+          "references": []
         },
         {
           "id": "kap-2-§-6",
           "number": 6,
-          "text": "Endast egendom som är eller kan antas bli till nytta för bolagets verksamhet kan utgöra sådan egendom som avses i 5 § andra stycket 1 och 2 (apportegendom). Med apportegendom får inte jämställas åtagande att utföra arbete eller tillhandahålla tjänst. Värdet på apportegendom får inte sättas högre än det verkliga värdet för bolaget. 7 § Stiftelseurkunden skall innehålla en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av de bestämmelser som avses i 5 § andra stycket och för bedömningen av värdet på apportegendom. Av redogörelsen skall framgå hur värdet på apportegendomen har bestämts och vilka rättsliga och ekonomiska synpunkter som har beaktats vid värderingen. Följande uppgifter skall anges särskilt: 1. namn, person- eller organisationsnummer och hemvist beträffande den som avses med en bestämmelse, 2. det värde som apportegendomen beräknas komma att tas upp till i balansräkningen, och 3. antalet aktier i bolaget eller annan ersättning som skall lämnas för apportegendomen.",
+          "text": "Endast egendom som är eller kan antas bli till nytta för bolagets verksamhet kan utgöra sådan egendom som avses i 5 § andra stycket 1 och 2 (apportegendom). Med apportegendom får inte jämställas åtagande att utföra arbete eller tillhandahålla tjänst. Värdet på apportegendom får inte sättas högre än det verkliga värdet för bolaget.",
           "references": [
-            "5 §",
-            "7 §"
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-7",
+          "number": 7,
+          "text": "Stiftelseurkunden skall innehålla en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av de bestämmelser som avses i 5 § andra stycket och för bedömningen av värdet på apportegendom. Av redogörelsen skall framgå hur värdet på apportegendomen har bestämts och vilka rättsliga och ekonomiska synpunkter som har beaktats vid värderingen. Följande uppgifter skall anges särskilt: 1. namn, person- eller organisationsnummer och hemvist beträffande den som avses med en bestämmelse, 2. det värde som apportegendomen beräknas komma att tas upp till i balansräkningen, och 3. antalet aktier i bolaget eller annan ersättning som skall lämnas för apportegendomen.",
+          "references": [
+            "5 §"
           ]
         },
         {
@@ -154,11 +227,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-2-§-9",
           "number": 9,
-          "text": "Om ett skriftligt avtal har upprättats rörande en sådan bestämmelse som avses i 5 § andra stycket, skall avtalet eller en kopia av avtalet fogas till stiftelseurkunden eller i stiftelseurkunden göras en hänvisning till avtalet med uppgift om var det finns tillgängligt för aktietecknarna. Innehållet i ett muntligt avtal skall i sin helhet tas upp i stiftelseurkunden. När en rörelse tillskjuts eller övertas, skall vad som sägs i första stycket om skriftliga avtal gälla även balans- och resultaträkningar för rörelsen under rörelsens senaste två räkenskapsår. I stiftelseurkunden skall det lämnas en upplysning om rörelsens resultat under tiden därefter. Om balans- och resultaträkningar inte har upprättats för rörelsen, skall det i stiftelseurkunden lämnas en upplysning om rörelsens resultat under de nämnda räkenskapsåren. 10 § Stiftelseurkunden skall innehålla en bolagsordning. Bestämmelser om bolagsordningens innehåll finns i 3 kap. Verkan av att apportbestämmelser m.m. har redovisats på felaktigt sätt",
+          "text": "Om ett skriftligt avtal har upprättats rörande en sådan bestämmelse som avses i 5 § andra stycket, skall avtalet eller en kopia av avtalet fogas till stiftelseurkunden eller i stiftelseurkunden göras en hänvisning till avtalet med uppgift om var det finns tillgängligt för aktietecknarna. Innehållet i ett muntligt avtal skall i sin helhet tas upp i stiftelseurkunden. När en rörelse tillskjuts eller övertas, skall vad som sägs i första stycket om skriftliga avtal gälla även balans- och resultaträkningar för rörelsen under rörelsens senaste två räkenskapsår. I stiftelseurkunden skall det lämnas en upplysning om rörelsens resultat under tiden därefter. Om balans- och resultaträkningar inte har upprättats för rörelsen, skall det i stiftelseurkunden lämnas en upplysning om rörelsens resultat under de nämnda räkenskapsåren.",
           "references": [
-            "10 §",
             "5 §"
           ]
+        },
+        {
+          "id": "kap-2-§-10",
+          "number": 10,
+          "text": "Stiftelseurkunden skall innehålla en bolagsordning. Bestämmelser om bolagsordningens innehåll finns i 3 kap. Verkan av att apportbestämmelser m.m. har redovisats på felaktigt sätt",
+          "references": []
         },
         {
           "id": "kap-2-§-11",
@@ -210,10 +288,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-2-§-18",
           "number": 18,
-          "text": "Betalning med apportegendom skall ske genom att apportegendomen avskiljs för att ingå i bolagets egendom. 19 § Om aktierna betalas med apportegendom eller om bolaget enligt villkor i stiftelseurkunden ska fullgöra förpliktelser efter bildandet, ska en revisor lämna ett skriftligt, undertecknat yttrande över betalningen. Av yttrandet ska det framgå att 1. all apportegendom har tillförts bolaget, 2. apportegendomen är eller kan antas bli till nytta för bolagets verksamhet, och 3. apportegendomen inte i stiftelseurkunden har tagits upp till högre värde än det verkliga värdet för bolaget. I yttrandet ska revisorn beskriva apportegendomen och ange vilken metod som har använts vid värderingen. Särskilda svårigheter att uppskatta värdet av egendomen ska anmärkas. Av yttrandet ska det också framgå att förpliktelser som bolaget enligt villkor i stiftelseurkunden ska fullgöra efter bildandet har redovisats och värderats enligt god redovisningssed. En revisor som avses i första stycket ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Denna paragraf gäller inte om bolaget bildas genom fusion eller delning. Lag (2011:1046). Betalningens verkan mot aktietecknarens borgenärer",
-          "references": [
-            "19 §"
-          ]
+          "text": "Betalning med apportegendom skall ske genom att apportegendomen avskiljs för att ingå i bolagets egendom.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-19",
+          "number": 19,
+          "text": "Om aktierna betalas med apportegendom eller om bolaget enligt villkor i stiftelseurkunden ska fullgöra förpliktelser efter bildandet, ska en revisor lämna ett skriftligt, undertecknat yttrande över betalningen. Av yttrandet ska det framgå att 1. all apportegendom har tillförts bolaget, 2. apportegendomen är eller kan antas bli till nytta för bolagets verksamhet, och 3. apportegendomen inte i stiftelseurkunden har tagits upp till högre värde än det verkliga värdet för bolaget. I yttrandet ska revisorn beskriva apportegendomen och ange vilken metod som har använts vid värderingen. Särskilda svårigheter att uppskatta värdet av egendomen ska anmärkas. Av yttrandet ska det också framgå att förpliktelser som bolaget enligt villkor i stiftelseurkunden ska fullgöra efter bildandet har redovisats och värderats enligt god redovisningssed. En revisor som avses i första stycket ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Denna paragraf gäller inte om bolaget bildas genom fusion eller delning. Lag (2011:1046). Betalningens verkan mot aktietecknarens borgenärer",
+          "references": []
         },
         {
           "id": "kap-2-§-20",
@@ -232,23 +314,38 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-2-§-22",
           "number": 22,
-          "text": "Styrelsen skall inom sex månader från stiftelseurkundens undertecknande anmäla bolaget för registrering i aktiebolagsregistret. Förutsättningar för registrering 23 § Bolaget får registreras endast om 1. summan av de belopp som enligt 5 § fjärde stycket lägst skall betalas för de tecknade aktierna (bolagets aktiekapital) motsvarar det aktiekapital som anges i bolagsordningen eller uppgår till minst minimikapitalet, 2. full och godtagbar betalning har lämnats för samtliga tecknade aktier, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 17 § angående betalning i pengar, 4. ett revisorsyttrande enligt 19 § visas upp angående sådan apportegendom och sådana förpliktelser för bolaget som anges i stiftelseurkunden, och 5. bolagsbildningen även i övrigt har skett i enlighet med denna lag och annan författning. Verkan av att registrering inte sker 24 § Frågan om bolagsbildningen faller, om 1. någon anmälan för registrering av bolaget inte har gjorts inom föreskriven tid, eller 2. Bolagsverket genom ett beslut som har vunnit laga kraft har avskrivit ett ärende om sådan registrering eller har vägrat registrering. Om frågan om bolagets bildande har fallit eller om aktieteckningen av annat skäl inte är bindande, skall de belopp som har betalats för tecknade aktier samt uppkommen avkastning, med avdrag för kostnader på grund av åtgärd enligt 25 § tredje meningen, genast betalas tillbaka. Detsamma gäller i fråga om apportegendom. Stiftarna och, från den tidpunkt då samtliga stiftare har undertecknat stiftelseurkunden, styrelseledamöterna svarar solidariskt för återbetalningen. Rättshandlingar som har företagits före bolagets registrering",
+          "text": "Styrelsen skall inom sex månader från stiftelseurkundens undertecknande anmäla bolaget för registrering i aktiebolagsregistret. Förutsättningar för registrering",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-23",
+          "number": 23,
+          "text": "Bolaget får registreras endast om 1. summan av de belopp som enligt 5 § fjärde stycket lägst skall betalas för de tecknade aktierna (bolagets aktiekapital) motsvarar det aktiekapital som anges i bolagsordningen eller uppgår till minst minimikapitalet, 2. full och godtagbar betalning har lämnats för samtliga tecknade aktier, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 17 § angående betalning i pengar, 4. ett revisorsyttrande enligt 19 § visas upp angående sådan apportegendom och sådana förpliktelser för bolaget som anges i stiftelseurkunden, och 5. bolagsbildningen även i övrigt har skett i enlighet med denna lag och annan författning. Verkan av att registrering inte sker",
           "references": [
             "17 §",
             "19 §",
-            "23 §",
-            "24 §",
-            "25 §",
             "5 §"
+          ]
+        },
+        {
+          "id": "kap-2-§-24",
+          "number": 24,
+          "text": "Frågan om bolagsbildningen faller, om 1. någon anmälan för registrering av bolaget inte har gjorts inom föreskriven tid, eller 2. Bolagsverket genom ett beslut som har vunnit laga kraft har avskrivit ett ärende om sådan registrering eller har vägrat registrering. Om frågan om bolagets bildande har fallit eller om aktieteckningen av annat skäl inte är bindande, skall de belopp som har betalats för tecknade aktier samt uppkommen avkastning, med avdrag för kostnader på grund av åtgärd enligt 25 § tredje meningen, genast betalas tillbaka. Detsamma gäller i fråga om apportegendom. Stiftarna och, från den tidpunkt då samtliga stiftare har undertecknat stiftelseurkunden, styrelseledamöterna svarar solidariskt för återbetalningen. Rättshandlingar som har företagits före bolagets registrering",
+          "references": [
+            "25 §"
           ]
         },
         {
           "id": "kap-2-§-25",
           "number": 25,
-          "text": "Innan bolaget har registrerats, kan det inte förvärva rättigheter eller åta sig skyldigheter. Det kan inte heller föra talan vid domstol eller någon annan myndighet. Styrelsen kan för bolagets räkning föra talan i mål som rör bolagsbildningen och vidta andra åtgärder för att kräva in tecknade aktiebelopp eller andra utfästa tillskott. 26 § Uppkommer en förpliktelse genom någon åtgärd som vidtas i bolagets namn före registreringen, svarar de som har deltagit i åtgärden eller i beslutet om den solidariskt för förpliktelsen. När bolaget har registrerats, övergår ansvaret på bolaget, om förpliktelsen följer av stiftelseurkunden eller har kommit till efter det att bolaget bildades.",
-          "references": [
-            "26 §"
-          ]
+          "text": "Innan bolaget har registrerats, kan det inte förvärva rättigheter eller åta sig skyldigheter. Det kan inte heller föra talan vid domstol eller någon annan myndighet. Styrelsen kan för bolagets räkning föra talan i mål som rör bolagsbildningen och vidta andra åtgärder för att kräva in tecknade aktiebelopp eller andra utfästa tillskott.",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-26",
+          "number": 26,
+          "text": "Uppkommer en förpliktelse genom någon åtgärd som vidtas i bolagets namn före registreringen, svarar de som har deltagit i åtgärden eller i beslutet om den solidariskt för förpliktelsen. När bolaget har registrerats, övergår ansvaret på bolaget, om förpliktelsen följer av stiftelseurkunden eller har kommit till efter det att bolaget bildades.",
+          "references": []
         },
         {
           "id": "kap-2-§-27",
@@ -267,11 +364,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-2-§-29",
           "number": 29,
-          "text": "Om ett publikt aktiebolag inom två år från registreringen i aktiebolagsregistret träffar avtal med en stiftare eller en aktieägare, som innebär att bolaget förvärvar egendom mot en ersättning som motsvarar minst en tiondel av aktiekapitalet, skall styrelsen inom sex månader underställa bolagsstämman avtalet för godkännande. Det gäller dock inte om förvärvet sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet eller som ett led i bolagets löpande affärsverksamhet. Lag (2007:566). 30 § Följande handlingar skall fogas till styrelsens förslag om godkännande av ett sådant avtal som avses i 29 §: 1. en redogörelse, undertecknad av styrelsen, för de omständigheter som kan vara av betydelse för en bedömning av värdet på egendomen och av avtalet i övrigt, upprättad med tillämpning av 7 och 9 §§, 2. ett yttrande, undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag, över redogörelsen enligt 1, med sådana uppgifter som avses i 19 §. Avtalet skall tillsammans med styrelsens redogörelse och revisorns yttrande hållas tillgängligt hos bolaget för aktieägarna under minst en vecka före den bolagsstämma där beslutet skall fattas.",
+          "text": "Om ett publikt aktiebolag inom två år från registreringen i aktiebolagsregistret träffar avtal med en stiftare eller en aktieägare, som innebär att bolaget förvärvar egendom mot en ersättning som motsvarar minst en tiondel av aktiekapitalet, skall styrelsen inom sex månader underställa bolagsstämman avtalet för godkännande. Det gäller dock inte om förvärvet sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet eller som ett led i bolagets löpande affärsverksamhet. Lag (2007:566).",
+          "references": []
+        },
+        {
+          "id": "kap-2-§-30",
+          "number": 30,
+          "text": "Följande handlingar skall fogas till styrelsens förslag om godkännande av ett sådant avtal som avses i 29 §: 1. en redogörelse, undertecknad av styrelsen, för de omständigheter som kan vara av betydelse för en bedömning av värdet på egendomen och av avtalet i övrigt, upprättad med tillämpning av 7 och 9 §§, 2. ett yttrande, undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag, över redogörelsen enligt 1, med sådana uppgifter som avses i 19 §. Avtalet skall tillsammans med styrelsens redogörelse och revisorns yttrande hållas tillgängligt hos bolaget för aktieägarna under minst en vecka före den bolagsstämma där beslutet skall fattas.",
           "references": [
             "19 §",
             "29 §",
-            "30 §",
             "9 §§"
           ]
         },
@@ -291,6 +393,16 @@ export const aktiebolagslag: LegalText = {
       "title": "Bolagsordning",
       "sections": [
         {
+          "id": "kap-3-§-1",
+          "number": 1,
+          "text": "Bolagsordningen ska ange 1. bolagets företagsnamn, 2. den ort i Sverige där bolagets styrelse ska ha sitt säte, 3. föremålet för bolagets verksamhet, angivet till sin art, 4. aktiekapitalet eller, om detta utan ändring av bolagsordningen ska kunna bestämmas till ett lägre eller högre belopp, minimikapitalet och maximikapitalet, varvid minimikapitalet inte får vara mindre än en fjärdedel av maximikapitalet, 5. antalet aktier eller, om det i bolagsordningen har angetts ett minimikapital och ett maximikapital, ett lägsta och högsta antal aktier, varvid relationen mellan minimikapitalet och det lägsta antalet aktier ska vara densamma som relationen mellan maximikapitalet och det högsta antalet aktier, 6. antalet eller lägsta och högsta antalet styrelseledamöter, 7. antalet eller lägsta och högsta antalet styrelsesuppleanter, om sådana ska finnas, 8. antalet eller lägsta och högsta antalet revisorer, om revisor ska finnas enligt 9 kap. 1 §, 9. hur bolagsstämma ska sammankallas, och 10. den tid som bolagets räkenskapsår ska omfatta. När antalet styrelseledamöter och styrelsesuppleanter anges enligt första stycket 6 och 7, ska arbetstagarrepresentanter som utses enligt lagen (1987:1245) om styrelserepresentation för de privatanställda inte räknas med. I fråga om publika aktiebolag gäller även 11 §. Lag (2018:1682). Uppgift om redovisningsvaluta",
+          "references": [
+            "1 §",
+            "11 §",
+            "9 kap. 1 §"
+          ]
+        },
+        {
           "id": "kap-3-§-2",
           "number": 2,
           "text": "Om bolaget skall ha euro som redovisningsvaluta, skall detta anges i bolagsordningen. I så fall skall det i bolagsordningen också anges att aktiekapitalet skall vara bestämt i euro. Uppgift om verksamhetens syfte",
@@ -299,10 +411,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-3-§-3",
           "number": 3,
-          "text": "Om bolagets verksamhet helt eller delvis skall ha ett annat syfte än att ge vinst till fördelning mellan aktieägarna, skall detta anges i bolagsordningen. I så fall skall det också anges hur bolagets vinst och behållna tillgångar vid bolagets likvidation skall användas. Ändring av bolagsordningen Vem som kan besluta om ändring av bolagsordningen 4 § Ändringar i bolagsordningen beslutas av bolagsstämman. Bestämmelser om bolagsstämmans beslut finns i 7 kap. Anmälan och verkställighet av beslut om ändring av bolagsordningen",
-          "references": [
-            "4 §"
-          ]
+          "text": "Om bolagets verksamhet helt eller delvis skall ha ett annat syfte än att ge vinst till fördelning mellan aktieägarna, skall detta anges i bolagsordningen. I så fall skall det också anges hur bolagets vinst och behållna tillgångar vid bolagets likvidation skall användas. Ändring av bolagsordningen Vem som kan besluta om ändring av bolagsordningen",
+          "references": []
+        },
+        {
+          "id": "kap-3-§-4",
+          "number": 4,
+          "text": "Ändringar i bolagsordningen beslutas av bolagsstämman. Bestämmelser om bolagsstämmans beslut finns i 7 kap. Anmälan och verkställighet av beslut om ändring av bolagsordningen",
+          "references": []
         },
         {
           "id": "kap-3-§-5",
@@ -361,11 +477,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-1",
           "number": 1,
-          "text": "Alla aktier har lika rätt i bolaget, om inte annat följer av 2-5 §§. Föreskrifter om olika aktieslag 2 § I bolagsordningen får det föreskrivas att aktier av olika slag skall finnas eller kunna ges ut. En sådan föreskrift skall innehålla uppgift om 1. olikheterna mellan aktieslagen, och 2. antalet eller andelen aktier av varje slag. I en uppgift enligt första stycket 2 får anges det högsta och det lägsta antalet eller den högsta och den lägsta andelen aktier av ett visst slag. Föreskrifter om företrädesrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler",
+          "text": "Alla aktier har lika rätt i bolaget, om inte annat följer av 2-5 §§. Föreskrifter om olika aktieslag",
           "references": [
-            "2 §",
             "2-5 §§"
           ]
+        },
+        {
+          "id": "kap-4-§-2",
+          "number": 2,
+          "text": "I bolagsordningen får det föreskrivas att aktier av olika slag skall finnas eller kunna ges ut. En sådan föreskrift skall innehålla uppgift om 1. olikheterna mellan aktieslagen, och 2. antalet eller andelen aktier av varje slag. I en uppgift enligt första stycket 2 får anges det högsta och det lägsta antalet eller den högsta och den lägsta andelen aktier av ett visst slag. Föreskrifter om företrädesrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler",
+          "references": []
         },
         {
           "id": "kap-4-§-3",
@@ -406,13 +527,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-8",
           "number": 8,
-          "text": "I bolagsordningen för ett bolag som inte är avstämningsbolag får det tas in ett förbehåll om att en eller flera aktier får överlåtas till en ny ägare endast med bolagets samtycke (samtyckesförbehåll). Innehållet i ett samtyckesförbehåll 9 § Av ett samtyckesförbehåll skall det framgå 1. om bolagsstämman eller styrelsen skall pröva en fråga om samtycke, 2. vilka slag av överlåtelser som kräver bolagets samtycke, 3. om bolaget skall kunna ge eller vägra samtycke för ett mindre antal aktier än ansökan om samtycke omfattar, 4. villkoren för en annan förvärvares övertagande enligt 12 §, 5. den tid, minst en och högst tre månader från behörig ansökan enligt 11 §, inom vilken bolaget skall meddela beslut i frågan om samtycke, 6. den tid, minst en och högst två månader från det att bolaget avsände meddelande enligt 13 §, inom vilken talan enligt 14 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då priset för aktierna blev bestämt, inom vilken aktier som har övertagits av en annan förvärvare enligt 12 § skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla någon uppgift om priset för aktierna vid övertagande enligt 12 §. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Samtyckesförbehålls tillämplighet på utmätta aktier",
+          "text": "I bolagsordningen för ett bolag som inte är avstämningsbolag får det tas in ett förbehåll om att en eller flera aktier får överlåtas till en ny ägare endast med bolagets samtycke (samtyckesförbehåll). Innehållet i ett samtyckesförbehåll",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-9",
+          "number": 9,
+          "text": "Av ett samtyckesförbehåll skall det framgå 1. om bolagsstämman eller styrelsen skall pröva en fråga om samtycke, 2. vilka slag av överlåtelser som kräver bolagets samtycke, 3. om bolaget skall kunna ge eller vägra samtycke för ett mindre antal aktier än ansökan om samtycke omfattar, 4. villkoren för en annan förvärvares övertagande enligt 12 §, 5. den tid, minst en och högst tre månader från behörig ansökan enligt 11 §, inom vilken bolaget skall meddela beslut i frågan om samtycke, 6. den tid, minst en och högst två månader från det att bolaget avsände meddelande enligt 13 §, inom vilken talan enligt 14 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då priset för aktierna blev bestämt, inom vilken aktier som har övertagits av en annan förvärvare enligt 12 § skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla någon uppgift om priset för aktierna vid övertagande enligt 12 §. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Samtyckesförbehålls tillämplighet på utmätta aktier",
           "references": [
             "11 §",
             "12 §",
             "13 §",
-            "14 §",
-            "9 §"
+            "14 §"
           ]
         },
         {
@@ -477,9 +603,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-18",
           "number": 18,
-          "text": "I bolagsordningen för ett bolag som inte är avstämningsbolag får det tas in ett förbehåll om att en aktieägare eller någon annan skall erbjudas att köpa en aktie innan den överlåts till en ny ägare (förköpsförbehåll). Innehållet i ett förköpsförbehåll 19 § Av ett förköpsförbehåll skall det framgå 1. vilka slag av överlåtelser som omfattas av förbehållet, 2. om ett erbjudande om förköp skall kunna utnyttjas för ett mindre antal aktier än erbjudandet omfattar, 3. vilka som skall ha förköpsrätt med uppgift om den ordning i vilken de inbördes skall erbjudas förköp eller hur förköpsrätten är fördelad mellan dem, 4. villkoren för förköp, 5. den tid, minst en och högst två månader från behörig anmälan enligt 20 §, inom vilken förköpsanspråk skall framställas hos bolaget, 6. den tid, minst en och högst två månader från behörig anmälan enligt 21 §, inom vilken talan enligt 22 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då priset blev bestämt, inom vilken förköpta aktier skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla uppgift om priset för aktierna. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Anmälan om överlåtelse av aktier som omfattas av förköpsförbehåll",
+          "text": "I bolagsordningen för ett bolag som inte är avstämningsbolag får det tas in ett förbehåll om att en aktieägare eller någon annan skall erbjudas att köpa en aktie innan den överlåts till en ny ägare (förköpsförbehåll). Innehållet i ett förköpsförbehåll",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-19",
+          "number": 19,
+          "text": "Av ett förköpsförbehåll skall det framgå 1. vilka slag av överlåtelser som omfattas av förbehållet, 2. om ett erbjudande om förköp skall kunna utnyttjas för ett mindre antal aktier än erbjudandet omfattar, 3. vilka som skall ha förköpsrätt med uppgift om den ordning i vilken de inbördes skall erbjudas förköp eller hur förköpsrätten är fördelad mellan dem, 4. villkoren för förköp, 5. den tid, minst en och högst två månader från behörig anmälan enligt 20 §, inom vilken förköpsanspråk skall framställas hos bolaget, 6. den tid, minst en och högst två månader från behörig anmälan enligt 21 §, inom vilken talan enligt 22 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då priset blev bestämt, inom vilken förköpta aktier skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla uppgift om priset för aktierna. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Anmälan om överlåtelse av aktier som omfattas av förköpsförbehåll",
           "references": [
-            "19 §",
             "20 §",
             "21 §",
             "22 §"
@@ -542,9 +673,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-27",
           "number": 27,
-          "text": "I bolagsordningen får det tas in ett förbehåll om att en aktieägare eller någon annan skall ha rätt att lösa en aktie som har övergått till en ny ägare (hembudsförbehåll). I 6 kap. lagen (2006:451) om offentliga uppköpserbjudanden på aktiemarknaden finns bestämmelser om att det i bolagsordningen för vissa aktiebolag får tas in en bestämmelse som innebär att ett förbehåll enligt denna paragraf i vissa situationer skall sakna verkan. Lag (2006:457) Innehållet i ett hembudsförbehåll 28 § Av ett hembudsförbehåll skall det framgå 1. vilka slag av förvärv som omfattas av förbehållet, 2. om ett erbjudande om hembud skall kunna utnyttjas för ett mindre antal aktier än erbjudandet omfattar, 3. vilka som skall ha lösningsrätt med uppgift om den inbördes ordning i vilken de skall erbjudas att lösa aktierna eller hur lösningsrätten är fördelad mellan dem, 4. villkoren för inlösen, 5. den tid, minst en och högst två månader från behörig anmälan enligt 30 § första stycket, inom vilken lösningsanspråk skall framställas hos bolaget, 6. den tid, minst en och högst två månader från den dag lösningsanspråket framställdes hos bolaget, inom vilken en talan enligt 33 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då lösenbeloppet blev bestämt, inom vilken inlösta aktier skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla uppgift om priset för aktierna. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Tillämplighet av hembudsförbehåll vid dödsfall",
+          "text": "I bolagsordningen får det tas in ett förbehåll om att en aktieägare eller någon annan skall ha rätt att lösa en aktie som har övergått till en ny ägare (hembudsförbehåll). I 6 kap. lagen (2006:451) om offentliga uppköpserbjudanden på aktiemarknaden finns bestämmelser om att det i bolagsordningen för vissa aktiebolag får tas in en bestämmelse som innebär att ett förbehåll enligt denna paragraf i vissa situationer skall sakna verkan. Lag (2006:457) Innehållet i ett hembudsförbehåll",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-28",
+          "number": 28,
+          "text": "Av ett hembudsförbehåll skall det framgå 1. vilka slag av förvärv som omfattas av förbehållet, 2. om ett erbjudande om hembud skall kunna utnyttjas för ett mindre antal aktier än erbjudandet omfattar, 3. vilka som skall ha lösningsrätt med uppgift om den inbördes ordning i vilken de skall erbjudas att lösa aktierna eller hur lösningsrätten är fördelad mellan dem, 4. villkoren för inlösen, 5. den tid, minst en och högst två månader från behörig anmälan enligt 30 § första stycket, inom vilken lösningsanspråk skall framställas hos bolaget, 6. den tid, minst en och högst två månader från den dag lösningsanspråket framställdes hos bolaget, inom vilken en talan enligt 33 § skall väckas, och 7. den tid, högst en månad från den tidpunkt då lösenbeloppet blev bestämt, inom vilken inlösta aktier skall betalas. En föreskrift enligt första stycket 4 behöver inte innehålla uppgift om priset för aktierna. Om en sådan uppgift saknas, skall priset bestämmas så att det motsvarar det pris som kan påräknas vid en försäljning under normala förhållanden. Tillämplighet av hembudsförbehåll vid dödsfall",
           "references": [
-            "28 §",
             "30 §",
             "33 §"
           ]
@@ -612,12 +748,26 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-37",
           "number": 37,
-          "text": "En aktieägare får inte utöva de rättigheter gentemot bolaget som aktierna ger förrän han eller hon är införd i aktieboken. I bolag som har utfärdat aktiebrev får dock de rättigheter som avses i 38 § utövas trots att aktieägaren inte är införd i aktieboken. Om en aktie omfattas av en lösningsrätt enligt 27 §, gäller i fråga om rättigheternas utövande vad som föreskrivs i 35 §. Utövande av vissa ekonomiska rättigheter i bolag som inte är avstämningsbolag 38 § I bolag som inte är avstämningsbolag skall en aktieägare eller någon annan som visar upp eller avlämnar ett aktiebrev, en kupong eller något annat särskilt bevis som har getts ut av bolaget, med den begränsning som följer av 41 § tredje meningen, antas vara behörig att 1. ta emot fondaktierättsbevis eller nya aktier vid fondemission, 2. ta emot teckningsrättsbevis eller utöva företrädesrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler, 3. ta emot vinstutdelning, 4. ta emot betalning i samband med minskning av aktiekapitalet för återbetalning till aktieägarna, och 5. ta emot betalning i samband med utskiftning vid bolagets likvidation. Utövande av vissa ekonomiska rättigheter i avstämningsbolag 39 § I avstämningsbolag ska en aktieägare eller förvaltare som på avstämningsdagen är införd i aktieboken och antecknad i ett avstämningsregister enligt 4 kap. lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument, med den begränsning som följer av 41 § tredje meningen, antas vara behörig att 1. ta emot nya aktier vid fondemission, 2. ta emot teckningsrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler, 3. ta emot vinstutdelning, 4. ta emot betalning i samband med minskning av aktiekapitalet för återbetalning till aktieägarna, och 5. ta emot betalning i samband med utskiftning vid bolagets likvidation. Lag (2016:60).",
+          "text": "En aktieägare får inte utöva de rättigheter gentemot bolaget som aktierna ger förrän han eller hon är införd i aktieboken. I bolag som har utfärdat aktiebrev får dock de rättigheter som avses i 38 § utövas trots att aktieägaren inte är införd i aktieboken. Om en aktie omfattas av en lösningsrätt enligt 27 §, gäller i fråga om rättigheternas utövande vad som föreskrivs i 35 §. Utövande av vissa ekonomiska rättigheter i bolag som inte är avstämningsbolag",
           "references": [
             "27 §",
             "35 §",
-            "38 §",
-            "39 §",
+            "38 §"
+          ]
+        },
+        {
+          "id": "kap-4-§-38",
+          "number": 38,
+          "text": "I bolag som inte är avstämningsbolag skall en aktieägare eller någon annan som visar upp eller avlämnar ett aktiebrev, en kupong eller något annat särskilt bevis som har getts ut av bolaget, med den begränsning som följer av 41 § tredje meningen, antas vara behörig att 1. ta emot fondaktierättsbevis eller nya aktier vid fondemission, 2. ta emot teckningsrättsbevis eller utöva företrädesrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler, 3. ta emot vinstutdelning, 4. ta emot betalning i samband med minskning av aktiekapitalet för återbetalning till aktieägarna, och 5. ta emot betalning i samband med utskiftning vid bolagets likvidation. Utövande av vissa ekonomiska rättigheter i avstämningsbolag",
+          "references": [
+            "41 §"
+          ]
+        },
+        {
+          "id": "kap-4-§-39",
+          "number": 39,
+          "text": "I avstämningsbolag ska en aktieägare eller förvaltare som på avstämningsdagen är införd i aktieboken och antecknad i ett avstämningsregister enligt 4 kap. lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument, med den begränsning som följer av 41 § tredje meningen, antas vara behörig att 1. ta emot nya aktier vid fondemission, 2. ta emot teckningsrätt vid nyemission av aktier eller emission av teckningsoptioner eller konvertibler, 3. ta emot vinstutdelning, 4. ta emot betalning i samband med minskning av aktiekapitalet för återbetalning till aktieägarna, och 5. ta emot betalning i samband med utskiftning vid bolagets likvidation. Lag (2016:60).",
+          "references": [
             "41 §"
           ]
         },
@@ -642,10 +792,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-42",
           "number": 42,
-          "text": "Om en aktie har flera ägare, kan dessa endast genom en gemensam företrädare utöva aktieägares rätt gentemot bolaget. Testamentarisk nyttjanderätt m.m. 43 § Vad som sägs i denna lag om aktieägares rätt att företräda aktier skall gälla, förutom den som har förvärvat äganderätten till en aktie, 1. den som genom testamente har fått nyttjanderätten till en aktie tillsammans med rätten att företräda aktien, och 2. den som genom testamente har fått rätten till avkastning av en aktie som skall stå under särskild förvaltning tillsammans med rätten att företräda aktien. Aktie som innehas av aktiebolaget självt",
-          "references": [
-            "43 §"
-          ]
+          "text": "Om en aktie har flera ägare, kan dessa endast genom en gemensam företrädare utöva aktieägares rätt gentemot bolaget. Testamentarisk nyttjanderätt m.m.",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-43",
+          "number": 43,
+          "text": "Vad som sägs i denna lag om aktieägares rätt att företräda aktier skall gälla, förutom den som har förvärvat äganderätten till en aktie, 1. den som genom testamente har fått nyttjanderätten till en aktie tillsammans med rätten att företräda aktien, och 2. den som genom testamente har fått rätten till avkastning av en aktie som skall stå under särskild förvaltning tillsammans med rätten att företräda aktien. Aktie som innehas av aktiebolaget självt",
+          "references": []
         },
         {
           "id": "kap-4-§-44",
@@ -662,10 +816,15 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-46",
           "number": 46,
-          "text": "I syfte att uppnå ett för bolaget ändamålsenligt antal aktier får bolagsstämman besluta att antalet aktier ökas genom att en eller flera aktier delas upp på ett större antal aktier (uppdelning av aktier) eller minskas genom att två eller flera aktier läggs samman till ett mindre antal aktier (sammanläggning av aktier). I avstämningsbolag ska ett beslut enligt första stycket innehålla uppgift om avstämningsdag eller bemyndigande för styrelsen att fastställa en sådan dag. Avstämningsdagen får inte bestämmas så att den infaller innan beslutet om uppdelning eller sammanläggning har registrerats. Lag (2009:37). 47 § Ett beslut om uppdelning eller sammanläggning av aktier är giltigt endast om samtycke har lämnats av 1. samtliga aktieägare som på dagen för bolagsstämman eller, i avstämningsbolag, på den dag som avses i 7 kap. 28 § tredje stycket är införda i aktieboken som ägare till aktier av visst slag som inte motsvarar ett helt antal nya aktier (överskjutande aktier), och 2. i fråga om överskjutande aktier som är förvaltarregistrerade och vars ägare på den dag som avses i 1 inte är införda i aktieboken, förvaltaren. Samtycke enligt första stycket krävs inte av aktieägare vars samtliga överskjutande aktier är föremål för handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Samtycke krävs inte heller av förvaltare, om samtliga överskjutande aktier som omfattas av förvaltningen är föremål för sådan handel. Lag (2007:566).",
+          "text": "I syfte att uppnå ett för bolaget ändamålsenligt antal aktier får bolagsstämman besluta att antalet aktier ökas genom att en eller flera aktier delas upp på ett större antal aktier (uppdelning av aktier) eller minskas genom att två eller flera aktier läggs samman till ett mindre antal aktier (sammanläggning av aktier). I avstämningsbolag ska ett beslut enligt första stycket innehålla uppgift om avstämningsdag eller bemyndigande för styrelsen att fastställa en sådan dag. Avstämningsdagen får inte bestämmas så att den infaller innan beslutet om uppdelning eller sammanläggning har registrerats. Lag (2009:37).",
+          "references": []
+        },
+        {
+          "id": "kap-4-§-47",
+          "number": 47,
+          "text": "Ett beslut om uppdelning eller sammanläggning av aktier är giltigt endast om samtycke har lämnats av 1. samtliga aktieägare som på dagen för bolagsstämman eller, i avstämningsbolag, på den dag som avses i 7 kap. 28 § tredje stycket är införda i aktieboken som ägare till aktier av visst slag som inte motsvarar ett helt antal nya aktier (överskjutande aktier), och 2. i fråga om överskjutande aktier som är förvaltarregistrerade och vars ägare på den dag som avses i 1 inte är införda i aktieboken, förvaltaren. Samtycke enligt första stycket krävs inte av aktieägare vars samtliga överskjutande aktier är föremål för handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Samtycke krävs inte heller av förvaltare, om samtliga överskjutande aktier som omfattas av förvaltningen är föremål för sådan handel. Lag (2007:566).",
           "references": [
             "28 §",
-            "47 §",
             "7 kap. 28 §"
           ]
         },
@@ -699,6 +858,12 @@ export const aktiebolagslag: LegalText = {
       "title": "Aktiebok",
       "sections": [
         {
+          "id": "kap-5-§-1",
+          "number": 1,
+          "text": "I ett aktiebolag skall det finnas en aktiebok. Aktieboken skall innehålla de uppgifter om aktier och aktieägare som föreskrivs i denna lag. Den skall ha till ändamål att 1. ligga till grund för utövandet av aktieägares rättigheter mot bolaget, och 2. ge bolaget, aktieägare och andra underlag för att bedöma ägarförhållandena i bolaget. Aktiebokens form",
+          "references": []
+        },
+        {
           "id": "kap-5-§-2",
           "number": 2,
           "text": "Aktieboken skall föras med automatiserad behandling. I bolag som inte är avstämningsbolag får aktieboken även föras i bunden bok eller i ett betryggande lösblads- eller kortsystem. Arkivering",
@@ -707,13 +872,23 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-5-§-3",
           "number": 3,
-          "text": "Aktieboken skall bevaras så länge bolaget består och under minst tio år efter bolagets upplösning. Om aktieboken förs i vanlig läsbar form, skall den bevaras i sin ursprungliga form. Övergår bolaget till att föra aktieboken med hjälp av automatiserad behandling, skall den gamla aktieboken bevaras under minst tio år efter det att uppgifter om bolagets samtliga aktier fördes in i den nya aktieboken. Om aktieboken förs med automatiserad behandling, skall uppgifter som har tagits bort ur aktieboken bevaras i minst tio år. Uppgifterna får bevaras i vanlig läsbar form eller i annan form som kan läsas, avlyssnas eller på annat sätt uppfattas enbart med tekniskt hjälpmedel. 4 § Bolaget är personuppgiftsansvarigt för den behandling av personuppgifter som förandet av aktieboken innebär. I avstämningsbolag är det, sedan ett avstämningsregister har upprättats, i stället värdepapperscentralen som är personuppgiftsansvarig, om det är en svensk värdepapperscentral som ansvarar för att föra aktieboken. Lag (2018:284). Bolag som inte är avstämningsbolag Aktiebokens innehåll 5 § I ett bolag som inte är avstämningsbolag skall aktieboken innehålla uppgift om 1. varje akties nummer, 2. aktieägarnas namn och personnummer, organisationsnummer eller annat identifieringsnummer samt postadress, 3. vilket slag varje aktie tillhör, om det finns aktier av olika slag i bolaget, 4. huruvida aktiebrev har utfärdats, och 5. i förekommande fall, att aktien omfattas av förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 §. Aktierna skall tas upp i nummerföljd.",
+          "text": "Aktieboken skall bevaras så länge bolaget består och under minst tio år efter bolagets upplösning. Om aktieboken förs i vanlig läsbar form, skall den bevaras i sin ursprungliga form. Övergår bolaget till att föra aktieboken med hjälp av automatiserad behandling, skall den gamla aktieboken bevaras under minst tio år efter det att uppgifter om bolagets samtliga aktier fördes in i den nya aktieboken. Om aktieboken förs med automatiserad behandling, skall uppgifter som har tagits bort ur aktieboken bevaras i minst tio år. Uppgifterna får bevaras i vanlig läsbar form eller i annan form som kan läsas, avlyssnas eller på annat sätt uppfattas enbart med tekniskt hjälpmedel.",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-4",
+          "number": 4,
+          "text": "Bolaget är personuppgiftsansvarigt för den behandling av personuppgifter som förandet av aktieboken innebär. I avstämningsbolag är det, sedan ett avstämningsregister har upprättats, i stället värdepapperscentralen som är personuppgiftsansvarig, om det är en svensk värdepapperscentral som ansvarar för att föra aktieboken. Lag (2018:284). Bolag som inte är avstämningsbolag Aktiebokens innehåll",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-5",
+          "number": 5,
+          "text": "I ett bolag som inte är avstämningsbolag skall aktieboken innehålla uppgift om 1. varje akties nummer, 2. aktieägarnas namn och personnummer, organisationsnummer eller annat identifieringsnummer samt postadress, 3. vilket slag varje aktie tillhör, om det finns aktier av olika slag i bolaget, 4. huruvida aktiebrev har utfärdats, och 5. i förekommande fall, att aktien omfattas av förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 §. Aktierna skall tas upp i nummerföljd.",
           "references": [
             "20 kap. 31 §",
             "27 §",
-            "31 §",
-            "4 §",
-            "5 §"
+            "31 §"
           ]
         },
         {
@@ -753,50 +928,87 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-5-§-9",
           "number": 9,
-          "text": "När någon visar upp ett aktiebrev och enligt 6 kap. 8 § eller på annat sätt styrker sitt förvärv, skall styrelsen eller den som styrelsen har bemyndigat genast föra in denne som aktieägare i aktieboken. Om den sista överlåtelsen på aktiebrevet är tecknad in blanco, skall namnet på förvärvaren sättas ut på aktiebrevet innan han eller hon förs in i aktieboken. På aktiebrevet skall det antecknas att aktieägaren har förts in i aktieboken en viss angiven dag. Om en aktieägare eller någon annan behörig person anmäler att ett förhållande som har angetts i aktieboken har ändrats på annat sätt än som avses i första stycket, skall ändringen genast antecknas. Införingar och anteckningar i aktieboken skall dateras, om inte tidpunkten för införingen eller anteckningen framgår av annat tillgängligt material. Bestämmelser om anteckning i aktieboken av anmälan om förköp och hembud finns i 4 kap. 20-22, 31 och 32 §§. Aktiebokens offentlighet 10 § I bolag som inte är avstämningsbolag skall aktieboken hållas tillgänglig hos bolaget för alla som vill ta del av den. Om aktieboken förs med automatiserad behandling, skall bolaget ge var och en som begär det tillfälle att hos bolaget ta del av en aktuell utskrift eller annan aktuell framställning av aktieboken. Avstämningsbolag Innehållet i aktieboken 11 § I avstämningsbolag skall aktieboken innehålla uppgift om 1. aktieägarnas namn och personnummer, organisationsnummer eller annat identifieringsnummer samt postadress, 2. det antal aktier varje aktieägare innehar, 3. det antal aktier varje aktieägare innehar av olika aktieslag, om det finns aktier av olika slag i bolaget, och 4. i förekommande fall, att aktierna omfattas av förbehåll enligt 4 kap. 6 eller 27 § eller 20 kap. 31 §. Bestämmelserna i 6 § gäller även i fråga om avstämningsbolag. Ansvaret för aktieboken m.m.",
+          "text": "När någon visar upp ett aktiebrev och enligt 6 kap. 8 § eller på annat sätt styrker sitt förvärv, skall styrelsen eller den som styrelsen har bemyndigat genast föra in denne som aktieägare i aktieboken. Om den sista överlåtelsen på aktiebrevet är tecknad in blanco, skall namnet på förvärvaren sättas ut på aktiebrevet innan han eller hon förs in i aktieboken. På aktiebrevet skall det antecknas att aktieägaren har förts in i aktieboken en viss angiven dag. Om en aktieägare eller någon annan behörig person anmäler att ett förhållande som har angetts i aktieboken har ändrats på annat sätt än som avses i första stycket, skall ändringen genast antecknas. Införingar och anteckningar i aktieboken skall dateras, om inte tidpunkten för införingen eller anteckningen framgår av annat tillgängligt material. Bestämmelser om anteckning i aktieboken av anmälan om förköp och hembud finns i 4 kap. 20-22, 31 och 32 §§. Aktiebokens offentlighet",
           "references": [
-            "10 §",
-            "11 §",
+            "32 §§",
+            "6 kap. 8 §",
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-5-§-10",
+          "number": 10,
+          "text": "I bolag som inte är avstämningsbolag skall aktieboken hållas tillgänglig hos bolaget för alla som vill ta del av den. Om aktieboken förs med automatiserad behandling, skall bolaget ge var och en som begär det tillfälle att hos bolaget ta del av en aktuell utskrift eller annan aktuell framställning av aktieboken. Avstämningsbolag Innehållet i aktieboken",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-11",
+          "number": 11,
+          "text": "I avstämningsbolag skall aktieboken innehålla uppgift om 1. aktieägarnas namn och personnummer, organisationsnummer eller annat identifieringsnummer samt postadress, 2. det antal aktier varje aktieägare innehar, 3. det antal aktier varje aktieägare innehar av olika aktieslag, om det finns aktier av olika slag i bolaget, och 4. i förekommande fall, att aktierna omfattas av förbehåll enligt 4 kap. 6 eller 27 § eller 20 kap. 31 §. Bestämmelserna i 6 § gäller även i fråga om avstämningsbolag. Ansvaret för aktieboken m.m.",
+          "references": [
             "20 kap. 31 §",
             "27 §",
             "31 §",
-            "32 §§",
-            "6 kap. 8 §",
-            "6 §",
-            "8 §"
+            "6 §"
           ]
         },
         {
           "id": "kap-5-§-12",
           "number": 12,
-          "text": "Om ett avstämningsförbehåll tas in i bolagsordningen i samband med att bolaget bildas, ska 7-9 §§ tillämpas till dess att bolaget har registrerats i aktiebolagsregistret och ett avstämningsregister har upprättats. Införs ett sådant förbehåll genom ändring av bolagsordningen, ska 7-9 §§ tillämpas till dess att förbehållet har registrerats i aktiebolagsregistret och avstämningsregister har upprättats. Bolaget får träffa ett skriftligt avtal med en värdepapperscentral om att värdepapperscentralen ska ansvara för aktieboken enligt bestämmelserna i denna lag. I ett sådant fall ska värdepapperscentralen, när avstämningsregistret har upprättats, 1. föra och bevara aktieboken, 2. pröva frågor om införande av aktieägare i aktieboken, 3. svara för utskrift av aktieboken, och 4. avstämma aktieboken. Styrelsen ansvarar för att det träffas ett skriftligt avtal med en värdepapperscentral om registrering i avstämningsregister och, i förekommande fall, om ansvaret för aktieboken. Om något sådant avtal om ansvaret för aktieboken inte gäller, ansvarar styrelsen för de uppgifter som anges i andra stycket. Lag (2016:60). 12 a § När ett sådant avtal som avses i 12 § tredje stycket har ingåtts, ska bolaget anmäla för registrering i aktiebolagsregistret vilken eller vilka värdepapperscentraler avstämningsbolaget har anlitat och, i förekommande fall, vilken värdepapperscentral som ansvarar för aktieboken. Lag (2016:60). Införing av aktieägare i aktieboken",
+          "text": "Om ett avstämningsförbehåll tas in i bolagsordningen i samband med att bolaget bildas, ska 7-9 §§ tillämpas till dess att bolaget har registrerats i aktiebolagsregistret och ett avstämningsregister har upprättats. Införs ett sådant förbehåll genom ändring av bolagsordningen, ska 7-9 §§ tillämpas till dess att förbehållet har registrerats i aktiebolagsregistret och avstämningsregister har upprättats. Bolaget får träffa ett skriftligt avtal med en värdepapperscentral om att värdepapperscentralen ska ansvara för aktieboken enligt bestämmelserna i denna lag. I ett sådant fall ska värdepapperscentralen, när avstämningsregistret har upprättats, 1. föra och bevara aktieboken, 2. pröva frågor om införande av aktieägare i aktieboken, 3. svara för utskrift av aktieboken, och 4. avstämma aktieboken. Styrelsen ansvarar för att det träffas ett skriftligt avtal med en värdepapperscentral om registrering i avstämningsregister och, i förekommande fall, om ansvaret för aktieboken. Om något sådant avtal om ansvaret för aktieboken inte gäller, ansvarar styrelsen för de uppgifter som anges i andra stycket. Lag (2016:60).",
           "references": [
-            "12 §",
             "7-9 §§"
+          ]
+        },
+        {
+          "id": "kap-5-§-12a",
+          "number": 12,
+          "text": "När ett sådant avtal som avses i 12 § tredje stycket har ingåtts, ska bolaget anmäla för registrering i aktiebolagsregistret vilken eller vilka värdepapperscentraler avstämningsbolaget har anlitat och, i förekommande fall, vilken värdepapperscentral som ansvarar för aktieboken. Lag (2016:60). Införing av aktieägare i aktieboken",
+          "references": [
+            "12 §"
           ]
         },
         {
           "id": "kap-5-§-13",
           "number": 13,
-          "text": "Den som har antecknats som aktieägare på ett avstämningskonto ska genast föras in i aktieboken, om inte annat följer av denna lag. Lag (2016:60). Införing av förvaltare i aktieboken 14 § Har en aktieägare i ett avstämningsbolag lämnat sina aktier till någon annan för förvaltning enligt 3 kap. 7-12 §§ lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument eller motsvarande förfarande enligt regler i det land där värdepapperscentralen är auktoriserad, kan denne (förvaltaren) på aktieägarens uppdrag föras in i aktieboken i stället för aktieägaren. Detta förutsätter dock att förvaltaren 1. har fått medgivande av värdepapperscentralen till registrering som förvaltare, och 2. uppfyller de villkor som gäller för införing av ägare i aktieboken. I det fall som avses i första stycket ska det i aktieboken anmärkas att aktien innehas för någon annans räkning. Beträffande förvaltaren antecknas i aktieboken samma uppgifter som enligt 11 § ska föras in om aktieägare. I lagen om värdepapperscentraler och kontoföring av finansiella instrument finns i fråga om svenska värdepapperscentraler bestämmelser om 1. medgivande enligt första stycket, 2. förvaltares skyldigheter, och 3. skyldighet för bolaget och värdepapperscentralen att tillhandahålla en sammanställning av uppgifter från förvaltare om aktieägare med mer än 500 förvaltarregistrerade aktier. Lag (2016:60). Rösträttsregistrering",
+          "text": "Den som har antecknats som aktieägare på ett avstämningskonto ska genast föras in i aktieboken, om inte annat följer av denna lag. Lag (2016:60). Införing av förvaltare i aktieboken",
+          "references": []
+        },
+        {
+          "id": "kap-5-§-14",
+          "number": 14,
+          "text": "Har en aktieägare i ett avstämningsbolag lämnat sina aktier till någon annan för förvaltning enligt 3 kap. 7-12 §§ lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument eller motsvarande förfarande enligt regler i det land där värdepapperscentralen är auktoriserad, kan denne (förvaltaren) på aktieägarens uppdrag föras in i aktieboken i stället för aktieägaren. Detta förutsätter dock att förvaltaren 1. har fått medgivande av värdepapperscentralen till registrering som förvaltare, och 2. uppfyller de villkor som gäller för införing av ägare i aktieboken. I det fall som avses i första stycket ska det i aktieboken anmärkas att aktien innehas för någon annans räkning. Beträffande förvaltaren antecknas i aktieboken samma uppgifter som enligt 11 § ska föras in om aktieägare. I lagen om värdepapperscentraler och kontoföring av finansiella instrument finns i fråga om svenska värdepapperscentraler bestämmelser om 1. medgivande enligt första stycket, 2. förvaltares skyldigheter, och 3. skyldighet för bolaget och värdepapperscentralen att tillhandahålla en sammanställning av uppgifter från förvaltare om aktieägare med mer än 500 förvaltarregistrerade aktier. Lag (2016:60). Rösträttsregistrering",
           "references": [
             "11 §",
-            "14 §",
             "7-12 §§"
           ]
         },
         {
           "id": "kap-5-§-15",
           "number": 15,
-          "text": "Om den som äger förvaltarregistrerade aktier vill delta i en bolagsstämma, ska han eller hon på begäran av förvaltaren tillfälligt föras in i aktieboken. Efter den sista av de tidpunkter som avses i 7 kap. 28 § tredje stycket ska aktieägaren strykas från aktieboken. Lag (2020:613). Överföring av uppgifter från äldre aktiebok 16 § Har det införts ett avstämningsförbehåll genom en ändring av bolagsordningen och har ett dessförinnan utfärdat aktiebrev inte visats upp enligt 4 kap. 6 § lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument, får uppgifter om aktien i den äldre aktieboken föras över till den aktiebok som förs av bolaget. Om aktieboken förs av en värdepapperscentral enligt ett sådant avtal som avses i 12 § andra stycket, svarar i stället värdepapperscentralen för denna uppgift. I samband med överföringen ska det anges att aktiebrevet inte har visats upp. Om uppgifterna inte förs över, utgör den äldre aktieboken fortfarande aktiebok i fråga om aktien. Lag (2016:60). 17 § En ägare till en aktie för vilken det har utfärdats aktiebrev innan bolaget blev avstämningsbolag kan inte, i fråga om därefter beslutad utdelning eller emission, få utdelning, utöva aktieägares företrädesrätt att teckna nya aktier, teckningsoptioner eller konvertibler eller, vid fondemission, få ny aktie, förrän 1. anteckning på ett avstämningskonto har skett enligt 4 kap. 6 § lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument eller motsvarande förfarande, och 2. aktieägaren har förts in i aktieboken. Lag (2016:60).",
+          "text": "Om den som äger förvaltarregistrerade aktier vill delta i en bolagsstämma, ska han eller hon på begäran av förvaltaren tillfälligt föras in i aktieboken. Efter den sista av de tidpunkter som avses i 7 kap. 28 § tredje stycket ska aktieägaren strykas från aktieboken. Lag (2020:613). Överföring av uppgifter från äldre aktiebok",
+          "references": [
+            "28 §",
+            "7 kap. 28 §"
+          ]
+        },
+        {
+          "id": "kap-5-§-16",
+          "number": 16,
+          "text": "Har det införts ett avstämningsförbehåll genom en ändring av bolagsordningen och har ett dessförinnan utfärdat aktiebrev inte visats upp enligt 4 kap. 6 § lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument, får uppgifter om aktien i den äldre aktieboken föras över till den aktiebok som förs av bolaget. Om aktieboken förs av en värdepapperscentral enligt ett sådant avtal som avses i 12 § andra stycket, svarar i stället värdepapperscentralen för denna uppgift. I samband med överföringen ska det anges att aktiebrevet inte har visats upp. Om uppgifterna inte förs över, utgör den äldre aktieboken fortfarande aktiebok i fråga om aktien. Lag (2016:60).",
           "references": [
             "12 §",
-            "16 §",
-            "17 §",
-            "28 §",
             "4 kap. 6 §",
-            "6 §",
-            "7 kap. 28 §"
+            "6 §"
+          ]
+        },
+        {
+          "id": "kap-5-§-17",
+          "number": 17,
+          "text": "En ägare till en aktie för vilken det har utfärdats aktiebrev innan bolaget blev avstämningsbolag kan inte, i fråga om därefter beslutad utdelning eller emission, få utdelning, utöva aktieägares företrädesrätt att teckna nya aktier, teckningsoptioner eller konvertibler eller, vid fondemission, få ny aktie, förrän 1. anteckning på ett avstämningskonto har skett enligt 4 kap. 6 § lagen (1998:1479) om värdepapperscentraler och kontoföring av finansiella instrument eller motsvarande förfarande, och 2. aktieägaren har förts in i aktieboken. Lag (2016:60).",
+          "references": [
+            "4 kap. 6 §",
+            "6 §"
           ]
         },
         {
@@ -814,116 +1026,6 @@ export const aktiebolagslag: LegalText = {
           "references": [
             "12 §"
           ]
-        },
-        {
-          "id": "kap-5-§-38",
-          "number": 38,
-          "text": "När den anmälningstid som har satts ut i kallelsen på okända borgenärer har löpt ut och alla kända skulder har betalats, skall likvidatorn skifta bolagets återstående tillgångar. Om det råder tvist om en skuld eller om en skuld inte har förfallit till betalning eller av annan orsak inte kan betalas, skall pengar sättas av till betalning av skulden och återstoden skiftas. Talan mot skifte",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-39",
-          "number": 39,
-          "text": "En aktieägare som är missnöjd med skiftet får väcka talan mot bolaget senast tre månader efter det att slutredovisning enligt 40 § lades fram på bolagsstämma. Om skiftet ändras till följd av en talan enligt första stycket, skall den som har uppburit för mycket återbära överskjutande del. På värdet av den egendom som skall återbäras skall mottagaren betala ränta enligt 5 § räntelagen (1975:635) från det att egendomen lämnades ut till dess att ränta skall betalas enligt 6 § räntelagen till följd av 3 eller 4 § samma lag. Om det uppkommer brist vid återbäringen, är de personer som har medverkat till skiftet ansvariga för denna enligt bestämmelserna i 17 kap. 7 §. Slutredovisning",
-          "references": [
-            "17 kap. 7 §",
-            "4 §",
-            "40 §",
-            "5 §",
-            "6 §",
-            "7 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-40",
-          "number": 40,
-          "text": "När uppdraget som likvidator har fullgjorts, skall likvidatorn så snart som möjligt lämna slutredovisning för förvaltningen genom en förvaltningsberättelse som avser likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för skiftet. Tillsammans med berättelsen skall lämnas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall lämnas till bolagets revisor. Revisorn skall inom en månad därefter lämna en revisionsberättelse över slutredovisningen och förvaltningen under likvidationen. När revisionsberättelsen har lämnats till likvidatorn, skall han eller hon genast kalla aktieägarna till en bolagsstämma för granskning av slutredovisningen. Förvaltningsberättelsen med bifogade redovisningshandlingar och revisionsberättelsen skall under minst två veckor före bolagsstämman hållas tillgängliga hos bolaget för aktieägarna. Kopior av handlingarna skall genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna skall läggas fram på stämman. Bolagsstämman skall fatta beslut angående ansvarsfrihet för likvidatorn. I fråga om beslutet gäller bestämmelserna i 7 kap. 14 § andra stycket. Lag (2007:317). Bolagets upplösning",
-          "references": [
-            "14 §",
-            "7 kap. 14 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-41",
-          "number": 41,
-          "text": "När likvidatorn har lagt fram slutredovisningen, är bolaget upplöst. Likvidatorn skall genast anmäla detta för registrering i aktiebolagsregistret. Kopior av de handlingar som anges i 40 § tredje stycket skall bifogas anmälan. Preskription av rätt till andel i tillgångarna 42 § En aktieägare som inte inom fem år efter det att slutredovisningen lades fram på bolagsstämma anmäler sig för att lyfta vad han eller hon har fått vid skiftet förlorar sin rätt till andel i de skiftade tillgångarna. Med tillämpning av 44 § ska kvarvarande tillgångar då skiftas mellan bolagets övriga aktieägare. Om tillgångarna är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgångarna i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Skadeståndstalan",
-          "references": [
-            "40 §",
-            "42 §",
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-43",
-          "number": 43,
-          "text": "Trots bestämmelserna i 41 § kan ägare till en tiondel av samtliga aktier hos likvidatorn begära bolagsstämma för behandling av en fråga om talan om skadestånd till bolaget enligt 29 kap. 1-3 §§. I så fall skall bestämmelsen i 7 kap. 17 § andra stycket tillämpas. Fortsatt likvidation",
-          "references": [
-            "1-3 §§",
-            "17 §",
-            "41 §",
-            "7 kap. 17 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-44",
-          "number": 44,
-          "text": "Om en tillgång framkommer för bolaget efter dess upplösning enligt 41 § eller om talan väcks mot bolaget eller det av annat skäl uppkommer behov av en likvidationsåtgärd, ska likvidationen fortsätta. Likvidatorn ska genast anmäla den fortsatta likvidationen för registrering i aktiebolagsregistret. Kallelse till den första bolagsstämman efter återupptagandet ska ske enligt bolagsordningen. Dessutom ska skriftlig kallelse sändas till varje aktieägare vars postadress är införd i aktieboken eller på annat sätt känd för bolaget. Om den tillgång som avses i första stycket är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgången i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Upphörande av likvidation 45 § Om bolaget har gått i likvidation på grund av bolagsstämmans beslut eller, i de fall som avses i 17 § och 51 § första stycket, på grund av domstols beslut, kan stämman sedan bolagets revisor har yttrat sig besluta att likvidationen skall upphöra och bolagets verksamhet återupptas. Ett sådant beslut får dock inte fattas, om 1. det finns grund för tvångslikvidation enligt 11 eller 12 §, 2. bolagets eget kapital, beräknat enligt 14 §, enligt revisorns yttrande inte uppgår till det registrerade aktiekapitalet, eller 3. utskiftning har ägt rum. När bolagsstämman beslutar att likvidationen skall upphöra, skall den samtidigt välja styrelse. Likvidatorn skall se till att beslutet om att likvidationen skall upphöra och valet av styrelse genast anmäls för registrering i aktiebolagsregistret. Beslutet får inte verkställas förrän det har registrerats. 46 § Om ett likvidationsbeslut som har gått i verkställighet har blivit upphävt genom en domstols dom eller beslut som har vunnit laga kraft, skall likvidatorn genast anmäla detta för registrering i aktiebolagsregistret samt, om det upphävda likvidationsbeslutet är sådant som avses i 11, 12, 17 eller 21 §, kalla till bolagsstämma för val av styrelse. Lag (2005:812).",
-          "references": [
-            "12 §",
-            "14 §",
-            "17 §",
-            "21 §",
-            "41 §",
-            "45 §",
-            "46 §",
-            "51 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-47",
-          "number": 47,
-          "text": "När en likvidation har upphört enligt 45 eller 46 §, skall 40 § tillämpas. Kopior av de handlingar som anges i 40 § tredje stycket skall ges in till Bolagsverket. Konkurs Registrering",
-          "references": [
-            "40 §",
-            "46 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-48",
-          "number": 48,
-          "text": "Beslut om konkurs och beslut om företagsrekonstruktion skall registreras i aktiebolagsregistret. Företrädare för bolaget i dess egenskap av konkursgäldenär",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-49",
-          "number": 49,
-          "text": "Under konkursen företräds bolaget som konkursgäldenär av den styrelse och verkställande direktör eller de likvidatorer som fanns vid konkursens början. Bestämmelserna i denna lag om rätt att avgå, om entledigande och om nytillsättning gäller dock även under konkursen. Bolagets upplösning efter konkurs",
-          "references": []
-        },
-        {
-          "id": "kap-5-§-50",
-          "number": 50,
-          "text": "Om bolaget är försatt i konkurs och denna avslutas utan överskott, är bolaget upplöst när konkursen avslutas. Finns det efter konkursens avslutande tillgångar som inte omfattas av konkursen eller väcks talan mot bolaget eller uppkommer det av annat skäl behov av en likvidationsåtgärd, ska allmän domstol på ansökan av den som berörs besluta om likvidation. Ett sådant beslut gäller omedelbart. Kallelse till den första bolagsstämman efter beslutet ska ske enligt 44 § andra stycket. I artikel 48.2 i Europaparlamentets och rådets förordning (EU) 2015/848 av den 20 maj 2015 om insolvensförfaranden finns en särskild bestämmelse om när en juridisk person eller ett företag ska anses upplöst. Lag (2017:484). Likvidation efter överskottskonkurs m.m.",
-          "references": [
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-51",
-          "number": 51,
-          "text": " Om en konkurs avslutas med överskott eller läggs ned efter frivillig uppgörelse eller om egendomen i konkursboet återställs till bolaget till följd av att ackord har fastställts, skall allmän domstol i samband med att konkursen avslutas besluta att bolaget skall gå i likvidation. Ett sådant beslut gäller omedelbart. Var bolaget i likvidation när det försattes i konkurs, skall likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket.",
-          "references": [
-            "44 §"
-          ]
-        },
-        {
-          "id": "kap-5-§-52",
-          "number": 52,
-          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516).",
-          "references": [
-            "3 §",
-            "4 §"
-          ]
         }
       ]
     },
@@ -935,27 +1037,66 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-6-§-1",
           "number": 1,
-          "text": "Om en aktieägare i ett aktiebolag som inte är avstämningsbolag begär det, skall bolaget utfärda aktiebrev för hans eller hennes aktier. Uppgifter i aktiebrev 2 § Ett aktiebrev ska ange 1. bolagets företagsnamn, organisationsnummer och bolagskategori, 2. aktieägarens namn och personnummer, organisationsnummer eller annat identifieringsnummer, 3. nummer på de aktier som avses med brevet, 4. aktiernas slag, om det enligt bolagsordningen kan finnas aktier av olika slag, 5. förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 §, om aktierna omfattas av ett sådant förbehåll, och 6. vilken dag aktiebrevet lämnades ut. I det fall som avses i 5 kap. 6 § tredje stycket ska aktiebrevet i stället för fondandelsägarna ange fondens förvaltare liksom fondens beteckning. En uppgift som avses i första stycket 5 kan anges i förkortad form. Förkortningsformer fastställs av regeringen. Lag (2018:1682). Undertecknande av aktiebrev 3 § Ett aktiebrev skall undertecknas av styrelsen eller, enligt styrelsens bemyndigande, av ett värdepappersinstitut. Namnteckningen får återges genom tryckning eller på annat liknande sätt. Bestämmelsen i 1 kap. 13 § skall inte tillämpas. Utlämnande av aktiebrev 4 § Ett aktiebrev får lämnas ut endast till den aktieägare som enligt 2 § första stycket 2 har antecknats på aktiebrevet. För att aktiebrevet skall få lämnas ut krävs dessutom att 1. aktieägaren är införd i aktieboken som ägare till de aktier som avses med brevet, 2. aktierna har betalats, 3. bolaget har registrerats, om aktierna har tecknats vid bolagets bildande, 4. registrering har skett enligt 12 kap. 10 § eller 13 kap. 27 §, om aktierna har kommit till genom fondemission eller nyemission av aktier, samt 5. registrering har skett enligt 14 kap. 43 § eller 15 kap. 38 §, om aktierna har kommit till genom teckning med utnyttjande av optionsrätt eller genom konvertering. Anteckning på aktiebrevet 5 § På ett aktiebrev skall i förekommande fall antecknas att aktieägaren har 1. utnyttjat sin rätt till nya aktier vid en fondemission, 2. utnyttjat sin företrädesrätt att delta i en nyemission av aktier eller en emission av teckningsoptioner eller konvertibler, 3. tagit emot betalning i samband med minskning av aktiekapitalet eller inlösen av aktier som har skett i annan ordning, och 4. tagit emot betalning i samband med utskiftning vid bolagets likvidation. Om en aktie har dragits in utan återbetalning, skall detta antecknas på aktiebrevet så snart som möjligt. Bestämmelserna i första stycket 1-3 skall inte tillämpas om kuponger som hör till aktiebreven skall användas som emissionsbevis eller ges in vid en anmälan för inlösen. Att ett aktiebrev skall förses med en anteckning om att aktieägaren har förts in i aktieboken framgår av 5 kap. 9 §. Utbyte av aktiebrev",
+          "text": "Om en aktieägare i ett aktiebolag som inte är avstämningsbolag begär det, skall bolaget utfärda aktiebrev för hans eller hennes aktier. Uppgifter i aktiebrev",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-2",
+          "number": 2,
+          "text": "Ett aktiebrev ska ange 1. bolagets företagsnamn, organisationsnummer och bolagskategori, 2. aktieägarens namn och personnummer, organisationsnummer eller annat identifieringsnummer, 3. nummer på de aktier som avses med brevet, 4. aktiernas slag, om det enligt bolagsordningen kan finnas aktier av olika slag, 5. förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 §, om aktierna omfattas av ett sådant förbehåll, och 6. vilken dag aktiebrevet lämnades ut. I det fall som avses i 5 kap. 6 § tredje stycket ska aktiebrevet i stället för fondandelsägarna ange fondens förvaltare liksom fondens beteckning. En uppgift som avses i första stycket 5 kan anges i förkortad form. Förkortningsformer fastställs av regeringen. Lag (2018:1682). Undertecknande av aktiebrev",
+          "references": [
+            "20 kap. 31 §",
+            "27 §",
+            "31 §",
+            "5 kap. 6 §",
+            "6 §"
+          ]
+        },
+        {
+          "id": "kap-6-§-3",
+          "number": 3,
+          "text": "Ett aktiebrev skall undertecknas av styrelsen eller, enligt styrelsens bemyndigande, av ett värdepappersinstitut. Namnteckningen får återges genom tryckning eller på annat liknande sätt. Bestämmelsen i 1 kap. 13 § skall inte tillämpas. Utlämnande av aktiebrev",
           "references": [
             "1 kap. 13 §",
+            "13 §"
+          ]
+        },
+        {
+          "id": "kap-6-§-4",
+          "number": 4,
+          "text": "Ett aktiebrev får lämnas ut endast till den aktieägare som enligt 2 § första stycket 2 har antecknats på aktiebrevet. För att aktiebrevet skall få lämnas ut krävs dessutom att 1. aktieägaren är införd i aktieboken som ägare till de aktier som avses med brevet, 2. aktierna har betalats, 3. bolaget har registrerats, om aktierna har tecknats vid bolagets bildande, 4. registrering har skett enligt 12 kap. 10 § eller 13 kap. 27 §, om aktierna har kommit till genom fondemission eller nyemission av aktier, samt 5. registrering har skett enligt 14 kap. 43 § eller 15 kap. 38 §, om aktierna har kommit till genom teckning med utnyttjande av optionsrätt eller genom konvertering. Anteckning på aktiebrevet",
+          "references": [
             "10 §",
             "12 kap. 10 §",
             "13 kap. 27 §",
-            "13 §",
             "14 kap. 43 §",
             "15 kap. 38 §",
             "2 §",
-            "20 kap. 31 §",
-            "27 §"
+            "27 §",
+            "38 §",
+            "43 §"
+          ]
+        },
+        {
+          "id": "kap-6-§-5",
+          "number": 5,
+          "text": "På ett aktiebrev skall i förekommande fall antecknas att aktieägaren har 1. utnyttjat sin rätt till nya aktier vid en fondemission, 2. utnyttjat sin företrädesrätt att delta i en nyemission av aktier eller en emission av teckningsoptioner eller konvertibler, 3. tagit emot betalning i samband med minskning av aktiekapitalet eller inlösen av aktier som har skett i annan ordning, och 4. tagit emot betalning i samband med utskiftning vid bolagets likvidation. Om en aktie har dragits in utan återbetalning, skall detta antecknas på aktiebrevet så snart som möjligt. Bestämmelserna i första stycket 1-3 skall inte tillämpas om kuponger som hör till aktiebreven skall användas som emissionsbevis eller ges in vid en anmälan för inlösen. Att ett aktiebrev skall förses med en anteckning om att aktieägaren har förts in i aktieboken framgår av 5 kap. 9 §. Utbyte av aktiebrev",
+          "references": [
+            "5 kap. 9 §",
+            "9 §"
           ]
         },
         {
           "id": "kap-6-§-6",
           "number": 6,
-          "text": "Ett aktiebrev får bytas ut mot ett eller flera andra aktiebrev. I så fall ska det äldre aktiebrevet och de kuponger som hör till aktiebrevet förstöras. Ett aktiebrev som ges ut i stället för ett annat i samband med utbyte enligt första stycket eller i samband med dödning enligt lagen (2011:900) om dödande av förkommen handling, ska innehålla uppgift om att det ersätter ett tidigare aktiebrev. Lag (2014:539). Innehållande av utdelning eller emissionsbevis 7 § Bolaget får hålla inne utdelning och emissionsbevis som avser en aktie till dess att aktiebrevet lämnas in för anteckning eller för utbyte, om 1. det enligt denna lag skall göras en anteckning på aktiebrevet, eller 2. aktiebrevet skall bytas ut därför att de aktier som aktiebrevet avser skall omvandlas till aktier av ett annat slag, delas upp eller läggas samman. Lag (2007:317). Överlåtelse och pantsättning av aktiebrev m.m.",
-          "references": [
-            "7 §"
-          ]
+          "text": "Ett aktiebrev får bytas ut mot ett eller flera andra aktiebrev. I så fall ska det äldre aktiebrevet och de kuponger som hör till aktiebrevet förstöras. Ett aktiebrev som ges ut i stället för ett annat i samband med utbyte enligt första stycket eller i samband med dödning enligt lagen (2011:900) om dödande av förkommen handling, ska innehålla uppgift om att det ersätter ett tidigare aktiebrev. Lag (2014:539). Innehållande av utdelning eller emissionsbevis",
+          "references": []
+        },
+        {
+          "id": "kap-6-§-7",
+          "number": 7,
+          "text": "Bolaget får hålla inne utdelning och emissionsbevis som avser en aktie till dess att aktiebrevet lämnas in för anteckning eller för utbyte, om 1. det enligt denna lag skall göras en anteckning på aktiebrevet, eller 2. aktiebrevet skall bytas ut därför att de aktier som aktiebrevet avser skall omvandlas till aktier av ett annat slag, delas upp eller läggas samman. Lag (2007:317). Överlåtelse och pantsättning av aktiebrev m.m.",
+          "references": []
         },
         {
           "id": "kap-6-§-8",
@@ -1018,6 +1159,12 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-7-§-4a",
+          "number": 4,
+          "text": "I bolagsordningen får det anges att aktieägarna före bolagsstämman ska kunna utöva sin rösträtt per post eller att styrelsen inför en bolagsstämma får besluta att aktieägarna ska kunna göra detta. Vid poströstning ska användas ett formulär som bolaget tillhandahåller. Formuläret ska, med hänvisning till de framlagda förslag till beslut som anges i förslaget till dagordning för bolagsstämman, innehålla två likvärdigt presenterade svarsalternativ med rubrikerna Ja och Nej. Lag (2010:1516). Biträde vid bolagsstämman",
+          "references": []
+        },
+        {
           "id": "kap-7-§-5",
           "number": 5,
           "text": "En aktieägare eller ett ombud får ha med sig högst två biträden vid bolagsstämman. Biträden får yttra sig vid bolagsstämman. I bolagsordningen får det föreskrivas att en aktieägare får ha med sig biträden vid bolagsstämman endast om han eller hon anmäler antalet biträden till bolaget på det sätt som anges i 2 § andra stycket. Utomståendes närvaro vid bolagsstämman",
@@ -1048,15 +1195,20 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-9",
           "number": 9,
-          "text": " Om två eller flera allmänna pensionsfonder enligt lagen (2000:192) om allmänna pensionsfonder (AP-fonder) och lagen (2000:193) om Sjätte AP-fonden förvaltar aktier i bolaget, får varje fond för sig utöva rösträtt för de aktier fonden förvaltar.",
+          "text": "Om två eller flera allmänna pensionsfonder enligt lagen (2000:192) om allmänna pensionsfonder (AP-fonder) förvaltar aktier i bolaget, får varje fond för sig utöva rösträtt för de aktier fonden förvaltar. Lag (2025:384). Ordinarie bolagsstämma",
           "references": []
         },
         {
           "id": "kap-7-§-10",
           "number": 10,
-          "text": "Inom sex månader från utgången av varje räkenskapsår ska aktieägarna hålla en ordinarie bolagsstämma där styrelsen ska lägga fram årsredovisningen och revisionsberättelsen samt, i ett moderbolag som är skyldigt att upprätta koncernredovisning, koncernredovisningen och koncernrevisionsberättelsen (årsstämma). Om bolaget omfattas av bestämmelserna om hållbarhetsrapport i 6 kap. årsredovisningslagen (1995:1554), ska styrelsen på årsstämman även lägga fram den granskningsberättelse som har lämnats över hållbarhetsrapporten. Om bolaget är ett moderbolag som är skyldigt att upprätta en hållbarhetsrapport för koncernen, ska styrelsen också lägga fram den granskningsberättelse som har lämnats över hållbarhetsrapporten för koncernen. Lag (2024:350). 11 § Vid årsstämman skall beslut fattas 1. om fastställelse av resultaträkningen och balansräkningen samt, i ett moderbolag som är skyldigt att upprätta koncernredovisning, koncernresultaträkningen och koncernbalansräkningen, 2. om dispositioner beträffande bolagets vinst eller förlust enligt den fastställda balansräkningen, 3. om ansvarsfrihet gentemot bolaget för styrelseledamöterna och den verkställande direktören, och 4. i annat ärende som bolagsstämman enligt denna lag eller bolagsordningen skall behandla. I fråga om vissa publika aktiebolag gäller även 61 §. Lag (2006:562).",
+          "text": "Inom sex månader från utgången av varje räkenskapsår ska aktieägarna hålla en ordinarie bolagsstämma där styrelsen ska lägga fram årsredovisningen och revisionsberättelsen samt, i ett moderbolag som är skyldigt att upprätta koncernredovisning, koncernredovisningen och koncernrevisionsberättelsen (årsstämma). Om bolaget omfattas av bestämmelserna om hållbarhetsrapport i 6 kap. årsredovisningslagen (1995:1554), ska styrelsen på årsstämman även lägga fram den granskningsberättelse som har lämnats över hållbarhetsrapporten. Om bolaget är ett moderbolag som är skyldigt att upprätta en hållbarhetsrapport för koncernen, ska styrelsen också lägga fram den granskningsberättelse som har lämnats över hållbarhetsrapporten för koncernen. Lag (2024:350).",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-11",
+          "number": 11,
+          "text": "Vid årsstämman skall beslut fattas 1. om fastställelse av resultaträkningen och balansräkningen samt, i ett moderbolag som är skyldigt att upprätta koncernredovisning, koncernresultaträkningen och koncernbalansräkningen, 2. om dispositioner beträffande bolagets vinst eller förlust enligt den fastställda balansräkningen, 3. om ansvarsfrihet gentemot bolaget för styrelseledamöterna och den verkställande direktören, och 4. i annat ärende som bolagsstämman enligt denna lag eller bolagsordningen skall behandla. I fråga om vissa publika aktiebolag gäller även 61 §. Lag (2006:562).",
           "references": [
-            "11 §",
             "61 §"
           ]
         },
@@ -1123,21 +1275,32 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-20",
           "number": 20,
-          "text": "Kallelse till annan extra bolagsstämma än en sådan som avses i 19 § ska utfärdas tidigast sex veckor och senast två veckor före bolagsstämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 55 a § i stället för denna paragraf. När Finansinspektionen anser att det finns skäl att anta att aktiebolaget kan komma att omfattas av resolution enligt lagen (2015:1016) om resolution, får kallelse till extra bolagsstämma för att pröva en fråga om en ökning av aktiekapitalet utfärdas senare än som anges i första stycket, dock inte senare än tio dagar före stämman. Bestämmelserna i 16 § andra stycket om aktieägares initiativrätt och 28 § tredje stycket om tillhandahållande av aktiebok gäller inte när kallelse sker enligt det här stycket. Lag (2015:1030). Fortsatt bolagsstämma 21 § Om fortsatt bolagsstämma skall hållas fyra veckor eller senare räknat från och med bolagsstämmans första dag, skall det utfärdas en särskild kallelse till den fortsatta bolagsstämman. I så fall skall bestämmelserna i 19 och 20 §§ om tid för kallelse till extra bolagsstämma tillämpas. Kallelse när beslut skall fattas vid två bolagsstämmor",
+          "text": "Kallelse till annan extra bolagsstämma än en sådan som avses i 19 § ska utfärdas tidigast sex veckor och senast två veckor före bolagsstämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 55 a § i stället för denna paragraf. När Finansinspektionen anser att det finns skäl att anta att aktiebolaget kan komma att omfattas av resolution enligt lagen (2015:1016) om resolution, får kallelse till extra bolagsstämma för att pröva en fråga om en ökning av aktiekapitalet utfärdas senare än som anges i första stycket, dock inte senare än tio dagar före stämman. Bestämmelserna i 16 § andra stycket om aktieägares initiativrätt och 28 § tredje stycket om tillhandahållande av aktiebok gäller inte när kallelse sker enligt det här stycket. Lag (2015:1030). Fortsatt bolagsstämma",
           "references": [
             "16 §",
             "19 §",
-            "20 §§",
-            "21 §",
             "28 §"
+          ]
+        },
+        {
+          "id": "kap-7-§-21",
+          "number": 21,
+          "text": "Om fortsatt bolagsstämma skall hållas fyra veckor eller senare räknat från och med bolagsstämmans första dag, skall det utfärdas en särskild kallelse till den fortsatta bolagsstämman. I så fall skall bestämmelserna i 19 och 20 §§ om tid för kallelse till extra bolagsstämma tillämpas. Kallelse när beslut skall fattas vid två bolagsstämmor",
+          "references": [
+            "20 §§"
           ]
         },
         {
           "id": "kap-7-§-22",
           "number": 22,
-          "text": "Om det enligt bolagsordningen krävs att ett bolagsstämmobeslut fattas vid två bolagsstämmor för att bli giltigt, får kallelse till den andra bolagsstämman inte utfärdas innan den första bolagsstämman har hållits. I kallelsen till den andra bolagsstämman skall styrelsen ange det beslut som den första bolagsstämman har fattat. Kallelsesätt 23 § Aktieägarna ska kallas till bolagsstämma på det sätt som anges i bolagsordningen. Kallelse ska även skickas med post till varje aktieägare vars postadress är känd för bolaget, om 1. ordinarie bolagsstämma ska hållas på annan tid än som anges i bolagsordningen, eller 2. bolagsstämman ska a) behandla en fråga om sådan ändring av bolagsordningen som avses i 43-45 §§, b) ta ställning till om bolaget ska gå i likvidation, c) granska likvidators slutredovisning, eller d) behandla en fråga om att bolagets likvidation ska upphöra. I fråga om publika aktiebolag gäller även 56 §. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 56 a § och 64-67 §§ i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
+          "text": "Om det enligt bolagsordningen krävs att ett bolagsstämmobeslut fattas vid två bolagsstämmor för att bli giltigt, får kallelse till den andra bolagsstämman inte utfärdas innan den första bolagsstämman har hållits. I kallelsen till den andra bolagsstämman skall styrelsen ange det beslut som den första bolagsstämman har fattat. Kallelsesätt",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-23",
+          "number": 23,
+          "text": "Aktieägarna ska kallas till bolagsstämma på det sätt som anges i bolagsordningen. Kallelse ska även skickas med post till varje aktieägare vars postadress är känd för bolaget, om 1. ordinarie bolagsstämma ska hållas på annan tid än som anges i bolagsordningen, eller 2. bolagsstämman ska a) behandla en fråga om sådan ändring av bolagsordningen som avses i 43-45 §§, b) ta ställning till om bolaget ska gå i likvidation, c) granska likvidators slutredovisning, eller d) behandla en fråga om att bolagets likvidation ska upphöra. I fråga om publika aktiebolag gäller även 56 §. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 56 a § och 64-67 §§ i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
           "references": [
-            "23 §",
             "43-45 §§",
             "56 §",
             "64-67 §§"
@@ -1163,10 +1326,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-25",
           "number": 25,
-          "text": "Styrelsen ska hålla redovisningshandlingar och revisionsberättelse eller kopior av dessa handlingar tillgängliga hos bolaget för aktieägarna under minst två veckor närmast före årsstämman. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Om bolaget omfattas av bestämmelserna om hållbarhetsrapport i 6 eller 7 kap. årsredovisningslagen (1995:1554), gäller det som sägs i första stycket också den granskningsberättelse som har lämnats över hållbarhetsrapporten. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 56 b § i stället för denna paragraf. Lag (2024:350). Fel i kallelse m.m. 26 § Om en bestämmelse i denna lag eller bolagsordningen som rör kallelse till bolagsstämman eller tillhandahållande av handlingar har åsidosatts i något ärende, får bolagsstämman inte besluta i ärendet utan samtycke av de aktieägare som berörs av felet. Även utan sådant samtycke får dock bolagsstämman avgöra ett ärende som inte har tagits upp i kallelsen, om ärendet enligt lag eller bolagsordningen skall tas upp vid bolagsstämman eller omedelbart föranleds av ett annat ärende som skall avgöras. Den får också besluta att en extra bolagsstämma skall sammankallas för att behandla ärendet. Lag (2007:317). Bolagsstämmans öppnande",
-          "references": [
-            "26 §"
-          ]
+          "text": "Styrelsen ska hålla redovisningshandlingar och revisionsberättelse eller kopior av dessa handlingar tillgängliga hos bolaget för aktieägarna under minst två veckor närmast före årsstämman. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Om bolaget omfattas av bestämmelserna om hållbarhetsrapport i 6 eller 7 kap. årsredovisningslagen (1995:1554), gäller det som sägs i första stycket också den granskningsberättelse som har lämnats över hållbarhetsrapporten. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 56 b § i stället för denna paragraf. Lag (2024:350). Fel i kallelse m.m.",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-26",
+          "number": 26,
+          "text": "Om en bestämmelse i denna lag eller bolagsordningen som rör kallelse till bolagsstämman eller tillhandahållande av handlingar har åsidosatts i något ärende, får bolagsstämman inte besluta i ärendet utan samtycke av de aktieägare som berörs av felet. Även utan sådant samtycke får dock bolagsstämman avgöra ett ärende som inte har tagits upp i kallelsen, om ärendet enligt lag eller bolagsordningen skall tas upp vid bolagsstämman eller omedelbart föranleds av ett annat ärende som skall avgöras. Den får också besluta att en extra bolagsstämma skall sammankallas för att behandla ärendet. Lag (2007:317). Bolagsstämmans öppnande",
+          "references": []
         },
         {
           "id": "kap-7-§-27",
@@ -1198,9 +1365,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-31",
           "number": 31,
-          "text": "Det förslag till dagordning som har bifogats kallelsen skall läggas fram för bolagsstämmans godkännande. Ärendenas numrering får inte ändras. Styrelsens och den verkställande direktörens upplysningsplikt Vilka upplysningar som skall lämnas 32 § Styrelsen och den verkställande direktören skall, om någon aktieägare begär det och styrelsen anser att det kan ske utan väsentlig skada för bolaget, vid bolagsstämman lämna upplysningar om 1. förhållanden som kan inverka på bedömningen av ett ärende på dagordningen, och 2. förhållanden som kan inverka på bedömningen av bolagets ekonomiska situation. I bolag som ingår i en koncern avser upplysningsplikten även bolagets förhållande till annat koncernföretag. Om bolaget är moderbolag, avser upplysningsplikten också koncernredovisningen samt sådana förhållanden beträffande dotterföretag som avses i första stycket. I fråga om publika aktiebolag gäller även 57 §.",
+          "text": "Det förslag till dagordning som har bifogats kallelsen skall läggas fram för bolagsstämmans godkännande. Ärendenas numrering får inte ändras. Styrelsens och den verkställande direktörens upplysningsplikt Vilka upplysningar som skall lämnas",
+          "references": []
+        },
+        {
+          "id": "kap-7-§-32",
+          "number": 32,
+          "text": "Styrelsen och den verkställande direktören skall, om någon aktieägare begär det och styrelsen anser att det kan ske utan väsentlig skada för bolaget, vid bolagsstämman lämna upplysningar om 1. förhållanden som kan inverka på bedömningen av ett ärende på dagordningen, och 2. förhållanden som kan inverka på bedömningen av bolagets ekonomiska situation. I bolag som ingår i en koncern avser upplysningsplikten även bolagets förhållande till annat koncernföretag. Om bolaget är moderbolag, avser upplysningsplikten också koncernredovisningen samt sådana förhållanden beträffande dotterföretag som avses i första stycket. I fråga om publika aktiebolag gäller även 57 §.",
           "references": [
-            "32 §",
             "57 §"
           ]
         },
@@ -1263,7 +1435,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-40",
           "number": 40,
-          "text": "I ärenden som inte avser val utgörs bolagsstämmans beslut av den mening som har fått mer än hälften av de avgivna rösterna. Vid lika röstetal har ordföranden utslagsröst. Första stycket gäller inte, om annat följer av denna lag eller föreskrivs i bolagsordningen. I fall som avses i 42-45 §§ detta kapitel, 13 kap. 2 §, 14 kap. 2 §, 15 kap. 2 §, 16 kap. 8 §, 19 kap. 18 och 33 §§, 20 kap. 5 §, 23 kap. 17 §, 24 kap. 19 §, 24 a kap. 20 § samt 26 kap. 1 och 6 §§ får det dock i bolagsordningen endast föreskrivas längre gående villkor än som anges i nämnda bestämmelser. I fråga om publika aktiebolag gäller även 59 §. Lag (2022:1647). Majoritetskrav vid val 41 § Vid val anses den vald som har fått de flesta rösterna. Vid lika röstetal avgörs valet genom lottdragning, om bolagsstämman inte före valet beslutar att en ny omröstning skall genomföras i händelse av lika röstetal. Första stycket gäller inte om annat föreskrivs i bolagsordningen. I bolagsordningen får dock inte föreskrivas att det för giltigt val fordras fler röster än som anges i första stycket. Majoritetskrav vid beslut om ändring av bolagsordningen",
+          "text": "I ärenden som inte avser val utgörs bolagsstämmans beslut av den mening som har fått mer än hälften av de avgivna rösterna. Vid lika röstetal har ordföranden utslagsröst. Första stycket gäller inte, om annat följer av denna lag eller föreskrivs i bolagsordningen. I fall som avses i 42-45 §§ detta kapitel, 13 kap. 2 §, 14 kap. 2 §, 15 kap. 2 §, 16 kap. 8 §, 19 kap. 18 och 33 §§, 20 kap. 5 §, 23 kap. 17 §, 24 kap. 19 §, 24 a kap. 20 § samt 26 kap. 1 och 6 §§ får det dock i bolagsordningen endast föreskrivas längre gående villkor än som anges i nämnda bestämmelser. I fråga om publika aktiebolag gäller även 59 §. Lag (2022:1647). Majoritetskrav vid val",
           "references": [
             "13 kap. 2 §",
             "14 kap. 2 §",
@@ -1278,20 +1450,50 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-7-§-41",
+          "number": 41,
+          "text": "Vid val anses den vald som har fått de flesta rösterna. Vid lika röstetal avgörs valet genom lottdragning, om bolagsstämman inte före valet beslutar att en ny omröstning skall genomföras i händelse av lika röstetal. Första stycket gäller inte om annat föreskrivs i bolagsordningen. I bolagsordningen får dock inte föreskrivas att det för giltigt val fordras fler röster än som anges i första stycket. Majoritetskrav vid beslut om ändring av bolagsordningen",
+          "references": []
+        },
+        {
           "id": "kap-7-§-42",
           "number": 42,
-          "text": "Ett beslut om ändring av bolagsordningen är giltigt om det har biträtts av aktieägare med minst två tredjedelar av såväl de avgivna rösterna som de aktier som är företrädda vid bolagsstämman, om inte annat följer av 43-45 §§. 43 § I följande fall är ett beslut om ändring av bolagsordningen giltigt endast om det har biträtts av samtliga aktieägare som är närvarande vid bolagsstämman och dessa tillsammans företräder minst nio tiondelar av samtliga aktier i bolaget, nämligen om beslutet när det gäller redan utgivna aktier innebär att 1. aktieägarnas rätt till bolagets vinst eller övriga tillgångar minskas genom en föreskrift enligt 3 kap. 3 §, 2. rätten att överlåta eller förvärva aktier i bolaget inskränks genom förbehåll enligt 4 kap. 8, 18 eller 27 §, eller 3. rättsförhållandet mellan aktier rubbas. 44 § I följande fall är ett beslut om ändring av bolagsordningen giltigt endast om det har biträtts av aktieägare med minst två tredjedelar av de avgivna rösterna och nio tiondelar av de aktier som är företrädda vid bolagsstämman, nämligen om beslutet innebär att 1. det antal aktier för vilka aktieägarna får rösta vid bolagsstämman begränsas, 2. av nettovinsten för räkenskapsåret, efter avdrag för vad som går åt för att täcka balanserad förlust, viss del skall avsättas till en bunden fond, eller 3. användningen av bolagets vinst eller dess behållna tillgångar vid dess upplösning begränsas på annat sätt än som avses i 43 § 1 eller punkten 2 i denna paragraf. 45 § I följande fall är ett beslut om en sådan ändring av bolagsordningen som avses i 43 och 44 §§, trots vad som sägs där, giltigt, om det har biträtts av aktieägare med minst två tredjedelar av såväl de avgivna rösterna som de aktier som är företrädda vid bolagsstämman, nämligen om 1. ändringen försämrar endast viss eller vissa aktiers rätt och samtycke till ändringen lämnas av samtliga vid bolagsstämman närvarande ägare av sådana aktier och dessa ägare tillsammans företräder minst nio tiondelar av alla aktier vars rätt försämras, eller 2. ändringen försämrar endast ett helt aktieslags rätt och ägare till hälften av alla aktier av detta slag och nio tiondelar av de vid bolagsstämman företrädda aktierna av detta slag samtycker till ändringen. Jäv 46 § En aktieägare får inte själv eller genom ombud rösta i fråga om 1. talan mot honom eller henne, 2. hans eller hennes befrielse från skadeståndsansvar eller någon annan förpliktelse mot bolaget, eller 3. talan eller befrielse som avses i 1 och 2 och som gäller någon annan, om aktieägaren i frågan har ett väsentligt intresse som kan strida mot bolagets. Bestämmelserna i första stycket om aktieägare tillämpas också på ombud för aktieägare. Generell inskränkning i bolagsstämmans beslutanderätt",
+          "text": "Ett beslut om ändring av bolagsordningen är giltigt om det har biträtts av aktieägare med minst två tredjedelar av såväl de avgivna rösterna som de aktier som är företrädda vid bolagsstämman, om inte annat följer av 43-45 §§.",
+          "references": [
+            "43-45 §§"
+          ]
+        },
+        {
+          "id": "kap-7-§-43",
+          "number": 43,
+          "text": "I följande fall är ett beslut om ändring av bolagsordningen giltigt endast om det har biträtts av samtliga aktieägare som är närvarande vid bolagsstämman och dessa tillsammans företräder minst nio tiondelar av samtliga aktier i bolaget, nämligen om beslutet när det gäller redan utgivna aktier innebär att 1. aktieägarnas rätt till bolagets vinst eller övriga tillgångar minskas genom en föreskrift enligt 3 kap. 3 §, 2. rätten att överlåta eller förvärva aktier i bolaget inskränks genom förbehåll enligt 4 kap. 8, 18 eller 27 §, eller 3. rättsförhållandet mellan aktier rubbas.",
           "references": [
             "27 §",
             "3 kap. 3 §",
-            "3 §",
-            "43 §",
-            "43-45 §§",
-            "44 §",
-            "44 §§",
-            "45 §",
-            "46 §"
+            "3 §"
           ]
+        },
+        {
+          "id": "kap-7-§-44",
+          "number": 44,
+          "text": "I följande fall är ett beslut om ändring av bolagsordningen giltigt endast om det har biträtts av aktieägare med minst två tredjedelar av de avgivna rösterna och nio tiondelar av de aktier som är företrädda vid bolagsstämman, nämligen om beslutet innebär att 1. det antal aktier för vilka aktieägarna får rösta vid bolagsstämman begränsas, 2. av nettovinsten för räkenskapsåret, efter avdrag för vad som går åt för att täcka balanserad förlust, viss del skall avsättas till en bunden fond, eller 3. användningen av bolagets vinst eller dess behållna tillgångar vid dess upplösning begränsas på annat sätt än som avses i 43 § 1 eller punkten 2 i denna paragraf.",
+          "references": [
+            "43 §"
+          ]
+        },
+        {
+          "id": "kap-7-§-45",
+          "number": 45,
+          "text": "I följande fall är ett beslut om en sådan ändring av bolagsordningen som avses i 43 och 44 §§, trots vad som sägs där, giltigt, om det har biträtts av aktieägare med minst två tredjedelar av såväl de avgivna rösterna som de aktier som är företrädda vid bolagsstämman, nämligen om 1. ändringen försämrar endast viss eller vissa aktiers rätt och samtycke till ändringen lämnas av samtliga vid bolagsstämman närvarande ägare av sådana aktier och dessa ägare tillsammans företräder minst nio tiondelar av alla aktier vars rätt försämras, eller 2. ändringen försämrar endast ett helt aktieslags rätt och ägare till hälften av alla aktier av detta slag och nio tiondelar av de vid bolagsstämman företrädda aktierna av detta slag samtycker till ändringen. Jäv",
+          "references": [
+            "44 §§"
+          ]
+        },
+        {
+          "id": "kap-7-§-46",
+          "number": 46,
+          "text": "En aktieägare får inte själv eller genom ombud rösta i fråga om 1. talan mot honom eller henne, 2. hans eller hennes befrielse från skadeståndsansvar eller någon annan förpliktelse mot bolaget, eller 3. talan eller befrielse som avses i 1 och 2 och som gäller någon annan, om aktieägaren i frågan har ett väsentligt intresse som kan strida mot bolagets. Bestämmelserna i första stycket om aktieägare tillämpas också på ombud för aktieägare. Generell inskränkning i bolagsstämmans beslutanderätt",
+          "references": []
         },
         {
           "id": "kap-7-§-47",
@@ -1306,6 +1508,12 @@ export const aktiebolagslag: LegalText = {
           "references": [
             "68 §"
           ]
+        },
+        {
+          "id": "kap-7-§-48a",
+          "number": 48,
+          "text": "Vid ett beslut av bolagsstämman att godkänna en fusions-, delnings- eller ombildningsplan som avser ett gränsöverskridande förfarande ska bolaget i protokollet eller i en bilaga till protokollet anteckna vilka aktieägare som har röstat mot förslaget att godkänna planen. Lag (2022:1647).",
+          "references": []
         },
         {
           "id": "kap-7-§-49",
@@ -1350,13 +1558,20 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-54",
           "number": 54,
-          "text": "En föreskrift i bolagsordningen att en tvist mellan bolaget och styrelsen, en styrelseledamot, den verkställande direktören, en likvidator eller en aktieägare skall avgöras av en eller flera skiljemän har samma verkan som ett skiljeavtal. Om styrelsen begär skiljeförfarande mot bolaget, tillämpas 53 §. Är det fråga om talan enligt 50 § av styrelsen mot bolagsstämmans beslut, är rätten till talan inte förlorad enligt 51 § första stycket, om styrelsen inom där angiven tid har kallat till bolagsstämma enligt 53 §. I fråga om publika aktiebolag gäller även 60 §. Särskilda bestämmelser för publika aktiebolag Fullmaktsformulär 54 a § Ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, skall inför en bolagsstämma tillhandahålla aktieägarna ett fullmaktsformulär. Formuläret skall tillhandahållas tillsammans med kallelsen till bolagsstämman, om kallelsen sänds till aktieägarna. Om kallelse sker på något annat sätt, skall fullmaktsformuläret tillhandahållas aktieägarna på begäran efter det att bolagsstämman har tillkännagetts. Formuläret får inte innehålla namn på ombud eller ange hur ombudet skall rösta. Bestämmelserna i denna paragraf hindrar inte bolaget att tillhandahålla sådana fullmaktsformulär som avses i 4 §. Lag (2007:566). Utomståendes närvaro vid bolagsstämma",
+          "text": "En föreskrift i bolagsordningen att en tvist mellan bolaget och styrelsen, en styrelseledamot, den verkställande direktören, en likvidator eller en aktieägare skall avgöras av en eller flera skiljemän har samma verkan som ett skiljeavtal. Om styrelsen begär skiljeförfarande mot bolaget, tillämpas 53 §. Är det fråga om talan enligt 50 § av styrelsen mot bolagsstämmans beslut, är rätten till talan inte förlorad enligt 51 § första stycket, om styrelsen inom där angiven tid har kallat till bolagsstämma enligt 53 §. I fråga om publika aktiebolag gäller även 60 §. Särskilda bestämmelser för publika aktiebolag Fullmaktsformulär",
           "references": [
-            "4 §",
             "50 §",
             "51 §",
             "53 §",
             "60 §"
+          ]
+        },
+        {
+          "id": "kap-7-§-54a",
+          "number": 54,
+          "text": "Ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, skall inför en bolagsstämma tillhandahålla aktieägarna ett fullmaktsformulär. Formuläret skall tillhandahållas tillsammans med kallelsen till bolagsstämman, om kallelsen sänds till aktieägarna. Om kallelse sker på något annat sätt, skall fullmaktsformuläret tillhandahållas aktieägarna på begäran efter det att bolagsstämman har tillkännagetts. Formuläret får inte innehålla namn på ombud eller ange hur ombudet skall rösta. Bestämmelserna i denna paragraf hindrar inte bolaget att tillhandahålla sådana fullmaktsformulär som avses i 4 §. Lag (2007:566). Utomståendes närvaro vid bolagsstämma",
+          "references": [
+            "4 §"
           ]
         },
         {
@@ -1369,6 +1584,16 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-7-§-55a",
+          "number": 55,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska kallelse till annan extra bolagsstämma än en sådan som avses i 19 § utfärdas tidigast sex veckor och senast tre veckor före bolagsstämman. När Finansinspektionen anser att det finns skäl att anta att aktiebolaget kan komma att omfattas av resolution enligt lagen (2015:1016) om resolution, får kallelse till extra bolagsstämma för att pröva en fråga om en ökning av aktiekapitalet utfärdas senare än som anges i första stycket, dock inte senare än tio dagar före stämman. Bestämmelserna i 16 § andra stycket om aktieägares initiativrätt och 28 § tredje stycket om tillhandahållande av aktiebok gäller inte när kallelse sker enligt det här stycket. Lag (2015:1030). Kallelsesätt",
+          "references": [
+            "16 §",
+            "19 §",
+            "28 §"
+          ]
+        },
+        {
           "id": "kap-7-§-56",
           "number": 56,
           "text": "I ett annat publikt aktiebolag än som avses i 56 a § ska kallelse till bolagsstämma, utöver vad som följer av 23 §, ske genom annonsering i Post- och Inrikes Tidningar och minst en i bolagsordningen angiven rikstäckande dagstidning. I bolagsordningen får det anges att kallelse i stället ska ske på det sätt som avses i 56 a §. I så fall ska 56 b § tillämpas i stället för 25 §. Vidare ska 56 c § och 63 § andra stycket tillämpas. Lag (2010:1516). Kallelsesätt i vissa publika aktiebolag",
@@ -1377,6 +1602,30 @@ export const aktiebolagslag: LegalText = {
             "25 §",
             "63 §"
           ]
+        },
+        {
+          "id": "kap-7-§-56a",
+          "number": 56,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska kallelse till bolagsstämma ske genom annonsering i Post- och Inrikes Tidningar och genom att kallelsen hålls tillgänglig på bolagets webbplats. Kallelse ska, i förekommande fall, också ske på annat i bolagsordningen angivet sätt. Kallelsen ska genast och utan kostnad för mottagaren skickas med post till de aktieägare som begär det och uppger sin postadress. Om ordinarie bolagsstämma ska hållas på annan tid än den som anges i bolagsordningen, ska kallelsen utan kostnad för mottagaren skickas med post till varje aktieägare vars postadress är känd för bolaget. Samtidigt som kallelse sker ska bolaget genom annonsering i minst en i bolagsordningen angiven rikstäckande dagstidning upplysa om att kallelse har skett och då ange bolagets namn och organisationsnummer, vilket slag av bolagsstämma som ska hållas, tid och plats för stämman samt förutsättningarna enligt 2 § för aktieägarnas rätt att delta i stämman. I annonsen ska det anges hur en aktieägare kan ta del av kallelsen på bolagets webbplats eller få den skickad till sig. Av annonsen ska det även framgå om bolagsstämman ska 1. behandla en fråga om sådan ändring av bolagsordningen som avses i 43-45 §§, 2. ta ställning till om bolaget ska gå i likvidation, 3. granska likvidators slutredovisning eller 4. behandla en fråga om att bolagets likvidation ska upphöra. Lag (2010:1516). Tillhandahållande av handlingar inför årsstämman i vissa publika aktiebolag",
+          "references": [
+            "2 §",
+            "43-45 §§"
+          ]
+        },
+        {
+          "id": "kap-7-§-56b",
+          "number": 56,
+          "text": "I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla redovisningshandlingar, revisionsberättelse och, i förekommande fall, granskningsberättelse, eller kopior av dessa handlingar, tillgängliga hos bolaget för aktieägarna under minst tre veckor närmast före årsstämman. Detsamma gäller styrelsens rapport enligt 8 kap. 53 a § och, i förekommande fall, revisorns yttrande enligt 8 kap. 54 §. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och som uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor fram till och med dagen för årsstämman. De ska vidare läggas fram på stämman. Lag (2024:350). Tillhandahållande av formulär inför bolagsstämman i vissa publika aktiebolag",
+          "references": [
+            "54 §",
+            "8 kap. 54 §"
+          ]
+        },
+        {
+          "id": "kap-7-§-56c",
+          "number": 56,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska fullmaktsformulär och formulär för poströstning hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före bolagsstämman och dagen för stämman. Lag (2010:1516). Styrelsens och den verkställande direktörens upplysningsplikt",
+          "references": []
         },
         {
           "id": "kap-7-§-57",
@@ -1426,11 +1675,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-63",
           "number": 63,
-          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska en kallelse till en bolagsstämma, utöver det som anges i 24 §, även innehålla uppgift om det totala antalet aktier och röster i bolaget samt, i förekommande fall, uppgift om bolagets innehav av egna aktier. Uppgifterna ska avse förhållandena vid den tidpunkt då kallelsen utfärdas och vara fördelade på aktieslag. Kallelsen ska innehålla uppgift om på vilken webbplats som bolaget tillhandahåller de fullmaktsformulär och formulär för poströstning som ska hållas tillgängliga inför stämman och de handlingar som ska läggas fram på stämman. I kallelsen ska det också informeras om aktieägarnas rätt att begära upplysningar enligt 32 §. Lag (2010:1516). Information till aktieägare i vissa publika aktiebolag 64 § Under de förutsättningar som anges i 65-67 §§ får ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, lämna information till aktieägare med elektroniska hjälpmedel även när det i lagen anges att informationen skall lämnas på något annat sätt. Lag (2007:566).",
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska en kallelse till en bolagsstämma, utöver det som anges i 24 §, även innehålla uppgift om det totala antalet aktier och röster i bolaget samt, i förekommande fall, uppgift om bolagets innehav av egna aktier. Uppgifterna ska avse förhållandena vid den tidpunkt då kallelsen utfärdas och vara fördelade på aktieslag. Kallelsen ska innehålla uppgift om på vilken webbplats som bolaget tillhandahåller de fullmaktsformulär och formulär för poströstning som ska hållas tillgängliga inför stämman och de handlingar som ska läggas fram på stämman. I kallelsen ska det också informeras om aktieägarnas rätt att begära upplysningar enligt 32 §. Lag (2010:1516). Information till aktieägare i vissa publika aktiebolag",
           "references": [
             "24 §",
-            "32 §",
-            "64 §",
+            "32 §"
+          ]
+        },
+        {
+          "id": "kap-7-§-64",
+          "number": 64,
+          "text": "Under de förutsättningar som anges i 65-67 §§ får ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, lämna information till aktieägare med elektroniska hjälpmedel även när det i lagen anges att informationen skall lämnas på något annat sätt. Lag (2007:566).",
+          "references": [
             "65-67 §§"
           ]
         },
@@ -1479,7 +1734,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-71",
           "number": 71,
-          "text": "För aktiebolag vars aktier är upptagna till handel på en reglerad marknad finns ytterligare bestämmelser om information som ska överföras till aktieägarna i kommissionens genomförandeförordning (EU) 201836/EG vad gäller identifiering av aktieägare, överföring av information och underlättande av utövandet av aktieägarrättigheter. Lag (2020:613).",
+          "text": "För aktiebolag vars aktier är upptagna till handel på en reglerad marknad finns ytterligare bestämmelser om information som ska överföras till aktieägarna i kommissionens genomförandeförordning (EU) 2018/1212 av den 3 september 2018 om fastställande av minimikrav för genomförandet av bestämmelserna i Europaparlamentets och rådets direktiv 2007/36/EG vad gäller identifiering av aktieägare, överföring av information och underlättande av utövandet av aktieägarrättigheter. Lag (2020:613).",
           "references": []
         }
       ]
@@ -1492,13 +1747,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-1",
           "number": 1,
-          "text": "Ett aktiebolag skall ha en styrelse med en eller flera ledamöter. Av 3 kap. 1 § första stycket framgår att antalet styrelseledamöter eller lägsta och högsta antalet styrelseledamöter skall anges i bolagsordningen. I fråga om publika aktiebolag gäller även 46 §. 2 § Bestämmelser om arbetstagarrepresentanter i styrelsen finns i lagen (1987:1245) om styrelserepresentation för de privatanställda och i lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Om inte något annat följer av dessa lagar eller föreskrivs i denna lag, ska arbetstagarrepresentanter vid tillämpningen av denna lag jämställas med styrelseledamöter. Lag (2022:1647). Styrelsesuppleanter",
+          "text": "Ett aktiebolag skall ha en styrelse med en eller flera ledamöter. Av 3 kap. 1 § första stycket framgår att antalet styrelseledamöter eller lägsta och högsta antalet styrelseledamöter skall anges i bolagsordningen. I fråga om publika aktiebolag gäller även 46 §.",
           "references": [
             "1 §",
-            "2 §",
             "3 kap. 1 §",
             "46 §"
           ]
+        },
+        {
+          "id": "kap-8-§-2",
+          "number": 2,
+          "text": "Bestämmelser om arbetstagarrepresentanter i styrelsen finns i lagen (1987:1245) om styrelserepresentation för de privatanställda och i lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Om inte något annat följer av dessa lagar eller föreskrivs i denna lag, ska arbetstagarrepresentanter vid tillämpningen av denna lag jämställas med styrelseledamöter. Lag (2022:1647). Styrelsesuppleanter",
+          "references": []
         },
         {
           "id": "kap-8-§-3",
@@ -1588,11 +1848,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-15",
           "number": 15,
-          "text": "Om en styrelseledamots uppdrag upphör i förtid eller om bestämmelserna i 11 § hindrar honom eller henne att vara styrelseledamot och det inte finns någon suppleant som kan träda in i hans eller hennes ställe, skall övriga styrelseledamöter vidta åtgärder för att en ny styrelseledamot utses för den återstående mandattiden. Sådana åtgärder behöver dock inte vidtas, om den förutvarande styrelseledamoten var en arbetstagarrepresentant. Skall styrelseledamoten väljas av bolagsstämman, får valet anstå till nästa årsstämma, om styrelsen är beslutför med kvarstående ledamöter och suppleanter. Bolagsverkets beslut om ersättare för en styrelseledamot 16 § Om en styrelseledamot som enligt bolagsordningen ska utses på ett annat sätt än genom val av bolagsstämman inte har utsetts, ska Bolagsverket på ansökan utse en ersättare. Ansökan får göras av en styrelseledamot, en aktieägare, en borgenär eller någon annan vars rätt kan vara beroende av att det finns någon som kan företräda bolaget. Lag (2011:899). Styrelsens ordförande",
+          "text": "Om en styrelseledamots uppdrag upphör i förtid eller om bestämmelserna i 11 § hindrar honom eller henne att vara styrelseledamot och det inte finns någon suppleant som kan träda in i hans eller hennes ställe, skall övriga styrelseledamöter vidta åtgärder för att en ny styrelseledamot utses för den återstående mandattiden. Sådana åtgärder behöver dock inte vidtas, om den förutvarande styrelseledamoten var en arbetstagarrepresentant. Skall styrelseledamoten väljas av bolagsstämman, får valet anstå till nästa årsstämma, om styrelsen är beslutför med kvarstående ledamöter och suppleanter. Bolagsverkets beslut om ersättare för en styrelseledamot",
           "references": [
-            "11 §",
-            "16 §"
+            "11 §"
           ]
+        },
+        {
+          "id": "kap-8-§-16",
+          "number": 16,
+          "text": "Om en styrelseledamot som enligt bolagsordningen ska utses på ett annat sätt än genom val av bolagsstämman inte har utsetts, ska Bolagsverket på ansökan utse en ersättare. Ansökan får göras av en styrelseledamot, en aktieägare, en borgenär eller någon annan vars rätt kan vara beroende av att det finns någon som kan företräda bolaget. Lag (2011:899). Styrelsens ordförande",
+          "references": []
         },
         {
           "id": "kap-8-§-17",
@@ -1632,13 +1897,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-22",
           "number": 22,
-          "text": "Som styrelsens beslut gäller, om bolagsordningen inte föreskriver särskild röstmajoritet, den mening som mer än hälften av de närvarande röstar för vid sammanträdet. Vid lika röstetal har ordföranden utslagsröst. Är styrelsen inte fulltalig, skall de som röstar för beslutet dock utgöra mer än en tredjedel av hela antalet styrelseledamöter, om inte annat föreskrivs i bolagsordningen. Jäv för styrelseledamot 23 § En styrelseledamot får inte handlägga en fråga om 1. avtal mellan styrelseledamoten och bolaget, 2. avtal mellan bolaget och en tredje man, om styrelseledamoten i frågan har ett väsentligt intresse som kan strida mot bolagets, eller 3. avtal mellan bolaget och en juridisk person som styrelseledamoten ensam eller tillsammans med någon annan får företräda. Bestämmelserna i första stycket gäller inte om styrelseledamoten, direkt eller indirekt genom en juridisk person, äger samtliga aktier i bolaget. Bestämmelsen i första stycket 3 gäller inte heller om bolagets motpart är ett företag i samma koncern eller i en företagsgrupp av motsvarande slag. Med avtal som avses i första stycket jämställs rättegång eller annan talan. Arvoden och annan ersättning till styrelseledamot",
-          "references": [
-            "23 §"
-          ]
+          "text": "Som styrelsens beslut gäller, om bolagsordningen inte föreskriver särskild röstmajoritet, den mening som mer än hälften av de närvarande röstar för vid sammanträdet. Vid lika röstetal har ordföranden utslagsröst. Är styrelsen inte fulltalig, skall de som röstar för beslutet dock utgöra mer än en tredjedel av hela antalet styrelseledamöter, om inte annat föreskrivs i bolagsordningen. Jäv för styrelseledamot",
+          "references": []
         },
         {
           "id": "kap-8-§-23",
+          "number": 23,
+          "text": "En styrelseledamot får inte handlägga en fråga om 1. avtal mellan styrelseledamoten och bolaget, 2. avtal mellan bolaget och en tredje man, om styrelseledamoten i frågan har ett väsentligt intresse som kan strida mot bolagets, eller 3. avtal mellan bolaget och en juridisk person som styrelseledamoten ensam eller tillsammans med någon annan får företräda. Bestämmelserna i första stycket gäller inte om styrelseledamoten, direkt eller indirekt genom en juridisk person, äger samtliga aktier i bolaget. Bestämmelsen i första stycket 3 gäller inte heller om bolagets motpart är ett företag i samma koncern eller i en företagsgrupp av motsvarande slag. Med avtal som avses i första stycket jämställs rättegång eller annan talan. Arvoden och annan ersättning till styrelseledamot",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-23a",
           "number": 23,
           "text": "Bolagsstämman skall besluta om arvode och annan ersättning för styrelseuppdrag till var och en av styrelseledamöterna. Första stycket gäller inte sådana emissioner och överlåtelser som omfattas av 16 kap. Lag (2006:562). Styrelseprotokoll",
           "references": []
@@ -1664,12 +1933,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-27",
           "number": 27,
-          "text": "Styrelsen får utse en verkställande direktör att fullgöra de uppgifter som anges i 29 §. För publika aktiebolag gäller även 50 §. Vice verkställande direktör 28 § Om bolaget har en verkställande direktör, får styrelsen utse en eller flera vice verkställande direktörer. Bestämmelserna i denna lag om den verkställande direktören skall i tillämpliga delar gälla även en vice verkställande direktör. Om styrelsen har utsett flera vice verkställande direktörer, skall den meddela skriftliga instruktioner om i vilken inbördes ordning dessa skall träda in i den verkställande direktörens ställe. Den verkställande direktörens uppgifter",
+          "text": "Styrelsen får utse en verkställande direktör att fullgöra de uppgifter som anges i 29 §. För publika aktiebolag gäller även 50 §. Vice verkställande direktör",
           "references": [
-            "28 §",
             "29 §",
             "50 §"
           ]
+        },
+        {
+          "id": "kap-8-§-28",
+          "number": 28,
+          "text": "Om bolaget har en verkställande direktör, får styrelsen utse en eller flera vice verkställande direktörer. Bestämmelserna i denna lag om den verkställande direktören skall i tillämpliga delar gälla även en vice verkställande direktör. Om styrelsen har utsett flera vice verkställande direktörer, skall den meddela skriftliga instruktioner om i vilken inbördes ordning dessa skall träda in i den verkställande direktörens ställe. Den verkställande direktörens uppgifter",
+          "references": []
         },
         {
           "id": "kap-8-§-29",
@@ -1702,10 +1976,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-33",
           "number": 33,
-          "text": "Ett beslut att utse en verkställande direktör i bolaget samt beslut om den verkställande direktörens avgång eller entledigande har verkan från den tidpunkt då anmälan om registrering kom in till Bolagsverket eller från den senare tidpunkt som har angetts i beslutet. Jäv för den verkställande direktören 34 § Den verkställande direktören får inte handlägga en fråga om 1. avtal mellan den verkställande direktören och bolaget, 2. avtal mellan bolaget och tredje man, om den verkställande direktören i frågan har ett väsentligt intresse som kan strida mot bolagets, eller 3. avtal mellan bolaget och en juridisk person som den verkställande direktören ensam eller tillsammans med någon annan får företräda. Bestämmelserna i första stycket gäller inte om den verkställande direktören, direkt eller indirekt genom en juridisk person, äger samtliga aktier i bolaget. Bestämmelsen i första stycket 3 gäller inte heller om bolagets motpart är ett företag i samma koncern eller i en företagsgrupp av motsvarande slag. Med sådana avtal som avses i första stycket jämställs rättegång eller annan talan. Styrelsen som bolagets ställföreträdare",
-          "references": [
-            "34 §"
-          ]
+          "text": "Ett beslut att utse en verkställande direktör i bolaget samt beslut om den verkställande direktörens avgång eller entledigande har verkan från den tidpunkt då anmälan om registrering kom in till Bolagsverket eller från den senare tidpunkt som har angetts i beslutet. Jäv för den verkställande direktören",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-34",
+          "number": 34,
+          "text": "Den verkställande direktören får inte handlägga en fråga om 1. avtal mellan den verkställande direktören och bolaget, 2. avtal mellan bolaget och tredje man, om den verkställande direktören i frågan har ett väsentligt intresse som kan strida mot bolagets, eller 3. avtal mellan bolaget och en juridisk person som den verkställande direktören ensam eller tillsammans med någon annan får företräda. Bestämmelserna i första stycket gäller inte om den verkställande direktören, direkt eller indirekt genom en juridisk person, äger samtliga aktier i bolaget. Bestämmelsen i första stycket 3 gäller inte heller om bolagets motpart är ett företag i samma koncern eller i en företagsgrupp av motsvarande slag. Med sådana avtal som avses i första stycket jämställs rättegång eller annan talan. Styrelsen som bolagets ställföreträdare",
+          "references": []
         },
         {
           "id": "kap-8-§-35",
@@ -1761,11 +2039,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-42",
           "number": 42,
-          "text": "Om styrelsen eller en särskild firmatecknare har företagit en rättshandling för bolaget och då har handlat i strid med bestämmelserna i denna lag om bolagsorganens behörighet, gäller rättshandlingen inte mot bolaget. Detsamma är fallet om en verkställande direktör när en rättshandling företogs överskred sin behörighet enligt 29 § och bolaget visar att motparten insåg eller bort inse behörighetsöverskridandet. En rättshandling gäller inte heller mot bolaget om styrelsen, den verkställande direktören eller en särskild firmatecknare har överskridit sin befogenhet och bolaget visar att motparten insåg eller bort inse befogenhetsöverskridandet. Detta gäller dock inte när styrelsen eller den verkställande direktören har överträtt en föreskrift om föremålet för bolagets verksamhet eller andra föreskrifter som har meddelats i bolagsordningen eller av ett annat bolagsorgan. Registrering 43 § Bolaget ska för registrering i aktiebolagsregistret anmäla 1. bolagets postadress, 2. vem som har utsetts till styrelseledamot, styrelsesuppleant, styrelsens ordförande, verkställande direktör, vice verkställande direktör och särskild delgivningsmottagare, 3. av vilka och hur bolagets firma tecknas. Anmälan ska innehålla uppgifter om postadress för de personer som anges i första stycket 2 och 3. Om postadressen avviker från personernas hemvist, ska även hemvisten anges. Anmälan ska vidare innehålla en uppgift om de angivna personernas personnummer eller, om sådant saknas, födelsedatum. Om en styrelseledamot eller en styrelsesuppleant har utsetts enligt lagen (1987:1245) om styrelserepresentation för de privatanställda eller lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, ska detta anges. Även den som anmälan gäller har rätt att göra anmälan enligt första stycket. Den som har utsetts till en sådan befattning som avses i första stycket 2 har även rätt att anmäla företrädarens avgång. Lag (2022:1647).",
+          "text": "Om styrelsen eller en särskild firmatecknare har företagit en rättshandling för bolaget och då har handlat i strid med bestämmelserna i denna lag om bolagsorganens behörighet, gäller rättshandlingen inte mot bolaget. Detsamma är fallet om en verkställande direktör när en rättshandling företogs överskred sin behörighet enligt 29 § och bolaget visar att motparten insåg eller bort inse behörighetsöverskridandet. En rättshandling gäller inte heller mot bolaget om styrelsen, den verkställande direktören eller en särskild firmatecknare har överskridit sin befogenhet och bolaget visar att motparten insåg eller bort inse befogenhetsöverskridandet. Detta gäller dock inte när styrelsen eller den verkställande direktören har överträtt en föreskrift om föremålet för bolagets verksamhet eller andra föreskrifter som har meddelats i bolagsordningen eller av ett annat bolagsorgan. Registrering",
           "references": [
-            "29 §",
-            "43 §"
+            "29 §"
           ]
+        },
+        {
+          "id": "kap-8-§-43",
+          "number": 43,
+          "text": "Bolaget ska för registrering i aktiebolagsregistret anmäla 1. bolagets postadress, 2. vem som har utsetts till styrelseledamot, styrelsesuppleant, styrelsens ordförande, verkställande direktör, vice verkställande direktör och särskild delgivningsmottagare, 3. av vilka och hur bolagets firma tecknas. Anmälan ska innehålla uppgifter om postadress för de personer som anges i första stycket 2 och 3. Om postadressen avviker från personernas hemvist, ska även hemvisten anges. Anmälan ska vidare innehålla en uppgift om de angivna personernas personnummer eller, om sådant saknas, födelsedatum. Om en styrelseledamot eller en styrelsesuppleant har utsetts enligt lagen (1987:1245) om styrelserepresentation för de privatanställda eller lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, ska detta anges. Även den som anmälan gäller har rätt att göra anmälan enligt första stycket. Den som har utsetts till en sådan befattning som avses i första stycket 2 har även rätt att anmäla företrädarens avgång. Lag (2022:1647).",
+          "references": []
         },
         {
           "id": "kap-8-§-44",
@@ -1780,13 +2063,25 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-8-§-45",
           "number": 45,
-          "text": "En styrelseledamot och en verkställande direktör ska när de tillträder sitt uppdrag till bolaget anmäla sitt innehav av aktier i bolaget och i andra bolag inom samma koncern, om det inte har skett dessförinnan. Förändringar i aktieinnehavet ska anmälas inom en månad. De anmälda uppgifterna ska antecknas i aktieboken. Första stycket gäller inte i den utsträckning styrelseledamoten eller den verkställande direktören är anmälningsskyldig enligt artikel 19 i Europaparlamentets och rådets förordning (EU) nr 596612412572/EG. Lag (2016:719). Särskilda bestämmelser för publika aktiebolag Antalet styrelseledamöter",
+          "text": "En styrelseledamot och en verkställande direktör ska när de tillträder sitt uppdrag till bolaget anmäla sitt innehav av aktier i bolaget och i andra bolag inom samma koncern, om det inte har skett dessförinnan. Förändringar i aktieinnehavet ska anmälas inom en månad. De anmälda uppgifterna ska antecknas i aktieboken. Första stycket gäller inte i den utsträckning styrelseledamoten eller den verkställande direktören är anmälningsskyldig enligt artikel 19 i Europaparlamentets och rådets förordning (EU) nr 596/2014 av den 16 april 2014 om marknadsmissbruk (marknadsmissbruksförordning) och om upphävande av Europaparlamentets och rådets direktiv 2003/6/EG och kommissionens direktiv 2003/124/EG, 2003/125/EG och 2004/72/EG. Lag (2016:719). Särskilda bestämmelser för publika aktiebolag Antalet styrelseledamöter",
           "references": []
         },
         {
           "id": "kap-8-§-46",
           "number": 46,
           "text": "I ett publikt aktiebolag skall styrelsen ha minst tre ledamöter. Arbetsordning",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-46a",
+          "number": 46,
+          "text": "Styrelsen i ett publikt aktiebolag ska årligen fastställa en skriftlig arbetsordning för sitt arbete. I arbetsordningen ska det anges hur arbetet i förekommande fall ska fördelas mellan styrelsens ledamöter, hur ofta styrelsen ska sammanträda och i vilken utsträckning suppleanterna ska delta i styrelsens arbete och kallas till dess sammanträden. Lag (2014:539). Instruktioner om arbetsfördelningen mellan bolagsorganen",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-46b",
+          "number": 46,
+          "text": "Styrelsen i ett publikt aktiebolag ska i skriftliga instruktioner ange arbetsfördelningen mellan å ena sidan styrelsen och å andra sidan den verkställande direktören och de andra organ som styrelsen inrättar. Lag (2014:539). Vem som utser styrelseledamöter",
           "references": []
         },
         {
@@ -1810,12 +2105,30 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-8-§-49a",
+          "number": 49,
+          "text": "I ett aktiebolag vars överlåtbara värdepapper är upptagna till handel på en reglerad marknad ska styrelsen ha ett revisionsutskott. Utskottets ledamöter får inte vara anställda av bolaget. Minst en ledamot ska ha redovisnings- eller revisionskompetens. Utskottet ska utse en av ledamöterna att vara dess ordförande. Bolaget får besluta att styrelsen inte ska ha något revisionsutskott, förutsatt att styrelsen 1. fullgör de uppgifter som anges i 49 b § och de uppgifter som revisionsutskottet har enligt Europaparlamentets och rådets förordning (EU) nr 537/2014 av den 16 april 2014 om särskilda krav avseende lagstadgad revision av företag av allmänt intresse och om upphävande av kommissionens beslut 2005/909/EG, i den ursprungliga lydelsen, och 2. uppfyller det krav som anges i första stycket tredje meningen. Lag (2016:431).",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-49b",
+          "number": 49,
+          "text": "Revisionsutskottet ska, utan att det påverkar styrelsens ansvar och uppgifter i övrigt, 1. övervaka bolagets finansiella rapportering och hållbarhetsrapportering samt lämna rekommendationer och förslag för att säkerställa rapporteringens tillförlitlighet, 2. med avseende på den finansiella rapporteringen och hållbarhetsrapporteringen övervaka effektiviteten i bolagets interna kontroll, internrevision och riskhantering, 3. hålla sig informerat om revisionen av årsredovisningen och koncernredovisningen, om granskningen av hållbarhetsrapporten för bolaget och för koncernen samt om slutsatserna av Revisorsinspektionens kvalitetskontroll, 4. informera styrelsen om resultatet av revisionen och granskningen av hållbarhetsrapporteringen och om på vilket sätt revisionen och granskningen bidrog till den finansiella rapporteringens respektive hållbarhetsrapporteringens tillförlitlighet samt om vilken funktion utskottet har haft, 5. granska och övervaka revisorns opartiskhet och självständighet och då särskilt uppmärksamma om revisorn tillhandahåller bolaget andra tjänster än revision och granskning av hållbarhetsrapporter, och 6. biträda vid upprättandet av förslag till bolagsstämmans beslut om revisorsval. Om bolaget har en valberedning som aktieägarna har ett betydande inflytande i, får bolaget ge valberedningen i uppgift att i stället för revisionsutskottet lämna ett förslag till bolagsstämman om val av revisor. Lag (2024:350). Verkställande direktör",
+          "references": []
+        },
+        {
           "id": "kap-8-§-50",
           "number": 50,
           "text": "I ett publikt aktiebolag skall det alltid finnas en verkställande direktör som fullgör de uppgifter som anges i 29 §.",
           "references": [
             "29 §"
           ]
+        },
+        {
+          "id": "kap-8-§-50a",
+          "number": 50,
+          "text": "Har upphävts genom lag (2016:431). Riktlinjer för ersättning till ledande befattningshavare i vissa publika aktiebolag",
+          "references": []
         },
         {
           "id": "kap-8-§-51",
@@ -1833,6 +2146,18 @@ export const aktiebolagslag: LegalText = {
           "id": "kap-8-§-53",
           "number": 53,
           "text": "I riktlinjerna får det bestämmas att styrelsen tillfälligt får frångå dem, om det anges vilka delar det ska vara möjligt att frångå och om ordningen för styrelsens hantering anges. Styrelsen får endast tillåtas att frångå riktlinjerna i enskilda fall där det finns särskilda skäl för det och ett avsteg är nödvändigt för att tillgodose bolagets långsiktiga intressen och hållbarhet eller för att säkerställa bolagets ekonomiska bärkraft. Lag (2019:288).",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-53a",
+          "number": 53,
+          "text": "Styrelsen ska för varje räkenskapsår upprätta en rapport över utbetald och innestående ersättning som omfattas av riktlinjerna. Rapporten ska ange 1. den totala ersättningen till varje enskild befattningshavare uppdelad per ersättningsform, med uppgift om den relativa andelen fast och rörlig ersättning, hur kriterierna för utdelning av rörlig ersättning har tillämpats och hur den totala ersättningen förhåller sig till bolagets riktlinjer, 2. den årliga förändringen av ersättningen till varje enskild befattningshavare, av bolagets resultat och av den genomsnittliga ersättningen i måttenheten heltidsekvivalenter för bolagets andra anställda under åtminstone de fem senaste räkenskapsåren, 3. ersättning till varje enskild befattningshavare från ett annat företag inom samma koncern, 4. antalet aktier och aktieoptioner som har tilldelats eller erbjudits varje enskild befattningshavare och de huvudsakliga villkoren för att utnyttja optionerna, inklusive lösenpris och lösendatum, samt eventuella ändringar av villkoren, 5. om en möjlighet att enligt avtal kräva tillbaka rörlig ersättning har använts, 6. eventuella avvikelser som har gjorts från den beslutsprocess som enligt riktlinjerna ska tillämpas för att fastställa ersättningen, 7. avsteg som har gjorts från riktlinjerna av särskilda skäl, med uppgift om vilka dessa skäl har varit och vilka delar av riktlinjerna som det har gjorts avsteg från, och 8. hur synpunkter som har framförts i samband med en stämmobehandling av en tidigare rapport om ersättningar har beaktats. Lag (2019:288).",
+          "references": []
+        },
+        {
+          "id": "kap-8-§-53b",
+          "number": 53,
+          "text": "Bolaget är personuppgiftsansvarigt för den behandling av personuppgifter som rapporteringen om ersättningen innebär. Bolaget ska se till att rapporten om ersättningar inte innehåller känsliga personuppgifter i den mening som avses i artikel 9.1 i Europaparlamentets och rådets förordning (EU) 2016/679 av den 27 april 2016 om skydd för fysiska personer med avseende på behandling av personuppgifter och om det fria flödet av sådana uppgifter och om upphävande av direktiv 95/46/EG (allmän dataskyddsförordning), eller personuppgifter om enskildas familjesituation. Lag (2019:288).",
           "references": []
         },
         {
@@ -1857,6 +2182,18 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-9-§-1a",
+          "number": 1,
+          "text": "Även om bolaget i bolagsordningen har angett att bolaget inte ska ha någon revisor, får bolagsstämman besluta att utse en revisor. Lag (2010:834). Bestämmelser om revision i EU:s revisorsförordning",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-1b",
+          "number": 1,
+          "text": "Bestämmelser om revision av aktiebolag vars överlåtbara värdepapper är upptagna till handel på en reglerad marknad finns även i Europaparlamentets och rådets förordning (EU) nr 537/2014 av den 16 april 2014 om särskilda krav avseende lagstadgad revision av företag av allmänt intresse och om upphävande av kommissionens beslut 2005/909/EG (EU:s revisorsförordning). Lag (2016:431). Revisorssuppleanter",
+          "references": []
+        },
+        {
           "id": "kap-9-§-2",
           "number": 2,
           "text": "För en revisor får utses en eller flera suppleanter. Bestämmelserna i denna lag om revisor gäller i tillämpliga delar även suppleant. Revisorns uppgifter",
@@ -1867,6 +2204,14 @@ export const aktiebolagslag: LegalText = {
           "number": 3,
           "text": "Revisorn ska granska bolagets årsredovisning och bokföring samt styrelsens och den verkställande direktörens förvaltning. Granskningen ska utföras med professionell skepticism och vara så ingående och omfattande som god revisionssed kräver. Om bolaget är moderbolag, ska revisorn även granska koncernredovisningen, om en sådan har upprättats, samt koncernföretagens inbördes förhållanden. Lag (2016:431).",
           "references": []
+        },
+        {
+          "id": "kap-9-§-3a",
+          "number": 3,
+          "text": "Granskningen av en hållbarhetsrapport eller av en hållbarhetsrapport för en koncern ska göras enligt de standarder som har antagits med stöd av artikel 26a.3 i Europaparlamentets och rådets direktiv 2006/43/EG av den 17 maj 2006 om lagstadgad revision av årsredovisning, årsbokslut och sammanställd redovisning och om ändring av rådets direktiv 78/660/EEG och 83/349/EEG samt om upphävande av rådets direktiv 84/253/EEG, i lydelsen enligt Europaparlamentets och rådets direktiv (EU) 2022/2464. För granskningen gäller också det som sägs i 3 § första stycket andra meningen. Bolaget får utse en eller flera andra revisorer än bolagets revisor att enbart granska hållbarhetsrapporten. Om bolaget är ett moderbolag, gäller detta även för granskningen av hållbarhetsrapporten för koncernen. Lag (2024:350).",
+          "references": [
+            "3 §"
+          ]
         },
         {
           "id": "kap-9-§-4",
@@ -1884,12 +2229,30 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-9-§-5a",
+          "number": 5,
+          "text": "Om bolaget omfattas av bestämmelserna om hållbarhetsrapport i 6 kap. årsredovisningslagen (1995:1554), ska revisorn lämna en granskningsberättelse över hållbarhetsrapporten till bolagsstämman. I 38 a § finns bestämmelser om vad en sådan berättelse ska innehålla. Om bolaget är skyldigt att upprätta en hållbarhetsrapport för en koncern, ska revisorn även lämna en granskningsberättelse över den rapporten. Bestämmelser om vad en sådan berättelse ska innehålla finns i 38 b §. Om samma revisor utför revisionen av de finansiella rapporterna och granskningen av en hållbarhetsrapport, får granskningsberättelsen tas in som ett eget avsnitt i revisionsberättelsen. Detsamma gäller om den revisor som utför revisionen av koncernens finansiella rapporter även utför granskningen av hållbarhetsrapporten för koncernen. Lag (2024:350).",
+          "references": []
+        },
+        {
           "id": "kap-9-§-6",
           "number": 6,
           "text": "I samband med revisionen och granskningen av hållbarhetsrapporten ska revisorn till styrelsen och den verkställande direktören framställa de erinringar och göra de påpekanden som följer av god revisionssed. Bestämmelser om erinringar finns i 39 §. Lag (2024:350).",
           "references": [
             "39 §"
           ]
+        },
+        {
+          "id": "kap-9-§-6a",
+          "number": 6,
+          "text": "I samband med en koncernrevision ska revisorn bedöma och utvärdera det revisionsarbete som har utförts av revisorer i de övriga koncernföretagen. Revisorn ska se till att han eller hon kan få tillgång till dokumentation av det revisionsarbete som är relevant för koncernrevisionen. Om revisorn är förhindrad att göra den bedömning och utvärdering som avses i första stycket, ska han eller hon utföra kompletterande revisionsarbete avseende dotterföretagen eller vidta andra lämpliga åtgärder. Revisorn ska också underrätta Revisorsinspektionen om hindret. Lag (2016:1340).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-6b",
+          "number": 6,
+          "text": "I samband med granskningen av en hållbarhetsrapport för koncernen ska revisorn bedöma och utvärdera det granskningsarbete som har utförts av revisorer och andra oberoende granskare i de övriga koncernföretagen. Revisorn ska se till att han eller hon kan få tillgång till dokumentation av det granskningsarbete som är relevant för koncerngranskningen. Om revisorn är förhindrad att bedöma och utvärdera granskningsarbetet, ska han eller hon utföra kompletterande granskningsarbete för dotterföretagen eller vidta andra lämpliga åtgärder. Revisorn ska också underrätta Revisorsinspektionen om hindret. Lag (2024:350). Tillhandahållande av upplysningar m.m.",
+          "references": []
         },
         {
           "id": "kap-9-§-7",
@@ -1913,6 +2276,21 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-9-§-9a",
+          "number": 9,
+          "text": "Om ett bolag i ett fall som avses i 1 § andra stycket inte har någon revisor, får en aktieägare föreslå att Bolagsverket ska utse en revisor. I så fall gäller 9 § andra och tredje styckena. Lag (2013:737).",
+          "references": [
+            "1 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-9-§-9b",
+          "number": 9,
+          "text": "Bolagsverket ska ge bolagets styrelse tillfälle att yttra sig innan verket utser en revisor enligt 9 eller 9 a §. Beslutet ska avse tiden till och med årsstämman under nästa räkenskapsår. Lag (2020:985). Obehörighetsgrunder",
+          "references": []
+        },
+        {
           "id": "kap-9-§-10",
           "number": 10,
           "text": "Den som är i konkurs eller har fått näringsförbud eller har förvaltare enligt 11 kap. 7 § föräldrabalken kan inte vara revisor. Kompetenskrav",
@@ -1930,10 +2308,21 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-9-§-12",
           "number": 12,
-          "text": "Endast den som är auktoriserad eller godkänd revisor kan vara revisor. En hållbarhetsrapport får granskas endast av en auktoriserad revisor med särskild behörighet för granskning av hållbarhetsrapport. Bestämmelser om auktoriserade och godkända revisorer finns i revisorslagen (2001:883). Lag (2024:350). 13 § Minst en revisor som bolagsstämman utsett ska vara auktoriserad revisor, om 1. bolaget uppfyller mer än ett av följande villkor: a) medelantalet anställda i bolaget har under vart och ett av de två senaste räkenskapsåren uppgått till mer än 50, b) bolagets redovisade balansomslutning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 40 miljoner kronor, c) bolagets redovisade nettoomsättning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 80 miljoner kronor, eller 2. bolagets aktier, teckningsoptioner eller skuldebrev är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2013:218). 14 § Bestämmelserna i 13 § gäller även för moderbolag i en koncern, om koncernen uppfyller mer än ett av följande villkor: 1. medelantalet anställda i koncernen har under vart och ett av de två senaste räkenskapsåren uppgått till mer än 50, 2. koncernföretagens redovisade balansomslutning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 40 miljoner kronor, 3. koncernföretagens redovisade nettoomsättning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 80 miljoner kronor. Vid tillämpningen av första stycket 2 och 3 ska fordringar och skulder mellan koncernföretag, liksom internvinster, elimineras. Detsamma gäller för intäkter och kostnader som hänför sig till transaktioner mellan koncernföretag, liksom förändring av internvinst. Lag (2010:834).",
+          "text": "Endast den som är auktoriserad eller godkänd revisor kan vara revisor. En hållbarhetsrapport får granskas endast av en auktoriserad revisor med särskild behörighet för granskning av hållbarhetsrapport. Bestämmelser om auktoriserade och godkända revisorer finns i revisorslagen (2001:883). Lag (2024:350).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-13",
+          "number": 13,
+          "text": "Minst en revisor som bolagsstämman utsett ska vara auktoriserad revisor, om 1. bolaget uppfyller mer än ett av följande villkor: a) medelantalet anställda i bolaget har under vart och ett av de två senaste räkenskapsåren uppgått till mer än 50, b) bolagets redovisade balansomslutning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 40 miljoner kronor, c) bolagets redovisade nettoomsättning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 80 miljoner kronor, eller 2. bolagets aktier, teckningsoptioner eller skuldebrev är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2013:218).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-14",
+          "number": 14,
+          "text": "Bestämmelserna i 13 § gäller även för moderbolag i en koncern, om koncernen uppfyller mer än ett av följande villkor: 1. medelantalet anställda i koncernen har under vart och ett av de två senaste räkenskapsåren uppgått till mer än 50, 2. koncernföretagens redovisade balansomslutning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 40 miljoner kronor, 3. koncernföretagens redovisade nettoomsättning har för vart och ett av de två senaste räkenskapsåren uppgått till mer än 80 miljoner kronor. Vid tillämpningen av första stycket 2 och 3 ska fordringar och skulder mellan koncernföretag, liksom internvinster, elimineras. Detsamma gäller för intäkter och kostnader som hänför sig till transaktioner mellan koncernföretag, liksom förändring av internvinst. Lag (2010:834).",
           "references": [
-            "13 §",
-            "14 §"
+            "13 §"
           ]
         },
         {
@@ -1950,6 +2339,20 @@ export const aktiebolagslag: LegalText = {
           "text": "I andra bolag än de som avses i 13 och 14 §§ ska en auktoriserad revisor utses till revisor, om ägare till minst en tiondel av samtliga aktier i bolaget begär det vid den bolagsstämma där revisorsval ska ske. Lag (2013:218). Avtalsvillkor om revisorsval",
           "references": [
             "14 §§"
+          ]
+        },
+        {
+          "id": "kap-9-§-16a",
+          "number": 16,
+          "text": "Ett avtalsvillkor som har till syfte att bolagsstämman ska välja en viss revisor eller en revisor som finns med i en viss förteckning eller liknande är ogiltigt. Detsamma gäller sådana begränsningar i bolagsordningen. Lag (2016:431). Jäv",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-17",
+          "number": 17,
+          "text": "En person får inte vara revisor om han eller hon 1. äger aktie i bolaget eller ett annat bolag i samma koncern, 2. är ledamot av styrelsen eller verkställande direktör i bolaget eller dess dotterföretag eller biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 3. är anställd hos eller på annat sätt har en underordnad eller beroende ställning till bolaget eller någon som avses i 2, 4. är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 5. är gift eller sambo med eller är syskon eller släkting i rätt upp- eller nedstigande led till en person som avses i 2, 6. är besvågrad med en person som avses i 2 i rätt upp- eller nedstigande led eller så att den ene är gift med den andres syskon, eller 7. står i skuld till bolaget eller ett annat bolag i samma koncern eller har en skyldighet som ett sådant bolag har ställt säkerhet för. För andra aktiebolag än sådana som avses i 13 eller 14 § gäller, trots första stycket 4, att en person som är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller vid bolagets kontroll däröver får vara revisor, om biträdet avser - uppgifter som inte utgör en del av bolagets interna kontroll och där utrymmet för bedömningar är begränsat, eller - avslutandet av den löpande bokföringen. En person som enligt första eller andra stycket inte får vara revisor i ett moderbolag får inte heller vara revisor i dess dotterbolag. Lag (2024:344).",
+          "references": [
+            "14 §"
           ]
         },
         {
@@ -1986,7 +2389,19 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-9-§-21a",
+          "number": 21,
+          "text": "Uppdraget som revisor för ett bolag vars överlåtbara värdepapper är upptagna till handel på en reglerad marknad får gälla högst sju år i följd. Första stycket gäller inte om revisorn är ett registrerat revisionsbolag. För ett sådant uppdrag finns det bestämmelser i artikel 17.1 andra stycket i EU:s revisorsförordning om att uppdraget får gälla högst tio år i följd. Uppdraget får dock gälla högst 1. tjugo år i följd, under de förutsättningar som anges i artikel 17.4 a och 17.5 i EU:s revisorsförordning, i den ursprungliga lydelsen, eller 2. tjugofyra år i följd, under de förutsättningar som anges i artikel 17.4 b och 17.5 i EU:s revisorsförordning, i den ursprungliga lydelsen. Lag (2016:431). Avgång och entledigande i förtid",
+          "references": []
+        },
+        {
           "id": "kap-9-§-22",
+          "number": 22,
+          "text": "Ett uppdrag som revisor upphör i förtid, om 1. revisorn anmäler att uppdraget ska upphöra, eller 2. den som har utsett revisorn entledigar honom eller henne på saklig grund och anmäler att uppdraget ska upphöra. Anmälan enligt första stycket ska göras hos styrelsen. Om en revisor som inte är vald på bolagsstämma vill avgå, ska revisorn anmäla det också hos den som har utsett honom eller henne. Lag (2009:565).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-22a",
           "number": 22,
           "text": "En revisor som har utsetts av bolagsstämman i ett bolag vars överlåtbara värdepapper är upptagna till handel på en reglerad marknad får entledigas av tingsrätten i den ort där styrelsen har sitt säte om han eller hon är olämplig för uppdraget. En ansökan om att tingsrätten ska besluta om entledigande får göras av 1. aktieägare vars aktieinnehav i bolaget uppgår till minst fem procent av aktiekapitalet eller aktieägare som innehar minst fem procent av rösterna för samtliga aktier, 2. styrelsen, och 3. Finansinspektionen. Lag (2016:431).",
           "references": []
@@ -2001,14 +2416,26 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-9-§-23a",
+          "number": 23,
+          "text": "Om en revisors uppdrag upphör i förtid, ska revisorn och den som har utsett revisorn underrätta Bolagsverket om skälet till detta. Lag (2009:565).",
+          "references": []
+        },
+        {
           "id": "kap-9-§-24",
           "number": 24,
-          "text": "Om en revisors uppdrag upphör i förtid eller om bestämmelserna i 10-17 §§ eller bestämmelser i bolagsordningen hindrar honom eller henne att vara revisor och det inte finns någon suppleant, skall styrelsen vidta åtgärder för att en ny revisor utses. Bolagsverkets förordnande av revisor 25 § Efter ansökan ska Bolagsverket utse en revisor när 1. auktoriserad revisor eller godkänd revisor inte är utsedd enligt 12, 13, 14 eller 15 §, trots att detta ska ske, 2. revisorn är obehörig enligt 10 eller 17 § och det inte finns någon behörig revisorssuppleant, eller 3. en bestämmelse i bolagsordningen om antalet revisorer eller om revisorns behörighet inte har följts. En ansökan enligt första stycket får göras av var och en. Styrelsen är skyldig att göra en ansökan, om det inte snarast möjligt utses en ny revisor genom den som enligt 8 § har rätt att utse revisor. Lag (2013:737).",
+          "text": "Om en revisors uppdrag upphör i förtid eller om bestämmelserna i 10-17 §§ eller bestämmelser i bolagsordningen hindrar honom eller henne att vara revisor och det inte finns någon suppleant, skall styrelsen vidta åtgärder för att en ny revisor utses. Bolagsverkets förordnande av revisor",
           "references": [
-            "10-17 §§",
+            "10-17 §§"
+          ]
+        },
+        {
+          "id": "kap-9-§-25",
+          "number": 25,
+          "text": "Efter ansökan ska Bolagsverket utse en revisor när 1. auktoriserad revisor eller godkänd revisor inte är utsedd enligt 12, 13, 14 eller 15 §, trots att detta ska ske, 2. revisorn är obehörig enligt 10 eller 17 § och det inte finns någon behörig revisorssuppleant, eller 3. en bestämmelse i bolagsordningen om antalet revisorer eller om revisorns behörighet inte har följts. En ansökan enligt första stycket får göras av var och en. Styrelsen är skyldig att göra en ansökan, om det inte snarast möjligt utses en ny revisor genom den som enligt 8 § har rätt att utse revisor. Lag (2013:737).",
+          "references": [
             "15 §",
             "17 §",
-            "25 §",
             "8 §"
           ]
         },
@@ -2036,61 +2463,117 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-9-§-28a",
+          "number": 28,
+          "text": "Om bolaget har fler än en revisor, ska de lämna en gemensam revisionsberättelse. Det som sägs i 28 § andra stycket om hänvisning till revisionsberättelsen gäller då samtliga revisorer. Vid oenighet om huruvida årsredovisningen har upprättats i överensstämmelse med tillämplig lag om årsredovisning ska varje revisor göra ett sådant uttalande som avses i 31 § första stycket och ange skälen för oenigheten. Lag (2016:431).",
+          "references": [
+            "28 §",
+            "31 §"
+          ]
+        },
+        {
+          "id": "kap-9-§-29",
+          "number": 29,
+          "text": "Revisionsberättelsens inledning ska innehålla uppgifter om 1. bolagets företagsnamn och organisationsnummer, 2. vilken räkenskapsperiod som revisionsberättelsen avser, 3. vilket eller vilka normsystem för redovisning som bolaget har tillämpat, och 4. revisorns etableringsort. Revisionsberättelsen ska vara undertecknad av revisorn och innehålla uppgift om vilken dag revisionen avslutades. Lag (2018:1682).",
+          "references": []
+        },
+        {
           "id": "kap-9-§-30",
           "number": 30,
-          "text": "I revisionsberättelsen skall det anges vilket eller vilka normsystem för revision som revisorn har tillämpat. I förekommande fall skall det i revisionsberättelsen även anges 1. om revisorn i en fråga som behandlas i revisionsberättelsen har en mening som avviker från styrelsens eller annan revisors, 2. om revisionens inriktning eller omfattning är begränsad, eller 3. om revisorn anser sig sakna tillräckligt underlag för att göra något uttalande enligt 31-33 §§. 31 § Revisionsberättelsen ska innehålla ett uttalande om huruvida årsredovisningen har upprättats i överensstämmelse med tillämplig lag om årsredovisning. I uttalandet ska det särskilt anges 1. om årsredovisningen ger en rättvisande bild av bolagets resultat och ställning, och 2. om förvaltningsberättelsen är förenlig med årsredovisningens övriga delar. Om det i årsredovisningen inte har lämnats sådana upplysningar som ska lämnas enligt tillämplig lag om årsredovisning, ska revisorn ange detta och, om det är möjligt, lämna behövliga upplysningar i sin berättelse. Första och andra styckena gäller inte i fråga om en sådan bolagsstyrningsrapport som avses i 6 kap. 6 § årsredovisningslagen (1995:1554). I den delen ska revisionsberättelsen i stället innehålla ett uttalande om huruvida en rapport har upprättats eller inte. När det gäller sådana upplysningar i bolagsstyrningsrapporten som avses i 6 kap. 6 § andra stycket 2-6 årsredovisningslagen, ska berättelsen vidare innehålla ett uttalande om huruvida upplysningarna är förenliga med årsredovisningens övriga delar och i överensstämmelse med tillämplig lag om årsredovisning. Om upplysningarna innehåller väsentliga fel, ska revisorn ange detta och peka på vilka slags fel det rör sig om. Lag (2024:350). 31 a § Om det finns väsentliga osäkerhetsfaktorer när det gäller händelser eller förhållanden som kan medföra betydande tvivel om bolagets förmåga att fortsätta sin verksamhet, ska revisionsberättelsen innehålla ett uttalande i frågan. Lag (2016:431). 32 § Revisionsberättelsen skall innehålla uttalanden om huruvida 1. bolagsstämman bör fastställa balansräkningen och resultaträkningen, 2. bolagsstämman bör besluta om dispositioner beträffande bolagets vinst eller förlust enligt förslaget i förvaltningsberättelsen, och 3. styrelsen och den verkställande direktören i förekommande fall har upprättat en förteckning enligt 21 kap. 10 § över vissa lån och säkerheter. Om revisorn anser att balansräkningen eller resultaträkningen inte bör fastställas, skall han eller hon anteckna det på årsredovisningen.",
+          "text": "I revisionsberättelsen skall det anges vilket eller vilka normsystem för revision som revisorn har tillämpat. I förekommande fall skall det i revisionsberättelsen även anges 1. om revisorn i en fråga som behandlas i revisionsberättelsen har en mening som avviker från styrelsens eller annan revisors, 2. om revisionens inriktning eller omfattning är begränsad, eller 3. om revisorn anser sig sakna tillräckligt underlag för att göra något uttalande enligt 31-33 §§.",
           "references": [
-            "10 §",
-            "21 kap. 10 §",
-            "31 §",
-            "31-33 §§",
-            "32 §",
+            "31-33 §§"
+          ]
+        },
+        {
+          "id": "kap-9-§-31",
+          "number": 31,
+          "text": "Revisionsberättelsen ska innehålla ett uttalande om huruvida årsredovisningen har upprättats i överensstämmelse med tillämplig lag om årsredovisning. I uttalandet ska det särskilt anges 1. om årsredovisningen ger en rättvisande bild av bolagets resultat och ställning, och 2. om förvaltningsberättelsen är förenlig med årsredovisningens övriga delar. Om det i årsredovisningen inte har lämnats sådana upplysningar som ska lämnas enligt tillämplig lag om årsredovisning, ska revisorn ange detta och, om det är möjligt, lämna behövliga upplysningar i sin berättelse. Första och andra styckena gäller inte i fråga om en sådan bolagsstyrningsrapport som avses i 6 kap. 6 § årsredovisningslagen (1995:1554). I den delen ska revisionsberättelsen i stället innehålla ett uttalande om huruvida en rapport har upprättats eller inte. När det gäller sådana upplysningar i bolagsstyrningsrapporten som avses i 6 kap. 6 § andra stycket 2-6 årsredovisningslagen, ska berättelsen vidare innehålla ett uttalande om huruvida upplysningarna är förenliga med årsredovisningens övriga delar och i överensstämmelse med tillämplig lag om årsredovisning. Om upplysningarna innehåller väsentliga fel, ska revisorn ange detta och peka på vilka slags fel det rör sig om. Lag (2024:350).",
+          "references": [
             "6 kap. 6 §",
             "6 §"
           ]
         },
         {
+          "id": "kap-9-§-31a",
+          "number": 31,
+          "text": "Om det finns väsentliga osäkerhetsfaktorer när det gäller händelser eller förhållanden som kan medföra betydande tvivel om bolagets förmåga att fortsätta sin verksamhet, ska revisionsberättelsen innehålla ett uttalande i frågan. Lag (2016:431).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-32",
+          "number": 32,
+          "text": "Revisionsberättelsen skall innehålla uttalanden om huruvida 1. bolagsstämman bör fastställa balansräkningen och resultaträkningen, 2. bolagsstämman bör besluta om dispositioner beträffande bolagets vinst eller förlust enligt förslaget i förvaltningsberättelsen, och 3. styrelsen och den verkställande direktören i förekommande fall har upprättat en förteckning enligt 21 kap. 10 § över vissa lån och säkerheter. Om revisorn anser att balansräkningen eller resultaträkningen inte bör fastställas, skall han eller hon anteckna det på årsredovisningen.",
+          "references": [
+            "10 §",
+            "21 kap. 10 §"
+          ]
+        },
+        {
           "id": "kap-9-§-33",
           "number": 33,
-          "text": "Revisionsberättelsen skall innehålla ett uttalande om huruvida styrelseledamöterna och den verkställande direktören bör beviljas ansvarsfrihet gentemot bolaget. Om revisorn vid sin granskning har funnit att en styrelseledamot eller den verkställande direktören har företagit någon åtgärd eller gjort sig skyldig till någon försummelse som kan föranleda ersättningsskyldighet, skall det anmärkas i berättelsen. Detsamma gäller om revisorn vid granskningen har funnit att en styrelseledamot eller den verkställande direktören på något annat sätt har handlat i strid med denna lag, tillämplig lag om årsredovisning eller bolagsordningen. 34 § I revisionsberättelsen ska revisorn anmärka om han eller hon har funnit att bolaget inte har fullgjort sin skyldighet att 1. göra skatteavdrag enligt skatteförfarandelagen (2011:1244), 2. anmäla sig för registrering enligt 7 kap. 2 § skatteförfarandelagen, 3. lämna skattedeklaration enligt 26 kap. 2 § eller 37 kap. 4 § skatteförfarandelagen, eller 4. i rätt tid betala skatter och avgifter som omfattas av skatteförfarandelagen. Lag (2011:1417).",
+          "text": "Revisionsberättelsen skall innehålla ett uttalande om huruvida styrelseledamöterna och den verkställande direktören bör beviljas ansvarsfrihet gentemot bolaget. Om revisorn vid sin granskning har funnit att en styrelseledamot eller den verkställande direktören har företagit någon åtgärd eller gjort sig skyldig till någon försummelse som kan föranleda ersättningsskyldighet, skall det anmärkas i berättelsen. Detsamma gäller om revisorn vid granskningen har funnit att en styrelseledamot eller den verkställande direktören på något annat sätt har handlat i strid med denna lag, tillämplig lag om årsredovisning eller bolagsordningen.",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-34",
+          "number": 34,
+          "text": "I revisionsberättelsen ska revisorn anmärka om han eller hon har funnit att bolaget inte har fullgjort sin skyldighet att 1. göra skatteavdrag enligt skatteförfarandelagen (2011:1244), 2. anmäla sig för registrering enligt 7 kap. 2 § skatteförfarandelagen, 3. lämna skattedeklaration enligt 26 kap. 2 § eller 37 kap. 4 § skatteförfarandelagen, eller 4. i rätt tid betala skatter och avgifter som omfattas av skatteförfarandelagen. Lag (2011:1417).",
           "references": [
             "2 §",
             "26 kap. 2 §",
-            "34 §",
             "37 kap. 4 §",
             "4 §",
             "7 kap. 2 §"
           ]
         },
         {
-          "id": "kap-9-§-34",
+          "id": "kap-9-§-34a",
           "number": 34,
-          "text": "Revisionsberättelsen ska innehålla ett uttalande om huruvida bolaget med avseende på det föregående räkenskapsåret var skyldigt att offentliggöra en sådan inkomstskatterapport som avses i lagen (2023:340) om offentliggörande av vissa stora företags inkomstskatterapporter. Om en sådan skyldighet fanns, ska det av uttalandet även framgå om bolaget har offentliggjort rapporten enligt den lagen. Revisionsberättelsen behöver dock inte innehålla ett sådant uttalande om bolaget är ett mindre företag enligt 1 kap. 3 § första stycket 5 årsredovisningslagen (1995:1554). Lag (2023:343). 35 § Utöver vad som följer av 29-34 a §§ får en revisor i revisionsberättelsen lämna sådana upplysningar som han eller hon anser att aktieägarna bör få kännedom om. Om årsredovisningen innehåller uppgifter som har betydelse för upplysningarna, ska revisorn hänvisa till uppgifterna. Lag (2023:343).",
+          "text": "Revisionsberättelsen ska innehålla ett uttalande om huruvida bolaget med avseende på det föregående räkenskapsåret var skyldigt att offentliggöra en sådan inkomstskatterapport som avses i lagen (2023:340) om offentliggörande av vissa stora företags inkomstskatterapporter. Om en sådan skyldighet fanns, ska det av uttalandet även framgå om bolaget har offentliggjort rapporten enligt den lagen. Revisionsberättelsen behöver dock inte innehålla ett sådant uttalande om bolaget är ett mindre företag enligt 1 kap. 3 § första stycket 5 årsredovisningslagen (1995:1554). Lag (2023:343).",
           "references": [
             "1 kap. 3 §",
-            "3 §",
-            "35 §"
+            "3 §"
           ]
         },
         {
           "id": "kap-9-§-35",
           "number": 35,
-          "text": "Utöver vad som följer av 31 a och 33 §§ får revisionsberättelsen inte innehålla någon försäkran om bolagets framtida lönsamhet eller om hur effektivt och ändamålsenligt styrelsen eller den verkställande direktören har drivit eller kommer att driva verksamheten. Lag (2016:431). 35 b § Revisionsberättelsen för ett bolag som ska offentliggöra sin årsredovisning enligt 16 kap. 4 § lagen (2007:528) om värdepappersmarknaden ska innehålla ett uttalande om huruvida redovisningen har upprättats i överensstämmelse med 16 kap. 4 a § i den lagen. Lag (2020:1105).",
+          "text": "Utöver vad som följer av 29-34 a §§ får en revisor i revisionsberättelsen lämna sådana upplysningar som han eller hon anser att aktieägarna bör få kännedom om. Om årsredovisningen innehåller uppgifter som har betydelse för upplysningarna, ska revisorn hänvisa till uppgifterna. Lag (2023:343).",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-35a",
+          "number": 35,
+          "text": "Utöver vad som följer av 31 a och 33 §§ får revisionsberättelsen inte innehålla någon försäkran om bolagets framtida lönsamhet eller om hur effektivt och ändamålsenligt styrelsen eller den verkställande direktören har drivit eller kommer att driva verksamheten. Lag (2016:431).",
+          "references": [
+            "33 §§"
+          ]
+        },
+        {
+          "id": "kap-9-§-35b",
+          "number": 35,
+          "text": "Revisionsberättelsen för ett bolag som ska offentliggöra sin årsredovisning enligt 16 kap. 4 § lagen (2007:528) om värdepappersmarknaden ska innehålla ett uttalande om huruvida redovisningen har upprättats i överensstämmelse med 16 kap. 4 a § i den lagen. Lag (2020:1105).",
           "references": [
             "16 kap. 4 §",
-            "33 §§",
             "4 §"
           ]
         },
         {
           "id": "kap-9-§-36",
           "number": 36,
-          "text": "Om en tidigare revisor har gjort en anmälan enligt 23 §, ska en kopia av den fogas till revisionsberättelsen. Även kopior av de underrättelser som revisorn och den som har utsett revisorn har lämnat enligt 23 a § ska fogas till revisionsberättelsen. Lag (2009:565). 37 § Revisorn skall genast sända en kopia av revisionsberättelsen till Skatteverket, om revisionsberättelsen innehåller 1. anmärkningar enligt 33 § andra stycket, eller 2. uttalanden om att - årsredovisningen inte har upprättats i överensstämmelse med tillämplig lag om årsredovisning, - sådana upplysningar som skall lämnas enligt tillämplig lag om årsredovisning inte har lämnats, - styrelseledamöterna eller den verkställande direktören inte bör beviljas ansvarsfrihet gentemot bolaget, eller - bolaget inte har fullgjort en skyldighet som avses i 34 § 1-3. Koncernrevisionsberättelsen",
+          "text": "Om en tidigare revisor har gjort en anmälan enligt 23 §, ska en kopia av den fogas till revisionsberättelsen. Även kopior av de underrättelser som revisorn och den som har utsett revisorn har lämnat enligt 23 a § ska fogas till revisionsberättelsen. Lag (2009:565).",
           "references": [
-            "23 §",
+            "23 §"
+          ]
+        },
+        {
+          "id": "kap-9-§-37",
+          "number": 37,
+          "text": "Revisorn skall genast sända en kopia av revisionsberättelsen till Skatteverket, om revisionsberättelsen innehåller 1. anmärkningar enligt 33 § andra stycket, eller 2. uttalanden om att - årsredovisningen inte har upprättats i överensstämmelse med tillämplig lag om årsredovisning, - sådana upplysningar som skall lämnas enligt tillämplig lag om årsredovisning inte har lämnats, - styrelseledamöterna eller den verkställande direktören inte bör beviljas ansvarsfrihet gentemot bolaget, eller - bolaget inte har fullgjort en skyldighet som avses i 34 § 1-3. Koncernrevisionsberättelsen",
+          "references": [
             "33 §",
-            "34 §",
-            "37 §"
+            "34 §"
           ]
         },
         {
@@ -2107,6 +2590,21 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-9-§-38a",
+          "number": 38,
+          "text": "I fråga om granskningsberättelsen gäller 28-29 §§ och 30 § första stycket. Det som sägs där om revision, revisionsberättelsen och årsredovisningen ska i stället avse granskning av en hållbarhetsrapport, granskningsberättelsen och hållbarhetsrapporten. En granskningsberättelse ska utarbetas i enlighet med de standarder som har antagits med stöd av artikel 26a.3 i Europaparlamentets och rådets direktiv 2006/43/EG, i lydelsen enligt Europaparlamentets och rådets direktiv (EU) 2022/2464. Granskningsberättelsen ska innehålla ett uttalande om huruvida hållbarhetsrapporten har upprättats i överensstämmelse med tillämplig lag om årsredovisning, de standarder som avses i andra stycket samt kraven i artikel 8 i Europaparlamentets och rådets förordning (EU) 2020/852 av den 18 juni 2020 om inrättande av en ram för att underlätta hållbara investeringar och om ändring av förordning (EU) 2019/2088. Lag (2024:350). Granskningsberättelse över en hållbarhetsrapport för koncernen",
+          "references": [
+            "28-29 §§",
+            "30 §"
+          ]
+        },
+        {
+          "id": "kap-9-§-38b",
+          "number": 38,
+          "text": "Bestämmelserna i 38 a § gäller även granskningsberättelsen för koncernen. Det som sägs där om revision, revisionsberättelsen och årsredovisningen ska i stället avse granskning av en hållbarhetsrapport för koncernen, granskningsberättelsen för koncernen och hållbarhetsrapporten för koncernen. Lag (2024:350). Erinringar",
+          "references": []
+        },
+        {
           "id": "kap-9-§-39",
           "number": 39,
           "text": "Om revisorn har framställt en erinran till styrelsen eller den verkställande direktören, ska den antecknas i ett protokoll eller i en annan handling. Handlingen ska lämnas till styrelsen och bolaget ska förvara den på ett betryggande sätt. Styrelsen ska ta upp erinran till behandling vid ett sammanträde. Sammanträdet ska hållas inom fyra veckor från det att erinran har överlämnats. Om erinran framställs senast i samband med att revisionsberättelsen eller granskningsberättelsen avlämnas till bolaget, ska ett sammanträde alltid hållas före den bolagsstämma där berättelsen läggs fram. Lag (2024:350). Revisorns närvaro vid bolagsstämman",
@@ -2121,18 +2619,24 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-9-§-41",
           "number": 41,
-          "text": "Revisorn får inte till en enskild aktieägare eller till någon utom stående obehörigen lämna upplysningar om sådana bolagets angelägenheter som revisorn får kännedom om när han eller hon fullgör sitt uppdrag, om det kan vara till skada för bolaget. Åtgärder vid misstanke om brott 42 § En revisor ska vidta de åtgärder som anges i 43 och 44 §§, om han eller hon finner att det kan misstänkas att en styrelseledamot eller den verkställande direktören inom ramen för bolagets verksamhet har gjort sig skyldig till brott enligt någon av följande bestämmelser: 1. 9 kap. 1, 3 och 9 §§, 10 kap. 1, 3, 4 och 5 §§ samt 11 kap. 1, 2, 4 och 5 §§ brottsbalken, 2. 2, 4, 5 och 10 §§ skattebrottslagen (1971:69), och 3. 3-5 §§ och, om brottet inte är ringa, 7 § lagen (2014:307) om straff för penningtvättsbrott. En revisor ska även vidta de åtgärder som anges i 43 och 44 §§, om han eller hon finner att det kan misstänkas att någon inom ramen för bolagets verksamhet har gjort sig skyldig till brott enligt 10 kap. 5 a-5 e §§ brottsbalken. Om revisorn finner att en misstanke av det slag som avses i första eller andra stycket bör föranleda honom eller henne att lämna uppgifter enligt 4 kap. 3 och 6 §§ lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism, ska dock åtgärder enligt 43 och 44 §§ inte vidtas. Lag (2017:649).",
+          "text": "Revisorn får inte till en enskild aktieägare eller till någon utom stående obehörigen lämna upplysningar om sådana bolagets angelägenheter som revisorn får kännedom om när han eller hon fullgör sitt uppdrag, om det kan vara till skada för bolaget. Åtgärder vid misstanke om brott",
+          "references": []
+        },
+        {
+          "id": "kap-9-§-42",
+          "number": 42,
+          "text": "En revisor ska vidta de åtgärder som anges i 43 och 44 §§, om han eller hon finner att det kan misstänkas att en styrelseledamot eller den verkställande direktören inom ramen för bolagets verksamhet har gjort sig skyldig till brott enligt någon av följande bestämmelser: 1. 9 kap. 1, 3 och 9 §§, 10 kap. 1, 3, 4 och 5 §§ samt 11 kap. 1, 2, 4 och 5 §§ brottsbalken, 2. 2, 4, 5 och 10 §§ skattebrottslagen (1971:69), och 3. 3-5 §§ och, om brottet inte är ringa, 7 § lagen (2014:307) om straff för penningtvättsbrott. En revisor ska även vidta de åtgärder som anges i 43 och 44 §§, om han eller hon finner att det kan misstänkas att någon inom ramen för bolagets verksamhet har gjort sig skyldig till brott enligt 10 kap. 5 a-5 e §§ brottsbalken. Om revisorn finner att en misstanke av det slag som avses i första eller andra stycket bör föranleda honom eller henne att lämna uppgifter enligt 4 kap. 3 och 6 §§ lagen (2017:630) om åtgärder mot penningtvätt och finansiering av terrorism, ska dock åtgärder enligt 43 och 44 §§ inte vidtas. Lag (2017:649).",
           "references": [
             "10 kap. 1, 3, 4 och 5 §§",
             "10 §§",
             "11 kap. 1, 2, 4 och 5 §§",
             "3-5 §§",
             "4 kap. 3 och 6 §§",
-            "42 §",
             "44 §§",
             "5 §§",
             "6 §§",
-            "7 §"
+            "7 §",
+            "9 kap. 1, 3 och 9 §§"
           ]
         },
         {
@@ -2247,12 +2751,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-10-§-9",
           "number": 9,
-          "text": "Den som är underårig eller i konkurs eller har fått näringsförbud eller har förvaltare enligt 11 kap. 7 § föräldrabalken kan inte vara lekmannarevisor. Jäv 10 § En person får inte vara lekmannarevisor om han eller hon 1. äger aktie i bolaget eller ett annat bolag i samma koncern, 2. är ledamot av styrelsen eller verkställande direktör i bolaget eller dess dotterföretag eller biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 3. är anställd hos eller på annat sätt har en underordnad eller beroende ställning till bolaget eller någon som avses i 2, 4. är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 5. är gift eller sambo med eller är syskon eller släkting i rätt upp- eller nedstigande led till en person som avses i 2, 6. är besvågrad med en person som avses i 2 i rätt upp- eller nedstigande led eller så att den ene är gift med den andres syskon, eller 7. står i skuld till bolaget eller ett annat bolag i samma koncern eller har en skyldighet som ett sådant bolag har ställt säkerhet för. För andra aktiebolag än sådana som avses i 9 kap. 13 eller 14 § gäller, trots första stycket 4, att en person som är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller vid bolagets kontroll däröver får vara revisor, om biträdet avser - uppgifter som inte utgör en del av bolagets interna kontroll och där utrymmet för bedömningar är begränsat, eller - avslutandet av den löpande bokföringen. En person som enligt första eller andra stycket inte får vara lekmannarevisor i ett moderbolag får inte heller vara lekmannarevisor i dess dotterbolag. Lag (2024:344).",
+          "text": "Den som är underårig eller i konkurs eller har fått näringsförbud eller har förvaltare enligt 11 kap. 7 § föräldrabalken kan inte vara lekmannarevisor. Jäv",
           "references": [
-            "10 §",
             "11 kap. 7 §",
-            "14 §",
             "7 §"
+          ]
+        },
+        {
+          "id": "kap-10-§-10",
+          "number": 10,
+          "text": "En person får inte vara lekmannarevisor om han eller hon 1. äger aktie i bolaget eller ett annat bolag i samma koncern, 2. är ledamot av styrelsen eller verkställande direktör i bolaget eller dess dotterföretag eller biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 3. är anställd hos eller på annat sätt har en underordnad eller beroende ställning till bolaget eller någon som avses i 2, 4. är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller medelsförvaltningen eller vid bolagets kontroll däröver, 5. är gift eller sambo med eller är syskon eller släkting i rätt upp- eller nedstigande led till en person som avses i 2, 6. är besvågrad med en person som avses i 2 i rätt upp- eller nedstigande led eller så att den ene är gift med den andres syskon, eller 7. står i skuld till bolaget eller ett annat bolag i samma koncern eller har en skyldighet som ett sådant bolag har ställt säkerhet för. För andra aktiebolag än sådana som avses i 9 kap. 13 eller 14 § gäller, trots första stycket 4, att en person som är verksam i samma företag som den som yrkesmässigt biträder bolaget vid bokföringen eller vid bolagets kontroll däröver får vara revisor, om biträdet avser - uppgifter som inte utgör en del av bolagets interna kontroll och där utrymmet för bedömningar är begränsat, eller - avslutandet av den löpande bokföringen. En person som enligt första eller andra stycket inte får vara lekmannarevisor i ett moderbolag får inte heller vara lekmannarevisor i dess dotterbolag. Lag (2024:344).",
+          "references": [
+            "14 §"
           ]
         },
         {
@@ -2281,12 +2791,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-10-§-14",
           "number": 14,
-          "text": "Granskningsrapporten skall hållas tillgänglig för och sändas till aktieägarna på det sätt som anges i 7 kap. 25 § samt läggas fram på årsstämman. Om bolagets verksamhet är reglerad i lag eller annan författning eller om staten som ägare eller genom tillskott av anslagsmedel eller genom avtal eller på något annat sätt har ett bestämmande inflytande över verksamheten, skall granskningsrapporten hållas tillgänglig hos bolaget för samtliga som vill ta del av den. Lekmannarevisorns närvaro vid bolagsstämma 15 § Lekmannarevisorn har rätt att närvara vid bolagsstämma. Han eller hon är skyldig att närvara, om det med hänsyn till ärendena kan anses nödvändigt. Lekmannarevisorns tystnadsplikt",
+          "text": "Granskningsrapporten skall hållas tillgänglig för och sändas till aktieägarna på det sätt som anges i 7 kap. 25 § samt läggas fram på årsstämman. Om bolagets verksamhet är reglerad i lag eller annan författning eller om staten som ägare eller genom tillskott av anslagsmedel eller genom avtal eller på något annat sätt har ett bestämmande inflytande över verksamheten, skall granskningsrapporten hållas tillgänglig hos bolaget för samtliga som vill ta del av den. Lekmannarevisorns närvaro vid bolagsstämma",
           "references": [
-            "15 §",
             "25 §",
             "7 kap. 25 §"
           ]
+        },
+        {
+          "id": "kap-10-§-15",
+          "number": 15,
+          "text": "Lekmannarevisorn har rätt att närvara vid bolagsstämma. Han eller hon är skyldig att närvara, om det med hänsyn till ärendena kan anses nödvändigt. Lekmannarevisorns tystnadsplikt",
+          "references": []
         },
         {
           "id": "kap-10-§-16",
@@ -2318,11 +2833,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-10-§-20",
           "number": 20,
-          "text": "Anmälan enligt 19 § skall göras så snart lekmannarevisorn har utsetts och därefter genast efter det att någon ändring har inträffat i ett förhållande som har anmälts eller skall anmälas för registrering. Särskild granskning Vad särskild granskning är 21 § Bolagsverket ska, efter ansökan från en eller flera aktieägare, utse en särskild granskare. Granskaren ska utföra en särskild granskning som får avse. 1. bolagets eller ett dotterföretags förvaltning och räkenskaper under en viss förfluten tid, och 2. vissa åtgärder eller förhållanden i bolaget eller ett dotterföretag. Granskningen får som längst omfatta tiden fram till den tidpunkt då ansökan kom in till Bolagsverket. En granskning som avser ett dotterföretag får enbart omfatta förhållanden som har betydelse för moderbolaget. Lag (2020:985). Ansökan om särskild granskning",
+          "text": "Anmälan enligt 19 § skall göras så snart lekmannarevisorn har utsetts och därefter genast efter det att någon ändring har inträffat i ett förhållande som har anmälts eller skall anmälas för registrering. Särskild granskning Vad särskild granskning är",
           "references": [
-            "19 §",
-            "21 §"
+            "19 §"
           ]
+        },
+        {
+          "id": "kap-10-§-21",
+          "number": 21,
+          "text": "Bolagsverket ska, efter ansökan från en eller flera aktieägare, utse en särskild granskare. Granskaren ska utföra en särskild granskning som får avse. 1. bolagets eller ett dotterföretags förvaltning och räkenskaper under en viss förfluten tid, och 2. vissa åtgärder eller förhållanden i bolaget eller ett dotterföretag. Granskningen får som längst omfatta tiden fram till den tidpunkt då ansökan kom in till Bolagsverket. En granskning som avser ett dotterföretag får enbart omfatta förhållanden som har betydelse för moderbolaget. Lag (2020:985). Ansökan om särskild granskning",
+          "references": []
         },
         {
           "id": "kap-10-§-22",
@@ -2387,6 +2907,12 @@ export const aktiebolagslag: LegalText = {
       "title": "Ökning av aktiekapitalet, utgivande av nya aktier, upptagande av vissa penninglån, m.m.",
       "sections": [
         {
+          "id": "kap-11-§-1",
+          "number": 1,
+          "text": "Bolagets aktiekapital kan ökas på något av följande sätt. 1. Aktiekapitalet tillförs belopp genom fondemission. Bestämmelser om detta finns i 12 kap. 2. Nya aktier tecknas mot betalning enligt beslut om nyemission av aktier. Bestämmelser om detta finns i 13 kap. 3. Nya aktier tecknas mot betalning med utnyttjande av teckningsoptioner som bolaget har gett ut. Bestämmelser om detta finns i 14 kap. 4. Nya aktier lämnas i utbyte mot konvertibler som bolaget har gett ut. Bestämmelser om detta finns i 15 kap. Beslutsordning",
+          "references": []
+        },
+        {
           "id": "kap-11-§-2",
           "number": 2,
           "text": "Beslut om fondemission, nyemission av aktier eller emission av tecknings optioner eller konvertibler (emissionsbeslut) fattas av bolagsstämman. Beslut om nyemission av aktier eller emission av teckningsoptioner eller konvertibler kan dessutom fattas av styrelsen enligt 13 kap. 31-38 §§, 14 kap. 24-31 §§ och 15 kap. 29-36 §§. Om ett förslag till emissionsbeslut inte skulle vara förenligt med bolagsordningen, skall beslut om nödvändiga ändringar av denna fattas innan stämman beslutar i frågan om emission.",
@@ -2444,15 +2970,20 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-11-§-8",
           "number": 8,
-          "text": "I ett avstämningsbolag ska fondaktierätter och teckningsrätter registreras i avstämningsregister. Om bolaget har tillförsäkrat innehavare av teckningsoptioner eller konvertibler rätt till teckning av nya aktier, teckningsoptioner eller konvertibler och teckningsoptionerna eller konvertiblerna har registrerats i avstämningsregister, ska också rätten till teckning registreras på samma sätt. Lag (2016:60). Försäljning av överskjutande fondaktierätter och teckningsrätter 9 § I ett emissionsbeslut får det bestämmas att överskjutande fondaktierätter och teckningsrätter skall säljas genom bolagets försorg. Vid fondemission skall försäljningen avse varje aktieägares fondaktierätt som inte motsvarar en hel fondaktie. Vid nyemission av aktier, emission av teckningsoptioner och emission av konvertibler skall försäljningen avse varje aktieägares teckningsrätt som inte motsvarar en hel ny aktie, teckningsoption eller konvertibel. Försäljningen skall verkställas av ett värdepappersinstitut. Betalningen för sålda fondaktierätter och teckningsrätter skall, efter avdrag för försäljningskostnaderna, fördelas mellan dem som enligt 12 kap. 2 §, 13 kap. 1 §, 14 kap. 1 § eller 15 kap. 1 § skulle ha varit berättigade att få respektive teckna de nya aktierna, teckningsoptionerna eller konvertiblerna. Rätt till utdelning på nya aktier",
+          "text": "I ett avstämningsbolag ska fondaktierätter och teckningsrätter registreras i avstämningsregister. Om bolaget har tillförsäkrat innehavare av teckningsoptioner eller konvertibler rätt till teckning av nya aktier, teckningsoptioner eller konvertibler och teckningsoptionerna eller konvertiblerna har registrerats i avstämningsregister, ska också rätten till teckning registreras på samma sätt. Lag (2016:60). Försäljning av överskjutande fondaktierätter och teckningsrätter",
+          "references": []
+        },
+        {
+          "id": "kap-11-§-9",
+          "number": 9,
+          "text": "I ett emissionsbeslut får det bestämmas att överskjutande fondaktierätter och teckningsrätter skall säljas genom bolagets försorg. Vid fondemission skall försäljningen avse varje aktieägares fondaktierätt som inte motsvarar en hel fondaktie. Vid nyemission av aktier, emission av teckningsoptioner och emission av konvertibler skall försäljningen avse varje aktieägares teckningsrätt som inte motsvarar en hel ny aktie, teckningsoption eller konvertibel. Försäljningen skall verkställas av ett värdepappersinstitut. Betalningen för sålda fondaktierätter och teckningsrätter skall, efter avdrag för försäljningskostnaderna, fördelas mellan dem som enligt 12 kap. 2 §, 13 kap. 1 §, 14 kap. 1 § eller 15 kap. 1 § skulle ha varit berättigade att få respektive teckna de nya aktierna, teckningsoptionerna eller konvertiblerna. Rätt till utdelning på nya aktier",
           "references": [
             "1 §",
             "12 kap. 2 §",
             "13 kap. 1 §",
             "14 kap. 1 §",
             "15 kap. 1 §",
-            "2 §",
-            "9 §"
+            "2 §"
           ]
         },
         {
@@ -2529,6 +3060,12 @@ export const aktiebolagslag: LegalText = {
       "title": "Fondemission",
       "sections": [
         {
+          "id": "kap-12-§-1",
+          "number": 1,
+          "text": "Vid fondemission ökas aktiekapitalet genom att 1. belopp överförs från den bundna överkursfonden, uppskrivningsfonden, reservfonden, fonden för utvecklingsutgifter eller fritt eget kapital enligt den senast fastställda balansräkningen, eller 2. värdet av en anläggningstillgång skrivs upp. Vid beräkning av utrymmet för fondemission enligt första stycket 1 ska ändringar i det bundna egna kapitalet och värdeöverföringar som har skett efter balansdagen beaktas. En fondemission kan ske med eller utan utgivande av nya aktier. Lag (2020:985). Rätt till fondaktier",
+          "references": []
+        },
+        {
           "id": "kap-12-§-2",
           "number": 2,
           "text": "Vid fondemission där nya aktier ges ut har aktieägarna rätt till dessa i förhållande till det antal aktier de förut äger, om inte annat följer av andra eller tredje stycket. Om bolaget har aktier av olika slag som skiljer sig åt i fråga om rätt till andel i bolagets tillgångar eller vinst, har aktieägarna rätt till nya aktier i enlighet med vad som anges i bolagsordningen enligt 4 kap. 4 §. Om bolaget har aktier av olika slag utan sådan åtskillnad mellan aktieslagen som anges i andra stycket och de nya aktierna skall vara av samma slag som de befintliga aktierna, skall nya aktier ges ut i förhållande till det antal aktier av samma slag som finns sedan tidigare. Därvid skall de gamla aktierna ge rätt till nya aktier av samma slag i förhållande till sin andel i aktiekapitalet. Hur en fondemission beslutas Förslaget till beslut",
@@ -2540,18 +3077,51 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-12-§-3",
           "number": 3,
-          "text": "Om bolagsstämman skall pröva en fråga om fondemission, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-7 §§. 4 § I förslaget till beslut om fondemission ska följande anges: 1. det belopp som aktiekapitalet ska ökas med, 2. om nya aktier ska ges ut i samband med ökningen av aktiekapitalet, och 3. i vilken utsträckning det belopp som aktiekapitalet ska ökas med ska tillföras aktiekapitalet a. från fritt eget kapital, b. från den bundna överkursfonden, c. från uppskrivningsfonden, d. från reservfonden, e. från fonden för utvecklingsutgifter, eller f. genom uppskrivning av värdet på en anläggningstillgång. Lag (2020:985). 5 § Om nya aktier skall ges ut i samband med fondemissionen, skall förslaget till beslut om fondemission också innehålla uppgifter om 1. hur många nya aktier som varje gammal aktie skall ge rätt till, 2. från vilken tidpunkt de nya aktierna skall ge rätt till utdelning, och 3. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag. 6 § I förekommande fall skall förslaget till beslut om fondemission också innehålla uppgift om 1. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även beträffande de nya aktierna, 2. att kuponger som hör till aktiebreven skall användas som fondaktierättsbevis, 3. att överskjutande fondaktierätter skall säljas enligt 11 kap. 9 §, och 4. avstämningsdagen, om bolaget är avstämningsbolag. Avstämningsdagen får inte bestämmas så att den infaller innan beslutet om fondemission har registrerats. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges i förslaget. Kompletterande information 7 § Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning vilka har inträffat efter det att årsredovisningen lämnades, samt 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Tillhandahållande av förslag till beslut m.m. 8 § Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 7 §, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om fondemission ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 14 § i stället för denna paragraf. Lag (2010:1516). Bolagsstämmans beslut",
+          "text": "Om bolagsstämman skall pröva en fråga om fondemission, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-7 §§.",
+          "references": [
+            "4-7 §§"
+          ]
+        },
+        {
+          "id": "kap-12-§-4",
+          "number": 4,
+          "text": "I förslaget till beslut om fondemission ska följande anges: 1. det belopp som aktiekapitalet ska ökas med, 2. om nya aktier ska ges ut i samband med ökningen av aktiekapitalet, och 3. i vilken utsträckning det belopp som aktiekapitalet ska ökas med ska tillföras aktiekapitalet a. från fritt eget kapital, b. från den bundna överkursfonden, c. från uppskrivningsfonden, d. från reservfonden, e. från fonden för utvecklingsutgifter, eller f. genom uppskrivning av värdet på en anläggningstillgång. Lag (2020:985).",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-5",
+          "number": 5,
+          "text": "Om nya aktier skall ges ut i samband med fondemissionen, skall förslaget till beslut om fondemission också innehålla uppgifter om 1. hur många nya aktier som varje gammal aktie skall ge rätt till, 2. från vilken tidpunkt de nya aktierna skall ge rätt till utdelning, och 3. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag.",
+          "references": []
+        },
+        {
+          "id": "kap-12-§-6",
+          "number": 6,
+          "text": "I förekommande fall skall förslaget till beslut om fondemission också innehålla uppgift om 1. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även beträffande de nya aktierna, 2. att kuponger som hör till aktiebreven skall användas som fondaktierättsbevis, 3. att överskjutande fondaktierätter skall säljas enligt 11 kap. 9 §, och 4. avstämningsdagen, om bolaget är avstämningsbolag. Avstämningsdagen får inte bestämmas så att den infaller innan beslutet om fondemission har registrerats. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges i förslaget. Kompletterande information",
           "references": [
             "11 kap. 9 §",
-            "14 §",
             "20 kap. 31 §",
             "27 §",
-            "3 §",
             "31 §",
-            "4 §",
-            "4-7 §§",
-            "5 §",
-            "6 §"
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-12-§-7",
+          "number": 7,
+          "text": "Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning vilka har inträffat efter det att årsredovisningen lämnades, samt 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Tillhandahållande av förslag till beslut m.m.",
+          "references": [
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-12-§-8",
+          "number": 8,
+          "text": "Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 7 §, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om fondemission ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 14 § i stället för denna paragraf. Lag (2010:1516). Bolagsstämmans beslut",
+          "references": [
+            "14 §",
+            "3 §",
+            "7 §"
           ]
         },
         {
@@ -2581,11 +3151,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-12-§-12",
           "number": 12,
-          "text": "Styrelsen skall uppmana den som har rätt till en fondaktie att ta ut den inom ett år. Den berättigade skall underrättas om att han eller hon annars förlorar aktien. Uppmaningen får inte göras förrän den tid som anges i 11 § har löpt ut. Styrelsen skall anses ha uppfyllt sin skyldighet enligt första stycket om uppmaningen har skickats till den berättigades postadress med rekommenderat brev. Om den berättigades postadress inte är känd för bolaget, skall bolaget anses ha uppfyllt sin skyldighet, om uppmaningen har kungjorts i 1. Post- och Inrikes Tidningar, och 2. den eller de ortstidningar - eller, i publika aktiebolag, den rikstäckande dagstidning - som styrelsen bestämmer. 13 § Om det inte har kommit in någon anmälan inom ett år från uppmaningen enligt 12 §, får aktien säljas genom ett värdepappersinstitut. Den som visar upp ett aktiebrev eller lämnar ett fondaktierättsbevis eller på något annat sätt styrker sin rätt, skall få ut sin andel av försäljningssumman efter avdrag för kostnaderna för uppmaningen och försäljningen. Belopp som inte har lyfts inom fyra år från försäljningen tillfaller bolaget. Särskilda bestämmelser om tillhandahållande av förslag till beslut m.m. i vissa publika aktiebolag",
+          "text": "Styrelsen skall uppmana den som har rätt till en fondaktie att ta ut den inom ett år. Den berättigade skall underrättas om att han eller hon annars förlorar aktien. Uppmaningen får inte göras förrän den tid som anges i 11 § har löpt ut. Styrelsen skall anses ha uppfyllt sin skyldighet enligt första stycket om uppmaningen har skickats till den berättigades postadress med rekommenderat brev. Om den berättigades postadress inte är känd för bolaget, skall bolaget anses ha uppfyllt sin skyldighet, om uppmaningen har kungjorts i 1. Post- och Inrikes Tidningar, och 2. den eller de ortstidningar - eller, i publika aktiebolag, den rikstäckande dagstidning - som styrelsen bestämmer.",
           "references": [
-            "11 §",
-            "12 §",
-            "13 §"
+            "11 §"
+          ]
+        },
+        {
+          "id": "kap-12-§-13",
+          "number": 13,
+          "text": "Om det inte har kommit in någon anmälan inom ett år från uppmaningen enligt 12 §, får aktien säljas genom ett värdepappersinstitut. Den som visar upp ett aktiebrev eller lämnar ett fondaktierättsbevis eller på något annat sätt styrker sin rätt, skall få ut sin andel av försäljningssumman efter avdrag för kostnaderna för uppmaningen och försäljningen. Belopp som inte har lyfts inom fyra år från försäljningen tillfaller bolaget. Särskilda bestämmelser om tillhandahållande av förslag till beslut m.m. i vissa publika aktiebolag",
+          "references": [
+            "12 §"
           ]
         },
         {
@@ -2624,35 +3200,89 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-13-§-3",
           "number": 3,
-          "text": "Om bolagsstämman skall pröva en fråga om nyemission av aktier, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-8 §§. Förslagets innehåll 4 § I förslaget enligt 3 § ska följande anges: 1. det belopp eller högsta belopp som bolagets aktiekapital ska ökas med, eller det lägsta och högsta beloppet för ökningen, 2. det antal aktier, högsta antal aktier eller lägsta och högsta antal aktier som ska ges ut, 3. det belopp som ska betalas för varje ny aktie (teckningskursen), 4. den rätt att teckna aktier som aktieägarna eller någon annan ska ha, 5. den tid inom vilken aktieteckning ska ske, 6. den fördelningsgrund som styrelsen ska tillämpa för aktier som inte tecknas med företrädesrätt, 7. den tid inom vilken aktierna ska betalas eller, i förekommande fall, att teckning ska ske genom betalning enligt 13 § tredje stycket, och 8. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. Uppgifter som avses i första stycket 1-3 behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Teckningskursen enligt första stycket 3 får inte understiga de tidigare aktiernas kvotvärde. I bolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får dock teckningskursen vara lägre, om ett belopp som motsvarar skillnaden mellan teckningskursen och aktiernas kvotvärde tillförs aktiekapitalet genom överföring från bolagets eget kapital i övrigt eller genom uppskrivning av värdet av anläggningstillgångar. En sådan överföring eller uppskrivning ska ske innan beslutet om nyemission registreras. Om teckningskursen överstiger de tidigare aktiernas kvotvärde, ska det anges i förslaget hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Om förslaget enligt första stycket 4 innebär en avvikelse från aktieägarnas företrädesrätt, ska skälen till avvikelsen och grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 5 får inte understiga två veckor, om aktieägarna ska ha företrädesrätt till de nya aktierna. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 12 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2020:985). 5 § Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag. 2. huruvida ett förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget ska gälla för de nya aktierna, 3. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 4. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 5. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 6. att nya aktier ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att en aktie ska tecknas med kvittningsrätt, 7. övriga särskilda villkor för aktieteckning, och 8. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - vilket belopp som bolagets aktiekapital ska ökas med, - det antal aktier som ska ges ut, - teckningskursen enligt 4 § första stycket 3, och - hur, för det fall att teckningskursen överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Om emissionsbeslutet förutsätter ändring av bolagsordningen, ska också detta anges. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. I fråga om apportegendom gäller 2 kap. 6 §. Ett bemyndigande som avses i första stycket 8 får lämnas endast om aktierna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. I fråga om publika aktiebolag gäller även 39 §. Lag (2020:985). Kompletterande information 6 § Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning 7 § Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att en aktie skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "text": "Om bolagsstämman skall pröva en fråga om nyemission av aktier, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-8 §§. Förslagets innehåll",
           "references": [
-            "11 kap. 9 §",
+            "4-8 §§"
+          ]
+        },
+        {
+          "id": "kap-13-§-4",
+          "number": 4,
+          "text": "I förslaget enligt 3 § ska följande anges: 1. det belopp eller högsta belopp som bolagets aktiekapital ska ökas med, eller det lägsta och högsta beloppet för ökningen, 2. det antal aktier, högsta antal aktier eller lägsta och högsta antal aktier som ska ges ut, 3. det belopp som ska betalas för varje ny aktie (teckningskursen), 4. den rätt att teckna aktier som aktieägarna eller någon annan ska ha, 5. den tid inom vilken aktieteckning ska ske, 6. den fördelningsgrund som styrelsen ska tillämpa för aktier som inte tecknas med företrädesrätt, 7. den tid inom vilken aktierna ska betalas eller, i förekommande fall, att teckning ska ske genom betalning enligt 13 § tredje stycket, och 8. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. Uppgifter som avses i första stycket 1-3 behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Teckningskursen enligt första stycket 3 får inte understiga de tidigare aktiernas kvotvärde. I bolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får dock teckningskursen vara lägre, om ett belopp som motsvarar skillnaden mellan teckningskursen och aktiernas kvotvärde tillförs aktiekapitalet genom överföring från bolagets eget kapital i övrigt eller genom uppskrivning av värdet av anläggningstillgångar. En sådan överföring eller uppskrivning ska ske innan beslutet om nyemission registreras. Om teckningskursen överstiger de tidigare aktiernas kvotvärde, ska det anges i förslaget hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Om förslaget enligt första stycket 4 innebär en avvikelse från aktieägarnas företrädesrätt, ska skälen till avvikelsen och grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 5 får inte understiga två veckor, om aktieägarna ska ha företrädesrätt till de nya aktierna. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 12 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2020:985).",
+          "references": [
             "12 §",
             "13 §",
+            "3 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-5",
+          "number": 5,
+          "text": "Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag. 2. huruvida ett förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget ska gälla för de nya aktierna, 3. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 4. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 5. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 6. att nya aktier ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att en aktie ska tecknas med kvittningsrätt, 7. övriga särskilda villkor för aktieteckning, och 8. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - vilket belopp som bolagets aktiekapital ska ökas med, - det antal aktier som ska ges ut, - teckningskursen enligt 4 § första stycket 3, och - hur, för det fall att teckningskursen överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Om emissionsbeslutet förutsätter ändring av bolagsordningen, ska också detta anges. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. I fråga om apportegendom gäller 2 kap. 6 §. Ett bemyndigande som avses i första stycket 8 får lämnas endast om aktierna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. I fråga om publika aktiebolag gäller även 39 §. Lag (2020:985). Kompletterande information",
+          "references": [
+            "11 kap. 9 §",
             "2 kap. 5 §",
             "2 kap. 6 §",
-            "2 kap. 7 och 9 §§",
             "20 kap. 31 §",
             "27 §",
             "3 §",
-            "31 §"
+            "31 §",
+            "39 §",
+            "4 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-6",
+          "number": 6,
+          "text": "Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning",
+          "references": [
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-7",
+          "number": 7,
+          "text": "Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att en aktie skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "references": [
+            "2 kap. 5 §",
+            "2 kap. 7 och 9 §§",
+            "3 §",
+            "5 §",
+            "9 §§"
           ]
         },
         {
           "id": "kap-13-§-8",
           "number": 8,
-          "text": "Redogörelsen enligt 7 § ska granskas av en eller flera revisorer. Ett yttrande över granskningen, undertecknat av revisorn eller revisorerna, ska fogas till förslaget enligt 3 §. Yttrandet ska, såvitt gäller värdet på egendom och emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, ha det innehåll som anges i 2 kap. 19 § första stycket 2 och 3 samt andra stycket. I förekommande fall ska revisorn lämna motsvarande upplysningar om emissionsvillkor om kvittning. En revisor som avses i första stycket ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte är utsedd, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt första stycket gäller 9 kap. 7, 40, 45 och 46 §§. Denna paragraf gäller inte om aktiekapitalet ökas för att de nyemitterade aktierna ska användas som vederlag till aktieägarna i ett överlåtande bolag vid fusion eller delning. Lag (2011:1046). Tillhandahållande av förslag till beslut m.m. 9 § Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 6-8 §§, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om nyemission ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 39 a § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll 10 § Kallelsen till den bolagsstämma som skall pröva förslaget enligt 3 § skall innehålla uppgift om den rätt att teckna aktier som aktieägarna eller annan skall ha. Om aktieägarna inte skall ha företrädesrätt i förhållande till det antal aktier de äger eller enligt vad som föreskrivs i bolagsordningen, skall förslagets huvudsakliga innehåll anges. Lag (2007:317). Bolagsstämmans beslut",
+          "text": "Redogörelsen enligt 7 § ska granskas av en eller flera revisorer. Ett yttrande över granskningen, undertecknat av revisorn eller revisorerna, ska fogas till förslaget enligt 3 §. Yttrandet ska, såvitt gäller värdet på egendom och emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, ha det innehåll som anges i 2 kap. 19 § första stycket 2 och 3 samt andra stycket. I förekommande fall ska revisorn lämna motsvarande upplysningar om emissionsvillkor om kvittning. En revisor som avses i första stycket ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte är utsedd, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt första stycket gäller 9 kap. 7, 40, 45 och 46 §§. Denna paragraf gäller inte om aktiekapitalet ökas för att de nyemitterade aktierna ska användas som vederlag till aktieägarna i ett överlåtande bolag vid fusion eller delning. Lag (2011:1046). Tillhandahållande av förslag till beslut m.m.",
           "references": [
-            "10 §",
             "19 §",
             "2 kap. 19 §",
             "2 kap. 5 §",
             "3 §",
             "46 §§",
             "5 §",
-            "6-8 §§",
             "7 §",
             "9 kap. 7, 40, 45 och 46 §§"
+          ]
+        },
+        {
+          "id": "kap-13-§-9",
+          "number": 9,
+          "text": "Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 6-8 §§, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om nyemission ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 39 a § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
+          "references": [
+            "3 §",
+            "6-8 §§"
+          ]
+        },
+        {
+          "id": "kap-13-§-10",
+          "number": 10,
+          "text": "Kallelsen till den bolagsstämma som skall pröva förslaget enligt 3 § skall innehålla uppgift om den rätt att teckna aktier som aktieägarna eller annan skall ha. Om aktieägarna inte skall ha företrädesrätt i förhållande till det antal aktier de äger eller enligt vad som föreskrivs i bolagsordningen, skall förslagets huvudsakliga innehåll anges. Lag (2007:317). Bolagsstämmans beslut",
+          "references": [
+            "3 §"
           ]
         },
         {
@@ -2721,24 +3351,41 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-13-§-19",
           "number": 19,
-          "text": "Betalningen för en aktie får inte understiga de tidigare aktiernas kvotvärde, om inte annat följer av 4 § tredje stycket. Om en aktie har tecknats med villkor som strider mot första stycket, skall ett belopp som motsvarar aktiens kvotvärde ändå betalas. Hur aktierna skall betalas 20 § Tecknade aktier skall betalas i pengar eller, om det finns en bestämmelse om detta i emissionsbeslutet, med apportegendom. I sådana fall som avses i 24 § får de även betalas genom kvittning. I fråga om publika aktiebolag gäller även 41 §. Betalning i pengar 21 § Betalning i pengar skall ske genom insättning på ett särskilt konto som bolaget har öppnat för ändamålet hos en bank, ett kreditmarknadsföretag eller ett motsvarande utländskt kreditinstitut i en stat inom Europeiska ekonomiska samarbetsområdet. I fråga om publika aktiebolag gäller även 40 §. Betalning med apportegendom",
+          "text": "Betalningen för en aktie får inte understiga de tidigare aktiernas kvotvärde, om inte annat följer av 4 § tredje stycket. Om en aktie har tecknats med villkor som strider mot första stycket, skall ett belopp som motsvarar aktiens kvotvärde ändå betalas. Hur aktierna skall betalas",
           "references": [
-            "20 §",
-            "21 §",
+            "4 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-20",
+          "number": 20,
+          "text": "Tecknade aktier skall betalas i pengar eller, om det finns en bestämmelse om detta i emissionsbeslutet, med apportegendom. I sådana fall som avses i 24 § får de även betalas genom kvittning. I fråga om publika aktiebolag gäller även 41 §. Betalning i pengar",
+          "references": [
             "24 §",
-            "4 §",
-            "40 §",
             "41 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-21",
+          "number": 21,
+          "text": "Betalning i pengar skall ske genom insättning på ett särskilt konto som bolaget har öppnat för ändamålet hos en bank, ett kreditmarknadsföretag eller ett motsvarande utländskt kreditinstitut i en stat inom Europeiska ekonomiska samarbetsområdet. I fråga om publika aktiebolag gäller även 40 §. Betalning med apportegendom",
+          "references": [
+            "40 §"
           ]
         },
         {
           "id": "kap-13-§-22",
           "number": 22,
-          "text": "Betalning med apportegendom skall ske genom att egendomen avskiljs för att ingå i bolagets egendom. 23 § Om aktierna skall betalas med apportegendom, skall en revisor avge ett skriftligt, undertecknat yttrande över betalningen. I fråga om yttrandets innehåll och revisorns kvalifikationer gäller 2 kap. 19 §. Kvittning m.m.",
+          "text": "Betalning med apportegendom skall ske genom att egendomen avskiljs för att ingå i bolagets egendom.",
+          "references": []
+        },
+        {
+          "id": "kap-13-§-23",
+          "number": 23,
+          "text": "Om aktierna skall betalas med apportegendom, skall en revisor avge ett skriftligt, undertecknat yttrande över betalningen. I fråga om yttrandets innehåll och revisorns kvalifikationer gäller 2 kap. 19 §. Kvittning m.m.",
           "references": [
             "19 §",
-            "2 kap. 19 §",
-            "23 §"
+            "2 kap. 19 §"
           ]
         },
         {
@@ -2769,12 +3416,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-13-§-27",
           "number": 27,
-          "text": "Styrelsen skall inom sex månader från beslutet om nyemission av aktier anmäla beslutet för registrering i aktiebolagsregistret, såvida beslutet inte har upphört att gälla enligt 17 §. Förutsättningar för registrering 28 § Ett beslut om nyemission av aktier får registreras endast om 1. summan av de belopp som enligt 4 § tredje stycket första meningen lägst ska betalas för tecknade och tilldelade aktier uppgår till det belopp eller lägsta belopp som bolagets aktiekapital ska ökas med genom emissionen, 2. full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade aktier, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 21 § första stycket när det gäller betalning i pengar, och 4. ett yttrande enligt 23 § visas upp när det gäller apportegendom som anges i emissionsbeslutet. En del av en emission får registreras, om första stycket 1 och 2 inte hindrar det. I fråga om publika aktiebolag gäller även 42 §. Lag (2020:613). Verkan av registrering",
+          "text": "Styrelsen skall inom sex månader från beslutet om nyemission av aktier anmäla beslutet för registrering i aktiebolagsregistret, såvida beslutet inte har upphört att gälla enligt 17 §. Förutsättningar för registrering",
           "references": [
-            "17 §",
+            "17 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-28",
+          "number": 28,
+          "text": "Ett beslut om nyemission av aktier får registreras endast om 1. summan av de belopp som enligt 4 § tredje stycket första meningen lägst ska betalas för tecknade och tilldelade aktier uppgår till det belopp eller lägsta belopp som bolagets aktiekapital ska ökas med genom emissionen, 2. full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade aktier, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 21 § första stycket när det gäller betalning i pengar, och 4. ett yttrande enligt 23 § visas upp när det gäller apportegendom som anges i emissionsbeslutet. En del av en emission får registreras, om första stycket 1 och 2 inte hindrar det. I fråga om publika aktiebolag gäller även 42 §. Lag (2020:613). Verkan av registrering",
+          "references": [
             "21 §",
             "23 §",
-            "28 §",
             "4 §",
             "42 §"
           ]
@@ -2889,13 +3542,28 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-13-§-39a",
+          "number": 39,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 6-8 §§, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om nyemission ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516). Betalning i pengar",
+          "references": [
+            "3 §",
+            "6-8 §§"
+          ]
+        },
+        {
           "id": "kap-13-§-40",
           "number": 40,
-          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 21 §, sådan betalning för tecknade aktier som skall lämnas i pengar ske direkt till bolaget. Kvittning 41 § I ett publikt aktiebolag får, trots vad som sägs i 24 §, aktierna betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande",
+          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 21 §, sådan betalning för tecknade aktier som skall lämnas i pengar ske direkt till bolaget. Kvittning",
           "references": [
-            "21 §",
-            "24 §",
-            "41 §"
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-13-§-41",
+          "number": 41,
+          "text": "I ett publikt aktiebolag får, trots vad som sägs i 24 §, aktierna betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande",
+          "references": [
+            "24 §"
           ]
         },
         {
@@ -2933,18 +3601,74 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-14-§-3",
           "number": 3,
-          "text": "Om bolagsstämman skall pröva en fråga om emission av teckningsoptioner, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-10 §§. Förslagets innehåll 4 § I förslaget enligt 3 § skall följande anges om emissionsvillkoren: 1. det antal teckningsoptioner eller högsta antal teckningsoptioner eller lägsta och högsta antal teckningsoptioner som skall ges ut, 2. den rätt att teckna teckningsoptioner som aktieägarna eller någon annan skall ha, 3. den tid inom vilken teckning av teckningsoptioner skall ske, 4. den fördelningsgrund som styrelsen skall tillämpa för teckningsoptioner som inte tecknas med företrädesrätt, samt 5. uppgift om huruvida teckningsoptionerna skall ges ut mot betalning. Uppgifter som avses i första stycket 1 behöver inte anges i förslaget, om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Innebär förslaget enligt första stycket 2 en avvikelse från aktieägarnas företrädesrätt, skall skälen till avvikelsen samt, om teckningsoptionerna ges ut mot betalning, grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 3 får inte understiga två veckor, om aktieägarna skall ha företrädesrätt till teckningsoptionerna. I bolag som inte är avstämningsbolag räknas denna tid från det att en underrättelse enligt 14 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2007:317). 5 § Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 2. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 3. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 4. det belopp som ska betalas för varje teckningsoption, 5. den tid inom vilken teckningsoptionerna ska betalas eller att teckning ska ske genom betalning enligt 15 § tredje stycket, 6. att teckningsoptionerna ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att teckningsoptioner ska tecknas med kvittningsrätt, 7. övriga särskilda villkor för tecknande av teckningsoptioner, och 8. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - det antal teckningsoptioner som ska ges ut, - vilket belopp som ska betalas för varje teckningsoption, - teckningskursen enligt 6 § första stycket 2, - hur, för det fall att teckningskursen överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden, och - sådana villkor som avses i 7. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. Ett bemyndigande som avses i första stycket 8 får lämnas endast om teckningsoptionerna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. Lag (2020:985). 6 § I förslaget enligt 3 § ska följande anges i fråga om utnyttjande av optionsrätten: 1. det belopp som bolagets aktiekapital ska kunna ökas med, 2. det belopp som ska betalas för varje ny aktie (teckningskursen), 3. den tid inom vilken optionsrätten får utnyttjas, och 4. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. En uppgift om teckningskursen behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Teckningskursen enligt första stycket 2 får inte understiga de tidigare aktiernas kvotvärde. Om teckningskursen överstiger de tidigare aktiernas kvotvärde, ska det i förslaget anges hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985). 7 § I förekommande fall skall förslaget enligt 3 § i fråga om utnyttjande av optionsrätten även innehålla uppgift om 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag, 2. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även för de nya aktierna, och 3. övriga särskilda villkor för utnyttjande av optionsrätten. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges. I fråga om publika aktiebolag gäller även 46 §. Kompletterande information 8 § Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning 9 § Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att teckningsoptionen skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "text": "Om bolagsstämman skall pröva en fråga om emission av teckningsoptioner, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-10 §§. Förslagets innehåll",
+          "references": [
+            "4-10 §§"
+          ]
+        },
+        {
+          "id": "kap-14-§-4",
+          "number": 4,
+          "text": "I förslaget enligt 3 § skall följande anges om emissionsvillkoren: 1. det antal teckningsoptioner eller högsta antal teckningsoptioner eller lägsta och högsta antal teckningsoptioner som skall ges ut, 2. den rätt att teckna teckningsoptioner som aktieägarna eller någon annan skall ha, 3. den tid inom vilken teckning av teckningsoptioner skall ske, 4. den fördelningsgrund som styrelsen skall tillämpa för teckningsoptioner som inte tecknas med företrädesrätt, samt 5. uppgift om huruvida teckningsoptionerna skall ges ut mot betalning. Uppgifter som avses i första stycket 1 behöver inte anges i förslaget, om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Innebär förslaget enligt första stycket 2 en avvikelse från aktieägarnas företrädesrätt, skall skälen till avvikelsen samt, om teckningsoptionerna ges ut mot betalning, grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 3 får inte understiga två veckor, om aktieägarna skall ha företrädesrätt till teckningsoptionerna. I bolag som inte är avstämningsbolag räknas denna tid från det att en underrättelse enligt 14 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2007:317).",
+          "references": [
+            "14 §",
+            "3 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-5",
+          "number": 5,
+          "text": "Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 2. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 3. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 4. det belopp som ska betalas för varje teckningsoption, 5. den tid inom vilken teckningsoptionerna ska betalas eller att teckning ska ske genom betalning enligt 15 § tredje stycket, 6. att teckningsoptionerna ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att teckningsoptioner ska tecknas med kvittningsrätt, 7. övriga särskilda villkor för tecknande av teckningsoptioner, och 8. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - det antal teckningsoptioner som ska ges ut, - vilket belopp som ska betalas för varje teckningsoption, - teckningskursen enligt 6 § första stycket 2, - hur, för det fall att teckningskursen överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden, och - sådana villkor som avses i 7. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. Ett bemyndigande som avses i första stycket 8 får lämnas endast om teckningsoptionerna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. Lag (2020:985).",
           "references": [
             "11 kap. 9 §",
-            "14 §",
             "15 §",
             "2 kap. 5 §",
-            "2 kap. 7 och 9 §§",
+            "3 §",
+            "5 §",
+            "6 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-6",
+          "number": 6,
+          "text": "I förslaget enligt 3 § ska följande anges i fråga om utnyttjande av optionsrätten: 1. det belopp som bolagets aktiekapital ska kunna ökas med, 2. det belopp som ska betalas för varje ny aktie (teckningskursen), 3. den tid inom vilken optionsrätten får utnyttjas, och 4. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. En uppgift om teckningskursen behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 8. Teckningskursen enligt första stycket 2 får inte understiga de tidigare aktiernas kvotvärde. Om teckningskursen överstiger de tidigare aktiernas kvotvärde, ska det i förslaget anges hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985).",
+          "references": [
+            "3 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-7",
+          "number": 7,
+          "text": "I förekommande fall skall förslaget enligt 3 § i fråga om utnyttjande av optionsrätten även innehålla uppgift om 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag, 2. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även för de nya aktierna, och 3. övriga särskilda villkor för utnyttjande av optionsrätten. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges. I fråga om publika aktiebolag gäller även 46 §. Kompletterande information",
+          "references": [
             "20 kap. 31 §",
             "27 §",
             "3 §",
             "31 §",
-            "4 §"
+            "46 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-8",
+          "number": 8,
+          "text": "Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning",
+          "references": [
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-9",
+          "number": 9,
+          "text": "Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att teckningsoptionen skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "references": [
+            "2 kap. 5 §",
+            "2 kap. 7 och 9 §§",
+            "3 §",
+            "5 §",
+            "9 §§"
           ]
         },
         {
@@ -2965,11 +3689,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-14-§-11",
           "number": 11,
-          "text": "Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 8-10 §§, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om emission av teckningsoptioner ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 46 a § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll 12 § Kallelsen till den bolagsstämma som skall pröva förslaget enligt 3 § skall innehålla uppgift om den rätt att teckna teckningsoptioner som aktieägarna eller annan skall ha. Om aktieägarna inte skall ha företrädesrätt i förhållande till det antal aktier de äger eller enligt vad som föreskrivs i bolagsordningen, skall förslagets huvudsakliga innehåll anges. Lag (2007:317). Bolagsstämmans beslut",
+          "text": "Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 8-10 §§, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om emission av teckningsoptioner ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 46 a § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
           "references": [
-            "12 §",
             "3 §",
             "8-10 §§"
+          ]
+        },
+        {
+          "id": "kap-14-§-12",
+          "number": 12,
+          "text": "Kallelsen till den bolagsstämma som skall pröva förslaget enligt 3 § skall innehålla uppgift om den rätt att teckna teckningsoptioner som aktieägarna eller annan skall ha. Om aktieägarna inte skall ha företrädesrätt i förhållande till det antal aktier de äger eller enligt vad som föreskrivs i bolagsordningen, skall förslagets huvudsakliga innehåll anges. Lag (2007:317). Bolagsstämmans beslut",
+          "references": [
+            "3 §"
           ]
         },
         {
@@ -3003,11 +3734,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-14-§-16",
           "number": 16,
-          "text": "En teckning av teckningsoptioner som har gjorts på annat sätt än som anges i 15 § kan göras gällande endast om emissionsbeslutet registreras utan att tecknaren dessförinnan har anmält felet hos Bolagsverket. Verkan av att teckningsoptioner har tecknats med avvikande villkor 17 § Om en teckningsoption har tecknats med villkor som inte stämmer överens med emissionsbeslutet, är teckningen ogiltig. Har ogiltigheten inte anmälts hos Bolagsverket innan emissionsbeslutet har registrerats, är dock tecknaren bunden av teckningen men kan inte åberopa villkoret. Verkan av att villkor för teckning av teckningsoptioner inte har uppfyllts",
+          "text": "En teckning av teckningsoptioner som har gjorts på annat sätt än som anges i 15 § kan göras gällande endast om emissionsbeslutet registreras utan att tecknaren dessförinnan har anmält felet hos Bolagsverket. Verkan av att teckningsoptioner har tecknats med avvikande villkor",
           "references": [
-            "15 §",
-            "17 §"
+            "15 §"
           ]
+        },
+        {
+          "id": "kap-14-§-17",
+          "number": 17,
+          "text": "Om en teckningsoption har tecknats med villkor som inte stämmer överens med emissionsbeslutet, är teckningen ogiltig. Har ogiltigheten inte anmälts hos Bolagsverket innan emissionsbeslutet har registrerats, är dock tecknaren bunden av teckningen men kan inte åberopa villkoret. Verkan av att villkor för teckning av teckningsoptioner inte har uppfyllts",
+          "references": []
         },
         {
           "id": "kap-14-§-18",
@@ -3127,16 +3863,21 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-14-§-31",
           "number": 31,
-          "text": "Innan styrelsen beslutar om emission med stöd av ett bemyndigande enligt 28 §, skall den ta fram eller upprätta sådana handlingar som avses i 3-9 §§ samt se till att revisorsgranskning enligt 10 § sker. För styrelsens beslut gäller 13 § om beslutets innehåll samt 14 § första stycket om underrättelse. När beslutet har fattats och, i förekommande fall, aktieägarna har underrättats enligt första stycket, får teckning och tilldelning av teckningsoptioner äga rum enligt vad som i övrigt gäller enligt detta kapitel. I fråga om registrering och verkan av utebliven registrering tillämpas 21-23 §§. Aktieteckning med utnyttjande av optionsrätt Hur aktier ska tecknas 32 § Teckning av nya aktier med utnyttjande av optionsrätt ska ske på en teckningslista som innehåller emissionsbeslutet. Följande handlingar ska vara bifogade till teckningslistan eller hållas tillgängliga för aktietecknare på en plats som anges i listan: 1. en kopia av bolagsordningen, 2. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 3. en kopia av revisionsberättelsen för det år årsredovisningen avser, 4. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning som har inträffat efter det att årsredovisningen lämnades, och 5. ett yttrande över den redogörelse som avses i 4, undertecknat av bolagets revisor. I emissionsbeslutet får det bestämmas att teckning i fråga om hela eller en viss del av emissionen i stället ska ske genom betalning. I så fall ska de handlingar som anges i första stycket hållas tillgängliga för tecknarna hos bolaget. Lag (2020:985). Verkan av att teckning inte sker på rätt sätt",
+          "text": "Innan styrelsen beslutar om emission med stöd av ett bemyndigande enligt 28 §, skall den ta fram eller upprätta sådana handlingar som avses i 3-9 §§ samt se till att revisorsgranskning enligt 10 § sker. För styrelsens beslut gäller 13 § om beslutets innehåll samt 14 § första stycket om underrättelse. När beslutet har fattats och, i förekommande fall, aktieägarna har underrättats enligt första stycket, får teckning och tilldelning av teckningsoptioner äga rum enligt vad som i övrigt gäller enligt detta kapitel. I fråga om registrering och verkan av utebliven registrering tillämpas 21-23 §§. Aktieteckning med utnyttjande av optionsrätt Hur aktier ska tecknas",
           "references": [
             "10 §",
             "13 §",
             "14 §",
             "21-23 §§",
             "28 §",
-            "3-9 §§",
-            "32 §"
+            "3-9 §§"
           ]
+        },
+        {
+          "id": "kap-14-§-32",
+          "number": 32,
+          "text": "Teckning av nya aktier med utnyttjande av optionsrätt ska ske på en teckningslista som innehåller emissionsbeslutet. Följande handlingar ska vara bifogade till teckningslistan eller hållas tillgängliga för aktietecknare på en plats som anges i listan: 1. en kopia av bolagsordningen, 2. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 3. en kopia av revisionsberättelsen för det år årsredovisningen avser, 4. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning som har inträffat efter det att årsredovisningen lämnades, och 5. ett yttrande över den redogörelse som avses i 4, undertecknat av bolagets revisor. I emissionsbeslutet får det bestämmas att teckning i fråga om hela eller en viss del av emissionen i stället ska ske genom betalning. I så fall ska de handlingar som anges i första stycket hållas tillgängliga för tecknarna hos bolaget. Lag (2020:985). Verkan av att teckning inte sker på rätt sätt",
+          "references": []
         },
         {
           "id": "kap-14-§-33",
@@ -3225,10 +3966,15 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-14-§-43",
           "number": 43,
-          "text": "Senast tre månader efter det att tiden för att utnyttja teckningsoptionen har gått ut skall styrelsen för registrering i aktiebolagsregistret anmäla hur många aktier som har tecknats och betalats till fullo. Om teckningstiden är längre än ett år, skall anmälan göras senast tre månader efter utgången av varje räkenskapsår under vilket teckning har skett. Förutsättningar för registrering 44 § En aktieteckning som har skett med utnyttjande av optionsrätt får re-gistreras endast om 1. full och godtagbar betalning har lämnats för de nya aktierna, och 2. ett intyg visas upp från ett sådant kreditinstitut som avses i 39 § första stycket. I fråga om publika aktiebolag gäller även 49 §. Lag (2020:613). Verkan av registrering",
+          "text": "Senast tre månader efter det att tiden för att utnyttja teckningsoptionen har gått ut skall styrelsen för registrering i aktiebolagsregistret anmäla hur många aktier som har tecknats och betalats till fullo. Om teckningstiden är längre än ett år, skall anmälan göras senast tre månader efter utgången av varje räkenskapsår under vilket teckning har skett. Förutsättningar för registrering",
+          "references": []
+        },
+        {
+          "id": "kap-14-§-44",
+          "number": 44,
+          "text": "En aktieteckning som har skett med utnyttjande av optionsrätt får re-gistreras endast om 1. full och godtagbar betalning har lämnats för de nya aktierna, och 2. ett intyg visas upp från ett sådant kreditinstitut som avses i 39 § första stycket. I fråga om publika aktiebolag gäller även 49 §. Lag (2020:613). Verkan av registrering",
           "references": [
             "39 §",
-            "44 §",
             "49 §"
           ]
         },
@@ -3251,15 +3997,36 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-14-§-46a",
+          "number": 46,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 8-10 §§, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om emission av teckningsoptioner ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516). Betalning i pengar",
+          "references": [
+            "3 §",
+            "8-10 §§"
+          ]
+        },
+        {
           "id": "kap-14-§-47",
           "number": 47,
-          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 39 §, sådan betalning för tecknade aktier som skall lämnas i pengar ske direkt till bolaget. Kvittning 48 § I ett publikt aktiebolag får, trots vad som sägs i 40 §, aktierna betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande 49 § I fråga om publika aktiebolag gäller att aktieteckning även får registreras om det i stället för ett sådant intyg som avses i 44 § första stycket 2 visas upp ett yttrande från en revisor. Yttrandet ska vara undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Av yttrandet ska det framgå att full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade aktier. Lag (2020:613).",
+          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 39 §, sådan betalning för tecknade aktier som skall lämnas i pengar ske direkt till bolaget. Kvittning",
           "references": [
-            "39 §",
-            "40 §",
-            "44 §",
-            "48 §",
-            "49 §"
+            "39 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-48",
+          "number": 48,
+          "text": "I ett publikt aktiebolag får, trots vad som sägs i 40 §, aktierna betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande",
+          "references": [
+            "40 §"
+          ]
+        },
+        {
+          "id": "kap-14-§-49",
+          "number": 49,
+          "text": "I fråga om publika aktiebolag gäller att aktieteckning även får registreras om det i stället för ett sådant intyg som avses i 44 § första stycket 2 visas upp ett yttrande från en revisor. Yttrandet ska vara undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Av yttrandet ska det framgå att full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade aktier. Lag (2020:613).",
+          "references": [
+            "44 §"
           ]
         }
       ]
@@ -3289,18 +4056,75 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-15-§-3",
           "number": 3,
-          "text": "Om bolagsstämman skall pröva en fråga om emission av konvertibler, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-10 §§. Förslagets innehåll 4 § I förslaget enligt 3 § skall följande anges om det lån som bolaget tar genom emissionen: 1. det belopp eller högsta belopp som bolaget skall låna eller det lägsta och högsta lånebeloppet, 2. konvertiblernas nominella belopp, 3. det belopp som skall betalas för varje konvertibel (teckningskursen) och räntefot, 4. den rätt att teckna konvertibler som aktieägarna eller någon annan skall ha, 5. den tid inom vilken teckning av konvertibler skall ske, 6. den fördelningsgrund som styrelsen skall tillämpa för konvertibler som inte tecknas med företrädesrätt, och 7. den tid inom vilken konvertiblerna skall betalas eller, i förekommande fall, att teckning skall ske genom betalning enligt 15 § tredje stycket. Uppgift som avses i första stycket 1 och 3 behöver inte anges i förslaget, om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 5 § första stycket 6. Innebär förslaget enligt första stycket 4 en avvikelse från aktieägarnas företrädesrätt, skall skälen till avvikelsen samt grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 5 får inte understiga två veckor, om aktieägarna skall ha företrädesrätt till konvertiblerna. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 14 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2007:317). 5 § Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 2. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 3. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 4. att konvertiblerna ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att en konvertibel ska tecknas med kvittningsrätt, 5. övriga särskilda villkor för det lån som bolaget tar genom emissionen, och 6. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - lånebelopp, - det belopp som ska betalas för varje konvertibel, - räntefot, - konverteringskursen, - sådana villkor som avses i 5, och - hur, för det fall att konverteringskursen innebär att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Avstämningsdagen får inte sättas tidigare än en vecka från tidpunkten för beslutet. I fråga om apportegendom gäller 2 kap. 6 §. Ett bemyndigande som avses i första stycket 6 får lämnas endast om konvertiblerna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. I fråga om publika aktiebolag gäller även 41 §. Lag (2020:985). 6 § I förslaget enligt 3 § ska följande anges i fråga om konverteringen: 1. det belopp som bolagets aktiekapital ska kunna ökas med, 2. utbytesförhållandet mellan konvertiblerna och de nya aktierna (konverteringskursen), 3. den tid inom vilken konvertering får begäras, och 4. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. En uppgift om konverteringskursen behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 6. Konverteringskursen enligt första stycket 2 får inte vara lägre än att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte minst motsvarar tidigare aktiers kvotvärde. En lägre konverteringskurs får tillämpas om mellanskillnaden ska täckas genom betalning med pengar vid konverteringen. Om konverteringskursen innebär att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte överstiger de tidigare aktiernas kvotvärde, ska det anges hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985). 7 § I förekommande fall skall förslaget enligt 3 § även innehålla följande uppgifter om konverteringen: 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag, 2. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även för de nya aktierna, och 3. övriga särskilda villkor för konvertering. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges. Kompletterande information 8 § Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning 9 § Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att en konvertibel skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "text": "Om bolagsstämman skall pröva en fråga om emission av konvertibler, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 4-10 §§. Förslagets innehåll",
           "references": [
-            "11 kap. 9 §",
+            "4-10 §§"
+          ]
+        },
+        {
+          "id": "kap-15-§-4",
+          "number": 4,
+          "text": "I förslaget enligt 3 § skall följande anges om det lån som bolaget tar genom emissionen: 1. det belopp eller högsta belopp som bolaget skall låna eller det lägsta och högsta lånebeloppet, 2. konvertiblernas nominella belopp, 3. det belopp som skall betalas för varje konvertibel (teckningskursen) och räntefot, 4. den rätt att teckna konvertibler som aktieägarna eller någon annan skall ha, 5. den tid inom vilken teckning av konvertibler skall ske, 6. den fördelningsgrund som styrelsen skall tillämpa för konvertibler som inte tecknas med företrädesrätt, och 7. den tid inom vilken konvertiblerna skall betalas eller, i förekommande fall, att teckning skall ske genom betalning enligt 15 § tredje stycket. Uppgift som avses i första stycket 1 och 3 behöver inte anges i förslaget, om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 5 § första stycket 6. Innebär förslaget enligt första stycket 4 en avvikelse från aktieägarnas företrädesrätt, skall skälen till avvikelsen samt grunderna för teckningskursen anges i förslaget eller i en bifogad handling. Teckningstiden enligt första stycket 5 får inte understiga två veckor, om aktieägarna skall ha företrädesrätt till konvertiblerna. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 14 § har skett eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om emissionen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Lag (2007:317).",
+          "references": [
             "14 §",
             "15 §",
+            "3 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-5",
+          "number": 5,
+          "text": "Förslaget enligt 3 § ska i förekommande fall innehålla uppgifter om 1. att kuponger som hör till aktiebreven ska användas som emissionsbevis, 2. att överskjutande teckningsrätter ska säljas enligt 11 kap. 9 §, 3. avstämningsdagen, om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, 4. att konvertiblerna ska betalas med apportegendom eller i annat fall på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att en konvertibel ska tecknas med kvittningsrätt, 5. övriga särskilda villkor för det lån som bolaget tar genom emissionen, och 6. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan teckningstiden börjar löpa besluta om - lånebelopp, - det belopp som ska betalas för varje konvertibel, - räntefot, - konverteringskursen, - sådana villkor som avses i 5, och - hur, för det fall att konverteringskursen innebär att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte överstiger de tidigare aktiernas kvotvärde, det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Avstämningsdagen får inte sättas tidigare än en vecka från tidpunkten för beslutet. I fråga om apportegendom gäller 2 kap. 6 §. Ett bemyndigande som avses i första stycket 6 får lämnas endast om konvertiblerna ska tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är ett avstämningsbolag och aktieägare ska ha företrädesrätt att delta i emissionen, ska bemyndigandet utformas så att villkoren beslutas senast den dag som infaller fem vardagar före avstämningsdagen. I fråga om publika aktiebolag gäller även 41 §. Lag (2020:985).",
+          "references": [
+            "11 kap. 9 §",
             "2 kap. 5 §",
             "2 kap. 6 §",
-            "2 kap. 7 och 9 §§",
+            "3 §",
+            "41 §",
+            "5 §",
+            "6 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-6",
+          "number": 6,
+          "text": "I förslaget enligt 3 § ska följande anges i fråga om konverteringen: 1. det belopp som bolagets aktiekapital ska kunna ökas med, 2. utbytesförhållandet mellan konvertiblerna och de nya aktierna (konverteringskursen), 3. den tid inom vilken konvertering får begäras, och 4. från vilken tidpunkt de nya aktierna ska ge rätt till utdelning. En uppgift om konverteringskursen behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett sådant bemyndigande som avses i 5 § första stycket 6. Konverteringskursen enligt första stycket 2 får inte vara lägre än att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte minst motsvarar tidigare aktiers kvotvärde. En lägre konverteringskurs får tillämpas om mellanskillnaden ska täckas genom betalning med pengar vid konverteringen. Om konverteringskursen innebär att bolaget genom konverteringen tillförs en ersättning som för varje aktie som lämnas i utbyte överstiger de tidigare aktiernas kvotvärde, ska det anges hur det överstigande beloppet ska fördelas mellan den bundna överkursfonden och den fria överkursfonden. Lag (2020:985).",
+          "references": [
+            "3 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-7",
+          "number": 7,
+          "text": "I förekommande fall skall förslaget enligt 3 § även innehålla följande uppgifter om konverteringen: 1. de nya aktiernas aktieslag, om det i bolaget finns eller kan ges ut aktier av olika slag, 2. huruvida förbehåll enligt 4 kap. 6, 8, 18 eller 27 § eller 20 kap. 31 § som gäller för gamla aktier i bolaget skall gälla även för de nya aktierna, och 3. övriga särskilda villkor för konvertering. Om emissionsbeslutet förutsätter ändring av bolagsordningen, skall också detta anges. Kompletterande information",
+          "references": [
             "20 kap. 31 §",
             "27 §",
             "3 §",
             "31 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-8",
+          "number": 8,
+          "text": "Om årsredovisningen inte skall behandlas på bolagsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Uppgifter om apportegendom och kvittning",
+          "references": [
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-9",
+          "number": 9,
+          "text": "Förslaget enligt 3 § skall kompletteras med en redogörelse för de omständigheter som kan vara av betydelse för bedömningen av 1. värdet på apportegendom, 2. emissionsvillkor som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. emissionsvillkor om kvittningsrätt. Redogörelsen skall ha det innehåll som anges i 2 kap. 7 och 9 §§. Innebär förslaget att en konvertibel skall kunna tecknas av någon som har en fordran på bolaget med rätt för denne att betala för vad han eller hon tecknar genom kvittning mot fordringen, skall det av redogörelsen framgå vem som är fordringsägare, fordringens belopp samt hur stort belopp av fordringen som får kvittas. Revisorsgranskning",
+          "references": [
+            "2 kap. 5 §",
+            "2 kap. 7 och 9 §§",
+            "3 §",
+            "5 §",
+            "9 §§"
           ]
         },
         {
@@ -3366,11 +4190,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-15-§-16",
           "number": 16,
-          "text": "En teckning av konvertibler som har gjorts på annat sätt än som anges i 15 § kan göras gällande endast om emissionsbeslutet registreras utan att tecknaren dessförinnan har anmält felet hos Bolagsverket. Verkan av att konvertibler har tecknats med avvikande villkor 17 § Om en konvertibel har tecknats med villkor som inte stämmer överens med emissionsbeslutet, är teckningen ogiltig. Har ogiltigheten inte anmälts hos Bolagsverket innan emissionsbeslutet har registrerats, är dock tecknaren bunden av teckningen men kan inte åberopa villkoret. Verkan av att villkor för teckning av konvertibler inte har uppfyllts",
+          "text": "En teckning av konvertibler som har gjorts på annat sätt än som anges i 15 § kan göras gällande endast om emissionsbeslutet registreras utan att tecknaren dessförinnan har anmält felet hos Bolagsverket. Verkan av att konvertibler har tecknats med avvikande villkor",
           "references": [
-            "15 §",
-            "17 §"
+            "15 §"
           ]
+        },
+        {
+          "id": "kap-15-§-17",
+          "number": 17,
+          "text": "Om en konvertibel har tecknats med villkor som inte stämmer överens med emissionsbeslutet, är teckningen ogiltig. Har ogiltigheten inte anmälts hos Bolagsverket innan emissionsbeslutet har registrerats, är dock tecknaren bunden av teckningen men kan inte åberopa villkoret. Verkan av att villkor för teckning av konvertibler inte har uppfyllts",
+          "references": []
         },
         {
           "id": "kap-15-§-18",
@@ -3437,12 +4266,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-15-§-26",
           "number": 26,
-          "text": "Styrelsen skall inom sex månader från beslutet om emission av konvertibler anmäla beslutet för registrering i aktiebolagsregistret, såvida beslutet inte har upphört att gälla enligt 19 §. Förutsättningar för registrering 27 § Ett beslut om emission av konvertibler får registreras endast om 1. det sammanlagda beloppet som ska betalas för tecknade och tilldelade konvertibler uppgår till minst det belopp som har bestämts för emissionen, 2. full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade konvertibler, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 22 § första stycket när det gäller betalning i pengar, och 4. ett yttrande enligt 24 § visas upp när det gäller apportegendom som anges i beslutet. En del av en emission får registreras, om första stycket 1 och 2 inte hindrar det. I fråga om publika aktiebolag gäller även 44 §. Lag (2020:613). Verkan av utebliven registrering",
+          "text": "Styrelsen skall inom sex månader från beslutet om emission av konvertibler anmäla beslutet för registrering i aktiebolagsregistret, såvida beslutet inte har upphört att gälla enligt 19 §. Förutsättningar för registrering",
           "references": [
-            "19 §",
+            "19 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-27",
+          "number": 27,
+          "text": "Ett beslut om emission av konvertibler får registreras endast om 1. det sammanlagda beloppet som ska betalas för tecknade och tilldelade konvertibler uppgår till minst det belopp som har bestämts för emissionen, 2. full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade konvertibler, 3. ett intyg visas upp från ett sådant kreditinstitut som avses i 22 § första stycket när det gäller betalning i pengar, och 4. ett yttrande enligt 24 § visas upp när det gäller apportegendom som anges i beslutet. En del av en emission får registreras, om första stycket 1 och 2 inte hindrar det. I fråga om publika aktiebolag gäller även 44 §. Lag (2020:613). Verkan av utebliven registrering",
+          "references": [
             "22 §",
             "24 §",
-            "27 §",
             "44 §"
           ]
         },
@@ -3562,7 +4397,7 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
-          "id": "kap-15-§-41",
+          "id": "kap-15-§-41a",
           "number": 41,
           "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 8-10 §§, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om emission av konvertibler ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516). Betalning i pengar",
           "references": [
@@ -3573,13 +4408,25 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-15-§-42",
           "number": 42,
-          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 22 §, sådan betalning för konvertibler som skall lämnas i pengar ske direkt till bolaget. Kvittning 43 § I ett publikt aktiebolag får, trots vad som sägs i 25 §, konvertibler betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande 44 § I fråga om publika aktiebolag gäller att registrering även får ske om det i stället för ett sådant intyg som avses i 27 § första stycket 3 visas upp ett yttrande från en revisor. Yttrandet ska vara undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Av yttrandet ska det framgå att full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade konvertibler. Lag (2020:613).",
+          "text": "I ett publikt aktiebolag får, förutom på sätt som anges i 22 §, sådan betalning för konvertibler som skall lämnas i pengar ske direkt till bolaget. Kvittning",
           "references": [
-            "22 §",
-            "25 §",
-            "27 §",
-            "43 §",
-            "44 §"
+            "22 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-43",
+          "number": 43,
+          "text": "I ett publikt aktiebolag får, trots vad som sägs i 25 §, konvertibler betalas genom kvittning, om 1. det inte strider mot emissionsbeslutet, 2. styrelsen finner det lämpligt, och 3. kvittning kan ske utan skada för bolaget eller dess borgenärer. Revisorsyttrande",
+          "references": [
+            "25 §"
+          ]
+        },
+        {
+          "id": "kap-15-§-44",
+          "number": 44,
+          "text": "I fråga om publika aktiebolag gäller att registrering även får ske om det i stället för ett sådant intyg som avses i 27 § första stycket 3 visas upp ett yttrande från en revisor. Yttrandet ska vara undertecknat av en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Av yttrandet ska det framgå att full och godtagbar betalning har lämnats för samtliga tecknade och tilldelade konvertibler. Lag (2020:613).",
+          "references": [
+            "27 §"
           ]
         }
       ]
@@ -3592,14 +4439,21 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-16-§-1",
           "number": 1,
-          "text": "Detta kapitel tillämpas när ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska besluta om en väsentlig transaktion med en närstående. Kapitlet tillämpas även när en väsentlig transaktion mellan ett helägt svenskt dotterbolag till ett sådant aktiebolag och en närstående till moderbolaget ska beslutas. Lag (2019:288). Vad som är en väsentlig transaktion",
-          "references": []
+          "text": "Bestämmelserna i detta kapitel tillämpas när publika aktiebolag och dotterbolag till sådana bolag beslutar om 1. nyemission av aktier eller emission av teckningsoptioner eller konvertibler, 2. överlåtelse av aktier, teckningsoptioner eller konvertibler som har getts ut av ett bolag inom samma koncern, eller 3. lån som avses i 11 kap 11 §. Lag (2007:317). Nyemission av aktier m.m.",
+          "references": [
+            "11 §"
+          ]
         },
         {
           "id": "kap-16-§-2",
           "number": 2,
-          "text": "En transaktion anses i detta kapitel vara väsentlig om den ensam, eller sammantagen med andra transaktioner som bolaget och dess helägda svenska dotterbolag har genomfört med samma närstående under det senaste året, avser ett värde som är minst en miljon kronor och motsvarar minst en procent av bolagets värde. Lag (2019:288). Vem som är närstående",
-          "references": []
+          "text": "Ett beslut om nyemission av aktier eller emission av teckningsoptioner eller konvertibler skall alltid fattas eller godkännas av bolagsstämman i det emitterande bolaget om 1. aktieägarna i bolaget inte skall ha företrädesrätt till teckning i förhållande till det antal aktier de äger eller enligt vad som föreskrivs i bolagsordningen, och 2. de som i stället skall ha rätt att teckna aktier, teckningsoptioner eller konvertibler tillhör någon eller några av följande kategorier: a. styrelseledamöter i det emitterande bolaget eller ett annat företag inom samma koncern, b. den verkställande direktören i det emitterande bolaget eller ett annat företag inom samma koncern, c. andra anställda hos det emitterande bolaget eller ett annat företag inom samma koncern, d. en make eller en sambo till någon som avses i a-c, e. den som står under vårdnad av någon som avses i a-c, eller f. en juridisk person över vilken någon som avses i a-e, ensam eller tillsammans med någon annan som avses där, har ett bestämmande inflytande. Vid beslut om emission enligt första stycket får bemyndigande enligt 13 kap. 5 § första stycket 8, 14 kap. 5 § första stycket 8 eller 15 kap. 5 § första stycket 6 inte lämnas.",
+          "references": [
+            "13 kap. 5 §",
+            "14 kap. 5 §",
+            "15 kap. 5 §",
+            "5 §"
+          ]
         },
         {
           "id": "kap-16-§-3",
@@ -3625,10 +4479,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-16-§-5",
           "number": 5,
-          "text": "Ett publikt aktiebolag eller ett dotterbolag till ett sådant bolag får inte heller i andra fall än som avses i 4 § överlåta aktier i ett dotterbolag till det publika aktiebolaget eller teckningsoptioner eller konvertibler som har utfärdats av ett sådant bolag till någon som avses i 2 § första stycket 2 utan att överlåtelsen har godkänts av bolagsstämman i det publika bolaget. Om det publika bolaget är dotterbolag till ett publikt aktiebolag, fordras för att överlåtelsen skall bli giltig dessutom att överlåtelsen godkänns av bolagsstämman i moderbolaget. I kallelsen till den bolagsstämma som skall pröva ett förslag till beslut som avses i denna paragraf skall förslagets huvudsakliga innehåll anges. 5 a § Bestämmelserna i 4 och 5 §§ gäller inte en överlåtelse vars värde motsvarar mindre än en procent av koncernens värde. Lag (2020:613).",
+          "text": "Ett publikt aktiebolag eller ett dotterbolag till ett sådant bolag får inte heller i andra fall än som avses i 4 § överlåta aktier i ett dotterbolag till det publika aktiebolaget eller teckningsoptioner eller konvertibler som har utfärdats av ett sådant bolag till någon som avses i 2 § första stycket 2 utan att överlåtelsen har godkänts av bolagsstämman i det publika bolaget. Om det publika bolaget är dotterbolag till ett publikt aktiebolag, fordras för att överlåtelsen skall bli giltig dessutom att överlåtelsen godkänns av bolagsstämman i moderbolaget. I kallelsen till den bolagsstämma som skall pröva ett förslag till beslut som avses i denna paragraf skall förslagets huvudsakliga innehåll anges.",
           "references": [
             "2 §",
-            "4 §",
+            "4 §"
+          ]
+        },
+        {
+          "id": "kap-16-§-5a",
+          "number": 5,
+          "text": "Bestämmelserna i 4 och 5 §§ gäller inte en överlåtelse vars värde motsvarar mindre än en procent av koncernens värde. Lag (2020:613).",
+          "references": [
             "5 §§"
           ]
         },
@@ -3669,11 +4530,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-16-§-10",
           "number": 10,
-          "text": "Ett aktiebolag som har genomfört en emission som avses i 2 §, skall i förvaltningsberättelsen lämna uppgift om emissionsbeslutets innehåll och om den tilldelning av nya aktier, teckningsoptioner eller konvertibler som har skett på grundval av beslutet. Har ett aktiebolag genomfört en sådan överlåtelse som avses i 4 eller 5 § eller tagit upp ett sådant lån som avses i 7 §, skall uppgift om överlåtelsen eller lånet lämnas i förvaltningsberättelsen. Ingår ett aktiebolag som har beslutat om en emission, en överlåtelse eller ett lån av nu angivet slag i en koncern, skall uppgift om detta lämnas även i förvaltningsberättelsen för det publika aktiebolag som är moderbolag i koncernen. Finns det flera moderbolag som är publika aktiebolag, skall uppgiften lämnas i förvaltningsberättelsen för det bolag bland dessa som är moderbolag i den största koncernen. 16 a kap. Vissa närståendetransaktioner Tillämpningsområde",
+          "text": "Ett aktiebolag som har genomfört en emission som avses i 2 §, skall i förvaltningsberättelsen lämna uppgift om emissionsbeslutets innehåll och om den tilldelning av nya aktier, teckningsoptioner eller konvertibler som har skett på grundval av beslutet. Har ett aktiebolag genomfört en sådan överlåtelse som avses i 4 eller 5 § eller tagit upp ett sådant lån som avses i 7 §, skall uppgift om överlåtelsen eller lånet lämnas i förvaltningsberättelsen. Ingår ett aktiebolag som har beslutat om en emission, en överlåtelse eller ett lån av nu angivet slag i en koncern, skall uppgift om detta lämnas även i förvaltningsberättelsen för det publika aktiebolag som är moderbolag i koncernen. Finns det flera moderbolag som är publika aktiebolag, skall uppgiften lämnas i förvaltningsberättelsen för det bolag bland dessa som är moderbolag i den största koncernen. 16 a kap. Vissa närståendetransaktioner Tillämpningsområde 1 § Detta kapitel tillämpas när ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska besluta om en väsentlig transaktion med en närstående. Kapitlet tillämpas även när en väsentlig transaktion mellan ett helägt svenskt dotterbolag till ett sådant aktiebolag och en närstående till moderbolaget ska beslutas. Lag (2019:288). Vad som är en väsentlig transaktion 2 § En transaktion anses i detta kapitel vara väsentlig om den ensam, eller sammantagen med andra transaktioner som bolaget och dess helägda svenska dotterbolag har genomfört med samma närstående under det senaste året, avser ett värde som är minst en miljon kronor och motsvarar minst en procent av bolagets värde. Lag (2019:288). Vem som är närstående 3 § När det avgörs vem som är närstående enligt detta kapitel tillämpas 1 kap. 8 och 9 §§ årsredovisningslagen (1995:1554). Det som sägs där om rapporterande företag ska i stället avse ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2019:288). Undantag från tillämpningsområdet 4 § Kapitlet gäller inte beslut om 1. arvode till styrelseledamöter enligt 8 kap. 23 a §, 2. ersättning till ledande befattningshavare enligt riktlinjer som avses i 8 kap. 51 §, 3. lån enligt 11 kap., 4. emissioner enligt 12-15 kap. samt emissioner och överlåtelser enligt 16 kap., 5. vinstutdelning enligt 18 kap., 6. förvärv eller överlåtelse av egna aktier enligt 19 kap., 7. minskning av aktiekapitalet enligt 20 kap., 8. lån enligt 21 kap., 9. fusion enligt 23 kap., 10. delning enligt 24 kap., eller 11. gränsöverskridande ombildning enligt 24 a kap. Kapitlet gäller inte heller beslut med stöd av lagen (2015:1016) om resolution. Lag (2022:1647). 5 § Kapitlet gäller inte beslut om transaktioner mellan ett aktiebolag och ett helägt dotterföretag, eller transaktioner mellan ett aktiebolag och ett delägt dotterföretag som ingen annan närstående till bolaget har ett intresse i. Lag (2019:288). 6 § Kapitlet gäller inte beslut om transaktioner som är en del av bolagets löpande verksamhet och som genomförs på marknadsmässiga villkor. Styrelsen ska ha rutiner för att fortlöpande bedöma om en transaktion är av det slag som anges i första stycket. Lag (2019:288). Beslutsordning 7 § Styrelsen ska underställa bolagsstämman en väsentlig transaktion med en närstående till bolaget för godkännande. Till underlag för stämmans beslut ska styrelsen upprätta en redogörelse för transaktionen. Av redogörelsen ska villkoren för transaktionen framgå, i den utsträckning som krävs för att stämman ska kunna ta ställning till förslaget. Redogörelsen ska alltid innehålla information om 1. vilken relation bolaget har till den närstående, 2. namnet på den närstående, 3. datumet för transaktionen, och 4. det värde transaktionen avser. Redogörelsen ska hållas tillgänglig på bolagets webbplats under minst tre veckor fram till och med dagen för stämman. Redogörelsen ska vidare läggas fram på stämman. Lag (2019:288). 8 § Vid bolagsstämmans beslut i fråga om godkännande av en transaktion ska aktier som innehas av den närstående inte beaktas. Inte heller ska aktier som innehas av ett annat företag i samma koncern som den närstående beaktas. Med koncern likställs i detta sammanhang annan företagsgrupp av motsvarande slag. Lag (2019:288). Vissa transaktioner i dotterbolag",
           "references": [
+            "1 kap. 8 och 9 §§",
+            "1 §",
             "2 §",
+            "3 §",
+            "4 §",
             "5 §",
-            "7 §"
+            "51 §",
+            "6 §",
+            "7 §",
+            "8 kap. 51 §"
           ]
         }
       ]
@@ -3683,6 +4551,24 @@ export const aktiebolagslag: LegalText = {
       "number": 17,
       "title": "Värdeöverföringar från bolaget",
       "sections": [
+        {
+          "id": "kap-17-§-1",
+          "number": 1,
+          "text": "Med värdeöverföring avses i denna lag 1. vinstutdelning, 2. förvärv av egna aktier, dock inte förvärv enligt 19 kap. 5 §, 3. minskning av aktiekapitalet, den bundna överkursfonden eller reservfonden för återbetalning till aktieägarna, och 4. någon annan affärshändelse som medför att bolagets förmögenhet minskar och inte har rent affärsmässig karaktär för bolaget. I 23-25 kap. finns det särskilda bestämmelser om överföring av tillgångar i samband med fusion, delning och gränsöverskridande ombildning av aktiebolag och om utskiftning vid likvidation. Lag (2022:1647). Tillåtna former för värdeöverföring",
+          "references": [
+            "19 kap. 5 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-17-§-2",
+          "number": 2,
+          "text": "Värdeöverföringar från bolaget får endast ske enligt bestämmelserna 1. om vinstutdelning i denna lag, 2. om förvärv av egna aktier i denna lag, 3. om minskning av aktiekapitalet, den bundna överkursfonden eller reservfonden för återbetalning till aktieägarna i denna lag, 4. om gåva till allmännyttigt ändamål i 5 §, och 5. i ett avtal om koncerninternt finansiellt stöd som godkänts enligt 6 b kap. 6 § lagen (2004:297) om bank- och finansieringsrörelse eller 8 b kap. 6 § lagen (2007:528) om värdepappersmarknaden Lag (2020:985). Skyddet för bolagets bundna egna kapital och försiktighetsregeln",
+          "references": [
+            "5 §",
+            "6 §"
+          ]
+        },
         {
           "id": "kap-17-§-3",
           "number": 3,
@@ -3744,12 +4630,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-18-§-2",
           "number": 2,
-          "text": "Om bolagsstämman skall pröva en fråga om vinstutdelning, skall styrelsen, eller om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 3-6 §§. En fråga om vinstutdelning enligt 11 § får prövas även om något sådant förslag inte har upprättats. Förslagets innehåll 3 § I förslaget om vinstutdelning skall följande anges: 1. beloppet av den utdelning som skall belöpa på varje aktie, 2. avstämningsdagen, om bolaget är ett avstämningsbolag, eller, i förekommande fall, bemyndigande för styrelsen att fastställa avstämningsdagen, 3. den tidpunkt då utdelningen skall betalas, om bolaget inte är ett avstämningsbolag, eller, i förekommande fall, bemyndigande för styrelsen att fastställa betalningsdag, och 4. om utdelningen skall avse annat än pengar, uppgift om arten av den egendom som skall delas ut. Avstämningsdagen enligt första stycket 2 eller betalningsdagen enligt första stycket 3 får inte infalla senare än dagen före nästa årsstämma. Yttrande från styrelsen",
+          "text": "Om bolagsstämman skall pröva en fråga om vinstutdelning, skall styrelsen, eller om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut enligt bestämmelserna i 3-6 §§. En fråga om vinstutdelning enligt 11 § får prövas även om något sådant förslag inte har upprättats. Förslagets innehåll",
           "references": [
             "11 §",
-            "3 §",
             "3-6 §§"
           ]
+        },
+        {
+          "id": "kap-18-§-3",
+          "number": 3,
+          "text": "I förslaget om vinstutdelning skall följande anges: 1. beloppet av den utdelning som skall belöpa på varje aktie, 2. avstämningsdagen, om bolaget är ett avstämningsbolag, eller, i förekommande fall, bemyndigande för styrelsen att fastställa avstämningsdagen, 3. den tidpunkt då utdelningen skall betalas, om bolaget inte är ett avstämningsbolag, eller, i förekommande fall, bemyndigande för styrelsen att fastställa betalningsdag, och 4. om utdelningen skall avse annat än pengar, uppgift om arten av den egendom som skall delas ut. Avstämningsdagen enligt första stycket 2 eller betalningsdagen enligt första stycket 3 får inte infalla senare än dagen före nästa årsstämma. Yttrande från styrelsen",
+          "references": []
         },
         {
           "id": "kap-18-§-4",
@@ -3763,16 +4654,29 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-18-§-5",
           "number": 5,
-          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma som skall pröva förslaget om vinstutdelning, skall det i förslaget anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring. 6 § I det fall som avses i 5 § skall följande handlingar fogas till förslaget: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Tillhandahållande av förslag till beslut m.m. 7 § Styrelsen ska hålla förslaget enligt 2 § tillsammans med de handlingar som anges i 4 § och, i förekommande fall, 6 § tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om vinstutdelning ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på bolagsstämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 14 § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
+          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma som skall pröva förslaget om vinstutdelning, skall det i förslaget anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring.",
+          "references": [
+            "17 kap. 3 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-18-§-6",
+          "number": 6,
+          "text": "I det fall som avses i 5 § skall följande handlingar fogas till förslaget: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Tillhandahållande av förslag till beslut m.m.",
+          "references": [
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-18-§-7",
+          "number": 7,
+          "text": "Styrelsen ska hålla förslaget enligt 2 § tillsammans med de handlingar som anges i 4 § och, i förekommande fall, 6 § tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om vinstutdelning ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på bolagsstämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 14 § i stället för denna paragraf. Lag (2010:1516). Kallelsens innehåll",
           "references": [
             "14 §",
-            "17 kap. 3 §",
             "2 §",
-            "3 §",
             "4 §",
-            "5 §",
-            "6 §",
-            "7 §"
+            "6 §"
           ]
         },
         {
@@ -3794,9 +4698,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-18-§-10",
           "number": 10,
-          "text": "Om ett beslut om vinstutdelning har fattats av en annan bolagsstämma än årsstämman, skall beslutet genast anmälas för registrering i aktiebolagsregistret. Vinstutdelning på begäran av en aktieägarminoritet 11 § På begäran av ägare till minst en tiondel av samtliga aktier skall årsstämman besluta om utdelning av hälften av vad som återstår av årets vinst enligt den fastställda balansräkningen sedan avdrag har gjorts för 1. balanserad förlust som överstiger fria fonder, 2. belopp som enligt lag eller bolagsordning skall avsättas till bundet eget kapital, och 3. belopp som enligt bolagsordningen skall användas för något annat ändamål än utdelning till aktieägarna. I bolagsordningen får det föreskrivas att vinstutdelning får begäras av aktieägare med en mindre andel av bolagets aktier än vad som sägs i första stycket. Där får även föreskrivas att rätten till vinstutdelning skall avse ett högre belopp än vad som sägs i första stycket. En begäran enligt första stycket skall framställas, innan bolagsstämman fattar beslut om disposition av vinsten. Bolagsstämman är inte skyldig att besluta om högre utdelning än fem procent av bolagets egna kapital. Utdelningen får inte strida mot bestämmelserna i 17 kap. 3 §.",
+          "text": "Om ett beslut om vinstutdelning har fattats av en annan bolagsstämma än årsstämman, skall beslutet genast anmälas för registrering i aktiebolagsregistret. Vinstutdelning på begäran av en aktieägarminoritet",
+          "references": []
+        },
+        {
+          "id": "kap-18-§-11",
+          "number": 11,
+          "text": "På begäran av ägare till minst en tiondel av samtliga aktier skall årsstämman besluta om utdelning av hälften av vad som återstår av årets vinst enligt den fastställda balansräkningen sedan avdrag har gjorts för 1. balanserad förlust som överstiger fria fonder, 2. belopp som enligt lag eller bolagsordning skall avsättas till bundet eget kapital, och 3. belopp som enligt bolagsordningen skall användas för något annat ändamål än utdelning till aktieägarna. I bolagsordningen får det föreskrivas att vinstutdelning får begäras av aktieägare med en mindre andel av bolagets aktier än vad som sägs i första stycket. Där får även föreskrivas att rätten till vinstutdelning skall avse ett högre belopp än vad som sägs i första stycket. En begäran enligt första stycket skall framställas, innan bolagsstämman fattar beslut om disposition av vinsten. Bolagsstämman är inte skyldig att besluta om högre utdelning än fem procent av bolagets egna kapital. Utdelningen får inte strida mot bestämmelserna i 17 kap. 3 §.",
           "references": [
-            "11 §",
             "17 kap. 3 §",
             "3 §"
           ]
@@ -3843,27 +4752,54 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-2",
           "number": 2,
-          "text": "Bestämmelserna i 1 § gäller även i fråga om dotterföretags teckning av aktier i moderbolag. Egna aktier som pant 3 § Ett aktiebolag får inte ta emot egna aktier som pant. Dotterföretag får inte heller ta emot aktier i moderbolag som pant. Ett avtal i strid med första stycket är ogiltigt. Förvärv av egna aktier I vilka fall ett aktiebolag får förvärva egna aktier",
+          "text": "Bestämmelserna i 1 § gäller även i fråga om dotterföretags teckning av aktier i moderbolag. Egna aktier som pant",
           "references": [
-            "1 §",
-            "3 §"
+            "1 §"
           ]
+        },
+        {
+          "id": "kap-19-§-3",
+          "number": 3,
+          "text": "Ett aktiebolag får inte ta emot egna aktier som pant. Dotterföretag får inte heller ta emot aktier i moderbolag som pant. Ett avtal i strid med första stycket är ogiltigt. Förvärv av egna aktier I vilka fall ett aktiebolag får förvärva egna aktier",
+          "references": []
         },
         {
           "id": "kap-19-§-4",
           "number": 4,
-          "text": "Ett aktiebolag får inte förvärva egna aktier utom i de fall som anges i 5 §. Ett avtal som strider mot detta är ogiltigt. Bestämmelserna i första stycket samt i 5 och 6 §§ om förvärv av egna aktier gäller även förvärv som görs av någon annan som handlar i eget namn men för bolagets räkning. I fråga om vissa publika aktiebolag gäller även 13-30 §§. 5 § Ett aktiebolag får 1. förvärva egna aktier för vilka ersättning inte ska betalas, 2. förvärva egna aktier som ingår i en affärsrörelse som bolaget övertar, om aktierna representerar en mindre andel av bolagets aktiekapital, 3. lösa in egna aktier enligt 25 kap. 22 §, 4. på auktion ropa in egna aktier som har utmätts för bolagets fordran, och 5. överta egna aktier enligt 4 kap. 50 § första stycket. Lag (2009:565). Avyttringsskyldighet efter förvärv enligt 5 § 6 § Aktier som har förvärvats enligt 5 § och som inte har dragits in genom minskning av aktiekapitalet skall avyttras så snart det kan ske utan förlust, dock senast tre år efter förvärvet. Aktier som inte har avyttrats inom denna tid skall av bolaget förklaras ogiltiga. Bolaget skall i så fall minska aktiekapitalet med aktiernas andel av aktiekapitalet. Ett förslag till beslut om minskning skall läggas fram på den första bolagsstämma som hålls sedan aktierna blev ogiltiga. Minskningsbeloppet skall föras över till reservfonden. I fråga om vissa publika aktiebolag gäller även 30 §. Dotterföretags förvärv och innehav av aktier i moderbolag 7 § Ett dotterföretag får inte förvärva aktier i moderbolag. Ett avtal som strider mot detta förbud är ogiltigt. Trots bestämmelserna i första stycket får ett dotterföretag förvärva aktier i moderbolag i de fall som avses i 5 § 1, 2 och 4.",
+          "text": "Ett aktiebolag får inte förvärva egna aktier utom i de fall som anges i 5 §. Ett avtal som strider mot detta är ogiltigt. Bestämmelserna i första stycket samt i 5 och 6 §§ om förvärv av egna aktier gäller även förvärv som görs av någon annan som handlar i eget namn men för bolagets räkning. I fråga om vissa publika aktiebolag gäller även 13-30 §§.",
           "references": [
             "13-30 §§",
+            "5 §",
+            "6 §§"
+          ]
+        },
+        {
+          "id": "kap-19-§-5",
+          "number": 5,
+          "text": "Ett aktiebolag får 1. förvärva egna aktier för vilka ersättning inte ska betalas, 2. förvärva egna aktier som ingår i en affärsrörelse som bolaget övertar, om aktierna representerar en mindre andel av bolagets aktiekapital, 3. lösa in egna aktier enligt 25 kap. 22 §, 4. på auktion ropa in egna aktier som har utmätts för bolagets fordran, och 5. överta egna aktier enligt 4 kap. 50 § första stycket. Lag (2009:565). Avyttringsskyldighet efter förvärv enligt 5 §",
+          "references": [
             "22 §",
             "25 kap. 22 §",
-            "30 §",
             "4 kap. 50 §",
             "5 §",
-            "50 §",
-            "6 §",
-            "6 §§",
-            "7 §"
+            "50 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-6",
+          "number": 6,
+          "text": "Aktier som har förvärvats enligt 5 § och som inte har dragits in genom minskning av aktiekapitalet skall avyttras så snart det kan ske utan förlust, dock senast tre år efter förvärvet. Aktier som inte har avyttrats inom denna tid skall av bolaget förklaras ogiltiga. Bolaget skall i så fall minska aktiekapitalet med aktiernas andel av aktiekapitalet. Ett förslag till beslut om minskning skall läggas fram på den första bolagsstämma som hålls sedan aktierna blev ogiltiga. Minskningsbeloppet skall föras över till reservfonden. I fråga om vissa publika aktiebolag gäller även 30 §. Dotterföretags förvärv och innehav av aktier i moderbolag",
+          "references": [
+            "30 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-7",
+          "number": 7,
+          "text": "Ett dotterföretag får inte förvärva aktier i moderbolag. Ett avtal som strider mot detta förbud är ogiltigt. Trots bestämmelserna i första stycket får ett dotterföretag förvärva aktier i moderbolag i de fall som avses i 5 § 1, 2 och 4.",
+          "references": [
+            "5 §"
           ]
         },
         {
@@ -3909,10 +4845,8 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-13",
           "number": 13,
-          "text": "Ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får, utöver det som följer av 5 §, förvärva egna aktier enligt bestämmelserna i 14 och 15 §§. Beslut om förvärv skall i så fall fattas med tillämpning av 18-29 §§. Om bolaget har förvärvat aktier i strid med 14 eller 15 § eller i strid med 17 kap. 3 eller 4 §, gäller bestämmelserna i 16 §. Lag (2007:566). Tillåtna förvärvsmetoder 14 § Förvärv som avses i 13 § får ske endast 1. på en reglerad marknad, 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen, eller 3. i enlighet med ett förvärvserbjudande som har riktats till samtliga aktieägare eller samtliga ägare till aktier av ett visst slag. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får förvärvas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566). Hur stor andel egna aktier som får förvärvas",
+          "text": "Ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får, utöver det som följer av 5 §, förvärva egna aktier enligt bestämmelserna i 14 och 15 §§. Beslut om förvärv skall i så fall fattas med tillämpning av 18-29 §§. Om bolaget har förvärvat aktier i strid med 14 eller 15 § eller i strid med 17 kap. 3 eller 4 §, gäller bestämmelserna i 16 §. Lag (2007:566). Tillåtna förvärvsmetoder",
           "references": [
-            "13 §",
-            "14 §",
             "15 §",
             "15 §§",
             "16 §",
@@ -3922,13 +4856,28 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-19-§-14",
+          "number": 14,
+          "text": "Förvärv som avses i 13 § får ske endast 1. på en reglerad marknad, 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen, eller 3. i enlighet med ett förvärvserbjudande som har riktats till samtliga aktieägare eller samtliga ägare till aktier av ett visst slag. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får förvärvas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566). Hur stor andel egna aktier som får förvärvas",
+          "references": [
+            "13 §"
+          ]
+        },
+        {
           "id": "kap-19-§-15",
           "number": 15,
-          "text": "Ett publikt aktiebolag som avses i 13 § får inte förvärva egna aktier i den mån bolagets innehav av egna aktier efter förvärvet kommer att uppgå till mer än en tiondel av samtliga aktier i bolaget. Aktier i bolaget som innehas av dess dotterföretag skall vid beräkningen anses som bolagets. Otillåtna förvärv 16 § Om ett förvärv som avses i 13 § har skett i strid med 17 kap. 3 eller 4 § eller någon av bestämmelserna i 14 och 15 §§, skall de förvärvade aktierna avyttras inom sex månader från förvärvet. Aktier som inte har avyttrats inom denna tid skall av bolaget förklaras ogiltiga. Bolaget skall i så fall minska aktiekapitalet med aktiernas andel av aktiekapitalet. Ett förslag till beslut om minskning skall läggas fram på den första bolagsstämma som hålls sedan ogiltighet har inträtt. Minskningsbeloppet skall föras över till reservfonden. Beslutsordning",
+          "text": "Ett publikt aktiebolag som avses i 13 § får inte förvärva egna aktier i den mån bolagets innehav av egna aktier efter förvärvet kommer att uppgå till mer än en tiondel av samtliga aktier i bolaget. Aktier i bolaget som innehas av dess dotterföretag skall vid beräkningen anses som bolagets. Otillåtna förvärv",
+          "references": [
+            "13 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-16",
+          "number": 16,
+          "text": "Om ett förvärv som avses i 13 § har skett i strid med 17 kap. 3 eller 4 § eller någon av bestämmelserna i 14 och 15 §§, skall de förvärvade aktierna avyttras inom sex månader från förvärvet. Aktier som inte har avyttrats inom denna tid skall av bolaget förklaras ogiltiga. Bolaget skall i så fall minska aktiekapitalet med aktiernas andel av aktiekapitalet. Ett förslag till beslut om minskning skall läggas fram på den första bolagsstämma som hålls sedan ogiltighet har inträtt. Minskningsbeloppet skall föras över till reservfonden. Beslutsordning",
           "references": [
             "13 §",
             "15 §§",
-            "16 §",
             "4 §"
           ]
         },
@@ -3960,11 +4909,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-20",
           "number": 20,
-          "text": "I förslaget enligt 19 § skall det anges på vilket sätt aktierna skall förvärvas. Om aktierna skall förvärvas i enlighet med ett erbjudande som riktas till samtliga aktieägare eller till samtliga ägare till aktier av ett visst slag, skall det i förslaget vidare anges 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut skall verkställas, 2. det antal aktier, i förekommande fall fördelat på aktieslag, som erbjudandet skall avse, 3. den ersättning som skall lämnas för aktierna, 4. egendomens art och mängd, om ersättningen skall bestå av annan egendom än pengar, samt 5. övriga villkor för förvärvet. 21 § Om aktierna skall förvärvas på annat sätt än som avses 20 §, skall det i förslaget enligt 19 § anges 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut skall verkställas, 2. det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får förvärvas, 3. det lägsta och högsta pris som får betalas för aktierna, samt 4. övriga villkor för förvärvet. Yttrande från styrelsen",
+          "text": "I förslaget enligt 19 § skall det anges på vilket sätt aktierna skall förvärvas. Om aktierna skall förvärvas i enlighet med ett erbjudande som riktas till samtliga aktieägare eller till samtliga ägare till aktier av ett visst slag, skall det i förslaget vidare anges 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut skall verkställas, 2. det antal aktier, i förekommande fall fördelat på aktieslag, som erbjudandet skall avse, 3. den ersättning som skall lämnas för aktierna, 4. egendomens art och mängd, om ersättningen skall bestå av annan egendom än pengar, samt 5. övriga villkor för förvärvet.",
+          "references": [
+            "19 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-21",
+          "number": 21,
+          "text": "Om aktierna skall förvärvas på annat sätt än som avses 20 §, skall det i förslaget enligt 19 § anges 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut skall verkställas, 2. det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får förvärvas, 3. det lägsta och högsta pris som får betalas för aktierna, samt 4. övriga villkor för förvärvet. Yttrande från styrelsen",
           "references": [
             "19 §",
-            "20 §",
-            "21 §"
+            "20 §"
           ]
         },
         {
@@ -3980,13 +4936,20 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-23",
           "number": 23,
-          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma som skall pröva förslaget enligt 19 §, skall det i förslaget även anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring. 24 § I sådana fall som avses i 23 § skall följande handlingar fogas till förslaget enligt 19 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Tillhandahållande av förslag till beslut, m.m.",
+          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma som skall pröva förslaget enligt 19 §, skall det i förslaget även anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring.",
           "references": [
             "17 kap. 3 §",
             "19 §",
-            "23 §",
-            "24 §",
             "3 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-24",
+          "number": 24,
+          "text": "I sådana fall som avses i 23 § skall följande handlingar fogas till förslaget enligt 19 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades, med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Tillhandahållande av förslag till beslut, m.m.",
+          "references": [
+            "19 §",
+            "23 §"
           ]
         },
         {
@@ -4046,13 +5009,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-31",
           "number": 31,
-          "text": "När ett publikt aktiebolag överlåter egna aktier, skall det ske med tillämpning av 32-34 §§ eller 35-37 §§. Första stycket gäller inte vid avyttring som avses i 6 och 16 §§. Överlåtelse av egna aktier på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet 32 § Ett publikt aktiebolag får överlåta egna aktier 1. på en reglerad marknad, eller 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får överlåtas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566).",
+          "text": "När ett publikt aktiebolag överlåter egna aktier, skall det ske med tillämpning av 32-34 §§ eller 35-37 §§. Första stycket gäller inte vid avyttring som avses i 6 och 16 §§. Överlåtelse av egna aktier på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet",
           "references": [
             "16 §§",
-            "32 §",
             "32-34 §§",
             "35-37 §§"
           ]
+        },
+        {
+          "id": "kap-19-§-32",
+          "number": 32,
+          "text": "Ett publikt aktiebolag får överlåta egna aktier 1. på en reglerad marknad, eller 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får överlåtas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566).",
+          "references": []
         },
         {
           "id": "kap-19-§-33",
@@ -4065,11 +5033,41 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-34",
           "number": 34,
-          "text": "Om bolagsstämman skall pröva en fråga om överlåtelse av egna aktier enligt 32 § eller om bemyndigande för styrelsen att fatta ett sådant beslut, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. Förslaget skall innehålla uppgifter om 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut om överlåtelse skall verkställas eller styrelsens bemyndigande får utnyttjas, 2 det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får överlåtas, 3. det lägsta pris som aktierna får överlåtas för, och 4. övriga villkor för överlåtelsen. Bestämmelserna i 13 kap. 9 § skall tillämpas i fråga om förslaget till beslut enligt första stycket. I kallelsen till den bolagsstämma som skall pröva förslaget skall förslagets huvudsakliga innehåll anges. Bolagsstämmans beslut skall innehålla de uppgifter som anges i andra stycket. Lag (2007:317). Överlåtelse av egna aktier som inte sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet 35 § Vid ett publikt aktiebolags överlåtelse av egna aktier på annat sätt än som anges i 32 § tillämpas 1. det som gäller vid nyemission av aktier enligt:",
+          "text": "Om bolagsstämman skall pröva en fråga om överlåtelse av egna aktier enligt 32 § eller om bemyndigande för styrelsen att fatta ett sådant beslut, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. Förslaget skall innehålla uppgifter om 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut om överlåtelse skall verkställas eller styrelsens bemyndigande får utnyttjas, 2 det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får överlåtas, 3. det lägsta pris som aktierna får överlåtas för, och 4. övriga villkor för överlåtelsen. Bestämmelserna i 13 kap. 9 § skall tillämpas i fråga om förslaget till beslut enligt första stycket. I kallelsen till den bolagsstämma som skall pröva förslaget skall förslagets huvudsakliga innehåll anges. Bolagsstämmans beslut skall innehålla de uppgifter som anges i andra stycket. Lag (2007:317). Överlåtelse av egna aktier som inte sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet",
           "references": [
             "13 kap. 9 §",
             "32 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-35",
+          "number": 35,
+          "text": "Vid ett publikt aktiebolags överlåtelse av egna aktier på annat sätt än som anges i 32 § tillämpas 1. det som gäller vid nyemission av aktier enligt:",
+          "references": [
+            "32 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-36",
+          "number": 36,
+          "text": "I sådana fall som anges i 35 § skall i förslaget till beslut följande anges: 1. det högsta antal aktier, i förekommande fall fördelat på aktieslag, som skall överlåtas, 2. den rätt att förvärva aktier som aktieägarna eller någon annan skall ha, 3. den tid inom vilken aktieägare eller annan kan utnyttja sin rätt att förvärva aktier, 4. den tid inom vilken aktierna skall betalas eller, i förekommande fall, att teckning skall ske genom betalning, 5. den fördelningsgrund som styrelsen skall tillämpa beträffande aktier som inte tecknas med företrädesrätt, 6. avstämningsdagen, om bolaget är avstämningsbolag och aktieägare skall ha företrädesrätt vid överlåtelsen, 7. det belopp som skall betalas för varje aktie, 8. villkor om apport eller att aktie skall tecknas med kvittningsrätt, och 9. övriga särskilda villkor för överlåtelsen. Tiden som anges i första stycket 3 får inte understiga två veckor. I bolag som inte är avstämningsbolag räknas denna tid från det att underrättelse enligt 13 kap. 12 § har skett, eller, om samtliga aktieägare har varit företrädda på den stämma som har beslutat om överlåtelsen, från beslutet. I avstämningsbolag räknas tiden från avstämningsdagen. Avstämningsdagen får inte sättas tidigare än en vecka från dagen för beslutet. I stället för en sådan uppgift som anges i första stycket 7 får det anges att styrelsen eller den som styrelsen utser inom sig skall bemyndigas att innan den tid som avses i första stycket 3 börjar löpa besluta vilket belopp som skall betalas för varje aktie. Ett sådant bemyndigande får lämnas endast om aktierna skall tas upp till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Om bolaget är avstämningsbolag och aktieägare skall ha företrädesrätt att förvärva aktier, skall bemyndigandet utformas så att beloppet bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Lag (2007:566).",
+          "references": [
+            "12 §",
+            "13 kap. 12 §",
+            "35 §"
+          ]
+        },
+        {
+          "id": "kap-19-§-37",
+          "number": 37,
+          "text": "Beslut om överlåtelse enligt 35 § skall innehålla de uppgifter som anges i 36 §. I förekommande fall skall beslutet innehålla 1. ett förordnande som avses i 11 kap. 9 §, 2. ett förordnande om att kuponger som hör till aktiebreven skall användas som teckningsrättsbevis, 3. upplysningar om att redogörelse och yttrande som avses i 13 kap. 7 och 8 §§ har lämnats.",
+          "references": [
+            "11 kap. 9 §",
+            "13 kap. 7 och 8 §§",
             "35 §",
+            "36 §",
+            "8 §§",
             "9 §"
           ]
         }
@@ -4080,6 +5078,19 @@ export const aktiebolagslag: LegalText = {
       "number": 20,
       "title": "Minskning av aktiekapitalet, den bundna överkursfonden och reservfonden",
       "sections": [
+        {
+          "id": "kap-20-§-1",
+          "number": 1,
+          "text": "Aktiekapitalet får minskas för 1. täckning av förlust, om det inte finns fritt eget kapital som motsvarar förlusten, 2. avsättning till fritt eget kapital, och 3. återbetalning till aktieägarna. Aktiekapitalet får även minskas enligt förbehåll i bolagsordningen. I så fall gäller 31-34 §§ i stället för 5-30 §§. Av bestämmelserna i detta kapitel tillämpas endast 19-22 §§ vid sådan minskning av aktiekapitalet som avses i 19 kap. 6 § första stycket tredje meningen och 16 §. Lag (2014:539). Metoder för minskning av aktiekapitalet",
+          "references": [
+            "16 §",
+            "19 kap. 6 §",
+            "19-22 §§",
+            "31-34 §§",
+            "5-30 §§",
+            "6 §"
+          ]
+        },
         {
           "id": "kap-20-§-2",
           "number": 2,
@@ -4110,43 +5121,95 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-20-§-6",
           "number": 6,
-          "text": "Om bolagsstämman skall pröva en fråga om minskning av aktiekapitalet, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag enligt bestämmelserna i 7-14 §§. Förslagets innehåll 7 § I förslaget om minskning av aktiekapitalet ska följande uppgifter anges: 1. minskningsändamålet, 2. det belopp eller högsta belopp som aktiekapitalet ska minskas med, eller det lägsta och högsta beloppet för minskningen, 3. om minskningen ska genomföras med eller utan indragning av aktier, och 4. i förekommande fall, vilka aktier som ska dras in. Om minskningsbeslutet förutsätter ändring av bolagsordningen, ska också detta anges. Uppgifter som avses i första stycket 2 behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett bemyndigande som avses i 10 § första stycket 5 eller 10 b § första stycket 3. Lag (2014:539).",
+          "text": "Om bolagsstämman skall pröva en fråga om minskning av aktiekapitalet, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag enligt bestämmelserna i 7-14 §§. Förslagets innehåll",
           "references": [
-            "10 §",
-            "7 §",
             "7-14 §§"
+          ]
+        },
+        {
+          "id": "kap-20-§-7",
+          "number": 7,
+          "text": "I förslaget om minskning av aktiekapitalet ska följande uppgifter anges: 1. minskningsändamålet, 2. det belopp eller högsta belopp som aktiekapitalet ska minskas med, eller det lägsta och högsta beloppet för minskningen, 3. om minskningen ska genomföras med eller utan indragning av aktier, och 4. i förekommande fall, vilka aktier som ska dras in. Om minskningsbeslutet förutsätter ändring av bolagsordningen, ska också detta anges. Uppgifter som avses i första stycket 2 behöver inte anges i förslaget, om det föreslås att stämman ska besluta om ett bemyndigande som avses i 10 § första stycket 5 eller 10 b § första stycket 3. Lag (2014:539).",
+          "references": [
+            "10 §"
           ]
         },
         {
           "id": "kap-20-§-8",
           "number": 8,
-          "text": "Innebär förslaget att aktiekapitalet skall minskas för återbetalning till aktieägarna, skall det till förslaget fogas ett motiverat yttrande från styrelsen om huruvida den föreslagna återbetalningen är försvarlig med hänsyn till vad som anges i 17 kap. 3 § andra och tredje styckena. Om tillgångar eller skulder har värderats till verkligt värde enligt 4 kap. 14 a § årsredovisningslagen (1995:1554), skall det i yttrandet också anges hur stor del av det egna kapitalet som beror på att en sådan värdering har tillämpats. I fall som avses i första stycket skall det till förslaget också fogas ett yttrande, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Lag (2007:317). 9 § Innebär förslaget att aktiekapitalet skall minskas för återbetalning till aktieägarna genom att aktier dras in (inlösen) skall, utöver vad som följer av 7 och 8 §§, följande uppgifter anges i förslaget: 1. den rätt att få aktier inlösta som aktieägarna har, 2. den tid inom vilken anmälan för inlösen skall göras, 3. det belopp som skall betalas för varje aktie som löses in, i förekommande fall med uppgift om hur stor del av beloppet som överstiger aktiens kvotvärde, 4. den tid inom vilken de inlösta aktierna skall betalas eller, i förekommande fall, att betalning skall ske vid anmälan för inlösen mot ingivande av aktiebrevet. Om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 10 § första stycket 5, får, i stället för uppgifter som avses i första stycket 3, anges det högsta belopp som får betalas för de aktier som löses in. Anmälningstiden enligt första stycket 2 får inte understiga två veckor, om inte alla aktieägare som så önskar kan få sina aktier inlösta. I bolag som inte är avstämningsbolag skall anmälningstiden räknas från det att underrättelse enligt 18 § skett, eller om samtliga aktieägare är företrädda på den bolagsstämma som beslutat om minskningen, från beslutet. I avstämningsbolag skall tiden räknas från avstämningsdagen. 10 § I förekommande fall skall, i fråga om sådan inlösen som avses i 9 §, förslaget om minskning av aktiekapitalet också innehålla uppgift om 1. att anmälan för inlösen skall ske genom att kuponger som hör till aktiebreven ges in, 2. att inlösta aktier skall betalas med annan egendom än pengar eller i övrigt på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att inlösen skall ske genom kvittning av en fordran som bolaget har mot aktieägaren, 3. avstämningsdagen eller bemyndigande för styrelsen att fastställa avstämningsdagen, om bolaget är avstämningsbolag, 4. övriga särskilda villkor för inlösen, och 5. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan inlösen påbörjas bestämma det belopp som aktiekapitalet skall minskas med och det belopp som skall betalas för varje aktie som löses in. Ett bemyndigande som avses i första stycket 3 eller 5 får lämnas bara om aktierna är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. I avstämningsbolag skall ett bemyndigande enligt första stycket 5 utformas så att minskningsbeloppet och det belopp som skall betalas för varje aktie som löses in bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Avstämningsdagen enligt första stycket 3 får inte infalla senare än dagen före nästa årsstämma. Lag (2007:566). 10 a § Om förslaget innebär att aktiekapitalet ska minskas för återbetalning till aktieägarna utan att aktier dras in, ska, utöver det som följer av 7 och 8 §§, följande uppgifter anges i förslaget: 1. det belopp som ska återbetalas per aktie, och 2. den tid inom vilken återbetalning ska göras. Om det föreslås att stämman ska besluta om ett bemyndigande som avses i 10 b § första stycket 3, får det, i stället för uppgifter som avses i första stycket 1, anges det högsta belopp som får återbetalas per aktie. Lag (2014:539). 10 b § I fråga om en sådan minskning av aktiekapitalet som avses i 10 a § ska förslaget om minskning av aktiekapitalet i förekommande fall också innehålla uppgift om 1. att återbetalning ska ske med annan egendom än pengar eller i övrigt på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att återbetalning ska ske genom kvittning av en fordran som bolaget har mot aktieägaren, 2. avstämningsdagen eller bemyndigande för styrelsen att fastställa avstämningsdagen, om bolaget är ett avstämningsbolag, och 3. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan återbetalning görs bestämma det belopp som aktiekapitalet ska minskas med och det belopp som ska återbetalas per aktie. Ett bemyndigande som avses i första stycket 2 eller 3 får lämnas bara om aktierna är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. I avstämningsbolag ska ett bemyndigande enligt första stycket 3 utformas så, att minskningsbeloppet och det belopp som ska återbetalas per aktie bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Avstämningsdagen enligt första stycket 2 får inte infalla senare än dagen före nästa årsstämma. Lag (2014:539). Kompletterande information",
+          "text": "Innebär förslaget att aktiekapitalet skall minskas för återbetalning till aktieägarna, skall det till förslaget fogas ett motiverat yttrande från styrelsen om huruvida den föreslagna återbetalningen är försvarlig med hänsyn till vad som anges i 17 kap. 3 § andra och tredje styckena. Om tillgångar eller skulder har värderats till verkligt värde enligt 4 kap. 14 a § årsredovisningslagen (1995:1554), skall det i yttrandet också anges hur stor del av det egna kapitalet som beror på att en sådan värdering har tillämpats. I fall som avses i första stycket skall det till förslaget också fogas ett yttrande, undertecknat av bolagets revisor, med uttalande om huruvida bolagsstämman bör besluta i enlighet med förslaget. Lag (2007:317).",
+          "references": [
+            "17 kap. 3 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-9",
+          "number": 9,
+          "text": "Innebär förslaget att aktiekapitalet skall minskas för återbetalning till aktieägarna genom att aktier dras in (inlösen) skall, utöver vad som följer av 7 och 8 §§, följande uppgifter anges i förslaget: 1. den rätt att få aktier inlösta som aktieägarna har, 2. den tid inom vilken anmälan för inlösen skall göras, 3. det belopp som skall betalas för varje aktie som löses in, i förekommande fall med uppgift om hur stor del av beloppet som överstiger aktiens kvotvärde, 4. den tid inom vilken de inlösta aktierna skall betalas eller, i förekommande fall, att betalning skall ske vid anmälan för inlösen mot ingivande av aktiebrevet. Om det föreslås att stämman skall besluta om ett sådant bemyndigande som avses i 10 § första stycket 5, får, i stället för uppgifter som avses i första stycket 3, anges det högsta belopp som får betalas för de aktier som löses in. Anmälningstiden enligt första stycket 2 får inte understiga två veckor, om inte alla aktieägare som så önskar kan få sina aktier inlösta. I bolag som inte är avstämningsbolag skall anmälningstiden räknas från det att underrättelse enligt 18 § skett, eller om samtliga aktieägare är företrädda på den bolagsstämma som beslutat om minskningen, från beslutet. I avstämningsbolag skall tiden räknas från avstämningsdagen.",
           "references": [
             "10 §",
-            "17 kap. 3 §",
             "18 §",
+            "8 §§"
+          ]
+        },
+        {
+          "id": "kap-20-§-10",
+          "number": 10,
+          "text": "I förekommande fall skall, i fråga om sådan inlösen som avses i 9 §, förslaget om minskning av aktiekapitalet också innehålla uppgift om 1. att anmälan för inlösen skall ske genom att kuponger som hör till aktiebreven ges in, 2. att inlösta aktier skall betalas med annan egendom än pengar eller i övrigt på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att inlösen skall ske genom kvittning av en fordran som bolaget har mot aktieägaren, 3. avstämningsdagen eller bemyndigande för styrelsen att fastställa avstämningsdagen, om bolaget är avstämningsbolag, 4. övriga särskilda villkor för inlösen, och 5. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan inlösen påbörjas bestämma det belopp som aktiekapitalet skall minskas med och det belopp som skall betalas för varje aktie som löses in. Ett bemyndigande som avses i första stycket 3 eller 5 får lämnas bara om aktierna är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. I avstämningsbolag skall ett bemyndigande enligt första stycket 5 utformas så att minskningsbeloppet och det belopp som skall betalas för varje aktie som löses in bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Avstämningsdagen enligt första stycket 3 får inte infalla senare än dagen före nästa årsstämma. Lag (2007:566).",
+          "references": [
             "2 kap. 5 §",
-            "3 §",
             "5 §",
-            "8 §§",
             "9 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-10a",
+          "number": 10,
+          "text": "Om förslaget innebär att aktiekapitalet ska minskas för återbetalning till aktieägarna utan att aktier dras in, ska, utöver det som följer av 7 och 8 §§, följande uppgifter anges i förslaget: 1. det belopp som ska återbetalas per aktie, och 2. den tid inom vilken återbetalning ska göras. Om det föreslås att stämman ska besluta om ett bemyndigande som avses i 10 b § första stycket 3, får det, i stället för uppgifter som avses i första stycket 1, anges det högsta belopp som får återbetalas per aktie. Lag (2014:539).",
+          "references": [
+            "8 §§"
+          ]
+        },
+        {
+          "id": "kap-20-§-10b",
+          "number": 10,
+          "text": "I fråga om en sådan minskning av aktiekapitalet som avses i 10 a § ska förslaget om minskning av aktiekapitalet i förekommande fall också innehålla uppgift om 1. att återbetalning ska ske med annan egendom än pengar eller i övrigt på villkor som avses i 2 kap. 5 § andra stycket 1-3 och 5 eller att återbetalning ska ske genom kvittning av en fordran som bolaget har mot aktieägaren, 2. avstämningsdagen eller bemyndigande för styrelsen att fastställa avstämningsdagen, om bolaget är ett avstämningsbolag, och 3. bemyndigande för styrelsen eller den som styrelsen utser inom sig att innan återbetalning görs bestämma det belopp som aktiekapitalet ska minskas med och det belopp som ska återbetalas per aktie. Ett bemyndigande som avses i första stycket 2 eller 3 får lämnas bara om aktierna är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. I avstämningsbolag ska ett bemyndigande enligt första stycket 3 utformas så, att minskningsbeloppet och det belopp som ska återbetalas per aktie bestäms senast den dag som infaller fem vardagar före avstämningsdagen. Avstämningsdagen enligt första stycket 2 får inte infalla senare än dagen före nästa årsstämma. Lag (2014:539). Kompletterande information",
+          "references": [
+            "2 kap. 5 §",
+            "5 §"
           ]
         },
         {
           "id": "kap-20-§-11",
           "number": 11,
-          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma där förslaget om minskning av aktiekapitalet skall prövas och minskningsbeloppet helt eller delvis skall användas för ändamål som avses i 1 § första stycket 3, skall det i förslaget anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring. Lag (2007:317). 12 § I de fall som avses i 11 § skall följande handlingar fogas till förslaget: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Lag (2007:317). Uppgifter om särskilda inlösenvillkor m.m. 13 § Förslaget om minskning av aktiekapitalet ska i förekommande fall innehålla en redogörelse för de omständigheter som kan vara av betydelse vid bedömningen av 1. värdet på egendom som avses i 10 § första stycket 2 och 10 b § första stycket 1, 2. inlösenvillkor av det slag som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. inlösenvillkor om kvittning. Redogörelsen ska ha det innehåll som anges i 2 kap. 7 och 9 §§. I de fall som avses i 9 § ska, om förslaget innebär att inte alla aktieägare kan få aktier inlösta, skälen för detta anges. I de fall som avses i 23 § andra meningen ska redogörelsen innehålla uppgift om de övriga åtgärder som föreslås för att bolagets bundna egna kapital och dess aktiekapital inte ska minska. I redogörelsen ska det anges vilka effekter den föreslagna minskningen respektive övriga åtgärder var för sig har på bolagets bundna egna kapital och aktiekapital. Lag (2014:539). Revisorsgranskning",
+          "text": "Om årsredovisningen inte skall behandlas på den bolagsstämma där förslaget om minskning av aktiekapitalet skall prövas och minskningsbeloppet helt eller delvis skall användas för ändamål som avses i 1 § första stycket 3, skall det i förslaget anges hur stor del av det enligt 17 kap. 3 § första stycket disponibla beloppet som finns kvar efter det senast fattade beslutet om värdeöverföring. Lag (2007:317).",
           "references": [
             "1 §",
-            "10 §",
-            "11 §",
-            "12 §",
-            "13 §",
             "17 kap. 3 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-12",
+          "number": 12,
+          "text": "I de fall som avses i 11 § skall följande handlingar fogas till förslaget: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning, vilka har inträffat efter det att årsredovisningen lämnades med uppgift om värdeöverföringar som har beslutats under samma tid och om förändringar i bolagets bundna egna kapital som har skett efter balansdagen, och 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor. Lag (2007:317). Uppgifter om särskilda inlösenvillkor m.m.",
+          "references": [
+            "11 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-13",
+          "number": 13,
+          "text": "Förslaget om minskning av aktiekapitalet ska i förekommande fall innehålla en redogörelse för de omständigheter som kan vara av betydelse vid bedömningen av 1. värdet på egendom som avses i 10 § första stycket 2 och 10 b § första stycket 1, 2. inlösenvillkor av det slag som avses i 2 kap. 5 § andra stycket 1-3 och 5, eller 3. inlösenvillkor om kvittning. Redogörelsen ska ha det innehåll som anges i 2 kap. 7 och 9 §§. I de fall som avses i 9 § ska, om förslaget innebär att inte alla aktieägare kan få aktier inlösta, skälen för detta anges. I de fall som avses i 23 § andra meningen ska redogörelsen innehålla uppgift om de övriga åtgärder som föreslås för att bolagets bundna egna kapital och dess aktiekapital inte ska minska. I redogörelsen ska det anges vilka effekter den föreslagna minskningen respektive övriga åtgärder var för sig har på bolagets bundna egna kapital och aktiekapital. Lag (2014:539). Revisorsgranskning",
+          "references": [
+            "10 §",
             "2 kap. 5 §",
             "2 kap. 7 och 9 §§",
             "23 §",
-            "3 §"
+            "5 §",
+            "9 §",
+            "9 §§"
           ]
         },
         {
@@ -4212,36 +5275,53 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-20-§-21",
           "number": 21,
-          "text": "Om minskningen av aktiekapitalet har genomförts med indragning av aktier, ska de indragna aktierna genast strykas ur aktieboken. I avstämningsbolag ska styrelsen genast anmäla till den värdepapperscentral som för avstämningsregister för bolaget att minskningen har registrerats. Lag (2016:60). Minskningsbeslutet faller 22 § Frågan om minskning av aktiekapitalet faller, om 1. någon anmälan enligt 19 § om registrering inte har gjorts inom föreskriven tid, 2. Bolagsverket genom ett beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 19 § eller har vägrat registrering, eller 3. någon ansökan enligt 25 § om tillstånd att verkställa minskningsbeslutet inte har gjorts inom föreskriven tid eller har avslagits genom beslut som har vunnit laga kraft. Om ett minskningsbeslut upphör att gälla enligt första stycket, gäller detta också beslut om sådan ändring av bolagsordningen som förutsätter att aktiekapitalet minskas. Tillstånd från Bolagsverket eller allmän domstol Tillstånd att verkställa beslut om minskning av aktiekapitalet för återbetalning till aktieägarna m.m.",
+          "text": "Om minskningen av aktiekapitalet har genomförts med indragning av aktier, ska de indragna aktierna genast strykas ur aktieboken. I avstämningsbolag ska styrelsen genast anmäla till den värdepapperscentral som för avstämningsregister för bolaget att minskningen har registrerats. Lag (2016:60). Minskningsbeslutet faller",
+          "references": []
+        },
+        {
+          "id": "kap-20-§-22",
+          "number": 22,
+          "text": "Frågan om minskning av aktiekapitalet faller, om 1. någon anmälan enligt 19 § om registrering inte har gjorts inom föreskriven tid, 2. Bolagsverket genom ett beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 19 § eller har vägrat registrering, eller 3. någon ansökan enligt 25 § om tillstånd att verkställa minskningsbeslutet inte har gjorts inom föreskriven tid eller har avslagits genom beslut som har vunnit laga kraft. Om ett minskningsbeslut upphör att gälla enligt första stycket, gäller detta också beslut om sådan ändring av bolagsordningen som förutsätter att aktiekapitalet minskas. Tillstånd från Bolagsverket eller allmän domstol Tillstånd att verkställa beslut om minskning av aktiekapitalet för återbetalning till aktieägarna m.m.",
           "references": [
             "19 §",
-            "22 §",
             "25 §"
           ]
         },
         {
           "id": "kap-20-§-23",
           "number": 23,
-          "text": "Skall minskningsbeloppet helt eller delvis användas för ändamål som avses i 1 § första stycket 2 eller 3, får bolaget inte verkställa minskningsbeslutet utan tillstånd av Bolagsverket eller, i tvistiga fall, allmän domstol. Tillstånd behövs dock inte om bolaget samtidigt vidtar åtgärder som medför att varken bolagets bundna egna kapital eller dess aktiekapital minskar. Underrättelse till bolagets kända borgenärer 24 § Om tillstånd krävs enligt 23 §, skall bolaget skriftligen underrätta sina kända borgenärer om minskningsbeslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa minskningsbeslutet samt uppgift om borgenärernas rätt enligt 27 § att motsätta sig att beslutet verkställs. Borgenärerna behöver inte underrättas om en revisor i ett skriftligt, undertecknat yttrande uttalar att han eller hon inte har funnit att minskningen medför någon fara för borgenärerna. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). För en revisor som avses i andra stycket gäller bestämmelserna i 14 § andra och tredje styckena. Lag (2007:317). Ansökan om tillstånd",
+          "text": "Skall minskningsbeloppet helt eller delvis användas för ändamål som avses i 1 § första stycket 2 eller 3, får bolaget inte verkställa minskningsbeslutet utan tillstånd av Bolagsverket eller, i tvistiga fall, allmän domstol. Tillstånd behövs dock inte om bolaget samtidigt vidtar åtgärder som medför att varken bolagets bundna egna kapital eller dess aktiekapital minskar. Underrättelse till bolagets kända borgenärer",
           "references": [
-            "1 §",
+            "1 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-24",
+          "number": 24,
+          "text": "Om tillstånd krävs enligt 23 §, skall bolaget skriftligen underrätta sina kända borgenärer om minskningsbeslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa minskningsbeslutet samt uppgift om borgenärernas rätt enligt 27 § att motsätta sig att beslutet verkställs. Borgenärerna behöver inte underrättas om en revisor i ett skriftligt, undertecknat yttrande uttalar att han eller hon inte har funnit att minskningen medför någon fara för borgenärerna. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). För en revisor som avses i andra stycket gäller bestämmelserna i 14 § andra och tredje styckena. Lag (2007:317). Ansökan om tillstånd",
+          "references": [
             "14 §",
             "23 §",
-            "24 §",
             "27 §"
           ]
         },
         {
           "id": "kap-20-§-25",
           "number": 25,
-          "text": "Bolaget ska, i sådana fall som avses i 23 §, ansöka om tillstånd att verkställa minskningsbeslutet. Ansökan ska göras hos Bolagsverket. Den ska ges in samtidigt med anmälan enligt 19 § eller senast två månader efter det att minskningsbeslutet registrerades. Till ansökan ska det bifogas ett intyg från bolagets styrelse eller verkställande direktör om att bolagets kända borgenärer har underrättats enligt 24 § första stycket. Om det finns ett yttrande som avses i 24 § andra stycket, ska i stället yttrandet bifogas ansökan. Om bolaget inte har bifogat vare sig ett sådant intyg eller ett sådant yttrande, ska Bolagsverket förelägga bolaget att avhjälpa bristen. Om bolaget inte gör detta, ska ansökan avvisas. Detsamma gäller om frågan om minskning av aktiekapitalet har fallit enligt 22 § första stycket 1 eller 2. Lag (2014:539). Kallelse på bolagets borgenärer 26 § Om Bolagsverket finner att det inte finns något hinder mot ansökan enligt 25 §, ska verket kalla bolagets borgenärer. Verket ska dock inte kalla borgenärer, vilkas anspråk avser en fordran på lön eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till minskning av aktiekapitalet",
+          "text": "Bolaget ska, i sådana fall som avses i 23 §, ansöka om tillstånd att verkställa minskningsbeslutet. Ansökan ska göras hos Bolagsverket. Den ska ges in samtidigt med anmälan enligt 19 § eller senast två månader efter det att minskningsbeslutet registrerades. Till ansökan ska det bifogas ett intyg från bolagets styrelse eller verkställande direktör om att bolagets kända borgenärer har underrättats enligt 24 § första stycket. Om det finns ett yttrande som avses i 24 § andra stycket, ska i stället yttrandet bifogas ansökan. Om bolaget inte har bifogat vare sig ett sådant intyg eller ett sådant yttrande, ska Bolagsverket förelägga bolaget att avhjälpa bristen. Om bolaget inte gör detta, ska ansökan avvisas. Detsamma gäller om frågan om minskning av aktiekapitalet har fallit enligt 22 § första stycket 1 eller 2. Lag (2014:539). Kallelse på bolagets borgenärer",
           "references": [
             "19 §",
             "22 §",
             "23 §",
-            "24 §",
-            "25 §",
-            "26 §"
+            "24 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-26",
+          "number": 26,
+          "text": "Om Bolagsverket finner att det inte finns något hinder mot ansökan enligt 25 §, ska verket kalla bolagets borgenärer. Verket ska dock inte kalla borgenärer, vilkas anspråk avser en fordran på lön eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till minskning av aktiekapitalet",
+          "references": [
+            "25 §"
           ]
         },
         {
@@ -4269,11 +5349,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-20-§-30",
           "number": 30,
-          "text": "Under tre år efter registreringen av ett beslut om minskning av aktiekapitalet för förlusttäckning får vinstutdelning inte beslutas utan tillstånd från Bolagsverket eller, i tvistiga fall, allmän domstol. Tillstånd behövs dock inte om aktiekapitalet efter eller i samband med minskningsbeslutet har ökats med minst minskningsbeloppet. I fråga om Bolagsverkets eller domstolens tillstånd gäller 25-29 §§ i tillämpliga delar. Minskning av aktiekapitalet enligt förbehåll i bolagsordningen Inlösenförbehåll 31 § I aktiebolag där aktiekapitalet kan bestämmas till ett lägre eller högre belopp utan ändring av bolagsordningen, kan det tas in förbehåll i bolagsordningen om att aktiekapitalet kan minskas genom inlösen av aktier (inlösenförbehåll). Förbehållet får inte utformas så att aktiekapitalet kan minskas under minimikapitalet. Ett inlösenförbehåll skall ange dels ordningen för inlösen, dels inlösenbeloppet eller grunderna för dess beräkning. Om förbehållet införs genom ändring av bolagsordningen, får det endast avse aktier som tecknas eller ges ut efter det att ändringen har registrerats. Majoritetskrav",
+          "text": "Under tre år efter registreringen av ett beslut om minskning av aktiekapitalet för förlusttäckning får vinstutdelning inte beslutas utan tillstånd från Bolagsverket eller, i tvistiga fall, allmän domstol. Tillstånd behövs dock inte om aktiekapitalet efter eller i samband med minskningsbeslutet har ökats med minst minskningsbeloppet. I fråga om Bolagsverkets eller domstolens tillstånd gäller 25-29 §§ i tillämpliga delar. Minskning av aktiekapitalet enligt förbehåll i bolagsordningen Inlösenförbehåll",
           "references": [
-            "25-29 §§",
-            "31 §"
+            "25-29 §§"
           ]
+        },
+        {
+          "id": "kap-20-§-31",
+          "number": 31,
+          "text": "I aktiebolag där aktiekapitalet kan bestämmas till ett lägre eller högre belopp utan ändring av bolagsordningen, kan det tas in förbehåll i bolagsordningen om att aktiekapitalet kan minskas genom inlösen av aktier (inlösenförbehåll). Förbehållet får inte utformas så att aktiekapitalet kan minskas under minimikapitalet. Ett inlösenförbehåll skall ange dels ordningen för inlösen, dels inlösenbeloppet eller grunderna för dess beräkning. Om förbehållet införs genom ändring av bolagsordningen, får det endast avse aktier som tecknas eller ges ut efter det att ändringen har registrerats. Majoritetskrav",
+          "references": []
         },
         {
           "id": "kap-20-§-32",
@@ -4297,12 +5382,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-20-§-34",
           "number": 34,
-          "text": "Vid beslut om minskning enligt förbehåll i bolagsordningen skall 19-22 §§ tillämpas. I de fall som avses i 33 § andra stycket skall styrelsen dock, när beslut har fattats om inlösen av aktier och avsättning till reservfonden, genast anmäla detta för registrering i aktiebolagsregistret. Minskning av den bundna överkursfonden och reservfonden Minskningsändamål 35 § Minskning av den bundna överkursfonden eller reservfonden får ske för 1. täckning av förlust, om det inte finns fritt eget kapital som motsvarar förlusten, 2. ökning av aktiekapitalet genom fondemission eller nyemission av aktier, och 3. återbetalning till aktieägarna eller något annat ändamål, om Bolagsverket eller, i tvistiga fall, allmän domstol med tillämpning av 23-29 §§ ger tillstånd till minskningen. Lag (2020:985). Beslutsordning",
+          "text": "Vid beslut om minskning enligt förbehåll i bolagsordningen skall 19-22 §§ tillämpas. I de fall som avses i 33 § andra stycket skall styrelsen dock, när beslut har fattats om inlösen av aktier och avsättning till reservfonden, genast anmäla detta för registrering i aktiebolagsregistret. Minskning av den bundna överkursfonden och reservfonden Minskningsändamål",
           "references": [
             "19-22 §§",
-            "23-29 §§",
-            "33 §",
-            "35 §"
+            "33 §"
+          ]
+        },
+        {
+          "id": "kap-20-§-35",
+          "number": 35,
+          "text": "Minskning av den bundna överkursfonden eller reservfonden får ske för 1. täckning av förlust, om det inte finns fritt eget kapital som motsvarar förlusten, 2. ökning av aktiekapitalet genom fondemission eller nyemission av aktier, och 3. återbetalning till aktieägarna eller något annat ändamål, om Bolagsverket eller, i tvistiga fall, allmän domstol med tillämpning av 23-29 §§ ger tillstånd till minskningen. Lag (2020:985). Beslutsordning",
+          "references": [
+            "23-29 §§"
           ]
         },
         {
@@ -4331,6 +5422,22 @@ export const aktiebolagslag: LegalText = {
       "title": "Lån från bolaget till aktieägare m.fl.",
       "sections": [
         {
+          "id": "kap-21-§-1",
+          "number": 1,
+          "text": "Om inte annat följer av 2 §, får ett aktiebolag inte lämna penninglån till 1. den som äger aktier i bolaget eller i annat bolag i samma koncern, 2. den som är styrelseledamot eller verkställande direktör i bolaget eller i annat bolag i samma koncern, 3. den som är gift eller sambo med eller är syskon eller släkting i rätt upp- eller nedstigande led till den som avses i 1 eller 2, 4. den som är besvågrad med den som avses i 1 eller 2 i rätt upp- eller nedstigande led eller så att den ene är gift med den andres syskon, eller 5. en juridisk person över vilken en person som avses i 1-4, ensam eller tillsammans med någon annan som avses där, har ett bestämmande inflytande.",
+          "references": [
+            "2 §"
+          ]
+        },
+        {
+          "id": "kap-21-§-2",
+          "number": 2,
+          "text": "Bestämmelserna i 1 § gäller inte om 1. gäldenären är en kommun, en region eller ett kommunalförbund, 2. gäldenären är ett företag i en koncern i vilken det långivande bolaget ingår, 3. lånet är avsett uteslutande för gäldenärens rörelse och bolaget lämnar lånet av rent affärsmässiga skäl, eller 4. lånet har tagits upp av Riksgäldskontoret enligt 5 kap. budgetlagen (2011:203). Med koncern som avses i första stycket 2 likställs annan företagsgrupp av motsvarande slag i vilken moderorganisationen är 1. en svensk juridisk person som är bokföringsskyldig enligt bokföringslagen (1999:1078), 2. en motsvarande utländsk juridisk person med hemvist inom Europeiska ekonomiska samarbetsområdet, eller 3. en kommun, en region eller ett kommunalförbund. Bestämmelserna i 1 § gäller inte heller lån till en aktieägare eller dennes närstående, om låntagarens och dennes närståendes sammanlagda aktieinnehav i bolaget inte uppgår till en procent av aktiekapitalet. Lag (2019:920). Ställande av säkerhet",
+          "references": [
+            "1 §"
+          ]
+        },
+        {
           "id": "kap-21-§-3",
           "number": 3,
           "text": "Bestämmelserna i 1 och 2 §§ om penninglån tillämpas även i fråga om att ställa säkerhet för penninglån. Innehav i värdepappersfond eller specialfond",
@@ -4349,12 +5456,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-21-§-5",
           "number": 5,
-          "text": "Ett aktiebolag får inte ge förskott, lämna lån eller ställa säkerhet för lån i syfte att gäldenären eller honom närstående fysisk eller juridisk person som avses i 1 § skall förvärva aktier i bolaget eller överordnat bolag i samma koncern. 6 § Är gäldenären anställd i bolaget eller i ett annat bolag i samma koncern gäller inte förbudet mot förskott, lån eller säkerhet enligt 5 §, om 1. värdet av det erbjudna förskottet, lånebeloppet eller säkerheten, tillsammans med tidigare förskott, lån och säkerheter enligt denna paragraf från bolaget eller annat bolag i samma koncern inte överstiger två prisbasbelopp enligt 2 kap. 6 och 7 §§ socialförsäkringsbalken, och 2. erbjudandet riktar sig till minst hälften av de anställda i bolaget samt, i fråga om förskott eller lån, innebär att det erbjudna beloppet ska återbetalas inom fem år genom regelbundna amorteringar. Förskott, lån eller säkerhet enligt första stycket får inte lämnas, om det inte därefter finns full täckning för det bundna egna kapitalet. Vid beräkningen av om det finns full täckning för det bundna egna kapitalet ska förskott och lån enligt första stycket behandlas som fordringar utan värde samt säkerheter enligt första stycket behandlas som bolagets skuld. Även om det inte finns något hinder enligt andra stycket får förskott, lån eller säkerhet lämnas endast i den mån det framstår som försvarligt med hänsyn till 1. de krav som verksamhetens art, omfattning och risker ställer på storleken av det egna kapitalet, och 2. bolagets konsolideringsbehov, likviditet och ställning i övrigt. Lag (2010:1295). Innehav i värdepappersfond eller specialfond",
+          "text": "Ett aktiebolag får inte ge förskott, lämna lån eller ställa säkerhet för lån i syfte att gäldenären eller honom närstående fysisk eller juridisk person som avses i 1 § skall förvärva aktier i bolaget eller överordnat bolag i samma koncern.",
           "references": [
-            "1 §",
+            "1 §"
+          ]
+        },
+        {
+          "id": "kap-21-§-6",
+          "number": 6,
+          "text": "Är gäldenären anställd i bolaget eller i ett annat bolag i samma koncern gäller inte förbudet mot förskott, lån eller säkerhet enligt 5 §, om 1. värdet av det erbjudna förskottet, lånebeloppet eller säkerheten, tillsammans med tidigare förskott, lån och säkerheter enligt denna paragraf från bolaget eller annat bolag i samma koncern inte överstiger två prisbasbelopp enligt 2 kap. 6 och 7 §§ socialförsäkringsbalken, och 2. erbjudandet riktar sig till minst hälften av de anställda i bolaget samt, i fråga om förskott eller lån, innebär att det erbjudna beloppet ska återbetalas inom fem år genom regelbundna amorteringar. Förskott, lån eller säkerhet enligt första stycket får inte lämnas, om det inte därefter finns full täckning för det bundna egna kapitalet. Vid beräkningen av om det finns full täckning för det bundna egna kapitalet ska förskott och lån enligt första stycket behandlas som fordringar utan värde samt säkerheter enligt första stycket behandlas som bolagets skuld. Även om det inte finns något hinder enligt andra stycket får förskott, lån eller säkerhet lämnas endast i den mån det framstår som försvarligt med hänsyn till 1. de krav som verksamhetens art, omfattning och risker ställer på storleken av det egna kapitalet, och 2. bolagets konsolideringsbehov, likviditet och ställning i övrigt. Lag (2010:1295). Innehav i värdepappersfond eller specialfond",
+          "references": [
             "2 kap. 6 och 7 §§",
             "5 §",
-            "6 §",
             "7 §§"
           ]
         },
@@ -4380,9 +5493,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-21-§-9",
           "number": 9,
-          "text": "Bolagets kända borgenärer skall höras över en ansökan om undantag enligt 8 §. Om en borgenär begär det, skall hans eller hennes fordran betalas eller betryggande säkerhet ställas för den innan ansökan får bifallas. Första stycket gäller inte, om borgenärernas ställning uppenbarligen inte påverkas av att undantag medges. Förteckning över lån m.m. 10 § Styrelsen och den verkställande direktören skall varje räkenskapsår upprätta en särskild förteckning över 1. förskott, lån och säkerheter som har lämnats med stöd av undantag som har medgetts enligt 8 §, samt 2. lån och säkerheter som har lämnats med stöd av bestämmelsen i 2 § första stycket 3. Förteckningen skall avse förskott, lån och säkerheter som har lämnats under räkenskapsåret eller som finns kvar från tidigare räkenskapsår. I förteckningen skall anges namnen på de personer till vilka förskott eller lån har lämnats eller för vilka säkerhet har ställts. Den myndighet som avses i 8 § får besluta att förskott, lån eller säkerhet som avses i första stycket inte behöver tas upp i förteckningen. Förteckningen skall bevaras under minst tio år efter utgången av det räkenskapsår som förteckningen avser. Rättsföljderna vid olagligt lämnande av lån eller ställande av säkerhet",
+          "text": "Bolagets kända borgenärer skall höras över en ansökan om undantag enligt 8 §. Om en borgenär begär det, skall hans eller hennes fordran betalas eller betryggande säkerhet ställas för den innan ansökan får bifallas. Första stycket gäller inte, om borgenärernas ställning uppenbarligen inte påverkas av att undantag medges. Förteckning över lån m.m.",
           "references": [
-            "10 §",
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-21-§-10",
+          "number": 10,
+          "text": "Styrelsen och den verkställande direktören skall varje räkenskapsår upprätta en särskild förteckning över 1. förskott, lån och säkerheter som har lämnats med stöd av undantag som har medgetts enligt 8 §, samt 2. lån och säkerheter som har lämnats med stöd av bestämmelsen i 2 § första stycket 3. Förteckningen skall avse förskott, lån och säkerheter som har lämnats under räkenskapsåret eller som finns kvar från tidigare räkenskapsår. I förteckningen skall anges namnen på de personer till vilka förskott eller lån har lämnats eller för vilka säkerhet har ställts. Den myndighet som avses i 8 § får besluta att förskott, lån eller säkerhet som avses i första stycket inte behöver tas upp i förteckningen. Förteckningen skall bevaras under minst tio år efter utgången av det räkenskapsår som förteckningen avser. Rättsföljderna vid olagligt lämnande av lån eller ställande av säkerhet",
+          "references": [
             "2 §",
             "8 §"
           ]
@@ -4428,12 +5548,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-22-§-3",
           "number": 3,
-          "text": "En aktieägare har rätt till ränta enligt 5 § räntelagen (1975:635) på lösenbeloppet från den dag någon av parterna begärde att tvisten skulle prövas av skiljemän till dess att den dom, där lösenbeloppet har fastställts, har vunnit laga kraft. För tiden därefter fram till dess att lösenbeloppet betalas har aktieägaren rätt till ränta enligt 6 § samma lag. I fråga om bolag som inte är avstämningsbolag skall dock sådan ränta inte betalas för tiden innan aktiebrev med anteckning om överlåtelse eller lösenbevis har överlämnats till majoritetsaktieägaren. Rätten till lösenbeloppet 4 § Rätten till lösenbeloppet ska antas tillkomma den som till majoritetsaktieägaren överlämnar ett aktiebrev med anteckning om överlåtelse eller ett lösenbevis enligt 13 § andra stycket. I avstämningsbolag ska rätten antas tillkomma den som i avstämningsregister är 1. registrerad som ägare till aktierna, eller 2. antecknad på konto i avstämningsregister som berättigad till lösenbeloppet. Lag (2016:60). Talan i inlösentvist",
+          "text": "En aktieägare har rätt till ränta enligt 5 § räntelagen (1975:635) på lösenbeloppet från den dag någon av parterna begärde att tvisten skulle prövas av skiljemän till dess att den dom, där lösenbeloppet har fastställts, har vunnit laga kraft. För tiden därefter fram till dess att lösenbeloppet betalas har aktieägaren rätt till ränta enligt 6 § samma lag. I fråga om bolag som inte är avstämningsbolag skall dock sådan ränta inte betalas för tiden innan aktiebrev med anteckning om överlåtelse eller lösenbevis har överlämnats till majoritetsaktieägaren. Rätten till lösenbeloppet",
           "references": [
-            "13 §",
-            "4 §",
             "5 §",
             "6 §"
+          ]
+        },
+        {
+          "id": "kap-22-§-4",
+          "number": 4,
+          "text": "Rätten till lösenbeloppet ska antas tillkomma den som till majoritetsaktieägaren överlämnar ett aktiebrev med anteckning om överlåtelse eller ett lösenbevis enligt 13 § andra stycket. I avstämningsbolag ska rätten antas tillkomma den som i avstämningsregister är 1. registrerad som ägare till aktierna, eller 2. antecknad på konto i avstämningsregister som berättigad till lösenbeloppet. Lag (2016:60). Talan i inlösentvist",
+          "references": [
+            "13 §"
           ]
         },
         {
@@ -4473,9 +5599,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-22-§-9",
           "number": 9,
-          "text": "Den som utses till god man skall vara lämplig för uppdraget. Den gode mannens uppgifter 10 § Den gode mannen skall 1. utse en gemensam skiljeman för minoritetsaktieägarna, och 2. i tvisten bevaka frånvarande aktieägares rätt. Den gode mannen skall snarast underrätta bolagets styrelse om valet av skiljeman. Utöver vad som anges i denna lag, gäller om den gode mannens behörighet vad som föreskrivs i 12 kap. 14 § första stycket 2-6 rättegångsbalken. Den gode mannen är vidare behörig att framställa yrkande om fullgörelse enligt 5 § andra stycket 3.",
+          "text": "Den som utses till god man skall vara lämplig för uppdraget. Den gode mannens uppgifter",
+          "references": []
+        },
+        {
+          "id": "kap-22-§-10",
+          "number": 10,
+          "text": "Den gode mannen skall 1. utse en gemensam skiljeman för minoritetsaktieägarna, och 2. i tvisten bevaka frånvarande aktieägares rätt. Den gode mannen skall snarast underrätta bolagets styrelse om valet av skiljeman. Utöver vad som anges i denna lag, gäller om den gode mannens behörighet vad som föreskrivs i 12 kap. 14 § första stycket 2-6 rättegångsbalken. Den gode mannen är vidare behörig att framställa yrkande om fullgörelse enligt 5 § andra stycket 3.",
           "references": [
-            "10 §",
             "12 kap. 14 §",
             "14 §",
             "5 §"
@@ -4499,12 +5630,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-22-§-13",
           "number": 13,
-          "text": "Om det har beslutats om förhandstillträde till aktier i ett bolag som inte är avstämningsbolag, är ägarna till de aktier som skall lösas in skyldiga att till majoritetsaktieägaren överlämna sina aktiebrev med anteckning om överlåtelse. Aktiebrev, som ännu inte har överlämnats till majoritetsaktieägaren ger inte annan rätt för innehavaren än att mot överlämnandet av aktiebrevet få ut lösenbeloppet och ränta. När en aktieägare överlämnar aktiebrev till majoritetsaktieägaren enligt första stycket är denne skyldig att till aktieägaren lämna ett skriftligt bevis om aktieägarens rätt till kommande lösenbelopp och ränta (lösenbevis). Av lösenbeviset skall framgå 1. att det har utställts av majoritetsaktieägaren, och 2. det antal aktier, i förekommande fall med uppgift om aktieslag, för vilka aktieägaren är berättigad till lösenbelopp. I fråga om överlåtelse och pantsättning av lösenbevis skall bestämmelserna om emissionsbevis och teckningsoptionsbevis i 11 kap. 7 § tillämpas. 14 § Om det har beslutats om förhandstillträde till aktier i ett avstämningsbolag, ska aktierna, på begäran av majoritetsaktieägaren, registreras med denne som ägare i avstämningsregister. Samtidigt ska aktieägares rätt till kommande lösenbelopp och ränta registreras på samma sätt. Lag (2016:60). Särskild dom i inlösentvist",
+          "text": "Om det har beslutats om förhandstillträde till aktier i ett bolag som inte är avstämningsbolag, är ägarna till de aktier som skall lösas in skyldiga att till majoritetsaktieägaren överlämna sina aktiebrev med anteckning om överlåtelse. Aktiebrev, som ännu inte har överlämnats till majoritetsaktieägaren ger inte annan rätt för innehavaren än att mot överlämnandet av aktiebrevet få ut lösenbeloppet och ränta. När en aktieägare överlämnar aktiebrev till majoritetsaktieägaren enligt första stycket är denne skyldig att till aktieägaren lämna ett skriftligt bevis om aktieägarens rätt till kommande lösenbelopp och ränta (lösenbevis). Av lösenbeviset skall framgå 1. att det har utställts av majoritetsaktieägaren, och 2. det antal aktier, i förekommande fall med uppgift om aktieslag, för vilka aktieägaren är berättigad till lösenbelopp. I fråga om överlåtelse och pantsättning av lösenbevis skall bestämmelserna om emissionsbevis och teckningsoptionsbevis i 11 kap. 7 § tillämpas.",
           "references": [
             "11 kap. 7 §",
-            "14 §",
             "7 §"
           ]
+        },
+        {
+          "id": "kap-22-§-14",
+          "number": 14,
+          "text": "Om det har beslutats om förhandstillträde till aktier i ett avstämningsbolag, ska aktierna, på begäran av majoritetsaktieägaren, registreras med denne som ägare i avstämningsregister. Samtidigt ska aktieägares rätt till kommande lösenbelopp och ränta registreras på samma sätt. Lag (2016:60). Särskild dom i inlösentvist",
+          "references": []
         },
         {
           "id": "kap-22-§-15",
@@ -4542,9 +5678,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-22-§-19",
           "number": 19,
-          "text": "Har någon annan än majoritetsaktieägaren lämnat tvisten för avgörande av skiljemän och återkallar han eller hon sin talan, skall tvisten ändå prövas om majoritetsaktieägaren yrkar det. Verkningar av en skiljedom avseende lösenbeloppet 20 § När en dom avseende lösenbeloppet har fått laga kraft gäller följande. I ett bolag som inte är avstämningsbolag ska ägarna till de aktier som ska lösas in till majoritetsaktieägaren överlämna sina aktiebrev med anteckning om överlåtelse. I ett avstämningsbolag ska, utom i fall som avses i 21 §, aktierna på begäran av majoritetsaktieägaren registreras med denne som ägare i avstämningsregister. Lag (2016:60). Nedsättning av fastställt lösenbelopp",
+          "text": "Har någon annan än majoritetsaktieägaren lämnat tvisten för avgörande av skiljemän och återkallar han eller hon sin talan, skall tvisten ändå prövas om majoritetsaktieägaren yrkar det. Verkningar av en skiljedom avseende lösenbeloppet",
+          "references": []
+        },
+        {
+          "id": "kap-22-§-20",
+          "number": 20,
+          "text": "När en dom avseende lösenbeloppet har fått laga kraft gäller följande. I ett bolag som inte är avstämningsbolag ska ägarna till de aktier som ska lösas in till majoritetsaktieägaren överlämna sina aktiebrev med anteckning om överlåtelse. I ett avstämningsbolag ska, utom i fall som avses i 21 §, aktierna på begäran av majoritetsaktieägaren registreras med denne som ägare i avstämningsregister. Lag (2016:60). Nedsättning av fastställt lösenbelopp",
           "references": [
-            "20 §",
             "21 §"
           ]
         },
@@ -4624,12 +5765,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-1",
           "number": 1,
-          "text": "Två eller flera aktiebolag kan gå samman genom att samtliga tillgångar och skulder i ett eller flera av bolagen övertas av ett annat aktiebolag mot vederlag till aktieägarna i det eller de överlåtande bolagen (fusion). Vid fusionen upplöses det eller de överlåtande bolagen utan likvidation. Fusion kan ske 1. mellan det övertagande bolaget på ena sidan och ett eller flera överlåtande bolag på den andra (absorption), eller 2. mellan två eller flera överlåtande bolag genom att de bildar ett nytt, övertagande bolag (kombination). Vid fusion genom absorption av helägt dotterbolag gäller 28-35 §§ i stället för 6-27 §§. Fusionsvederlag 2 § Vederlaget till aktieägarna i det eller de överlåtande bolagen (fusionsvederlaget) ska bestå av aktier i det övertagande bolaget eller av pengar. Mer än hälften av vederlagets sammanlagda värde ska utgöras av aktier. Lag (2008:805). De deltagande bolagens redovisningsvaluta",
+          "text": "Två eller flera aktiebolag kan gå samman genom att samtliga tillgångar och skulder i ett eller flera av bolagen övertas av ett annat aktiebolag mot vederlag till aktieägarna i det eller de överlåtande bolagen (fusion). Vid fusionen upplöses det eller de överlåtande bolagen utan likvidation. Fusion kan ske 1. mellan det övertagande bolaget på ena sidan och ett eller flera överlåtande bolag på den andra (absorption), eller 2. mellan två eller flera överlåtande bolag genom att de bildar ett nytt, övertagande bolag (kombination). Vid fusion genom absorption av helägt dotterbolag gäller 28-35 §§ i stället för 6-27 §§. Fusionsvederlag",
           "references": [
-            "2 §",
             "28-35 §§",
             "6-27 §§"
           ]
+        },
+        {
+          "id": "kap-23-§-2",
+          "number": 2,
+          "text": "Vederlaget till aktieägarna i det eller de överlåtande bolagen (fusionsvederlaget) ska bestå av aktier i det övertagande bolaget eller av pengar. Mer än hälften av vederlagets sammanlagda värde ska utgöras av aktier. Lag (2008:805). De deltagande bolagens redovisningsvaluta",
+          "references": []
         },
         {
           "id": "kap-23-§-3",
@@ -4660,13 +5806,24 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-6",
           "number": 6,
-          "text": "Styrelserna för överlåtande och, vid absorption, övertagande bolag skall upprätta en gemensam, daterad fusionsplan enligt bestämmelserna i 7-13 §§. Planen skall undertecknas av styrelsen i vart och ett av bolagen. Vid kombination utgör fusionsplanen stiftelseurkund för det övertagande bolaget. Fusionsplanens innehåll 7 § I fusionsplanen ska det för varje bolag anges 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. hur många aktier i det övertagande bolaget som ska lämnas för ett angivet antal aktier i överlåtande bolag och vilken kontant ersättning som ska lämnas som fusionsvederlag, 3. den tidpunkt och de övriga villkor som ska gälla för utlämnandet av fusionsvederlaget, 4. från vilken tidpunkt och på vilka villkor de aktier som lämnas som fusionsvederlag medför rätt till utdelning i det övertagande bolaget, 5. den planerade tidpunkten för överlåtande bolags upplösning, 6. vilka rättigheter i det övertagande bolaget som ska tillkomma innehavare av aktier, teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i överlåtande bolag eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, och 7. arvode och annan särskild förmån som med anledning av fusionen ska lämnas till en styrelseledamot eller en verkställande direktör i överlåtande eller övertagande bolag eller till en revisor som utför granskning enligt 11 §. Lag (2018:1682). 8 § Vid kombination ska fusionsplanen även innehålla 1. en bolagsordning för det övertagande bolaget, och 2. fullständigt namn, personnummer eller, om sådant saknas, födelsedatum och postadress för styrelseledamot samt, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Lag (2010:834).",
+          "text": "Styrelserna för överlåtande och, vid absorption, övertagande bolag skall upprätta en gemensam, daterad fusionsplan enligt bestämmelserna i 7-13 §§. Planen skall undertecknas av styrelsen i vart och ett av bolagen. Vid kombination utgör fusionsplanen stiftelseurkund för det övertagande bolaget. Fusionsplanens innehåll",
           "references": [
-            "11 §",
-            "7 §",
-            "7-13 §§",
-            "8 §"
+            "7-13 §§"
           ]
+        },
+        {
+          "id": "kap-23-§-7",
+          "number": 7,
+          "text": "I fusionsplanen ska det för varje bolag anges 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. hur många aktier i det övertagande bolaget som ska lämnas för ett angivet antal aktier i överlåtande bolag och vilken kontant ersättning som ska lämnas som fusionsvederlag, 3. den tidpunkt och de övriga villkor som ska gälla för utlämnandet av fusionsvederlaget, 4. från vilken tidpunkt och på vilka villkor de aktier som lämnas som fusionsvederlag medför rätt till utdelning i det övertagande bolaget, 5. den planerade tidpunkten för överlåtande bolags upplösning, 6. vilka rättigheter i det övertagande bolaget som ska tillkomma innehavare av aktier, teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i överlåtande bolag eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, och 7. arvode och annan särskild förmån som med anledning av fusionen ska lämnas till en styrelseledamot eller en verkställande direktör i överlåtande eller övertagande bolag eller till en revisor som utför granskning enligt 11 §. Lag (2018:1682).",
+          "references": [
+            "11 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-8",
+          "number": 8,
+          "text": "Vid kombination ska fusionsplanen även innehålla 1. en bolagsordning för det övertagande bolaget, och 2. fullständigt namn, personnummer eller, om sådant saknas, födelsedatum och postadress för styrelseledamot samt, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Lag (2010:834).",
+          "references": []
         },
         {
           "id": "kap-23-§-9",
@@ -4691,12 +5848,19 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-12",
           "number": 12,
-          "text": "En revisor som avses i 11 § skall vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte annat framgår av bolagsordningen, skall revisorn utses av bolagsstämman i respektive bolag. Om någon särskild revisor inte är utsedd, skall granskningen i stället utföras av bolagens revisorer. För en revisor som har utsetts att utföra granskning enligt 11 § gäller bestämmelserna i 9 kap. 40, 45 och 46 §§. 13 § Styrelsen, den verkställande direktören och revisorn i ett bolag som skall delta i fusionen skall ge varje revisor som utför granskning enligt 11 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig. De skall också lämna de upplysningar och den hjälp som begärs. Samma skyldighet har en revisor som utför granskning enligt 11 § mot övriga sådana revisorer. Registrering av fusionsplanen",
+          "text": "En revisor som avses i 11 § skall vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte annat framgår av bolagsordningen, skall revisorn utses av bolagsstämman i respektive bolag. Om någon särskild revisor inte är utsedd, skall granskningen i stället utföras av bolagens revisorer. För en revisor som har utsetts att utföra granskning enligt 11 § gäller bestämmelserna i 9 kap. 40, 45 och 46 §§.",
           "references": [
             "11 §",
-            "13 §",
             "46 §§",
             "9 kap. 40, 45 och 46 §§"
+          ]
+        },
+        {
+          "id": "kap-23-§-13",
+          "number": 13,
+          "text": "Styrelsen, den verkställande direktören och revisorn i ett bolag som skall delta i fusionen skall ge varje revisor som utför granskning enligt 11 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig. De skall också lämna de upplysningar och den hjälp som begärs. Samma skyldighet har en revisor som utför granskning enligt 11 § mot övriga sådana revisorer. Registrering av fusionsplanen",
+          "references": [
+            "11 §"
           ]
         },
         {
@@ -4716,6 +5880,12 @@ export const aktiebolagslag: LegalText = {
             "27 kap. 3 §",
             "3 §"
           ]
+        },
+        {
+          "id": "kap-23-§-15a",
+          "number": 15,
+          "text": "Om fusionen innebär att det behövs ändringar i bolagsordningen ska dessa beslutas senast vid den bolagsstämma där fusionsplanen godkänns. Om fusionsplanen inte ska läggas fram för att godkännas på stämman, ska ändringarna i bolagsordningen beslutas före styrelsens beslut att ansöka om tillstånd att verkställa fusionsplanen. Lag (2022:1647). Tillhandahållande av fusionsplanen",
+          "references": []
         },
         {
           "id": "kap-23-§-16",
@@ -4741,24 +5911,49 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-19",
           "number": 19,
-          "text": "När fusionsplanen har blivit gällande i samtliga bolag som deltar i fusionen, skall vart och ett av dem skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa fusionsplanen samt uppgift om borgenärernas rätt att motsätta sig att fusionsplanen verkställs. Borgenärerna i det övertagande bolaget behöver inte underrättas, om revisorerna i yttrande över fusionsplanen har uttalat att de inte har funnit att fusionen medför någon fara för dessa borgenärer. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Ansökan om tillstånd att verkställa fusionsplanen 20 § Det övertagande bolaget eller, vid kombination, det äldsta av de överlåtande bolagen ska ansöka om tillstånd att verkställa fusionsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att fusionsplanen har blivit gällande i samtliga bolag och, om fusionsplanen har registrerats enligt 14 § första stycket, senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av fusionsplanen med de handlingar som är bifogade den, 2. intyg från bolagens styrelser eller verkställande direktörer om att bolagens kända borgenärer har underrättats enligt 19 § och, i de fall fusionsplanen enligt 14 § andra stycket inte behöver ges in för registrering, att samtliga aktieägare har undertecknat fusionsplanen, och 3. en kopia av protokollen från de bolagsstämmor som avses i 15 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647). 21 § Bolagsverket skall avslå en ansökan enligt 20 § om 1. fusionsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller annan författning eller mot bolagsordningen, 2. fusionen har förbjudits enligt konkurrenslagen (2008:579) eller enligt rådets förordning (EG) nr 1392004 och prövningen kan antas bli avslutad inom kort tid, får Bolagsverket förklara tillståndsfrågan vilande under högst sex månader. Lag (2008:603).",
+          "text": "När fusionsplanen har blivit gällande i samtliga bolag som deltar i fusionen, skall vart och ett av dem skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa fusionsplanen samt uppgift om borgenärernas rätt att motsätta sig att fusionsplanen verkställs. Borgenärerna i det övertagande bolaget behöver inte underrättas, om revisorerna i yttrande över fusionsplanen har uttalat att de inte har funnit att fusionen medför någon fara för dessa borgenärer. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Ansökan om tillstånd att verkställa fusionsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-20",
+          "number": 20,
+          "text": "Det övertagande bolaget eller, vid kombination, det äldsta av de överlåtande bolagen ska ansöka om tillstånd att verkställa fusionsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att fusionsplanen har blivit gällande i samtliga bolag och, om fusionsplanen har registrerats enligt 14 § första stycket, senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av fusionsplanen med de handlingar som är bifogade den, 2. intyg från bolagens styrelser eller verkställande direktörer om att bolagens kända borgenärer har underrättats enligt 19 § och, i de fall fusionsplanen enligt 14 § andra stycket inte behöver ges in för registrering, att samtliga aktieägare har undertecknat fusionsplanen, och 3. en kopia av protokollen från de bolagsstämmor som avses i 15 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647).",
           "references": [
             "14 §",
             "15 §",
-            "19 §",
-            "20 §",
-            "21 §"
+            "19 §"
           ]
         },
         {
           "id": "kap-23-§-21",
           "number": 21,
-          "text": "Har upphävts genom lag (2022:1647). Kallelse på bolagens borgenärer 22 § Om Bolagsverket finner att det inte finns något hinder mot en ansökan enligt 20 §, ska verket kalla bolagens borgenärer. Verket ska dock inte kalla 1. borgenärerna i det övertagande bolaget, om revisorerna i yttrande över fusionsplanen enligt 11 § har uttalat att de inte har funnit att fusionen medför någon fara för dessa borgenärer, 2. borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla ett föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till verkställande av fusionsplanen 23 § Om inte någon av de borgenärer som har blivit kallade enligt 22 § motsätter sig ansökan inom förelagd tid, skall Bolagsverket ge bolagen tillstånd att verkställa fusionsplanen. Motsätter sig någon borgenär ansökan, skall verket överlämna ärendet till tingsrätten i den ort där styrelsen i det övertagande bolaget skall ha sitt säte. När allmän domstol skall lämna tillstånd till verkställande av fusionsplanen",
+          "text": "Bolagsverket skall avslå en ansökan enligt 20 § om 1. fusionsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller annan författning eller mot bolagsordningen, 2. fusionen har förbjudits enligt konkurrenslagen (2008:579) eller enligt rådets förordning (EG) nr 139/2004 av den 20 januari 2004 om kontroll av företagskoncentrationer eller om prövning av fusionen pågår enligt konkurrenslagen eller den nämnda förordningen, eller 3. vid kombination, revisorsyttrandena enligt 11 § inte utvisar att de överlåtande bolagens sammanlagda verkliga värde för det övertagande bolaget uppgår till minst aktiekapitalet i detta. Om ansökan inte kan beviljas på grund av att prövning pågår enligt konkurrenslagen eller enligt rådets förordning (EG) nr 139/2004 och prövningen kan antas bli avslutad inom kort tid, får Bolagsverket förklara tillståndsfrågan vilande under högst sex månader. Lag (2008:603).",
           "references": [
             "11 §",
-            "20 §",
-            "22 §",
-            "23 §"
+            "20 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-21a",
+          "number": 21,
+          "text": "Har upphävts genom lag (2022:1647). Kallelse på bolagens borgenärer",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-22",
+          "number": 22,
+          "text": "Om Bolagsverket finner att det inte finns något hinder mot en ansökan enligt 20 §, ska verket kalla bolagens borgenärer. Verket ska dock inte kalla 1. borgenärerna i det övertagande bolaget, om revisorerna i yttrande över fusionsplanen enligt 11 § har uttalat att de inte har funnit att fusionen medför någon fara för dessa borgenärer, 2. borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla ett föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till verkställande av fusionsplanen",
+          "references": [
+            "11 §",
+            "20 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-23",
+          "number": 23,
+          "text": "Om inte någon av de borgenärer som har blivit kallade enligt 22 § motsätter sig ansökan inom förelagd tid, skall Bolagsverket ge bolagen tillstånd att verkställa fusionsplanen. Motsätter sig någon borgenär ansökan, skall verket överlämna ärendet till tingsrätten i den ort där styrelsen i det övertagande bolaget skall ha sitt säte. När allmän domstol skall lämna tillstånd till verkställande av fusionsplanen",
+          "references": [
+            "22 §"
           ]
         },
         {
@@ -4772,18 +5967,48 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-25",
           "number": 25,
-          "text": "Styrelsen för det övertagande bolaget ska anmäla fusionen för registrering i aktiebolagsregistret. Styrelsen ska även för registrering anmäla, vid absorption, aktiekapitalets ökning och, vid kombination, vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och lekmannarevisorer i bolaget. Anmälan ersätter teckningen av aktierna och ska göras senast två månader från Bolagsverkets tillstånd att verkställa fusionsplanen eller, när tillstånd lämnas av allmän domstol, från det att domstolens beslut har fått laga kraft. Till anmälan ska det bifogas ett intyg från en auktoriserad eller godkänd revisor om att överlåtande bolags tillgångar har överlämnats till det övertagande bolaget. Bestämmelserna i 48 a § andra stycket om att fusionen i vissa fall inte får registreras ska tillämpas, om 1. något av de bolag som deltar i fusionen eller något annat företag som genom fusion eller delning har gått upp i något av dessa bolag tidigare har deltagit i en gränsöverskridande fusion, gränsöverskridande delning eller gränsöverskridande ombildning, 2. den gränsöverskridande fusionen, delningen eller ombildningen har registrerats inom fyra år före anmälan för registrering enligt första stycket, och 3. något av bolagen fortfarande omfattas av ett system för arbetstagares medverkan enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Lag (2022:1647). Fusionens rättsverkningar 26 § När en anmälan om fusion enligt 25 § registreras, inträder följande rättsverkningar. 1. Överlåtande bolags tillgångar och skulder med undantag för skadeståndsanspråk enligt 29 kap. 1-3 §§ som har samband med fusionen övergår till det övertagande bolaget. 2. Aktieägare i överlåtande bolag blir aktieägare i det övertagande bolaget. 3. Överlåtande bolag upplöses. 4. Vid kombination: det övertagande bolaget anses bildat. Trots bestämmelserna i första stycket kan ägare till minst en tiondel av samtliga aktier i ett överlåtande bolag hos styrelsen begära att det hålls bolagsstämma för behandling av fråga om talan enligt 29 kap. 7 §. I så fall ska 7 kap. 17 § andra stycket tillämpas. Om en sådan talan väcks, gäller 25 kap. 44 § i tillämpliga delar. Lag (2008:805). Frågan om fusion faller 27 § Bolagsverket skall förklara att frågan om fusion har fallit, om 1. ansökan enligt 20 § om tillstånd att verkställa fusionsplanen inte har gjorts inom föreskriven tid eller sådan ansökan har avslagits genom beslut som har vunnit laga kraft, 2. anmälan enligt 25 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 25 § eller har vägrat registrering. Absorption av helägt dotterbolag Fusionsplan 28 § Om ett moderbolag äger samtliga aktier i ett dotterbolag, kan bolagens styrelser fatta beslut om att dotterbolaget ska gå upp i moderbolaget. De ska därvid upprätta en fusionsplan. Planen ska för vart och ett av bolagen ange 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. den planerade tidpunkten för dotterbolagets upplösning, 3. vilka rättigheter i moderbolaget som ska tillkomma innehavare av teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i dotterbolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, 4. arvode och annan särskild förmån som med anledning av fusionen ska lämnas till en styrelseledamot eller en verkställande direktör eller till en revisor som utför granskning enligt 29 §. I fusionsplanen ska det lämnas en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av fusionens lämplighet för bolagen. Lag (2018:1682). Revisorsgranskning av fusionsplanen 29 § Fusionsplanen skall granskas av en eller flera revisorer. Granskningen skall vara så omfattande och ingående som god revisionssed kräver. Vid granskningen gäller bestämmelserna i 13 §. För varje bolag skall revisorn eller revisorerna upprätta ett yttrande över granskningen. I yttrandena skall revisorerna särskilt ange om de vid sin granskning har funnit att fusionen medför någon fara för att borgenärerna i moderbolaget inte skall få sina fordringar betalda. Revisorernas yttranden skall fogas till fusionsplanen. För en revisor som utför granskning enligt första stycket gäller bestämmelserna i 12 §. Registrering av fusionsplanen",
+          "text": "Styrelsen för det övertagande bolaget ska anmäla fusionen för registrering i aktiebolagsregistret. Styrelsen ska även för registrering anmäla, vid absorption, aktiekapitalets ökning och, vid kombination, vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och lekmannarevisorer i bolaget. Anmälan ersätter teckningen av aktierna och ska göras senast två månader från Bolagsverkets tillstånd att verkställa fusionsplanen eller, när tillstånd lämnas av allmän domstol, från det att domstolens beslut har fått laga kraft. Till anmälan ska det bifogas ett intyg från en auktoriserad eller godkänd revisor om att överlåtande bolags tillgångar har överlämnats till det övertagande bolaget. Bestämmelserna i 48 a § andra stycket om att fusionen i vissa fall inte får registreras ska tillämpas, om 1. något av de bolag som deltar i fusionen eller något annat företag som genom fusion eller delning har gått upp i något av dessa bolag tidigare har deltagit i en gränsöverskridande fusion, gränsöverskridande delning eller gränsöverskridande ombildning, 2. den gränsöverskridande fusionen, delningen eller ombildningen har registrerats inom fyra år före anmälan för registrering enligt första stycket, och 3. något av bolagen fortfarande omfattas av ett system för arbetstagares medverkan enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Lag (2022:1647). Fusionens rättsverkningar",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-26",
+          "number": 26,
+          "text": "När en anmälan om fusion enligt 25 § registreras, inträder följande rättsverkningar. 1. Överlåtande bolags tillgångar och skulder med undantag för skadeståndsanspråk enligt 29 kap. 1-3 §§ som har samband med fusionen övergår till det övertagande bolaget. 2. Aktieägare i överlåtande bolag blir aktieägare i det övertagande bolaget. 3. Överlåtande bolag upplöses. 4. Vid kombination: det övertagande bolaget anses bildat. Trots bestämmelserna i första stycket kan ägare till minst en tiondel av samtliga aktier i ett överlåtande bolag hos styrelsen begära att det hålls bolagsstämma för behandling av fråga om talan enligt 29 kap. 7 §. I så fall ska 7 kap. 17 § andra stycket tillämpas. Om en sådan talan väcks, gäller 25 kap. 44 § i tillämpliga delar. Lag (2008:805). Frågan om fusion faller",
           "references": [
             "1-3 §§",
-            "12 §",
-            "13 §",
             "17 §",
-            "20 §",
             "25 kap. 44 §",
             "25 §",
-            "26 §",
-            "27 §",
-            "28 §"
+            "29 kap. 7 §",
+            "44 §",
+            "7 kap. 17 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-27",
+          "number": 27,
+          "text": "Bolagsverket skall förklara att frågan om fusion har fallit, om 1. ansökan enligt 20 § om tillstånd att verkställa fusionsplanen inte har gjorts inom föreskriven tid eller sådan ansökan har avslagits genom beslut som har vunnit laga kraft, 2. anmälan enligt 25 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 25 § eller har vägrat registrering. Absorption av helägt dotterbolag Fusionsplan",
+          "references": [
+            "20 §",
+            "25 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-28",
+          "number": 28,
+          "text": "Om ett moderbolag äger samtliga aktier i ett dotterbolag, kan bolagens styrelser fatta beslut om att dotterbolaget ska gå upp i moderbolaget. De ska därvid upprätta en fusionsplan. Planen ska för vart och ett av bolagen ange 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. den planerade tidpunkten för dotterbolagets upplösning, 3. vilka rättigheter i moderbolaget som ska tillkomma innehavare av teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i dotterbolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, 4. arvode och annan särskild förmån som med anledning av fusionen ska lämnas till en styrelseledamot eller en verkställande direktör eller till en revisor som utför granskning enligt 29 §. I fusionsplanen ska det lämnas en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av fusionens lämplighet för bolagen. Lag (2018:1682). Revisorsgranskning av fusionsplanen",
+          "references": [
+            "29 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-29",
+          "number": 29,
+          "text": "Fusionsplanen skall granskas av en eller flera revisorer. Granskningen skall vara så omfattande och ingående som god revisionssed kräver. Vid granskningen gäller bestämmelserna i 13 §. För varje bolag skall revisorn eller revisorerna upprätta ett yttrande över granskningen. I yttrandena skall revisorerna särskilt ange om de vid sin granskning har funnit att fusionen medför någon fara för att borgenärerna i moderbolaget inte skall få sina fordringar betalda. Revisorernas yttranden skall fogas till fusionsplanen. För en revisor som utför granskning enligt första stycket gäller bestämmelserna i 12 §. Registrering av fusionsplanen",
+          "references": [
+            "12 §",
+            "13 §"
           ]
         },
         {
@@ -4832,16 +6057,27 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-34",
           "number": 34,
-          "text": "Tillstånd att verkställa en fusionsplan skall registreras i aktiebolagsregistret. När Bolagsverket registrerar beslutet om tillstånd att verkställa fusionsplanen, inträder följande rättsverkningar. 1. Dotterbolagets tillgångar och skulder övergår till moderbolaget. 2. Dotterbolaget upplöses. Frågan om fusion faller 35 § Bolagsverket skall förklara att frågan om fusion har fallit, om 1. ansökan enligt 33 § om tillstånd att verkställa fusionsplanen inte har gjorts inom föreskriven tid, eller 2. en sådan ansökan har avslagits genom beslut som har vunnit laga kraft. Gränsöverskridande fusion Vad en gränsöverskridande fusion innebär",
+          "text": "Tillstånd att verkställa en fusionsplan skall registreras i aktiebolagsregistret. När Bolagsverket registrerar beslutet om tillstånd att verkställa fusionsplanen, inträder följande rättsverkningar. 1. Dotterbolagets tillgångar och skulder övergår till moderbolaget. 2. Dotterbolaget upplöses. Frågan om fusion faller",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-35",
+          "number": 35,
+          "text": "Bolagsverket skall förklara att frågan om fusion har fallit, om 1. ansökan enligt 33 § om tillstånd att verkställa fusionsplanen inte har gjorts inom föreskriven tid, eller 2. en sådan ansökan har avslagits genom beslut som har vunnit laga kraft. Gränsöverskridande fusion Vad en gränsöverskridande fusion innebär",
           "references": [
-            "33 §",
-            "35 §"
+            "33 §"
           ]
         },
         {
           "id": "kap-23-§-36",
           "number": 36,
-          "text": "Ett svenskt aktiebolag får delta i en fusion med en motsvarande juridisk person med hemvist i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige (gränsöverskridande fusion). En juridisk person ska anses ha en sådan hemvist om den har bildats enligt lagstiftningen i en stat inom Europeiska ekonomiska samarbetsområdet och har sitt säte, sitt huvudkontor eller sin huvudsakliga verksamhet inom detta område. Lag (2022:1647). Bestämmelser som ska tillämpas vid en gränsöverskridande fusion 36 a § Följande allmänna bestämmelser i detta kapitel gäller även för en gränsöverskridande fusion: - 1 § om vad en fusion innebär, - 2 § om fusionsvederlag, - 4 § om fusion när överlåtande bolag har gått i likvidation, - 5 § om särskilda rättighetshavares ställning, - 36 b § om vederlagsfri fusion, och - 36 c § om särskilda begränsningar i rätten att delta i en gränsöverskridande fusion. För en gränsöverskridande fusion gäller vidare följande bestämmelser om förfarandet: - 37 och 38 §§ om fusionsplan, - 39-39 b §§ om styrelseredogörelse, - 10 § om kompletterande information, - 11-13 och 40-41 §§ om revisorsgranskning av fusionsplanen, - 41 a § om meddelande om att synpunkter får lämnas, - 14 § första stycket, 42 § och 42 a § om registrering av fusionsplanen, - 43 och 57 §§ om tillhandahållande av fusionsplanen, - 43 a § om synpunkter som har lämnats med anledning av ett meddelande enligt 41 a §, - 15 § första och andra styckena och tredje stycket första meningen om när fusionsplanen ska läggas fram för att godkännas på bolagsstämman, - 15 a § om ändringar i bolagsordningen, - 17 § om majoritetskrav m.m., - 18 § om när frågan om fusion faller, - 44 § om villkorat beslut om godkännande av fusionsplanen, - 19 § om underrättelse till bolagets kända borgenärer, - 20, 21, 45 och 45 c §§ om ansökan om tillstånd att verkställa fusionsplanen, - 45 b § om förordnande av oberoende sakkunnig, - 22 § om kallelse på bolagens borgenärer, - 23 och 45 a §§ om när Bolagsverket ska lämna tillstånd att verkställa fusionsplanen, - 45 d och 45 e §§ om när allmän domstol ska lämna tillstånd att verkställa fusionsplanen, - 46 § om utfärdande av fusionsintyg, - 47-48 a §§ om registrering av fusionen, - 26 och 49 §§ om fusionens rättsverkningar, och - 27 § om när frågan om fusion faller, varvid det som i den paragrafen sägs om 25 § ska avse 48 §. Vid en gränsöverskridande fusion gäller vidare följande bestämmelser om aktieägares rättigheter: - 50 § om aktieägares rätt till inlösen, och - 51-53 §§ om aktieägares rätt till ytterligare ersättning. I 55 § finns det bestämmelser om förenklad fusion. Lag (2022:1647). Vederlagsfri fusion 36 b § En gränsöverskridande fusion genom absorption får genomföras vederlagsfritt, om 1. en person direkt eller indirekt innehar samtliga aktier i de fusionerande bolagen, eller 2. aktieägarna i de fusionerande bolagen innehar sina aktier och värdepapper till samma andel i samtliga fusionerande bolag. Lag (2022:1647). Särskilda begränsningar i rätten att delta i en gränsöverskridande fusion 36 c § Ett aktiebolag får inte delta i en gränsöverskridande fusion om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, eller 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §. Lag (2022:1647). Fusionsplan m.m.",
+          "text": "Ett svenskt aktiebolag får delta i en fusion med en motsvarande juridisk person med hemvist i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige (gränsöverskridande fusion). En juridisk person ska anses ha en sådan hemvist om den har bildats enligt lagstiftningen i en stat inom Europeiska ekonomiska samarbetsområdet och har sitt säte, sitt huvudkontor eller sin huvudsakliga verksamhet inom detta område. Lag (2022:1647). Bestämmelser som ska tillämpas vid en gränsöverskridande fusion",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-36a",
+          "number": 36,
+          "text": "Följande allmänna bestämmelser i detta kapitel gäller även för en gränsöverskridande fusion: - 1 § om vad en fusion innebär, - 2 § om fusionsvederlag, - 4 § om fusion när överlåtande bolag har gått i likvidation, - 5 § om särskilda rättighetshavares ställning, - 36 b § om vederlagsfri fusion, och - 36 c § om särskilda begränsningar i rätten att delta i en gränsöverskridande fusion. För en gränsöverskridande fusion gäller vidare följande bestämmelser om förfarandet: - 37 och 38 §§ om fusionsplan, - 39-39 b §§ om styrelseredogörelse, - 10 § om kompletterande information, - 11-13 och 40-41 §§ om revisorsgranskning av fusionsplanen, - 41 a § om meddelande om att synpunkter får lämnas, - 14 § första stycket, 42 § och 42 a § om registrering av fusionsplanen, - 43 och 57 §§ om tillhandahållande av fusionsplanen, - 43 a § om synpunkter som har lämnats med anledning av ett meddelande enligt 41 a §, - 15 § första och andra styckena och tredje stycket första meningen om när fusionsplanen ska läggas fram för att godkännas på bolagsstämman, - 15 a § om ändringar i bolagsordningen, - 17 § om majoritetskrav m.m., - 18 § om när frågan om fusion faller, - 44 § om villkorat beslut om godkännande av fusionsplanen, - 19 § om underrättelse till bolagets kända borgenärer, - 20, 21, 45 och 45 c §§ om ansökan om tillstånd att verkställa fusionsplanen, - 45 b § om förordnande av oberoende sakkunnig, - 22 § om kallelse på bolagens borgenärer, - 23 och 45 a §§ om när Bolagsverket ska lämna tillstånd att verkställa fusionsplanen, - 45 d och 45 e §§ om när allmän domstol ska lämna tillstånd att verkställa fusionsplanen, - 46 § om utfärdande av fusionsintyg, - 47-48 a §§ om registrering av fusionen, - 26 och 49 §§ om fusionens rättsverkningar, och - 27 § om när frågan om fusion faller, varvid det som i den paragrafen sägs om 25 § ska avse 48 §. Vid en gränsöverskridande fusion gäller vidare följande bestämmelser om aktieägares rättigheter: - 50 § om aktieägares rätt till inlösen, och - 51-53 §§ om aktieägares rätt till ytterligare ersättning. I 55 § finns det bestämmelser om förenklad fusion. Lag (2022:1647). Vederlagsfri fusion",
           "references": [
             "1 §",
             "10 §",
@@ -4856,23 +6092,56 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-23-§-36b",
+          "number": 36,
+          "text": "En gränsöverskridande fusion genom absorption får genomföras vederlagsfritt, om 1. en person direkt eller indirekt innehar samtliga aktier i de fusionerande bolagen, eller 2. aktieägarna i de fusionerande bolagen innehar sina aktier och värdepapper till samma andel i samtliga fusionerande bolag. Lag (2022:1647). Särskilda begränsningar i rätten att delta i en gränsöverskridande fusion",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-36c",
+          "number": 36,
+          "text": "Ett aktiebolag får inte delta i en gränsöverskridande fusion om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, eller 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §. Lag (2022:1647). Fusionsplan m.m.",
+          "references": [
+            "17 §"
+          ]
+        },
+        {
           "id": "kap-23-§-37",
           "number": 37,
-          "text": "Vid en gränsöverskridande fusion ska styrelsen i ett svenskt bolag som deltar i fusionen, tillsammans med motsvarande organ i de utländska bolag som deltar i fusionen, upprätta en fusionsplan. Styrelsen ska underteckna fusionsplanen. Vid kombination utgör fusionsplanen stiftelseurkund, om det övertagande bolaget ska ha sitt säte i Sverige. Lag (2008:12). 38 § En fusionsplan enligt 37 § ska innehålla uppgifter om 1. de fusionerande bolagens form, företagsnamn och säte, 2. utbytesförhållanden mellan aktier och förekommande värdepapper i överlåtande respektive övertagande bolag och eventuell kontantersättning, 3. de villkor som ska gälla för tilldelning av aktier och förekommande värdepapper i det övertagande bolaget, 4. den gränsöverskridande fusionens sannolika följder för sysselsättningen, 5. från vilken tidpunkt och på vilka villkor aktier och förekommande värdepapper medför rätt till utdelning i det övertagande bolaget, 6. från vilken tidpunkt de fusionerande bolagens transaktioner bokföringsmässigt ska anses ingå i det övertagande bolaget, 7. vilka rättigheter i det övertagande bolaget som innehavare av särskilda rättigheter i ett överlåtande bolag ska ha eller vilka åtgärder som i övrigt ska vidtas till förmån för innehavarna, 8. arvode och andra särskilda förmåner som ska lämnas till en styrelseledamot, verkställande direktör eller motsvarande befattningshavare, 9. bolagsordningen för det övertagande bolaget, 10. värdet av de tillgångar och skulder som ska överföras till det övertagande bolaget och de överväganden som har gjorts vid värderingen, 11. datum för de räkenskaper som har legat till grund för att fastställa villkoren för fusionen, och 12. den rätt till inlösen som aktieägare har enligt 50 § och på vilket sätt den ska utövas, med uppgift om inlösenbelopp och om den elektroniska adress som en inlösenanmälan ska skickas till. Fusionsplanen ska också innehålla uppgifter om 1. de säkerheter som bolagens borgenärer erbjuds, i de fall de erbjuds sådana säkerheter, och 2. hur arbetstagarna deltar i den process som leder fram till beslut om formerna för arbetstagarnas medverkan i det övertagande bolaget, om en sådan process ska genomföras. Vid kombination ska fusionsplanen också innehålla uppgifter om det övertagande bolagets form, företagsnamn och säte samt om vilken handling som utgör stiftelseurkund för det övertagande bolaget. Lag (2022:1647). Styrelsernas redogörelser",
+          "text": "Vid en gränsöverskridande fusion ska styrelsen i ett svenskt bolag som deltar i fusionen, tillsammans med motsvarande organ i de utländska bolag som deltar i fusionen, upprätta en fusionsplan. Styrelsen ska underteckna fusionsplanen. Vid kombination utgör fusionsplanen stiftelseurkund, om det övertagande bolaget ska ha sitt säte i Sverige. Lag (2008:12).",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-38",
+          "number": 38,
+          "text": "En fusionsplan enligt 37 § ska innehålla uppgifter om 1. de fusionerande bolagens form, företagsnamn och säte, 2. utbytesförhållanden mellan aktier och förekommande värdepapper i överlåtande respektive övertagande bolag och eventuell kontantersättning, 3. de villkor som ska gälla för tilldelning av aktier och förekommande värdepapper i det övertagande bolaget, 4. den gränsöverskridande fusionens sannolika följder för sysselsättningen, 5. från vilken tidpunkt och på vilka villkor aktier och förekommande värdepapper medför rätt till utdelning i det övertagande bolaget, 6. från vilken tidpunkt de fusionerande bolagens transaktioner bokföringsmässigt ska anses ingå i det övertagande bolaget, 7. vilka rättigheter i det övertagande bolaget som innehavare av särskilda rättigheter i ett överlåtande bolag ska ha eller vilka åtgärder som i övrigt ska vidtas till förmån för innehavarna, 8. arvode och andra särskilda förmåner som ska lämnas till en styrelseledamot, verkställande direktör eller motsvarande befattningshavare, 9. bolagsordningen för det övertagande bolaget, 10. värdet av de tillgångar och skulder som ska överföras till det övertagande bolaget och de överväganden som har gjorts vid värderingen, 11. datum för de räkenskaper som har legat till grund för att fastställa villkoren för fusionen, och 12. den rätt till inlösen som aktieägare har enligt 50 § och på vilket sätt den ska utövas, med uppgift om inlösenbelopp och om den elektroniska adress som en inlösenanmälan ska skickas till. Fusionsplanen ska också innehålla uppgifter om 1. de säkerheter som bolagens borgenärer erbjuds, i de fall de erbjuds sådana säkerheter, och 2. hur arbetstagarna deltar i den process som leder fram till beslut om formerna för arbetstagarnas medverkan i det övertagande bolaget, om en sådan process ska genomföras. Vid kombination ska fusionsplanen också innehålla uppgifter om det övertagande bolagets form, företagsnamn och säte samt om vilken handling som utgör stiftelseurkund för det övertagande bolaget. Lag (2022:1647). Styrelsernas redogörelser",
           "references": [
             "37 §",
-            "38 §",
             "50 §"
           ]
         },
         {
           "id": "kap-23-§-39",
           "number": 39,
-          "text": "Styrelsen i vart och ett av de bolag som deltar i en gränsöverskridande fusion ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om fusionen är lämplig för bolagen. I redogörelsen ska det ingå en beskrivning av fusionens konsekvenser för bolagets framtida verksamhet och för dess borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 39 a § och ett avsnitt med information för arbetstagarna enligt 39 b §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 39 a och 39 b §§ att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647). 39 a § I avsnittet med information för aktieägarna enligt 39 § andra stycket ska styrelsen beskriva 1. aktiernas utbytesförhållande och, i de fall en kontantersättning erbjuds, storleken på ersättningen samt den metod som har använts för att bestämma aktiernas utbytesförhållande och storleken på ersättningen, 2. fusionens konsekvenser för aktieägarna, 3. inlösenbeloppet vid inlösen enligt 50 § och den metod som har använts för att bestämma det, och 4. hur en aktieägare ska göra för att utöva sin rätt till inlösen enligt 50 § och till ytterligare ersättning enligt 51-53 §§. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647). 39 b § I avsnittet med information för arbetstagarna enligt 39 § andra stycket ska styrelsen beskriva 1. fusionens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för dessa förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning",
+          "text": "Styrelsen i vart och ett av de bolag som deltar i en gränsöverskridande fusion ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om fusionen är lämplig för bolagen. I redogörelsen ska det ingå en beskrivning av fusionens konsekvenser för bolagets framtida verksamhet och för dess borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 39 a § och ett avsnitt med information för arbetstagarna enligt 39 b §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 39 a och 39 b §§ att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647).",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-39a",
+          "number": 39,
+          "text": "I avsnittet med information för aktieägarna enligt 39 § andra stycket ska styrelsen beskriva 1. aktiernas utbytesförhållande och, i de fall en kontantersättning erbjuds, storleken på ersättningen samt den metod som har använts för att bestämma aktiernas utbytesförhållande och storleken på ersättningen, 2. fusionens konsekvenser för aktieägarna, 3. inlösenbeloppet vid inlösen enligt 50 § och den metod som har använts för att bestämma det, och 4. hur en aktieägare ska göra för att utöva sin rätt till inlösen enligt 50 § och till ytterligare ersättning enligt 51-53 §§. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647).",
           "references": [
             "39 §",
             "50 §",
             "51-53 §§"
+          ]
+        },
+        {
+          "id": "kap-23-§-39b",
+          "number": 39,
+          "text": "I avsnittet med information för arbetstagarna enligt 39 § andra stycket ska styrelsen beskriva 1. fusionens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för dessa förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning",
+          "references": [
+            "39 §"
           ]
         },
         {
@@ -4884,12 +6153,32 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-23-§-40a",
+          "number": 40,
+          "text": "Bestämmelserna i 11-13 och 40 §§ ska inte tillämpas om Bolagsverket eller en utländsk behörig myndighet i en stat där något av de deltagande bolagen har sin hemvist, efter en gemensam begäran från de fusionerande bolagen, har utsett eller godkänt en eller flera oberoende sakkunniga att för samtliga bolags räkning granska fusionsplanen och upprätta en gemensam skriftlig rapport för alla bolag. Det som sägs i 13 § om en revisors rätt till upplysningar och biträde gäller även för en oberoende sakkunnig. Om en oberoende sakkunnig har utsetts eller godkänts för att granska fusionsplanen ska det till fusionsplanen bifogas ett yttrande från en eller flera sådana revisorer som anges i 12 § med sådant innehåll som anges i 11 § andra stycket. Ett sådant yttrande ska vid tillämpningen av 19 §, 21 § första stycket 3 och 22 § anses som ett revisorsyttrande enligt 11 §. Lag (2022:1647).",
+          "references": [
+            "11 §",
+            "12 §",
+            "13 §",
+            "19 §",
+            "21 §",
+            "22 §",
+            "40 §§"
+          ]
+        },
+        {
           "id": "kap-23-§-41",
           "number": 41,
           "text": "Den som Bolagsverket enligt 40 a § utser att utföra granskning ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. I fråga om granskningen och innehållet i den rapport som upprättas ska 11-13 och 40 §§ tillämpas. Lag (2022:1647). Meddelande om att synpunkter får lämnas",
           "references": [
             "40 §§"
           ]
+        },
+        {
+          "id": "kap-23-§-41a",
+          "number": 41,
+          "text": "Till fusionsplanen ska det bifogas ett meddelande med information till de fusionerande bolagens aktieägare, borgenärer och arbetstagarföreträdare eller, om sådana företrädare inte finns, arbetstagarna själva om att de får lämna synpunkter på planen till de fusionerande bolagen. I meddelandet ska det anges att synpunkterna får lämnas senast på den femte arbetsdagen före dagen för den bolagsstämma som i respektive bolag ska ta ställning till fusionsplanen. Om fusionsplanen inte ska läggas fram för att godkännas på bolagsstämman i ett bolag, ska det i stället anges att synpunkterna får lämnas till bolaget senast fem arbetsdagar före styrelsens beslut att ansöka om tillstånd att verkställa fusionsplanen. Lag (2022:1647). Registrering av fusionsplanen",
+          "references": []
         },
         {
           "id": "kap-23-§-42",
@@ -4902,12 +6191,26 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-23-§-42a",
+          "number": 42,
+          "text": "Om fusionsplanen eller de handlingar som är bifogade planen är skrivna på något annat språk än svenska, ska den som lämnar in planen även ge in en översättning till svenska. Översättningen ska vara gjord av en översättare som är auktoriserad eller har motsvarande utländska behörighet. Bolagsverket får i det enskilda fallet medge att någon översättning inte ges in. Lag (2022:1647). Tillhandahållande av fusionsplanen",
+          "references": []
+        },
+        {
           "id": "kap-23-§-43",
           "number": 43,
           "text": "Vid en gränsöverskridande fusion ska styrelsen i ett bolag som deltar i fusionen hålla fusionsplanen med bifogade handlingar och styrelsens redogörelse enligt 39 § tillgängliga för aktieägarna och arbetstagarnas företrädare eller, om sådana företrädare inte finns, för arbetstagarna själva. Handlingarna ska hållas tillgängliga på bolagets webbplats eller med något annat likvärdigt elektroniskt hjälpmedel under minst sex veckor före den bolagsstämma där frågan om att godkänna fusionsplanen ska behandlas. Om fusionsplanen inte ska läggas fram för att godkännas av bolagsstämman i det övertagande bolaget, gäller i stället att handlingarna ska hållas tillgängliga under minst sex veckor före styrelsens beslut att ansöka om tillstånd att verkställa fusionsplanen. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. I 57 § finns det ytterligare bestämmelser för publika aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2022:1647).",
           "references": [
             "39 §",
             "57 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-43a",
+          "number": 43,
+          "text": "De synpunkter som har lämnats med anledning av meddelandet enligt 41 a § ska läggas fram på en sådan bolagsstämma som avses i 15 §. Lag (2022:1647). Villkorat beslut om godkännande av fusionsplanen",
+          "references": [
+            "15 §"
           ]
         },
         {
@@ -4919,9 +6222,48 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-45",
           "number": 45,
-          "text": "Vid en gränsöverskridande fusion ska ansökan enligt 20 § göras av det svenska bolag som deltar i fusionen. Om flera svenska bolag deltar, ska ansökan göras av det svenska bolag som är övertagande bolag eller, om det övertagande bolaget inte är ett svenskt bolag, av det äldsta av de överlåtande svenska bolagen. Till ansökan ska, utöver det som anges i 20 §, följande handlingar bifogas: 1. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 2. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 41 a §, och 3. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig. Lag (2022:1647). 45 a § Vid Bolagsverkets handläggning av en ansökan om tillstånd att verkställa en fusionsplan som avser en gränsöverskridande fusion gäller, utöver det som anges i 21, 22 och 45 b-45 d §§, att Bolagsverket ska avslå ansökan, om 1. det enligt 36 c § finns hinder mot att ett eller flera av de svenska bolagen deltar i en gränsöverskridande fusion, 2. fusionen genomförs för otillbörliga eller bedrägliga ändamål som leder till att unionsrätten eller nationell rätt undgås eller kringgås eller som syftar till detta, eller för brottsliga ändamål, eller 3. fusionen förutsätter ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar men något sådant förfarande inte har inletts. Lag (2022:1647).",
+          "text": "Vid en gränsöverskridande fusion ska ansökan enligt 20 § göras av det svenska bolag som deltar i fusionen. Om flera svenska bolag deltar, ska ansökan göras av det svenska bolag som är övertagande bolag eller, om det övertagande bolaget inte är ett svenskt bolag, av det äldsta av de överlåtande svenska bolagen. Till ansökan ska, utöver det som anges i 20 §, följande handlingar bifogas: 1. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 2. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 41 a §, och 3. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig. Lag (2022:1647).",
           "references": [
             "20 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-45a",
+          "number": 45,
+          "text": "Vid Bolagsverkets handläggning av en ansökan om tillstånd att verkställa en fusionsplan som avser en gränsöverskridande fusion gäller, utöver det som anges i 21, 22 och 45 b-45 d §§, att Bolagsverket ska avslå ansökan, om 1. det enligt 36 c § finns hinder mot att ett eller flera av de svenska bolagen deltar i en gränsöverskridande fusion, 2. fusionen genomförs för otillbörliga eller bedrägliga ändamål som leder till att unionsrätten eller nationell rätt undgås eller kringgås eller som syftar till detta, eller för brottsliga ändamål, eller 3. fusionen förutsätter ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar men något sådant förfarande inte har inletts. Lag (2022:1647).",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-45b",
+          "number": 45,
+          "text": "Om det vid handläggningen av en ansökan enligt 45 § uppkommer en fråga som kräver särskild fackkunskap får Bolagsverket förordna en lämplig person som sakkunnig. Den sakkunniga ska vara oberoende av de fusionerande bolagen och får inte ha någon intressekonflikt med något av dem. Den sakkunniga ska utföra sitt arbete opartiskt och objektivt. Sökanden ska ersätta Bolagsverket för dess kostnader för den sakkunniga. Bolagsverket ska fatta beslut om det belopp som sökanden ska betala. Av beslutet ska det framgå när beloppet ska betalas och vad kostnaderna avser. Om ett belopp som har beslutats inte betalas i rätt tid, ska fordran lämnas för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2022:1647).",
+          "references": [
+            "45 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-45c",
+          "number": 45,
+          "text": "Den dag som avses i 22 § andra stycket ska vid en gränsöverskridande fusion bestämmas till en dag som infaller tidigast tre månader efter registreringen enligt 14 § av fusionsplanen. Lag (2022:1647).",
+          "references": [
+            "14 §",
+            "22 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-45d",
+          "number": 45,
+          "text": "Om ett ärende om tillstånd att verkställa en fusionsplan enligt 23 § ska överlämnas till domstol och det övertagande bolaget har eller ska ha sitt säte i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige, ska ärendet överlämnas till tingsrätten i den ort där styrelsen i det svenska bolag som har gjort ansökan har sitt säte. Lag (2022:1647).",
+          "references": [
+            "23 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-45e",
+          "number": 45,
+          "text": "Om Bolagsverket med stöd av 23 § eller 45 d § har överlämnat ett ärende om tillstånd att verkställa en fusionsplan som avser en gränsöverskridande fusion till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att fusionen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa fusionsplanen. Lag (2022:1647). Utfärdande av fusionsintyg",
+          "references": [
+            "23 §"
           ]
         },
         {
@@ -4941,7 +6283,13 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-48",
           "number": 48,
-          "text": "Om det övertagande bolaget har eller, vid kombination, ska ha sin hemvist i Sverige, ska Bolagsverket registrera den gränsöverskridande fusionen i aktiebolagsregistret. Anmälan för registrering ska göras av styrelsen i det övertagande bolaget inom sex månader från den dag då fusionsintyget utfärdades. Vid kombination ska styrelsen även för registrering anmäla vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och styrelsesuppleanter i det övertagande bolaget. Lag (2022:1647). 48 a § Bolagsverket får registrera fusionen enligt 48 § endast om 1. verket har utfärdat ett fusionsintyg för varje svenskt bolag som deltar i fusionen, 2. verket har fått del av ett fusionsintyg för varje utländskt bolag som deltar i fusionen, 3. de utländska bolag som deltar i fusionen har gett in en kopia av fusionsplanen, och 4. det inte heller finns något hinder mot registrering av fusionen. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får fusionen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta behöriga myndigheter i den eller de stater där det eller de överlåtande bolagen har hemvist om registreringen. Lag (2022:1647). Fusionens rättsverkningar",
+          "text": "Om det övertagande bolaget har eller, vid kombination, ska ha sin hemvist i Sverige, ska Bolagsverket registrera den gränsöverskridande fusionen i aktiebolagsregistret. Anmälan för registrering ska göras av styrelsen i det övertagande bolaget inom sex månader från den dag då fusionsintyget utfärdades. Vid kombination ska styrelsen även för registrering anmäla vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och styrelsesuppleanter i det övertagande bolaget. Lag (2022:1647).",
+          "references": []
+        },
+        {
+          "id": "kap-23-§-48a",
+          "number": 48,
+          "text": "Bolagsverket får registrera fusionen enligt 48 § endast om 1. verket har utfärdat ett fusionsintyg för varje svenskt bolag som deltar i fusionen, 2. verket har fått del av ett fusionsintyg för varje utländskt bolag som deltar i fusionen, 3. de utländska bolag som deltar i fusionen har gett in en kopia av fusionsplanen, och 4. det inte heller finns något hinder mot registrering av fusionen. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får fusionen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta behöriga myndigheter i den eller de stater där det eller de överlåtande bolagen har hemvist om registreringen. Lag (2022:1647). Fusionens rättsverkningar",
           "references": [
             "48 §"
           ]
@@ -4949,13 +6297,20 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-49",
           "number": 49,
-          "text": "Vid en gränsöverskridande fusion uppkommer de rättsverkningar som avses i 26 § vid den tidpunkt som har fastställts i den stat där det övertagande bolaget har sin hemvist. Om det övertagande bolaget har sin hemvist i Sverige, uppkommer rättsverkningarna vid registreringen enligt 48 § av fusionen i aktiebolagsregistret. Utöver det som anges i 26 § gäller att 1. aktieägare i överlåtande bolag som utnyttjar sin rätt enligt 50 § till inlösen inte blir aktieägare i det övertagande bolaget, och 2. de fusionerande bolagens rättigheter och skyldigheter som härrör ur anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande fusionen får verkan övergår till det övertagande bolaget. Lag (2022:1647). Aktieägares rätt till inlösen 50 § En aktieägare i ett fusionerande bolag har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i fusionsplanen, om 1. aktieägaren till följd av fusionen skulle bli aktieägare i ett annat bolag som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige, och 2. aktieägaren vid bolagsstämman har röstat mot att godkänna fusionsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av fusionsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som enligt 38 § första stycket 12 har angetts i fusionsplanen. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Bolaget ska betala ut inlösenbeloppet inom två månader från den dag då fusionen fick verkan enligt 49 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning",
+          "text": "Vid en gränsöverskridande fusion uppkommer de rättsverkningar som avses i 26 § vid den tidpunkt som har fastställts i den stat där det övertagande bolaget har sin hemvist. Om det övertagande bolaget har sin hemvist i Sverige, uppkommer rättsverkningarna vid registreringen enligt 48 § av fusionen i aktiebolagsregistret. Utöver det som anges i 26 § gäller att 1. aktieägare i överlåtande bolag som utnyttjar sin rätt enligt 50 § till inlösen inte blir aktieägare i det övertagande bolaget, och 2. de fusionerande bolagens rättigheter och skyldigheter som härrör ur anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande fusionen får verkan övergår till det övertagande bolaget. Lag (2022:1647). Aktieägares rätt till inlösen",
           "references": [
             "26 §",
-            "38 §",
             "48 §",
-            "49 §",
             "50 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-50",
+          "number": 50,
+          "text": "En aktieägare i ett fusionerande bolag har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i fusionsplanen, om 1. aktieägaren till följd av fusionen skulle bli aktieägare i ett annat bolag som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige, och 2. aktieägaren vid bolagsstämman har röstat mot att godkänna fusionsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av fusionsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som enligt 38 § första stycket 12 har angetts i fusionsplanen. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Bolaget ska betala ut inlösenbeloppet inom två månader från den dag då fusionen fick verkan enligt 49 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning",
+          "references": [
+            "38 §",
+            "49 §"
           ]
         },
         {
@@ -4985,7 +6340,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-23-§-54",
           "number": 54,
-          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en fusionsplan som avser en gränsöverskridande fusion får inte som omständigheter till grund för talan åberopa att det utbytesförhållande mellan aktier eller det inlösenbelopp som anges i fusionsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats i dessa avseenden inte uppfyller lagens krav. Lag (2022:1647). Förenklad fusion 55 § Vid en gränsöverskridande fusion mellan ett moderbolag och ett helägt dotterbolag tillämpas 36-49 §§, dock med följande avvikelser. 1. Fusionsplanen behöver inte innehålla sådana uppgifter som avses i 38 § första stycket 2, 3, 5 och 12. 2. Bestämmelserna om revisorsgranskning i 11-13, 40 och 41 §§ samt om bolagsstämmans godkännande av fusionsplanen i 15 § första stycket ska inte tillämpas. 3. Styrelsen i det överlåtande bolaget behöver inte upprätta någon redogörelse enligt 39 §. 4. I fråga om arten av fusionens rättsverkningar gäller det som sägs i 34 § andra stycket 1 och 2 i stället för det som sägs i 26 § första stycket 1-4. Vid en fusion enligt denna paragraf ska det till fusionsplanen bifogas ett yttrande från en eller flera sådana revisorer som anges i 12 § med det innehåll som avses i 11 § andra stycket 1. Denna paragraf gäller också vid andra gränsöverskridande fusioner som sker genom absorption, om 1. samtliga aktier i de bolag som deltar i fusionen direkt eller indirekt innehas av en och samma person, och 2. fusionsvederlag inte ska betalas. Lag (2022:1647). Ogiltighet",
+          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en fusionsplan som avser en gränsöverskridande fusion får inte som omständigheter till grund för talan åberopa att det utbytesförhållande mellan aktier eller det inlösenbelopp som anges i fusionsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats i dessa avseenden inte uppfyller lagens krav. Lag (2022:1647). Förenklad fusion",
+          "references": [
+            "50 §",
+            "7 kap. 50 §"
+          ]
+        },
+        {
+          "id": "kap-23-§-55",
+          "number": 55,
+          "text": "Vid en gränsöverskridande fusion mellan ett moderbolag och ett helägt dotterbolag tillämpas 36-49 §§, dock med följande avvikelser. 1. Fusionsplanen behöver inte innehålla sådana uppgifter som avses i 38 § första stycket 2, 3, 5 och 12. 2. Bestämmelserna om revisorsgranskning i 11-13, 40 och 41 §§ samt om bolagsstämmans godkännande av fusionsplanen i 15 § första stycket ska inte tillämpas. 3. Styrelsen i det överlåtande bolaget behöver inte upprätta någon redogörelse enligt 39 §. 4. I fråga om arten av fusionens rättsverkningar gäller det som sägs i 34 § andra stycket 1 och 2 i stället för det som sägs i 26 § första stycket 1-4. Vid en fusion enligt denna paragraf ska det till fusionsplanen bifogas ett yttrande från en eller flera sådana revisorer som anges i 12 § med det innehåll som avses i 11 § andra stycket 1. Denna paragraf gäller också vid andra gränsöverskridande fusioner som sker genom absorption, om 1. samtliga aktier i de bolag som deltar i fusionen direkt eller indirekt innehas av en och samma person, och 2. fusionsvederlag inte ska betalas. Lag (2022:1647). Ogiltighet",
           "references": [
             "11 §",
             "12 §",
@@ -4995,8 +6359,7 @@ export const aktiebolagslag: LegalText = {
             "36-49 §§",
             "38 §",
             "39 §",
-            "41 §§",
-            "50 §"
+            "41 §§"
           ]
         },
         {
@@ -5027,10 +6390,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-1",
           "number": 1,
-          "text": "Ett aktiebolag kan delas genom att bolagets tillgångar och skulder övertas av ett eller flera andra aktiebolag (delning). Delning kan ske genom att det överlåtande bolagets samtliga tillgångar och skulder övertas av två eller flera andra bolag, varvid det överlåtande bolaget upplöses utan likvidation. Vid en sådan delning ska delningsvederlag utges till aktieägarna i det överlåtande bolaget (fullständig delning). Delning kan också ske genom att en del av det överlåtande bolagets tillgångar och skulder övertas av ett eller flera andra bolag utan att det överlåtande bolaget upplöses. Vid en sådan delning ska delningsvederlag utges 1. till aktieägarna i det överlåtande bolaget (partiell delning), eller 2. till det överlåtande bolaget (delning genom separation). Övertagande bolag kan vara redan bildade aktiebolag eller aktiebolag som bildas genom delningen. Lag (2022:1647). Delningsvederlag 2 § Vederlaget till aktieägarna i det överlåtande bolaget eller, vid delning genom separation, till det överlåtande bolaget (delningsvederlaget) ska bestå av aktier i det eller de övertagande bolagen eller av pengar. Mer än hälften av vederlagets sammanlagda värde ska utgöras av aktier. Lag (2022:1647). De deltagande bolagens redovisningsvaluta",
-          "references": [
-            "2 §"
-          ]
+          "text": "Ett aktiebolag kan delas genom att bolagets tillgångar och skulder övertas av ett eller flera andra aktiebolag (delning). Delning kan ske genom att det överlåtande bolagets samtliga tillgångar och skulder övertas av två eller flera andra bolag, varvid det överlåtande bolaget upplöses utan likvidation. Vid en sådan delning ska delningsvederlag utges till aktieägarna i det överlåtande bolaget (fullständig delning). Delning kan också ske genom att en del av det överlåtande bolagets tillgångar och skulder övertas av ett eller flera andra bolag utan att det överlåtande bolaget upplöses. Vid en sådan delning ska delningsvederlag utges 1. till aktieägarna i det överlåtande bolaget (partiell delning), eller 2. till det överlåtande bolaget (delning genom separation). Övertagande bolag kan vara redan bildade aktiebolag eller aktiebolag som bildas genom delningen. Lag (2022:1647). Delningsvederlag",
+          "references": []
+        },
+        {
+          "id": "kap-24-§-2",
+          "number": 2,
+          "text": "Vederlaget till aktieägarna i det överlåtande bolaget eller, vid delning genom separation, till det överlåtande bolaget (delningsvederlaget) ska bestå av aktier i det eller de övertagande bolagen eller av pengar. Mer än hälften av vederlagets sammanlagda värde ska utgöras av aktier. Lag (2022:1647). De deltagande bolagens redovisningsvaluta",
+          "references": []
         },
         {
           "id": "kap-24-§-3",
@@ -5073,31 +6440,24 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-8",
           "number": 8,
-          "text": "I delningsplanen ska det för varje bolag finnas en noggrann beskrivning av vilka tillgångar och skulder som ska överföras till vart och ett av de övertagande bolagen och, vid partiell delning eller delning genom separation, behållas av det överlåtande bolaget med uppgifter om tillgångarnas och skuldernas verkliga värde. I planen ska det också för varje bolag anges 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. hur många aktier i övertagande bolag som ska lämnas för ett angivet antal aktier i det överlåtande bolaget och vilken kontant ersättning som ska lämnas som delningsvederlag, 3. den tidpunkt och de övriga villkor som ska gälla för utlämnandet av delningsvederlaget, 4. från vilken tidpunkt och på vilka villkor de aktier som lämnas som delningsvederlag medför rätt till utdelning i övertagande bolag, 5. den planerade tidpunkten för upplösningen av det överlåtande bolaget, om detta ska upplösas, 6. vilka rättigheter i övertagande bolag som ska tillkomma innehavare av aktier, teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i det överlåtande bolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, 7. arvode och annan särskild förmån som med anledning av delningen ska lämnas till en styrelseledamot eller en verkställande direktör i överlåtande eller övertagande bolag eller till en revisor som utför granskning enligt 13 §, 8. om någon på något annat sätt ska få särskilda rättigheter eller förmåner av övertagande bolag som bildas i samband med delningen, och 9. kostnaderna för delningen och hur dessa ska fördelas på deltagande bolag. Lag (2022:1647). 9 § Om ett skriftligt avtal har upprättats rörande en sådan bestämmelse som avses i 8 § 9 eller 10, skall avtalet eller en kopia av avtalet fogas till delningsplanen eller i delningsplanen göras en hänvisning till avtalet med uppgift om den plats där det hålls tillgängligt för aktieägarna. Innehållet i ett muntligt avtal skall i sin helhet tas upp i delningsplanen. 10 § Om ett övertagande bolag ska bildas i samband med delningen, ska delningsplanen innehålla 1. en bolagsordning för det övertagande bolaget, och 2. fullständigt namn, personnummer eller, om sådant saknas, födelsedatum och postadress för styrelseledamot samt, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Lag (2010:834).",
+          "text": "I delningsplanen ska det för varje bolag finnas en noggrann beskrivning av vilka tillgångar och skulder som ska överföras till vart och ett av de övertagande bolagen och, vid partiell delning eller delning genom separation, behållas av det överlåtande bolaget med uppgifter om tillgångarnas och skuldernas verkliga värde. I planen ska det också för varje bolag anges 1. företagsnamn, bolagskategori, organisationsnummer och den ort där styrelsen ska ha sitt säte, 2. hur många aktier i övertagande bolag som ska lämnas för ett angivet antal aktier i det överlåtande bolaget och vilken kontant ersättning som ska lämnas som delningsvederlag, 3. den tidpunkt och de övriga villkor som ska gälla för utlämnandet av delningsvederlaget, 4. från vilken tidpunkt och på vilka villkor de aktier som lämnas som delningsvederlag medför rätt till utdelning i övertagande bolag, 5. den planerade tidpunkten för upplösningen av det överlåtande bolaget, om detta ska upplösas, 6. vilka rättigheter i övertagande bolag som ska tillkomma innehavare av aktier, teckningsoptioner, konvertibler och andra värdepapper med särskilda rättigheter i det överlåtande bolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för de nämnda innehavarna, 7. arvode och annan särskild förmån som med anledning av delningen ska lämnas till en styrelseledamot eller en verkställande direktör i överlåtande eller övertagande bolag eller till en revisor som utför granskning enligt 13 §, 8. om någon på något annat sätt ska få särskilda rättigheter eller förmåner av övertagande bolag som bildas i samband med delningen, och 9. kostnaderna för delningen och hur dessa ska fördelas på deltagande bolag. Lag (2022:1647).",
           "references": [
-            "10 §",
-            "13 §",
-            "8 §",
-            "9 §"
+            "13 §"
           ]
         },
         {
           "id": "kap-24-§-9",
           "number": 9,
-          "text": "Ombildningsplanen och styrelsens redogörelse ska granskas av en eller flera revisorer. Granskningen ska vara så omfattande och ingående som god revisionssed kräver. Revisorn eller revisorerna ska upprätta ett yttrande över granskningen. Revisorsyttrandet ska bifogas ombildningsplanen. Det ska innehålla ett utlåtande om huruvida styrelsens redogörelse är komplett och uppfyller de krav som framgår av 6-8 §§. Revisorsyttrandet ska innehålla även ett utlåtande om huruvida det erbjudna inlösenbeloppet är lämpligt. Uppgifter ska också lämnas om 1. den eller de metoder som har använts för att fastställa inlösenbeloppet, 2. huruvida de använda metoderna är lämpliga för att fastställa inlösenbeloppet, och 3. särskilda svårigheter vid värderingen, om det har uppkommit några. Första och andra styckena behöver inte tillämpas om samtliga aktieägare i det bolag som ska ombildas har samtyckt till det. Lag (2022:1647).",
+          "text": "Om ett skriftligt avtal har upprättats rörande en sådan bestämmelse som avses i 8 § 9 eller 10, skall avtalet eller en kopia av avtalet fogas till delningsplanen eller i delningsplanen göras en hänvisning till avtalet med uppgift om den plats där det hålls tillgängligt för aktieägarna. Innehållet i ett muntligt avtal skall i sin helhet tas upp i delningsplanen.",
           "references": [
-            "6-8 §§"
+            "8 §"
           ]
         },
         {
           "id": "kap-24-§-10",
           "number": 10,
-          "text": "En revisor som avses i 9 § ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte något annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte utses, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt 9 § gäller 9 kap. 40, 45 och 46 §§. Lag (2022:1647).",
-          "references": [
-            "46 §§",
-            "9 kap. 40, 45 och 46 §§",
-            "9 §"
-          ]
+          "text": "Om ett övertagande bolag ska bildas i samband med delningen, ska delningsplanen innehålla 1. en bolagsordning för det övertagande bolaget, och 2. fullständigt namn, personnummer eller, om sådant saknas, födelsedatum och postadress för styrelseledamot samt, i förekommande fall, revisor, styrelsesuppleant, revisorssuppleant och lekmannarevisor. Lag (2010:834).",
+          "references": []
         },
         {
           "id": "kap-24-§-11",
@@ -5125,33 +6485,28 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-14",
           "number": 14,
-          "text": "För en revisor som utför granskning enligt 13 § gäller bestämmelserna i 23 kap. 12 §. 15 § Styrelsen, den verkställande direktören och revisorn i ett bolag som skall delta i delningen skall ge varje revisor som utför granskning enligt 13 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig. De skall också lämna de upplysningar och den hjälp som begärs. Samma skyldighet har en revisor som utför granskning enligt 13 § mot övriga sådana revisorer. Registrering av delningsplanen 16 § Inom en månad från upprättandet av delningsplanen skall det överlåtande bolaget ge in planen med bifogade handlingar till Bolagsverket för registrering i aktiebolagsregistret. Uppgift om registreringen skall enligt 27 kap. 3 § kungöras. Om planen inte kungörs i sin helhet, skall det i kungörelsen lämnas uppgift om var den hålls tillgänglig. Första stycket gäller inte vid delning, där samtliga deltagande bolag är privata aktiebolag och alla aktieägare i bolagen har undertecknat delningsplanen. Bolagsstämmans prövning av delningsplanen",
+          "text": "För en revisor som utför granskning enligt 13 § gäller bestämmelserna i 23 kap. 12 §.",
           "references": [
             "12 §",
             "13 §",
-            "15 §",
-            "16 §",
-            "23 kap. 12 §",
-            "27 kap. 3 §",
-            "3 §"
+            "23 kap. 12 §"
           ]
         },
         {
           "id": "kap-24-§-15",
           "number": 15,
-          "text": "Styrelsen ska hålla ombildningsplanen med bifogade handlingar och styrelsens redogörelse enligt 6 § tillgängliga för aktieägarna och för arbetstagarnas företrädare eller, om sådana företrädare inte finns, för arbetstagarna själva. Handlingarna ska hållas tillgängliga på bolagets webbplats eller med något annat likvärdigt elektroniskt hjälpmedel under minst sex veckor före den bolagsstämma där frågan om att godkänna ombildningsplanen ska behandlas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. I 39 § finns det ytterligare bestämmelser för publika aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2022:1647).",
+          "text": "Styrelsen, den verkställande direktören och revisorn i ett bolag som skall delta i delningen skall ge varje revisor som utför granskning enligt 13 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig. De skall också lämna de upplysningar och den hjälp som begärs. Samma skyldighet har en revisor som utför granskning enligt 13 § mot övriga sådana revisorer. Registrering av delningsplanen",
           "references": [
-            "39 §",
-            "6 §"
+            "13 §"
           ]
         },
         {
           "id": "kap-24-§-16",
           "number": 16,
-          "text": "De synpunkter som har lämnats med anledning av meddelandet enligt 12 § ska läggas fram på en sådan bolagsstämma som avses i 17 §. Lag (2022:1647). Bolagsstämmans prövning av ombildningsplanen",
+          "text": "Inom en månad från upprättandet av delningsplanen skall det överlåtande bolaget ge in planen med bifogade handlingar till Bolagsverket för registrering i aktiebolagsregistret. Uppgift om registreringen skall enligt 27 kap. 3 § kungöras. Om planen inte kungörs i sin helhet, skall det i kungörelsen lämnas uppgift om var den hålls tillgänglig. Första stycket gäller inte vid delning, där samtliga deltagande bolag är privata aktiebolag och alla aktieägare i bolagen har undertecknat delningsplanen. Bolagsstämmans prövning av delningsplanen",
           "references": [
-            "12 §",
-            "17 §"
+            "27 kap. 3 §",
+            "3 §"
           ]
         },
         {
@@ -5164,12 +6519,38 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-24-§-17a",
+          "number": 17,
+          "text": "Om delningen innebär att det behövs ändringar i bolagsordningen, ska dessa beslutas senast vid den bolagsstämma där delningsplanen godkänns. Om delningsplanen inte ska läggas fram för att godkännas på stämman, ska ändringarna i bolagsordningen beslutas före styrelsens beslut att ansöka om tillstånd att verkställa delningsplanen. Lag (2022:1647). Tillhandahållande av delningsplanen m.m.",
+          "references": []
+        },
+        {
           "id": "kap-24-§-18",
           "number": 18,
           "text": "Om en fråga om godkännande av en delningsplan enligt 17 § ska underställas bolagsstämman, gäller följande. Styrelsen ska hålla planen med bifogade handlingar tillgänglig för aktieägarna under minst en månad eller, om samtliga bolag som deltar i delningen är privata aktiebolag, minst två veckor före den bolagsstämma där frågan ska behandlas. Handlingarna ska hållas tillgängliga hos bolaget på den ort där styrelsen har sitt säte. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Under förutsättning att handlingarna hålls tillgängliga på bolagets webbplats får styrelsen, trots andra stycket, välja mellan att hålla dem tillgängliga hos bolaget och att sända kopior av dem till aktieägarna. Om det har inträffat väsentliga förändringar i det överlåtande bolagets tillgångar och skulder efter det att delningsplanen upprättades, ska styrelsen lämna upplysningar om detta på bolagsstämman innan frågan om godkännande av delningsplanen avgörs. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller även 31 §. Lag (2011:1046).",
           "references": [
             "17 §",
             "31 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-18a",
+          "number": 18,
+          "text": "Om en fråga om godkännande av en delningsplan inte underställs bolagsstämman med stöd av 17 § fjärde stycket, ska styrelsen i övertagande bolag hålla delningsplanen med bifogade handlingar tillgänglig för aktieägarna under minst en månad eller, om samtliga bolag som deltar i delningen är privata aktiebolag, minst två veckor från det att uppgift om att planen har registrerats har kungjorts. I fråga om hur handlingarna ska hållas tillgängliga gäller 18 § andra och tredje styckena. Lag (2011:1046). Förenklad delning",
+          "references": [
+            "17 §",
+            "18 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-18b",
+          "number": 18,
+          "text": "Om det överlåtande bolagets samtliga tillgångar och skulder övertas av två eller flera bolag som bildas genom delningen och aktierna i de övertagande bolagen tilldelas aktieägarna i det överlåtande bolaget i förhållande till deras andel av aktiekapitalet, gäller inte följande bestämmelser: - 11 § om styrelseredogörelse, - 12 § andra stycket om kompletterande information, och - 18 § fjärde stycket om styrelsens upplysningsplikt. Vidare får revisorernas granskning och yttranden avseende delningsplanen begränsas till de omständigheter som anges i 13 § andra stycket. Lag (2011:1046). Majoritetskrav m.m.",
+          "references": [
+            "11 §",
+            "12 §",
+            "13 §",
+            "18 §"
           ]
         },
         {
@@ -5187,22 +6568,34 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-21",
           "number": 21,
-          "text": "När delningsplanen har blivit gällande i samtliga bolag som deltar i delningen, skall vart och ett av dem skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa delningsplanen samt uppgift om borgenärernas rätt att motsätta sig att planen verkställs. Borgenärerna i det övertagande bolaget behöver inte underrättas, om revisorerna i yttrande över delningsplanen har uttalat att de inte har funnit att delningen medför någon fara för dessa borgenärer. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Ansökan om tillstånd att verkställa delningsplanen 22 § Det överlåtande bolaget ska ansöka om tillstånd att verkställa delningsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att delningsplanen har blivit gällande i samtliga bolag och, om delningsplanen har registrerats enligt 16 §, senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av delningsplanen med de handlingar som är bifogade till den, 2. intyg från bolagens styrelser eller verkställande direktörer om att bolagens kända borgenärer har underrättats enligt 21 § och, i de fall delningsplanen enligt 16 § andra stycket inte behöver ges in för registrering, att samtliga aktieägare har undertecknat delningsplanen, och 3. en kopia av protokollen från de bolagsstämmor som avses i 17 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647). 23 § Bolagsverket ska avslå en ansökan enligt 22 § 1. vid samtliga slag av delning: om delningsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller någon annan författning eller mot bolagsordningen, 2. vid samtliga slag av delning: om delningen har förbjudits enligt konkurrenslagen (2008:579) eller enligt rådets förordning (EG) nr 1392004 och prövningen kan antas bli avslutad inom kort tid, får Bolagsverket förklara tillståndsfrågan vilande under högst sex månader. Lag (2022:1647). Kallelse på bolagens borgenärer 24 § Om Bolagsverket finner att det inte finns något hinder mot en ansökan enligt 22 §, ska verket kalla bolagens borgenärer. Verket ska dock inte kalla 1. borgenärerna i övertagande bolag, om revisorerna i yttrande över delningsplanen enligt 13 § har uttalat att de inte har funnit att delningen medför någon fara för dessa borgenärer, 2. borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till verkställande av delningsplanen",
+          "text": "När delningsplanen har blivit gällande i samtliga bolag som deltar i delningen, skall vart och ett av dem skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna skall innehålla uppgift om att bolaget avser att ansöka om tillstånd att verkställa delningsplanen samt uppgift om borgenärernas rätt att motsätta sig att planen verkställs. Borgenärerna i det övertagande bolaget behöver inte underrättas, om revisorerna i yttrande över delningsplanen har uttalat att de inte har funnit att delningen medför någon fara för dessa borgenärer. Inte heller behöver underrättelse sändas till borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Ansökan om tillstånd att verkställa delningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24-§-22",
+          "number": 22,
+          "text": "Det överlåtande bolaget ska ansöka om tillstånd att verkställa delningsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att delningsplanen har blivit gällande i samtliga bolag och, om delningsplanen har registrerats enligt 16 §, senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av delningsplanen med de handlingar som är bifogade till den, 2. intyg från bolagens styrelser eller verkställande direktörer om att bolagens kända borgenärer har underrättats enligt 21 § och, i de fall delningsplanen enligt 16 § andra stycket inte behöver ges in för registrering, att samtliga aktieägare har undertecknat delningsplanen, och 3. en kopia av protokollen från de bolagsstämmor som avses i 17 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647).",
           "references": [
-            "13 §",
             "16 §",
             "17 §",
-            "21 §",
-            "22 §",
-            "23 §",
-            "24 §"
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-23",
+          "number": 23,
+          "text": "Bolagsverket ska avslå en ansökan enligt 22 § 1. vid samtliga slag av delning: om delningsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller någon annan författning eller mot bolagsordningen, 2. vid samtliga slag av delning: om delningen har förbjudits enligt konkurrenslagen (2008:579) eller enligt rådets förordning (EG) nr 139/2004 av den 20 januari 2004 om kontroll av företagskoncentrationer eller om prövning av delningen pågår enligt konkurrenslagen eller den nämnda förordningen, 3. vid delning som innebär att ett övertagande bolag nybildas: om revisorsyttrandena enligt 13 § inte visar att den del av det överlåtande bolaget som ska övertas av det nybildade bolaget har ett verkligt värde för detta bolag som uppgår till minst dess aktiekapital, 4. vid partiell delning och delning genom separation: om revisorsyttrandena enligt 13 § inte visar att det överlåtande bolaget har full täckning för det bundna egna kapitalet. Om ansökan inte kan bifallas på grund av att prövning pågår enligt konkurrenslagen eller enligt rådets förordning (EG) nr 139/2004 och prövningen kan antas bli avslutad inom kort tid, får Bolagsverket förklara tillståndsfrågan vilande under högst sex månader. Lag (2022:1647). Kallelse på bolagens borgenärer",
+          "references": [
+            "13 §",
+            "22 §"
           ]
         },
         {
           "id": "kap-24-§-24",
           "number": 24,
-          "text": "Om det vid handläggningen av en ansökan enligt 22 § uppkommer en fråga som kräver särskild fackkunskap, får Bolagsverket förordna en lämplig person som sakkunnig. Den sakkunniga ska vara oberoende av bolaget och får inte ha någon intressekonflikt med det. Den sakkunniga ska utföra sitt arbete opartiskt och objektivt. Sökanden ska ersätta Bolagsverket för dess kostnader för den sakkunniga. Bolagsverket ska fatta beslut om det belopp som sökanden ska betala. Av beslutet ska det framgå när beloppet ska betalas och vad kostnaderna avser. Om ett belopp som har beslutats inte betalas i rätt tid, ska fordran lämnas för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2022:1647). Kallelse på bolagets borgenärer",
+          "text": "Om Bolagsverket finner att det inte finns något hinder mot en ansökan enligt 22 §, ska verket kalla bolagens borgenärer. Verket ska dock inte kalla 1. borgenärerna i övertagande bolag, om revisorerna i yttrande över delningsplanen enligt 13 § har uttalat att de inte har funnit att delningen medför någon fara för dessa borgenärer, 2. borgenärer, vilkas anspråk avser en fordran på lön, pension eller annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla föreläggande för den som vill motsätta sig ansökan att senast viss dag skriftligen anmäla detta. Föreläggandet ska innehålla en upplysning om att han eller hon annars anses ha medgett ansökan. Bolagsverket ska skyndsamt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2008:12). När Bolagsverket skall lämna tillstånd till verkställande av delningsplanen",
           "references": [
+            "13 §",
             "22 §"
           ]
         },
@@ -5225,39 +6618,45 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-27",
           "number": 27,
-          "text": "Styrelserna för de övertagande bolagen ska gemensamt anmäla delningen för registrering i aktiebolagsregistret. För bolag som tidigare är införda i aktiebolagsregistret ska anmälan även innehålla en uppgift om aktiekapitalets ökning. För bolag som nybildas i samband med delningen, ska det i anmälan även anges vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och lekmannarevisorer i bolaget. Anmälan ersätter teckningen av aktierna och ska göras senast två månader från Bolagsverkets tillstånd att verkställa delningsplanen eller, när tillstånd har lämnats av allmän domstol, från det att domstolens beslut har fått laga kraft. Till anmälan ska det bifogas ett intyg från en auktoriserad eller godkänd revisor om att det överlåtande bolagets tillgångar har överlämnats till övertagande bolag i enlighet med vad som har angetts i delningsplanen. Bestämmelserna i 53 § andra stycket om att delningen i vissa fall inte får registreras ska tillämpas, om 1. något av de bolag som deltar i delningen, eller något annat bolag som genom delning eller fusion har gått upp i något av dessa bolag, tidigare har deltagit i en gränsöverskridande fusion, gränsöverskridande delning eller gränsöverskridande ombildning, 2. den gränsöverskridande fusionen, delningen eller ombildningen har registrerats inom fyra år före anmälan för registrering enligt första stycket, och 3. något av bolagen fortfarande omfattas av ett system för arbetstagares medverkan enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Lag (2022:1647). Delningens rättsverkningar 28 § När en anmälan om delning enligt 27 § registreras, inträder följande rättsverkningar: 1. Det överlåtande bolagets tillgångar och skulder med undantag för skadeståndsanspråk enligt 29 kap. 1-3 §§ som har samband med delningen övergår till det eller de övertagande bolagen i enlighet med det som har angetts i delningsplanen. 2. Vid fullständig delning och partiell delning blir aktieägare i det överlåtande bolaget aktieägare i övertagande bolag. Vid delning genom separation blir överlåtande bolag aktieägare i övertagande bolag. 3. Överlåtande bolag, som ska upplösas genom delningen, är upplöst. 4. Övertagande bolag, som ska bildas genom delningen, anses bildade. Trots första stycket kan ägare till minst en tiondel av samtliga aktier i överlåtande bolag som har upplösts genom delningen begära hos styrelsen att det hålls bolagsstämma för behandling av en fråga om talan enligt 29 kap. 7 §. I så fall ska 7 kap. 17 § andra stycket tillämpas. Om en sådan talan väcks, gäller 25 kap. 44 § i tillämpliga delar. Lag (2022:1647). Frågan om delning faller 29 § Bolagsverket skall förklara att frågan om delning har fallit, om 1. ansökan enligt 22 § om tillstånd att verkställa delningsplanen inte har gjorts inom föreskriven tid eller en sådan ansökan har avslagits genom beslut som har vunnit laga kraft, 2. anmälan enligt 27 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 27 § eller har vägrat registrering. Gränsöverskridande delning Vad en gränsöverskridande delning innebär",
+          "text": "Styrelserna för de övertagande bolagen ska gemensamt anmäla delningen för registrering i aktiebolagsregistret. För bolag som tidigare är införda i aktiebolagsregistret ska anmälan även innehålla en uppgift om aktiekapitalets ökning. För bolag som nybildas i samband med delningen, ska det i anmälan även anges vilka som har utsetts till styrelseledamöter samt, i förekommande fall, revisorer och lekmannarevisorer i bolaget. Anmälan ersätter teckningen av aktierna och ska göras senast två månader från Bolagsverkets tillstånd att verkställa delningsplanen eller, när tillstånd har lämnats av allmän domstol, från det att domstolens beslut har fått laga kraft. Till anmälan ska det bifogas ett intyg från en auktoriserad eller godkänd revisor om att det överlåtande bolagets tillgångar har överlämnats till övertagande bolag i enlighet med vad som har angetts i delningsplanen. Bestämmelserna i 53 § andra stycket om att delningen i vissa fall inte får registreras ska tillämpas, om 1. något av de bolag som deltar i delningen, eller något annat bolag som genom delning eller fusion har gått upp i något av dessa bolag, tidigare har deltagit i en gränsöverskridande fusion, gränsöverskridande delning eller gränsöverskridande ombildning, 2. den gränsöverskridande fusionen, delningen eller ombildningen har registrerats inom fyra år före anmälan för registrering enligt första stycket, och 3. något av bolagen fortfarande omfattas av ett system för arbetstagares medverkan enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar. Lag (2022:1647). Delningens rättsverkningar",
           "references": [
-            "1-3 §§",
-            "17 §",
-            "22 §",
-            "25 kap. 44 §",
-            "27 §",
-            "28 §",
-            "29 kap. 7 §",
-            "29 §",
-            "44 §",
             "53 §"
           ]
         },
         {
           "id": "kap-24-§-28",
           "number": 28,
-          "text": "När Bolagsverket har gett tillstånd att verkställa ombildningsplanen enligt 26 § eller när en domstol, genom ett beslut som har fått laga kraft, har gett tillstånd att verkställa ombildningsplanen enligt 27 §, ska Bolagsverket för bolaget utfärda ett intyg om att den del av förfarandet som regleras av svensk lag har genomförts på föreskrivet sätt (ombildningsintyg). Ett ombildningsintyg får dock inte utfärdas om det har väckts talan mot bolagsstämmans beslut att godkänna ombildningsplanen och målet inte har avgjorts slutligt. Ett ombildningsintyg ska utfärdas inom tre månader från dagen för ansökan om tillstånd att verkställa ombildningsplanen. Om det på grund av ärendets komplexitet eller annars finns särskilda skäl för en längre handläggningstid får tremånadersfristen överskridas. Om tremånadersfristen inte kan hållas, ska sökanden underrättas om skälen för detta. Ombildningsintyget ska tillhandahållas den behöriga myndigheten i den stat där bolaget efter ombildningen ska ha sitt registrerade säte. Lag (2022:1647). Registrering av en ombildning av ett svenskt aktiebolag",
+          "text": "När en anmälan om delning enligt 27 § registreras, inträder följande rättsverkningar: 1. Det överlåtande bolagets tillgångar och skulder med undantag för skadeståndsanspråk enligt 29 kap. 1-3 §§ som har samband med delningen övergår till det eller de övertagande bolagen i enlighet med det som har angetts i delningsplanen. 2. Vid fullständig delning och partiell delning blir aktieägare i det överlåtande bolaget aktieägare i övertagande bolag. Vid delning genom separation blir överlåtande bolag aktieägare i övertagande bolag. 3. Överlåtande bolag, som ska upplösas genom delningen, är upplöst. 4. Övertagande bolag, som ska bildas genom delningen, anses bildade. Trots första stycket kan ägare till minst en tiondel av samtliga aktier i överlåtande bolag som har upplösts genom delningen begära hos styrelsen att det hålls bolagsstämma för behandling av en fråga om talan enligt 29 kap. 7 §. I så fall ska 7 kap. 17 § andra stycket tillämpas. Om en sådan talan väcks, gäller 25 kap. 44 § i tillämpliga delar. Lag (2022:1647). Frågan om delning faller",
           "references": [
-            "26 §",
-            "27 §"
+            "1-3 §§",
+            "17 §",
+            "25 kap. 44 §",
+            "27 §",
+            "29 kap. 7 §",
+            "44 §",
+            "7 kap. 17 §",
+            "7 §"
           ]
         },
         {
           "id": "kap-24-§-29",
           "number": 29,
-          "text": "Inför registreringen av ombildningen ska bolaget ge in en kopia av ombildningsplanen till den behöriga myndigheten i den stat där bolaget ska ha sitt säte. Handlingen ska ges in inom sex månader från den dag då ombildningsintyget utfärdades. Efter underrättelse från den behöriga utländska myndigheten om att ombildningen har ägt rum, ska Bolagsverket föra in uppgifter om ombildningen och om datum för registreringen i aktiebolagsregistret. Lag (2022:1647). Anmälan för registrering vid en ombildning av en utländsk juridisk person",
-          "references": []
+          "text": "Bolagsverket skall förklara att frågan om delning har fallit, om 1. ansökan enligt 22 § om tillstånd att verkställa delningsplanen inte har gjorts inom föreskriven tid eller en sådan ansökan har avslagits genom beslut som har vunnit laga kraft, 2. anmälan enligt 27 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har vunnit laga kraft har avskrivit ett ärende om registrering enligt 27 § eller har vägrat registrering. Gränsöverskridande delning Vad en gränsöverskridande delning innebär",
+          "references": [
+            "22 §",
+            "27 §"
+          ]
         },
         {
           "id": "kap-24-§-30",
           "number": 30,
-          "text": "Ett svenskt aktiebolag får delas genom att bolagets tillgångar och skulder övertas helt eller delvis av en eller flera motsvarande juridiska personer med hemvist inom Europeiska ekonomiska samarbetsområdet, varav minst en ska ha sin hemvist utanför Sverige (gränsöverskridande delning). Vid en gränsöverskridande delning ska varje övertagande bolag vara en juridisk person som bildas genom delningen. Lag (2022:1647). Bestämmelser som ska tillämpas vid en gränsöverskridande delning 31 § Följande allmänna bestämmelser i detta kapitel gäller även för en gränsöverskridande delning: - 1 § första-tredje styckena om vad en delning innebär, - 2 § om delningsvederlag, - 4 § om delning när det överlåtande bolaget har gått i likvidation, - 5 § första stycket om övertagande bolags betalningsansvar, - 6 § om särskilda rättighetshavares ställning, och - 32 § om särskilda begränsningar i rätten att delta i en gränsöverskridande delning. För en gränsöverskridande delning gäller vidare följande bestämmelser om förfarandet: - 33 och 34 §§ om delningsplan, - 35-37 §§ om styrelseredogörelse, - 12 § om kompletterande information, - 13-15 och 38 §§ om revisorsgranskning av delningsplanen, - 39 § om meddelande om att synpunkter får lämnas, - 16 § första stycket, 40 § och 41 § om registrering av delningsplanen, - 42 och 62 §§ om tillhandahållande av delningsplanen, - 43 § om synpunkter som har lämnats med anledning av ett meddelande enligt 39 §, - 17 § första stycket om att delningsplanen ska läggas fram för att godkännas av bolagsstämman i det överlåtande bolaget, - 17 a § om ändringar i bolagsordningen, - 19 § första, andra och fjärde styckena om majoritetskrav m.m., - 20 § om när frågan om delning faller, - 44 § om villkorat beslut om godkännande av delningsplanen, - 21 § om underrättelse till bolagets kända borgenärer, - 22, 23, 45, 46 och 48 §§ om ansökan om tillstånd att verkställa delningsplanen, - 47 § om förordnande av oberoende sakkunnig, - 24 § om kallelse på bolagens borgenärer, - 25 § om när Bolagsverket ska lämna tillstånd att verkställa delningsplanen, - 49 § om när allmän domstol ska lämna tillstånd att verkställa delningsplanen, - 50 § om utfärdande av delningsintyg, - 51-53 §§ om registrering av delningen, - 28 och 54 §§ om delningens rättsverkningar, - 29 § om när frågan om delning faller, varvid vad som i den paragrafen sägs om 27 § ska avse 52 §, och - 60 § om särskilda bestämmelser vid delning genom separation. Vid en gränsöverskridande delning gäller vidare följande bestämmelser om aktieägares rättigheter: - 55 § om aktieägares rätt till inlösen, och - 56-58 §§ om aktieägares rätt till ytterligare ersättning. Lag (2022:1647). Särskilda begränsningar i rätten att genomföra en gränsöverskridande delning 32 § Ett aktiebolag får inte genomföra en gränsöverskridande delning om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, eller 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §. Lag (2022:1647). Delningsplan",
+          "text": "Ett svenskt aktiebolag får delas genom att bolagets tillgångar och skulder övertas helt eller delvis av en eller flera motsvarande juridiska personer med hemvist inom Europeiska ekonomiska samarbetsområdet, varav minst en ska ha sin hemvist utanför Sverige (gränsöverskridande delning). Vid en gränsöverskridande delning ska varje övertagande bolag vara en juridisk person som bildas genom delningen. Lag (2022:1647). Bestämmelser som ska tillämpas vid en gränsöverskridande delning",
+          "references": []
+        },
+        {
+          "id": "kap-24-§-31",
+          "number": 31,
+          "text": "Följande allmänna bestämmelser i detta kapitel gäller även för en gränsöverskridande delning: - 1 § första-tredje styckena om vad en delning innebär, - 2 § om delningsvederlag, - 4 § om delning när det överlåtande bolaget har gått i likvidation, - 5 § första stycket om övertagande bolags betalningsansvar, - 6 § om särskilda rättighetshavares ställning, och - 32 § om särskilda begränsningar i rätten att delta i en gränsöverskridande delning. För en gränsöverskridande delning gäller vidare följande bestämmelser om förfarandet: - 33 och 34 §§ om delningsplan, - 35-37 §§ om styrelseredogörelse, - 12 § om kompletterande information, - 13-15 och 38 §§ om revisorsgranskning av delningsplanen, - 39 § om meddelande om att synpunkter får lämnas, - 16 § första stycket, 40 § och 41 § om registrering av delningsplanen, - 42 och 62 §§ om tillhandahållande av delningsplanen, - 43 § om synpunkter som har lämnats med anledning av ett meddelande enligt 39 §, - 17 § första stycket om att delningsplanen ska läggas fram för att godkännas av bolagsstämman i det överlåtande bolaget, - 17 a § om ändringar i bolagsordningen, - 19 § första, andra och fjärde styckena om majoritetskrav m.m., - 20 § om när frågan om delning faller, - 44 § om villkorat beslut om godkännande av delningsplanen, - 21 § om underrättelse till bolagets kända borgenärer, - 22, 23, 45, 46 och 48 §§ om ansökan om tillstånd att verkställa delningsplanen, - 47 § om förordnande av oberoende sakkunnig, - 24 § om kallelse på bolagens borgenärer, - 25 § om när Bolagsverket ska lämna tillstånd att verkställa delningsplanen, - 49 § om när allmän domstol ska lämna tillstånd att verkställa delningsplanen, - 50 § om utfärdande av delningsintyg, - 51-53 §§ om registrering av delningen, - 28 och 54 §§ om delningens rättsverkningar, - 29 § om när frågan om delning faller, varvid vad som i den paragrafen sägs om 27 § ska avse 52 §, och - 60 § om särskilda bestämmelser vid delning genom separation. Vid en gränsöverskridande delning gäller vidare följande bestämmelser om aktieägares rättigheter: - 55 § om aktieägares rätt till inlösen, och - 56-58 §§ om aktieägares rätt till ytterligare ersättning. Lag (2022:1647). Särskilda begränsningar i rätten att genomföra en gränsöverskridande delning",
           "references": [
             "1 §",
             "12 §",
@@ -5269,6 +6668,14 @@ export const aktiebolagslag: LegalText = {
             "21 §",
             "24 §",
             "25 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-32",
+          "number": 32,
+          "text": "Ett aktiebolag får inte genomföra en gränsöverskridande delning om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, eller 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §. Lag (2022:1647). Delningsplan",
+          "references": [
+            "17 §"
           ]
         },
         {
@@ -5289,30 +6696,28 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-35",
           "number": 35,
-          "text": "Styrelsen i det överlåtande bolaget ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om delningen är lämplig för bolaget. I redogörelsen ska det ingå en beskrivning av delningens konsekvenser för den framtida verksamheten och för bolagets borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 36 § och ett avsnitt med information för arbetstagarna enligt 37 §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 36 § andra stycket och 37 § andra stycket att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647). 36 § I avsnittet med information för aktieägarna enligt 35 § andra stycket ska styrelsen beskriva 1. aktiernas utbytesförhållande och, i de fall en kontantersättning erbjuds, storleken på ersättningen samt den metod som har använts för att bestämma aktiernas utbytesförhållande och storleken på ersättningen, 2. delningens konsekvenser för aktieägarna, 3. inlösenbeloppet vid inlösen enligt 55 § och den metod som har använts för att bestämma det, och 4. hur en aktieägare ska göra för att utöva rätten till inlösen enligt 55 § och till ytterligare ersättning enligt 56-58 §§. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647). 37 § I avsnittet med information för arbetstagarna enligt 35 § andra stycket ska styrelsen beskriva 1. delningens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för dessa förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning",
+          "text": "Styrelsen i det överlåtande bolaget ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om delningen är lämplig för bolaget. I redogörelsen ska det ingå en beskrivning av delningens konsekvenser för den framtida verksamheten och för bolagets borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 36 § och ett avsnitt med information för arbetstagarna enligt 37 §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 36 § andra stycket och 37 § andra stycket att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647).",
           "references": [
-            "35 §",
             "36 §",
-            "37 §",
-            "55 §",
-            "56-58 §§"
+            "37 §"
           ]
         },
         {
           "id": "kap-24-§-36",
           "number": 36,
-          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en ombildningsplan får inte som omständigheter till grund för talan åberopa att det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats om inlösenbeloppet inte uppfyller lagens krav. Lag (2022:1647). Borgenärers rätt att väcka talan i Sverige efter det att ombildningen fått verkan",
+          "text": "I avsnittet med information för aktieägarna enligt 35 § andra stycket ska styrelsen beskriva 1. aktiernas utbytesförhållande och, i de fall en kontantersättning erbjuds, storleken på ersättningen samt den metod som har använts för att bestämma aktiernas utbytesförhållande och storleken på ersättningen, 2. delningens konsekvenser för aktieägarna, 3. inlösenbeloppet vid inlösen enligt 55 § och den metod som har använts för att bestämma det, och 4. hur en aktieägare ska göra för att utöva rätten till inlösen enligt 55 § och till ytterligare ersättning enligt 56-58 §§. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647).",
           "references": [
-            "50 §",
-            "7 kap. 50 §"
+            "35 §",
+            "55 §",
+            "56-58 §§"
           ]
         },
         {
           "id": "kap-24-§-37",
           "number": 37,
-          "text": "Den som har en fordran på ett svenskt aktiebolag som har ombildats enligt detta kapitel får väcka talan mot det ombildade bolaget vid rätten i den ort där styrelsen hade sitt säte före ombildningen, om fordran uppkom innan uppgiften om registrering av ombildningsplanen kungjordes enligt 13 § första stycket. Om talan inte väcks inom två år från den tidpunkt då ombildningen fick verkan i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist, är rätten att väcka talan med stöd av första stycket förlorad. Lag (2022:1647). Ogiltighet",
+          "text": "I avsnittet med information för arbetstagarna enligt 35 § andra stycket ska styrelsen beskriva 1. delningens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för dessa förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning",
           "references": [
-            "13 §"
+            "35 §"
           ]
         },
         {
@@ -5368,11 +6773,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-44",
           "number": 44,
-          "text": "Bolagsstämman i det överlåtande bolaget får villkora beslutet om att godkänna delningsplanen med att en senare stämma godkänner de former som beslutas för arbetstagarnas medverkan i det övertagande bolaget. Lag (2022:1647). Ansökan om tillstånd att verkställa delningsplanen 45 § Till ansökan ska, utöver det som anges i 22 §, följande handlingar bifogas: 1. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 2. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 39 §, och 3. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig. Lag (2022:1647).",
+          "text": "Bolagsstämman i det överlåtande bolaget får villkora beslutet om att godkänna delningsplanen med att en senare stämma godkänner de former som beslutas för arbetstagarnas medverkan i det övertagande bolaget. Lag (2022:1647). Ansökan om tillstånd att verkställa delningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24-§-45",
+          "number": 45,
+          "text": "Till ansökan ska, utöver det som anges i 22 §, följande handlingar bifogas: 1. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 2. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 39 §, och 3. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig. Lag (2022:1647).",
           "references": [
             "22 §",
-            "39 §",
-            "45 §"
+            "39 §"
           ]
         },
         {
@@ -5395,12 +6805,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-48",
           "number": 48,
-          "text": "Den dag som avses i 24 § andra stycket ska vid en gränsöverskridande delning bestämmas till en dag som infaller tidigast tre månader efter registreringen enligt 16 § av delningsplanen. Lag (2022:1647). 49 § Om Bolagsverket med stöd av 25 § har överlämnat ett ärende om tillstånd att verkställa en delningsplan som avser en gränsöverskridande delning till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att delningen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa delningsplanen. Lag (2022:1647). Utfärdande av delningsintyg",
+          "text": "Den dag som avses i 24 § andra stycket ska vid en gränsöverskridande delning bestämmas till en dag som infaller tidigast tre månader efter registreringen enligt 16 § av delningsplanen. Lag (2022:1647).",
           "references": [
             "16 §",
-            "24 §",
-            "25 §",
-            "49 §"
+            "24 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-49",
+          "number": 49,
+          "text": "Om Bolagsverket med stöd av 25 § har överlämnat ett ärende om tillstånd att verkställa en delningsplan som avser en gränsöverskridande delning till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att delningen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa delningsplanen. Lag (2022:1647). Utfärdande av delningsintyg",
+          "references": [
+            "25 §"
           ]
         },
         {
@@ -5421,24 +6837,36 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-52",
           "number": 52,
-          "text": "Om ett övertagande bolag efter en gränsöverskridande delning ska ha sin hemvist i Sverige, ska styrelsen eller motsvarande förvaltnings- eller ledningsorgan i det överlåtande bolaget anmäla det övertagande bolaget för registrering hos Bolagsverket inom sex månader från den dag då delningsintyget utfärdades. Anmälan ska innehålla uppgifter om vilka som har utsetts till styrelseledamöter och, i förekommande fall, revisorer och styrelsesuppleanter i det övertagande bolaget. Till anmälan ska följande handlingar bifogas: 1. en kopia av delningsplanen, 2. ett yttrande från en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag eller en motsvarande oberoende sakkunnig som har godkänts av en utländsk behörig myndighet i den stat där det överlåtande bolaget har sin hemvist, av vilket det framgår att det finns täckning för det aktiekapital som ska registreras för det övertagande aktiebolaget. Lag (2022:1647). 53 § Bolagsverket får registrera ett övertagande bolag enligt 52 § endast om 1. verket har fått del av ett delningsintyg, 2. det överlåtande bolaget har gett in de uppgifter och handlingar som avses i 52 §, 3. bolagsordningen är förenlig med denna lag och andra författningar, 4. det aktiekapital som ska registreras för bolaget uppfyller kraven i 1 kap. 4 och 5 §§, och 5. det inte heller finns något hinder mot registrering. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får delningen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta den behöriga myndigheten i den stat där det överlåtande bolaget har sin hemvist om registreringen. Lag (2022:1647). Delningens rättsverkningar",
+          "text": "Om ett övertagande bolag efter en gränsöverskridande delning ska ha sin hemvist i Sverige, ska styrelsen eller motsvarande förvaltnings- eller ledningsorgan i det överlåtande bolaget anmäla det övertagande bolaget för registrering hos Bolagsverket inom sex månader från den dag då delningsintyget utfärdades. Anmälan ska innehålla uppgifter om vilka som har utsetts till styrelseledamöter och, i förekommande fall, revisorer och styrelsesuppleanter i det övertagande bolaget. Till anmälan ska följande handlingar bifogas: 1. en kopia av delningsplanen, 2. ett yttrande från en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag eller en motsvarande oberoende sakkunnig som har godkänts av en utländsk behörig myndighet i den stat där det överlåtande bolaget har sin hemvist, av vilket det framgår att det finns täckning för det aktiekapital som ska registreras för det övertagande aktiebolaget. Lag (2022:1647).",
+          "references": []
+        },
+        {
+          "id": "kap-24-§-53",
+          "number": 53,
+          "text": "Bolagsverket får registrera ett övertagande bolag enligt 52 § endast om 1. verket har fått del av ett delningsintyg, 2. det överlåtande bolaget har gett in de uppgifter och handlingar som avses i 52 §, 3. bolagsordningen är förenlig med denna lag och andra författningar, 4. det aktiekapital som ska registreras för bolaget uppfyller kraven i 1 kap. 4 och 5 §§, och 5. det inte heller finns något hinder mot registrering. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får delningen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta den behöriga myndigheten i den stat där det överlåtande bolaget har sin hemvist om registreringen. Lag (2022:1647). Delningens rättsverkningar",
           "references": [
             "1 kap. 4 och 5 §§",
             "5 §§",
-            "52 §",
-            "53 §"
+            "52 §"
           ]
         },
         {
           "id": "kap-24-§-54",
           "number": 54,
-          "text": "Vid en gränsöverskridande delning uppkommer de rättsverkningar som avses i 28 § första stycket vid den tidpunkt som fastställts i den stat där det överlåtande bolaget har eller har haft sin hemvist. Vid delning av ett svenskt aktiebolag inträder rättsverkningarna vid registreringen enligt 51 § av delningen i aktiebolagsregistret. Utöver det som anges i 28 § gäller följande: 1. Aktieägare i det överlåtande bolaget som utnyttjar sin rätt enligt 55 § till inlösen blir inte aktieägare i övertagande bolag. 2. Det överlåtande bolagets rättigheter och skyldigheter som härrör från anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande delningen får verkan övergår till övertagande bolag. 3. Tillgångar och skulder som inte har fördelats i delningsplanen övergår till övertagande bolag i proportion till den andel av nettotillgångarna som tilldelats respektive bolag genom delningsplanen. Lag (2022:1647). Aktieägares rätt till inlösen 55 § En aktieägare i det överlåtande bolaget har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i delningsplanen, om 1. aktieägaren till följd av delningen skulle bli aktieägare i ett annat bolag som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige, och 2. aktieägaren vid bolagsstämman har röstat mot att godkänna delningsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av delningsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som enligt 34 § andra stycket 13 har angetts i delningsplanen. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Bolaget ska betala ut inlösenbeloppet inom två månader från den dag då delningen fick verkan enligt 54 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning",
+          "text": "Vid en gränsöverskridande delning uppkommer de rättsverkningar som avses i 28 § första stycket vid den tidpunkt som fastställts i den stat där det överlåtande bolaget har eller har haft sin hemvist. Vid delning av ett svenskt aktiebolag inträder rättsverkningarna vid registreringen enligt 51 § av delningen i aktiebolagsregistret. Utöver det som anges i 28 § gäller följande: 1. Aktieägare i det överlåtande bolaget som utnyttjar sin rätt enligt 55 § till inlösen blir inte aktieägare i övertagande bolag. 2. Det överlåtande bolagets rättigheter och skyldigheter som härrör från anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande delningen får verkan övergår till övertagande bolag. 3. Tillgångar och skulder som inte har fördelats i delningsplanen övergår till övertagande bolag i proportion till den andel av nettotillgångarna som tilldelats respektive bolag genom delningsplanen. Lag (2022:1647). Aktieägares rätt till inlösen",
           "references": [
             "28 §",
-            "34 §",
             "51 §",
-            "54 §",
             "55 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-55",
+          "number": 55,
+          "text": "En aktieägare i det överlåtande bolaget har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i delningsplanen, om 1. aktieägaren till följd av delningen skulle bli aktieägare i ett annat bolag som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige, och 2. aktieägaren vid bolagsstämman har röstat mot att godkänna delningsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av delningsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som enligt 34 § andra stycket 13 har angetts i delningsplanen. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Bolaget ska betala ut inlösenbeloppet inom två månader från den dag då delningen fick verkan enligt 54 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning",
+          "references": [
+            "34 §",
+            "54 §"
           ]
         },
         {
@@ -5468,15 +6896,21 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-59",
           "number": 59,
-          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en delningsplan som avser en gränsöverskridande delning får inte som omständigheter till grund för talan åberopa att det utbytesförhållande mellan aktier eller det inlösenbelopp som anges i delningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats i dessa avseenden inte uppfyller lagens krav. Lag (2022:1647). Särskilda bestämmelser vid delning genom separation 60 § Vid en gränsöverskridande delning genom separation ska följande bestämmelser i detta kapitel inte tillämpas: - 34 § andra stycket 2, 3, 6, 8, 12 och 13 om innehållet i delningsplanen, - 35-37 §§ om styrelsens redogörelse, och - 55-58 §§ om aktieägares rätt till inlösen och ytterligare ersättning. Dessutom får revisorernas granskning och yttranden begränsas till de omständigheter som anges i 13 § andra stycket. Lag (2022:1647). Ogiltighet",
+          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en delningsplan som avser en gränsöverskridande delning får inte som omständigheter till grund för talan åberopa att det utbytesförhållande mellan aktier eller det inlösenbelopp som anges i delningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats i dessa avseenden inte uppfyller lagens krav. Lag (2022:1647). Särskilda bestämmelser vid delning genom separation",
+          "references": [
+            "50 §",
+            "7 kap. 50 §"
+          ]
+        },
+        {
+          "id": "kap-24-§-60",
+          "number": 60,
+          "text": "Vid en gränsöverskridande delning genom separation ska följande bestämmelser i detta kapitel inte tillämpas: - 34 § andra stycket 2, 3, 6, 8, 12 och 13 om innehållet i delningsplanen, - 35-37 §§ om styrelsens redogörelse, och - 55-58 §§ om aktieägares rätt till inlösen och ytterligare ersättning. Dessutom får revisorernas granskning och yttranden begränsas till de omständigheter som anges i 13 § andra stycket. Lag (2022:1647). Ogiltighet",
           "references": [
             "13 §",
             "34 §",
             "35-37 §§",
-            "50 §",
-            "55-58 §§",
-            "60 §",
-            "7 kap. 50 §"
+            "55-58 §§"
           ]
         },
         {
@@ -5492,10 +6926,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-62",
           "number": 62,
-          "text": "Utöver det som anges i 18 och 42 §§ gäller följande. I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska delningsplanen med bifogade handlingar hållas tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst en månad eller, i ett fall som avses i 42 §, sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647). 24 a kap. Gränsöverskridande ombildning Vad en gränsöverskridande ombildning innebär",
+          "text": "Utöver det som anges i 18 och 42 §§ gäller följande. I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska delningsplanen med bifogade handlingar hållas tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst en månad eller, i ett fall som avses i 42 §, sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647). 24 a kap. Gränsöverskridande ombildning Vad en gränsöverskridande ombildning innebär 1 § Ett svenskt aktiebolag får ombildas till en motsvarande juridisk person som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige (gränsöverskridande ombildning). En gränsöverskridande ombildning sker genom att ett aktiebolag, utan att upplösas, överför sitt registrerade säte till en annan stat inom Europeiska ekonomiska samarbetsområdet och ombildas till ett bolag som omfattas av lagstiftningen i den staten. Lag (2022:1647). Begränsningar i rätten att genomföra en gränsöverskridande ombildning 2 § Ett aktiebolag får inte genomföra en gränsöverskridande ombildning, om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §, eller 4. är i likvidation på annan grund och skifte av bolagets tillgångar har påbörjats. Lag (2022:1647). Särskilda rättighetshavares ställning 3 § Innehavare av teckningsoptioner, konvertibler eller andra värdepapper med särskilda rättigheter i det bolag som ska ombildas ska ha minst motsvarande rättigheter i det ombildade bolaget. Detta gäller dock inte om innehavarna enligt ombildningsplanen har rätt att få sina värdepapper inlösta av bolaget. Lag (2022:1647). Ombildningsplan 4 § Styrelsen i det bolag som ska ombildas ska upprätta en plan för ombildningen. Planen ska undertecknas av styrelsen. Lag (2022:1647). 5 § En ombildningsplan ska innehålla uppgifter om 1. form, företagsnamn och säte för det bolag som ska ombildas, 2. form, företagsnamn och säte för bolaget efter ombildning, 3. den föreslagna tidsplanen för ombildningen, 4. vilka rättigheter i bolaget efter ombildning som ska tillkomma innehavare av särskilda rättigheter i aktiebolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för innehavarna, 5. arvode och andra särskilda förmåner som ska lämnas till en styrelseledamot eller verkställande direktör, 6. eventuella stimulansåtgärder som bolaget har varit föremål för eller subventioner som bolaget har mottagit under de senaste fem åren, 7. den rätt till inlösen som aktieägare har enligt 34 § och på vilket sätt den ska utövas, med uppgift om inlösenbelopp och om den elektroniska adress som inlösenanmälan ska skickas till, och 8. ombildningens sannolika följder för sysselsättningen. Ombildningsplanen ska också innehålla uppgifter om 1. de säkerheter som bolagets borgenärer erbjuds, i de fall de erbjuds sådana säkerheter, och 2. hur arbetstagarna deltar i den process som leder fram till beslut om formerna för arbetstagarnas medverkan i det ombildade bolaget, om en sådan process ska genomföras. Till ombildningsplanen ska, i förekommande fall, bifogas den handling som utgör stiftelseurkund för det ombildade bolaget samt bolagsordningen för det ombildade bolaget. Lag (2022:1647). Styrelsens redogörelse 6 § Styrelsen i det bolag som ska ombildas ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om ombildningen är lämplig för bolaget. I redogörelsen ska det ingå en beskrivning av ombildningens konsekvenser för bolagets framtida verksamhet och för dess borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 7 § och ett avsnitt med information för arbetstagarna enligt 8 §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 7 § andra stycket och 8 § andra stycket att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647). 7 § I avsnittet med information för aktieägarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för aktieägarna, 2. inlösenbeloppet vid inlösen enligt 34 § och den metod som har använts för att bestämma det, 3. hur en aktieägare ska göra för att utöva sin rätt till inlösen enligt 35 § och till ytterligare ersättning enligt 36 §. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647). 8 § I avsnittet med information för arbetstagarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning 9 § Ombildningsplanen och styrelsens redogörelse ska granskas av en eller flera revisorer. Granskningen ska vara så omfattande och ingående som god revisionssed kräver. Revisorn eller revisorerna ska upprätta ett yttrande över granskningen. Revisorsyttrandet ska bifogas ombildningsplanen. Det ska innehålla ett utlåtande om huruvida styrelsens redogörelse är komplett och uppfyller de krav som framgår av 6-8 §§. Revisorsyttrandet ska innehålla även ett utlåtande om huruvida det erbjudna inlösenbeloppet är lämpligt. Uppgifter ska också lämnas om 1. den eller de metoder som har använts för att fastställa inlösenbeloppet, 2. huruvida de använda metoderna är lämpliga för att fastställa inlösenbeloppet, och 3. särskilda svårigheter vid värderingen, om det har uppkommit några. Första och andra styckena behöver inte tillämpas om samtliga aktieägare i det bolag som ska ombildas har samtyckt till det. Lag (2022:1647). 10 § En revisor som avses i 9 § ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte något annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte utses, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt 9 § gäller 9 kap. 40, 45 och 46 §§. Lag (2022:1647). 11 § Styrelsen, den verkställande direktören och revisorn i det bolag som ska ombildas ska ge varje revisor som utför granskning enligt 9 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig och lämna de upplysningar och den hjälp som en sådan revisor begär. Samma skyldighet har en revisor som utför granskning enligt 9 § mot övriga sådana revisorer. Lag (2022:1647). Meddelande om att synpunkter får lämnas 12 § Till ombildningsplanen ska det bifogas ett meddelande med information till bolagets aktieägare, borgenärer och arbetstagarföreträdare eller, om sådana företrädare inte finns, arbetstagarna själva om att de får lämna synpunkter på planen till bolaget. I meddelandet ska det anges att synpunkterna får lämnas senast på den femte arbetsdagen före dagen för den bolagsstämma som ska ta ställning till ombildningsplanen. Lag (2022:1647). Registrering av ombildningsplanen 13 § Det bolag som ska ombildas ska ge in ombildningsplanen med bifogade handlingar till Bolagsverket för registrering i aktiebolagsregistret. En uppgift om registreringen ska kungöras enligt 27 kap. 3 §. Kungörelsen ska innehålla de uppgifter som avses i andra stycket 1-3. I kungörelsen ska det också lämnas uppgift om var planen hålls tillgänglig, om den inte kungörs i sin helhet. I anmälan om registrering ska det lämnas uppgifter om 1. form, företagsnamn och säte för bolaget, 2. det register där bolaget är registrerat och det nummer som används för identifiering i registret, 3. hur borgenärer och aktieägare ska göra för att utöva sina rättigheter samt de adresser där de kostnadsfritt kan få fullständig information om detta, och 4. bolagets adress. I 31 kap. 25 a § offentlighets- och sekretesslagen (2009:400) finns det bestämmelser om sekretess för uppgifter i ett yttrande som en revisor lämnar enligt 9 §. Lag (2022:1647). 14 § Om ombildningsplanen eller de handlingar som är bifogade planen är skrivna på något annat språk än svenska, ska den som lämnar in planen även ge in en översättning till svenska. Översättningen ska vara gjord av en översättare som är auktoriserad eller har motsvarande utländska behörighet. Bolagsverket får medge att någon översättning inte ges in. Lag (2022:1647). Tillhandahållande av ombildningsplanen 15 § Styrelsen ska hålla ombildningsplanen med bifogade handlingar och styrelsens redogörelse enligt 6 § tillgängliga för aktieägarna och för arbetstagarnas företrädare eller, om sådana företrädare inte finns, för arbetstagarna själva. Handlingarna ska hållas tillgängliga på bolagets webbplats eller med något annat likvärdigt elektroniskt hjälpmedel under minst sex veckor före den bolagsstämma där frågan om att godkänna ombildningsplanen ska behandlas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. I 39 § finns det ytterligare bestämmelser för publika aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2022:1647). 16 § De synpunkter som har lämnats med anledning av meddelandet enligt 12 § ska läggas fram på en sådan bolagsstämma som avses i 17 §. Lag (2022:1647). Bolagsstämmans prövning av ombildningsplanen 17 § Ombildningsplanen ska läggas fram för att godkännas av bolagsstämman. Stämman får hållas tidigast en månad efter det att en uppgift om att ombildningsplanen har registrerats har kungjorts enligt 27 kap. 3 §. Lag (2022:1647). Ändringar i bolagsordningen 18 § Vid den bolagsstämma som godkänner ombildningsplanen ska det också beslutas om det innehåll som bolagsordningen ska ha efter ombildningen. Lag (2022:1647). Villkorat beslut om godkännande av ombildningsplanen 19 § Bolagsstämman i det bolag som ska ombildas får villkora beslutet att godkänna ombildningsplanen med att en senare stämma godkänner de former som beslutas för arbetstagarnas medverkan i det ombildade bolaget. Lag (2022:1647). Majoritetskrav 20 § Ett bolagsstämmobeslut om godkännande av ombildningsplanen är giltigt endast om det har biträtts av aktieägare med minst två tredjedelar såväl av de avgivna rösterna som av de aktier som är företrädda vid stämman. Om det finns aktier av olika slag i bolaget tillämpas första stycket även inom varje aktieslag som är företrätt vid stämman. Lag (2022:1647). Underrättelse till bolagets kända borgenärer 21 § När ombildningsplanen har blivit gällande i bolaget ska bolaget skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna ska innehålla en uppgift om att bolaget avser att ansöka om tillstånd att verkställa ombildningsplanen och en uppgift om borgenärernas rätt att motsätta sig att planen verkställs. Någon underrättelse behöver inte skickas till borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Lag (2022:1647). Ansökan om tillstånd att verkställa ombildningsplanen 22 § Det bolag som ska ombildas ska ansöka om tillstånd att verkställa ombildningsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att ombildningsplanen har blivit gällande i bolaget och senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av ombildningsplanen med de handlingar som är bifogade till den, 2. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 3. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 12 §, 4. en kopia av protokollet från den bolagsstämma som avses i 17 §, 5. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig, och 6. intyg från bolagets styrelse eller verkställande direktör om att bolagets kända borgenärer har underrättats enligt 21 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647). 23 § Bolagsverket ska avslå en ansökan enligt 22 § om 1. ombildningsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller någon annan författning eller mot bolagsordningen, 2. det enligt 2 § finns hinder mot att bolaget genomför en gränsöverskridande ombildning, 3. ombildningen genomförs för otillbörliga eller bedrägliga ändamål som leder till att unionsrätten eller nationell rätt undgås eller kringgås eller som syftar till detta, eller för brottsliga ändamål, eller 4. ombildningen förutsätter ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, men något sådant förfarande inte har inletts. Lag (2022:1647). 24 § Om det vid handläggningen av en ansökan enligt 22 § uppkommer en fråga som kräver särskild fackkunskap, får Bolagsverket förordna en lämplig person som sakkunnig. Den sakkunniga ska vara oberoende av bolaget och får inte ha någon intressekonflikt med det. Den sakkunniga ska utföra sitt arbete opartiskt och objektivt. Sökanden ska ersätta Bolagsverket för dess kostnader för den sakkunniga. Bolagsverket ska fatta beslut om det belopp som sökanden ska betala. Av beslutet ska det framgå när beloppet ska betalas och vad kostnaderna avser. Om ett belopp som har beslutats inte betalas i rätt tid, ska fordran lämnas för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2022:1647). Kallelse på bolagets borgenärer 25 § Bolagsverket ska kalla bolagets borgenärer, om verket finner att det inte finns något hinder mot en ansökan enligt 22 §. Verket ska dock inte kalla borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla ett föreläggande för den som vill motsätta sig ansökan att senast en viss dag anmäla detta skriftligen. Denna dag får bestämmas till en dag som infaller tidigast tre månader efter registreringen av ombildningsplanen enligt 13 §. Föreläggandet ska innehålla en upplysning om att borgenären, om han eller hon inte motsätter sig ansökan, ska anses ha medgett den. Bolagsverket ska så snart som möjligt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2022:1647). När Bolagsverket ska lämna tillstånd att verkställa ombildningsplanen 26 § Om inte någon av de borgenärer som har kallats enligt 25 § motsätter sig ansökan inom utsatt tid, ska Bolagsverket ge bolaget tillstånd att verkställa ombildningsplanen. Motsätter sig någon borgenär ansökan, ska verket överlämna ärendet till tingsrätten på den ort där styrelsen i bolaget har sitt säte. Lag (2022:1647). När allmän domstol ska lämna tillstånd att verkställa ombildningsplanen 27 § Om Bolagsverket med stöd av 26 § har överlämnat ett ärende om tillstånd att verkställa en ombildningsplan till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att ombildningen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa ombildningsplanen. Lag (2022:1647). Utfärdande av ombildningsintyg 28 § När Bolagsverket har gett tillstånd att verkställa ombildningsplanen enligt 26 § eller när en domstol, genom ett beslut som har fått laga kraft, har gett tillstånd att verkställa ombildningsplanen enligt 27 §, ska Bolagsverket för bolaget utfärda ett intyg om att den del av förfarandet som regleras av svensk lag har genomförts på föreskrivet sätt (ombildningsintyg). Ett ombildningsintyg får dock inte utfärdas om det har väckts talan mot bolagsstämmans beslut att godkänna ombildningsplanen och målet inte har avgjorts slutligt. Ett ombildningsintyg ska utfärdas inom tre månader från dagen för ansökan om tillstånd att verkställa ombildningsplanen. Om det på grund av ärendets komplexitet eller annars finns särskilda skäl för en längre handläggningstid får tremånadersfristen överskridas. Om tremånadersfristen inte kan hållas, ska sökanden underrättas om skälen för detta. Ombildningsintyget ska tillhandahållas den behöriga myndigheten i den stat där bolaget efter ombildningen ska ha sitt registrerade säte. Lag (2022:1647). Registrering av en ombildning av ett svenskt aktiebolag 29 § Inför registreringen av ombildningen ska bolaget ge in en kopia av ombildningsplanen till den behöriga myndigheten i den stat där bolaget ska ha sitt säte. Handlingen ska ges in inom sex månader från den dag då ombildningsintyget utfärdades. Efter underrättelse från den behöriga utländska myndigheten om att ombildningen har ägt rum, ska Bolagsverket föra in uppgifter om ombildningen och om datum för registreringen i aktiebolagsregistret. Lag (2022:1647). Anmälan för registrering vid en ombildning av en utländsk juridisk person 30 § Om en utländsk juridisk person efter ombildning ska utgöra ett svenskt aktiebolag, ska styrelsen eller motsvarande förvaltnings- eller ledningsorgan i det bolag som ska ombildas anmäla ombildningen för registrering hos Bolagsverket inom sex månader från den dag då ombildningsintyget utfärdades. Anmälan ska innehålla uppgifter om vilka som har utsetts till styrelseledamöter och, i förekommande fall, revisorer och styrelsesuppleanter i det ombildade bolaget. Till anmälan ska följande handlingar bifogas: 1. en kopia av ombildningsplanen, 2. ett yttrande från en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag eller en motsvarande oberoende sakkunnig som har godkänts av en utländsk behörig myndighet i den stat där det bolag som ska ombildas har sin hemvist, av vilket det framgår att det finns täckning för det aktiekapital som ska registreras för det svenska aktiebolaget. Lag (2022:1647). Bolagsverkets kontroll och registrering vid en ombildning av en utländsk juridisk person 31 § Bolagsverket får registrera en ombildning enligt 30 § endast om 1. verket har fått del av ett ombildningsintyg, 2. det bolag som ska ombildas har gett in de uppgifter och handlingar som avses i 30 §, 3. bolagsordningen är förenlig med denna lag och andra författningar, 4. det aktiekapital som ska registreras för bolaget uppfyller kraven i 1 kap. 4 och 5 §§, och 5. det inte heller finns något hinder mot registrering. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får ombildningen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta den behöriga myndigheten i den stat där det bolag som ska ombildas har sin hemvist om registreringen. Lag (2022:1647). Ombildningens rättsverkningar 32 § Vid ombildningen uppkommer följande rättsverkningar. 1. Det ombildade bolaget får sitt registrerade säte i en annan medlemsstat och får en ändrad rättslig form enligt lagstiftningen i den staten. 2. Bolagets tillgångar och skulder övergår till att vara det ombildade bolagets tillgångar och skulder. 3. Aktieägare i bolaget fortsätter att vara aktieägare i det ombildade bolaget, om de inte utnyttjar sin rätt enligt 34 § till inlösen. 4. Bolagets rättigheter och skyldigheter som härrör från anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande ombildningen får verkan övergår till att vara det ombildade bolagets rättigheter och skyldigheter. Rättsverkningarna uppkommer vid den tidpunkt som har fastställts i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist. Om bolaget ska ha sin hemvist i Sverige, uppkommer rättsverkningarna vid den tidpunkt då ombildningen registreras enligt 31 § i aktiebolagsregistret. Lag (2022:1647). Frågan om ombildning faller 33 § Bolagsverket ska förklara att frågan om ombildning har fallit, om 1. ansökan enligt 22 § om tillstånd att verkställa ombildningsplanen inte har gjorts inom föreskriven tid eller ansökan har avslagits genom ett beslut som har fått laga kraft, 2. anmälan enligt 30 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har fått laga kraft har avskrivit ett ärende enligt 30 § om registrering eller har vägrat registrering enligt 31 §. Lag (2022:1647). Aktieägares rätt till inlösen 34 § En aktieägare i ett bolag som ska ombildas har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i ombildningsplanen, om aktieägaren vid bolagsstämman har röstat mot att godkänna ombildningsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av ombildningsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som har angetts i ombildningsplanen enligt 5 § första stycket 7. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Inlösenbeloppet ska betalas inom två månader från den dag då ombildningen fick verkan enligt 32 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning 35 § Om det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt och detta får till följd att en aktieägare som har utnyttjat sin rätt till inlösen enligt 34 § blir otillräckligt kompenserad, har denna aktieägare rätt till ytterligare ersättning. En aktieägare som vill ha ersättning enligt första stycket får väcka talan mot bolaget. En sådan talan ska väckas inom tre månader från dagen för bolagsstämmans beslut att godkänna ombildningsplanen. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. Lag (2022:1647). 36 § Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en ombildningsplan får inte som omständigheter till grund för talan åberopa att det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats om inlösenbeloppet inte uppfyller lagens krav. Lag (2022:1647). Borgenärers rätt att väcka talan i Sverige efter det att ombildningen fått verkan 37 § Den som har en fordran på ett svenskt aktiebolag som har ombildats enligt detta kapitel får väcka talan mot det ombildade bolaget vid rätten i den ort där styrelsen hade sitt säte före ombildningen, om fordran uppkom innan uppgiften om registrering av ombildningsplanen kungjordes enligt 13 § första stycket. Om talan inte väcks inom två år från den tidpunkt då ombildningen fick verkan i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist, är rätten att väcka talan med stöd av första stycket förlorad. Lag (2022:1647). Ogiltighet 38 § En talan om att ett bolagsstämmobeslut om att godkänna en ombildningsplan ska upphävas ska i de fall som avses i 7 kap. 51 § andra stycket väckas inom sex månader från beslutet. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. I fråga om ett beslut att godkänna en ombildningsplan gäller, utöver det som sägs i 7 kap. 51 § första stycket och i första stycket denna paragraf, att talan inte får väckas efter det att Bolagsverket, eller en domstol genom ett beslut som har fått laga kraft, har lämnat tillstånd enligt 26 eller 27 § att verkställa ombildningsplanen. Lag (2022:1647). Särskilda bestämmelser om tillhandahållande av ombildningsplanen i vissa publika aktiebolag 39 § Utöver det som anges i 15 § första stycket andra meningen gäller att ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska hålla ombildningsplanen med bifogade handlingar tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647).",
           "references": [
-            "42 §",
-            "42 §§"
+            "1 kap. 4 och 5 §§",
+            "1 §",
+            "10 §",
+            "11 §",
+            "12 §",
+            "13 §",
+            "14 §",
+            "15 §",
+            "16 §",
+            "17 §"
           ]
         }
       ]
@@ -5522,14 +6964,19 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-3",
           "number": 3,
-          "text": "Om bolagsstämman skall pröva en fråga om likvidation, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. I förslaget till beslut skall följande uppgifter anges: 1. skälen för att bolaget skall gå i likvidation och vilka alternativ till likvidation som finns, 2. från vilken dag beslutet om likvidation föreslås gälla, 3. den beräknade tidpunkten för skifte, 4. skifteslikvidens beräknade storlek, samt 5. i förekommande fall, vem som föreslås till likvidator. 4 § Om frågan om likvidation inte skall behandlas på årsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning som har inträffat efter det att årsredovisningen lämnades, samt 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor.",
-          "references": [
-            "3 §",
-            "4 §"
-          ]
+          "text": "Om bolagsstämman skall pröva en fråga om likvidation, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. I förslaget till beslut skall följande uppgifter anges: 1. skälen för att bolaget skall gå i likvidation och vilka alternativ till likvidation som finns, 2. från vilken dag beslutet om likvidation föreslås gälla, 3. den beräknade tidpunkten för skifte, 4. skifteslikvidens beräknade storlek, samt 5. i förekommande fall, vem som föreslås till likvidator.",
+          "references": []
         },
         {
           "id": "kap-25-§-4",
+          "number": 4,
+          "text": "Om frågan om likvidation inte skall behandlas på årsstämman, skall följande handlingar fogas till förslaget enligt 3 §: 1. en kopia av den årsredovisning som innehåller de senast fastställda balans- och resultaträkningarna, försedd med en anteckning om bolagsstämmans beslut om bolagets vinst eller förlust, 2. en kopia av revisionsberättelsen för det år årsredovisningen avser, 3. en redogörelse, undertecknad av styrelsen, för händelser av väsentlig betydelse för bolagets ställning som har inträffat efter det att årsredovisningen lämnades, samt 4. ett yttrande över den redogörelse som avses i 3, undertecknat av bolagets revisor.",
+          "references": [
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-4a",
           "number": 4,
           "text": "Om styrelsen i ett bolag som omfattas av lagen (2015:1016) om resolution tar emot eller upprättar ett förslag till stämmobeslut om likvidation enligt 3 eller 4 §, ska styrelsen underrätta Riksgäldskontoret och Finansinspektionen om förslaget. Om bolaget är försatt i resolution eller om Riksgäldskontoret inom sju dagar från det att myndigheten tog emot en sådan underrättelse meddelar styrelsen att bolaget ska försättas i resolution, får kallelse till en bolagsstämma där frågan om likvidation av bolaget ska prövas inte utfärdas. Lag (2018:1398). Kallelsens innehåll",
           "references": [
@@ -5539,13 +6986,25 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-5",
           "number": 5,
-          "text": "Kallelsen till bolagsstämman skall ange det huvudsakliga innehållet i förslaget till beslut om likvidation. Tillhandahållande av förslaget till beslut 6 § Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 52 § i stället för denna paragraf. Lag (2010:1516). Innehållet i bolagsstämmans beslut 7 § Bolagsstämmans beslut om likvidation skall innehålla de uppgifter som framgår av 3 § andra stycket 2 och, i förekommande fall, 5. Registrering",
+          "text": "Kallelsen till bolagsstämman skall ange det huvudsakliga innehållet i förslaget till beslut om likvidation. Tillhandahållande av förslaget till beslut",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-6",
+          "number": 6,
+          "text": "Styrelsen ska hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst två veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska läggas fram på stämman. I fråga om publika aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, gäller 52 § i stället för denna paragraf. Lag (2010:1516). Innehållet i bolagsstämmans beslut",
           "references": [
             "3 §",
             "4 §",
-            "52 §",
-            "6 §",
-            "7 §"
+            "52 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-7",
+          "number": 7,
+          "text": "Bolagsstämmans beslut om likvidation skall innehålla de uppgifter som framgår av 3 § andra stycket 2 och, i förekommande fall, 5. Registrering",
+          "references": [
+            "3 §"
           ]
         },
         {
@@ -5572,12 +7031,47 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-25-§-10a",
+          "number": 10,
+          "text": "Om ett ärende eller mål enligt 11, 12, 17 eller 21 § avser ett bolag som omfattas av lagen (2015:1016) om resolution, ska Bolagsverket eller domstolen underrätta Riksgäldskontoret och Finansinspektionen om att ärendet eller målet har inletts. Bolagsverket eller domstolen får inte besluta om likvidation, om Riksgäldskontoret inom sju dagar från det att myndigheten tog emot en sådan underrättelse har meddelat att bolaget är försatt eller ska försättas i resolution. Lag (2018:1398). Tvångslikvidation på grund av Bolagsverkets beslut",
+          "references": [
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-11",
+          "number": 11,
+          "text": "Bolagsverket ska besluta att bolaget ska gå i likvidation, om 1. bolaget inte på föreskrivet sätt har kommit in med anmälan till Bolagsverket om sådan behörig styrelse, verkställande direktör, särskild delgivningsmottagare eller revisor som ska finnas enligt denna lag, 2. bolaget inte till Bolagsverket har kommit in med årsredovisning, revisionsberättelse och granskningsberättelse enligt 8 kap. 3 § första stycket årsredovisningslagen (1995:1554) eller, i förekommande fall, koncernredovisning, koncernrevisionsberättelse och granskningsberättelse för koncernen enligt 8 kap. 16 § samma lag inom elva månader från räkenskapsårets utgång, 3. bolaget efter beslut om att aktiekapitalet ska vara bestämt i kronor i stället för i euro har ett registrerat aktiekapital eller minimikapital som inte står i överensstämmelse med 1 kap. 5 § eller, i fråga om publika aktiebolag, 14 § och bolaget inte inom sex månader från det att beslutet fick verkan har anmält nödvändiga beslut om ändring i bolagsordningen och om ökning av aktiekapitalet för registrering, eller 4. bolaget på grund av bestämmelserna i 19 kap. 6 eller 16 § är skyldigt att minska aktiekapitalet till ett belopp som understiger lägsta tillåtna aktiekapital enligt 1 kap. 5 § eller, i fråga om publika aktiebolag, 14 §. Beslut om likvidation ska dock inte meddelas, om likvidationsgrunden har upphört under ärendets handläggning hos Bolagsverket och avgift som har påförts enligt 26 § har betalats. En fråga om likvidation enligt första stycket prövas av Bolagsverket självmant eller på ansökan av styrelsen, en styrelseledamot, den verkställande direktören, en aktieägare, en borgenär eller, i sådana fall som avses i första stycket 1, någon annan vars rätt är beroende av att det finns någon som kan företräda bolaget. Beslutet om likvidation gäller omedelbart. Lag (2024:350). Tvångslikvidation på grund av bestämmelse i bolagsordningen",
+          "references": [
+            "1 kap. 5 §",
+            "14 §",
+            "16 §",
+            "26 §",
+            "3 §",
+            "5 §",
+            "8 kap. 16 §",
+            "8 kap. 3 §"
+          ]
+        },
+        {
           "id": "kap-25-§-12",
           "number": 12,
-          "text": "Allmän domstol skall besluta att bolaget skall gå i likvidation, om bolaget enligt bolagsordningen är skyldigt att gå i likvidation. En fråga om likvidation enligt första stycket tas upp av tingsrätten på anmälan av Bolagsverket eller på ansökan av styrelsen, en styrelseledamot, den verkställande direktören eller en aktieägare. Beslutet om likvidation gäller omedelbart. Tvångslikvidation på grund av kapitalbrist, m.m. Skyldighet att upprätta kontrollbalansräkning 13 § Styrelsen skall genast upprätta och låta bolagets revisor granska en kontrollbalansräkning 1. när det finns skäl att anta att bolagets eget kapital, beräknat enligt 14 §, understiger hälften av det registrerade aktiekapitalet, eller 2. när det vid verkställighet enligt 4 kap. utsökningsbalken har visat sig att bolaget saknar tillgångar till full betalning av utmätningsfordringen. Lag (2007:317). Kontrollbalansräkningens innehåll 14 § En kontrollbalansräkning skall upprättas enligt tillämplig lag om årsredovisning. Vid beräkningen av det egna kapitalets storlek får följande justeringar göras. 1. Tillgångar får tas upp till ett högre värde och avsättningar och skulder tas upp till ett lägre värde än i den ordinarie redovisningen, om de värderingsprinciper som används vid upprättande av kontrollbalansräkningen är förenliga med god redovisningssed. Pensionsåtaganden som enligt 8 a § lagen (1967:531) om tryggande av pensionsutfästelse m.m. har redovisats under en delpost under rubriken Avsättningar för pensioner och liknande förpliktelser får dock inte tas upp till lägre belopp än vad som är tillåtet enligt 7 § samma lag. 2. Tillgångar får redovisas till nettoförsäljningsvärdet. 3. Skulder på grund av statligt stöd för vilket återbetalningsskyldigheten är beroende av bolagets ekonomiska ställning behöver inte redovisas, om stödet, i händelse av konkurs eller likvidation, skall betalas tillbaka först sedan övriga skulder har betalats. Obeskattade reserver skall delas upp på eget kapital och uppskjuten skatteskuld. Justeringar enligt första och andra styckena skall redovisas särskilt. Kontrollbalansräkningen skall undertecknas av styrelsen. Första kontrollstämman",
+          "text": "Allmän domstol skall besluta att bolaget skall gå i likvidation, om bolaget enligt bolagsordningen är skyldigt att gå i likvidation. En fråga om likvidation enligt första stycket tas upp av tingsrätten på anmälan av Bolagsverket eller på ansökan av styrelsen, en styrelseledamot, den verkställande direktören eller en aktieägare. Beslutet om likvidation gäller omedelbart. Tvångslikvidation på grund av kapitalbrist, m.m. Skyldighet att upprätta kontrollbalansräkning",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-13",
+          "number": 13,
+          "text": "Styrelsen skall genast upprätta och låta bolagets revisor granska en kontrollbalansräkning 1. när det finns skäl att anta att bolagets eget kapital, beräknat enligt 14 §, understiger hälften av det registrerade aktiekapitalet, eller 2. när det vid verkställighet enligt 4 kap. utsökningsbalken har visat sig att bolaget saknar tillgångar till full betalning av utmätningsfordringen. Lag (2007:317). Kontrollbalansräkningens innehåll",
           "references": [
-            "13 §",
-            "14 §",
+            "14 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-14",
+          "number": 14,
+          "text": "En kontrollbalansräkning skall upprättas enligt tillämplig lag om årsredovisning. Vid beräkningen av det egna kapitalets storlek får följande justeringar göras. 1. Tillgångar får tas upp till ett högre värde och avsättningar och skulder tas upp till ett lägre värde än i den ordinarie redovisningen, om de värderingsprinciper som används vid upprättande av kontrollbalansräkningen är förenliga med god redovisningssed. Pensionsåtaganden som enligt 8 a § lagen (1967:531) om tryggande av pensionsutfästelse m.m. har redovisats under en delpost under rubriken Avsättningar för pensioner och liknande förpliktelser får dock inte tas upp till lägre belopp än vad som är tillåtet enligt 7 § samma lag. 2. Tillgångar får redovisas till nettoförsäljningsvärdet. 3. Skulder på grund av statligt stöd för vilket återbetalningsskyldigheten är beroende av bolagets ekonomiska ställning behöver inte redovisas, om stödet, i händelse av konkurs eller likvidation, skall betalas tillbaka först sedan övriga skulder har betalats. Obeskattade reserver skall delas upp på eget kapital och uppskjuten skatteskuld. Justeringar enligt första och andra styckena skall redovisas särskilt. Kontrollbalansräkningen skall undertecknas av styrelsen. Första kontrollstämman",
+          "references": [
             "7 §"
           ]
         },
@@ -5592,31 +7086,53 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-16",
           "number": 16,
-          "text": "Om den kontrollbalansräkning som har lagts fram vid den första kontrollstämman inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget ska gå i likvidation, ska bolagsstämman inom åtta månader från den första kontrollstämman på nytt pröva frågan om bolaget ska gå i likvidation (andra kontrollstämman). Om ett bolag genomgår företagsrekonstruktion under den tid som fristen om åtta månader löper behöver dock en andra kontrollstämma inte hållas tidigare än två månader efter det att rekonstruktionen upphört. I fråga om beslutsunderlag och kallelse ska bestämmelserna i 3-6 §§ tillämpas. Styrelsen ska inför den andra kontrollstämman upprätta en ny kontrollbalansräkning enligt 14 § och låta bolagets revisor granska den. Den nya kontrollbalansräkningen och ett yttrande av bolagets revisor över denna ska läggas fram på stämman. Lag (2022:990). Beslut om tvångslikvidation 17 § Allmän domstol skall besluta att bolaget skall gå i likvidation, om 1. någon andra kontrollstämma inte hålls inom den tid som anges i 16 § första stycket, eller 2. den kontrollbalansräkning som har lagts fram vid den andra kontrollstämman inte har granskats av bolagets revisor eller inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget skall gå i likvidation. I sådana fall som avses i första stycket skall styrelsen ansöka hos tingsrätten om beslut om likvidation. Ansökan skall göras inom två veckor från den andra kontrollstämman eller, om en sådan inte har hållits, från den tid punkt då den senast skulle ha hållits. Frågan om likvidation kan även prövas på ansökan av en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till minst det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på en bolagsstämma. Beslutet om likvidation gäller omedelbart. Personligt betalningsansvar för bolagets företrädare 18 § Om styrelsen har underlåtit att 1. i enlighet med 13 § upprätta och låta bolagets revisor granska en kontrollbalansräkning enligt 14 §, 2. i enlighet med 15 § sammankalla en första kontrollstämma, eller 3. i enlighet med 17 § ansöka hos tingsrätten om att bolaget skall gå i likvidation, svarar styrelsens ledamöter solidariskt för de förpliktelser som uppkommer för bolaget under den tid som underlåtenheten består. Den som med vetskap om styrelsens underlåtenhet handlar på bolagets vägnar svarar solidariskt med styrelsens ledamöter för de förpliktelser som därigenom uppkommer för bolaget. Ansvaret enligt första och andra styckena gäller inte för den som visar att han eller hon inte har varit försumlig. I sådana fall som avses i 13 § 1 gäller ansvaret enligt första stycket 1 endast om bolagets eget kapital, beräknat enligt 14 §, understeg hälften av bolagets registrerade aktiekapital vid den tidpunkt då styrelsens skyldighet att upprätta kontrollbalansräkning uppkom. Ansvaret gäller inte om bolagets eget kapital hade stigit över denna gräns efter den angivna tidpunkten men innan kontrollbalansräkningen senast skulle vara upprättad. Personligt betalningsansvar för aktieägare",
+          "text": "Om den kontrollbalansräkning som har lagts fram vid den första kontrollstämman inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget ska gå i likvidation, ska bolagsstämman inom åtta månader från den första kontrollstämman på nytt pröva frågan om bolaget ska gå i likvidation (andra kontrollstämman). Om ett bolag genomgår företagsrekonstruktion under den tid som fristen om åtta månader löper behöver dock en andra kontrollstämma inte hållas tidigare än två månader efter det att rekonstruktionen upphört. I fråga om beslutsunderlag och kallelse ska bestämmelserna i 3-6 §§ tillämpas. Styrelsen ska inför den andra kontrollstämman upprätta en ny kontrollbalansräkning enligt 14 § och låta bolagets revisor granska den. Den nya kontrollbalansräkningen och ett yttrande av bolagets revisor över denna ska läggas fram på stämman. Lag (2022:990). Beslut om tvångslikvidation",
+          "references": [
+            "14 §",
+            "3-6 §§"
+          ]
+        },
+        {
+          "id": "kap-25-§-17",
+          "number": 17,
+          "text": "Allmän domstol skall besluta att bolaget skall gå i likvidation, om 1. någon andra kontrollstämma inte hålls inom den tid som anges i 16 § första stycket, eller 2. den kontrollbalansräkning som har lagts fram vid den andra kontrollstämman inte har granskats av bolagets revisor eller inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget skall gå i likvidation. I sådana fall som avses i första stycket skall styrelsen ansöka hos tingsrätten om beslut om likvidation. Ansökan skall göras inom två veckor från den andra kontrollstämman eller, om en sådan inte har hållits, från den tid punkt då den senast skulle ha hållits. Frågan om likvidation kan även prövas på ansökan av en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till minst det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på en bolagsstämma. Beslutet om likvidation gäller omedelbart. Personligt betalningsansvar för bolagets företrädare",
+          "references": [
+            "14 §",
+            "16 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-18",
+          "number": 18,
+          "text": "Om styrelsen har underlåtit att 1. i enlighet med 13 § upprätta och låta bolagets revisor granska en kontrollbalansräkning enligt 14 §, 2. i enlighet med 15 § sammankalla en första kontrollstämma, eller 3. i enlighet med 17 § ansöka hos tingsrätten om att bolaget skall gå i likvidation, svarar styrelsens ledamöter solidariskt för de förpliktelser som uppkommer för bolaget under den tid som underlåtenheten består. Den som med vetskap om styrelsens underlåtenhet handlar på bolagets vägnar svarar solidariskt med styrelsens ledamöter för de förpliktelser som därigenom uppkommer för bolaget. Ansvaret enligt första och andra styckena gäller inte för den som visar att han eller hon inte har varit försumlig. I sådana fall som avses i 13 § 1 gäller ansvaret enligt första stycket 1 endast om bolagets eget kapital, beräknat enligt 14 §, understeg hälften av bolagets registrerade aktiekapital vid den tidpunkt då styrelsens skyldighet att upprätta kontrollbalansräkning uppkom. Ansvaret gäller inte om bolagets eget kapital hade stigit över denna gräns efter den angivna tidpunkten men innan kontrollbalansräkningen senast skulle vara upprättad. Personligt betalningsansvar för aktieägare",
           "references": [
             "13 §",
             "14 §",
             "15 §",
-            "16 §",
-            "17 §",
-            "18 §",
-            "3-6 §§"
+            "17 §"
           ]
         },
         {
           "id": "kap-25-§-19",
           "number": 19,
-          "text": "En aktieägare som med vetskap om att bolaget är skyldigt att gå i likvidation enligt 17 § första stycket deltar i ett beslut att fortsätta bolagets verksamhet ansvarar solidariskt med dem som svarar enligt 18 § för de förpliktelser som uppkommer för bolaget efter den tidpunkt som anges i 17 § andra stycket. Ansvarsperiodens slut 20 § Ansvaret enligt 18 och 19 §§ omfattar inte förpliktelser som uppkommer sedan 1. en ansökan enligt 17 § andra stycket har gjorts, 2. en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på bolagsstämma, eller 3. bolagsstämman, Bolagsverket eller domstol har beslutat om likvidation. Upphörande av det personliga betalningsansvaret",
+          "text": "En aktieägare som med vetskap om att bolaget är skyldigt att gå i likvidation enligt 17 § första stycket deltar i ett beslut att fortsätta bolagets verksamhet ansvarar solidariskt med dem som svarar enligt 18 § för de förpliktelser som uppkommer för bolaget efter den tidpunkt som anges i 17 § andra stycket. Ansvarsperiodens slut",
           "references": [
-            "14 §",
             "17 §",
-            "18 §",
-            "19 §§",
-            "20 §"
+            "18 §"
           ]
         },
         {
           "id": "kap-25-§-20",
+          "number": 20,
+          "text": "Ansvaret enligt 18 och 19 §§ omfattar inte förpliktelser som uppkommer sedan 1. en ansökan enligt 17 § andra stycket har gjorts, 2. en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på bolagsstämma, eller 3. bolagsstämman, Bolagsverket eller domstol har beslutat om likvidation. Upphörande av det personliga betalningsansvaret",
+          "references": [
+            "14 §",
+            "17 §",
+            "19 §§"
+          ]
+        },
+        {
+          "id": "kap-25-§-20a",
           "number": 20,
           "text": "Ansvaret enligt 18 och 19 §§ upphör, om inte en talan om sådant ansvar väcks inom tre år från uppkomsten av den förpliktelse som ansvaret avser eller inom ett år från det att förpliktelsen senast skulle ha fullgjorts. Första stycket gäller inte det regressansvar som kan uppkomma genom att någon som är betalningsansvarig fullgör mer än sin andel av en förpliktelse som flera är betalningsansvariga för. Preskriptionslagen (1981:130) gäller inte för ansvaret enligt 18 och 19 §§, utom i det fall som avses i andra stycket. Lag (2013:143). Tvångslikvidation och inlösen på grund av majoritetsmissbruk Likvidation",
           "references": [
@@ -5632,11 +7148,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-22",
           "number": 22,
-          "text": "I det fall som avses i 21 § kan domstolen på yrkande av bolaget i stället för att besluta om likvidation ålägga bolaget att inom viss tid lösa in kärandens aktier. Om bolaget inte löser in aktierna inom den tid som domstolen har fastställt, skall domstolen på talan av den vars aktier skulle ha lösts in besluta att bolaget skall gå i likvidation. När domstolen prövar bolagets yrkande skall den ta särskild hänsyn till de anställdas och borgenärernas intressen. Inlösen får inte ske om bolagets eget kapital, beräknat enligt 14 §, efter inlösen skulle understiga hälften av det registrerade aktiekapitalet. Syssloman 23 § Om talan har väckts enligt 21 § och det finns en påtaglig risk att fortsatt missbruk väsentligt skadar kärandens rätt, får domstolen utse en eller flera sysslomän att i styrelsens och den verkställande direktörens ställe förvalta bolaget till dess att domstolens beslut i frågan om likvidation har vunnit laga kraft. Beslutet att utse en syssloman gäller omedelbart. Beslutet skall registreras i aktiebolagsregistret. Ett beslut i en fråga om utseende av syssloman får överklagas särskilt. En domstol som skall pröva ett överklagande får besluta att det överklagade beslutet tills vidare inte skall gälla. Lag (2007:317). Handläggningen av frågor om likvidation Handläggning hos Bolagsverket",
+          "text": "I det fall som avses i 21 § kan domstolen på yrkande av bolaget i stället för att besluta om likvidation ålägga bolaget att inom viss tid lösa in kärandens aktier. Om bolaget inte löser in aktierna inom den tid som domstolen har fastställt, skall domstolen på talan av den vars aktier skulle ha lösts in besluta att bolaget skall gå i likvidation. När domstolen prövar bolagets yrkande skall den ta särskild hänsyn till de anställdas och borgenärernas intressen. Inlösen får inte ske om bolagets eget kapital, beräknat enligt 14 §, efter inlösen skulle understiga hälften av det registrerade aktiekapitalet. Syssloman",
           "references": [
             "14 §",
-            "21 §",
-            "23 §"
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-23",
+          "number": 23,
+          "text": "Om talan har väckts enligt 21 § och det finns en påtaglig risk att fortsatt missbruk väsentligt skadar kärandens rätt, får domstolen utse en eller flera sysslomän att i styrelsens och den verkställande direktörens ställe förvalta bolaget till dess att domstolens beslut i frågan om likvidation har vunnit laga kraft. Beslutet att utse en syssloman gäller omedelbart. Beslutet skall registreras i aktiebolagsregistret. Ett beslut i en fråga om utseende av syssloman får överklagas särskilt. En domstol som skall pröva ett överklagande får besluta att det överklagade beslutet tills vidare inte skall gälla. Lag (2007:317). Handläggningen av frågor om likvidation Handläggning hos Bolagsverket",
+          "references": [
+            "21 §"
           ]
         },
         {
@@ -5690,12 +7213,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-30",
           "number": 30,
-          "text": "En likvidator träder i styrelsens och den verkställande direktörens ställe och har i uppdrag att genomföra likvidationen. Bestämmelserna om styrelse och styrelseledamöter i denna lag, med undantag för 8 kap. 9 §, och i tillämplig lag om årsredovisning gäller även i fråga om likvidatorn, om inte annat följer av detta kapitel. Om bolagsstämman har beslutat att bolaget ska gå i likvidation, företräds bolaget av styrelsen och, i förekommande fall, den verkställande direktören till dess att en likvidator har utsetts. Lag (2014:539). Revision och annan granskning under likvidationen 31 § Uppdrag att vara revisor, lekmannarevisor eller särskild granskare upphör inte genom att bolaget går i likvidation. Bestämmelserna i 9 och 10 kap. skall tillämpas under likvidationen. Revisorn skall i revisionsberättelsen uttala sig om huruvida likvidationen fördröjs i onödan. Bolagsstämmans ställning under likvidationen",
+          "text": "En likvidator träder i styrelsens och den verkställande direktörens ställe och har i uppdrag att genomföra likvidationen. Bestämmelserna om styrelse och styrelseledamöter i denna lag, med undantag för 8 kap. 9 §, och i tillämplig lag om årsredovisning gäller även i fråga om likvidatorn, om inte annat följer av detta kapitel. Om bolagsstämman har beslutat att bolaget ska gå i likvidation, företräds bolaget av styrelsen och, i förekommande fall, den verkställande direktören till dess att en likvidator har utsetts. Lag (2014:539). Revision och annan granskning under likvidationen",
           "references": [
-            "31 §",
             "8 kap. 9 §",
             "9 §"
           ]
+        },
+        {
+          "id": "kap-25-§-31",
+          "number": 31,
+          "text": "Uppdrag att vara revisor, lekmannarevisor eller särskild granskare upphör inte genom att bolaget går i likvidation. Bestämmelserna i 9 och 10 kap. skall tillämpas under likvidationen. Revisorn skall i revisionsberättelsen uttala sig om huruvida likvidationen fördröjs i onödan. Bolagsstämmans ställning under likvidationen",
+          "references": []
         },
         {
           "id": "kap-25-§-32",
@@ -5747,6 +7275,134 @@ export const aktiebolagslag: LegalText = {
             "6 kap. 2 §",
             "6 kap. 3 §"
           ]
+        },
+        {
+          "id": "kap-25-§-38",
+          "number": 38,
+          "text": "När den anmälningstid som har satts ut i kallelsen på okända borgenärer har löpt ut och alla kända skulder har betalats, skall likvidatorn skifta bolagets återstående tillgångar. Om det råder tvist om en skuld eller om en skuld inte har förfallit till betalning eller av annan orsak inte kan betalas, skall pengar sättas av till betalning av skulden och återstoden skiftas. Talan mot skifte",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-39",
+          "number": 39,
+          "text": "En aktieägare som är missnöjd med skiftet får väcka talan mot bolaget senast tre månader efter det att slutredovisning enligt 40 § lades fram på bolagsstämma. Om skiftet ändras till följd av en talan enligt första stycket, skall den som har uppburit för mycket återbära överskjutande del. På värdet av den egendom som skall återbäras skall mottagaren betala ränta enligt 5 § räntelagen (1975:635) från det att egendomen lämnades ut till dess att ränta skall betalas enligt 6 § räntelagen till följd av 3 eller 4 § samma lag. Om det uppkommer brist vid återbäringen, är de personer som har medverkat till skiftet ansvariga för denna enligt bestämmelserna i 17 kap. 7 §. Slutredovisning",
+          "references": [
+            "17 kap. 7 §",
+            "4 §",
+            "40 §",
+            "5 §",
+            "6 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-40",
+          "number": 40,
+          "text": "När uppdraget som likvidator har fullgjorts, skall likvidatorn så snart som möjligt lämna slutredovisning för förvaltningen genom en förvaltningsberättelse som avser likvidationen i dess helhet. Berättelsen skall även innehålla en redogörelse för skiftet. Tillsammans med berättelsen skall lämnas redovisningshandlingar för hela likvidationstiden. Berättelsen och redovisningshandlingarna skall lämnas till bolagets revisor. Revisorn skall inom en månad därefter lämna en revisionsberättelse över slutredovisningen och förvaltningen under likvidationen. När revisionsberättelsen har lämnats till likvidatorn, skall han eller hon genast kalla aktieägarna till en bolagsstämma för granskning av slutredovisningen. Förvaltningsberättelsen med bifogade redovisningshandlingar och revisionsberättelsen skall under minst två veckor före bolagsstämman hållas tillgängliga hos bolaget för aktieägarna. Kopior av handlingarna skall genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna skall läggas fram på stämman. Bolagsstämman skall fatta beslut angående ansvarsfrihet för likvidatorn. I fråga om beslutet gäller bestämmelserna i 7 kap. 14 § andra stycket. Lag (2007:317). Bolagets upplösning",
+          "references": [
+            "14 §",
+            "7 kap. 14 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-41",
+          "number": 41,
+          "text": "När likvidatorn har lagt fram slutredovisningen, är bolaget upplöst. Likvidatorn skall genast anmäla detta för registrering i aktiebolagsregistret. Kopior av de handlingar som anges i 40 § tredje stycket skall bifogas anmälan. Preskription av rätt till andel i tillgångarna",
+          "references": [
+            "40 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-42",
+          "number": 42,
+          "text": "En aktieägare som inte inom fem år efter det att slutredovisningen lades fram på bolagsstämma anmäler sig för att lyfta vad han eller hon har fått vid skiftet förlorar sin rätt till andel i de skiftade tillgångarna. Med tillämpning av 44 § ska kvarvarande tillgångar då skiftas mellan bolagets övriga aktieägare. Om tillgångarna är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgångarna i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Skadeståndstalan",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-43",
+          "number": 43,
+          "text": "Trots bestämmelserna i 41 § kan ägare till en tiondel av samtliga aktier hos likvidatorn begära bolagsstämma för behandling av en fråga om talan om skadestånd till bolaget enligt 29 kap. 1-3 §§. I så fall skall bestämmelsen i 7 kap. 17 § andra stycket tillämpas. Fortsatt likvidation",
+          "references": [
+            "1-3 §§",
+            "17 §",
+            "41 §",
+            "7 kap. 17 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-44",
+          "number": 44,
+          "text": "Om en tillgång framkommer för bolaget efter dess upplösning enligt 41 § eller om talan väcks mot bolaget eller det av annat skäl uppkommer behov av en likvidationsåtgärd, ska likvidationen fortsätta. Likvidatorn ska genast anmäla den fortsatta likvidationen för registrering i aktiebolagsregistret. Kallelse till den första bolagsstämman efter återupptagandet ska ske enligt bolagsordningen. Dessutom ska skriftlig kallelse sändas till varje aktieägare vars postadress är införd i aktieboken eller på annat sätt känd för bolaget. Om den tillgång som avses i första stycket är av obetydligt värde, kan Bolagsverket på anmälan av likvidatorn besluta att tillgången i stället ska tillfalla Allmänna arvsfonden. Lag (2011:899). Upphörande av likvidation",
+          "references": [
+            "41 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-45",
+          "number": 45,
+          "text": "Om bolaget har gått i likvidation på grund av bolagsstämmans beslut eller, i de fall som avses i 17 § och 51 § första stycket, på grund av domstols beslut, kan stämman sedan bolagets revisor har yttrat sig besluta att likvidationen skall upphöra och bolagets verksamhet återupptas. Ett sådant beslut får dock inte fattas, om 1. det finns grund för tvångslikvidation enligt 11 eller 12 §, 2. bolagets eget kapital, beräknat enligt 14 §, enligt revisorns yttrande inte uppgår till det registrerade aktiekapitalet, eller 3. utskiftning har ägt rum. När bolagsstämman beslutar att likvidationen skall upphöra, skall den samtidigt välja styrelse. Likvidatorn skall se till att beslutet om att likvidationen skall upphöra och valet av styrelse genast anmäls för registrering i aktiebolagsregistret. Beslutet får inte verkställas förrän det har registrerats.",
+          "references": [
+            "12 §",
+            "14 §",
+            "17 §",
+            "51 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-46",
+          "number": 46,
+          "text": "Om ett likvidationsbeslut som har gått i verkställighet har blivit upphävt genom en domstols dom eller beslut som har vunnit laga kraft, skall likvidatorn genast anmäla detta för registrering i aktiebolagsregistret samt, om det upphävda likvidationsbeslutet är sådant som avses i 11, 12, 17 eller 21 §, kalla till bolagsstämma för val av styrelse. Lag (2005:812).",
+          "references": [
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-47",
+          "number": 47,
+          "text": "När en likvidation har upphört enligt 45 eller 46 §, skall 40 § tillämpas. Kopior av de handlingar som anges i 40 § tredje stycket skall ges in till Bolagsverket. Konkurs Registrering",
+          "references": [
+            "40 §",
+            "46 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-48",
+          "number": 48,
+          "text": "Beslut om konkurs och beslut om företagsrekonstruktion skall registreras i aktiebolagsregistret. Företrädare för bolaget i dess egenskap av konkursgäldenär",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-49",
+          "number": 49,
+          "text": "Under konkursen företräds bolaget som konkursgäldenär av den styrelse och verkställande direktör eller de likvidatorer som fanns vid konkursens början. Bestämmelserna i denna lag om rätt att avgå, om entledigande och om nytillsättning gäller dock även under konkursen. Bolagets upplösning efter konkurs",
+          "references": []
+        },
+        {
+          "id": "kap-25-§-50",
+          "number": 50,
+          "text": "Om bolaget är försatt i konkurs och denna avslutas utan överskott, är bolaget upplöst när konkursen avslutas. Finns det efter konkursens avslutande tillgångar som inte omfattas av konkursen eller väcks talan mot bolaget eller uppkommer det av annat skäl behov av en likvidationsåtgärd, ska allmän domstol på ansökan av den som berörs besluta om likvidation. Ett sådant beslut gäller omedelbart. Kallelse till den första bolagsstämman efter beslutet ska ske enligt 44 § andra stycket. I artikel 48.2 i Europaparlamentets och rådets förordning (EU) 2015/848 av den 20 maj 2015 om insolvensförfaranden finns en särskild bestämmelse om när en juridisk person eller ett företag ska anses upplöst. Lag (2017:484). Likvidation efter överskottskonkurs m.m.",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-51",
+          "number": 51,
+          "text": "Om en konkurs avslutas med överskott eller läggs ner efter en frivillig uppgörelse, eller om egendomen i konkursboet återställs till bolaget till följd av att ett ackord har fastställts, ska allmän domstol i anslutning till att konkursen har avslutats besluta att bolaget ska gå i likvidation. Ett sådant beslut gäller omedelbart. Om bolaget var i likvidation när det försattes i konkurs ska likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket. Lag (2025:804). Särskilda bestämmelser om tillhandahållande av förslag till beslut m.m. i vissa publika aktiebolag",
+          "references": [
+            "44 §"
+          ]
+        },
+        {
+          "id": "kap-25-§-52",
+          "number": 52,
+          "text": "I ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska styrelsen hålla förslaget enligt 3 §, i förekommande fall tillsammans med de handlingar som anges i 4 §, tillgängligt för aktieägarna under minst tre veckor närmast före den bolagsstämma där frågan om likvidation ska prövas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. Handlingarna ska hållas tillgängliga på bolagets webbplats under minst tre veckor närmast före stämman och dagen för stämman. De ska vidare läggas fram på stämman. Lag (2010:1516).",
+          "references": [
+            "3 §",
+            "4 §"
+          ]
         }
       ]
     },
@@ -5758,11 +7414,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-26-§-1",
           "number": 1,
-          "text": "Ett beslut om att ett privat aktiebolag skall bli publikt fattas av bolagsstämman enligt bestämmelserna i 7 kap. om ändring av bolagsordningen. 2 § Om den bolagsstämma som skall besluta om byte enligt 1 § hålls senare än sex månader efter utgången av det senaste räkenskapsår för vilket årsredovisning och revisionsberättelse har lämnats, skall det på bolagsstämman läggas fram en redogörelse med sådant innehåll som anges i 23 kap. 10 § andra och tredje styckena. Uppgifterna i redogörelsen skall avse tiden från utgången av nämnda räkenskapsår till en dag som infaller tidigast tre månader före dagen för bolagsstämman. Lag (2007:373).",
+          "text": "Ett beslut om att ett privat aktiebolag skall bli publikt fattas av bolagsstämman enligt bestämmelserna i 7 kap. om ändring av bolagsordningen.",
+          "references": []
+        },
+        {
+          "id": "kap-26-§-2",
+          "number": 2,
+          "text": "Om den bolagsstämma som skall besluta om byte enligt 1 § hålls senare än sex månader efter utgången av det senaste räkenskapsår för vilket årsredovisning och revisionsberättelse har lämnats, skall det på bolagsstämman läggas fram en redogörelse med sådant innehåll som anges i 23 kap. 10 § andra och tredje styckena. Uppgifterna i redogörelsen skall avse tiden från utgången av nämnda räkenskapsår till en dag som infaller tidigast tre månader före dagen för bolagsstämman. Lag (2007:373).",
           "references": [
             "1 §",
             "10 §",
-            "2 §",
             "23 kap. 10 §"
           ]
         },
@@ -5837,17 +7498,34 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-27-§-1a",
+          "number": 1,
+          "text": "En registrering i aktiebolagsregistret ska göras på svenska. Om det bolag som en registrering avser begär det, ska registreringen dessutom göras på något annat officiellt språk inom Europeiska unionen eller på norska eller isländska. Den som begär att en registrering ska göras på något annat språk än svenska ska, om inte Bolagsverket beslutar något annat, ge in en översättning till det språket av de uppgifter eller handlingar som ska registreras. Översättningen ska vara gjord av en översättare som är auktoriserad eller har motsvarande utländsk behörighet. Lag (2007:1466). Handläggning av registreringsärenden",
+          "references": []
+        },
+        {
           "id": "kap-27-§-2",
           "number": 2,
-          "text": "Trots 2 § får ett bolagsstämmobeslut registreras, om det enligt 7 kap. 51 § första stycket inte längre är möjligt att föra talan mot beslutet. Detsamma gäller för sådana uppgifter i en fastställd rekonstruktionsplan som avses i 4 kap. 31 § lagen (2022:964) om företagsrekonstruktion, om rättens beslut att fastställa planen har fått laga kraft. Lag (2024:1117). Kungörande i Post- och Inrikes Tidningar 3 § Bolagsverket skall genast kungöra i Post- och Inrikes Tidningar vad som har registrerats i aktiebolagsregistret. Beslut om konkurs eller företagsrekonstruktion skall dock inte kungöras enligt denna lag. En kungörelse som avser en ändring i ett förhållande som tidigare har förts in i registret skall endast ange ändringens art. En kungörelse skall avfattas på samma språk som registreringen i aktiebolagsregistret. Lag (2006:486). Verkan av registrering och kungörande",
+          "text": "Om den som har gjort en registreringsanmälan inte har följt det som gäller om anmälan, ska Bolagsverket förelägga anmälaren att yttra sig i frågan eller göra rättelse inom viss tid. Detsamma gäller, om verket finner att det beslut som anmäls för registrering eller en handling som bifogas anmälan 1. inte har tillkommit i behörig ordning, 2. till sitt innehåll strider mot lag eller annan författning eller mot bolagsordningen, eller 3. i något viktigare hänseende är otydligt eller vilseledande formulerat. Om det behövs för att säkerställa anmälarens eller den anmäldes identitet eller behörighet att företräda bolaget, får Bolagsverket förelägga anmälaren eller den anmälde att inställa sig personligen. Bolagsverket får besluta att inställelsen ska ske genom ljud- och bildöverföring. Om ett föreläggande enligt första eller andra stycket inte följs, ska anmälan skrivas av. En upplysning om detta ska finnas med i föreläggandet. Om det även sedan anmälaren har yttrat sig finns hinder för registrering som anmälaren har haft tillfälle att yttra sig över, ska Bolagsverket vägra registrering. Om det finns skäl för det, får dock verket förelägga anmälaren att yttra sig på nytt innan beslut fattas i ärendet. Lag (2024:1117).",
+          "references": []
+        },
+        {
+          "id": "kap-27-§-2a",
+          "number": 2,
+          "text": "Trots 2 § får ett bolagsstämmobeslut registreras, om det enligt 7 kap. 51 § första stycket inte längre är möjligt att föra talan mot beslutet. Detsamma gäller för sådana uppgifter i en fastställd rekonstruktionsplan som avses i 4 kap. 31 § lagen (2022:964) om företagsrekonstruktion, om rättens beslut att fastställa planen har fått laga kraft. Lag (2024:1117). Kungörande i Post- och Inrikes Tidningar",
           "references": [
             "2 §",
-            "3 §",
             "31 §",
             "4 kap. 31 §",
             "51 §",
             "7 kap. 51 §"
           ]
+        },
+        {
+          "id": "kap-27-§-3",
+          "number": 3,
+          "text": "Bolagsverket skall genast kungöra i Post- och Inrikes Tidningar vad som har registrerats i aktiebolagsregistret. Beslut om konkurs eller företagsrekonstruktion skall dock inte kungöras enligt denna lag. En kungörelse som avser en ändring i ett förhållande som tidigare har förts in i registret skall endast ange ändringens art. En kungörelse skall avfattas på samma språk som registreringen i aktiebolagsregistret. Lag (2006:486). Verkan av registrering och kungörande",
+          "references": []
         },
         {
           "id": "kap-27-§-4",
@@ -5856,6 +7534,12 @@ export const aktiebolagslag: LegalText = {
           "references": [
             "3 §"
           ]
+        },
+        {
+          "id": "kap-27-§-4a",
+          "number": 4,
+          "text": "Om det som har kungjorts i Post- och Inrikes Tidningar inte stämmer överens med det som har införts i aktiebolagsregistret, kan bolaget inte åberopa kungörelsens innehåll mot tredje man. Tredje man kan dock åberopa kungörelsens innehåll mot bolaget, om bolaget inte visar att han eller hon kände till vad som har förts in i aktiebolagsregistret. Om en uppgift har förts in i aktiebolagsregistret och kungjorts i Post- och Inrikes Tidningar såväl på svenska som i översättning till ett främmande språk och översättningen avviker från den svenska språkversionen, kan bolaget inte åberopa översättningen mot tredje man. Tredje man kan dock åberopa översättningen mot bolaget, om bolaget inte visar att han eller hon kände till den svenska språkversionen. Lag (2006:486).",
+          "references": []
         },
         {
           "id": "kap-27-§-5",
@@ -5874,6 +7558,18 @@ export const aktiebolagslag: LegalText = {
             "22 §",
             "7 §"
           ]
+        },
+        {
+          "id": "kap-27-§-6a",
+          "number": 6,
+          "text": "Om en uppgift i aktiebolagsregistret om bolagets ställföreträdare är oriktig, ska Bolagsverket stryka uppgiften ur registret. Innan avregistrering sker ska bolaget ges tillfälle att yttra sig inom viss tid. Om det behövs för att säkerställa ställföreträdarens identitet eller behörighet att företräda bolaget, får Bolagsverket förelägga ställföreträdaren att inställa sig personligen. Bolagsverket får besluta att inställelsen ska ske genom ljud- och bildöverföring. Lag (2024:1117). Avregistrering av en felaktig postadress eller e-postadress",
+          "references": []
+        },
+        {
+          "id": "kap-27-§-6b",
+          "number": 6,
+          "text": "Om det framgår att en uppgift i aktiebolagsregistret om bolagets postadress eller e-postadress är felaktig, ska Bolagsverket förelägga en ställföreträdare för bolaget att anmäla en ny adress. Om föreläggandet inte följs, ska verket stryka den felaktiga adressen ur registret. Om bolaget saknar ställföreträdare, får Bolagsverket stryka den felaktiga adressen utan något föregående föreläggande. Lag (2020:613). Lag (2024:1117). Avregistrering av ett företagsnamn",
+          "references": []
         },
         {
           "id": "kap-27-§-7",
@@ -5917,11 +7613,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-28-§-3",
           "number": 3,
-          "text": "Bolagets styrelse kan anta ett särskilt företagsnamn. Bestämmelserna i 1 § om företagsnamn gäller även ett särskilt företagsnamn. Orden aktiebolag, privat eller publikt eller förkortningen AB får dock inte tas in i ett särskilt företagsnamn. Lag (2018:1682). Övriga bestämmelser om företagsnamn 4 § För registrering av ett aktiebolags företagsnamn gäller, utöver vad som framgår av 1-3 §§, vad som föreskrivs i lagen (2018:1653) om företagsnamn. I den lagen finns också bestämmelser om förbud mot användning av ett företagsnamn och om hävning av en registrering av ett företagsnamn. Lag (2018:1682). Uppgifter om företagsnamn m.m. i brev, fakturor och orderblanketter samt på webbplatser",
+          "text": "Bolagets styrelse kan anta ett särskilt företagsnamn. Bestämmelserna i 1 § om företagsnamn gäller även ett särskilt företagsnamn. Orden aktiebolag, privat eller publikt eller förkortningen AB får dock inte tas in i ett särskilt företagsnamn. Lag (2018:1682). Övriga bestämmelser om företagsnamn",
           "references": [
-            "1 §",
-            "1-3 §§",
-            "4 §"
+            "1 §"
+          ]
+        },
+        {
+          "id": "kap-28-§-4",
+          "number": 4,
+          "text": "För registrering av ett aktiebolags företagsnamn gäller, utöver vad som framgår av 1-3 §§, vad som föreskrivs i lagen (2018:1653) om företagsnamn. I den lagen finns också bestämmelser om förbud mot användning av ett företagsnamn och om hävning av en registrering av ett företagsnamn. Lag (2018:1682). Uppgifter om företagsnamn m.m. i brev, fakturor och orderblanketter samt på webbplatser",
+          "references": [
+            "1-3 §§"
           ]
         },
         {
@@ -6011,10 +7713,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-29-§-8",
           "number": 8,
-          "text": "En uppgörelse i fråga om skadeståndsskyldighet till bolaget enligt 1-3 §§ får träffas endast av bolagsstämman och endast under förutsättning att inte ägare till minst en tiondel av samtliga aktier i bolaget röstar mot förslaget om uppgörelse. Om en aktieägare för skadeståndstalan för bolagets räkning, får en uppgörelse inte träffas utan hans eller hennes samtycke. 9 § Ägare till minst en tiondel av samtliga aktier i bolaget får i eget namn föra talan om skadestånd till bolaget enligt 1-3 §§. Om en aktieägare sedan talan har väckts avstår från talan, kan de övriga ändå fullfölja denna. Den som har väckt talan svarar för rättegångskostnaderna men har rätt till ersättning av bolaget för kostnader som täcks av vad som har kommit bolaget till godo genom rättegången. Tiden för att väcka talan",
+          "text": "En uppgörelse i fråga om skadeståndsskyldighet till bolaget enligt 1-3 §§ får träffas endast av bolagsstämman och endast under förutsättning att inte ägare till minst en tiondel av samtliga aktier i bolaget röstar mot förslaget om uppgörelse. Om en aktieägare för skadeståndstalan för bolagets räkning, får en uppgörelse inte träffas utan hans eller hennes samtycke.",
           "references": [
-            "1-3 §§",
-            "9 §"
+            "1-3 §§"
+          ]
+        },
+        {
+          "id": "kap-29-§-9",
+          "number": 9,
+          "text": "Ägare till minst en tiondel av samtliga aktier i bolaget får i eget namn föra talan om skadestånd till bolaget enligt 1-3 §§. Om en aktieägare sedan talan har väckts avstår från talan, kan de övriga ändå fullfölja denna. Den som har väckt talan svarar för rättegångskostnaderna men har rätt till ersättning av bolaget för kostnader som täcks av vad som har kommit bolaget till godo genom rättegången. Tiden för att väcka talan",
+          "references": [
+            "1-3 §§"
           ]
         },
         {
@@ -6037,13 +7746,27 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-29-§-12",
           "number": 12,
-          "text": "Trots bestämmelserna i 7-11 §§ får styrelsen föra en skadeståndstalan som grundas på brott. 13 § En talan för bolagets räkning enligt 1-3 §§ som inte grundas på brott får inte väckas mot 1. en stiftare sedan fem år har förflutit från bolagets bildande, 2. en styrelseledamot eller den verkställande direktören sedan fem år har förflutit från utgången av det räkenskapsår då beslut eller åtgärder som talan grundas på fattades eller vidtogs, 3. en revisor sedan fem år har förflutit från utgången av det räkenskapsår som revisionsberättelsen eller granskningsberättelsen avser, 4. en lekmannarevisor sedan fem år har förflutit från utgången av det räkenskapsår som granskningsrapporten avser, 5. en särskild granskare sedan fem år har förflutit från den dag när yttrandet över den särskilda granskningen lades fram på bolagsstämman, 6. en aktieägare sedan två år har förflutit från beslut eller åtgärder som talan grundas på. Lag (2024:350). Konkursbos rätt att föra talan 14 § Om bolaget har försatts i konkurs efter en ansökan som har gjorts innan den tid som anges i 13 § har gått ut, får konkursboet föra talan enligt 1-3 §§ trots att frihet från skadeståndsansvar har inträtt enligt 7, 8 eller 10 §. Efter utgången av den tid som anges i 13 § får en sådan talan dock inte väckas senare än sex månader från konkursbeslutet. Lag (2021:543).",
+          "text": "Trots bestämmelserna i 7-11 §§ får styrelsen föra en skadeståndstalan som grundas på brott.",
+          "references": [
+            "7-11 §§"
+          ]
+        },
+        {
+          "id": "kap-29-§-13",
+          "number": 13,
+          "text": "En talan för bolagets räkning enligt 1-3 §§ som inte grundas på brott får inte väckas mot 1. en stiftare sedan fem år har förflutit från bolagets bildande, 2. en styrelseledamot eller den verkställande direktören sedan fem år har förflutit från utgången av det räkenskapsår då beslut eller åtgärder som talan grundas på fattades eller vidtogs, 3. en revisor sedan fem år har förflutit från utgången av det räkenskapsår som revisionsberättelsen eller granskningsberättelsen avser, 4. en lekmannarevisor sedan fem år har förflutit från utgången av det räkenskapsår som granskningsrapporten avser, 5. en särskild granskare sedan fem år har förflutit från den dag när yttrandet över den särskilda granskningen lades fram på bolagsstämman, 6. en aktieägare sedan två år har förflutit från beslut eller åtgärder som talan grundas på. Lag (2024:350). Konkursbos rätt att föra talan",
+          "references": [
+            "1-3 §§"
+          ]
+        },
+        {
+          "id": "kap-29-§-14",
+          "number": 14,
+          "text": "Om bolaget har försatts i konkurs efter en ansökan som har gjorts innan den tid som anges i 13 § har gått ut, får konkursboet föra talan enligt 1-3 §§ trots att frihet från skadeståndsansvar har inträtt enligt 7, 8 eller 10 §. Efter utgången av den tid som anges i 13 § får en sådan talan dock inte väckas senare än sex månader från konkursbeslutet. Lag (2021:543).",
           "references": [
             "1-3 §§",
             "10 §",
-            "13 §",
-            "14 §",
-            "7-11 §§"
+            "13 §"
           ]
         }
       ]
@@ -6054,12 +7777,34 @@ export const aktiebolagslag: LegalText = {
       "title": "Straff och vite",
       "sections": [
         {
+          "id": "kap-30-§-1",
+          "number": 1,
+          "text": "Till böter eller fängelse i högst ett år döms den som 1. uppsåtligen bryter mot 1 kap. 7 eller 8 §, 2. uppsåtligen eller av oaktsamhet underlåter att enligt denna lag föra aktiebok eller hålla aktiebok tillgänglig, 3. uppsåtligen eller av oaktsamhet bryter mot 8 kap. 18 § andra meningen, 20 § första stycket eller 21 § andra stycket, eller 4. uppsåtligen eller av grov oaktsamhet bryter mot 21 kap. 1, 3, 5 eller 10 §. En värdepapperscentrals underlåtenhet att fullgöra de uppgifter som anges i 5 kap. 12 § andra stycket ska inte medföra ansvar enligt första stycket 2. Till böter eller fängelse i högst två år döms den som uppsåtligen medverkar till ett beslut att utse en styrelseledamot, styrelsesuppleant, verkställande direktör eller vice verkställande direktör i strid med 8 kap. 12 eller 32 §, om åtgärden är ägnad att dölja vem eller vilka som utövar eller har utövat den faktiska ledningen av bolaget. Detsamma gäller den som uppsåtligen tar på sig ett sådant uppdrag i strid med 8 kap. 12 eller 32 §. Trots det som sägs i 35 kap. 2 § brottsbalken får påföljd för brott enligt första stycket 4 mot 21 kap. 1, 3 eller 5 § dömas ut, om den misstänkte har häktats, fått del av åtal eller godkänt ett strafföreläggande för brottet inom fem år från brottet. I de fall som avses i 9 kap. 41 § och 10 kap. 16 § ska det inte följa ansvar enligt 20 kap. 3 § brottsbalken. Lag (2025:161). Vite",
+          "references": [
+            "10 kap. 16 §",
+            "10 §",
+            "12 §",
+            "16 §",
+            "18 §",
+            "2 §",
+            "20 kap. 3 §",
+            "20 §",
+            "21 §",
+            "3 §"
+          ]
+        },
+        {
           "id": "kap-30-§-2",
           "number": 2,
-          "text": "Har upphävts genom lag (2013:442). 3 § Bolagsverket kan vid vite förelägga den verkställande direktören eller en styrelseledamot att fullgöra skyldighet enligt denna lag eller annan författning att 1. hos verket göra en behörig anmälan för registrering i aktiebolagsregistret, 2. på bolagets brev, fakturor, orderblanketter och webbplatser lämna sådana uppgifter som anges i 28 kap. 5 §. Föreläggande enligt första stycket 1 får inte meddelas, om underlåtenheten att göra anmälan medför att den fråga som bolagsstämman eller styrelsen har beslutat om faller eller att bolaget blir skyldigt att gå i likvidation. Frågor om utdömande av vite prövas av Bolagsverket. Lag (2006:486).",
+          "text": "Har upphävts genom lag (2013:442).",
+          "references": []
+        },
+        {
+          "id": "kap-30-§-3",
+          "number": 3,
+          "text": "Bolagsverket kan vid vite förelägga den verkställande direktören eller en styrelseledamot att fullgöra skyldighet enligt denna lag eller annan författning att 1. hos verket göra en behörig anmälan för registrering i aktiebolagsregistret, 2. på bolagets brev, fakturor, orderblanketter och webbplatser lämna sådana uppgifter som anges i 28 kap. 5 §. Föreläggande enligt första stycket 1 får inte meddelas, om underlåtenheten att göra anmälan medför att den fråga som bolagsstämman eller styrelsen har beslutat om faller eller att bolaget blir skyldigt att gå i likvidation. Frågor om utdömande av vite prövas av Bolagsverket. Lag (2006:486).",
           "references": [
             "28 kap. 5 §",
-            "3 §",
             "5 §"
           ]
         }
@@ -6073,7 +7818,13 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-31-§-1",
           "number": 1,
-          "text": "Har upphävts genom lag (2014:539). 2 § Följande beslut av Bolagsverket får överklagas till allmän förvaltningsdomstol: 1. beslut i ärenden enligt 7 kap. 17 §, 9 kap. 9, 9 a, 25, 26 eller 27 § eller 10 kap. 22 §, 2. beslut i tillståndsärenden enligt 8 kap. 9 §, 30 § eller 37 § andra stycket, 9 kap. 15 §, 20 kap. 23 §, 23 kap. 20 eller 33 §, 24 kap. 22 § eller 24 a kap. 22 §, 3. beslut enligt 23 kap. 27 eller 35 §, 24 kap. 29 § eller 24 a kap. 33 § att förklara att frågan om fusion, delning eller ombildning har fallit, 4. beslut att vägra utfärda ett intyg enligt 23 kap. 46 §, 24 kap. 50 § eller 24 a kap. 28 §, 5. beslut om betalningsskyldighet enligt 23 kap. 45 b § andra stycket, 24 kap. 47 § andra stycket eller 24 a kap. 24 § andra stycket, 6. beslut enligt 27 kap. 2 § att skriva av en anmälan om registrering eller vägra registrering i andra fall än det som anges i andra stycket, 7. beslut enligt 27 kap. 6, 6 a eller 6 b § att avregistrera en företrädare, en postadress eller en e-postadress, 8. beslut i ärenden enligt 28 kap. 5 § andra stycket, 9. beslut att förelägga eller döma ut vite enligt 30 kap. 3 §. Ett beslut av Bolagsverket att vägra registrering av ett företagsnamn enligt 27 kap. 2 § överklagas till Patent- och marknadsdomstolen. Ett överklagande ska ges in till Bolagsverket inom två månader från dagen för beslutet. Lag (2024:1117).",
+          "text": "Har upphävts genom lag (2014:539).",
+          "references": []
+        },
+        {
+          "id": "kap-31-§-2",
+          "number": 2,
+          "text": "Följande beslut av Bolagsverket får överklagas till allmän förvaltningsdomstol: 1. beslut i ärenden enligt 7 kap. 17 §, 9 kap. 9, 9 a, 25, 26 eller 27 § eller 10 kap. 22 §, 2. beslut i tillståndsärenden enligt 8 kap. 9 §, 30 § eller 37 § andra stycket, 9 kap. 15 §, 20 kap. 23 §, 23 kap. 20 eller 33 §, 24 kap. 22 § eller 24 a kap. 22 §, 3. beslut enligt 23 kap. 27 eller 35 §, 24 kap. 29 § eller 24 a kap. 33 § att förklara att frågan om fusion, delning eller ombildning har fallit, 4. beslut att vägra utfärda ett intyg enligt 23 kap. 46 §, 24 kap. 50 § eller 24 a kap. 28 §, 5. beslut om betalningsskyldighet enligt 23 kap. 45 b § andra stycket, 24 kap. 47 § andra stycket eller 24 a kap. 24 § andra stycket, 6. beslut enligt 27 kap. 2 § att skriva av en anmälan om registrering eller vägra registrering i andra fall än det som anges i andra stycket, 7. beslut enligt 27 kap. 6, 6 a eller 6 b § att avregistrera en företrädare, en postadress eller en e-postadress, 8. beslut i ärenden enligt 28 kap. 5 § andra stycket, 9. beslut att förelägga eller döma ut vite enligt 30 kap. 3 §. Ett beslut av Bolagsverket att vägra registrering av ett företagsnamn enligt 27 kap. 2 § överklagas till Patent- och marknadsdomstolen. Ett överklagande ska ges in till Bolagsverket inom två månader från dagen för beslutet. Lag (2024:1117).",
           "references": [
             "10 kap. 22 §",
             "15 §",
@@ -6116,6 +7867,12 @@ export const aktiebolagslag: LegalText = {
           ]
         },
         {
+          "id": "kap-31-§-5a",
+          "number": 5,
+          "text": "Har upphävts genom lag (2022:1647). Överklagande av Finansinspektionens beslut",
+          "references": []
+        },
+        {
           "id": "kap-31-§-6",
           "number": 6,
           "text": "Finansinspektionens beslut i ärenden enligt 19 kap. 14 § första stycket 2 och 32 § första stycket 2 överklagas hos allmän förvaltningsdomstol.",
@@ -6128,12 +7885,19 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-31-§-7",
           "number": 7,
-          "text": "Finansinspektionens beslut i ärenden enligt 21 kap. 8 § eller 10 § tredje stycket överklagas hos regeringen. Prövningstillstånd 8 § Prövningstillstånd krävs vid överklagande till kammarrätten i mål som avses i 2, 5 a eller 6 §. Lag (2013:737).",
+          "text": "Finansinspektionens beslut i ärenden enligt 21 kap. 8 § eller 10 § tredje stycket överklagas hos regeringen. Prövningstillstånd",
           "references": [
             "10 §",
             "21 kap. 8 §",
-            "6 §",
             "8 §"
+          ]
+        },
+        {
+          "id": "kap-31-§-8",
+          "number": 8,
+          "text": "Prövningstillstånd krävs vid överklagande till kammarrätten i mål som avses i 2, 5 a eller 6 §. Lag (2013:737).",
+          "references": [
+            "6 §"
           ]
         }
       ]
@@ -6168,18 +7932,43 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-32-§-4",
           "number": 4,
-          "text": "Revisionsberättelsen skall innehålla ett uttalande om huruvida styrelsen och den verkställande direktören i förekommande fall har upprättat en förteckning enligt 10 § över vissa lån och säkerheter. Lag (2005:812). Värdeöverföringar från bolaget 5 § I ett aktiebolag med särskild vinstutdelningsbegränsning gäller, utöver vad som sägs i 17 kap. 3 och 4 §§, följande. Bolagets värdeöverföringar får, under den tid som avses i 17 kap. 4 §, inte överstiga summan av 1. ett belopp motsvarande räntan - beräknad som den statslåneränta som gällde vid föregående räkenskapsårs utgång med ett tillägg om en procentenhet - på det kapital som aktieägare vid föregående räkenskapsårs utgång har tillskjutit till bolaget som betalning för aktier, och 2. ett belopp, motsvarande vad som enligt 1 har varit tillgängligt för värdeöverföring vid årsstämma under vart och ett av de föregående fem räkenskapsåren med avdrag för den värdeöverföring som har skett. När det i denna lag hänvisas till 17 kap. 3 §, skall för aktiebolag med särskild vinstutdelningsbegränsning hänvisningen anses gälla även bestämmelserna i denna paragraf. Lag (2005:812). 6 § Bestämmelserna i 17 kap. 6 § om återbäringsskyldighet och i 17 kap. 7 § om bristtäckningsansvar vid olaglig värdeöverföring gäller även när värdeöverföring har gjorts i strid med 5 §. Lag (2005:812). Vissa lån 7 § Ett aktiebolag med särskild vinstutdelningsbegränsning får inte ta upp ett sådant lån som avses i 11 kap. 11 §. Lag (2007:317). Koncernförhållanden",
+          "text": "Revisionsberättelsen skall innehålla ett uttalande om huruvida styrelsen och den verkställande direktören i förekommande fall har upprättat en förteckning enligt 10 § över vissa lån och säkerheter. Lag (2005:812). Värdeöverföringar från bolaget",
           "references": [
-            "10 §",
-            "11 kap. 11 §",
-            "11 §",
+            "10 §"
+          ]
+        },
+        {
+          "id": "kap-32-§-5",
+          "number": 5,
+          "text": "I ett aktiebolag med särskild vinstutdelningsbegränsning gäller, utöver vad som sägs i 17 kap. 3 och 4 §§, följande. Bolagets värdeöverföringar får, under den tid som avses i 17 kap. 4 §, inte överstiga summan av 1. ett belopp motsvarande räntan - beräknad som den statslåneränta som gällde vid föregående räkenskapsårs utgång med ett tillägg om en procentenhet - på det kapital som aktieägare vid föregående räkenskapsårs utgång har tillskjutit till bolaget som betalning för aktier, och 2. ett belopp, motsvarande vad som enligt 1 har varit tillgängligt för värdeöverföring vid årsstämma under vart och ett av de föregående fem räkenskapsåren med avdrag för den värdeöverföring som har skett. När det i denna lag hänvisas till 17 kap. 3 §, skall för aktiebolag med särskild vinstutdelningsbegränsning hänvisningen anses gälla även bestämmelserna i denna paragraf. Lag (2005:812).",
+          "references": [
             "17 kap. 3 och 4 §§",
             "17 kap. 3 §",
             "17 kap. 4 §",
+            "3 §",
+            "4 §",
+            "4 §§"
+          ]
+        },
+        {
+          "id": "kap-32-§-6",
+          "number": 6,
+          "text": "Bestämmelserna i 17 kap. 6 § om återbäringsskyldighet och i 17 kap. 7 § om bristtäckningsansvar vid olaglig värdeöverföring gäller även när värdeöverföring har gjorts i strid med 5 §. Lag (2005:812). Vissa lån",
+          "references": [
             "17 kap. 6 §",
             "17 kap. 7 §",
-            "3 §",
-            "4 §"
+            "5 §",
+            "6 §",
+            "7 §"
+          ]
+        },
+        {
+          "id": "kap-32-§-7",
+          "number": 7,
+          "text": "Ett aktiebolag med särskild vinstutdelningsbegränsning får inte ta upp ett sådant lån som avses i 11 kap. 11 §. Lag (2007:317). Koncernförhållanden",
+          "references": [
+            "11 kap. 11 §",
+            "11 §"
           ]
         },
         {
@@ -6229,17 +8018,34 @@ export const aktiebolagslag: LegalText = {
           "references": []
         },
         {
+          "id": "kap-32-§-12a",
+          "number": 12,
+          "text": "Ett aktiebolag med särskild vinstutdelningsbegränsning får inte genomföra en gränsöverskridande ombildning enligt 24 a kap. Lag (2022:1647). Likvidation",
+          "references": []
+        },
+        {
           "id": "kap-32-§-13",
           "number": 13,
-          "text": "Allmän domstol skall besluta att ett aktiebolag med särskild vinstutdelningsbegränsning skall gå i likvidation, om bolaget har överträtt bestämmelserna i 5 eller 8 §. En fråga om likvidation enligt första stycket prövas på anmälan av Bolagsverket eller på ansökan av styrelsen, en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att värdet av det som har överförts i strid med bestämmelserna i 5 eller 8 § har återburits till bolaget. Vid handläggningen hos allmän domstol skall 25 kap. 25 § tillämpas. Beslutet om likvidation gäller omedelbart. Lag (2005:812). 14 § Vid skifte i samband med likvidation av ett aktiebolag med särskild vinstutdelningsbegränsning skall aktieägarna tilldelas högst ett belopp som motsvarar 1. det kapital som har tillskjutits till bolaget som betalning för aktier, och 2. del av återstående tillgångar med den begränsning som framgår av 5 §. Vad som därefter återstår skall tillfalla det eller de andra aktiebolag med särskild vinstutdelningsbegränsning som anges i bolagsordningen. Saknar bolagsordningen uppgift om ett sådant aktiebolag eller finns inte det eller de aktiebolag som anges i bolagsordningen, skall tillgångarna tillfalla Allmänna arvsfonden. Lag (2005:812). Byte av bolagskategori m.m. 15 § I ett aktiebolag med särskild vinstutdelningsbegränsning får inte beslutas att bolaget inte längre skall vara ett aktiebolag med särskild vinstutdelningsbegränsning. Lag (2005:812).",
+          "text": "Allmän domstol skall besluta att ett aktiebolag med särskild vinstutdelningsbegränsning skall gå i likvidation, om bolaget har överträtt bestämmelserna i 5 eller 8 §. En fråga om likvidation enligt första stycket prövas på anmälan av Bolagsverket eller på ansökan av styrelsen, en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att värdet av det som har överförts i strid med bestämmelserna i 5 eller 8 § har återburits till bolaget. Vid handläggningen hos allmän domstol skall 25 kap. 25 § tillämpas. Beslutet om likvidation gäller omedelbart. Lag (2005:812).",
           "references": [
-            "14 §",
-            "15 §",
             "25 kap. 25 §",
             "25 §",
-            "5 §",
             "8 §"
           ]
+        },
+        {
+          "id": "kap-32-§-14",
+          "number": 14,
+          "text": "Vid skifte i samband med likvidation av ett aktiebolag med särskild vinstutdelningsbegränsning skall aktieägarna tilldelas högst ett belopp som motsvarar 1. det kapital som har tillskjutits till bolaget som betalning för aktier, och 2. del av återstående tillgångar med den begränsning som framgår av 5 §. Vad som därefter återstår skall tillfalla det eller de andra aktiebolag med särskild vinstutdelningsbegränsning som anges i bolagsordningen. Saknar bolagsordningen uppgift om ett sådant aktiebolag eller finns inte det eller de aktiebolag som anges i bolagsordningen, skall tillgångarna tillfalla Allmänna arvsfonden. Lag (2005:812). Byte av bolagskategori m.m.",
+          "references": [
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-32-§-15",
+          "number": 15,
+          "text": "I ett aktiebolag med särskild vinstutdelningsbegränsning får inte beslutas att bolaget inte längre skall vara ett aktiebolag med särskild vinstutdelningsbegränsning. Lag (2005:812).",
+          "references": []
         },
         {
           "id": "kap-32-§-16",
@@ -6250,19 +8056,14 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-32-§-17",
           "number": 17,
-          "text": "Företagsnamnet för ett aktiebolag med särskild vinstutdelningsbegränsning ska följas av beteckningen (svb), om det inte av bolagets företagsnamn framgår att det är ett sådant aktiebolag. Lag (2018:1682). 18 § Andra aktiebolag än aktiebolag med särskild vinstutdelningsbegränsning får inte använda beteckningen (svb). Lag (2005:812). Övergångsbestämmelser 2006:399 1. Denna lag träder i kraft den 1 januari 2007. 2. Äldre bestämmelser gäller om det yrkesmässiga biträde som annars skulle föranleda jäv för en revisor eller en lekmannarevisor avser ett räkenskapsår som har inletts före den 1 januari 2007. 2006:877 1. Denna lag träder i kraft den 1 januari 2007. 2. Den som har utsetts till revisor i ett aktiebolag före ikraftträdandet och som enligt 9 kap. 13 eller 14 § inte längre ensam kan vara revisor i bolaget får ändå kvarstå som revisor under den resterande mandatperioden. 2007:317 1. Denna lag träder i kraft den 1 juli 2007. 2. Bestämmelserna i 4 kap. 46-50 §§ gäller inte i fråga om beslut om uppdelning eller sammanläggning av aktier som har fattats före den 1 juli 2007. 3. Om ett bolag före den 1 juli 2007 har beslutat om emission av teckningsoptioner eller konvertibler och det i emissionsvillkoren finns bestämmelser om hur dessa instrument skall behandlas i samband med inlösen enligt 22 kap., gäller dessa bestämmelser även efter den tidpunkten. 4. Om en fusionsplan har blivit gällande hos ett moderbolag före den 1 juli 2007, tillämpas 23 kap. 33 § i dess äldre lydelse även efter denna tidpunkt. 2008:12 Denna lag träder i kraft den 15 februari 2008. Äldre bestämmelser gäller dock i fråga om fusioner där fusionsplan har upprättats före ikraftträdandet. 2008:603 1. Denna lag träder i kraft den 1 november 2008. 2. Äldre bestämmelser gäller i fråga om fusioner och delningar som vid ikraftträdandet prövas enligt konkurrenslagen (1993:20) eller som förbjudits enligt den lagen. 2008:805 1. Denna lag träder i kraft den 1 januari 2009. 2. Har en fusionsplan eller delningsplan blivit gällande före den 1 januari 2009, gäller bestämmelserna i 23 kap. 2 och 26 §§ samt 24 kap. 2 och 28 §§ i sina äldre lydelser. 2008:1238 Denna lag träder i kraft den 31 december 2008. Äldre bestämmelser gäller dock i fråga om fusioner och delningar där fusionsplan respektive delningsplan har upprättats före ikraftträdandet. 2009:37 1. Denna lag träder i kraft den 1 mars 2009. 2. I fråga om beslut om uppdelning eller sammanläggning av aktier som har fattats före den 1 mars 2009 gäller 4 kap. 46, 49 och 50 §§ i sina äldre lydelser även efter denna tidpunkt. 3. De nya bestämmelserna i 9 kap. 31 och 38 §§ tillämpas första gången för det räkenskapsår som inleds närmast efter den 28 februari 2009. 2009:565 1. Denna lag träder i kraft den 1 juli 2009. 2. Bestämmelserna i 8 kap. 49 a § första stycket tredje meningen och andra stycket 2 tillämpas inte förrän efter den första ordinarie bolagsstämma som hålls efter ikraftträdandet. 3. Bestämmelserna i 8 kap. 50 a § tillämpas inte om den som har varit revisor har utsetts till den nya befattningen före ikraftträdandet. 4. För ett uppdrag som revisor som innehas vid ikraftträdandet räknas den tid som anges i 9 kap. 21 a § första stycket från den första ordinarie bolagsstämma som hålls efter ikraftträdandet. 2010:89 1. Denna lag träder i kraft den 1 april 2010. 2. Vid registrering av ett aktiebolag som har bildats före ikraftträdandet gäller det lägsta tillåtna aktiekapital som föreskrivs i äldre bestämmelser. 2010:834 1. Denna lag träder i kraft den 1 november 2010. 2. Bestämmelserna i 1 kap. 12 b §, 2 kap. 5 §, 3 kap. 1 §, 7 kap. 34 §, 9 kap. 1, 1 a, 8, 9 a, 13, 14 och 25 §§, 23 kap. 8, 25 och 48 §§, 24 kap. 10 och 27 §§ samt 32 kap. 3 § tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 oktober 2010. 3. Bolagsstämman får inte före den första dagen på det räkenskapsår som inleds närmast efter den 31 oktober 2010 besluta om ändring i bolagsordningen med tillämpning av 9 kap. 1 § andra stycket. 4. Vid tillämpningen av 9 kap. 1 § femte stycket ska bolaget anses sakna revisor registrerad i aktiebolagsregistret vid räkenskapsårets utgång, om anmälan för registrering av att bolaget entledigat revisorn eller att revisorn avgått och att bolaget beslutat om ändring av bolagsordningen av innebörd att bolaget inte ska ha någon revisor, har kommit in till Bolagsverket före räkenskapsårets utgång. Detta gäller till utgången av 2012. 5. Ett revisorsuppdrag som har getts före ikraftträdandet består till utgången av mandattiden, om inte uppdraget upphör i förtid enligt 9 kap. 22 § eller hinder som avses i 9 kap. 24 § uppkommer. 2010:1516 1. Denna lag träder i kraft den 1 januari 2011. 2. Äldre bestämmelser gäller i fråga om kallelse till bolagsstämma samt tillhandahållande av aktiebok och handlingar inför stämma, om kallelse till stämman har skett före ikraftträdandet. 3. Om en bolagsordning efter ikraftträdandet strider mot denna lag, ska styrelsen till den första bolagsstämman till vilken bolaget kallar efter ikraftträdandet lägga fram förslag till ändring av bolagsordningen i överensstämmelse med lagen. Äldre bestämmelser gäller i fråga om kallelse till den stämman. 2010:1977 1. Denna lag träder i kraft den 1 april 2011. 2. Äldre bestämmelser gäller om en handling har skickats eller lämnats före den 1 april 2011. 2011:899 1. Denna lag träder i kraft den 1 oktober 2011. 2. Äldre föreskrifter gäller om en ansökan eller anmälan har kommit in till tingsrätten före ikraftträdandet. 2011:1046 Denna lag träder i kraft den 1 november 2011. Äldre bestämmelser gäller dock i fråga om fusioner och delningar där fusionsplanen respektive delningsplanen har upprättats före ikraftträdandet. 2011:1417 1. Denna lag träder i kraft den 1 januari 2012. 2. Äldre bestämmelser gäller fortfarande i fråga om skyldigheter enligt skattebetalningslagen (1997:483). 2013:143 1. Denna lag träder i kraft den 1 maj 2013. 2. I fråga om förpliktelser som uppkommit före ikraftträdandet gäller äldre bestämmelser till och med den 30 april 2014. 2013:737 1. Denna lag träder i kraft den 1 november 2013. 2. Äldre föreskrifter gäller fortfarande för överklagande av beslut som länsstyrelsen har meddelat före ikraftträdandet. 2014:313 1. Denna lag träder i kraft den 1 juli 2014. 2. Äldre bestämmelser gäller avseende misstanke om brott som begåtts före ikraftträdandet. 2014:539 1. Denna lag träder i kraft den 1 augusti 2014. 2. För överklagande av beslut enligt 8 kap. 9 §, 30 § eller 37 § andra stycket eller 9 kap. 15 § som har meddelats före ikraftträdandet gäller fortfarande den upphävda 31 kap. 1 §. 3. Om ett förslag till beslut om minskning av aktiekapitalet för återbetalning till aktieägarna utan indragning av aktier har upprättats före ikraftträdandet, gäller 20 kap. 17 § i sin äldre lydelse. 2015:824 1. Denna lag träder i kraft den 1 januari 2016. 2. Lagen tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2015. 2016:60 1. Denna lag träder i kraft den 1 mars 2016. 2. Det krav på ett skriftligt avtal som anges i 5 kap. 12 § tredje stycket till-lämpas inte i fråga om avtal om registrering av aktier i avstämningsregister som ingåtts före lagens ikraftträdande. 3. Det som sägs om styrelsens ansvar i 5 kap. 12 § tredje stycket ska tillämpas från och med den 1 mars 2017, om inte avstämningsbolaget före dess ingår ett sådant avtal som avses i 5 kap. 12 § andra stycket med en värdepapperscentral och anmäler detta enligt 5 kap. 12 a §. För tiden fram till dess att en sådan anmälan görs, dock längst till och med den 28 februari 2017, tillämpas det som sägs om centrala värdepappersförvarares ansvar för aktieboken i 5 kap. 12 § andra stycket i dess äldre lydelse. Med central värdepappersförvarare avses den som vid tidpunkten för ikraftträdandet var auktoriserad som central värdepappersförvarare. 2016:219 1. Denna lag träder i kraft den 1 september 2016. 2. Äldre bestämmelser gäller fortfarande för mål som har inletts i allmän förvaltningsdomstol före ikraftträdandet. 2016:431 1. Denna lag träder i kraft den 17 juni 2016. 2. Bestämmelserna om revisionsberättelse och koncernrevision i de nya 9 kap. 6 a, 28 a, 31 a och 35 a §§ och i 9 kap. 29 och 38 §§ i den nya lydelsen tillämpas första gången för det räkenskapsår som inleds närmast efter den 16 juni 2016. 3. Bestämmelserna i 9 kap. 16 a § tillämpas även på villkor och begränsningar som har avtalats respektive beslutats före ikraftträdandet. 2016:955 1. Denna lag träder i kraft den 1 december 2016. 2. Lagen tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 december 2016. 2019:288 1. Denna lag träder i kraft den 10 juni 2019. 2. Bestämmelserna i 7 kap. 61 § och 8 kap. 51-53 §§ om riktlinjer för ersättning till ledande befattningshavare tillämpas första gången i samband med den årsstämma som hålls närmast efter den 31 december 2019. 3. Bestämmelserna i 7 kap. 62 § och 8 kap. 53 a § om rapport om ersättningar tillämpas första gången i samband med den årsstämma som hålls närmast efter den 31 december 2020. 4. Bestämmelserna i 16 a kap. tillämpas inte på transaktioner som bolaget har fattat beslut om men som inte genomförts före ikraftträdandet. Vid tillämpningen av bestämmelsen i 16 a kap. 2 § ska transaktioner som genomförts före ikraftträdandet inte beaktas. 5. Bestämmelserna i den äldre lydelsen av 7 kap. 61 §, 8 kap. 51 § första stycket och 53 § samt den upphävda 8 kap. 52 § gäller fortfarande i aktiebolag vars aktier är upptagna till handel på en reglerad marknad i Sverige, i samband med årsstämmor som hålls fram till och med den 31 december 2019. 6. Bestämmelserna i den äldre lydelsen av 8 kap. 51 § andra och tredje styckena gäller fortfarande i aktiebolag vars aktier är upptagna till handel på en reglerad marknad i Sverige, i samband med årsstämmor som hålls fram till och med den 31 december 2020. 2019:1264 1. Denna lag träder i kraft den 1 januari 2020. 2. Vid registrering av ett aktiebolag som har bildats före ikraftträdandet gäller 1 kap. 5 § i den äldre lydelsen. 2020:985 1. Denna lag träder i kraft den 1 januari 2021. 2. Om ett förslag om att utse en särskild granskare har behandlats på en bolagsstämma före ikraftträdandet gäller 10 kap. 21-23 §§ i den äldre lydelsen för ansökan till Bolagsverket, granskningens omfattning, den särskilda granskarens arbete och hans eller hennes yttrande. 3. De nya 10 kap. 23-28 §§ ska inte tillämpas om förslaget att utse den särskilda granskaren har behandlats på en bolagsstämma före ikraftträdandet. 4. Om inlösen av aktier har begärts före ikraftträdandet gäller 22 kap. i den äldre lydelsen för förfarandet. 2021:543 1. Denna lag träder i kraft den 1 juli 2021. 2. Den äldre lydelsen av 29 kap. 14 § gäller fortfarande när ett bolag har försatts i konkurs före ikraftträdandet. 2023:343 1. Denna lag träder i kraft den 22 juni 2023. 2. Lagen tillämpas första gången för det räkenskapsår som inleds närmast efter den 31 maj 2024. 2024:344 1. Denna lag träder i kraft den 1 juli 2024. 2. Lagen tillämpas första gången för det räkenskapsår som inleds närmast efter den 30 juni 2024. 2024:350 1. Denna lag träder i kraft den 1 juli 2024. 2. De äldre lydelserna av 9 kap. 31 och 38 §§ gäller till dess det granskade bolaget är skyldigt att upprätta en hållbarhetsrapport enligt tillämplig lag om årsredovisning i dess lydelse efter den 30 juni 2024.",
-          "references": [
-            "1 kap. 5 §",
-            "1 §",
-            "12 §",
-            "14 §",
-            "15 §",
-            "17 §",
-            "18 §",
-            "2 kap. 5 §",
-            "2 §",
-            "20 kap. 17 §"
-          ]
+          "text": "Företagsnamnet för ett aktiebolag med särskild vinstutdelningsbegränsning ska följas av beteckningen (svb), om det inte av bolagets företagsnamn framgår att det är ett sådant aktiebolag. Lag (2018:1682).",
+          "references": []
+        },
+        {
+          "id": "kap-32-§-18",
+          "number": 18,
+          "text": "Andra aktiebolag än aktiebolag med särskild vinstutdelningsbegränsning får inte använda beteckningen (svb). Lag (2005:812).",
+          "references": []
         }
       ]
     }
