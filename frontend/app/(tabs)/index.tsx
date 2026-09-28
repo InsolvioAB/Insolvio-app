@@ -4,11 +4,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts } from '../../src/data/legalTexts';
+import { activeNewsItems, updatedLawIds } from '../../src/content/newsContent';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
-
-// Placeholder list of recently-amended law IDs, pending real per-law
-// amendment tracking in the law data itself.
-const RECENTLY_UPDATED_LAW_IDS = new Set(['sfs-1987-672', 'sfs-2005-551']);
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -23,7 +20,7 @@ export default function HomeScreen() {
         <View style={styles.lawCardContent}>
           <View style={styles.lawTitleRow}>
             <Text style={styles.lawTitle}>{item.title}</Text>
-            {RECENTLY_UPDATED_LAW_IDS.has(item.id) && (
+            {updatedLawIds.has(item.id) && (
               <View style={styles.updatedBadge}>
                 <Text style={styles.updatedBadgeText}>UPPDATERAD</Text>
               </View>
@@ -61,7 +58,7 @@ export default function HomeScreen() {
         contentContainerStyle={styles.listContent}
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={
-          RECENTLY_UPDATED_LAW_IDS.size > 0 ? (
+          activeNewsItems.length > 0 ? (
             <TouchableOpacity
               style={styles.newsBanner}
               onPress={() => router.push('/nyheter')}
@@ -69,7 +66,7 @@ export default function HomeScreen() {
             >
               <Ionicons name="notifications-outline" size={20} color={colors.greenHover} />
               <Text style={styles.newsBannerText}>
-                {RECENTLY_UPDATED_LAW_IDS.size} {RECENTLY_UPDATED_LAW_IDS.size === 1 ? 'lag har' : 'lagar har'} uppdaterats nyligen
+                {activeNewsItems.length} {activeNewsItems.length === 1 ? 'lag har' : 'lagar har'} uppdaterats nyligen
               </Text>
               <Text style={styles.newsBannerLink}>Nyheter ›</Text>
             </TouchableOpacity>
