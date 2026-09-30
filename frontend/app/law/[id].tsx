@@ -730,7 +730,7 @@ const styles = StyleSheet.create({
   saveButtonText: {
     fontSize: 15,
     fontFamily: typography.fontFamily.semiBold,
-    color: colors.white,
+    color: colors.greenPrimaryForeground,
   },
   errorContainer: {
     flex: 1,
