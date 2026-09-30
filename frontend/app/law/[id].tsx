@@ -204,7 +204,7 @@ export default function LawViewerScreen() {
               onPress={() => toggleChapter(chapter.id)}
             >
               <View style={styles.chapterTitleContainer}>
-                <Text style={styles.chapterNumber}>{chapter.number} kap.</Text>
+                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
                 <Text style={styles.chapterTitle}>{chapter.title}</Text>
               </View>
               <Ionicons
@@ -312,7 +312,7 @@ export default function LawViewerScreen() {
                   setShowTOC(false);
                 }}
               >
-                <Text style={styles.tocChapterNumber}>{chapter.number} kap.</Text>
+                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
                 <Text style={styles.tocChapterTitle}>{chapter.title}</Text>
               </TouchableOpacity>
             ))}

@@ -1,6 +1,6 @@
 // Aktiebolagslag (2005:551)
 // Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
-// Last amended: t.o.m. SFS 2025:804
+// Last amended: t.o.m. SFS 2026:783
 
 import { LegalText } from '../legalTexts';
 
@@ -10,7 +10,7 @@ export const aktiebolagslag: LegalText = {
   "sfsNumber": "2005:551",
   "department": "Justitiedepartementet L1",
   "issued": "2005-06-16",
-  "lastAmended": "t.o.m. SFS 2025:804",
+  "lastAmended": "t.o.m. SFS 2026:783",
   "chapters": [
     {
       "id": "kap-1",
@@ -784,7 +784,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-4-§-41",
           "number": 41,
-          "text": "Om den som har tagit emot värdepapper eller betalning enligt 38, 39 eller 40 § inte var rätt mottagare, ska bolaget ändå anses ha fullgjort sin skyldighet. Detta gäller dock inte om bolaget eller, i fråga om avstämningsbolag, värdepapperscentralen insett eller borde ha insett att det var fel mottagare. Det gäller inte heller om mottagaren var omyndig eller hade en förvaltare enligt föräldrabalken med uppdrag att förvalta hans eller hennes aktier. Lag (2016:60). Om en aktie har flera ägare",
+          "text": "Om den som har tagit emot värdepapper eller betalning enligt 38, 39 eller 40 § inte var rätt mottagare, ska bolaget ändå anses ha fullgjort sin skyldighet. Detta gäller dock inte om bolaget eller, i fråga om avstämningsbolag, värdepapperscentralen insett eller borde ha insett att det var fel mottagare. Det gäller inte heller om mottagaren var omyndig eller hade en förvaltare enligt föräldrabalken med ett uppdrag som omfattade att förvalta hans eller hennes aktier. Lag (2026:495). Om en aktie har flera ägare",
           "references": [
             "40 §"
           ]
@@ -1435,7 +1435,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-40",
           "number": 40,
-          "text": "I ärenden som inte avser val utgörs bolagsstämmans beslut av den mening som har fått mer än hälften av de avgivna rösterna. Vid lika röstetal har ordföranden utslagsröst. Första stycket gäller inte, om annat följer av denna lag eller föreskrivs i bolagsordningen. I fall som avses i 42-45 §§ detta kapitel, 13 kap. 2 §, 14 kap. 2 §, 15 kap. 2 §, 16 kap. 8 §, 19 kap. 18 och 33 §§, 20 kap. 5 §, 23 kap. 17 §, 24 kap. 19 §, 24 a kap. 20 § samt 26 kap. 1 och 6 §§ får det dock i bolagsordningen endast föreskrivas längre gående villkor än som anges i nämnda bestämmelser. I fråga om publika aktiebolag gäller även 59 §. Lag (2022:1647). Majoritetskrav vid val",
+          "text": "I ärenden som inte avser val utgörs bolagsstämmans beslut av den mening som har fått mer än hälften av de avgivna rösterna. Vid lika röstetal har ordföranden utslagsröst. Första stycket gäller inte, om annat följer av denna lag eller föreskrivs i bolagsordningen. I fall som avses i 42-45 §§ detta kapitel, 13 kap. 2 §, 14 kap. 2 §, 15 kap. 2 §, 16 kap. 8 §, 19 kap. 18 och 33 §§, 20 kap. 5 §, 23 kap. 17 §, 24 kap. 19 §, 24 a kap. 20 § samt 26 kap. 1 och 6 §§ får det dock i bolagsordningen endast föreskrivas längre gående villkor än som anges i nämnda bestämmelser. I fråga om publika aktiebolag gäller även 59 §. Lag (2022:1647).",
           "references": [
             "13 kap. 2 §",
             "14 kap. 2 §",
@@ -1644,10 +1644,16 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-59",
           "number": 59,
-          "text": "I bolagsordningen för ett publikt aktiebolag får, beträffande beslut om att entlediga en styrelseledamot som har utsetts av bolagsstämman, inte förekomma längre gående villkor än som anges i 40 § första stycket. Ansvaret för ersättningen till skiljemän",
+          "text": "I bolagsordningen för ett publikt aktiebolag får, beträffande beslut om att entlediga en styrelseledamot som har utsetts av bolagsstämman, inte förekomma längre gående villkor än som anges i 40 § första stycket.",
           "references": [
             "40 §"
           ]
+        },
+        {
+          "id": "kap-7-§-59a",
+          "number": 59,
+          "text": "I ett publikt aktiebolag är ett beslut om ändring av bolagsordningen giltigt endast om det har biträtts av aktieägare med minst två tredjedelar av såväl de avgivna rösterna som de aktier som är företrädda vid stämman, om 1. bolagets aktier inte är upptagna till handel på en reglerad marknad eller en MTF-plattform när beslutet fattas, 2. beslutet innebär att det i bolaget ska finnas aktier med olika röstvärden eller att befintliga röstvärdesskillnader ändras, och 3. beslutet fattas i samband med att bolaget ansöker om att ta upp aktier till handel på en MTF-plattform. Om det finns flera aktieslag i bolaget, ska första stycket även tillämpas inom varje aktieslag som är företrätt vid stämman och som aktiernas rätt försämras för genom beslutet. Majoritetskraven ska gälla så länge bolagets aktier handlas på plattformen. Lag (2026:783). Ansvaret för ersättningen till skiljemän",
+          "references": []
         },
         {
           "id": "kap-7-§-60",
@@ -1669,8 +1675,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-62",
           "number": 62,
-          "text": "I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska den rapport om ersättningar som avses i 8 kap. 53 a § läggas fram på årsstämman för godkännande. Rapporten ska hållas tillgänglig utan kostnad på bolagets webbplats under tio år från årsstämman. Om rapporten hålls tillgänglig där längre tid än tio år, ska personuppgifter avlägsnas från den. Lag (2019:288). Kallelsens innehåll i vissa publika aktiebolag",
+          "text": "I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska den rapport om ersättningar som avses i 8 kap. 53 a § läggas fram på årsstämman för godkännande. Rapporten ska hållas tillgänglig utan kostnad på bolagets webbplats under tio år från årsstämman. Om rapporten hålls tillgänglig där längre tid än tio år, ska personuppgifter avlägsnas från den. Lag (2019:288).",
           "references": []
+        },
+        {
+          "id": "kap-7-§-62a",
+          "number": 62,
+          "text": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. riktlinjerna som ska lämnas till Finansinspektionen enligt 61 § andra stycket, och 2. rapporten om ersättningar som ska lämnas till Finansinspektionen enligt 62 § andra stycket. Lag (2026:631). Kallelsens innehåll i vissa publika aktiebolag",
+          "references": [
+            "61 §",
+            "62 §"
+          ]
         },
         {
           "id": "kap-7-§-63",
@@ -1712,9 +1727,17 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-7-§-68",
           "number": 68,
-          "text": "Utöver det som anges i 48 och 49 §§, gäller i fråga om ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, följande. Om en aktieägare begär det inför en omröstning, ska aktiebolaget i stämmoprotokollet eller i en bilaga till protokollet redovisa 1. antalet röster för och mot förslaget till beslut, 2. antalet röster som närvarande aktieägare har avstått från att avge, 3. det antal aktier för vilka röster har avgetts och 4. den andel av aktiekapitalet som dessa röster representerar. Protokollet, utom röstlängden, ska hållas tillgängligt på bolagets webbplats senast två veckor efter bolagsstämman och under minst tre år. Lag (2010:1516). Bekräftelser i vissa publika aktiebolag",
+          "text": "Utöver det som anges i 48 och 49 §§, gäller i fråga om ett publikt aktiebolag, vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, följande. Om en aktieägare begär det inför en omröstning, ska aktiebolaget i stämmoprotokollet eller i en bilaga till protokollet redovisa 1. antalet röster för och mot förslaget till beslut, 2. antalet röster som närvarande aktieägare har avstått från att avge, 3. det antal aktier för vilka röster har avgetts och 4. den andel av aktiekapitalet som dessa röster representerar. Protokollet, utom röstlängden, ska hållas tillgängligt på bolagets webbplats senast två veckor efter bolagsstämman och under minst tre år. Lag (2010:1516).",
           "references": [
             "49 §§"
+          ]
+        },
+        {
+          "id": "kap-7-§-68a",
+          "number": 68,
+          "text": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om protokollet som ska lämnas till Finansinspektionen enligt 68 § tredje stycket. Lag (2026:631). Bekräftelser i vissa publika aktiebolag",
+          "references": [
+            "68 §"
           ]
         },
         {
@@ -4530,18 +4553,90 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-16-§-10",
           "number": 10,
-          "text": "Ett aktiebolag som har genomfört en emission som avses i 2 §, skall i förvaltningsberättelsen lämna uppgift om emissionsbeslutets innehåll och om den tilldelning av nya aktier, teckningsoptioner eller konvertibler som har skett på grundval av beslutet. Har ett aktiebolag genomfört en sådan överlåtelse som avses i 4 eller 5 § eller tagit upp ett sådant lån som avses i 7 §, skall uppgift om överlåtelsen eller lånet lämnas i förvaltningsberättelsen. Ingår ett aktiebolag som har beslutat om en emission, en överlåtelse eller ett lån av nu angivet slag i en koncern, skall uppgift om detta lämnas även i förvaltningsberättelsen för det publika aktiebolag som är moderbolag i koncernen. Finns det flera moderbolag som är publika aktiebolag, skall uppgiften lämnas i förvaltningsberättelsen för det bolag bland dessa som är moderbolag i den största koncernen. 16 a kap. Vissa närståendetransaktioner Tillämpningsområde 1 § Detta kapitel tillämpas när ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska besluta om en väsentlig transaktion med en närstående. Kapitlet tillämpas även när en väsentlig transaktion mellan ett helägt svenskt dotterbolag till ett sådant aktiebolag och en närstående till moderbolaget ska beslutas. Lag (2019:288). Vad som är en väsentlig transaktion 2 § En transaktion anses i detta kapitel vara väsentlig om den ensam, eller sammantagen med andra transaktioner som bolaget och dess helägda svenska dotterbolag har genomfört med samma närstående under det senaste året, avser ett värde som är minst en miljon kronor och motsvarar minst en procent av bolagets värde. Lag (2019:288). Vem som är närstående 3 § När det avgörs vem som är närstående enligt detta kapitel tillämpas 1 kap. 8 och 9 §§ årsredovisningslagen (1995:1554). Det som sägs där om rapporterande företag ska i stället avse ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2019:288). Undantag från tillämpningsområdet 4 § Kapitlet gäller inte beslut om 1. arvode till styrelseledamöter enligt 8 kap. 23 a §, 2. ersättning till ledande befattningshavare enligt riktlinjer som avses i 8 kap. 51 §, 3. lån enligt 11 kap., 4. emissioner enligt 12-15 kap. samt emissioner och överlåtelser enligt 16 kap., 5. vinstutdelning enligt 18 kap., 6. förvärv eller överlåtelse av egna aktier enligt 19 kap., 7. minskning av aktiekapitalet enligt 20 kap., 8. lån enligt 21 kap., 9. fusion enligt 23 kap., 10. delning enligt 24 kap., eller 11. gränsöverskridande ombildning enligt 24 a kap. Kapitlet gäller inte heller beslut med stöd av lagen (2015:1016) om resolution. Lag (2022:1647). 5 § Kapitlet gäller inte beslut om transaktioner mellan ett aktiebolag och ett helägt dotterföretag, eller transaktioner mellan ett aktiebolag och ett delägt dotterföretag som ingen annan närstående till bolaget har ett intresse i. Lag (2019:288). 6 § Kapitlet gäller inte beslut om transaktioner som är en del av bolagets löpande verksamhet och som genomförs på marknadsmässiga villkor. Styrelsen ska ha rutiner för att fortlöpande bedöma om en transaktion är av det slag som anges i första stycket. Lag (2019:288). Beslutsordning 7 § Styrelsen ska underställa bolagsstämman en väsentlig transaktion med en närstående till bolaget för godkännande. Till underlag för stämmans beslut ska styrelsen upprätta en redogörelse för transaktionen. Av redogörelsen ska villkoren för transaktionen framgå, i den utsträckning som krävs för att stämman ska kunna ta ställning till förslaget. Redogörelsen ska alltid innehålla information om 1. vilken relation bolaget har till den närstående, 2. namnet på den närstående, 3. datumet för transaktionen, och 4. det värde transaktionen avser. Redogörelsen ska hållas tillgänglig på bolagets webbplats under minst tre veckor fram till och med dagen för stämman. Redogörelsen ska vidare läggas fram på stämman. Lag (2019:288). 8 § Vid bolagsstämmans beslut i fråga om godkännande av en transaktion ska aktier som innehas av den närstående inte beaktas. Inte heller ska aktier som innehas av ett annat företag i samma koncern som den närstående beaktas. Med koncern likställs i detta sammanhang annan företagsgrupp av motsvarande slag. Lag (2019:288). Vissa transaktioner i dotterbolag",
+          "text": "Ett aktiebolag som har genomfört en emission som avses i 2 §, skall i förvaltningsberättelsen lämna uppgift om emissionsbeslutets innehåll och om den tilldelning av nya aktier, teckningsoptioner eller konvertibler som har skett på grundval av beslutet. Har ett aktiebolag genomfört en sådan överlåtelse som avses i 4 eller 5 § eller tagit upp ett sådant lån som avses i 7 §, skall uppgift om överlåtelsen eller lånet lämnas i förvaltningsberättelsen. Ingår ett aktiebolag som har beslutat om en emission, en överlåtelse eller ett lån av nu angivet slag i en koncern, skall uppgift om detta lämnas även i förvaltningsberättelsen för det publika aktiebolag som är moderbolag i koncernen. Finns det flera moderbolag som är publika aktiebolag, skall uppgiften lämnas i förvaltningsberättelsen för det bolag bland dessa som är moderbolag i den största koncernen.",
+          "references": [
+            "2 §",
+            "5 §",
+            "7 §"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap-16a",
+      "number": 16,
+      "numberSuffix": "a",
+      "title": "Vissa närståendetransaktioner",
+      "sections": [
+        {
+          "id": "kap-16a-§-1",
+          "number": 1,
+          "text": "Detta kapitel tillämpas när ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet, ska besluta om en väsentlig transaktion med en närstående. Kapitlet tillämpas även när en väsentlig transaktion mellan ett helägt svenskt dotterbolag till ett sådant aktiebolag och en närstående till moderbolaget ska beslutas. Lag (2019:288). Vad som är en väsentlig transaktion",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-2",
+          "number": 2,
+          "text": "En transaktion anses i detta kapitel vara väsentlig om den ensam, eller sammantagen med andra transaktioner som bolaget och dess helägda svenska dotterbolag har genomfört med samma närstående under det senaste året, avser ett värde som är minst en miljon kronor och motsvarar minst en procent av bolagets värde. Lag (2019:288). Vem som är närstående",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-3",
+          "number": 3,
+          "text": "När det avgörs vem som är närstående enligt detta kapitel tillämpas 1 kap. 8 och 9 §§ årsredovisningslagen (1995:1554). Det som sägs där om rapporterande företag ska i stället avse ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2019:288). Undantag från tillämpningsområdet",
           "references": [
             "1 kap. 8 och 9 §§",
-            "1 §",
-            "2 §",
-            "3 §",
-            "4 §",
-            "5 §",
+            "9 §§"
+          ]
+        },
+        {
+          "id": "kap-16a-§-4",
+          "number": 4,
+          "text": "Kapitlet gäller inte beslut om 1. arvode till styrelseledamöter enligt 8 kap. 23 a §, 2. ersättning till ledande befattningshavare enligt riktlinjer som avses i 8 kap. 51 §, 3. lån enligt 11 kap., 4. emissioner enligt 12-15 kap. samt emissioner och överlåtelser enligt 16 kap., 5. vinstutdelning enligt 18 kap., 6. förvärv eller överlåtelse av egna aktier enligt 19 kap., 7. minskning av aktiekapitalet enligt 20 kap., 8. lån enligt 21 kap., 9. fusion enligt 23 kap., 10. delning enligt 24 kap., eller 11. gränsöverskridande ombildning enligt 24 a kap. Kapitlet gäller inte heller beslut med stöd av lagen (2015:1016) om resolution. Lag (2022:1647).",
+          "references": [
             "51 §",
-            "6 §",
-            "7 §",
             "8 kap. 51 §"
+          ]
+        },
+        {
+          "id": "kap-16a-§-5",
+          "number": 5,
+          "text": "Kapitlet gäller inte beslut om transaktioner mellan ett aktiebolag och ett helägt dotterföretag, eller transaktioner mellan ett aktiebolag och ett delägt dotterföretag som ingen annan närstående till bolaget har ett intresse i. Lag (2019:288).",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-6",
+          "number": 6,
+          "text": "Kapitlet gäller inte beslut om transaktioner som är en del av bolagets löpande verksamhet och som genomförs på marknadsmässiga villkor. Styrelsen ska ha rutiner för att fortlöpande bedöma om en transaktion är av det slag som anges i första stycket. Lag (2019:288). Beslutsordning",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-7",
+          "number": 7,
+          "text": "Styrelsen ska underställa bolagsstämman en väsentlig transaktion med en närstående till bolaget för godkännande. Till underlag för stämmans beslut ska styrelsen upprätta en redogörelse för transaktionen. Av redogörelsen ska villkoren för transaktionen framgå, i den utsträckning som krävs för att stämman ska kunna ta ställning till förslaget. Redogörelsen ska alltid innehålla information om 1. vilken relation bolaget har till den närstående, 2. namnet på den närstående, 3. datumet för transaktionen, och 4. det värde transaktionen avser. Redogörelsen ska hållas tillgänglig på bolagets webbplats under minst tre veckor fram till och med dagen för stämman. Redogörelsen ska vidare läggas fram på stämman. Lag (2019:288).",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-8",
+          "number": 8,
+          "text": "Vid bolagsstämmans beslut i fråga om godkännande av en transaktion ska aktier som innehas av den närstående inte beaktas. Inte heller ska aktier som innehas av ett annat företag i samma koncern som den närstående beaktas. Med koncern likställs i detta sammanhang annan företagsgrupp av motsvarande slag. Lag (2019:288). Vissa transaktioner i dotterbolag",
+          "references": []
+        },
+        {
+          "id": "kap-16a-§-9",
+          "number": 9,
+          "text": "När ett helägt svenskt dotterbolag till ett aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska besluta om en väsentlig transaktion med en närstående till moderbolaget ska styrelsen underställa bolagsstämman transaktionen för godkännande. Bestämmel-serna i 7 och 8 §§ gäller inte. Transaktionen anses vara väsentlig om den ensam, eller sammantagen med andra transaktioner som dotterbolaget och moderbolaget har genomfört med samma närstående under det senaste året, avser ett värde som är minst en miljon kronor och motsvarar minst en procent av koncernens värde. En väsentlig transaktion enligt första stycket ska även underställas bolagsstämman i moderbolaget för godkännande. Vid prövningen i moderbolaget ska beslutsordningen i 7 och 8 §§ gälla. Lag (2019:288).",
+          "references": [
+            "8 §§"
+          ]
+        },
+        {
+          "id": "kap-16a-§-10",
+          "number": 10,
+          "text": "Regeringen eller den myndighet som regeringen bestämmer får meddela föreskrifter om 1. redogörelsen som ska lämnas till Finansinspektionen enligt 7 § tredje stycket, och 2. information om en godkänd väsentlig transaktion som ska lämnas till Finansinspektionen enligt 9 § tredje stycket. Lag (2026:631).",
+          "references": [
+            "7 §",
+            "9 §"
           ]
         }
       ]
@@ -4845,7 +4940,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-13",
           "number": 13,
-          "text": "Ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får, utöver det som följer av 5 §, förvärva egna aktier enligt bestämmelserna i 14 och 15 §§. Beslut om förvärv skall i så fall fattas med tillämpning av 18-29 §§. Om bolaget har förvärvat aktier i strid med 14 eller 15 § eller i strid med 17 kap. 3 eller 4 §, gäller bestämmelserna i 16 §. Lag (2007:566). Tillåtna förvärvsmetoder",
+          "text": "Ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet får, utöver det som följer av 5 §, förvärva egna aktier enligt bestämmelserna i 14 och 15 §§. Beslut om förvärv skall i så fall fattas med tillämpning av 18-29 §§. Om bolaget har förvärvat aktier i strid med 14 eller 15 § eller i strid med 17 kap. 3 eller 4 §, gäller bestämmelserna i 16 §. Lag (2007:566).",
           "references": [
             "15 §",
             "15 §§",
@@ -4858,7 +4953,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-14",
           "number": 14,
-          "text": "Förvärv som avses i 13 § får ske endast 1. på en reglerad marknad, 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen, eller 3. i enlighet med ett förvärvserbjudande som har riktats till samtliga aktieägare eller samtliga ägare till aktier av ett visst slag. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får förvärvas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566). Hur stor andel egna aktier som får förvärvas",
+          "text": "Förvärv som avses i 13 § får ske endast 1. på en reglerad marknad, 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen, eller 3. i enlighet med ett förvärvserbjudande som har riktats till samtliga aktieägare eller samtliga ägare till aktier av ett visst slag. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får förvärvas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566).",
           "references": [
             "13 §"
           ]
@@ -5019,7 +5114,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-32",
           "number": 32,
-          "text": "Ett publikt aktiebolag får överlåta egna aktier 1. på en reglerad marknad, eller 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får överlåtas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566).",
+          "text": "Ett publikt aktiebolag får överlåta egna aktier 1. på en reglerad marknad, eller 2. på en marknad motsvarande en reglerad marknad utanför Europeiska ekonomiska samarbetsområdet efter tillstånd av Finansinspektionen. Ett tillstånd enligt första stycket 2 skall ange på vilken marknad egna aktier får överlåtas samt under vilken tid tillståndet får utnyttjas. Tillstånd skall lämnas, om 1. det för verksamheten vid marknaden finns regler som motsvarar det som enligt lagen (2007:528) om värdepappersmarknaden gäller för verksamhet vid en reglerad marknad i Sverige, och 2. företaget som driver marknaden står under tillsyn av en myndighet eller något annat behörigt organ. Lag (2007:566). Överlåtelse av egna aktier på vissa handelsplatser",
           "references": []
         },
         {
@@ -5033,7 +5128,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-34",
           "number": 34,
-          "text": "Om bolagsstämman skall pröva en fråga om överlåtelse av egna aktier enligt 32 § eller om bemyndigande för styrelsen att fatta ett sådant beslut, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. Förslaget skall innehålla uppgifter om 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut om överlåtelse skall verkställas eller styrelsens bemyndigande får utnyttjas, 2 det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får överlåtas, 3. det lägsta pris som aktierna får överlåtas för, och 4. övriga villkor för överlåtelsen. Bestämmelserna i 13 kap. 9 § skall tillämpas i fråga om förslaget till beslut enligt första stycket. I kallelsen till den bolagsstämma som skall pröva förslaget skall förslagets huvudsakliga innehåll anges. Bolagsstämmans beslut skall innehålla de uppgifter som anges i andra stycket. Lag (2007:317). Överlåtelse av egna aktier som inte sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet",
+          "text": "Om bolagsstämman skall pröva en fråga om överlåtelse av egna aktier enligt 32 § eller om bemyndigande för styrelsen att fatta ett sådant beslut, skall styrelsen eller, om förslaget väcks av någon annan, förslagsställaren upprätta ett förslag till beslut. Förslaget skall innehålla uppgifter om 1. den tid, före nästa årsstämma, inom vilken bolagsstämmans beslut om överlåtelse skall verkställas eller styrelsens bemyndigande får utnyttjas, 2 det högsta antal aktier, i förekommande fall fördelat på aktieslag, som får överlåtas, 3. det lägsta pris som aktierna får överlåtas för, och 4. övriga villkor för överlåtelsen. Bestämmelserna i 13 kap. 9 § skall tillämpas i fråga om förslaget till beslut enligt första stycket. I kallelsen till den bolagsstämma som skall pröva förslaget skall förslagets huvudsakliga innehåll anges. Bolagsstämmans beslut skall innehålla de uppgifter som anges i andra stycket. Lag (2007:317). Överlåtelse av egna aktier som inte sker på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet Överlåtelse av egna aktier i andra fall",
           "references": [
             "13 kap. 9 §",
             "32 §",
@@ -5043,9 +5138,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-19-§-35",
           "number": 35,
-          "text": "Vid ett publikt aktiebolags överlåtelse av egna aktier på annat sätt än som anges i 32 § tillämpas 1. det som gäller vid nyemission av aktier enligt:",
+          "text": "Vid ett publikt aktiebolags överlåtelse av egna aktier på annat sätt än som anges i 32 § tillämpas 1. det som gäller vid nyemission av aktier enligt: 11 kap. 2 § första stycket om beslutanderätt, 11 kap. 5 § om emissionsbevis m.m., 11 kap. 8 § om registrering av teckningsrätter m.m. i avstämningsbolag, 11 kap. 9 § om försäljning av överskjutande teckningsrätter, 13 kap. 1 § första och andra styckena om företrädesrätt, 13 kap. 2 § om beslut att avvika från aktieägarnas företrädesrätt, 13 kap. 3 § om upprättande av förslag till beslut, 13 kap. 6 § om kompletterande information, 13 kap. 7 § om apportegendom och kvittning, 13 kap. 8 § om revisorsgranskning, 13 kap. 9 § om tillhandahållande av förslag till beslut m.m., 13 kap. 10 § om kallelsens innehåll, 13 kap. 12 § om underrättelse, 13 kap. 13 § om hur teckning ska ske, 13 kap. 18 § om tilldelning av aktier, 13 kap. 31 § första stycket om styrelsebeslut under förutsättning av bolagsstämmans godkännande, 13 kap. 35 § om styrelsebeslut enligt bolagsstämmans bemyndigande, 2. det som gäller vid nyemission eller överlåtelse av aktier enligt 16 kap., och 3. det som gäller om prospekt vid erbjudanden av värdepapper till allmänheten enligt Europaparlamentets och rådets förordning (EU) 2017/1129 av den 14 juni 2017 om prospekt som ska offentliggöras när värdepapper erbjuds till allmänheten eller tas upp till handel på en reglerad marknad, och om upphävande av direktiv 2003/71/EG. I fråga om styrelsebeslut under förutsättning av bolagsstämmans godkännande gäller 13 kap. 31 § andra stycket, 32 och 33 §§ i tillämpliga delar. I fråga om styrelsebeslut enligt bemyndigande av bolagsstämman gäller 13 kap. 36 och 38 §§ i tillämpliga delar. Lag (2019:418).",
           "references": [
-            "32 §"
+            "1 §",
+            "10 §",
+            "11 kap. 2 §",
+            "11 kap. 5 §",
+            "11 kap. 8 §",
+            "11 kap. 9 §",
+            "12 §",
+            "13 kap. 1 §",
+            "13 kap. 10 §",
+            "13 kap. 12 §"
           ]
         },
         {
@@ -6926,18 +7030,333 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-24-§-62",
           "number": 62,
-          "text": "Utöver det som anges i 18 och 42 §§ gäller följande. I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska delningsplanen med bifogade handlingar hållas tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst en månad eller, i ett fall som avses i 42 §, sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647). 24 a kap. Gränsöverskridande ombildning Vad en gränsöverskridande ombildning innebär 1 § Ett svenskt aktiebolag får ombildas till en motsvarande juridisk person som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige (gränsöverskridande ombildning). En gränsöverskridande ombildning sker genom att ett aktiebolag, utan att upplösas, överför sitt registrerade säte till en annan stat inom Europeiska ekonomiska samarbetsområdet och ombildas till ett bolag som omfattas av lagstiftningen i den staten. Lag (2022:1647). Begränsningar i rätten att genomföra en gränsöverskridande ombildning 2 § Ett aktiebolag får inte genomföra en gränsöverskridande ombildning, om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §, eller 4. är i likvidation på annan grund och skifte av bolagets tillgångar har påbörjats. Lag (2022:1647). Särskilda rättighetshavares ställning 3 § Innehavare av teckningsoptioner, konvertibler eller andra värdepapper med särskilda rättigheter i det bolag som ska ombildas ska ha minst motsvarande rättigheter i det ombildade bolaget. Detta gäller dock inte om innehavarna enligt ombildningsplanen har rätt att få sina värdepapper inlösta av bolaget. Lag (2022:1647). Ombildningsplan 4 § Styrelsen i det bolag som ska ombildas ska upprätta en plan för ombildningen. Planen ska undertecknas av styrelsen. Lag (2022:1647). 5 § En ombildningsplan ska innehålla uppgifter om 1. form, företagsnamn och säte för det bolag som ska ombildas, 2. form, företagsnamn och säte för bolaget efter ombildning, 3. den föreslagna tidsplanen för ombildningen, 4. vilka rättigheter i bolaget efter ombildning som ska tillkomma innehavare av särskilda rättigheter i aktiebolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för innehavarna, 5. arvode och andra särskilda förmåner som ska lämnas till en styrelseledamot eller verkställande direktör, 6. eventuella stimulansåtgärder som bolaget har varit föremål för eller subventioner som bolaget har mottagit under de senaste fem åren, 7. den rätt till inlösen som aktieägare har enligt 34 § och på vilket sätt den ska utövas, med uppgift om inlösenbelopp och om den elektroniska adress som inlösenanmälan ska skickas till, och 8. ombildningens sannolika följder för sysselsättningen. Ombildningsplanen ska också innehålla uppgifter om 1. de säkerheter som bolagets borgenärer erbjuds, i de fall de erbjuds sådana säkerheter, och 2. hur arbetstagarna deltar i den process som leder fram till beslut om formerna för arbetstagarnas medverkan i det ombildade bolaget, om en sådan process ska genomföras. Till ombildningsplanen ska, i förekommande fall, bifogas den handling som utgör stiftelseurkund för det ombildade bolaget samt bolagsordningen för det ombildade bolaget. Lag (2022:1647). Styrelsens redogörelse 6 § Styrelsen i det bolag som ska ombildas ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om ombildningen är lämplig för bolaget. I redogörelsen ska det ingå en beskrivning av ombildningens konsekvenser för bolagets framtida verksamhet och för dess borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 7 § och ett avsnitt med information för arbetstagarna enligt 8 §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 7 § andra stycket och 8 § andra stycket att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647). 7 § I avsnittet med information för aktieägarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för aktieägarna, 2. inlösenbeloppet vid inlösen enligt 34 § och den metod som har använts för att bestämma det, 3. hur en aktieägare ska göra för att utöva sin rätt till inlösen enligt 35 § och till ytterligare ersättning enligt 36 §. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647). 8 § I avsnittet med information för arbetstagarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning 9 § Ombildningsplanen och styrelsens redogörelse ska granskas av en eller flera revisorer. Granskningen ska vara så omfattande och ingående som god revisionssed kräver. Revisorn eller revisorerna ska upprätta ett yttrande över granskningen. Revisorsyttrandet ska bifogas ombildningsplanen. Det ska innehålla ett utlåtande om huruvida styrelsens redogörelse är komplett och uppfyller de krav som framgår av 6-8 §§. Revisorsyttrandet ska innehålla även ett utlåtande om huruvida det erbjudna inlösenbeloppet är lämpligt. Uppgifter ska också lämnas om 1. den eller de metoder som har använts för att fastställa inlösenbeloppet, 2. huruvida de använda metoderna är lämpliga för att fastställa inlösenbeloppet, och 3. särskilda svårigheter vid värderingen, om det har uppkommit några. Första och andra styckena behöver inte tillämpas om samtliga aktieägare i det bolag som ska ombildas har samtyckt till det. Lag (2022:1647). 10 § En revisor som avses i 9 § ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte något annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte utses, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt 9 § gäller 9 kap. 40, 45 och 46 §§. Lag (2022:1647). 11 § Styrelsen, den verkställande direktören och revisorn i det bolag som ska ombildas ska ge varje revisor som utför granskning enligt 9 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig och lämna de upplysningar och den hjälp som en sådan revisor begär. Samma skyldighet har en revisor som utför granskning enligt 9 § mot övriga sådana revisorer. Lag (2022:1647). Meddelande om att synpunkter får lämnas 12 § Till ombildningsplanen ska det bifogas ett meddelande med information till bolagets aktieägare, borgenärer och arbetstagarföreträdare eller, om sådana företrädare inte finns, arbetstagarna själva om att de får lämna synpunkter på planen till bolaget. I meddelandet ska det anges att synpunkterna får lämnas senast på den femte arbetsdagen före dagen för den bolagsstämma som ska ta ställning till ombildningsplanen. Lag (2022:1647). Registrering av ombildningsplanen 13 § Det bolag som ska ombildas ska ge in ombildningsplanen med bifogade handlingar till Bolagsverket för registrering i aktiebolagsregistret. En uppgift om registreringen ska kungöras enligt 27 kap. 3 §. Kungörelsen ska innehålla de uppgifter som avses i andra stycket 1-3. I kungörelsen ska det också lämnas uppgift om var planen hålls tillgänglig, om den inte kungörs i sin helhet. I anmälan om registrering ska det lämnas uppgifter om 1. form, företagsnamn och säte för bolaget, 2. det register där bolaget är registrerat och det nummer som används för identifiering i registret, 3. hur borgenärer och aktieägare ska göra för att utöva sina rättigheter samt de adresser där de kostnadsfritt kan få fullständig information om detta, och 4. bolagets adress. I 31 kap. 25 a § offentlighets- och sekretesslagen (2009:400) finns det bestämmelser om sekretess för uppgifter i ett yttrande som en revisor lämnar enligt 9 §. Lag (2022:1647). 14 § Om ombildningsplanen eller de handlingar som är bifogade planen är skrivna på något annat språk än svenska, ska den som lämnar in planen även ge in en översättning till svenska. Översättningen ska vara gjord av en översättare som är auktoriserad eller har motsvarande utländska behörighet. Bolagsverket får medge att någon översättning inte ges in. Lag (2022:1647). Tillhandahållande av ombildningsplanen 15 § Styrelsen ska hålla ombildningsplanen med bifogade handlingar och styrelsens redogörelse enligt 6 § tillgängliga för aktieägarna och för arbetstagarnas företrädare eller, om sådana företrädare inte finns, för arbetstagarna själva. Handlingarna ska hållas tillgängliga på bolagets webbplats eller med något annat likvärdigt elektroniskt hjälpmedel under minst sex veckor före den bolagsstämma där frågan om att godkänna ombildningsplanen ska behandlas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. I 39 § finns det ytterligare bestämmelser för publika aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2022:1647). 16 § De synpunkter som har lämnats med anledning av meddelandet enligt 12 § ska läggas fram på en sådan bolagsstämma som avses i 17 §. Lag (2022:1647). Bolagsstämmans prövning av ombildningsplanen 17 § Ombildningsplanen ska läggas fram för att godkännas av bolagsstämman. Stämman får hållas tidigast en månad efter det att en uppgift om att ombildningsplanen har registrerats har kungjorts enligt 27 kap. 3 §. Lag (2022:1647). Ändringar i bolagsordningen 18 § Vid den bolagsstämma som godkänner ombildningsplanen ska det också beslutas om det innehåll som bolagsordningen ska ha efter ombildningen. Lag (2022:1647). Villkorat beslut om godkännande av ombildningsplanen 19 § Bolagsstämman i det bolag som ska ombildas får villkora beslutet att godkänna ombildningsplanen med att en senare stämma godkänner de former som beslutas för arbetstagarnas medverkan i det ombildade bolaget. Lag (2022:1647). Majoritetskrav 20 § Ett bolagsstämmobeslut om godkännande av ombildningsplanen är giltigt endast om det har biträtts av aktieägare med minst två tredjedelar såväl av de avgivna rösterna som av de aktier som är företrädda vid stämman. Om det finns aktier av olika slag i bolaget tillämpas första stycket även inom varje aktieslag som är företrätt vid stämman. Lag (2022:1647). Underrättelse till bolagets kända borgenärer 21 § När ombildningsplanen har blivit gällande i bolaget ska bolaget skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna ska innehålla en uppgift om att bolaget avser att ansöka om tillstånd att verkställa ombildningsplanen och en uppgift om borgenärernas rätt att motsätta sig att planen verkställs. Någon underrättelse behöver inte skickas till borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Lag (2022:1647). Ansökan om tillstånd att verkställa ombildningsplanen 22 § Det bolag som ska ombildas ska ansöka om tillstånd att verkställa ombildningsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att ombildningsplanen har blivit gällande i bolaget och senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av ombildningsplanen med de handlingar som är bifogade till den, 2. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 3. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 12 §, 4. en kopia av protokollet från den bolagsstämma som avses i 17 §, 5. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig, och 6. intyg från bolagets styrelse eller verkställande direktör om att bolagets kända borgenärer har underrättats enligt 21 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647). 23 § Bolagsverket ska avslå en ansökan enligt 22 § om 1. ombildningsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller någon annan författning eller mot bolagsordningen, 2. det enligt 2 § finns hinder mot att bolaget genomför en gränsöverskridande ombildning, 3. ombildningen genomförs för otillbörliga eller bedrägliga ändamål som leder till att unionsrätten eller nationell rätt undgås eller kringgås eller som syftar till detta, eller för brottsliga ändamål, eller 4. ombildningen förutsätter ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, men något sådant förfarande inte har inletts. Lag (2022:1647). 24 § Om det vid handläggningen av en ansökan enligt 22 § uppkommer en fråga som kräver särskild fackkunskap, får Bolagsverket förordna en lämplig person som sakkunnig. Den sakkunniga ska vara oberoende av bolaget och får inte ha någon intressekonflikt med det. Den sakkunniga ska utföra sitt arbete opartiskt och objektivt. Sökanden ska ersätta Bolagsverket för dess kostnader för den sakkunniga. Bolagsverket ska fatta beslut om det belopp som sökanden ska betala. Av beslutet ska det framgå när beloppet ska betalas och vad kostnaderna avser. Om ett belopp som har beslutats inte betalas i rätt tid, ska fordran lämnas för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2022:1647). Kallelse på bolagets borgenärer 25 § Bolagsverket ska kalla bolagets borgenärer, om verket finner att det inte finns något hinder mot en ansökan enligt 22 §. Verket ska dock inte kalla borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla ett föreläggande för den som vill motsätta sig ansökan att senast en viss dag anmäla detta skriftligen. Denna dag får bestämmas till en dag som infaller tidigast tre månader efter registreringen av ombildningsplanen enligt 13 §. Föreläggandet ska innehålla en upplysning om att borgenären, om han eller hon inte motsätter sig ansökan, ska anses ha medgett den. Bolagsverket ska så snart som möjligt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2022:1647). När Bolagsverket ska lämna tillstånd att verkställa ombildningsplanen 26 § Om inte någon av de borgenärer som har kallats enligt 25 § motsätter sig ansökan inom utsatt tid, ska Bolagsverket ge bolaget tillstånd att verkställa ombildningsplanen. Motsätter sig någon borgenär ansökan, ska verket överlämna ärendet till tingsrätten på den ort där styrelsen i bolaget har sitt säte. Lag (2022:1647). När allmän domstol ska lämna tillstånd att verkställa ombildningsplanen 27 § Om Bolagsverket med stöd av 26 § har överlämnat ett ärende om tillstånd att verkställa en ombildningsplan till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att ombildningen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa ombildningsplanen. Lag (2022:1647). Utfärdande av ombildningsintyg 28 § När Bolagsverket har gett tillstånd att verkställa ombildningsplanen enligt 26 § eller när en domstol, genom ett beslut som har fått laga kraft, har gett tillstånd att verkställa ombildningsplanen enligt 27 §, ska Bolagsverket för bolaget utfärda ett intyg om att den del av förfarandet som regleras av svensk lag har genomförts på föreskrivet sätt (ombildningsintyg). Ett ombildningsintyg får dock inte utfärdas om det har väckts talan mot bolagsstämmans beslut att godkänna ombildningsplanen och målet inte har avgjorts slutligt. Ett ombildningsintyg ska utfärdas inom tre månader från dagen för ansökan om tillstånd att verkställa ombildningsplanen. Om det på grund av ärendets komplexitet eller annars finns särskilda skäl för en längre handläggningstid får tremånadersfristen överskridas. Om tremånadersfristen inte kan hållas, ska sökanden underrättas om skälen för detta. Ombildningsintyget ska tillhandahållas den behöriga myndigheten i den stat där bolaget efter ombildningen ska ha sitt registrerade säte. Lag (2022:1647). Registrering av en ombildning av ett svenskt aktiebolag 29 § Inför registreringen av ombildningen ska bolaget ge in en kopia av ombildningsplanen till den behöriga myndigheten i den stat där bolaget ska ha sitt säte. Handlingen ska ges in inom sex månader från den dag då ombildningsintyget utfärdades. Efter underrättelse från den behöriga utländska myndigheten om att ombildningen har ägt rum, ska Bolagsverket föra in uppgifter om ombildningen och om datum för registreringen i aktiebolagsregistret. Lag (2022:1647). Anmälan för registrering vid en ombildning av en utländsk juridisk person 30 § Om en utländsk juridisk person efter ombildning ska utgöra ett svenskt aktiebolag, ska styrelsen eller motsvarande förvaltnings- eller ledningsorgan i det bolag som ska ombildas anmäla ombildningen för registrering hos Bolagsverket inom sex månader från den dag då ombildningsintyget utfärdades. Anmälan ska innehålla uppgifter om vilka som har utsetts till styrelseledamöter och, i förekommande fall, revisorer och styrelsesuppleanter i det ombildade bolaget. Till anmälan ska följande handlingar bifogas: 1. en kopia av ombildningsplanen, 2. ett yttrande från en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag eller en motsvarande oberoende sakkunnig som har godkänts av en utländsk behörig myndighet i den stat där det bolag som ska ombildas har sin hemvist, av vilket det framgår att det finns täckning för det aktiekapital som ska registreras för det svenska aktiebolaget. Lag (2022:1647). Bolagsverkets kontroll och registrering vid en ombildning av en utländsk juridisk person 31 § Bolagsverket får registrera en ombildning enligt 30 § endast om 1. verket har fått del av ett ombildningsintyg, 2. det bolag som ska ombildas har gett in de uppgifter och handlingar som avses i 30 §, 3. bolagsordningen är förenlig med denna lag och andra författningar, 4. det aktiekapital som ska registreras för bolaget uppfyller kraven i 1 kap. 4 och 5 §§, och 5. det inte heller finns något hinder mot registrering. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får ombildningen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta den behöriga myndigheten i den stat där det bolag som ska ombildas har sin hemvist om registreringen. Lag (2022:1647). Ombildningens rättsverkningar 32 § Vid ombildningen uppkommer följande rättsverkningar. 1. Det ombildade bolaget får sitt registrerade säte i en annan medlemsstat och får en ändrad rättslig form enligt lagstiftningen i den staten. 2. Bolagets tillgångar och skulder övergår till att vara det ombildade bolagets tillgångar och skulder. 3. Aktieägare i bolaget fortsätter att vara aktieägare i det ombildade bolaget, om de inte utnyttjar sin rätt enligt 34 § till inlösen. 4. Bolagets rättigheter och skyldigheter som härrör från anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande ombildningen får verkan övergår till att vara det ombildade bolagets rättigheter och skyldigheter. Rättsverkningarna uppkommer vid den tidpunkt som har fastställts i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist. Om bolaget ska ha sin hemvist i Sverige, uppkommer rättsverkningarna vid den tidpunkt då ombildningen registreras enligt 31 § i aktiebolagsregistret. Lag (2022:1647). Frågan om ombildning faller 33 § Bolagsverket ska förklara att frågan om ombildning har fallit, om 1. ansökan enligt 22 § om tillstånd att verkställa ombildningsplanen inte har gjorts inom föreskriven tid eller ansökan har avslagits genom ett beslut som har fått laga kraft, 2. anmälan enligt 30 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har fått laga kraft har avskrivit ett ärende enligt 30 § om registrering eller har vägrat registrering enligt 31 §. Lag (2022:1647). Aktieägares rätt till inlösen 34 § En aktieägare i ett bolag som ska ombildas har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i ombildningsplanen, om aktieägaren vid bolagsstämman har röstat mot att godkänna ombildningsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av ombildningsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som har angetts i ombildningsplanen enligt 5 § första stycket 7. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Inlösenbeloppet ska betalas inom två månader från den dag då ombildningen fick verkan enligt 32 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning 35 § Om det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt och detta får till följd att en aktieägare som har utnyttjat sin rätt till inlösen enligt 34 § blir otillräckligt kompenserad, har denna aktieägare rätt till ytterligare ersättning. En aktieägare som vill ha ersättning enligt första stycket får väcka talan mot bolaget. En sådan talan ska väckas inom tre månader från dagen för bolagsstämmans beslut att godkänna ombildningsplanen. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. Lag (2022:1647). 36 § Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en ombildningsplan får inte som omständigheter till grund för talan åberopa att det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats om inlösenbeloppet inte uppfyller lagens krav. Lag (2022:1647). Borgenärers rätt att väcka talan i Sverige efter det att ombildningen fått verkan 37 § Den som har en fordran på ett svenskt aktiebolag som har ombildats enligt detta kapitel får väcka talan mot det ombildade bolaget vid rätten i den ort där styrelsen hade sitt säte före ombildningen, om fordran uppkom innan uppgiften om registrering av ombildningsplanen kungjordes enligt 13 § första stycket. Om talan inte väcks inom två år från den tidpunkt då ombildningen fick verkan i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist, är rätten att väcka talan med stöd av första stycket förlorad. Lag (2022:1647). Ogiltighet 38 § En talan om att ett bolagsstämmobeslut om att godkänna en ombildningsplan ska upphävas ska i de fall som avses i 7 kap. 51 § andra stycket väckas inom sex månader från beslutet. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. I fråga om ett beslut att godkänna en ombildningsplan gäller, utöver det som sägs i 7 kap. 51 § första stycket och i första stycket denna paragraf, att talan inte får väckas efter det att Bolagsverket, eller en domstol genom ett beslut som har fått laga kraft, har lämnat tillstånd enligt 26 eller 27 § att verkställa ombildningsplanen. Lag (2022:1647). Särskilda bestämmelser om tillhandahållande av ombildningsplanen i vissa publika aktiebolag 39 § Utöver det som anges i 15 § första stycket andra meningen gäller att ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska hålla ombildningsplanen med bifogade handlingar tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647).",
+          "text": "Utöver det som anges i 18 och 42 §§ gäller följande. I ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska delningsplanen med bifogade handlingar hållas tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst en månad eller, i ett fall som avses i 42 §, sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647).",
+          "references": [
+            "42 §",
+            "42 §§"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap-24a",
+      "number": 24,
+      "numberSuffix": "a",
+      "title": "Gränsöverskridande ombildning",
+      "sections": [
+        {
+          "id": "kap-24a-§-1",
+          "number": 1,
+          "text": "Ett svenskt aktiebolag får ombildas till en motsvarande juridisk person som omfattas av lagstiftningen i en annan stat inom Europeiska ekonomiska samarbetsområdet än Sverige (gränsöverskridande ombildning). En gränsöverskridande ombildning sker genom att ett aktiebolag, utan att upplösas, överför sitt registrerade säte till en annan stat inom Europeiska ekonomiska samarbetsområdet och ombildas till ett bolag som omfattas av lagstiftningen i den staten. Lag (2022:1647). Begränsningar i rätten att genomföra en gränsöverskridande ombildning",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-2",
+          "number": 2,
+          "text": "Ett aktiebolag får inte genomföra en gränsöverskridande ombildning, om det 1. är i konkurs, 2. genomgår företagsrekonstruktion, 3. är i likvidation på grund av ett beslut enligt 25 kap. 11, 12 eller 17 §, eller 4. är i likvidation på annan grund och skifte av bolagets tillgångar har påbörjats. Lag (2022:1647). Särskilda rättighetshavares ställning",
+          "references": [
+            "17 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-3",
+          "number": 3,
+          "text": "Innehavare av teckningsoptioner, konvertibler eller andra värdepapper med särskilda rättigheter i det bolag som ska ombildas ska ha minst motsvarande rättigheter i det ombildade bolaget. Detta gäller dock inte om innehavarna enligt ombildningsplanen har rätt att få sina värdepapper inlösta av bolaget. Lag (2022:1647). Ombildningsplan",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-4",
+          "number": 4,
+          "text": "Styrelsen i det bolag som ska ombildas ska upprätta en plan för ombildningen. Planen ska undertecknas av styrelsen. Lag (2022:1647).",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-5",
+          "number": 5,
+          "text": "En ombildningsplan ska innehålla uppgifter om 1. form, företagsnamn och säte för det bolag som ska ombildas, 2. form, företagsnamn och säte för bolaget efter ombildning, 3. den föreslagna tidsplanen för ombildningen, 4. vilka rättigheter i bolaget efter ombildning som ska tillkomma innehavare av särskilda rättigheter i aktiebolaget eller vilka åtgärder som i övrigt ska vidtas till förmån för innehavarna, 5. arvode och andra särskilda förmåner som ska lämnas till en styrelseledamot eller verkställande direktör, 6. eventuella stimulansåtgärder som bolaget har varit föremål för eller subventioner som bolaget har mottagit under de senaste fem åren, 7. den rätt till inlösen som aktieägare har enligt 34 § och på vilket sätt den ska utövas, med uppgift om inlösenbelopp och om den elektroniska adress som inlösenanmälan ska skickas till, och 8. ombildningens sannolika följder för sysselsättningen. Ombildningsplanen ska också innehålla uppgifter om 1. de säkerheter som bolagets borgenärer erbjuds, i de fall de erbjuds sådana säkerheter, och 2. hur arbetstagarna deltar i den process som leder fram till beslut om formerna för arbetstagarnas medverkan i det ombildade bolaget, om en sådan process ska genomföras. Till ombildningsplanen ska, i förekommande fall, bifogas den handling som utgör stiftelseurkund för det ombildade bolaget samt bolagsordningen för det ombildade bolaget. Lag (2022:1647). Styrelsens redogörelse",
+          "references": [
+            "34 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-6",
+          "number": 6,
+          "text": "Styrelsen i det bolag som ska ombildas ska upprätta en redogörelse för de omständigheter som kan vara av vikt vid bedömningen av om ombildningen är lämplig för bolaget. I redogörelsen ska det ingå en beskrivning av ombildningens konsekvenser för bolagets framtida verksamhet och för dess borgenärer. I redogörelsen ska det även ingå ett avsnitt med information för aktieägarna enligt 7 § och ett avsnitt med information för arbetstagarna enligt 8 §. I stället för att upprätta en enda redogörelse får styrelsen upprätta två separata redogörelser för aktieägarna respektive arbetstagarna. Styrelsen behöver inte upprätta någon redogörelse alls om det följer av 7 § andra stycket och 8 § andra stycket att det varken behöver upprättas ett avsnitt för aktieägarna eller ett avsnitt för arbetstagarna. Om styrelsen i god tid får ett yttrande från arbetstagarnas företrädare eller, om sådana företrädare inte finns, från arbetstagarna själva, ska detta yttrande bifogas redogörelsen. Styrelsen ska informera aktieägarna om yttrandet oavsett om det upprättas en redogörelse eller inte. Lag (2022:1647).",
+          "references": [
+            "7 §",
+            "8 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-7",
+          "number": 7,
+          "text": "I avsnittet med information för aktieägarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för aktieägarna, 2. inlösenbeloppet vid inlösen enligt 34 § och den metod som har använts för att bestämma det, 3. hur en aktieägare ska göra för att utöva sin rätt till inlösen enligt 35 § och till ytterligare ersättning enligt 36 §. Något avsnitt med information för aktieägarna krävs inte om samtliga aktieägare i bolaget samtycker till att något sådant avsnitt inte ska upprättas. Lag (2022:1647).",
+          "references": [
+            "34 §",
+            "35 §",
+            "36 §",
+            "6 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-8",
+          "number": 8,
+          "text": "I avsnittet med information för arbetstagarna enligt 6 § andra stycket ska styrelsen beskriva 1. ombildningens konsekvenser för anställningsförhållandena och eventuella åtgärder som vidtas till skydd för förhållanden, 2. väsentliga ändringar av anställningsvillkoren eller av platserna för bolagets verksamhet, och 3. de förhållanden som anges i 1 och 2 i fråga om eventuella dotterföretag. Något avsnitt med information för arbetstagarna krävs inte om samtliga arbetstagare ingår i bolagets styrelse. Lag (2022:1647). Revisorsgranskning",
+          "references": [
+            "6 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-9",
+          "number": 9,
+          "text": "Ombildningsplanen och styrelsens redogörelse ska granskas av en eller flera revisorer. Granskningen ska vara så omfattande och ingående som god revisionssed kräver. Revisorn eller revisorerna ska upprätta ett yttrande över granskningen. Revisorsyttrandet ska bifogas ombildningsplanen. Det ska innehålla ett utlåtande om huruvida styrelsens redogörelse är komplett och uppfyller de krav som framgår av 6-8 §§. Revisorsyttrandet ska innehålla även ett utlåtande om huruvida det erbjudna inlösenbeloppet är lämpligt. Uppgifter ska också lämnas om 1. den eller de metoder som har använts för att fastställa inlösenbeloppet, 2. huruvida de använda metoderna är lämpliga för att fastställa inlösenbeloppet, och 3. särskilda svårigheter vid värderingen, om det har uppkommit några. Första och andra styckena behöver inte tillämpas om samtliga aktieägare i det bolag som ska ombildas har samtyckt till det. Lag (2022:1647).",
+          "references": [
+            "6-8 §§"
+          ]
+        },
+        {
+          "id": "kap-24a-§-10",
+          "number": 10,
+          "text": "En revisor som avses i 9 § ska vara en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag. Om inte något annat framgår av bolagsordningen, ska revisorn utses av bolagsstämman. Om någon särskild revisor inte utses, ska granskningen i stället utföras av bolagets revisor. För en revisor som har utsetts att utföra granskning enligt 9 § gäller 9 kap. 40, 45 och 46 §§. Lag (2022:1647).",
+          "references": [
+            "46 §§",
+            "9 kap. 40, 45 och 46 §§",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-11",
+          "number": 11,
+          "text": "Styrelsen, den verkställande direktören och revisorn i det bolag som ska ombildas ska ge varje revisor som utför granskning enligt 9 § tillfälle att verkställa granskningen i den omfattning som denne anser vara nödvändig och lämna de upplysningar och den hjälp som en sådan revisor begär. Samma skyldighet har en revisor som utför granskning enligt 9 § mot övriga sådana revisorer. Lag (2022:1647). Meddelande om att synpunkter får lämnas",
+          "references": [
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-12",
+          "number": 12,
+          "text": "Till ombildningsplanen ska det bifogas ett meddelande med information till bolagets aktieägare, borgenärer och arbetstagarföreträdare eller, om sådana företrädare inte finns, arbetstagarna själva om att de får lämna synpunkter på planen till bolaget. I meddelandet ska det anges att synpunkterna får lämnas senast på den femte arbetsdagen före dagen för den bolagsstämma som ska ta ställning till ombildningsplanen. Lag (2022:1647). Registrering av ombildningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-13",
+          "number": 13,
+          "text": "Det bolag som ska ombildas ska ge in ombildningsplanen med bifogade handlingar till Bolagsverket för registrering i aktiebolagsregistret. En uppgift om registreringen ska kungöras enligt 27 kap. 3 §. Kungörelsen ska innehålla de uppgifter som avses i andra stycket 1-3. I kungörelsen ska det också lämnas uppgift om var planen hålls tillgänglig, om den inte kungörs i sin helhet. I anmälan om registrering ska det lämnas uppgifter om 1. form, företagsnamn och säte för bolaget, 2. det register där bolaget är registrerat och det nummer som används för identifiering i registret, 3. hur borgenärer och aktieägare ska göra för att utöva sina rättigheter samt de adresser där de kostnadsfritt kan få fullständig information om detta, och 4. bolagets adress. I 31 kap. 25 a § offentlighets- och sekretesslagen (2009:400) finns det bestämmelser om sekretess för uppgifter i ett yttrande som en revisor lämnar enligt 9 §. Lag (2022:1647).",
+          "references": [
+            "27 kap. 3 §",
+            "3 §",
+            "9 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-14",
+          "number": 14,
+          "text": "Om ombildningsplanen eller de handlingar som är bifogade planen är skrivna på något annat språk än svenska, ska den som lämnar in planen även ge in en översättning till svenska. Översättningen ska vara gjord av en översättare som är auktoriserad eller har motsvarande utländska behörighet. Bolagsverket får medge att någon översättning inte ges in. Lag (2022:1647). Tillhandahållande av ombildningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-15",
+          "number": 15,
+          "text": "Styrelsen ska hålla ombildningsplanen med bifogade handlingar och styrelsens redogörelse enligt 6 § tillgängliga för aktieägarna och för arbetstagarnas företrädare eller, om sådana företrädare inte finns, för arbetstagarna själva. Handlingarna ska hållas tillgängliga på bolagets webbplats eller med något annat likvärdigt elektroniskt hjälpmedel under minst sex veckor före den bolagsstämma där frågan om att godkänna ombildningsplanen ska behandlas. Kopior av handlingarna ska genast och utan kostnad för mottagaren sändas till de aktieägare som begär det och uppger sin postadress. I 39 § finns det ytterligare bestämmelser för publika aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet. Lag (2022:1647).",
+          "references": [
+            "39 §",
+            "6 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-16",
+          "number": 16,
+          "text": "De synpunkter som har lämnats med anledning av meddelandet enligt 12 § ska läggas fram på en sådan bolagsstämma som avses i 17 §. Lag (2022:1647). Bolagsstämmans prövning av ombildningsplanen",
+          "references": [
+            "12 §",
+            "17 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-17",
+          "number": 17,
+          "text": "Ombildningsplanen ska läggas fram för att godkännas av bolagsstämman. Stämman får hållas tidigast en månad efter det att en uppgift om att ombildningsplanen har registrerats har kungjorts enligt 27 kap. 3 §. Lag (2022:1647). Ändringar i bolagsordningen",
+          "references": [
+            "27 kap. 3 §",
+            "3 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-18",
+          "number": 18,
+          "text": "Vid den bolagsstämma som godkänner ombildningsplanen ska det också beslutas om det innehåll som bolagsordningen ska ha efter ombildningen. Lag (2022:1647). Villkorat beslut om godkännande av ombildningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-19",
+          "number": 19,
+          "text": "Bolagsstämman i det bolag som ska ombildas får villkora beslutet att godkänna ombildningsplanen med att en senare stämma godkänner de former som beslutas för arbetstagarnas medverkan i det ombildade bolaget. Lag (2022:1647). Majoritetskrav",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-20",
+          "number": 20,
+          "text": "Ett bolagsstämmobeslut om godkännande av ombildningsplanen är giltigt endast om det har biträtts av aktieägare med minst två tredjedelar såväl av de avgivna rösterna som av de aktier som är företrädda vid stämman. Om det finns aktier av olika slag i bolaget tillämpas första stycket även inom varje aktieslag som är företrätt vid stämman. Lag (2022:1647). Underrättelse till bolagets kända borgenärer",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-21",
+          "number": 21,
+          "text": "När ombildningsplanen har blivit gällande i bolaget ska bolaget skriftligen underrätta sina kända borgenärer om beslutet. Underrättelserna ska innehålla en uppgift om att bolaget avser att ansöka om tillstånd att verkställa ombildningsplanen och en uppgift om borgenärernas rätt att motsätta sig att planen verkställs. Någon underrättelse behöver inte skickas till borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Lag (2022:1647). Ansökan om tillstånd att verkställa ombildningsplanen",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-22",
+          "number": 22,
+          "text": "Det bolag som ska ombildas ska ansöka om tillstånd att verkställa ombildningsplanen. Ansökan ska göras hos Bolagsverket. Den ska ges in inom en månad efter det att ombildningsplanen har blivit gällande i bolaget och senast två år efter det att en uppgift om att planen har registrerats har kungjorts. Följande handlingar ska bifogas ansökan: 1. en kopia av ombildningsplanen med de handlingar som är bifogade till den, 2. en kopia av styrelsens redogörelse med eventuellt yttrande från arbetstagarna eller deras företrädare, 3. en kopia av handlingar med synpunkter som bolagets intressenter har lämnat med anledning av ett meddelande enligt 12 §, 4. en kopia av protokollet från den bolagsstämma som avses i 17 §, 5. en handling med information om att det har inletts ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, under förutsättning att den lagen är tillämplig, och 6. intyg från bolagets styrelse eller verkställande direktör om att bolagets kända borgenärer har underrättats enligt 21 §. Om sökanden inte har bifogat handlingarna ska Bolagsverket förelägga sökanden att avhjälpa bristen. Ansökan ska avvisas om sökanden inte gör det. Bolagsverket får förelägga sökanden att lämna de ytterligare uppgifter som verket behöver för sin prövning. Lag (2022:1647).",
+          "references": [
+            "12 §",
+            "17 §",
+            "21 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-23",
+          "number": 23,
+          "text": "Bolagsverket ska avslå en ansökan enligt 22 § om 1. ombildningsplanen inte har godkänts i behörig ordning eller till sitt innehåll strider mot lag eller någon annan författning eller mot bolagsordningen, 2. det enligt 2 § finns hinder mot att bolaget genomför en gränsöverskridande ombildning, 3. ombildningen genomförs för otillbörliga eller bedrägliga ändamål som leder till att unionsrätten eller nationell rätt undgås eller kringgås eller som syftar till detta, eller för brottsliga ändamål, eller 4. ombildningen förutsätter ett förfarande enligt lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar, men något sådant förfarande inte har inletts. Lag (2022:1647).",
+          "references": [
+            "2 §",
+            "22 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-24",
+          "number": 24,
+          "text": "Om det vid handläggningen av en ansökan enligt 22 § uppkommer en fråga som kräver särskild fackkunskap, får Bolagsverket förordna en lämplig person som sakkunnig. Den sakkunniga ska vara oberoende av bolaget och får inte ha någon intressekonflikt med det. Den sakkunniga ska utföra sitt arbete opartiskt och objektivt. Sökanden ska ersätta Bolagsverket för dess kostnader för den sakkunniga. Bolagsverket ska fatta beslut om det belopp som sökanden ska betala. Av beslutet ska det framgå när beloppet ska betalas och vad kostnaderna avser. Om ett belopp som har beslutats inte betalas i rätt tid, ska fordran lämnas för indrivning. Bestämmelser om indrivning finns i lagen (1993:891) om indrivning av statliga fordringar m.m. Lag (2022:1647). Kallelse på bolagets borgenärer",
+          "references": [
+            "22 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-25",
+          "number": 25,
+          "text": "Bolagsverket ska kalla bolagets borgenärer, om verket finner att det inte finns något hinder mot en ansökan enligt 22 §. Verket ska dock inte kalla borgenärer vars anspråk avser en fordran på lön, pension eller någon annan ersättning som omfattas av lönegaranti enligt lönegarantilagen (1992:497). Kallelsen ska innehålla ett föreläggande för den som vill motsätta sig ansökan att senast en viss dag anmäla detta skriftligen. Denna dag får bestämmas till en dag som infaller tidigast tre månader efter registreringen av ombildningsplanen enligt 13 §. Föreläggandet ska innehålla en upplysning om att borgenären, om han eller hon inte motsätter sig ansökan, ska anses ha medgett den. Bolagsverket ska så snart som möjligt kungöra kallelsen i Post- och Inrikes Tidningar. Verket ska vidare skicka en särskild underrättelse om kallelsen till Skatteverket. Lag (2022:1647). När Bolagsverket ska lämna tillstånd att verkställa ombildningsplanen",
+          "references": [
+            "13 §",
+            "22 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-26",
+          "number": 26,
+          "text": "Om inte någon av de borgenärer som har kallats enligt 25 § motsätter sig ansökan inom utsatt tid, ska Bolagsverket ge bolaget tillstånd att verkställa ombildningsplanen. Motsätter sig någon borgenär ansökan, ska verket överlämna ärendet till tingsrätten på den ort där styrelsen i bolaget har sitt säte. Lag (2022:1647). När allmän domstol ska lämna tillstånd att verkställa ombildningsplanen",
+          "references": [
+            "25 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-27",
+          "number": 27,
+          "text": "Om Bolagsverket med stöd av 26 § har överlämnat ett ärende om tillstånd att verkställa en ombildningsplan till domstol, ska domstolen avslå ansökan, om 1. en borgenär som har motsatt sig ansökan presenterar trovärdiga uppgifter om att ombildningen medför fara för att hans eller hennes fordran inte ska bli betald och om att ingen betryggande säkerhet har lämnats för fordran, och 2. bolaget inte visar att det inte finns någon fara för att fordran inte ska bli betald eller att betryggande säkerhet har lämnats. Om ansökan inte ska avslås, ska domstolen lämna tillstånd att verkställa ombildningsplanen. Lag (2022:1647). Utfärdande av ombildningsintyg",
+          "references": [
+            "26 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-28",
+          "number": 28,
+          "text": "När Bolagsverket har gett tillstånd att verkställa ombildningsplanen enligt 26 § eller när en domstol, genom ett beslut som har fått laga kraft, har gett tillstånd att verkställa ombildningsplanen enligt 27 §, ska Bolagsverket för bolaget utfärda ett intyg om att den del av förfarandet som regleras av svensk lag har genomförts på föreskrivet sätt (ombildningsintyg). Ett ombildningsintyg får dock inte utfärdas om det har väckts talan mot bolagsstämmans beslut att godkänna ombildningsplanen och målet inte har avgjorts slutligt. Ett ombildningsintyg ska utfärdas inom tre månader från dagen för ansökan om tillstånd att verkställa ombildningsplanen. Om det på grund av ärendets komplexitet eller annars finns särskilda skäl för en längre handläggningstid får tremånadersfristen överskridas. Om tremånadersfristen inte kan hållas, ska sökanden underrättas om skälen för detta. Ombildningsintyget ska tillhandahållas den behöriga myndigheten i den stat där bolaget efter ombildningen ska ha sitt registrerade säte. Lag (2022:1647). Registrering av en ombildning av ett svenskt aktiebolag",
+          "references": [
+            "26 §",
+            "27 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-29",
+          "number": 29,
+          "text": "Inför registreringen av ombildningen ska bolaget ge in en kopia av ombildningsplanen till den behöriga myndigheten i den stat där bolaget ska ha sitt säte. Handlingen ska ges in inom sex månader från den dag då ombildningsintyget utfärdades. Efter underrättelse från den behöriga utländska myndigheten om att ombildningen har ägt rum, ska Bolagsverket föra in uppgifter om ombildningen och om datum för registreringen i aktiebolagsregistret. Lag (2022:1647). Anmälan för registrering vid en ombildning av en utländsk juridisk person",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-30",
+          "number": 30,
+          "text": "Om en utländsk juridisk person efter ombildning ska utgöra ett svenskt aktiebolag, ska styrelsen eller motsvarande förvaltnings- eller ledningsorgan i det bolag som ska ombildas anmäla ombildningen för registrering hos Bolagsverket inom sex månader från den dag då ombildningsintyget utfärdades. Anmälan ska innehålla uppgifter om vilka som har utsetts till styrelseledamöter och, i förekommande fall, revisorer och styrelsesuppleanter i det ombildade bolaget. Till anmälan ska följande handlingar bifogas: 1. en kopia av ombildningsplanen, 2. ett yttrande från en auktoriserad eller godkänd revisor eller ett registrerat revisionsbolag eller en motsvarande oberoende sakkunnig som har godkänts av en utländsk behörig myndighet i den stat där det bolag som ska ombildas har sin hemvist, av vilket det framgår att det finns täckning för det aktiekapital som ska registreras för det svenska aktiebolaget. Lag (2022:1647). Bolagsverkets kontroll och registrering vid en ombildning av en utländsk juridisk person",
+          "references": []
+        },
+        {
+          "id": "kap-24a-§-31",
+          "number": 31,
+          "text": "Bolagsverket får registrera en ombildning enligt 30 § endast om 1. verket har fått del av ett ombildningsintyg, 2. det bolag som ska ombildas har gett in de uppgifter och handlingar som avses i 30 §, 3. bolagsordningen är förenlig med denna lag och andra författningar, 4. det aktiekapital som ska registreras för bolaget uppfyller kraven i 1 kap. 4 och 5 §§, och 5. det inte heller finns något hinder mot registrering. Om lagen (2008:9) om arbetstagares medverkan vid gränsöverskridande fusioner, delningar och ombildningar är tillämplig, får ombildningen registreras endast 1. om ett avtal har träffats eller ett beslut har fattats om medverkan enligt den lagen eller om förhandlingsperioden har löpt ut utan att ett sådant avtal har träffats eller ett sådant beslut har fattats, och 2. om det övertagande bolagets bolagsordning inte strider mot det system för medverkan som ska gälla enligt lagen. Bolagsverket ska så snart som möjligt underrätta den behöriga myndigheten i den stat där det bolag som ska ombildas har sin hemvist om registreringen. Lag (2022:1647). Ombildningens rättsverkningar",
           "references": [
             "1 kap. 4 och 5 §§",
-            "1 §",
-            "10 §",
-            "11 §",
-            "12 §",
-            "13 §",
-            "14 §",
-            "15 §",
-            "16 §",
-            "17 §"
+            "30 §",
+            "5 §§"
+          ]
+        },
+        {
+          "id": "kap-24a-§-32",
+          "number": 32,
+          "text": "Vid ombildningen uppkommer följande rättsverkningar. 1. Det ombildade bolaget får sitt registrerade säte i en annan medlemsstat och får en ändrad rättslig form enligt lagstiftningen i den staten. 2. Bolagets tillgångar och skulder övergår till att vara det ombildade bolagets tillgångar och skulder. 3. Aktieägare i bolaget fortsätter att vara aktieägare i det ombildade bolaget, om de inte utnyttjar sin rätt enligt 34 § till inlösen. 4. Bolagets rättigheter och skyldigheter som härrör från anställningsavtal eller anställningsförhållanden och som finns vid den tidpunkt då den gränsöverskridande ombildningen får verkan övergår till att vara det ombildade bolagets rättigheter och skyldigheter. Rättsverkningarna uppkommer vid den tidpunkt som har fastställts i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist. Om bolaget ska ha sin hemvist i Sverige, uppkommer rättsverkningarna vid den tidpunkt då ombildningen registreras enligt 31 § i aktiebolagsregistret. Lag (2022:1647). Frågan om ombildning faller",
+          "references": [
+            "31 §",
+            "34 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-33",
+          "number": 33,
+          "text": "Bolagsverket ska förklara att frågan om ombildning har fallit, om 1. ansökan enligt 22 § om tillstånd att verkställa ombildningsplanen inte har gjorts inom föreskriven tid eller ansökan har avslagits genom ett beslut som har fått laga kraft, 2. anmälan enligt 30 § inte har gjorts inom föreskriven tid, eller 3. Bolagsverket genom beslut som har fått laga kraft har avskrivit ett ärende enligt 30 § om registrering eller har vägrat registrering enligt 31 §. Lag (2022:1647). Aktieägares rätt till inlösen",
+          "references": [
+            "22 §",
+            "30 §",
+            "31 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-34",
+          "number": 34,
+          "text": "En aktieägare i ett bolag som ska ombildas har rätt att få sina aktier inlösta mot det inlösenbelopp som bolaget har erbjudit i ombildningsplanen, om aktieägaren vid bolagsstämman har röstat mot att godkänna ombildningsplanen. En aktieägare som vill utöva sin rätt till inlösen ska inom en månad från dagen för bolagsstämmans godkännande av ombildningsplanen anmäla detta till bolaget. Anmälan ska göras på det sätt som har angetts i ombildningsplanen enligt 5 § första stycket 7. Om aktieägaren inte gör en anmälan, är rätten till inlösen förlorad. Inlösenbeloppet ska betalas inom två månader från den dag då ombildningen fick verkan enligt 32 §. Lag (2022:1647). Aktieägares rätt till ytterligare ersättning",
+          "references": [
+            "32 §",
+            "5 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-35",
+          "number": 35,
+          "text": "Om det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt och detta får till följd att en aktieägare som har utnyttjat sin rätt till inlösen enligt 34 § blir otillräckligt kompenserad, har denna aktieägare rätt till ytterligare ersättning. En aktieägare som vill ha ersättning enligt första stycket får väcka talan mot bolaget. En sådan talan ska väckas inom tre månader från dagen för bolagsstämmans beslut att godkänna ombildningsplanen. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. Lag (2022:1647).",
+          "references": [
+            "34 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-36",
+          "number": 36,
+          "text": "Den som för talan enligt 7 kap. 50 § mot ett bolagsstämmobeslut att godkänna en ombildningsplan får inte som omständigheter till grund för talan åberopa att det inlösenbelopp som anges i ombildningsplanen inte är korrekt fastställt eller att de uppgifter som har lämnats om inlösenbeloppet inte uppfyller lagens krav. Lag (2022:1647). Borgenärers rätt att väcka talan i Sverige efter det att ombildningen fått verkan",
+          "references": [
+            "50 §",
+            "7 kap. 50 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-37",
+          "number": 37,
+          "text": "Den som har en fordran på ett svenskt aktiebolag som har ombildats enligt detta kapitel får väcka talan mot det ombildade bolaget vid rätten i den ort där styrelsen hade sitt säte före ombildningen, om fordran uppkom innan uppgiften om registrering av ombildningsplanen kungjordes enligt 13 § första stycket. Om talan inte väcks inom två år från den tidpunkt då ombildningen fick verkan i den medlemsstat där bolaget efter ombildningen ska ha sin hemvist, är rätten att väcka talan med stöd av första stycket förlorad. Lag (2022:1647). Ogiltighet",
+          "references": [
+            "13 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-38",
+          "number": 38,
+          "text": "En talan om att ett bolagsstämmobeslut om att godkänna en ombildningsplan ska upphävas ska i de fall som avses i 7 kap. 51 § andra stycket väckas inom sex månader från beslutet. Om talan inte väcks inom denna tid, är rätten att föra talan förlorad. I fråga om ett beslut att godkänna en ombildningsplan gäller, utöver det som sägs i 7 kap. 51 § första stycket och i första stycket denna paragraf, att talan inte får väckas efter det att Bolagsverket, eller en domstol genom ett beslut som har fått laga kraft, har lämnat tillstånd enligt 26 eller 27 § att verkställa ombildningsplanen. Lag (2022:1647). Särskilda bestämmelser om tillhandahållande av ombildningsplanen i vissa publika aktiebolag",
+          "references": [
+            "27 §",
+            "51 §",
+            "7 kap. 51 §"
+          ]
+        },
+        {
+          "id": "kap-24a-§-39",
+          "number": 39,
+          "text": "Utöver det som anges i 15 § första stycket andra meningen gäller att ett publikt aktiebolag vars aktier är upptagna till handel på en reglerad marknad eller en motsvarande marknad utanför Europeiska ekonomiska samarbetsområdet ska hålla ombildningsplanen med bifogade handlingar tillgänglig för aktieägarna på bolagets webbplats. Handlingarna ska hållas tillgängliga under minst sex veckor före den bolagsstämma där frågan om godkännande av planen ska behandlas och under dagen för stämman. Lag (2022:1647).",
+          "references": [
+            "15 §"
           ]
         }
       ]
@@ -7095,7 +7514,7 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-17",
           "number": 17,
-          "text": "Allmän domstol skall besluta att bolaget skall gå i likvidation, om 1. någon andra kontrollstämma inte hålls inom den tid som anges i 16 § första stycket, eller 2. den kontrollbalansräkning som har lagts fram vid den andra kontrollstämman inte har granskats av bolagets revisor eller inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget skall gå i likvidation. I sådana fall som avses i första stycket skall styrelsen ansöka hos tingsrätten om beslut om likvidation. Ansökan skall göras inom två veckor från den andra kontrollstämman eller, om en sådan inte har hållits, från den tid punkt då den senast skulle ha hållits. Frågan om likvidation kan även prövas på ansökan av en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till minst det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på en bolagsstämma. Beslutet om likvidation gäller omedelbart. Personligt betalningsansvar för bolagets företrädare",
+          "text": "Allmän domstol skall besluta att bolaget skall gå i likvidation, om 1. någon andra kontrollstämma inte hålls inom den tid som anges i 16 § första stycket, eller 2. den kontrollbalansräkning som har lagts fram vid den andra kontrollstämman inte har granskats av bolagets revisor eller inte utvisar att det egna kapitalet, beräknat enligt 14 §, vid tiden för stämman uppgick till minst det registrerade aktiekapitalet och stämman inte har beslutat att bolaget skall gå i likvidation. I sådana fall som avses i första stycket skall styrelsen ansöka hos tingsrätten om beslut om likvidation. Ansökan skall göras inom två veckor från den andra kontrollstämman eller, om en sådan inte har hållits, från den tidpunkt då den senast skulle ha hållits. Frågan om likvidation kan även prövas på ansökan av en styrelseledamot, den verkställande direktören, en revisor i bolaget eller en aktieägare. Beslut om likvidation skall inte meddelas, om det under ärendets handläggning vid tingsrätten visas att en kontrollbalansräkning som utvisar att bolagets eget kapital, beräknat enligt 14 §, uppgår till minst det registrerade aktiekapitalet har granskats av bolagets revisor och lagts fram på en bolagsstämma. Beslutet om likvidation gäller omedelbart. Personligt betalningsansvar för bolagets företrädare",
           "references": [
             "14 §",
             "16 §"
@@ -7262,18 +7681,18 @@ export const aktiebolagslag: LegalText = {
         {
           "id": "kap-25-§-37",
           "number": 37,
-          "text": "Likvidatorn ska för varje räkenskapsår upprätta en årsredovisning, som ska läggas fram på årsstämman. I fråga om stämman och redovisningen ska följande bestämmelser inte tillämpas: 7 kap. 11 § 2 denna lag, 2 kap. 1 § andra stycket, 5 kap. 20, 37-44 och 48 §§, 6 kap. 2 § första stycket och 5 § årsredovisningslagen (1995:1554), 5 kap. 2 § 4 och 6 kap. 3 § lagen (1995:1559) om årsredovisning i kreditinstitut och värdepappersbolag, samt",
+          "text": "Likvidatorn ska för varje räkenskapsår upprätta en årsredovisning, som ska läggas fram på årsstämman. I fråga om stämman och redovisningen ska följande bestämmelser inte tillämpas: 7 kap. 11 § 2 denna lag, 2 kap. 1 § andra stycket, 5 kap. 20, 37-44 och 48 §§, 6 kap. 2 § första stycket och 5 § årsredovisningslagen (1995:1554), 5 kap. 2 § 4 och 6 kap. 3 § lagen (1995:1559) om årsredovisning i kreditinstitut och värdepappersbolag, samt 5 kap. 2 § 6 och 7 och 6 kap. 2 och 3 §§ lagen (1995:1560) om årsredovisning i försäkringsföretag. I balansräkningen får det egna kapitalet tas upp i en post. Balansräkningen ska innehålla uppgift om aktiekapitalet, i förekommande fall fördelat på olika aktieslag. En tillgång får inte tas upp till högre värde än den beräknas inbringa efter avdrag för försäljningskostnaderna. Om en tillgång kan beräknas inbringa ett väsentligt högre belopp än det värde som tas upp i balansräkningen, ska det beräknade beloppet anges särskilt vid tillgångsposten. Om en skuld eller likvidationskostnad kan beräknas kräva ett belopp som väsentligt avviker från vad som har redovisats som skuld, ska det beräknade beloppet anges vid skuldposten. Bestämmelserna om koncernredovisning och om delårsrapport i tillämplig lag om årsredovisning ska inte tillämpas på bolag i likvidation. Lag (2015:824). Skifte",
           "references": [
             "1 §",
             "11 §",
             "2 kap. 1 §",
             "2 §",
             "3 §",
+            "3 §§",
             "48 §§",
             "5 kap. 2 §",
             "5 §",
-            "6 kap. 2 §",
-            "6 kap. 3 §"
+            "6 kap. 2 och 3 §§"
           ]
         },
         {
