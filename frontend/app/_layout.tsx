@@ -15,11 +15,11 @@ export default function RootLayout() {
   useEffect(() => {
     async function loadFonts() {
       try {
-        console.log('🔤 Starting to load Open Sans fonts...');
+        console.log('🔤 Starting to load Outfit fonts...');
         await Font.loadAsync({
-          'Open Sans': require('../assets/fonts/OpenSans-Regular.ttf'),
+          'Outfit': require('../assets/fonts/Outfit-Variable.ttf'),
         });
-        console.log('✅ Open Sans fonts loaded successfully!');
+        console.log('✅ Outfit fonts loaded successfully!');
         setFontsLoaded(true);
       } catch (error) {
         console.error('❌ Error loading fonts:', error);
