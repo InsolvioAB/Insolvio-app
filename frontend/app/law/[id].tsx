@@ -11,9 +11,9 @@ import {
   Platform,
   Alert,
 } from 'react-native';
-import { useLocalSearchParams, Stack } from 'expo-router';
+import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts } from '../../src/data/legalTexts';
+import { legalTexts, Chapter } from '../../src/data/legalTexts';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
@@ -21,6 +21,7 @@ import { colors, typography, spacing, borderRadius, createHeadingStyle, createLa
 
 export default function LawViewerScreen() {
   const { id, section } = useLocalSearchParams<{ id: string; section?: string }>();
+  const router = useRouter();
   const scrollViewRef = useRef<ScrollView>(null);
   const sectionRefs = useRef<Record<string, View | null>>({});
   
@@ -80,6 +81,93 @@ export default function LawViewerScreen() {
       </View>
     );
   }
+
+  // References that are immediately followed, in the paragraph's own text, by
+  // the name of a DIFFERENT law (e.g. "4 kap. 6 § bokföringslagen") point
+  // outside this document entirely. Our data only keeps the bare numeric
+  // citation once extracted, so without this check a reference like that
+  // would be misread as pointing at this law's own chapter/section with the
+  // same numbers -- e.g. it would wrongly link to this law's own "4 kap. 6 §"
+  // instead of correctly staying a plain, non-clickable mention of a
+  // different law we don't have data for.
+  const EXTERNAL_LAW_NAME_RE =
+    /^\s*(?:(?:första|andra|tredje|fjärde|femte)\s+stycket\s+)?[a-zäöå]+(?:lagen|balken|förordningen|kungörelsen|stadgan)\b/;
+
+  const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  const isExternalLawReference = (ref: string, sectionText: string): boolean => {
+    const m = sectionText.match(new RegExp(escapeRegExp(ref)));
+    if (!m || m.index === undefined) return false;
+    const after = sectionText.slice(m.index + ref.length, m.index + ref.length + 60);
+    return EXTERNAL_LAW_NAME_RE.test(after);
+  };
+
+  // Resolve a "Hänvisningar" reference string (e.g. "10 §", "16 kap. 10 §",
+  // "10 kap. 1, 3, 4 och 5 §§", "1-10 §§") to the id of the section it points
+  // to, if that section exists in this law's data. References with no "kap."
+  // prefix refer to a section in the same chapter as the one the reference
+  // appears in. Compound references (multiple section numbers, or a range)
+  // link to the first section number mentioned.
+  const resolveReference = (ref: string, currentChapter: Chapter): string | null => {
+    const nums = ref.match(/\d+/g);
+    if (!nums || nums.length === 0) return null;
+
+    const hasChapterPrefix = /kap\.?/i.test(ref);
+    let chapterNumber: number;
+    let chapterSuffix: string | undefined;
+    let sectionNumber: string;
+
+    if (hasChapterPrefix) {
+      if (nums.length < 2) return null;
+      chapterNumber = parseInt(nums[0], 10);
+      sectionNumber = nums[1];
+      const targetChapter =
+        law.chapters.find((c) => c.number === chapterNumber && !c.numberSuffix) ||
+        law.chapters.find((c) => c.number === chapterNumber);
+      if (!targetChapter) return null;
+      chapterSuffix = targetChapter.numberSuffix;
+    } else {
+      chapterNumber = currentChapter.number;
+      chapterSuffix = currentChapter.numberSuffix;
+      sectionNumber = nums[0];
+    }
+
+    const targetChapter = law.chapters.find(
+      (c) => c.number === chapterNumber && (c.numberSuffix ?? '') === (chapterSuffix ?? '')
+    );
+    if (!targetChapter) return null;
+
+    const targetId = `kap-${chapterNumber}${chapterSuffix ?? ''}-§-${sectionNumber}`;
+    const targetSection = targetChapter.sections.find((s) => s.id === targetId);
+    return targetSection ? targetId : null;
+  };
+
+  const navigateToReference = (targetId: string) => {
+    if (targetId === section) {
+      // Already the highlighted section (e.g. tapping a self-reference) --
+      // still make sure its chapter is expanded and scroll to it.
+      const targetChapter = law.chapters.find((c) => c.sections.some((s) => s.id === targetId));
+      if (targetChapter) {
+        setExpandedChapters(new Set([targetChapter.id]));
+      }
+      setTimeout(() => {
+        const sectionNode = sectionRefs.current[targetId];
+        if (sectionNode && scrollViewRef.current) {
+          sectionNode.measureLayout(
+            scrollViewRef.current as any,
+            (x, y) => {
+              scrollViewRef.current?.scrollTo({ y: Math.max(y - 20, 0), animated: true });
+            },
+            () => {}
+          );
+        }
+      }, 350);
+      return;
+    }
+    // Update the `section` route param -- the existing effect that watches
+    // it will expand the right chapter and scroll to the section.
+    router.setParams({ section: targetId });
+  };
 
   const toggleChapter = (chapterId: string) => {
     const newExpanded = new Set(expandedChapters);
@@ -272,11 +360,29 @@ export default function LawViewerScreen() {
                       {sectionItem.references.length > 0 && (
                         <View style={styles.referencesContainer}>
                           <Text style={styles.referencesLabel}>Hänvisningar:</Text>
-                          {sectionItem.references.map((ref, idx) => (
-                            <Text key={idx} style={styles.referenceText}>
-                              • {ref}
-                            </Text>
-                          ))}
+                          {sectionItem.references.map((ref, idx) => {
+                            const targetId = isExternalLawReference(ref, sectionItem.text)
+                              ? null
+                              : resolveReference(ref, chapter);
+                            if (targetId) {
+                              return (
+                                <TouchableOpacity
+                                  key={idx}
+                                  onPress={() => navigateToReference(targetId)}
+                                  accessibilityRole="link"
+                                >
+                                  <Text style={[styles.referenceText, styles.referenceTextLink]}>
+                                    • {ref}
+                                  </Text>
+                                </TouchableOpacity>
+                              );
+                            }
+                            return (
+                              <Text key={idx} style={styles.referenceText}>
+                                • {ref}
+                              </Text>
+                            );
+                          })}
                         </View>
                       )}
                     </View>
@@ -520,6 +626,9 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.greenPrimary,
     marginTop: 4,
+  },
+  referenceTextLink: {
+    textDecorationLine: 'underline',
   },
   modalContainer: {
     flex: 1,
