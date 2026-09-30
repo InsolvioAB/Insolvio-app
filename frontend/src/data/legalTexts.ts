@@ -12,6 +12,7 @@ export type Section = {
 export type Chapter = {
   id: string;
   number: number;
+  numberSuffix?: string;
   title: string;
   sections: Section[];
 };

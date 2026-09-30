@@ -1,21 +1,21 @@
-// Lag (1992:497) om lönegaranti
+// Lönegarantilag (1992:497)
 // Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
-// Last amended: t.o.m. SFS 2025:800
+// Last amended: t.o.m. SFS 2026:135
 
 import { LegalText } from '../legalTexts';
 
 export const lönegaranti: LegalText = {
   "id": "sfs-1992-497",
-  "title": "Lag (1992:497) om lönegaranti",
+  "title": "Lönegarantilag (1992:497)",
   "sfsNumber": "1992:497",
   "department": "Arbetsmarknadsdepartementet ARM",
   "issued": "1992-06-04",
-  "lastAmended": "t.o.m. SFS 2025:800",
+  "lastAmended": "t.o.m. SFS 2026:135",
   "chapters": [
     {
       "id": "kap-1",
       "number": 1,
-      "title": "Lag (1992:497) om lönegaranti",
+      "title": "Lönegarantilag (1992:497)",
       "sections": [
         {
           "id": "kap-1-§-1",
@@ -259,11 +259,8 @@ export const lönegaranti: LegalText = {
         {
           "id": "kap-1-§-23a",
           "number": 23,
-          "text": "Innan ett garantibelopp betalas ut ska den utbetalande myndigheten skyndsamt kontrollera ett beslut eller en underrättelse om lönegaranti från en förvaltare, en rekonstruktör eller tillsynsmyndigheten i syfte att motverka felaktiga utbetalningar. Kontrollen ska göras mot sådana uppgifter i Skatteverkets beskattningsdatabas som avses i 2 kap. 3 § första stycket 1-5, 7, 8 och 11 lagen (2001:181) om behandling av uppgifter i Skatteverkets beskattningsverksamhet och mot andra uppgifter som förekommer i den utbetalande myndighetens lönegarantiverksamhet. En sådan kontroll ska även göras efter det att ett garantibelopp har betalats ut, om det finns skäl för det. Lag (2024:1327).",
-          "references": [
-            "2 kap. 3 §",
-            "3 §"
-          ]
+          "text": "Innan ett garantibelopp betalas ut ska den utbetalande myndigheten skyndsamt kontrollera ett beslut eller en underrättelse om lönegaranti från en förvaltare, en rekonstruktör eller tillsynsmyndigheten i syfte att motverka felaktiga utbetalningar. Kontrollen ska göras mot följande uppgifter i Skatteverkets beskattningsverksamhet: 1. en fysisk persons identitet, medborgarskap, bosättning och familjeförhållanden, 2. en juridisk persons identitet, säte, ägarförhållanden samt firmatecknare och andra företrädare, 3. registrering för skatter och avgifter, 4. underlag för fastställande av skatter och avgifter, 5. bestämmande av skatter och avgifter, 6. revision och annan kontroll av skatter och avgifter, 7. uppgifter som behövs för handläggning enligt lagen (2007:324) om Skatteverkets hantering av vissa borgenärsuppgifter, och 8. beslut, betalning, redovisning och övriga åtgärder i ett ärende. Kontrollen ska även göras mot andra uppgifter som förekommer i den utbetalande myndighetens lönegarantiverksamhet. En sådan kontroll som avses i första och andra styckena ska också göras efter det att ett garantibelopp har betalats ut, om det finns skäl för det. Lag (2026:135).",
+          "references": []
         },
         {
           "id": "kap-1-§-23b",
