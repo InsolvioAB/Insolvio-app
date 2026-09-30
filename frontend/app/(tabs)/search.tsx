@@ -4,7 +4,7 @@ import {
   Text,
   StyleSheet,
   TextInput,
-  FlatList,
+  SectionList,
   TouchableOpacity,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -23,6 +23,30 @@ type SearchResult = {
   sectionText: string;
   matchType: 'keyword' | 'section' | 'chapter';
 };
+
+// Results grouped by law, for the collapsible sections in the results list.
+// Shaped for React Native's SectionList: `data` is what that law's section
+// actually renders (the full match list when expanded, empty when
+// collapsed -- see `visibleSections` below), while `allResults` always holds
+// every match for that law so the count and "show more" logic have the true
+// total to work with.
+type SearchResultGroup = {
+  lawId: string;
+  lawTitle: string;
+  data: SearchResult[];
+  allResults: SearchResult[];
+};
+
+// Laws are shown expanded by default when there are only a few of them (a
+// narrow search), and collapsed by default when a broad keyword spreads
+// across many laws -- so a search like "lön" doesn't dump 50+ rows on you
+// at once, while a specific search still shows its handful of results
+// immediately.
+const AUTO_EXPAND_GROUP_THRESHOLD = 3;
+// Within an expanded law, only the first N matches render until the user
+// asks to see the rest -- keeps a single very common keyword from pushing
+// every other law's results off screen.
+const RESULTS_PER_LAW_CAP = 20;
 
 function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -82,6 +106,25 @@ function HighlightedText({ text, query, style, highlightStyle, numberOfLines }: 
 
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
+  // Which law groups the user has manually expanded/collapsed, and which
+  // they've asked to fully show past the per-law cap -- tracked as
+  // overrides on top of the query's default state (see `defaultExpandedLawIds`
+  // below) rather than as the expanded state itself, so a brand new search
+  // can reset cleanly (see the render-time reset right below) without an
+  // effect.
+  const [toggledLawIds, setToggledLawIds] = useState<Set<string>>(new Set());
+  const [fullyShownLawIds, setFullyShownLawIds] = useState<Set<string>>(new Set());
+  // Remembers which query the two sets above belong to, so they can be
+  // cleared the moment a *new* query is detected. Adjusting state during
+  // render like this (rather than in a useEffect) is React's recommended
+  // way to reset state when an input changes -- see
+  // https://react.dev/learn/you-might-not-need-an-effect#adjusting-some-state-when-a-prop-changes.
+  const [toggleStateQuery, setToggleStateQuery] = useState(searchQuery);
+  if (toggleStateQuery !== searchQuery) {
+    setToggleStateQuery(searchQuery);
+    setToggledLawIds(new Set());
+    setFullyShownLawIds(new Set());
+  }
   const router = useRouter();
 
   const searchResults = useMemo(() => {
@@ -150,10 +193,82 @@ export default function SearchScreen() {
       });
     });
 
-    return results.slice(0, 50); // Limit to 50 results
+    return results;
   }, [searchQuery]);
 
-  const renderSearchResult = ({ item }: { item: SearchResult }) => {
+  // Group the flat match list by law, most matches first, so results from
+  // the same law aren't scattered as repeated rows throughout the list.
+  const groupedResults = useMemo(() => {
+    const groups: SearchResultGroup[] = [];
+    const groupsByLawId: Record<string, SearchResultGroup> = {};
+
+    searchResults.forEach((result) => {
+      let group = groupsByLawId[result.lawId];
+      if (!group) {
+        group = { lawId: result.lawId, lawTitle: result.lawTitle, data: [], allResults: [] };
+        groupsByLawId[result.lawId] = group;
+        groups.push(group);
+      }
+      group.allResults.push(result);
+    });
+
+    groups.sort((a, b) => b.allResults.length - a.allResults.length);
+    return groups;
+  }, [searchResults]);
+
+  // A handful of laws start fully expanded by default; a broad search
+  // (many laws matched) starts collapsed so it doesn't dump everything on
+  // screen at once. `toggledLawIds` then flips individual laws away from
+  // whichever default they started at.
+  const defaultExpandedLawIds = useMemo(() => {
+    if (groupedResults.length > 0 && groupedResults.length <= AUTO_EXPAND_GROUP_THRESHOLD) {
+      return new Set(groupedResults.map((g) => g.lawId));
+    }
+    return new Set<string>();
+  }, [groupedResults]);
+
+  const isLawExpanded = (lawId: string) => {
+    const isDefaultExpanded = defaultExpandedLawIds.has(lawId);
+    return toggledLawIds.has(lawId) ? !isDefaultExpanded : isDefaultExpanded;
+  };
+
+  const toggleLawExpanded = (lawId: string) => {
+    setToggledLawIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(lawId)) {
+        next.delete(lawId);
+      } else {
+        next.add(lawId);
+      }
+      return next;
+    });
+  };
+
+  const showAllForLaw = (lawId: string) => {
+    setFullyShownLawIds((prev) => new Set(prev).add(lawId));
+  };
+
+  // What each section actually renders: nothing while collapsed, otherwise
+  // every match up to the per-law cap (or all of them once the user has
+  // tapped "Visa fler" for that law).
+  const visibleSections = useMemo(() => {
+    return groupedResults.map((group) => {
+      if (!isLawExpanded(group.lawId)) {
+        return { ...group, data: [] };
+      }
+      const showAll = fullyShownLawIds.has(group.lawId);
+      return {
+        ...group,
+        data: showAll ? group.allResults : group.allResults.slice(0, RESULTS_PER_LAW_CAP),
+      };
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [groupedResults, defaultExpandedLawIds, toggledLawIds, fullyShownLawIds]);
+
+  const totalResultCount = searchResults.length;
+  const lawCount = groupedResults.length;
+
+  const renderSearchResult = (item: SearchResult) => {
     const snippet = getSnippet(item.sectionText, searchQuery);
 
     return (
@@ -161,10 +276,6 @@ export default function SearchScreen() {
         style={styles.resultCard}
         onPress={() => router.push(`/law/${item.lawId}?section=${item.sectionId}`)}
       >
-        <View style={styles.resultHeader}>
-          <Ionicons name="document-text-outline" size={20} color={colors.greenPrimary} />
-          <Text style={styles.resultLawTitle}>{item.lawTitle}</Text>
-        </View>
         <View style={styles.resultLocation}>
           <Text style={styles.locationText}>
             {item.chapterTitle} • {item.sectionNumber} §
@@ -203,7 +314,7 @@ export default function SearchScreen() {
         </View>
         {searchQuery.length > 0 && (
           <Text style={styles.resultCount}>
-            {searchResults.length} resultat
+            {totalResultCount} resultat{lawCount > 0 ? ` i ${lawCount} ${lawCount === 1 ? 'lag' : 'lagar'}` : ''}
           </Text>
         )}
       </View>
@@ -225,12 +336,51 @@ export default function SearchScreen() {
           </Text>
         </View>
       ) : (
-        <FlatList
-          data={searchResults}
-          renderItem={renderSearchResult}
-          keyExtractor={(item, index) => `${item.sectionId}-${index}`}
+        <SectionList
+          sections={visibleSections}
+          keyExtractor={(item) => `${item.lawId}-${item.sectionId}`}
+          renderItem={({ item }) => renderSearchResult(item)}
+          renderSectionHeader={({ section }) => {
+            const isExpanded = isLawExpanded(section.lawId);
+            return (
+              <TouchableOpacity
+                style={styles.groupHeader}
+                onPress={() => toggleLawExpanded(section.lawId)}
+              >
+                <View style={styles.groupHeaderLeft}>
+                  <Ionicons name="document-text-outline" size={18} color={colors.greenPrimary} />
+                  <Text style={styles.groupHeaderTitle}>{section.lawTitle}</Text>
+                </View>
+                <View style={styles.groupHeaderRight}>
+                  <Text style={styles.groupHeaderCount}>
+                    {section.allResults.length} {section.allResults.length === 1 ? 'träff' : 'träffar'}
+                  </Text>
+                  <Ionicons
+                    name={isExpanded ? 'chevron-up' : 'chevron-down'}
+                    size={18}
+                    color={colors.mutedText}
+                  />
+                </View>
+              </TouchableOpacity>
+            );
+          }}
+          renderSectionFooter={({ section }) => {
+            const isExpanded = isLawExpanded(section.lawId);
+            const isFullyShown = fullyShownLawIds.has(section.lawId);
+            const hiddenCount = section.allResults.length - RESULTS_PER_LAW_CAP;
+            if (!isExpanded || isFullyShown || hiddenCount <= 0) return null;
+            return (
+              <TouchableOpacity
+                style={styles.showMoreButton}
+                onPress={() => showAllForLaw(section.lawId)}
+              >
+                <Text style={styles.showMoreText}>Visa {hiddenCount} till</Text>
+              </TouchableOpacity>
+            );
+          }}
           contentContainerStyle={styles.resultsList}
           showsVerticalScrollIndicator={false}
+          stickySectionHeadersEnabled={false}
         />
       )}
     </SafeAreaView>
@@ -274,11 +424,56 @@ const styles = StyleSheet.create({
   resultsList: {
     padding: spacing.md,
   },
+  groupHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: colors.white,
+    borderRadius: borderRadius.md,
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.md,
+    marginTop: spacing.md,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
+  },
+  groupHeaderLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexShrink: 1,
+  },
+  groupHeaderTitle: {
+    fontSize: 14,
+    fontFamily: typography.fontFamily.semiBold,
+    color: colors.greenPrimary,
+    marginLeft: spacing.sm,
+    flexShrink: 1,
+  },
+  groupHeaderRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+  },
+  groupHeaderCount: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  showMoreButton: {
+    alignItems: 'center',
+    paddingVertical: spacing.sm,
+    marginBottom: spacing.sm,
+  },
+  showMoreText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.semiBold,
+    color: colors.greenPrimary,
+  },
   resultCard: {
     backgroundColor: colors.white,
     borderRadius: borderRadius.md,
     padding: spacing.md,
-    marginBottom: spacing.md,
+    marginTop: spacing.sm,
+    marginHorizontal: 1,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.1,
@@ -286,17 +481,6 @@ const styles = StyleSheet.create({
     elevation: 2,
     borderWidth: 1,
     borderColor: colors.dividerLight,
-  },
-  resultHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: spacing.sm,
-  },
-  resultLawTitle: {
-    fontSize: 14,
-    fontFamily: typography.fontFamily.semiBold,
-    color: colors.greenPrimary,
-    marginLeft: spacing.sm,
   },
   resultLocation: {
     marginBottom: spacing.sm,
