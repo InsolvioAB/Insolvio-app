@@ -67,7 +67,7 @@ export default function HomeScreen() {
         {!hasActivity && (
           <View style={styles.emptyState}>
             <View style={styles.logoBadge}>
-              <Text style={styles.logoBadgeText}>IN</Text>
+              <Text style={styles.logoBadgeText}>i</Text>
             </View>
             <Text style={styles.emptyTitle}>Välkommen till Insolvio</Text>
             <Text style={styles.emptyText}>
@@ -196,14 +196,14 @@ const styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: borderRadius.xl,
-    backgroundColor: colors.deepGreen,
+    backgroundColor: colors.greenPrimary,
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: spacing.sm,
   },
   logoBadgeText: {
-    ...createHeadingStyle(22),
-    color: colors.cream,
+    ...createHeadingStyle(28),
+    color: colors.white,
   },
   emptyTitle: {
     ...createHeadingStyle(20),
