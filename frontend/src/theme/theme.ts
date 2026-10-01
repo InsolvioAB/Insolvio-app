@@ -15,9 +15,9 @@ export const colors = {
   cream: '#fcfcfc',          // Ljus bakgrund (Supabase light.background)
 
   // Accent färger
-  greenPrimary: '#72e3ad',   // Grön accent (Supabase light.primary)
-  greenPrimaryForeground: '#1e2723', // Text/ikoner OVANPÅ greenPrimary (Supabase light.primary-foreground) -- viktigt för kontrast, greenPrimary är ljus mint
-  greenHover: '#9eebc4',     // Grön accent, hover/ljusare
+  greenPrimary: '#59997f',   // Grön accent, dova/salviagrön -- matchad exakt mot referensmockupen (EJU-84 uppdatering)
+  greenPrimaryForeground: '#1e2723', // Text/ikoner OVANPÅ greenPrimary -- mörk text för kontrast (WCAG AA 4.59:1), vit text räcker inte här (3.34:1)
+  greenHover: '#76af98',     // Grön accent, hover/ljusare (samma nyans, högre ljushet)
 
   // Text färger på ljus bakgrund
   ink: '#171717',            // Primär text på ljust (Supabase light.foreground)
