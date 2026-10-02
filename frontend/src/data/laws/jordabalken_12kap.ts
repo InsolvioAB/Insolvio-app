@@ -1,6 +1,6 @@
 // Jordabalken (1970:994) — 12 kap. Hyra
 // Auto-generated from uploaded DOCX (Teams/SharePoint, September 2026)
-// Last amended: (se utdrag, endast 12 kap.) t.o.m. SFS 2026:773
+// Last amended: (se utdrag, endast 12 kap.) t.o.m. SFS 2026:1498
 
 import { LegalText } from '../legalTexts';
 
@@ -10,7 +10,7 @@ export const jordabalken12Kap: LegalText = {
   "sfsNumber": "1970:994",
   "department": "Justitiedepartementet L1",
   "issued": "1970-12-17",
-  "lastAmended": "(se utdrag, endast 12 kap.) t.o.m. SFS 2026:773",
+  "lastAmended": "(se utdrag, endast 12 kap.) t.o.m. SFS 2026:1498",
   "chapters": [
     {
       "id": "kap-12",
