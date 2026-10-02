@@ -1,8 +1,4 @@
 // Innehåll för Nyheter-skärmen (senaste lagändringarna)
-// OBS: Detta är exempeldata i väntan på riktig ändringshistorik i lagdatan.
-// Varje lag har idag bara ett "lastAmended"-fält (t.ex. "t.o.m. SFS 2025:796"),
-// inget strukturerat datum eller beskrivning per ändring. Byt ut mot riktig
-// data när det finns.
 
 export interface NewsItem {
   id: string;
@@ -20,15 +16,15 @@ export const newsItems: NewsItem[] = [
     date: '15 AUG 2026',
     dateISO: '2026-08-15',
     lawTitle: 'Konkurslag',
-    description: 'Ändrad t.o.m. SFS 2025:796 — ändringar i 4 kap. om borgenärers rätt att bevaka fordringar.',
+    description: 'Ändrad t.o.m. SFS 2025:796 — ändringar i 1 och 2 kap. om tillsyn över förvaltningen och konkursansökan. En enklare ansökningsregel ersätter den tidigare forumregeln, och tingsrättens roll minskar till förmån för tillsynsmyndigheten och förvaltaren.',
   },
   {
-    id: 'news-aktiebolagslag-2024-862',
+    id: 'news-aktiebolagslag-2025-804',
     lawId: 'sfs-2005-551',
-    date: '3 JUN 2026',
-    dateISO: '2026-06-03',
+    date: '15 AUG 2026',
+    dateISO: '2026-08-15',
     lawTitle: 'Aktiebolagslag',
-    description: 'Ändrad t.o.m. SFS 2024:862 — ändringar i 25 kap. om tvångslikvidation.',
+    description: 'Ändrad t.o.m. SFS 2025:804 — ändring i 25 kap. 51 § om likvidation i samband med att en konkurs avslutas med överskott eller efter ackord. Del av samma lagstiftningsärende som Konkurslag-ändringen ovan (Prop. 2024/25:135).',
   },
 ];
 

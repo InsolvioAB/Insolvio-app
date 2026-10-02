@@ -48,6 +48,7 @@ export default function RootLayout() {
             <Stack.Screen name="law/[id]" options={{ presentation: 'card', headerShown: true, title: 'Lag' }} />
             <Stack.Screen name="about" options={{ presentation: 'card', headerShown: true, title: 'Om Insolvio' }} />
             <Stack.Screen name="nyheter" options={{ presentation: 'card', headerShown: true, title: 'Nyheter' }} />
+            <Stack.Screen name="amendment/[newsId]" options={{ presentation: 'card', headerShown: true, title: 'Jämför ändring' }} />
           </Stack>
           </RecentlyViewedProvider>
         </NotesProvider>
