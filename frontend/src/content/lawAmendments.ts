@@ -4,13 +4,21 @@
 // faktiska gamla och nya lydelsen per ändrad/ny/upphävd paragraf, så att
 // användaren kan se exakt vad som ändrades -- inte bara en sammanfattning.
 //
-// Källa för Konkurslag SFS 2025:796: Prop. 2024/25:135 "Ett nytt
-// konkursförfarande", avsnitt 2.1 (Nuvarande lydelse / Föreslagen lydelse)
-// och avsnitt 11.5.3 (motivering till upphävandet av 2 kap. 2 a §).
-// Verifierad mot lagtexten i src/data/laws/konkurslag.ts (som fortfarande
-// har den upphävda 2 kap. 2 a § kvar, taggad "Upphör att gälla").
+// Källa för Konkurslag SFS 2025:796 och Aktiebolagslag SFS 2025:804:
+// Prop. 2024/25:135 "Ett nytt konkursförfarande" -- samma lagstiftningsärende
+// ändrar båda lagarna (avsnitt 2.1 för konkurslagen, avsnitt 2.9 för
+// aktiebolagslagen; avsnitt 11.5.3 för motiveringen till upphävandet av
+// 2 kap. 2 a § konkurslagen). Verifierad mot lagtexten i
+// src/data/laws/konkurslag.ts respektive aktiebolagslag.ts.
 //
-// OBS: Denna fil är handskriven för den här ändringen. Se README-anteckning
+// OBS: Aktiebolagslag-posten ersätter en tidigare felaktig placeholder som
+// pekade på SFS 2024:862 -- det SFS-numret hör till en helt annan lag
+// (betaltjänstlagen) och fanns inte med i aktiebolagslagens egen
+// ändringshistorik. Verifierat mot lagen.nu:s lista över samtliga 69
+// ändringsförfattningar till aktiebolagslagen (2005:551), där SFS 2025:804
+// är den senaste, och mot riksdagens öppna data.
+//
+// OBS: Denna fil är handskriven för de här ändringarna. Se README-anteckning
 // i botten av filen för förslag på hur detta kan automatiseras vid framtida
 // lagdatauppdateringar.
 
@@ -91,6 +99,27 @@ export const lawAmendments: LawAmendment[] = [
       },
     ],
   },
+  {
+    newsId: 'news-aktiebolagslag-2025-804',
+    lawId: 'sfs-2005-551',
+    sfsNumber: '2025:804',
+    title: 'Ändring i Aktiebolagslag (2005:551)',
+    summary:
+      'En språklig och redaktionell uppdatering av regeln om att ett aktiebolag ska gå i likvidation när en konkurs avslutas med överskott, efter en frivillig uppgörelse eller efter ackord. Den sakliga innebörden är oförändrad.',
+    effectiveDate: '2026-07-01',
+    source: 'Prop. 2024/25:135 "Ett nytt konkursförfarande"',
+    paragraphs: [
+      {
+        id: 'kap-25-§-51',
+        reference: '25 kap. 51 §',
+        changeType: 'ändrad',
+        oldText:
+          'Om en konkurs avslutas med överskott eller läggs ned efter frivillig uppgörelse eller om egendomen i konkursboet återställs till bolaget till följd av att ackord har fastställts, skall allmän domstol i samband med att konkursen avslutas besluta att bolaget skall gå i likvidation. Ett sådant beslut gäller omedelbart. Var bolaget i likvidation när det försattes i konkurs, skall likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket.',
+        newText:
+          'Om en konkurs avslutas med överskott eller läggs ner efter en frivillig uppgörelse, eller om egendomen i konkursboet återställs till bolaget till följd av att ett ackord har fastställts, ska allmän domstol i anslutning till att konkursen har avslutats besluta att bolaget ska gå i likvidation. Ett sådant beslut gäller omedelbart. Om bolaget var i likvidation när det försattes i konkurs ska likvidationen fortsätta enligt 44 §, om konkursen avslutas på det sätt som anges i första stycket.',
+      },
+    ],
+  },
 ];
 
 export function getAmendmentByNewsId(newsId: string): LawAmendment | undefined {
@@ -108,5 +137,6 @@ export function getAmendmentByNewsId(newsId: string): LawAmendment | undefined {
 //    inte innan = "ny". En som finns i båda men med annan text = "ändrad".
 // 3. Generera både en NewsItem (newsContent.ts) och en LawAmendment-post
 //    (den här filen) automatiskt från diffen, i stället för manuell
-//    research varje gång som gjordes för Konkurslag SFS 2025:796 ovan.
+//    research varje gång som gjordes för Konkurslag SFS 2025:796 och
+//    Aktiebolagslag SFS 2025:804 ovan.
 // ---------------------------------------------------------------------------
