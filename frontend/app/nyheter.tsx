@@ -3,6 +3,7 @@ import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-nati
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { activeNewsItems } from '../src/content/newsContent';
+import { getAmendmentByNewsId } from '../src/content/lawAmendments';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
 
 export default function NyheterScreen() {
@@ -16,24 +17,38 @@ export default function NyheterScreen() {
       >
         <Text style={styles.intro}>Senaste lagändringarna i lagar du använder</Text>
 
-        {activeNewsItems.map((item) => (
-          <View key={item.id} style={styles.card}>
-            <View style={styles.cardHeader}>
-              <Text style={styles.date}>{item.date}</Text>
-              <View style={styles.badge}>
-                <Text style={styles.badgeText}>NY ÄNDRING</Text>
+        {activeNewsItems.map((item) => {
+          const hasAmendmentDetails = !!getAmendmentByNewsId(item.id);
+
+          return (
+            <View key={item.id} style={styles.card}>
+              <View style={styles.cardHeader}>
+                <Text style={styles.date}>{item.date}</Text>
+                <View style={styles.badge}>
+                  <Text style={styles.badgeText}>NY ÄNDRING</Text>
+                </View>
+              </View>
+              <Text style={styles.lawTitle}>{item.lawTitle}</Text>
+              <Text style={styles.description}>{item.description}</Text>
+              <View style={styles.linkRow}>
+                <TouchableOpacity
+                  onPress={() => router.push(`/law/${item.lawId}`)}
+                  activeOpacity={0.7}
+                >
+                  <Text style={styles.link}>Visa lagtext ›</Text>
+                </TouchableOpacity>
+                {hasAmendmentDetails && (
+                  <TouchableOpacity
+                    onPress={() => router.push(`/amendment/${item.id}`)}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={styles.link}>Se vad som ändrats ›</Text>
+                  </TouchableOpacity>
+                )}
               </View>
             </View>
-            <Text style={styles.lawTitle}>{item.lawTitle}</Text>
-            <Text style={styles.description}>{item.description}</Text>
-            <TouchableOpacity
-              onPress={() => router.push(`/law/${item.lawId}`)}
-              activeOpacity={0.7}
-            >
-              <Text style={styles.link}>Visa lagtext ›</Text>
-            </TouchableOpacity>
-          </View>
-        ))}
+          );
+        })}
 
         <View style={styles.watchBanner}>
           <Ionicons name="notifications-outline" size={20} color={colors.greenHover} />
@@ -104,11 +119,16 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
   },
+  linkRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.md,
+    marginTop: spacing.xs,
+  },
   link: {
     fontSize: 14,
     fontFamily: typography.fontFamily.bold,
     color: colors.greenPrimary,
-    marginTop: spacing.xs,
   },
   watchBanner: {
     flexDirection: 'row',
