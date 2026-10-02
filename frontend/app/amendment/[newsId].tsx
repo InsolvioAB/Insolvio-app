@@ -190,8 +190,6 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
-    textDecorationLine: 'line-through',
-    textDecorationColor: colors.destructive,
   },
   newParagraphNoteText: {
     fontSize: 14,
