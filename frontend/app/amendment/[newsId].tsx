@@ -61,21 +61,18 @@ export default function AmendmentScreen() {
               </View>
             </View>
 
-            {paragraph.oldText && (
+            {paragraph.oldText ? (
               <View style={[styles.textBlock, styles.oldTextBlock]}>
                 <Text style={styles.textBlockLabel}>
                   {paragraph.changeType === 'upphävd' ? 'Upphävd lydelse' : 'Tidigare lydelse'}
                 </Text>
                 <Text style={styles.oldText}>{paragraph.oldText}</Text>
               </View>
-            )}
-
-            {paragraph.newText && (
-              <View style={[styles.textBlock, styles.newTextBlock]}>
-                <Text style={styles.textBlockLabel}>
-                  {paragraph.changeType === 'ny' ? 'Ny lydelse' : 'Nuvarande lydelse'}
+            ) : (
+              <View style={[styles.textBlock, styles.newParagraphNote]}>
+                <Text style={styles.newParagraphNoteText}>
+                  Ny paragraf — fanns inte tidigare.
                 </Text>
-                <Text style={styles.newText}>{paragraph.newText}</Text>
               </View>
             )}
           </View>
@@ -181,8 +178,8 @@ const styles = StyleSheet.create({
   oldTextBlock: {
     backgroundColor: '#fbf0ed',
   },
-  newTextBlock: {
-    backgroundColor: '#eaf4f0',
+  newParagraphNote: {
+    backgroundColor: '#d8f0e6',
   },
   textBlockLabel: {
     ...createLabelStyle(10),
@@ -196,11 +193,11 @@ const styles = StyleSheet.create({
     textDecorationLine: 'line-through',
     textDecorationColor: colors.destructive,
   },
-  newText: {
+  newParagraphNoteText: {
     fontSize: 14,
     lineHeight: 20,
     fontFamily: typography.fontFamily.regular,
-    color: colors.ink,
+    color: colors.darkText,
   },
   errorContainer: {
     flex: 1,
