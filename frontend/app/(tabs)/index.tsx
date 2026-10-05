@@ -45,9 +45,9 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Konkursadministration</Text>
+        <Text style={styles.headerTitle}>Insolvio</Text>
         <Text style={styles.headerSubtitle}>
-          Svensk lagsamling för konkursförvaltning
+          Svensk lagsamling för insolvensrätt
         </Text>
       </View>
       <FlatList
