@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { useRouter } from 'expo-router';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
@@ -39,7 +40,7 @@ export default function HomeScreen() {
   const hasActivity = recentlyViewed.length > 0 || bookmarks.length > 0;
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
         <Text style={styles.title}>Hem</Text>
         <TouchableOpacity
@@ -131,7 +132,7 @@ export default function HomeScreen() {
           </View>
         )}
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
