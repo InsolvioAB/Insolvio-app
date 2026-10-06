@@ -33,7 +33,7 @@ import { handelsbolag } from './laws/handelsbolag';
 import { las } from './laws/las';
 import { semesterlag } from './laws/semesterlag';
 import { aktiebolagslag } from './laws/aktiebolagslag';
-import { lönegaranti } from './laws/lönegaranti';
+import { lönegaranti } from './laws/lonegaranti';
 import { företagsrekonstruktion } from './laws/foretagsrekonstruktion';
 import { förmånsrättslag } from './laws/formansrattslag';
 import { skuldsaneringslagen } from './laws/skuldsaneringslagen';
