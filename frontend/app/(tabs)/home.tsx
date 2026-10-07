@@ -9,6 +9,7 @@ import {
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+import { legalTexts } from '../../src/data/legalTexts';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
@@ -22,9 +23,22 @@ function formatRelativeTime(timestamp: number): string {
   return `Visad för ${diffDays} dagar sedan`;
 }
 
-function formatEntryTitle(lawTitle: string, chapterNumber?: number, sectionNumber?: number): string {
+function formatEntryTitle(
+  lawId: string,
+  lawTitle: string,
+  chapterNumber?: number,
+  sectionNumber?: number,
+  sectionId?: string
+): string {
+  const chaptered = legalTexts.find((l) => l.id === lawId)?.chaptered !== false;
+  // Lettered sections ("1 a §") keep their letter in the section id, e.g. kap-1-§-1a
+  const letter = sectionId?.match(/§-\d+([a-z]+)$/)?.[1];
+  const label = sectionNumber ? `${sectionNumber}${letter ? ' ' + letter : ''} §` : '';
+  if (!chaptered) {
+    return label ? `${lawTitle} — ${label}` : lawTitle;
+  }
   if (chapterNumber && sectionNumber) {
-    return `${lawTitle} — ${chapterNumber} kap. ${sectionNumber} §`;
+    return `${lawTitle} — ${chapterNumber} kap. ${label}`;
   }
   if (chapterNumber) {
     return `${lawTitle} — ${chapterNumber} kap.`;
@@ -102,7 +116,7 @@ export default function HomeScreen() {
                   </View>
                   <View style={styles.rowTextContainer}>
                     <Text style={styles.rowTitle} numberOfLines={1}>
-                      {formatEntryTitle(entry.lawTitle, entry.chapterNumber, entry.sectionNumber)}
+                      {formatEntryTitle(entry.lawId, entry.lawTitle, entry.chapterNumber, entry.sectionNumber, entry.sectionId)}
                     </Text>
                     <Text style={styles.rowSubtitle}>{formatRelativeTime(entry.timestamp)}</Text>
                   </View>

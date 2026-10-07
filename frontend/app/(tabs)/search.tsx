@@ -10,7 +10,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts } from '../../src/data/legalTexts';
+import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
 
 type SearchResult = {
@@ -20,6 +20,7 @@ type SearchResult = {
   chapterTitle: string;
   sectionId: string;
   sectionNumber: number;
+  sectionLabel: string;
   sectionText: string;
   matchType: 'keyword' | 'section' | 'chapter';
 };
@@ -134,8 +135,9 @@ export default function SearchScreen() {
     const query = searchQuery.toLowerCase().trim();
 
     // Check if it's a section number search (e.g., "5 §" or "§5")
-    const sectionMatch = query.match(/§?\s*(\d+)\s*§?/);
+    const sectionMatch = query.match(/§?\s*(\d+)(?:\s*([a-z])(?![a-zåäö]))?\s*§?/);
     const sectionNumber = sectionMatch ? parseInt(sectionMatch[1]) : null;
+    const sectionSuffix = sectionMatch && sectionMatch[2] ? sectionMatch[2] : null;
 
     // Check if it's a chapter search (e.g., "3 kap" or "kap 3")
     const chapterMatch = query.match(/(?:kap\.?\s*(\d+)|([\d]+)\s*kap\.?)/);
@@ -153,6 +155,7 @@ export default function SearchScreen() {
               chapterTitle: chapter.title,
               sectionId: section.id,
               sectionNumber: section.number,
+              sectionLabel: sectionLabel(section),
               sectionText: section.text,
               matchType: 'chapter',
             });
@@ -162,7 +165,7 @@ export default function SearchScreen() {
 
         chapter.sections.forEach((section) => {
           // Section number match
-          if (sectionNumber && section.number === sectionNumber) {
+          if (sectionNumber && section.number === sectionNumber && (!sectionSuffix || section.suffix === sectionSuffix)) {
             results.push({
               lawId: law.id,
               lawTitle: law.title,
@@ -170,6 +173,7 @@ export default function SearchScreen() {
               chapterTitle: chapter.title,
               sectionId: section.id,
               sectionNumber: section.number,
+              sectionLabel: sectionLabel(section),
               sectionText: section.text,
               matchType: 'section',
             });
@@ -185,6 +189,7 @@ export default function SearchScreen() {
               chapterTitle: chapter.title,
               sectionId: section.id,
               sectionNumber: section.number,
+              sectionLabel: sectionLabel(section),
               sectionText: section.text,
               matchType: 'keyword',
             });
@@ -278,7 +283,9 @@ export default function SearchScreen() {
       >
         <View style={styles.resultLocation}>
           <Text style={styles.locationText}>
-            {item.chapterTitle} • {item.sectionNumber} §
+            {legalTexts.find((l) => l.id === item.lawId)?.chaptered === false
+              ? item.sectionLabel
+              : `${item.chapterTitle} • ${item.sectionLabel}`}
           </Text>
         </View>
         <HighlightedText

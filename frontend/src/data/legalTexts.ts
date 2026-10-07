@@ -5,9 +5,19 @@
 export type Section = {
   id: string;
   number: number;
+  /** Letter after the number, e.g. 'a' for "1 a §" */
+  suffix?: string;
+  /** Sub-heading (rubrik) that introduces this section */
+  heading?: string;
+  /** Heading one level above `heading`, when the law has two levels */
+  groupHeading?: string;
   text: string;
   references: string[];
 };
+
+/** "1 §", "1 a §" */
+export const sectionLabel = (s: { number: number; suffix?: string }): string =>
+  `${s.number}${s.suffix ? ' ' + s.suffix : ''} §`;
 
 export type Chapter = {
   id: string;
@@ -24,7 +34,11 @@ export type LegalText = {
   department: string;
   issued: string;
   lastAmended: string;
+  /** false for laws without kapitel (LAS, semesterlagen, ...) - UI then shows no "kap." labels */
+  chaptered?: boolean;
   chapters: Chapter[];
+  /** Övergångsbestämmelser, one entry per amending SFS */
+  transitional?: { sfs: string; text: string }[];
 };
 
 // Import complete law data files

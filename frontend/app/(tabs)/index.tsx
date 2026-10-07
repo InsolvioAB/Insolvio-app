@@ -32,7 +32,9 @@ export default function HomeScreen() {
       </View>
       <View style={styles.lawMetadata}>
         <Text style={styles.metadataText}>
-          {item.chapters.length} kapitel
+          {item.chaptered === false
+            ? `${item.chapters.reduce((n, c) => n + c.sections.length, 0)} paragrafer`
+            : `${item.chapters.length} kapitel`}
         </Text>
         <Text style={styles.metadataText}>•</Text>
         <Text style={styles.metadataText}>

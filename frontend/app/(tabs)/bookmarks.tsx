@@ -11,7 +11,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
-import { legalTexts } from '../../src/data/legalTexts';
+import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
 
 export default function BookmarksScreen() {
@@ -49,6 +49,8 @@ export default function BookmarksScreen() {
       lawTitle: law.title,
       chapterTitle: chapter.title,
       sectionNumber: section.number,
+      sectionLabel: sectionLabel(section),
+      chaptered: law.chaptered !== false,
       sectionText: section.text,
     };
   }).filter(Boolean);
@@ -68,7 +70,7 @@ export default function BookmarksScreen() {
           </View>
           <View style={styles.bookmarkLocation}>
             <Text style={styles.locationText}>
-              {item.chapterTitle} • {item.sectionNumber} §
+              {item.chaptered ? `${item.chapterTitle} • ${item.sectionLabel}` : item.sectionLabel}
             </Text>
           </View>
           <Text style={styles.sectionText} numberOfLines={3}>
