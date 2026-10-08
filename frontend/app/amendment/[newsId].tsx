@@ -75,6 +75,13 @@ export default function AmendmentScreen() {
                 </Text>
               </View>
             )}
+
+            {paragraph.newText ? (
+              <View style={[styles.textBlock, styles.newTextBlock]}>
+                <Text style={styles.textBlockLabel}>Ny lydelse</Text>
+                <Text style={styles.newText}>{paragraph.newText}</Text>
+              </View>
+            ) : null}
           </View>
         ))}
       </ScrollView>
@@ -181,6 +188,9 @@ const styles = StyleSheet.create({
   newParagraphNote: {
     backgroundColor: '#d8f0e6',
   },
+  newTextBlock: {
+    backgroundColor: '#e9f5ef',
+  },
   textBlockLabel: {
     ...createLabelStyle(10),
     color: colors.weakText,
@@ -190,6 +200,12 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
+  },
+  newText: {
+    fontSize: 14,
+    lineHeight: 20,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.darkText,
   },
   newParagraphNoteText: {
     fontSize: 14,
