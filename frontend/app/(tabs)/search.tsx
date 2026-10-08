@@ -6,6 +6,8 @@ import {
   TextInput,
   SectionList,
   TouchableOpacity,
+  Keyboard,
+  Pressable,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -107,6 +109,9 @@ function HighlightedText({ text, query, style, highlightStyle, numberOfLines }: 
 
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
+  // Whether the search field has focus -- drives the "Klar" button that lets
+  // the user close the keyboard (which otherwise covers the tab bar).
+  const [isFocused, setIsFocused] = useState(false);
   // Which law groups the user has manually expanded/collapsed, and which
   // they've asked to fully show past the per-law cap -- tracked as
   // overrides on top of the query's default state (see `defaultExpandedLawIds`
@@ -312,10 +317,20 @@ export default function SearchScreen() {
             onChangeText={setSearchQuery}
             autoCapitalize="none"
             autoCorrect={false}
+            returnKeyType="search"
+            blurOnSubmit
+            onSubmitEditing={Keyboard.dismiss}
+            onFocus={() => setIsFocused(true)}
+            onBlur={() => setIsFocused(false)}
           />
           {searchQuery.length > 0 && (
             <TouchableOpacity onPress={() => setSearchQuery('')}>
               <Ionicons name="close-circle" size={20} color={colors.mutedText} />
+            </TouchableOpacity>
+          )}
+          {isFocused && (
+            <TouchableOpacity onPress={Keyboard.dismiss} style={styles.doneButton} accessibilityLabel="Stäng tangentbordet">
+              <Text style={styles.doneText}>Klar</Text>
             </TouchableOpacity>
           )}
         </View>
@@ -327,21 +342,21 @@ export default function SearchScreen() {
       </View>
 
       {searchQuery.length === 0 ? (
-        <View style={styles.emptyState}>
+        <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
           <Ionicons name="search-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Sök i lagtexter</Text>
           <Text style={styles.emptyText}>
             Sök efter nyckelord, paragrafnummer (t.ex. "5 §") eller kapitel (t.ex. "3 kap")
           </Text>
-        </View>
+        </Pressable>
       ) : searchResults.length === 0 ? (
-        <View style={styles.emptyState}>
+        <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
           <Ionicons name="sad-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Inga resultat</Text>
           <Text style={styles.emptyText}>
             Försök med andra sökord
           </Text>
-        </View>
+        </Pressable>
       ) : (
         <SectionList
           sections={visibleSections}
@@ -388,6 +403,8 @@ export default function SearchScreen() {
           contentContainerStyle={styles.resultsList}
           showsVerticalScrollIndicator={false}
           stickySectionHeadersEnabled={false}
+          keyboardDismissMode="on-drag"
+          keyboardShouldPersistTaps="handled"
         />
       )}
     </SafeAreaView>
@@ -421,6 +438,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: typography.fontFamily.regular,
     color: colors.ink,
+  },
+  doneButton: {
+    marginLeft: spacing.sm,
+    paddingVertical: 2,
+    paddingHorizontal: spacing.xs,
+  },
+  doneText: {
+    fontSize: 15,
+    fontFamily: typography.fontFamily.semiBold,
+    color: colors.greenPrimary,
   },
   resultCount: {
     marginTop: spacing.sm,
