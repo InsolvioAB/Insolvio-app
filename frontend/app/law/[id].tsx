@@ -299,7 +299,7 @@ export default function LawViewerScreen() {
               onPress={() => toggleChapter(chapter.id)}
             >
               <View style={styles.chapterTitleContainer}>
-                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
+                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
                 <Text style={styles.chapterTitle}>{chapter.title}</Text>
               </View>
               <Ionicons
@@ -460,7 +460,7 @@ export default function LawViewerScreen() {
                   setShowTOC(false);
                 }}
               >
-                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
+                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
                 <Text style={styles.tocChapterTitle}>{chapter.title}</Text>
               </TouchableOpacity>
             ))}
@@ -587,6 +587,7 @@ const styles = StyleSheet.create({
   },
   chapterNumber: {
     ...createLabelStyle(12),
+    textTransform: 'none', // "KAP." is written in capitals in the JSX; a letter suffix ("4 a") must stay lowercase
     color: colors.greenPrimary,
     marginBottom: 4,
   },
@@ -619,6 +620,7 @@ const styles = StyleSheet.create({
   },
   sectionNumber: {
     ...createLabelStyle(13),
+    textTransform: 'none', // keep the letter of "18 a §" lowercase
     color: colors.greenPrimary,
   },
   sectionActions: {
@@ -717,6 +719,7 @@ const styles = StyleSheet.create({
   },
   tocChapterNumber: {
     ...createLabelStyle(12),
+    textTransform: 'none',
     color: colors.greenPrimary,
     marginBottom: 4,
   },

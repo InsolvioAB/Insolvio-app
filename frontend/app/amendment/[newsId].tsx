@@ -47,7 +47,7 @@ export default function AmendmentScreen() {
         {amendment.paragraphs.map((paragraph) => (
           <View key={paragraph.id} style={styles.paragraphCard}>
             <View style={styles.paragraphHeader}>
-              <Text style={styles.paragraphReference}>{paragraph.reference}</Text>
+              <Text style={styles.paragraphReference}>{paragraph.reference.replace('kap.', 'KAP.')}</Text>
               <View
                 style={[
                   styles.changeBadge,
@@ -215,6 +215,7 @@ const styles = StyleSheet.create({
   },
   paragraphReference: {
     ...createLabelStyle(13),
+    textTransform: 'none', // "KAP." is capitalised in the JSX; "2 a §" keeps its lowercase letter
     color: colors.greenPrimary,
   },
   changeBadge: {
