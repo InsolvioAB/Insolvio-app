@@ -99,7 +99,7 @@ function renderComparison(paragraph: AmendmentParagraph, effectiveDate: string) 
       <View style={styles.blockLabelRow}>
         <Ionicons name="document-text-outline" size={14} color={colors.weakText} />
         <Text style={styles.textBlockLabel}>
-          {changeType === 'upphävd' ? 'Upphävd lydelse' : 'Tidigare lydelse'}
+          {changeType === 'upphävd' ? 'Upphävd lydelse' : 'Nuvarande lydelse'}
         </Text>
       </View>
       {diff ? (
@@ -121,8 +121,8 @@ function renderComparison(paragraph: AmendmentParagraph, effectiveDate: string) 
   const newBlock = newText ? (
     <View style={[styles.textBlock, styles.newTextBlock]}>
       <View style={styles.blockLabelRow}>
-        <Ionicons name="checkmark-circle-outline" size={14} color={colors.greenPrimary} />
-        <Text style={[styles.textBlockLabel, styles.newLabel]}>Ny lydelse</Text>
+        <Ionicons name="time-outline" size={14} color={colors.greenPrimary} />
+        <Text style={[styles.textBlockLabel, styles.newLabel]}>Kommande lydelse</Text>
       </View>
       {diff ? (
         renderSegments(diff.newSegments, styles.bodyText, styles.added)
