@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
 import { activeNewsItems } from '../src/content/newsContent';
 import { getAmendmentByNewsId } from '../src/content/lawAmendments';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
@@ -49,13 +48,6 @@ export default function NyheterScreen() {
             </View>
           );
         })}
-
-        <View style={styles.watchBanner}>
-          <Ionicons name="notifications-outline" size={20} color={colors.greenHover} />
-          <Text style={styles.watchBannerText}>
-            Bevaka en lag du bokmärkt för att få en avisering nästa gång den ändras.
-          </Text>
-        </View>
       </ScrollView>
     </View>
   );

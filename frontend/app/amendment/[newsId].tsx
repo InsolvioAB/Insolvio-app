@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, Stack } from 'expo-router';
-import { getAmendmentByNewsId, AmendmentChangeType } from '../../src/content/lawAmendments';
+import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
+import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 const CHANGE_TYPE_LABEL: Record<AmendmentChangeType, string> = {
@@ -28,21 +30,24 @@ export default function AmendmentScreen() {
       <ScrollView style={styles.container} contentContainerStyle={styles.content}>
         <View style={styles.header}>
           <Text style={styles.title}>{amendment.title}</Text>
-          <View style={styles.metadata}>
-            <Text style={styles.metadataText}>SFS {amendment.sfsNumber}</Text>
-            <Text style={styles.metadataText}>•</Text>
-            <Text style={styles.metadataText}>
-              I kraft {formatDate(amendment.effectiveDate)}
-            </Text>
-          </View>
+          <Text style={styles.metadataText}>SFS {amendment.sfsNumber}</Text>
           <Text style={styles.summary}>{amendment.summary}</Text>
           <Text style={styles.source}>Källa: {amendment.source}</Text>
+          <View style={styles.legend}>
+            <Text style={styles.legendTitle}>Så läser du jämförelsen:</Text>
+            <View style={styles.legendRow}>
+              <Text style={[styles.removed, styles.legendChip]}>Text</Text>
+              <Text style={styles.legendText}>tas bort</Text>
+              <Text style={[styles.added, styles.legendChip]}>Text</Text>
+              <Text style={styles.legendText}>läggs till</Text>
+            </View>
+          </View>
         </View>
 
         {amendment.paragraphs.map((paragraph) => (
           <View key={paragraph.id} style={styles.paragraphCard}>
             <View style={styles.paragraphHeader}>
-              <Text style={styles.paragraphReference}>{paragraph.reference}</Text>
+              <Text style={styles.paragraphReference}>{paragraph.reference.replace('kap.', 'KAP.')}</Text>
               <View
                 style={[
                   styles.changeBadge,
@@ -61,23 +66,86 @@ export default function AmendmentScreen() {
               </View>
             </View>
 
-            {paragraph.oldText ? (
-              <View style={[styles.textBlock, styles.oldTextBlock]}>
-                <Text style={styles.textBlockLabel}>
-                  {paragraph.changeType === 'upphävd' ? 'Upphävd lydelse' : 'Tidigare lydelse'}
-                </Text>
-                <Text style={styles.oldText}>{paragraph.oldText}</Text>
-              </View>
-            ) : (
-              <View style={[styles.textBlock, styles.newParagraphNote]}>
-                <Text style={styles.newParagraphNoteText}>
-                  Ny paragraf — fanns inte tidigare.
-                </Text>
-              </View>
-            )}
+            {renderComparison(paragraph, amendment.effectiveDate)}
           </View>
         ))}
       </ScrollView>
+    </>
+  );
+}
+
+function renderSegments(segments: DiffSegment[], style: object, changedStyle: object) {
+  return (
+    <Text style={style}>
+      {segments.map((seg, idx) =>
+        seg.changed ? (
+          <Text key={idx} style={changedStyle}>
+            {seg.text}
+          </Text>
+        ) : (
+          seg.text
+        )
+      )}
+    </Text>
+  );
+}
+
+function renderComparison(paragraph: AmendmentParagraph, effectiveDate: string) {
+  const { oldText, newText, changeType } = paragraph;
+  const diff = oldText && newText ? diffWords(oldText, newText) : null;
+
+  const oldBlock = oldText ? (
+    <View style={[styles.textBlock, styles.oldTextBlock]}>
+      <View style={styles.blockLabelRow}>
+        <Ionicons name="document-text-outline" size={14} color={colors.weakText} />
+        <Text style={styles.textBlockLabel}>
+          {changeType === 'upphävd' ? 'Upphävd lydelse' : 'Nuvarande lydelse'}
+        </Text>
+      </View>
+      {diff ? (
+        renderSegments(diff.oldSegments, styles.bodyText, styles.removed)
+      ) : changeType === 'upphävd' ? (
+        <Text style={styles.bodyText}>
+          <Text style={styles.removed}>{oldText}</Text>
+        </Text>
+      ) : (
+        <Text style={styles.bodyText}>{oldText}</Text>
+      )}
+    </View>
+  ) : (
+    <View style={[styles.textBlock, styles.newParagraphNote]}>
+      <Text style={styles.bodyText}>Ny paragraf — fanns inte tidigare.</Text>
+    </View>
+  );
+
+  const newBlock = newText ? (
+    <View style={[styles.textBlock, styles.newTextBlock]}>
+      <View style={styles.blockLabelRow}>
+        <Ionicons name="time-outline" size={14} color={colors.greenPrimary} />
+        <Text style={[styles.textBlockLabel, styles.newLabel]}>Kommande lydelse</Text>
+      </View>
+      {diff ? (
+        renderSegments(diff.newSegments, styles.bodyText, styles.added)
+      ) : (
+        <Text style={styles.bodyText}>{newText}</Text>
+      )}
+    </View>
+  ) : null;
+
+  return (
+    <>
+      {oldBlock}
+      {newBlock ? (
+        <View style={styles.dateDivider}>
+          <View style={styles.dashedLine} />
+          <View style={styles.datePill}>
+            <Ionicons name="calendar-outline" size={14} color={colors.greenPrimary} />
+            <Text style={styles.datePillText}>I kraft {formatDate(effectiveDate)}</Text>
+          </View>
+          <View style={styles.dashedLine} />
+        </View>
+      ) : null}
+      {newBlock}
     </>
   );
 }
@@ -147,6 +215,7 @@ const styles = StyleSheet.create({
   },
   paragraphReference: {
     ...createLabelStyle(13),
+    textTransform: 'none', // "KAP." is capitalised in the JSX; "2 a §" keeps its lowercase letter
     color: colors.greenPrimary,
   },
   changeBadge: {
@@ -176,10 +245,96 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   oldTextBlock: {
-    backgroundColor: '#fbf0ed',
+    backgroundColor: '#efefef',
   },
   newParagraphNote: {
     backgroundColor: '#d8f0e6',
+  },
+  newTextBlock: {
+    backgroundColor: '#e3f1ea',
+    borderWidth: 1,
+    borderColor: '#bfdccd',
+  },
+  newLabel: {
+    color: colors.greenPrimary,
+  },
+  blockLabelRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  bodyText: {
+    fontSize: 15,
+    lineHeight: 22,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.ink,
+  },
+  removed: {
+    backgroundColor: '#f6d9d4',
+    textDecorationLine: 'line-through',
+    textDecorationColor: '#b3402f',
+    color: '#7a2c20',
+  },
+  added: {
+    backgroundColor: '#bfe3d0',
+    fontFamily: typography.fontFamily.bold,
+    color: colors.ink,
+  },
+  legend: {
+    marginTop: spacing.sm,
+    paddingTop: spacing.sm,
+    borderTopWidth: 1,
+    borderTopColor: colors.dividerLight,
+    gap: spacing.xs,
+  },
+  legendTitle: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.ink,
+  },
+  legendRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    gap: spacing.sm,
+  },
+  legendChip: {
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    overflow: 'hidden',
+    borderRadius: 4,
+    fontSize: 13,
+  },
+  legendText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  dateDivider: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+  },
+  dashedLine: {
+    flex: 1,
+    borderTopWidth: 1,
+    borderTopColor: colors.dividerLight,
+    borderStyle: 'dashed',
+  },
+  datePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    borderWidth: 1,
+    borderColor: colors.greenPrimary,
+    borderRadius: 999,
+    paddingHorizontal: spacing.sm,
+    paddingVertical: 4,
+  },
+  datePillText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.ink,
   },
   textBlockLabel: {
     ...createLabelStyle(10),
@@ -190,6 +345,12 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     fontFamily: typography.fontFamily.regular,
     color: colors.mutedText,
+  },
+  newText: {
+    fontSize: 14,
+    lineHeight: 20,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.darkText,
   },
   newParagraphNoteText: {
     fontSize: 14,

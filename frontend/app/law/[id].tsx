@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts, Chapter } from '../../src/data/legalTexts';
+import { legalTexts, Chapter, sectionLabel } from '../../src/data/legalTexts';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
@@ -27,6 +27,7 @@ export default function LawViewerScreen() {
   
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
+  const [showTransitional, setShowTransitional] = useState(false);
   const [selectedSection, setSelectedSection] = useState<string | null>(null);
   const [noteModalVisible, setNoteModalVisible] = useState(false);
   const [noteText, setNoteText] = useState('');
@@ -137,7 +138,11 @@ export default function LawViewerScreen() {
     );
     if (!targetChapter) return null;
 
-    const targetId = `kap-${chapterNumber}${chapterSuffix ?? ''}-§-${sectionNumber}`;
+    // A single reference to a lettered section ("2 a §", "7 kap. 59 a §") links to
+    // that exact section; compound references still link to the first number.
+    const singleLettered = /^(?:\d+\s*[a-z]?\s*kap\.\s*)?\d+\s*([a-z])\s*§§?$/.exec(ref.trim());
+    const sectionSuffix = singleLettered ? singleLettered[1] : '';
+    const targetId = `kap-${chapterNumber}${chapterSuffix ?? ''}-§-${sectionNumber}${sectionSuffix}`;
     const targetSection = targetChapter.sections.find((s) => s.id === targetId);
     return targetSection ? targetId : null;
   };
@@ -252,14 +257,15 @@ export default function LawViewerScreen() {
             color: colors.ink,
           },
           headerTintColor: colors.greenPrimary,
-          headerRight: () => (
-            <TouchableOpacity
-              onPress={() => setShowTOC(true)}
-              style={styles.headerButton}
-            >
-              <Ionicons name="list-outline" size={24} color={colors.greenPrimary} />
-            </TouchableOpacity>
-          ),
+          headerRight: () =>
+            law?.chaptered === false ? null : (
+              <TouchableOpacity
+                onPress={() => setShowTOC(true)}
+                style={styles.headerButton}
+              >
+                <Ionicons name="list-outline" size={24} color={colors.greenPrimary} />
+              </TouchableOpacity>
+            ),
         }}
       />
       
@@ -287,12 +293,13 @@ export default function LawViewerScreen() {
         {/* Chapters */}
         {law.chapters.map((chapter) => (
           <View key={chapter.id} style={styles.chapterContainer}>
+            {law.chaptered !== false && (
             <TouchableOpacity
               style={styles.chapterHeader}
               onPress={() => toggleChapter(chapter.id)}
             >
               <View style={styles.chapterTitleContainer}>
-                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
+                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
                 <Text style={styles.chapterTitle}>{chapter.title}</Text>
               </View>
               <Ionicons
@@ -301,8 +308,9 @@ export default function LawViewerScreen() {
                 color={colors.mutedText}
               />
             </TouchableOpacity>
+            )}
 
-            {expandedChapters.has(chapter.id) && (
+            {(law.chaptered === false || expandedChapters.has(chapter.id)) && (
               <View style={styles.sectionsContainer}>
                 {chapter.sections.map((sectionItem) => {
                   const sectionNote = getNote(sectionItem.id);
@@ -319,8 +327,14 @@ export default function LawViewerScreen() {
                         section === sectionItem.id && styles.highlightedSection,
                       ]}
                     >
+                      {sectionItem.groupHeading ? (
+                        <Text style={styles.groupHeadingText}>{sectionItem.groupHeading}</Text>
+                      ) : null}
+                      {sectionItem.heading ? (
+                        <Text style={styles.headingText}>{sectionItem.heading}</Text>
+                      ) : null}
                       <View style={styles.sectionHeader}>
-                        <Text style={styles.sectionNumber}>{sectionItem.number} §</Text>
+                        <Text style={styles.sectionNumber}>{sectionLabel(sectionItem)}</Text>
                         <View style={styles.sectionActions}>
                           <TouchableOpacity
                             onPress={() => handleNotePress(sectionItem.id)}
@@ -392,6 +406,34 @@ export default function LawViewerScreen() {
             )}
           </View>
         ))}
+
+        {law.transitional && law.transitional.length > 0 && (
+          <View style={styles.chapterContainer}>
+            <TouchableOpacity
+              style={styles.chapterHeader}
+              onPress={() => setShowTransitional(!showTransitional)}
+            >
+              <View style={styles.chapterTitleContainer}>
+                <Text style={styles.chapterTitle}>Övergångsbestämmelser</Text>
+              </View>
+              <Ionicons
+                name={showTransitional ? 'chevron-up' : 'chevron-down'}
+                size={20}
+                color={colors.mutedText}
+              />
+            </TouchableOpacity>
+            {showTransitional && (
+              <View style={styles.sectionsContainer}>
+                {law.transitional.map((t) => (
+                  <View key={t.sfs} style={styles.sectionContainer}>
+                    <Text style={styles.sectionNumber}>SFS {t.sfs}</Text>
+                    <Text style={styles.sectionText}>{t.text}</Text>
+                  </View>
+                ))}
+              </View>
+            )}
+          </View>
+        )}
       </ScrollView>
 
       {/* Table of Contents Modal */}
@@ -418,7 +460,7 @@ export default function LawViewerScreen() {
                   setShowTOC(false);
                 }}
               >
-                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} kap.</Text>
+                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
                 <Text style={styles.tocChapterTitle}>{chapter.title}</Text>
               </TouchableOpacity>
             ))}
@@ -545,6 +587,7 @@ const styles = StyleSheet.create({
   },
   chapterNumber: {
     ...createLabelStyle(12),
+    textTransform: 'none', // "KAP." is written in capitals in the JSX; a letter suffix ("4 a") must stay lowercase
     color: colors.greenPrimary,
     marginBottom: 4,
   },
@@ -577,6 +620,7 @@ const styles = StyleSheet.create({
   },
   sectionNumber: {
     ...createLabelStyle(13),
+    textTransform: 'none', // keep the letter of "18 a §" lowercase
     color: colors.greenPrimary,
   },
   sectionActions: {
@@ -591,6 +635,20 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.darkText,
     lineHeight: 24,
+  },
+  groupHeadingText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+    marginBottom: 2,
+  },
+  headingText: {
+    fontSize: 16,
+    fontFamily: typography.fontFamily.bold,
+    color: colors.ink,
+    marginBottom: spacing.sm,
   },
   notePreview: {
     flexDirection: 'row',
@@ -661,6 +719,7 @@ const styles = StyleSheet.create({
   },
   tocChapterNumber: {
     ...createLabelStyle(12),
+    textTransform: 'none',
     color: colors.greenPrimary,
     marginBottom: 4,
   },

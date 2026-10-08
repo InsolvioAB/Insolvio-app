@@ -1,24 +1,27 @@
 {
   "expo": {
-    "name": "Konkursadministration",
-    "slug": "konkurs-admin",
+    "name": "Insolvio",
+    "slug": "insolvio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "frontend",
+    "scheme": "insolvio",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.emergent.lawfinder.ot5m9b"
+      "supportsTablet": false,
+      "bundleIdentifier": "se.ejuridik.insolvio",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#000"
+        "backgroundColor": "#3C8855"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.emergent.lawfinder.ot5m9b"
+      "package": "se.ejuridik.insolvio"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +33,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splash-image.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#000"
@@ -41,6 +44,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9f624980-b4ac-4375-b894-28a6b7711bb6"
+      }
     }
   }
 }
