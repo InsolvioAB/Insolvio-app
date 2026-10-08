@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
@@ -27,8 +27,15 @@ export default function AmendmentScreen() {
   return (
     <>
       <Stack.Screen options={{ title: 'Jämför ändring' }} />
-      <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-        <View style={styles.header}>
+      <FlatList
+        style={styles.container}
+        contentContainerStyle={styles.content}
+        data={amendment.paragraphs}
+        keyExtractor={(paragraph) => paragraph.id}
+        initialNumToRender={6}
+        windowSize={7}
+        ListHeaderComponent={
+          <View style={styles.header}>
           <Text style={styles.title}>{amendment.title}</Text>
           <Text style={styles.metadataText}>SFS {amendment.sfsNumber}</Text>
           <Text style={styles.summary}>{amendment.summary}</Text>
@@ -43,9 +50,9 @@ export default function AmendmentScreen() {
             </View>
           </View>
         </View>
-
-        {amendment.paragraphs.map((paragraph) => (
-          <View key={paragraph.id} style={styles.paragraphCard}>
+        }
+        renderItem={({ item: paragraph }) => (
+          <View style={styles.paragraphCard}>
             <View style={styles.paragraphHeader}>
               <Text style={styles.paragraphReference}>{paragraph.reference.replace('kap.', 'KAP.')}</Text>
               <View
@@ -68,8 +75,8 @@ export default function AmendmentScreen() {
 
             {renderComparison(paragraph, amendment.effectiveDate)}
           </View>
-        ))}
-      </ScrollView>
+        )}
+      />
     </>
   );
 }

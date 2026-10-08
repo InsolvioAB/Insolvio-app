@@ -16,7 +16,7 @@ export const newsItems: NewsItem[] = [
     date: '15 AUG 2026',
     dateISO: '2026-08-15',
     lawTitle: 'Konkurslag',
-    description: 'Ändrad t.o.m. SFS 2025:796 — ändringar i 1 och 2 kap. om tillsyn över förvaltningen och konkursansökan. En enklare ansökningsregel ersätter den tidigare forumregeln, och tingsrättens roll minskar till förmån för tillsynsmyndigheten och förvaltaren.',
+    description: 'Ändrad t.o.m. SFS 2025:796 — omfattande ändringar: 141 paragrafer i Konkurslagen ändras, tillkommer eller upphävs, i 16 av lagens 17 kapitel. En enklare ansökningsregel ersätter den tidigare forumregeln, och tingsrättens roll minskar till förmån för tillsynsmyndigheten och förvaltaren.',
   },
   {
     id: 'news-aktiebolagslag-2025-804',
