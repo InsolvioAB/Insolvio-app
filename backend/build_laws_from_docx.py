@@ -88,7 +88,14 @@ def extract_refs(text):
 
 def parse(docx_path, today, only_chapter=None):
     d = Document(docx_path)
-    ps = d.paragraphs
+    ps = list(d.paragraphs)
+    # Saved web pages from riksdagen.se end with site footer text ("All offentlig
+    # makt i Sverige utgår från folket ...", "Kontakt", "Växel" ...). It is not
+    # part of the law, so cut everything from there on.
+    for i, p in enumerate(ps):
+        if p.text.strip().startswith('All offentlig makt i Sverige'):
+            ps = ps[:i]
+            break
     meta = {}
     hdr = next((p for p in ps[:12] if p.text.startswith('SFS nr:')), ps[0])
     for line in hdr.text.split('\n'):
