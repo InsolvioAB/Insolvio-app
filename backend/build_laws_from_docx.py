@@ -33,6 +33,23 @@ def is_bold_only(p):
     return bool(runs) and all(r.bold for r in runs)
 
 
+_HYPH_CONJ = {'och', 'eller', 'respektive', 'samt', 'än', 'men', 'alternativt', 'resp'}
+_HYPH_RE = re.compile(r'([A-Za-zåäöÅÄÖ]{2,})- ([a-zåäö]{2,})\b')
+
+
+def fix_linebreak_hyphens(line):
+    """Join words split by a typographic line-break hyphen ('bestäm- melserna'),
+    but keep 'kost- och'-style suspended hyphens and 'IMI- förordningen'."""
+    def sub(m):
+        a, b = m.group(1), m.group(2)
+        if b in _HYPH_CONJ:
+            return m.group(0)
+        if a.isupper() or a == 'icke':
+            return a + '-' + b
+        return a + b
+    return _HYPH_RE.sub(sub, line)
+
+
 def norm_block(text):
     """Normalise one docx paragraph into display text.
     Lines starting with NBSP indentation are list items; keep them on their own
@@ -46,6 +63,7 @@ def norm_block(text):
             line = line[m.end():]
         line = line.replace(NBSP, ' ')
         line = re.sub(r'[ \t]+', ' ', line).strip()
+        line = fix_linebreak_hyphens(line)
         if not line:
             continue
         out.append(('   ' * level) + line if level else line)

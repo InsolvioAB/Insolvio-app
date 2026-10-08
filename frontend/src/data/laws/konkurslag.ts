@@ -663,7 +663,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-2",
           "number": 2,
-          "text": "Gäldenären ska ge rätten, tillsynsmyndigheten, förvaltare och granskare de upplysningar av betydelse för konkursutredningen som de begär. Upplysningsskyldigheten omfattar även egendom som inte ingår i boet på grund av att den finns utomlands.\n\nGäldenären ska på begäran av förvaltaren närvara vid boupp- teckningsförrättningen. Om gäldenären är en juridisk person och det finns flera ställföreträdare, gäller denna skyldighet dock inte för en sådan ställföreträdare vars närvaro förvaltaren anser sakna betydelse för boutredningen.\nLag (2025:796).",
+          "text": "Gäldenären ska ge rätten, tillsynsmyndigheten, förvaltare och granskare de upplysningar av betydelse för konkursutredningen som de begär. Upplysningsskyldigheten omfattar även egendom som inte ingår i boet på grund av att den finns utomlands.\n\nGäldenären ska på begäran av förvaltaren närvara vid bouppteckningsförrättningen. Om gäldenären är en juridisk person och det finns flera ställföreträdare, gäller denna skyldighet dock inte för en sådan ställföreträdare vars närvaro förvaltaren anser sakna betydelse för boutredningen.\nLag (2025:796).",
           "references": [],
           "heading": "Upplysnings- och närvaroplikt under boutredningen"
         },
@@ -773,7 +773,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-9",
           "number": 9,
-          "text": "Om gäldenären inte fullgör en skyldighet enligt 2-4 eller 6 b-6 d § eller överträder ett reseförbud enligt 6 eller 6 a §, får han eller hon efter omständigheterna antingen hämtas eller häktas. Detsamma gäller om det finns skäl att befara att gäldenären inte kommer att fullgöra en sådan skyl- dighet eller kommer att överträda ett sådant förbud.\n\nOm någon annan än gäldenären inte fullgör en skyldighet enligt 5 § att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, får han eller hon efter omständigheterna föreläggas vite, hämtas eller häktas.\n\nHäktning i de fall som avses i första och andra styckena får ske endast om det finns synnerliga skäl för det. Om gäldenären har överträtt ett reseförbud enligt 6 eller 6 a § ska han eller hon dock häktas om det inte är uppenbart att det är onödigt.\n\nKostnaden för hämtning eller häktning betalas av staten.\nLag (2025:796).",
+          "text": "Om gäldenären inte fullgör en skyldighet enligt 2-4 eller 6 b-6 d § eller överträder ett reseförbud enligt 6 eller 6 a §, får han eller hon efter omständigheterna antingen hämtas eller häktas. Detsamma gäller om det finns skäl att befara att gäldenären inte kommer att fullgöra en sådan skyldighet eller kommer att överträda ett sådant förbud.\n\nOm någon annan än gäldenären inte fullgör en skyldighet enligt 5 § att bekräfta eller beediga bouppteckningen eller en viss uppgift i den, får han eller hon efter omständigheterna föreläggas vite, hämtas eller häktas.\n\nHäktning i de fall som avses i första och andra styckena får ske endast om det finns synnerliga skäl för det. Om gäldenären har överträtt ett reseförbud enligt 6 eller 6 a § ska han eller hon dock häktas om det inte är uppenbart att det är onödigt.\n\nKostnaden för hämtning eller häktning betalas av staten.\nLag (2025:796).",
           "references": [
             "6 b-6 d §",
             "6 a §",
@@ -791,7 +791,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-6-§-11",
           "number": 11,
-          "text": "Rätten får hålla förhandling för att pröva en fråga som avses i 7 eller 10 §. Om häktning har begärts ska förhandling hållas, om det inte är fara i dröjsmål.\n\nTill förhandlingen ska tillsynsmyndigheten, förvaltaren och, om möjligt, den som avses med åtgärden kallas. Den sistnämndes kallelse ska delges. Han eller hon får hämtas till förhandlingen, om det finns skäl för det. Om den som avses med åtgärden har kallats till förhandlingen eller det kan antas att han eller hon har avvikit eller håller sig undan på något annat sätt, får yrkandet prövas även om han eller hon uteblir från förhandlingen.\n\nOm rätten har beslutat om häktning av någon som inte var närvarande vid rätten, ska, så snart beslutet har verkställts, anmälan om detta göras hos rätten. När en sådan anmälan har gjorts ska en förhandling i häktningsfrågan hållas snarast och senast fyra dagar efter det att häktningsbeslutet verk- ställdes.\n\nRätten ska med högst två veckors mellanrum hålla förhandling för att pröva om den som är häktad fortfarande ska vara det. Om det inte längre finns skäl för häktning, ska rätten omedelbart besluta att den häktade ska friges. Ingen får under konkursen hållas häktad längre tid än tre månader. Lag (2025:796).",
+          "text": "Rätten får hålla förhandling för att pröva en fråga som avses i 7 eller 10 §. Om häktning har begärts ska förhandling hållas, om det inte är fara i dröjsmål.\n\nTill förhandlingen ska tillsynsmyndigheten, förvaltaren och, om möjligt, den som avses med åtgärden kallas. Den sistnämndes kallelse ska delges. Han eller hon får hämtas till förhandlingen, om det finns skäl för det. Om den som avses med åtgärden har kallats till förhandlingen eller det kan antas att han eller hon har avvikit eller håller sig undan på något annat sätt, får yrkandet prövas även om han eller hon uteblir från förhandlingen.\n\nOm rätten har beslutat om häktning av någon som inte var närvarande vid rätten, ska, så snart beslutet har verkställts, anmälan om detta göras hos rätten. När en sådan anmälan har gjorts ska en förhandling i häktningsfrågan hållas snarast och senast fyra dagar efter det att häktningsbeslutet verkställdes.\n\nRätten ska med högst två veckors mellanrum hålla förhandling för att pröva om den som är häktad fortfarande ska vara det. Om det inte längre finns skäl för häktning, ska rätten omedelbart besluta att den häktade ska friges. Ingen får under konkursen hållas häktad längre tid än tre månader. Lag (2025:796).",
           "references": [
             "10 §"
           ]
@@ -992,7 +992,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-7-§-21",
           "number": 21,
-          "text": "Om medel som tillhör boet har varit insatta i ett kreditinstitut efter det att konkursen har avslutats, ska förvaltaren anmäla till tillsynsmyndigheten när det inte längre finns några medel att lyfta.\n\nOm det vid utgången av ett kalenderår fortfarande finns insatta medel, ska förvaltaren anmäla det till tillsynsmyndigheten inom tre månader från utgången av året, om inte en anmälan enligt första stycket gjorts dessförinnan.\n\nI en anmälan enligt första eller andra stycket ska förvaltaren redovisa sådana uppgifter och kontoutdrag som anges i 20 § första stycket andra och tredje meningarna. Förvaltaren ska även redovisa i vilken utsträckning utdelningsmedel har betalats ut med stöd av 11 kap. 13 a §. Förvaltarens redo- visning ska endast avse den period som inte omfattas av tidigare lämnad redovisning. Lag (2025:796).",
+          "text": "Om medel som tillhör boet har varit insatta i ett kreditinstitut efter det att konkursen har avslutats, ska förvaltaren anmäla till tillsynsmyndigheten när det inte längre finns några medel att lyfta.\n\nOm det vid utgången av ett kalenderår fortfarande finns insatta medel, ska förvaltaren anmäla det till tillsynsmyndigheten inom tre månader från utgången av året, om inte en anmälan enligt första stycket gjorts dessförinnan.\n\nI en anmälan enligt första eller andra stycket ska förvaltaren redovisa sådana uppgifter och kontoutdrag som anges i 20 § första stycket andra och tredje meningarna. Förvaltaren ska även redovisa i vilken utsträckning utdelningsmedel har betalats ut med stöd av 11 kap. 13 a §. Förvaltarens redovisning ska endast avse den period som inte omfattas av tidigare lämnad redovisning. Lag (2025:796).",
           "references": [
             "20 §",
             "11 kap. 13 a §"
@@ -1258,14 +1258,14 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-6c",
           "number": 6,
-          "text": "I konkurs hos ett livförsäkringsföretag eller ett tjänstepensionsföretag ska förvaltaren inom bevakningstiden upprätta en förteckning över försäkringstagarnas och andra ersättningsberättigades fordringar. Motsvarande gäller i konkurs hos ett försäkringsföretag som får meddela trafik- försäkring, men endast för fordringar som grundas på avtal om en sådan försäkring.\n\nFörteckningen ska innehålla uppgifter om borgenärerna och deras fordringsbelopp med upplupen ränta. Lag (2025:796).",
+          "text": "I konkurs hos ett livförsäkringsföretag eller ett tjänstepensionsföretag ska förvaltaren inom bevakningstiden upprätta en förteckning över försäkringstagarnas och andra ersättningsberättigades fordringar. Motsvarande gäller i konkurs hos ett försäkringsföretag som får meddela trafikförsäkring, men endast för fordringar som grundas på avtal om en sådan försäkring.\n\nFörteckningen ska innehålla uppgifter om borgenärerna och deras fordringsbelopp med upplupen ränta. Lag (2025:796).",
           "references": [],
           "suffix": "c"
         },
         {
           "id": "kap-9-§-7",
           "number": 7,
-          "text": "När bevakningstiden har gått ut ska förvaltaren genast skicka kopior av bevakningarna till tillsynsmyndigheten tillsammans med en förteckning enligt 6 a, 6 b eller 6 c §, om en sådan har upprättats. Myndigheten ska hålla handlingarna tillgängliga för den som vill ta del av dem.\n\nFörvaltaren ska skyndsamt upprätta en förteckning över de fordringar som har bevakats. För varje fordran ska beloppet anges och, om förmånsrätt har yrkats, den åberopade grunden för den samt den plats i förmånsrättsordningen som fordran får enligt borgenärens yrkande. Fordringar som framgår av en förteckning enligt 6 a, 6 b eller 6 c § får anges genom hän- visning till den förteckningen.\n\nFörvaltaren ska skicka en kopia av bevakningsförteckningen till tillsynsmyndigheten, som ska hålla den tillgänglig för den som vill ta del av den. Lag (2025:796).",
+          "text": "När bevakningstiden har gått ut ska förvaltaren genast skicka kopior av bevakningarna till tillsynsmyndigheten tillsammans med en förteckning enligt 6 a, 6 b eller 6 c §, om en sådan har upprättats. Myndigheten ska hålla handlingarna tillgängliga för den som vill ta del av dem.\n\nFörvaltaren ska skyndsamt upprätta en förteckning över de fordringar som har bevakats. För varje fordran ska beloppet anges och, om förmånsrätt har yrkats, den åberopade grunden för den samt den plats i förmånsrättsordningen som fordran får enligt borgenärens yrkande. Fordringar som framgår av en förteckning enligt 6 a, 6 b eller 6 c § får anges genom hänvisning till den förteckningen.\n\nFörvaltaren ska skicka en kopia av bevakningsförteckningen till tillsynsmyndigheten, som ska hålla den tillgänglig för den som vill ta del av den. Lag (2025:796).",
           "references": [
             "6 c §"
           ]
@@ -1334,7 +1334,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-20",
           "number": 20,
-          "text": "En borgenär som efter bevakningstidens utgång vill anmäla en fordran eller yrka förmånsrätt får skriftligen göra det hos förvaltaren på det sätt som föreskrivs i 6 § (efterbevakning).\n\nSom ersättning för kostnader som uppkommer på grund av efter- bevakningen ska borgenären i förskott betala en efterbevakningsavgift till staten. Regeringen får meddela föreskrifter om avgiften. Lag (2025:796).",
+          "text": "En borgenär som efter bevakningstidens utgång vill anmäla en fordran eller yrka förmånsrätt får skriftligen göra det hos förvaltaren på det sätt som föreskrivs i 6 § (efterbevakning).\n\nSom ersättning för kostnader som uppkommer på grund av efterbevakningen ska borgenären i förskott betala en efterbevakningsavgift till staten. Regeringen får meddela föreskrifter om avgiften. Lag (2025:796).",
           "references": [
             "6 §"
           ],
@@ -1343,7 +1343,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-9-§-21",
           "number": 21,
-          "text": "Tiden för att anmärka mot en efterbevakning ska vara två veckor från den dag efterbevakningsavgiften betalades. Om det behövs med hänsyn till förhållandena i konkursen får förvaltaren bestämma en längre anmärkningstid, dock högst fyra veckor.\n\nNär efterbevakningsavgiften har betalats ska förvaltaren genast lämna en kopia av efterbevakningen till tillsynsmyndigheten och underrätta myndigheten om anmärkningstiden. Myndigheten ska hålla efterbevakningen till- gänglig för den som vill ta del av den.\n\nFörvaltaren ska underrätta gäldenären och de borgenärer som har bevakat fordringar i konkursen om efterbevakningen, om var den hålls tillgänglig och om anmärkningstiden.\nLag (2025:796).",
+          "text": "Tiden för att anmärka mot en efterbevakning ska vara två veckor från den dag efterbevakningsavgiften betalades. Om det behövs med hänsyn till förhållandena i konkursen får förvaltaren bestämma en längre anmärkningstid, dock högst fyra veckor.\n\nNär efterbevakningsavgiften har betalats ska förvaltaren genast lämna en kopia av efterbevakningen till tillsynsmyndigheten och underrätta myndigheten om anmärkningstiden. Myndigheten ska hålla efterbevakningen tillgänglig för den som vill ta del av den.\n\nFörvaltaren ska underrätta gäldenären och de borgenärer som har bevakat fordringar i konkursen om efterbevakningen, om var den hålls tillgänglig och om anmärkningstiden.\nLag (2025:796).",
           "references": []
         },
         {
@@ -1415,7 +1415,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-2",
           "number": 2,
-          "text": "Utdelning ska ske så snart all tillgänglig egendom har omvandlats till pengar. Utdelning får ske trots att egendom i sådana fall som avses i 8 kap. 6 § andra stycket eller 8 § andra stycket inte har blivit såld. Om ett bevak- ningsförfarande har inletts får utdelning inte ske förrän anmärkningstiden enligt 9 kap. 8 § har gått ut.\nLag (2025:796).",
+          "text": "Utdelning ska ske så snart all tillgänglig egendom har omvandlats till pengar. Utdelning får ske trots att egendom i sådana fall som avses i 8 kap. 6 § andra stycket eller 8 § andra stycket inte har blivit såld. Om ett bevakningsförfarande har inletts får utdelning inte ske förrän anmärkningstiden enligt 9 kap. 8 § har gått ut.\nLag (2025:796).",
           "references": [
             "8 kap. 6 §",
             "8 §",
@@ -1568,7 +1568,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-11-§-21",
           "number": 21,
-          "text": "Om förvaltaren anser att de nytillkomna medlen kan fördelas utan att ett förslag till efterutdelning upprättas, får förvaltaren dela ut medlen till berättigade borgenärer utan att tillämpa de föregående bestämmelserna i detta kapitel. För utbetalningen gäller dock 9 § andra och tredje styckena och 13 a §. En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år från det att förvaltaren har anmält till tillsyns- myndigheten att medlen har betalats till borgenären.\n\nFörsta stycket tillämpas också om det finns skäl att upprätta ett utdelningsförslag men medlen inte räcker till betalning av de kostnader som är förenade med detta. Lag (2025:796).",
+          "text": "Om förvaltaren anser att de nytillkomna medlen kan fördelas utan att ett förslag till efterutdelning upprättas, får förvaltaren dela ut medlen till berättigade borgenärer utan att tillämpa de föregående bestämmelserna i detta kapitel. För utbetalningen gäller dock 9 § andra och tredje styckena och 13 a §. En borgenär förlorar sin rätt till utdelning, om borgenären inte gör anspråk på medlen inom ett år från det att förvaltaren har anmält till tillsynsmyndigheten att medlen har betalats till borgenären.\n\nFörsta stycket tillämpas också om det finns skäl att upprätta ett utdelningsförslag men medlen inte räcker till betalning av de kostnader som är förenade med detta. Lag (2025:796).",
           "references": [
             "9 §",
             "13 a §"
@@ -2012,7 +2012,7 @@ export const konkurslag: LegalText = {
         {
           "id": "kap-15-§-2",
           "number": 2,
-          "text": "I en konkurs där ett bevakningsförfarande har inletts ska följande kungörelser ersättas med skriftliga underrättelser till borgenärerna, om det saknas anledning att anta att kostnaden blir lägre med kungörelse eller att kungörelse i övrigt är lämpligare, nämligen\n   1. kungörelse med kallelse till sammanträde om entledigande av förvaltare,\n   2. kungörelse med information om att ett förslag till utdelning eller efterutdelning har upprättats och att slutredovisningen finns tillgänglig för granskning,\n   3. kungörelse av beslut om att lägga ned konkursen på grund av en frivillig uppgörelse, och\n   4. kungörelse med information om att slutredovisningen finns tillgänglig för granskning i fall då förvaltare avgår före konkursens slut.\n\nNär kungörelser ersätts med skriftliga underrättelser enligt första stycket 2, 3 eller 4, ska den tid som avses i 11 kap. 6 § tredje stycket, 13 kap. 7 § tredje stycket och 16 kap. 16 § i stället räknas från dagen efter den dag då under- rättelserna skickades. Lag (2025:796).",
+          "text": "I en konkurs där ett bevakningsförfarande har inletts ska följande kungörelser ersättas med skriftliga underrättelser till borgenärerna, om det saknas anledning att anta att kostnaden blir lägre med kungörelse eller att kungörelse i övrigt är lämpligare, nämligen\n   1. kungörelse med kallelse till sammanträde om entledigande av förvaltare,\n   2. kungörelse med information om att ett förslag till utdelning eller efterutdelning har upprättats och att slutredovisningen finns tillgänglig för granskning,\n   3. kungörelse av beslut om att lägga ned konkursen på grund av en frivillig uppgörelse, och\n   4. kungörelse med information om att slutredovisningen finns tillgänglig för granskning i fall då förvaltare avgår före konkursens slut.\n\nNär kungörelser ersätts med skriftliga underrättelser enligt första stycket 2, 3 eller 4, ska den tid som avses i 11 kap. 6 § tredje stycket, 13 kap. 7 § tredje stycket och 16 kap. 16 § i stället räknas från dagen efter den dag då underrättelserna skickades. Lag (2025:796).",
           "references": [
             "11 kap. 6 §",
             "13 kap. 7 §",
