@@ -109,9 +109,6 @@ function HighlightedText({ text, query, style, highlightStyle, numberOfLines }: 
 
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
-  // Whether the search field has focus -- drives the "Klar" button that lets
-  // the user close the keyboard (which otherwise covers the tab bar).
-  const [isFocused, setIsFocused] = useState(false);
   // Which law groups the user has manually expanded/collapsed, and which
   // they've asked to fully show past the per-law cap -- tracked as
   // overrides on top of the query's default state (see `defaultExpandedLawIds`
@@ -320,17 +317,10 @@ export default function SearchScreen() {
             returnKeyType="search"
             blurOnSubmit
             onSubmitEditing={Keyboard.dismiss}
-            onFocus={() => setIsFocused(true)}
-            onBlur={() => setIsFocused(false)}
           />
           {searchQuery.length > 0 && (
             <TouchableOpacity onPress={() => setSearchQuery('')}>
               <Ionicons name="close-circle" size={20} color={colors.mutedText} />
-            </TouchableOpacity>
-          )}
-          {isFocused && (
-            <TouchableOpacity onPress={Keyboard.dismiss} style={styles.doneButton} accessibilityLabel="Stäng tangentbordet">
-              <Text style={styles.doneText}>Klar</Text>
             </TouchableOpacity>
           )}
         </View>
@@ -438,16 +428,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: typography.fontFamily.regular,
     color: colors.ink,
-  },
-  doneButton: {
-    marginLeft: spacing.sm,
-    paddingVertical: 2,
-    paddingHorizontal: spacing.xs,
-  },
-  doneText: {
-    fontSize: 15,
-    fontFamily: typography.fontFamily.semiBold,
-    color: colors.greenPrimary,
   },
   resultCount: {
     marginTop: spacing.sm,
