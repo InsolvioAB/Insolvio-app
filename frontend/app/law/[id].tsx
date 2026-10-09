@@ -378,7 +378,6 @@ export default function LawViewerScreen() {
                           accessibilityRole="button"
                           accessibilityLabel="Se vad som ändrats i den här paragrafen"
                         >
-                          <Ionicons name="git-compare-outline" size={14} color={colors.greenPrimary} />
                           <Text style={styles.amendedPillText}>
                             {amendment.changeType === 'ny' ? 'Ny paragraf' : 'Ändrad'}{' '}
                             {new Date(amendment.effectiveDate).toLocaleDateString('sv-SE', {
