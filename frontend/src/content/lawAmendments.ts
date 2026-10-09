@@ -91,3 +91,31 @@ export function getAmendmentByNewsId(newsId: string): LawAmendment | undefined {
 //    research varje gång som gjordes för Konkurslag SFS 2025:796 och
 //    Aktiebolagslag SFS 2025:804 ovan.
 // ---------------------------------------------------------------------------
+
+// Slår upp om en paragraf i en lag har ändrats av en av ändringarna ovan, så
+// att lagtexten kan visa en markering ("Ändrad 1 juli 2026") direkt vid
+// paragrafen. `upphävd` ingår inte -- den paragrafen finns inte längre kvar i
+// lagtexten.
+export interface SectionAmendment {
+  newsId: string;
+  sfsNumber: string;
+  effectiveDate: string;
+  changeType: AmendmentChangeType;
+}
+
+const sectionAmendmentIndex: Record<string, SectionAmendment> = {};
+lawAmendments.forEach((amendment) => {
+  amendment.paragraphs.forEach((paragraph) => {
+    if (paragraph.changeType === 'upphävd') return;
+    sectionAmendmentIndex[`${amendment.lawId}|${paragraph.id}`] = {
+      newsId: amendment.newsId,
+      sfsNumber: amendment.sfsNumber,
+      effectiveDate: amendment.effectiveDate,
+      changeType: paragraph.changeType,
+    };
+  });
+});
+
+export function getSectionAmendment(lawId: string, sectionId: string): SectionAmendment | undefined {
+  return sectionAmendmentIndex[`${lawId}|${sectionId}`];
+}

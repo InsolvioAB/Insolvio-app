@@ -14,6 +14,8 @@ import {
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts, Chapter, sectionLabel } from '../../src/data/legalTexts';
+import { getSectionAmendment } from '../../src/content/lawAmendments';
+import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
@@ -315,7 +317,14 @@ export default function LawViewerScreen() {
                 {chapter.sections.map((sectionItem) => {
                   const sectionNote = getNote(sectionItem.id);
                   const bookmarked = isBookmarked(sectionItem.id);
-                  
+                  const rawAmendment = getSectionAmendment(law.id, sectionItem.id);
+                  // Markeringen visas så länge ändringen räknas som en nyhet
+                  // (samma rullande fönster som "Ny ändring"-badgen).
+                  const amendment =
+                    rawAmendment && activeNewsItems.some((n) => n.id === rawAmendment.newsId)
+                      ? rawAmendment
+                      : undefined;
+
                   return (
                     <View
                       key={sectionItem.id}
@@ -360,6 +369,27 @@ export default function LawViewerScreen() {
                           </TouchableOpacity>
                         </View>
                       </View>
+                      {amendment && (
+                        <TouchableOpacity
+                          style={styles.amendedPill}
+                          onPress={() =>
+                            router.push(`/amendment/${amendment.newsId}?paragraph=${encodeURIComponent(sectionItem.id)}`)
+                          }
+                          accessibilityRole="button"
+                          accessibilityLabel="Se vad som ändrats i den här paragrafen"
+                        >
+                          <Ionicons name="git-compare-outline" size={14} color={colors.greenPrimary} />
+                          <Text style={styles.amendedPillText}>
+                            {amendment.changeType === 'ny' ? 'Ny paragraf' : 'Ändrad'}{' '}
+                            {new Date(amendment.effectiveDate).toLocaleDateString('sv-SE', {
+                              year: 'numeric',
+                              month: 'long',
+                              day: 'numeric',
+                            })}{' '}
+                            · Se vad som ändrats ›
+                          </Text>
+                        </TouchableOpacity>
+                      )}
                       <Text style={styles.sectionText}>{sectionItem.text}</Text>
                       
                       {sectionNote && (
@@ -629,6 +659,24 @@ const styles = StyleSheet.create({
   },
   actionButton: {
     padding: 4,
+  },
+  amendedPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'flex-start',
+    gap: 6,
+    backgroundColor: '#e3f1ea',
+    borderWidth: 1,
+    borderColor: '#bfdccd',
+    borderRadius: 999,
+    paddingVertical: 4,
+    paddingHorizontal: 10,
+    marginBottom: spacing.sm,
+  },
+  amendedPillText: {
+    fontSize: 12,
+    fontFamily: typography.fontFamily.semiBold,
+    color: colors.greenPrimary,
   },
   sectionText: {
     fontSize: 15,
