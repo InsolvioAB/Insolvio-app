@@ -6,6 +6,8 @@ import {
   TextInput,
   SectionList,
   TouchableOpacity,
+  Keyboard,
+  Pressable,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -312,6 +314,9 @@ export default function SearchScreen() {
             onChangeText={setSearchQuery}
             autoCapitalize="none"
             autoCorrect={false}
+            returnKeyType="search"
+            blurOnSubmit
+            onSubmitEditing={Keyboard.dismiss}
           />
           {searchQuery.length > 0 && (
             <TouchableOpacity onPress={() => setSearchQuery('')}>
@@ -327,21 +332,21 @@ export default function SearchScreen() {
       </View>
 
       {searchQuery.length === 0 ? (
-        <View style={styles.emptyState}>
+        <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
           <Ionicons name="search-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Sök i lagtexter</Text>
           <Text style={styles.emptyText}>
             Sök efter nyckelord, paragrafnummer (t.ex. "5 §") eller kapitel (t.ex. "3 kap")
           </Text>
-        </View>
+        </Pressable>
       ) : searchResults.length === 0 ? (
-        <View style={styles.emptyState}>
+        <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
           <Ionicons name="sad-outline" size={64} color={colors.dividerLight} />
           <Text style={styles.emptyTitle}>Inga resultat</Text>
           <Text style={styles.emptyText}>
             Försök med andra sökord
           </Text>
-        </View>
+        </Pressable>
       ) : (
         <SectionList
           sections={visibleSections}
@@ -388,6 +393,8 @@ export default function SearchScreen() {
           contentContainerStyle={styles.resultsList}
           showsVerticalScrollIndicator={false}
           stickySectionHeadersEnabled={false}
+          keyboardDismissMode="on-drag"
+          keyboardShouldPersistTaps="handled"
         />
       )}
     </SafeAreaView>

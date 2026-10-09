@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import React, { useRef, useEffect } from 'react';
+import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
@@ -13,8 +13,20 @@ const CHANGE_TYPE_LABEL: Record<AmendmentChangeType, string> = {
 };
 
 export default function AmendmentScreen() {
-  const { newsId } = useLocalSearchParams<{ newsId: string }>();
+  const { newsId, paragraph: focusId } = useLocalSearchParams<{ newsId: string; paragraph?: string }>();
   const amendment = getAmendmentByNewsId(newsId);
+  const listRef = useRef<FlatList<AmendmentParagraph>>(null);
+  const focusIndex = amendment && focusId ? amendment.paragraphs.findIndex((p) => p.id === focusId) : -1;
+
+  // Kommer man från en paragraf i lagtexten ("Ändrad 1 juli 2026 ›") hoppar
+  // listan till just den paragrafens jämförelse.
+  useEffect(() => {
+    if (focusIndex < 0) return;
+    const t = setTimeout(() => {
+      listRef.current?.scrollToIndex({ index: focusIndex, animated: false, viewPosition: 0 });
+    }, 150);
+    return () => clearTimeout(t);
+  }, [focusIndex]);
 
   if (!amendment) {
     return (
@@ -27,8 +39,23 @@ export default function AmendmentScreen() {
   return (
     <>
       <Stack.Screen options={{ title: 'Jämför ändring' }} />
-      <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-        <View style={styles.header}>
+      <FlatList
+        ref={listRef}
+        onScrollToIndexFailed={(info) => {
+          // Korten har olika höjd: hoppa nära först, försök sedan igen när de renderats.
+          listRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: false });
+          setTimeout(() => {
+            listRef.current?.scrollToIndex({ index: info.index, animated: false, viewPosition: 0 });
+          }, 200);
+        }}
+        style={styles.container}
+        contentContainerStyle={styles.content}
+        data={amendment.paragraphs}
+        keyExtractor={(paragraph) => paragraph.id}
+        initialNumToRender={6}
+        windowSize={7}
+        ListHeaderComponent={
+          <View style={styles.header}>
           <Text style={styles.title}>{amendment.title}</Text>
           <Text style={styles.metadataText}>SFS {amendment.sfsNumber}</Text>
           <Text style={styles.summary}>{amendment.summary}</Text>
@@ -43,9 +70,9 @@ export default function AmendmentScreen() {
             </View>
           </View>
         </View>
-
-        {amendment.paragraphs.map((paragraph) => (
-          <View key={paragraph.id} style={styles.paragraphCard}>
+        }
+        renderItem={({ item: paragraph }) => (
+          <View style={[styles.paragraphCard, paragraph.id === focusId && styles.focusedCard]}>
             <View style={styles.paragraphHeader}>
               <Text style={styles.paragraphReference}>{paragraph.reference.replace('kap.', 'KAP.')}</Text>
               <View
@@ -68,8 +95,8 @@ export default function AmendmentScreen() {
 
             {renderComparison(paragraph, amendment.effectiveDate)}
           </View>
-        ))}
-      </ScrollView>
+        )}
+      />
     </>
   );
 }
@@ -199,6 +226,10 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.weakText,
     marginTop: spacing.xs,
+  },
+  focusedCard: {
+    borderColor: colors.greenPrimary,
+    borderWidth: 2,
   },
   paragraphCard: {
     backgroundColor: colors.white,
