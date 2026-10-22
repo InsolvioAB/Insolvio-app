@@ -10,7 +10,7 @@ type Bookmark = {
 
 type BookmarksContextType = {
   bookmarks: Bookmark[];
-  addBookmark: (lawId: string, chapterId: string, sectionId: string) => Promise<void>;
+  addBookmark: (lawId: string, chapterId: string, sectionId: string, timestamp?: number) => Promise<void>;
   removeBookmark: (sectionId: string) => Promise<void>;
   isBookmarked: (sectionId: string) => boolean;
 };
@@ -46,12 +46,12 @@ export function BookmarksProvider({ children }: { children: ReactNode }) {
     }
   };
 
-  const addBookmark = async (lawId: string, chapterId: string, sectionId: string) => {
+  const addBookmark = async (lawId: string, chapterId: string, sectionId: string, timestamp?: number) => {
     const newBookmark: Bookmark = {
       lawId,
       chapterId,
       sectionId,
-      timestamp: Date.now(),
+      timestamp: timestamp ?? Date.now(),
     };
     const updated = [...bookmarks, newBookmark];
     await saveBookmarks(updated);
