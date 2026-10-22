@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -8,12 +8,35 @@ import {
   TouchableOpacity,
   Keyboard,
   Pressable,
+  Modal,
+  ScrollView,
+  Platform,
 } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
+import PageHeader from '../../src/components/PageHeader';
+import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
+
+// Senaste sökningar sparas bara på enheten (EJU-193)
+const RECENT_SEARCHES_KEY = '@insolvio_recent_searches';
+const MAX_RECENT_SEARCHES = 5;
+
+// Förkortningar som gör att "LAS 7 §" söker paragraf 7 i just den lagen
+const LAW_ABBREVIATIONS: Record<string, string> = {
+  las: 'sfs-1982-80',
+  abl: 'sfs-2005-551',
+  kl: 'sfs-1987-672',
+};
+
+const SEARCH_EXAMPLES = [
+  { query: '5 §', description: 'Paragraf, i alla lagar' },
+  { query: '3 kap.', description: 'Kapitel, öppnas direkt' },
+  { query: 'LAS 7 §', description: 'Lag och paragraf, hoppar direkt dit' },
+];
 
 type SearchResult = {
   lawId: string;
@@ -130,11 +153,57 @@ export default function SearchScreen() {
   }
   const router = useRouter();
 
+  // "Sök i": null = alla lagar
+  const [searchFocused, setSearchFocused] = useState(false);
+  const searchInputRef = useRef<TextInput>(null);
+  const [scopeLawId, setScopeLawId] = useState<string | null>(null);
+  const [scopeModalVisible, setScopeModalVisible] = useState(false);
+  const scopeLawTitle = scopeLawId
+    ? getShortLawName(scopeLawId, legalTexts.find((l) => l.id === scopeLawId)?.title ?? '')
+    : 'Alla lagar';
+
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  useEffect(() => {
+    AsyncStorage.getItem(RECENT_SEARCHES_KEY)
+      .then((stored) => {
+        if (stored) setRecentSearches(JSON.parse(stored));
+      })
+      .catch((error) => console.error('Error loading recent searches:', error));
+  }, []);
+
+  const persistRecentSearches = (list: string[]) => {
+    setRecentSearches(list);
+    AsyncStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(list)).catch((error) =>
+      console.error('Error saving recent searches:', error)
+    );
+  };
+
+  const rememberSearch = (raw: string) => {
+    const value = raw.trim();
+    if (value.length < 2) return;
+    const withoutDuplicate = recentSearches.filter((q) => q.toLowerCase() !== value.toLowerCase());
+    persistRecentSearches([value, ...withoutDuplicate].slice(0, MAX_RECENT_SEARCHES));
+  };
+
+  const runSearch = (value: string) => {
+    setSearchQuery(value);
+    rememberSearch(value);
+  };
+
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
 
     const results: SearchResult[] = [];
-    const query = searchQuery.toLowerCase().trim();
+    let query = searchQuery.toLowerCase().trim();
+
+    // "LAS 7 §": förkortning först i frågan begränsar sökningen till den lagen
+    let effectiveScopeLawId = scopeLawId;
+    const abbreviation = query.match(/^([a-zåäö]+)\s+(.*)$/);
+    if (abbreviation && LAW_ABBREVIATIONS[abbreviation[1]]) {
+      effectiveScopeLawId = LAW_ABBREVIATIONS[abbreviation[1]];
+      query = abbreviation[2].trim();
+      if (!query) return [];
+    }
 
     // Check if it's a section number search (e.g., "5 §" or "§5")
     const sectionMatch = query.match(/§?\s*(\d+)(?:\s*([a-z])(?![a-zåäö]))?\s*§?/);
@@ -145,14 +214,14 @@ export default function SearchScreen() {
     const chapterMatch = query.match(/(?:kap\.?\s*(\d+)|([\d]+)\s*kap\.?)/);
     const chapterNumber = chapterMatch ? parseInt(chapterMatch[1] || chapterMatch[2]) : null;
 
-    legalTexts.forEach((law) => {
+    legalTexts.filter((law) => !effectiveScopeLawId || law.id === effectiveScopeLawId).forEach((law) => {
       law.chapters.forEach((chapter) => {
         // Chapter number match
         if (chapterNumber && chapter.number === chapterNumber) {
           chapter.sections.forEach((section) => {
             results.push({
               lawId: law.id,
-              lawTitle: law.title,
+              lawTitle: getShortLawName(law.id, law.title),
               chapterId: chapter.id,
               chapterTitle: chapter.title,
               sectionId: section.id,
@@ -170,7 +239,7 @@ export default function SearchScreen() {
           if (sectionNumber && section.number === sectionNumber && (!sectionSuffix || section.suffix === sectionSuffix)) {
             results.push({
               lawId: law.id,
-              lawTitle: law.title,
+              lawTitle: getShortLawName(law.id, law.title),
               chapterId: chapter.id,
               chapterTitle: chapter.title,
               sectionId: section.id,
@@ -186,7 +255,7 @@ export default function SearchScreen() {
           if (section.text.toLowerCase().includes(query)) {
             results.push({
               lawId: law.id,
-              lawTitle: law.title,
+              lawTitle: getShortLawName(law.id, law.title),
               chapterId: chapter.id,
               chapterTitle: chapter.title,
               sectionId: section.id,
@@ -201,7 +270,7 @@ export default function SearchScreen() {
     });
 
     return results;
-  }, [searchQuery]);
+  }, [searchQuery, scopeLawId]);
 
   // Group the flat match list by law, most matches first, so results from
   // the same law aren't scattered as repeated rows throughout the list.
@@ -281,7 +350,10 @@ export default function SearchScreen() {
     return (
       <TouchableOpacity
         style={styles.resultCard}
-        onPress={() => router.push(`/law/${item.lawId}?section=${item.sectionId}`)}
+        onPress={() => {
+          rememberSearch(searchQuery);
+          router.push(`/law/${item.lawId}?section=${item.sectionId}`);
+        }}
       >
         <View style={styles.resultLocation}>
           <Text style={styles.locationText}>
@@ -302,27 +374,68 @@ export default function SearchScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={['top']}>
+      <PageHeader title="Sök" />
       <View style={styles.searchContainer}>
-        <View style={styles.searchBar}>
+        <View style={[styles.searchRing, searchFocused && styles.searchRingFocused]}>
+        <Pressable
+          style={[styles.searchBar, searchFocused && styles.searchBarFocused]}
+          onPress={() => searchInputRef.current?.focus()}
+        >
           <Ionicons name="search" size={20} color={colors.mutedText} />
           <TextInput
+            ref={searchInputRef}
             style={styles.searchInput}
-            placeholder="Sök nyckelord, § eller kapitel..."
+            placeholder="Sök nyckelord, § eller kapitel…"
             placeholderTextColor={colors.mutedText}
             value={searchQuery}
-            onChangeText={setSearchQuery}
+            onChangeText={(text) => {
+              setSearchQuery(text);
+              // När sökordet raderas helt stängs tangentbordet automatiskt
+              if (text.length === 0 && searchQuery.length > 0) Keyboard.dismiss();
+            }}
             autoCapitalize="none"
             autoCorrect={false}
             returnKeyType="search"
             blurOnSubmit
-            onSubmitEditing={Keyboard.dismiss}
+            onFocus={() => setSearchFocused(true)}
+            onBlur={() => {
+              setSearchFocused(false);
+              rememberSearch(searchQuery);
+            }}
+            onSubmitEditing={() => {
+              rememberSearch(searchQuery);
+              Keyboard.dismiss();
+            }}
           />
           {searchQuery.length > 0 && (
-            <TouchableOpacity onPress={() => setSearchQuery('')}>
+            <TouchableOpacity
+              onPress={() => {
+                setSearchQuery('');
+                Keyboard.dismiss();
+              }}
+              accessibilityLabel="Rensa sökfältet"
+            >
               <Ionicons name="close-circle" size={20} color={colors.mutedText} />
             </TouchableOpacity>
           )}
+        </Pressable>
+        </View>
+        <View style={styles.scopeRow}>
+          <Text style={styles.scopeLabel}>Sök i</Text>
+          <TouchableOpacity
+            style={styles.scopeButton}
+            onPress={() => {
+              Keyboard.dismiss();
+              setScopeModalVisible(true);
+            }}
+            accessibilityLabel={`Sök i: ${scopeLawTitle}`}
+          >
+            <Text style={styles.scopeButtonText} numberOfLines={1}>
+              {scopeLawTitle}
+            </Text>
+            <Ionicons name="chevron-down" size={16} color={colors.ink} />
+          </TouchableOpacity>
         </View>
         {searchQuery.length > 0 && (
           <Text style={styles.resultCount}>
@@ -332,13 +445,52 @@ export default function SearchScreen() {
       </View>
 
       {searchQuery.length === 0 ? (
-        <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
-          <Ionicons name="search-outline" size={64} color={colors.dividerLight} />
-          <Text style={styles.emptyTitle}>Sök i lagtexter</Text>
-          <Text style={styles.emptyText}>
-            Sök efter nyckelord, paragrafnummer (t.ex. "5 §") eller kapitel (t.ex. "3 kap")
-          </Text>
-        </Pressable>
+        <ScrollView
+          style={styles.emptyScroll}
+          contentContainerStyle={styles.emptyContent}
+          keyboardShouldPersistTaps="handled"
+          keyboardDismissMode="on-drag"
+        >
+          {recentSearches.length > 0 && (
+            <View style={styles.block}>
+              <View style={styles.blockHeader}>
+                <Text style={styles.blockTitle}>Senaste sökningar</Text>
+                <TouchableOpacity onPress={() => persistRecentSearches([])} accessibilityLabel="Rensa senaste sökningar">
+                  <Text style={styles.clearLink}>Rensa</Text>
+                </TouchableOpacity>
+              </View>
+              {recentSearches.map((q) => (
+                <TouchableOpacity
+                  key={q}
+                  style={styles.recentRow}
+                  onPress={() => runSearch(q)}
+                  accessibilityLabel={`Sök igen: ${q}`}
+                >
+                  <Ionicons name="time-outline" size={20} color={colors.mutedText} />
+                  <Text style={styles.recentText} numberOfLines={1}>{q}</Text>
+                  <Ionicons name="arrow-up-outline" size={18} color={colors.mutedText} style={styles.recentArrow} />
+                </TouchableOpacity>
+              ))}
+            </View>
+          )}
+
+          <View style={styles.block}>
+            <Text style={styles.blockTitle}>Så kan du söka</Text>
+            {SEARCH_EXAMPLES.map((example) => (
+              <TouchableOpacity
+                key={example.query}
+                style={styles.exampleRow}
+                onPress={() => runSearch(example.query)}
+                accessibilityLabel={`Prova ${example.query}`}
+              >
+                <View style={styles.exampleChip}>
+                  <Text style={styles.exampleChipText}>{example.query}</Text>
+                </View>
+                <Text style={styles.exampleDescription}>{example.description}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        </ScrollView>
       ) : searchResults.length === 0 ? (
         <Pressable style={styles.emptyState} onPress={Keyboard.dismiss}>
           <Ionicons name="sad-outline" size={64} color={colors.dividerLight} />
@@ -360,7 +512,7 @@ export default function SearchScreen() {
                 onPress={() => toggleLawExpanded(section.lawId)}
               >
                 <View style={styles.groupHeaderLeft}>
-                  <Ionicons name="document-text-outline" size={18} color={colors.greenPrimary} />
+                  <Ionicons name="document-text-outline" size={18} color={colors.greenAction} />
                   <Text style={styles.groupHeaderTitle}>{section.lawTitle}</Text>
                 </View>
                 <View style={styles.groupHeaderRight}>
@@ -397,6 +549,38 @@ export default function SearchScreen() {
           keyboardShouldPersistTaps="handled"
         />
       )}
+      <Modal
+        visible={scopeModalVisible}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setScopeModalVisible(false)}
+      >
+        <Pressable style={styles.modalBackdrop} onPress={() => setScopeModalVisible(false)}>
+          <View style={styles.modalSheet}>
+            <Text style={styles.modalTitle}>Sök i</Text>
+            <ScrollView>
+              {[{ id: null as string | null, title: 'Alla lagar' }, ...legalTexts.map((l) => ({ id: l.id as string | null, title: getShortLawName(l.id, l.title) }))].map((option) => {
+                const selected = option.id === scopeLawId;
+                return (
+                  <TouchableOpacity
+                    key={option.id ?? 'alla'}
+                    style={styles.modalRow}
+                    onPress={() => {
+                      setScopeLawId(option.id);
+                      setScopeModalVisible(false);
+                    }}
+                  >
+                    <Text style={[styles.modalRowText, selected && styles.modalRowTextSelected]}>
+                      {option.title}
+                    </Text>
+                    {selected && <Ionicons name="checkmark" size={20} color={colors.greenAction} />}
+                  </TouchableOpacity>
+                );
+              })}
+            </ScrollView>
+          </View>
+        </Pressable>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -407,20 +591,33 @@ const styles = StyleSheet.create({
     backgroundColor: colors.cream,
   },
   searchContainer: {
-    backgroundColor: colors.white,
-    padding: spacing.md,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.dividerLight,
+    backgroundColor: colors.cream,
+    paddingHorizontal: spacing.md,
+    paddingBottom: spacing.md,
   },
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: colors.cream,
+    backgroundColor: colors.white,
     borderRadius: 10,
     paddingHorizontal: spacing.md,
     paddingVertical: 10,
     borderWidth: 1,
     borderColor: colors.dividerLight,
+  },
+  // Dubbel grön ram när fältet är aktivt: tunn yttre ring + tjockare inre ram
+  searchRing: {
+    padding: 2,
+    borderRadius: 14,
+    borderWidth: 1.5,
+    borderColor: 'transparent',
+  },
+  searchRingFocused: {
+    borderColor: colors.greenText,
+  },
+  searchBarFocused: {
+    borderWidth: 2,
+    borderColor: colors.greenText,
   },
   searchInput: {
     flex: 1,
@@ -428,6 +625,143 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: typography.fontFamily.regular,
     color: colors.ink,
+  },
+  scopeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    marginTop: spacing.md,
+  },
+  scopeLabel: {
+    fontSize: 14,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  scopeButton: {
+    flexShrink: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: borderRadius.sm,
+    borderWidth: 1,
+    borderColor: colors.dividerLight,
+    backgroundColor: colors.white,
+  },
+  scopeButtonText: {
+    flexShrink: 1,
+    fontSize: 14,
+    fontFamily: typography.fontFamily.semiBold,
+    fontWeight: '600',
+    color: colors.ink,
+  },
+  emptyScroll: {
+    flex: 1,
+  },
+  emptyContent: {
+    padding: spacing.md,
+    gap: spacing.lg,
+  },
+  block: {
+    gap: spacing.xs,
+  },
+  blockHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  blockTitle: {
+    ...createHeadingStyle(20),
+    color: colors.ink,
+    marginBottom: spacing.xs,
+  },
+  clearLink: {
+    fontSize: 14,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.greenText,
+  },
+  recentRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    paddingVertical: 14,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.dividerLight,
+  },
+  recentText: {
+    flex: 1,
+    fontSize: 16,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.ink,
+  },
+  recentArrow: {
+    transform: [{ rotate: '-45deg' }],
+  },
+  exampleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    paddingVertical: spacing.md,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.dividerLight,
+  },
+  exampleChip: {
+    width: 92,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 6,
+    backgroundColor: '#ebebeb',
+    alignItems: 'center',
+  },
+  exampleChipText: {
+    fontSize: 14,
+    fontFamily: Platform.select({ ios: 'Menlo', default: 'monospace' }),
+    fontWeight: '700',
+    color: colors.ink,
+  },
+  exampleDescription: {
+    flex: 1,
+    fontSize: 14,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
+  },
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.4)',
+    justifyContent: 'flex-end',
+  },
+  modalSheet: {
+    maxHeight: '70%',
+    backgroundColor: colors.cream,
+    borderTopLeftRadius: borderRadius.xl,
+    borderTopRightRadius: borderRadius.xl,
+    padding: spacing.md,
+    paddingBottom: spacing.xl,
+  },
+  modalTitle: {
+    ...createHeadingStyle(20),
+    color: colors.ink,
+    marginBottom: spacing.sm,
+  },
+  modalRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 14,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.dividerLight,
+  },
+  modalRowText: {
+    flex: 1,
+    fontSize: 16,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.ink,
+  },
+  modalRowTextSelected: {
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
   },
   resultCount: {
     marginTop: spacing.sm,
@@ -458,7 +792,8 @@ const styles = StyleSheet.create({
   groupHeaderTitle: {
     fontSize: 14,
     fontFamily: typography.fontFamily.semiBold,
-    color: colors.greenPrimary,
+    fontWeight: '600',
+    color: colors.greenText,
     marginLeft: spacing.sm,
     flexShrink: 1,
   },
@@ -480,7 +815,8 @@ const styles = StyleSheet.create({
   showMoreText: {
     fontSize: 13,
     fontFamily: typography.fontFamily.semiBold,
-    color: colors.greenPrimary,
+    fontWeight: '600',
+    color: colors.greenText,
   },
   resultCard: {
     backgroundColor: colors.white,
@@ -502,6 +838,7 @@ const styles = StyleSheet.create({
   locationText: {
     fontSize: 13,
     fontFamily: typography.fontFamily.medium,
+    fontWeight: '500',
     color: colors.mutedText,
   },
   resultText: {
@@ -512,6 +849,7 @@ const styles = StyleSheet.create({
   },
   resultTextHighlight: {
     fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
     backgroundColor: '#fff3b0',
     color: colors.ink,
   },

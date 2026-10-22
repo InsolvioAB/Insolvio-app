@@ -18,6 +18,10 @@ export const colors = {
   greenPrimary: '#59997f',   // Grön accent, dova/salviagrön -- matchad exakt mot referensmockupen (EJU-84 uppdatering)
   greenPrimaryForeground: '#1e2723', // Text/ikoner OVANPÅ greenPrimary -- mörk text för kontrast (WCAG AA 4.59:1), vit text räcker inte här (3.34:1)
   greenHover: '#76af98',     // Grön accent, hover/ljusare (samma nyans, högre ljushet)
+  greenText: '#337d4b',      // Grön TEXT på ljust (4.9:1 mot cream) -- nästan samma grön som greenAction men mörkare nog för liten text -- greenPrimary räcker inte för text (3.3:1)
+  greenAction: '#378450',    // Mättad grön ur Figma för fyllda ytor (valt filter-chip, flikindikator); vit text 4.7:1
+  greenTint: '#ecf2ef',      // Ljusgrön yta = greenPrimary 10 % på cream (ersätter svarta band, EJU-193)
+  greenTintBorder: '#dbe8e3', // Ljusgrön kant/ikonyta = greenPrimary 20 % på cream
 
   // Text färger på ljus bakgrund
   ink: '#171717',            // Primär text på ljust (Supabase light.foreground)
@@ -69,6 +73,15 @@ export const typography = {
     letterSpacing: -0.015,
   },
   
+  // Sidrubrik på varje flik (EJU-193): 36/40, Outfit 700
+  pageTitle: {
+    fontFamily: 'Outfit',
+    fontWeight: '700' as const,
+    fontSize: 36,
+    lineHeight: 40,
+    letterSpacing: -0.5,
+  },
+
   // Etiketter/eyebrows - versaler, wide tracking
   label: {
     fontFamily: 'Outfit',
