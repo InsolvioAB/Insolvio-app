@@ -46,7 +46,7 @@ export default function TabLayout() {
           paddingBottom: 12,
           paddingTop: TAB_BAR_PADDING_TOP,
           // Flikarna dras in från skärmkanten (Sofies feedback på EJU-193)
-          paddingHorizontal: 12,
+          paddingHorizontal: 32,
         },
         // Bara den aktiva flikens text är fet och mörk; övriga är normala och grå
         tabBarLabel: ({ focused, children }) => (
