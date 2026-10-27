@@ -1,18 +1,20 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
 import { PlatformPressable } from 'expo-router/react-navigation';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { colors, typography } from '../../src/theme/theme';
+import { HomeIcon, BookIcon, SearchIcon, BookmarkIcon } from '../../src/components/TabIcons';
 
-const TAB_BAR_PADDING_TOP = 12;
+// Ikonerna ska ligga högre upp i flikraden, som i Sofies design (bild 1)
+const TAB_BAR_ICON_OFFSET = 4;
 
 // Flikknapp med en 2 px grön indikator överst på den aktiva fliken, så att
 // aktiv flik inte bara visas med färg (EJU-193).
 // (props typad som any: pressColor-typen skiljer sig mellan expo-router och react-navigation)
 function TabButton(props: any) {
-  const selected = props.accessibilityState?.selected;
+  // React Navigation skickar aria-selected (äldre versioner: accessibilityState)
+  const selected = props['aria-selected'] ?? props.accessibilityState?.selected;
   return (
     <PlatformPressable {...props}>
       {selected ? <View style={styles.indicator} /> : null}
@@ -44,9 +46,9 @@ export default function TabLayout() {
           borderTopColor: colors.dividerLight,
           height: 80,
           paddingBottom: 12,
-          paddingTop: TAB_BAR_PADDING_TOP,
+          paddingTop: 0,
           // Flikarna dras in från skärmkanten (Sofies feedback på EJU-193)
-          paddingHorizontal: 12,
+          paddingHorizontal: 32,
         },
         // Bara den aktiva flikens text är fet och mörk; övriga är normala och grå
         tabBarLabel: ({ focused, children }) => (
@@ -64,6 +66,9 @@ export default function TabLayout() {
         ),
         tabBarIconStyle: {
           marginBottom: 0,
+          // Ikonen flyttas ner från kanten här (inte via paddingTop), så att
+          // indikatorn kan ligga inuti knappen och inte klipps på Android
+          marginTop: TAB_BAR_ICON_OFFSET,
         },
       }}
     >
@@ -72,7 +77,7 @@ export default function TabLayout() {
         options={{
           title: 'Hem',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="home-outline" size={26} color={color} />
+            <HomeIcon color={color} />
           ),
         }}
       />
@@ -81,7 +86,7 @@ export default function TabLayout() {
         options={{
           title: 'Lagar',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="book-outline" size={26} color={color} />
+            <BookIcon color={color} />
           ),
         }}
       />
@@ -90,7 +95,7 @@ export default function TabLayout() {
         options={{
           title: 'Sök',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="search-outline" size={26} color={color} />
+            <SearchIcon color={color} />
           ),
         }}
       />
@@ -100,7 +105,7 @@ export default function TabLayout() {
           title: 'Bokmärken',
           tabBarBadge: bookmarks.length > 0 ? bookmarks.length : undefined,
           tabBarIcon: ({ color }) => (
-            <Ionicons name="bookmark-outline" size={26} color={color} />
+            <BookmarkIcon color={color} />
           ),
         }}
       />
@@ -111,9 +116,10 @@ export default function TabLayout() {
 const styles = StyleSheet.create({
   indicator: {
     position: 'absolute',
-    top: -TAB_BAR_PADDING_TOP,
-    left: 12,
-    right: 12,
+    top: 0,
+    // Kort linje över ikonen, som i designen (inte hela flikens bredd)
+    alignSelf: 'center',
+    width: 40,
     height: 2,
     borderRadius: 1,
     backgroundColor: colors.greenAction,
