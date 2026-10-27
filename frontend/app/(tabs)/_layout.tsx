@@ -6,13 +6,15 @@ import { PlatformPressable } from 'expo-router/react-navigation';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { colors, typography } from '../../src/theme/theme';
 
-const TAB_BAR_PADDING_TOP = 12;
+// Ikonerna ska ligga högre upp i flikraden, som i Sofies design (bild 1)
+const TAB_BAR_ICON_OFFSET = 4;
 
 // Flikknapp med en 2 px grön indikator överst på den aktiva fliken, så att
 // aktiv flik inte bara visas med färg (EJU-193).
 // (props typad som any: pressColor-typen skiljer sig mellan expo-router och react-navigation)
 function TabButton(props: any) {
-  const selected = props.accessibilityState?.selected;
+  // React Navigation skickar aria-selected (äldre versioner: accessibilityState)
+  const selected = props['aria-selected'] ?? props.accessibilityState?.selected;
   return (
     <PlatformPressable {...props}>
       {selected ? <View style={styles.indicator} /> : null}
@@ -44,7 +46,7 @@ export default function TabLayout() {
           borderTopColor: colors.dividerLight,
           height: 80,
           paddingBottom: 12,
-          paddingTop: TAB_BAR_PADDING_TOP,
+          paddingTop: 0,
           // Flikarna dras in från skärmkanten (Sofies feedback på EJU-193)
           paddingHorizontal: 32,
         },
@@ -64,6 +66,9 @@ export default function TabLayout() {
         ),
         tabBarIconStyle: {
           marginBottom: 0,
+          // Ikonen flyttas ner från kanten här (inte via paddingTop), så att
+          // indikatorn kan ligga inuti knappen och inte klipps på Android
+          marginTop: TAB_BAR_ICON_OFFSET,
         },
       }}
     >
@@ -111,9 +116,10 @@ export default function TabLayout() {
 const styles = StyleSheet.create({
   indicator: {
     position: 'absolute',
-    top: -TAB_BAR_PADDING_TOP,
-    left: 12,
-    right: 12,
+    top: 0,
+    // Kort linje över ikonen, som i designen (inte hela flikens bredd)
+    alignSelf: 'center',
+    width: 40,
     height: 2,
     borderRadius: 1,
     backgroundColor: colors.greenAction,
