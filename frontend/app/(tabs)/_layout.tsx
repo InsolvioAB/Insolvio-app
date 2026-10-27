@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
 import { PlatformPressable } from 'expo-router/react-navigation';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { colors, typography } from '../../src/theme/theme';
+import { HomeIcon, BookIcon, SearchIcon, BookmarkIcon } from '../../src/components/TabIcons';
 
 // Ikonerna ska ligga högre upp i flikraden, som i Sofies design (bild 1)
 const TAB_BAR_ICON_OFFSET = 4;
@@ -77,7 +77,7 @@ export default function TabLayout() {
         options={{
           title: 'Hem',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="home-outline" size={26} color={color} />
+            <HomeIcon color={color} />
           ),
         }}
       />
@@ -86,7 +86,7 @@ export default function TabLayout() {
         options={{
           title: 'Lagar',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="book-outline" size={26} color={color} />
+            <BookIcon color={color} />
           ),
         }}
       />
@@ -95,7 +95,7 @@ export default function TabLayout() {
         options={{
           title: 'Sök',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="search-outline" size={26} color={color} />
+            <SearchIcon color={color} />
           ),
         }}
       />
@@ -105,7 +105,7 @@ export default function TabLayout() {
           title: 'Bokmärken',
           tabBarBadge: bookmarks.length > 0 ? bookmarks.length : undefined,
           tabBarIcon: ({ color }) => (
-            <Ionicons name="bookmark-outline" size={26} color={color} />
+            <BookmarkIcon color={color} />
           ),
         }}
       />
