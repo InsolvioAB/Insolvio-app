@@ -53,6 +53,8 @@ import { förmånsrättslag } from './laws/formansrattslag';
 import { skuldsaneringslagen } from './laws/skuldsaneringslagen';
 import { lönegarantiförordning } from './laws/lonegarantiforordning';
 import { jordabalken12Kap } from './laws/jordabalken_12kap';
+import { kompletterandeInsolvensförordning } from './laws/kompletterandeinsolvensforordning';
+import { fSkuldsanering } from './laws/fskuldsanering';
 
 export const legalTexts: LegalText[] = [
   konkurslag,
@@ -66,5 +68,7 @@ export const legalTexts: LegalText[] = [
   skuldsaneringslagen,
   lönegarantiförordning,
   jordabalken12Kap,
+  kompletterandeInsolvensförordning,
+  fSkuldsanering,
 ];
 

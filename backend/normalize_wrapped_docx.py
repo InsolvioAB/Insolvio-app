@@ -39,7 +39,9 @@ def blocks_of(lines):
 
 
 def join(lines):
-    return re.sub(r'\s+', ' ', ' '.join(lines)).strip()
+    t = re.sub(r'\s+', ' ', ' '.join(lines)).strip()
+    # 'F- skuldsanering' (line break after a capital + hyphen) -> 'F-skuldsanering'
+    return re.sub(r'\b([A-ZÅÄÖ])- ([a-zåäö])', r'\1-\2', t)
 
 
 def main(src, dst):
@@ -49,6 +51,9 @@ def main(src, dst):
     while i < len(ps) and ps[i].strip():
         hdr.append(ps[i].strip().replace(NBSP, ' '))
         i += 1
+    # Saved riksdagen/rkrattsbaser pages start with 'SFS-nummer · 2017:473 · Visa register'
+    # and also carry 'Ikraft: ...' and a 'Lagens innehåll' label in the header block.
+    hdr = [h for h in hdr if not re.match(r'^(SFS-nummer|Ikraft|Lagens innehåll)', h)]
     title = hdr[0]
     sfs = re.search(r'\((\d{4}:\d+)\)', title).group(1)
     meta = {'SFS nr': sfs}

@@ -26,6 +26,8 @@ export const homeContent = {
 • Lag (2022:964) om företagsrekonstruktion
 • Förmånsrättslag (1970:979)
 • Skuldsaneringslag (2016:675)
+• Lag (2016:676) om skuldsanering för företagare (F-skuldsanering)
+• Lag (2017:473) med kompletterande bestämmelser till 2015 års insolvensförordning
 • Jordabalken (1970:994) — 12 kap. Hyra`,
     },
     {
