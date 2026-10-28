@@ -15,6 +15,9 @@ export const lawCategoriesById: Record<string, LawCategory[]> = {
   'sfs-2022-964': ['Insolvens'],                 // Lag om företagsrekonstruktion
   'sfs-1992-497': ['Insolvens', 'Arbetsrätt'],   // Lönegarantilag
   'sfs-2024-1329': ['Insolvens', 'Arbetsrätt'],  // Lönegarantiförordning
+  'sfs-2016-676': ['Insolvens'],                 // Lag om skuldsanering för företagare (F-skuldsanering)
+  'eu-2015-848': ['Insolvens'],                  // EU:s insolvensförordning (2015/848)
+  'sfs-2017-473': ['Insolvens'],                 // Lag med kompletterande bestämmelser till 2015 års insolvensförordning
   'sfs-2005-551': ['Bolagsrätt'],                // Aktiebolagslag
   'sfs-1980-1102': ['Bolagsrätt'],               // Lag om handelsbolag och enkla bolag
   'sfs-1982-80': ['Arbetsrätt'],                 // LAS

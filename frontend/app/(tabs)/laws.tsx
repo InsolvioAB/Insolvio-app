@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView } from '
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts } from '../../src/data/legalTexts';
+import { legalTexts, lawCitation } from '../../src/data/legalTexts';
 import { activeNewsItems, updatedLawIds } from '../../src/content/newsContent';
 import { LAW_CATEGORIES, lawCategoriesById, type LawCategory } from '../../src/data/lawCategories';
 import PageHeader from '../../src/components/PageHeader';
@@ -14,6 +14,9 @@ import { colors, typography, spacing, borderRadius, createHeadingStyle, createLa
 function lawSize(law: typeof legalTexts[0]): string {
   if (law.chaptered === false) {
     return `${law.chapters.reduce((n, c) => n + c.sections.length, 0)} §§`;
+  }
+  if (law.chapters[0]?.sections[0]?.label?.startsWith('Artikel')) {
+    return `${law.chapters.reduce((n, c) => n + c.sections.length, 0)} artiklar`;
   }
   return `${law.chapters.length} kap.`;
 }
@@ -42,7 +45,7 @@ export default function HomeScreen() {
             )}
           </View>
           <Text style={styles.lawSubtitle}>
-            SFS {item.sfsNumber} · {lawSize(item)}
+            {lawCitation(item)} · {lawSize(item)}
           </Text>
           <Text style={styles.metadataText}>Ändrad {item.lastAmended}</Text>
         </View>
