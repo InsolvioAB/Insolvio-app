@@ -17,7 +17,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
-import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
+import { legalTexts, sectionLabel, chapterSectionLabel } from '../../src/data/legalTexts';
 import { formatSaved } from '../../src/utils/formatSaved';
 import PageHeader from '../../src/components/PageHeader';
 import { getShortLawName } from '../../src/data/lawShortNames';
@@ -68,7 +68,7 @@ export default function BookmarksScreen() {
       const label = sectionLabel(section);
       const place =
         law.chaptered !== false
-          ? `${chapter.number}${chapter.numberSuffix ?? ''} kap. ${label} · ${chapter.title}`
+          ? `${chapterSectionLabel(chapter, section)} · ${chapter.title}`
           : label;
 
       if (!byLaw[law.id]) byLaw[law.id] = { lawId: law.id, title: getShortLawName(law.id, law.title), data: [] };

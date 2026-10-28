@@ -9,7 +9,7 @@ import {
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
+import { legalTexts, sectionLabel, chapterSectionLabel, lawCitation } from '../../src/data/legalTexts';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { formatSaved } from '../../src/utils/formatSaved';
@@ -45,6 +45,14 @@ function formatEntryPlace(
   sectionId?: string
 ): string {
   const chaptered = legalTexts.find((l) => l.id === lawId)?.chaptered !== false;
+  // EU-förordningar: "Kapitel III, Artikel 34" (etiketter ligger i lagdatat)
+  const labelled = sectionId
+    ? legalTexts
+        .find((l) => l.id === lawId)
+        ?.chapters.flatMap((c) => c.sections.map((s) => ({ c, s })))
+        .find((x) => x.s.id === sectionId)
+    : undefined;
+  if (labelled?.s.label) return chapterSectionLabel(labelled.c, labelled.s);
   // Lettered sections ("1 a §") keep their letter in the section id, e.g. kap-1-§-1a
   const letter = sectionId?.match(/§-\d+([a-z]+)$/)?.[1];
   const label = sectionNumber ? `${sectionNumber}${letter ? ' ' + letter : ''} §` : '';
@@ -76,7 +84,7 @@ export default function HomeScreen() {
       lawTitle: getShortLawName(law.id, law.title),
       timestamp: latest.timestamp,
       place: law.chaptered !== false
-        ? `${chapter.number}${chapter.numberSuffix ?? ''} kap. ${sectionLabel(section)}`
+        ? chapterSectionLabel(chapter, section)
         : sectionLabel(section),
       text: section.text,
     };
@@ -188,9 +196,7 @@ export default function HomeScreen() {
                     </Text>
                     <Text style={styles.rowSubtitle}>
                       {[
-                        legalTexts.find((l) => l.id === entry.lawId)?.sfsNumber
-                          ? `SFS ${legalTexts.find((l) => l.id === entry.lawId)?.sfsNumber}`
-                          : '',
+                        lawCitation(legalTexts.find((l) => l.id === entry.lawId)),
                         formatEntryPlace(entry.lawId, entry.chapterNumber, entry.sectionNumber, entry.sectionId),
                         formatRelativeTime(entry.timestamp),
                       ]

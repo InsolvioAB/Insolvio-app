@@ -16,6 +16,7 @@ const shortNameById: Record<string, string> = {
   'sfs-2016-675': 'Skuldsaneringslagen',
   'sfs-2016-676': 'F-skuldsaneringslagen',
   'sfs-2017-473': 'Kompletterande bestämmelser till insolvensförordningen',
+  'eu-2015-848': 'EU:s insolvensförordning',
   'sfs-2022-964': 'Lag om företagsrekonstruktion',
   'sfs-1970-994-kap12': 'Jordabalken 12 kap. Hyra',
 };

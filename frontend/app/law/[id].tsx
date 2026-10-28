@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts, Chapter, sectionLabel } from '../../src/data/legalTexts';
+import { legalTexts, Chapter, sectionLabel, lawCitation } from '../../src/data/legalTexts';
 import { getSectionAmendment } from '../../src/content/lawAmendments';
 import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
@@ -280,7 +280,7 @@ export default function LawViewerScreen() {
         <View style={styles.lawHeader}>
           <Text style={styles.lawTitle}>{law.title}</Text>
           <View style={styles.metadata}>
-            <Text style={styles.metadataText}>SFS {law.sfsNumber}</Text>
+            <Text style={styles.metadataText}>{lawCitation(law)}</Text>
             <Text style={styles.metadataText}>•</Text>
             <Text style={styles.metadataText}>{law.department}</Text>
           </View>
@@ -301,7 +301,7 @@ export default function LawViewerScreen() {
               onPress={() => toggleChapter(chapter.id)}
             >
               <View style={styles.chapterTitleContainer}>
-                <Text style={styles.chapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
+                <Text style={styles.chapterNumber}>{chapter.label ? chapter.label.toUpperCase() : `${chapter.number}${chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.`}</Text>
                 <Text style={styles.chapterTitle}>{chapter.title}</Text>
               </View>
               <Ionicons
@@ -489,7 +489,7 @@ export default function LawViewerScreen() {
                   setShowTOC(false);
                 }}
               >
-                <Text style={styles.tocChapterNumber}>{chapter.number}{chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.</Text>
+                <Text style={styles.tocChapterNumber}>{chapter.label ? chapter.label.toUpperCase() : `${chapter.number}${chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.`}</Text>
                 <Text style={styles.tocChapterTitle}>{chapter.title}</Text>
               </TouchableOpacity>
             ))}
