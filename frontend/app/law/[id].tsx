@@ -12,6 +12,7 @@ import {
   Alert,
   Share,
   Linking,
+  Pressable,
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -22,6 +23,7 @@ import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
+import { useTextSize, TEXT_SIZE_LABEL, TEXT_SIZE_SCALE, TextSize } from '../../src/contexts/TextSizeContext';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 export default function LawViewerScreen() {
@@ -30,6 +32,14 @@ export default function LawViewerScreen() {
   const scrollViewRef = useRef<ScrollView>(null);
   const sectionRefs = useRef<Record<string, View | null>>({});
   const chapterRefs = useRef<Record<string, View | null>>({});
+  // Positioner för "Fortsätt där du slutade": vi sparar vilken paragraf som ligger överst när du slutat scrolla
+  const chapterY = useRef<Record<string, number>>({});
+  const sectionsBlockY = useRef<Record<string, number>>({});
+  const sectionY = useRef<Record<string, { chapterId: string; chapterNumber: number; number: number; y: number }>>({});
+  const lastSavedSection = useRef<string | null>(null);
+  const { textSize, scale: textScale, setTextSize } = useTextSize();
+  const [showTextSize, setShowTextSize] = useState(false);
+  const textScaleStyle = { fontSize: 15 * textScale, lineHeight: 24 * textScale };
   
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
@@ -68,6 +78,28 @@ export default function LawViewerScreen() {
   const currentMatchId = currentMatch ? currentMatch.sectionId : null;
   const matchChapterId = currentMatch ? currentMatch.chapterId : null;
 
+  // Markerar sökordet i lagtexten (bara själva ordet, inte hela paragrafen)
+  const highlightFind = (text: string, isCurrent: boolean): React.ReactNode => {
+    const q = findQuery.trim().toLowerCase();
+    if (!findVisible || q.length < 2) return text;
+    const lower = text.toLowerCase();
+    const out: React.ReactNode[] = [];
+    let pos = 0;
+    let idx = lower.indexOf(q, pos);
+    while (idx !== -1) {
+      if (idx > pos) out.push(text.slice(pos, idx));
+      out.push(
+        <Text key={idx} style={isCurrent ? styles.findHighlightCurrent : styles.findHighlight}>
+          {text.slice(idx, idx + q.length)}
+        </Text>
+      );
+      pos = idx + q.length;
+      idx = lower.indexOf(q, pos);
+    }
+    if (pos < text.length) out.push(text.slice(pos));
+    return out;
+  };
+
   useEffect(() => {
     if (!currentMatch) return;
     // Kapitlet expanderas i renderingen (se matchChapterId). Vänta lite så att kapitlet hinner expandera innan vi mäter positionen
@@ -96,6 +128,30 @@ export default function LawViewerScreen() {
     setFindVisible(false);
     setFindQuery('');
     setFindIndex(0);
+  };
+
+  // Spara paragrafen som ligger överst när scrollningen stannar
+  const saveReadingPosition = (scrollY: number) => {
+    if (!law) return;
+    const probe = scrollY + 120;
+    let best: { id: string; chapterNumber: number; number: number; abs: number } | null = null;
+    for (const [sid, info] of Object.entries(sectionY.current)) {
+      const open =
+        law.chaptered === false ||
+        expandedChapters.has(info.chapterId) ||
+        matchChapterId === info.chapterId;
+      if (!open) continue;
+      const abs =
+        (chapterY.current[info.chapterId] ?? 0) +
+        (sectionsBlockY.current[info.chapterId] ?? 0) +
+        info.y;
+      if (abs <= probe && (!best || abs > best.abs)) {
+        best = { id: sid, chapterNumber: info.chapterNumber, number: info.number, abs };
+      }
+    }
+    if (!best || best.id === lastSavedSection.current) return;
+    lastSavedSection.current = best.id;
+    addRecentlyViewed(law.id, law.title, best.chapterNumber, best.number, best.id);
   };
 
   // --- Kopiera / dela paragraf som citat ---
@@ -351,6 +407,9 @@ export default function LawViewerScreen() {
     );
   };
 
+  // Aa visas bara när lagtext syns (något kapitel är öppet, träff i sökning, eller lag utan kapitel)
+  const lawTextVisible = law?.chaptered === false || expandedChapters.size > 0 || !!matchChapterId;
+
   return (
     <>
       <Stack.Screen
@@ -373,13 +432,18 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-              {law?.chaptered === false ? null : (
+              {lawTextVisible && (
                 <TouchableOpacity
-                  onPress={() => setShowTOC(true)}
+                  onPress={() => setShowTextSize((v) => !v)}
+                  hitSlop={{ top: 10, bottom: 10, left: 6, right: 6 }}
                   accessibilityRole="button"
-                  accessibilityLabel="Innehållsförteckning"
+                  accessibilityLabel="Textstorlek"
+                  accessibilityState={{ expanded: showTextSize }}
                 >
-                  <Ionicons name="list-outline" size={24} color={colors.greenPrimary} />
+                  <View style={styles.aaGlyph}>
+                    <Text style={styles.aaSmall}>A</Text>
+                    <Text style={styles.aaLarge}>a</Text>
+                  </View>
                 </TouchableOpacity>
               )}
             </View>
@@ -387,6 +451,49 @@ export default function LawViewerScreen() {
         }}
       />
       
+      {showTextSize && lawTextVisible && (
+        <>
+          <Pressable
+            style={StyleSheet.absoluteFill}
+            onPress={() => setShowTextSize(false)}
+            accessibilityRole="button"
+            accessibilityLabel="Stäng textstorlek"
+          />
+          <View style={styles.textSizePopover}>
+            <Text style={styles.textSizeLabel}>TEXTSTORLEK</Text>
+            <View style={styles.textSizeRow}>
+              {(['small', 'normal', 'large'] as TextSize[]).map((size) => {
+                const selected = textSize === size;
+                return (
+                  <TouchableOpacity
+                    key={size}
+                    style={[styles.textSizeButton, selected && styles.textSizeButtonSelected]}
+                    onPress={() => {
+                      setTextSize(size);
+                      setShowTextSize(false);
+                    }}
+                    accessibilityRole="button"
+                    accessibilityState={{ selected }}
+                    accessibilityLabel={`Textstorlek ${TEXT_SIZE_LABEL[size]}`}
+                  >
+                    <Text
+                      style={[
+                        styles.textSizeButtonText,
+                        selected && styles.textSizeButtonTextSelected,
+                        { fontSize: 15 * TEXT_SIZE_SCALE[size] },
+                      ]}
+                    >
+                      {TEXT_SIZE_LABEL[size]}
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
+            <Text style={styles.textSizeNote}>Ändrar bara lagtexten. Sparas på din telefon.</Text>
+          </View>
+        </>
+      )}
+
       {findVisible && (
         <View style={styles.findBar}>
           <Ionicons name="search" size={18} color={colors.mutedText} />
@@ -426,6 +533,8 @@ export default function LawViewerScreen() {
 
       <ScrollView
         ref={scrollViewRef}
+        onMomentumScrollEnd={(e) => saveReadingPosition(e.nativeEvent.contentOffset.y)}
+        onScrollEndDrag={(e) => saveReadingPosition(e.nativeEvent.contentOffset.y)}
         keyboardShouldPersistTaps="handled"
         style={styles.container}
         contentContainerStyle={styles.content}
@@ -445,15 +554,17 @@ export default function LawViewerScreen() {
             <Text style={styles.metadataText}>Ändrad: {law.lastAmended}</Text>
           </View>
           {officialLawUrl && (
-            <TouchableOpacity
-              style={styles.officialLink}
-              onPress={() => Linking.openURL(officialLawUrl).catch(() => {})}
-              accessibilityRole="link"
-              accessibilityLabel="Öppna gällande lag online i webbläsaren"
-            >
-              <Ionicons name="open-outline" size={16} color={colors.greenText} />
-              <Text style={styles.officialLinkText}>Visa gällande lag online</Text>
-            </TouchableOpacity>
+            <View style={styles.metadata}>
+              <Text style={styles.metadataText}>Källa: </Text>
+              <TouchableOpacity
+                onPress={() => Linking.openURL(officialLawUrl).catch(() => {})}
+                hitSlop={{ top: 12, bottom: 12, left: 8, right: 8 }}
+                accessibilityRole="link"
+                accessibilityLabel="Öppna källan, rkrattsbaser.gov.se, i webbläsaren"
+              >
+                <Text style={styles.sourceLinkText}>rkrattsbaser.gov.se</Text>
+              </TouchableOpacity>
+            </View>
           )}
         </View>
 
@@ -483,6 +594,9 @@ export default function LawViewerScreen() {
               chapterRefs.current[chapter.id] = el;
             }}
             style={styles.chapterContainer}
+            onLayout={(e) => {
+              chapterY.current[chapter.id] = e.nativeEvent.layout.y;
+            }}
           >
             {law.chaptered !== false && (
             <TouchableOpacity
@@ -502,7 +616,12 @@ export default function LawViewerScreen() {
             )}
 
             {(law.chaptered === false || expandedChapters.has(chapter.id) || matchChapterId === chapter.id) && (
-              <View style={styles.sectionsContainer}>
+              <View
+                style={styles.sectionsContainer}
+                onLayout={(e) => {
+                  sectionsBlockY.current[chapter.id] = e.nativeEvent.layout.y;
+                }}
+              >
                 {chapter.sections.map((sectionItem) => {
                   const sectionNote = getNote(sectionItem.id);
                   const bookmarked = isBookmarked(sectionItem.id);
@@ -520,9 +639,17 @@ export default function LawViewerScreen() {
                       ref={(el) => {
                         sectionRefs.current[sectionItem.id] = el;
                       }}
+                      onLayout={(e) => {
+                        sectionY.current[sectionItem.id] = {
+                          chapterId: chapter.id,
+                          chapterNumber: chapter.number,
+                          number: sectionItem.number,
+                          y: e.nativeEvent.layout.y,
+                        };
+                      }}
                       style={[
                         styles.sectionContainer,
-                        (section === sectionItem.id || currentMatchId === sectionItem.id) && styles.highlightedSection,
+                        section === sectionItem.id && styles.highlightedSection,
                       ]}
                     >
                       {sectionItem.groupHeading ? (
@@ -586,7 +713,9 @@ export default function LawViewerScreen() {
                           </Text>
                         </TouchableOpacity>
                       )}
-                      <Text style={styles.sectionText}>{sectionItem.text}</Text>
+                      <Text style={[styles.sectionText, textScaleStyle]}>
+                        {highlightFind(sectionItem.text, currentMatchId === sectionItem.id)}
+                      </Text>
                       
                       {sectionNote && (
                         <View style={styles.notePreview}>
@@ -653,7 +782,7 @@ export default function LawViewerScreen() {
                 {law.transitional.map((t) => (
                   <View key={t.sfs} style={styles.sectionContainer}>
                     <Text style={styles.sectionNumber}>SFS {t.sfs}</Text>
-                    <Text style={styles.sectionText}>{t.text}</Text>
+                    <Text style={[styles.sectionText, textScaleStyle]}>{t.text}</Text>
                   </View>
                 ))}
               </View>
@@ -795,18 +924,84 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: colors.greenText,
   },
-  officialLink: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-    marginTop: 10,
-    alignSelf: 'flex-start',
-    paddingVertical: 4,
-  },
-  officialLinkText: {
-    fontSize: 14,
+  sourceLinkText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
     color: colors.greenText,
     textDecorationLine: 'underline',
+  },
+  aaGlyph: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+  },
+  aaSmall: {
+    fontSize: 14,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.greenPrimary,
+  },
+  aaLarge: {
+    fontSize: 22,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.greenPrimary,
+  },
+  textSizePopover: {
+    position: 'absolute',
+    top: 8,
+    right: 12,
+    width: 252,
+    padding: 14,
+    gap: 10,
+    backgroundColor: colors.white,
+    borderWidth: 1,
+    borderColor: colors.greenTintBorder,
+    borderRadius: borderRadius.md,
+    shadowColor: '#000',
+    shadowOpacity: 0.16,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 8,
+    zIndex: 10,
+  },
+  textSizeLabel: {
+    fontSize: 11,
+    letterSpacing: 0.8,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.mutedText,
+  },
+  textSizeRow: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    borderColor: colors.greenTintBorder,
+    borderRadius: borderRadius.md,
+    overflow: 'hidden',
+  },
+  textSizeButton: {
+    flex: 1,
+    minHeight: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.greenTint,
+  },
+  textSizeButtonSelected: {
+    backgroundColor: colors.greenPrimary,
+  },
+  textSizeButtonText: {
+    fontFamily: typography.fontFamily.regular,
+    color: colors.greenText,
+  },
+  textSizeButtonTextSelected: {
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.greenPrimaryForeground,
+  },
+  textSizeNote: {
+    fontSize: 12,
+    lineHeight: 18,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.mutedText,
   },
   lawHeader: {
     backgroundColor: colors.white,
@@ -879,6 +1074,14 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.md,
     borderBottomWidth: 1,
     borderBottomColor: colors.dividerLight,
+  },
+  findHighlight: {
+    backgroundColor: '#fff3b0',
+    color: colors.ink,
+  },
+  findHighlightCurrent: {
+    backgroundColor: '#ffd54a',
+    color: colors.ink,
   },
   highlightedSection: {
     backgroundColor: '#e8f4f0',
