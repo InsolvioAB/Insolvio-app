@@ -18,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#3C8855"
+        "backgroundColor": "#1C4839"
       },
       "edgeToEdgeEnabled": true,
       "package": "se.ejuridik.insolvio"
