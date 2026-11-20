@@ -7,6 +7,7 @@ import * as Font from 'expo-font';
 import { BookmarksProvider } from '../src/contexts/BookmarksContext';
 import { NotesProvider } from '../src/contexts/NotesContext';
 import { RecentlyViewedProvider } from '../src/contexts/RecentlyViewedContext';
+import { TextSizeProvider } from '../src/contexts/TextSizeContext';
 import { colors } from '../src/theme/theme';
 
 export default function RootLayout() {
@@ -40,6 +41,7 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider>
+      <TextSizeProvider>
       <BookmarksProvider>
         <NotesProvider>
           <RecentlyViewedProvider>
@@ -53,6 +55,7 @@ export default function RootLayout() {
           </RecentlyViewedProvider>
         </NotesProvider>
       </BookmarksProvider>
+      </TextSizeProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );
