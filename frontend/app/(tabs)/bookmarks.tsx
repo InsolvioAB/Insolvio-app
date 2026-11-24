@@ -23,7 +23,8 @@ import PageHeader from '../../src/components/PageHeader';
 import EmptyState from '../../src/components/EmptyState';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
-import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 const UNDO_VISIBLE_MS = 6000;
 const HELP_BOX_MAX_BOOKMARKS = 3;
@@ -44,6 +45,8 @@ type LawGroup = {
 };
 
 export default function BookmarksScreen() {
+  const { colors, isDark } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const { bookmarks, addBookmark, removeBookmark } = useBookmarks();
   const { addNote, updateNote, deleteNote, getNote } = useNotes();
   const router = useRouter();
@@ -284,6 +287,7 @@ export default function BookmarksScreen() {
               </TouchableOpacity>
             </View>
             <TextInput
+            keyboardAppearance={isDark ? 'dark' : 'light'}
               style={styles.noteInput}
               value={noteText}
               onChangeText={setNoteText}
@@ -309,7 +313,7 @@ export default function BookmarksScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -355,7 +359,7 @@ const styles = StyleSheet.create({
     color: colors.destructiveForeground,
   },
   card: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     borderWidth: 1,
     borderColor: colors.dividerLight,
@@ -437,7 +441,7 @@ const styles = StyleSheet.create({
     marginTop: spacing.sm,
     padding: spacing.md,
     borderRadius: borderRadius.md,
-    backgroundColor: '#e8e8e8',
+    backgroundColor: colors.helpBoxBg,
   },
   helpTextBlock: {
     flex: 1,
@@ -485,7 +489,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContainer: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingTop: 20,
@@ -541,6 +545,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontFamily: typography.fontFamily.semiBold,
     fontWeight: '600',
-    color: colors.white,
+    color: colors.onAction,
   },
 });

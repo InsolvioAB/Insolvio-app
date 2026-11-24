@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
 import { Text } from '../../src/components/AppText';
 import { Ionicons } from '@expo/vector-icons';
@@ -6,7 +6,8 @@ import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
 import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
-import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 const CHANGE_TYPE_LABEL: Record<AmendmentChangeType, string> = {
   ändrad: 'Ändrad',
@@ -15,6 +16,8 @@ const CHANGE_TYPE_LABEL: Record<AmendmentChangeType, string> = {
 };
 
 export default function AmendmentScreen() {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const { newsId, paragraph: focusId } = useLocalSearchParams<{ newsId: string; paragraph?: string }>();
   const amendment = getAmendmentByNewsId(newsId);
   const listRef = useRef<FlatList<AmendmentParagraph>>(null);
@@ -108,7 +111,7 @@ export default function AmendmentScreen() {
               </View>
             </View>
 
-            {renderComparison(paragraph, amendment.effectiveDate)}
+            {renderComparison(paragraph, amendment.effectiveDate, styles, colors)}
           </View>
         )}
       />
@@ -133,7 +136,12 @@ function renderSegments(segments: DiffSegment[], style: object, changedStyle: ob
   );
 }
 
-function renderComparison(paragraph: AmendmentParagraph, effectiveDate: string) {
+function renderComparison(
+  paragraph: AmendmentParagraph,
+  effectiveDate: string,
+  styles: ReturnType<typeof makeStyles>,
+  colors: ThemeColors
+) {
   const { oldText, newText, changeType } = paragraph;
   const diff = oldText && newText ? diffWords(oldText, newText) : null;
 
@@ -198,7 +206,7 @@ function formatDate(iso: string): string {
   return d.toLocaleDateString('sv-SE', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -208,7 +216,7 @@ const styles = StyleSheet.create({
     gap: spacing.md,
   },
   header: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     gap: spacing.xs,
@@ -248,7 +256,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
   },
   paragraphCard: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     gap: spacing.sm,
@@ -266,25 +274,25 @@ const styles = StyleSheet.create({
     color: colors.greenPrimary,
   },
   changeBadge: {
-    backgroundColor: '#fdf1e0',
+    backgroundColor: colors.changeBadgeBg,
     borderRadius: borderRadius.sm,
     paddingHorizontal: spacing.sm,
     paddingVertical: 3,
   },
   changeBadgeNy: {
-    backgroundColor: '#d8f0e6',
+    backgroundColor: colors.updatedBadgeBg,
   },
   changeBadgeUpphavd: {
-    backgroundColor: '#fbe3dc',
+    backgroundColor: colors.upphavdBadgeBg,
   },
   changeBadgeText: {
     fontSize: 11,
     fontFamily: typography.fontFamily.bold,
-    color: '#8a5a1f',
+    color: colors.changeBadgeText,
     letterSpacing: 0.3,
   },
   changeBadgeTextUpphavd: {
-    color: colors.destructive,
+    color: colors.upphavdText,
   },
   textBlock: {
     borderRadius: borderRadius.sm,
@@ -292,15 +300,15 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   oldTextBlock: {
-    backgroundColor: '#efefef',
+    backgroundColor: colors.oldBlockBg,
   },
   newParagraphNote: {
-    backgroundColor: '#d8f0e6',
+    backgroundColor: colors.updatedBadgeBg,
   },
   newTextBlock: {
-    backgroundColor: '#e3f1ea',
+    backgroundColor: colors.pillBg,
     borderWidth: 1,
-    borderColor: '#bfdccd',
+    borderColor: colors.pillBorder,
   },
   newLabel: {
     color: colors.greenPrimary,
@@ -317,13 +325,13 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   removed: {
-    backgroundColor: '#f6d9d4',
+    backgroundColor: colors.diffRemovedBg,
     textDecorationLine: 'line-through',
-    textDecorationColor: '#b3402f',
-    color: '#7a2c20',
+    textDecorationColor: colors.diffRemovedLine,
+    color: colors.diffRemovedText,
   },
   added: {
-    backgroundColor: '#bfe3d0',
+    backgroundColor: colors.diffAddedBg,
     fontFamily: typography.fontFamily.bold,
     color: colors.ink,
   },

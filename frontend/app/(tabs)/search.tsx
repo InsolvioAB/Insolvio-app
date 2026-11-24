@@ -20,7 +20,8 @@ import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
 import PageHeader from '../../src/components/PageHeader';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
-import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 // Senaste sökningar sparas bara på enheten (EJU-193)
 const RECENT_SEARCHES_KEY = '@insolvio_recent_searches';
@@ -132,6 +133,8 @@ function HighlightedText({ text, query, style, highlightStyle, numberOfLines }: 
 }
 
 export default function SearchScreen() {
+  const { colors, isDark } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const [searchQuery, setSearchQuery] = useState('');
   // Which law groups the user has manually expanded/collapsed, and which
   // they've asked to fully show past the per-law cap -- tracked as
@@ -393,6 +396,7 @@ export default function SearchScreen() {
         >
           <Ionicons name="search" size={20} color={colors.mutedText} />
           <TextInput
+            keyboardAppearance={isDark ? 'dark' : 'light'}
             ref={searchInputRef}
             style={styles.searchInput}
             placeholder="Sök nyckelord, § eller kapitel…"
@@ -594,7 +598,7 @@ export default function SearchScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -607,7 +611,7 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: 10,
     paddingHorizontal: spacing.md,
     paddingVertical: 10,
@@ -656,7 +660,7 @@ const styles = StyleSheet.create({
     borderRadius: borderRadius.sm,
     borderWidth: 1,
     borderColor: colors.dividerLight,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
   },
   scopeButtonText: {
     flexShrink: 1,
@@ -721,7 +725,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 6,
     borderRadius: 6,
-    backgroundColor: '#ebebeb',
+    backgroundColor: colors.chipBg,
     alignItems: 'center',
   },
   exampleChipText: {
@@ -785,7 +789,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     paddingVertical: spacing.sm,
     paddingHorizontal: spacing.md,
@@ -828,7 +832,7 @@ const styles = StyleSheet.create({
     color: colors.greenText,
   },
   resultCard: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     marginTop: spacing.sm,
@@ -859,7 +863,7 @@ const styles = StyleSheet.create({
   resultTextHighlight: {
     fontFamily: typography.fontFamily.bold,
     fontWeight: '700',
-    backgroundColor: '#fff3b0',
+    backgroundColor: colors.findHighlight,
     color: colors.ink,
   },
   emptyState: {

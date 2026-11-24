@@ -72,6 +72,17 @@ export const lightColors = {
   noteText: '#92400e',
   dangerBg: '#fee2e2',
   dangerText: '#ef4444',
+  helpBoxBg: '#e8e8e8',
+  chipBg: '#ebebeb',
+  changeBadgeBg: '#fdf1e0',
+  changeBadgeText: '#8a5a1f',
+  upphavdBadgeBg: '#fbe3dc',
+  upphavdText: '#ca3214',
+  oldBlockBg: '#efefef',
+  diffRemovedBg: '#f6d9d4',
+  diffRemovedLine: '#b3402f',
+  diffRemovedText: '#7a2c20',
+  diffAddedBg: '#bfe3d0',
 };
 
 export type ThemeColors = typeof lightColors;
@@ -131,6 +142,17 @@ export const darkColors: ThemeColors = {
   noteText: '#f0c674',
   dangerBg: '#3a1c1c',
   dangerText: '#f87171',
+  helpBoxBg: '#242424',
+  chipBg: '#262626',
+  changeBadgeBg: '#33280f',
+  changeBadgeText: '#e0b36a',
+  upphavdBadgeBg: '#3b1f1a',
+  upphavdText: '#f4907f',
+  oldBlockBg: '#262626',
+  diffRemovedBg: '#4a2520',
+  diffRemovedLine: '#e5604a',
+  diffRemovedText: '#f4b4a8',
+  diffAddedBg: '#24523c',
 };
 
 // Ljust tema. Skärmar som inte har gjorts om till useTheme() än använder
