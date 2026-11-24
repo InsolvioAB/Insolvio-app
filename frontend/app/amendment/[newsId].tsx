@@ -1,9 +1,11 @@
-import React, { useRef, useEffect } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import React, { useRef, useEffect, useState } from 'react';
+import { View, FlatList, StyleSheet } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
 import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 const CHANGE_TYPE_LABEL: Record<AmendmentChangeType, string> = {
@@ -16,6 +18,7 @@ export default function AmendmentScreen() {
   const { newsId, paragraph: focusId } = useLocalSearchParams<{ newsId: string; paragraph?: string }>();
   const amendment = getAmendmentByNewsId(newsId);
   const listRef = useRef<FlatList<AmendmentParagraph>>(null);
+  const [showTextSize, setShowTextSize] = useState(false);
   const focusIndex = amendment && focusId ? amendment.paragraphs.findIndex((p) => p.id === focusId) : -1;
 
   // Kommer man från en paragraf i lagtexten ("Ändrad 1 juli 2026 ›") hoppar
@@ -38,7 +41,19 @@ export default function AmendmentScreen() {
 
   return (
     <>
-      <Stack.Screen options={{ title: 'Jämför ändring' }} />
+      <Stack.Screen
+        options={{
+          title: 'Jämför ändring',
+          headerStyle: { backgroundColor: colors.cream },
+          headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTintColor: colors.greenPrimary,
+          headerRight: () => (
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            </View>
+          ),
+        }}
+      />
       <FlatList
         ref={listRef}
         onScrollToIndexFailed={(info) => {
@@ -97,6 +112,7 @@ export default function AmendmentScreen() {
           </View>
         )}
       />
+      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </>
   );
 }

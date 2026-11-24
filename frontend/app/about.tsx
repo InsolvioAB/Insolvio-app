@@ -1,11 +1,27 @@
-import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
+import { Text } from '../src/components/AppText';
 import { homeContent } from '../src/content/homeContent';
+import { Stack } from 'expo-router';
+import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
 
 export default function AboutScreen() {
+  const [showTextSize, setShowTextSize] = useState(false);
   return (
     <View style={styles.container}>
+      <Stack.Screen
+        options={{
+          headerStyle: { backgroundColor: colors.cream },
+          headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTintColor: colors.greenPrimary,
+          headerRight: () => (
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            </View>
+          ),
+        }}
+      />
       <ScrollView
         style={styles.content}
         contentContainerStyle={styles.contentContainer}
@@ -17,6 +33,7 @@ export default function AboutScreen() {
           </View>
         ))}
       </ScrollView>
+      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </View>
   );
 }

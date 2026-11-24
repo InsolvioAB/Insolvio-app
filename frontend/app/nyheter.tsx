@@ -1,15 +1,40 @@
-import React from 'react';
-import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
-import { useRouter } from 'expo-router';
+import React, { useState } from 'react';
+import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
+import { Text } from '../src/components/AppText';
+import { useRouter, Stack } from 'expo-router';
+import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
+import EmptyState from '../src/components/EmptyState';
 import { activeNewsItems } from '../src/content/newsContent';
 import { getAmendmentByNewsId } from '../src/content/lawAmendments';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
 
 export default function NyheterScreen() {
   const router = useRouter();
+  const [showTextSize, setShowTextSize] = useState(false);
 
   return (
     <View style={styles.container}>
+      <Stack.Screen
+        options={{
+          headerStyle: { backgroundColor: colors.cream },
+          headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTintColor: colors.greenPrimary,
+          headerRight: () => (
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            </View>
+          ),
+        }}
+      />
+      {activeNewsItems.length === 0 ? (
+        <EmptyState
+          icon="document-text-outline"
+          title="Inga nya lagändringar just nu"
+          text="Här visas ändringar som trätt i kraft de senaste tre månaderna."
+          buttonLabel="Gå till Lagar"
+          onPress={() => router.navigate('/laws')}
+        />
+      ) : (
       <ScrollView
         style={styles.content}
         contentContainerStyle={styles.contentContainer}
@@ -49,6 +74,8 @@ export default function NyheterScreen() {
           );
         })}
       </ScrollView>
+      )}
+      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </View>
   );
 }

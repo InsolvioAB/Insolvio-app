@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
-  Text,
   ScrollView,
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts, sectionLabel, chapterSectionLabel, lawCitation } from '../../src/data/legalTexts';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
@@ -15,6 +15,7 @@ import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { formatSaved } from '../../src/utils/formatSaved';
 import { activeNewsItems } from '../../src/content/newsContent';
 import PageHeader from '../../src/components/PageHeader';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
@@ -64,6 +65,8 @@ function formatEntryPlace(
 
 export default function HomeScreen() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const [showTextSize, setShowTextSize] = useState(false);
   const { recentlyViewed } = useRecentlyViewed();
   const { bookmarks } = useBookmarks();
   // Senast visade: 3 rader som standard, "Visa alla" visar resten (EJU-193)
@@ -92,20 +95,30 @@ export default function HomeScreen() {
 
   const hasActivity = recentlyViewed.length > 0 || bookmarks.length > 0;
 
+  // "Fortsätt där du slutade": senast lästa paragrafen. Resten hamnar i Senast visade.
+  const continueEntry = recentlyViewed[0];
+  const recentRest = recentlyViewed.slice(1);
+
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <PageHeader
         title="Hem"
         right={
-          <TouchableOpacity
-            style={styles.infoButton}
-            onPress={() => router.push('/about')}
-            accessibilityLabel="Om Insolvio"
-          >
-            <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
-          </TouchableOpacity>
+          <View style={styles.headerActions}>
+            <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            <TouchableOpacity
+              style={styles.infoButton}
+              onPress={() => router.push('/about')}
+              accessibilityLabel="Om Insolvio"
+            >
+              <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
+            </TouchableOpacity>
+          </View>
         }
       />
+      {showTextSize && (
+        <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
+      )}
 
       <ScrollView
         style={styles.content}
@@ -119,6 +132,43 @@ export default function HomeScreen() {
           <Ionicons name="search" size={20} color={colors.mutedText} />
           <Text style={styles.searchPlaceholder}>Sök nyckelord, § eller kapitel…</Text>
         </TouchableOpacity>
+
+        {continueEntry && (
+          <TouchableOpacity
+            style={styles.continueCard}
+            onPress={() =>
+              router.push(
+                continueEntry.sectionId
+                  ? `/law/${continueEntry.lawId}?section=${continueEntry.sectionId}`
+                  : `/law/${continueEntry.lawId}`
+              )
+            }
+            activeOpacity={0.7}
+            accessibilityRole="button"
+            accessibilityLabel={`Fortsätt där du slutade: ${getShortLawName(continueEntry.lawId, continueEntry.lawTitle)}`}
+          >
+            <View style={styles.newsBannerTextBlock}>
+              <Text style={styles.continueLabel}>FORTSÄTT DÄR DU SLUTADE</Text>
+              <Text style={styles.continueTitle} numberOfLines={2}>
+                {getShortLawName(continueEntry.lawId, continueEntry.lawTitle)}
+              </Text>
+              <Text style={styles.rowSubtitle}>
+                {[
+                  formatEntryPlace(
+                    continueEntry.lawId,
+                    continueEntry.chapterNumber,
+                    continueEntry.sectionNumber,
+                    continueEntry.sectionId
+                  ),
+                  formatRelativeTime(continueEntry.timestamp),
+                ]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </Text>
+            </View>
+            <Ionicons name="chevron-forward" size={22} color={colors.greenText} />
+          </TouchableOpacity>
+        )}
 
         {activeNewsItems.length > 0 && (
           <TouchableOpacity
@@ -158,23 +208,23 @@ export default function HomeScreen() {
           </View>
         )}
 
-        {recentlyViewed.length > 0 && (
+        {recentRest.length > 0 && (
           <View style={styles.section}>
             <View style={styles.sectionHeaderRow}>
               <Text style={styles.sectionLabel}>Senast visade</Text>
-              {recentlyViewed.length > RECENT_PREVIEW_COUNT && (
+              {recentRest.length > RECENT_PREVIEW_COUNT && (
                 <TouchableOpacity
                   onPress={() => setShowAllRecent((v) => !v)}
                   accessibilityLabel={showAllRecent ? 'Visa färre senast visade' : 'Visa alla senast visade'}
                 >
                   <Text style={styles.bookmarksCardLink}>
-                    {showAllRecent ? 'Visa färre ‹' : `Visa alla (${recentlyViewed.length}) ›`}
+                    {showAllRecent ? 'Visa färre ‹' : `Visa alla (${recentRest.length}) ›`}
                   </Text>
                 </TouchableOpacity>
               )}
             </View>
             <View style={styles.list}>
-              {(showAllRecent ? recentlyViewed : recentlyViewed.slice(0, RECENT_PREVIEW_COUNT)).map((entry) => (
+              {(showAllRecent ? recentRest : recentRest.slice(0, RECENT_PREVIEW_COUNT)).map((entry) => (
                 <TouchableOpacity
                   key={`${entry.lawId}-${entry.timestamp}`}
                   style={styles.listRow}
@@ -253,6 +303,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
+  },
+  headerActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
   },
   infoButton: {
     width: 36,
@@ -336,6 +391,30 @@ const styles = StyleSheet.create({
   sectionLabel: {
     ...createHeadingStyle(20),
     fontWeight: typography.weights.bold,
+    color: colors.ink,
+  },
+  continueCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    backgroundColor: colors.greenTint,
+    borderWidth: 1,
+    borderColor: colors.greenAction,
+    borderRadius: borderRadius.md,
+    padding: spacing.md,
+  },
+  continueLabel: {
+    fontSize: 12,
+    letterSpacing: 0.6,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
+    color: colors.greenText,
+    marginBottom: 2,
+  },
+  continueTitle: {
+    fontSize: 18,
+    fontFamily: typography.fontFamily.bold,
+    fontWeight: '700',
     color: colors.ink,
   },
   newsBanner: {

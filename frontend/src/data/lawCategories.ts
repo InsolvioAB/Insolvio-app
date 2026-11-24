@@ -4,20 +4,20 @@
 // därför ligger kategorierna i en egen fil, nycklade på lagens id.
 // Lagar som saknas här visas bara under "Alla".
 
-export const LAW_CATEGORIES = ['Insolvens', 'Bolagsrätt', 'Arbetsrätt'] as const;
+export const LAW_CATEGORIES = ['Insolvensrätt', 'Bolagsrätt', 'Arbetsrätt'] as const;
 export type LawCategory = (typeof LAW_CATEGORIES)[number];
 
 // En lag kan höra till flera kategorier (visas då under flera chips).
 export const lawCategoriesById: Record<string, LawCategory[]> = {
-  'sfs-1987-672': ['Insolvens'],                 // Konkurslag
-  'sfs-1970-979': ['Insolvens'],                 // Förmånsrättslag
-  'sfs-2016-675': ['Insolvens'],                 // Skuldsaneringslag
-  'sfs-2022-964': ['Insolvens'],                 // Lag om företagsrekonstruktion
-  'sfs-1992-497': ['Insolvens', 'Arbetsrätt'],   // Lönegarantilag
-  'sfs-2024-1329': ['Insolvens', 'Arbetsrätt'],  // Lönegarantiförordning
-  'sfs-2016-676': ['Insolvens'],                 // Lag om skuldsanering för företagare (F-skuldsanering)
-  'eu-2015-848': ['Insolvens'],                  // EU:s insolvensförordning (2015/848)
-  'sfs-2017-473': ['Insolvens'],                 // Lag med kompletterande bestämmelser till 2015 års insolvensförordning
+  'sfs-1987-672': ['Insolvensrätt'],                 // Konkurslag
+  'sfs-1970-979': ['Insolvensrätt'],                 // Förmånsrättslag
+  'sfs-2016-675': ['Insolvensrätt'],                 // Skuldsaneringslag
+  'sfs-2022-964': ['Insolvensrätt'],                 // Lag om företagsrekonstruktion
+  'sfs-1992-497': ['Insolvensrätt', 'Arbetsrätt'],   // Lönegarantilag
+  'sfs-2024-1329': ['Insolvensrätt', 'Arbetsrätt'],  // Lönegarantiförordning
+  'sfs-2016-676': ['Insolvensrätt'],                 // Lag om skuldsanering för företagare (F-skuldsanering)
+  'eu-2015-848': ['Insolvensrätt'],                  // EU:s insolvensförordning (2015/848)
+  'sfs-2017-473': ['Insolvensrätt'],                 // Lag med kompletterande bestämmelser till 2015 års insolvensförordning
   'sfs-2005-551': ['Bolagsrätt'],                // Aktiebolagslag
   'sfs-1980-1102': ['Bolagsrätt'],               // Lag om handelsbolag och enkla bolag
   'sfs-1982-80': ['Arbetsrätt'],                 // LAS

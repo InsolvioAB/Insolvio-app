@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   ScrollView,
   TouchableOpacity,
@@ -10,15 +9,21 @@ import {
   KeyboardAvoidingView,
   Platform,
   Alert,
+  Share,
+  Linking,
+  Pressable,
 } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { legalTexts, Chapter, sectionLabel, lawCitation } from '../../src/data/legalTexts';
+import * as Haptics from 'expo-haptics';
+import { legalTexts, Chapter, sectionLabel, chapterSectionLabel, lawCitation } from '../../src/data/legalTexts';
 import { getSectionAmendment } from '../../src/content/lawAmendments';
 import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 export default function LawViewerScreen() {
@@ -26,7 +31,14 @@ export default function LawViewerScreen() {
   const router = useRouter();
   const scrollViewRef = useRef<ScrollView>(null);
   const sectionRefs = useRef<Record<string, View | null>>({});
-  
+  const chapterRefs = useRef<Record<string, View | null>>({});
+  // Positioner för "Fortsätt där du slutade": vi sparar vilken paragraf som ligger överst när du slutat scrolla
+  const chapterY = useRef<Record<string, number>>({});
+  const sectionsBlockY = useRef<Record<string, number>>({});
+  const sectionY = useRef<Record<string, { chapterId: string; chapterNumber: number; number: number; y: number }>>({});
+  const lastSavedSection = useRef<string | null>(null);
+  const [showTextSize, setShowTextSize] = useState(false);
+    
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
   const [showTransitional, setShowTransitional] = useState(false);
@@ -39,6 +51,127 @@ export default function LawViewerScreen() {
   const { addRecentlyViewed } = useRecentlyViewed();
   
   const law = legalTexts.find((l) => l.id === id);
+
+  // --- Sök i lagen (find in law) ---
+  const [findVisible, setFindVisible] = useState(false);
+  const [findQuery, setFindQuery] = useState('');
+  const [findIndex, setFindIndex] = useState(0);
+
+  const findMatches = useMemo(() => {
+    const q = findQuery.trim().toLowerCase();
+    const out: { chapterId: string; sectionId: string }[] = [];
+    if (!law || q.length < 2) return out;
+    for (const c of law.chapters) {
+      for (const s of c.sections) {
+        if (s.text.toLowerCase().includes(q)) out.push({ chapterId: c.id, sectionId: s.id });
+      }
+    }
+    return out;
+  }, [law, findQuery]);
+
+  const currentMatch =
+    findVisible && findMatches.length > 0
+      ? findMatches[Math.min(findIndex, findMatches.length - 1)]
+      : null;
+  const currentMatchId = currentMatch ? currentMatch.sectionId : null;
+  const matchChapterId = currentMatch ? currentMatch.chapterId : null;
+
+  // Markerar sökordet i lagtexten (bara själva ordet, inte hela paragrafen)
+  const highlightFind = (text: string, isCurrent: boolean): React.ReactNode => {
+    const q = findQuery.trim().toLowerCase();
+    if (!findVisible || q.length < 2) return text;
+    const lower = text.toLowerCase();
+    const out: React.ReactNode[] = [];
+    let pos = 0;
+    let idx = lower.indexOf(q, pos);
+    while (idx !== -1) {
+      if (idx > pos) out.push(text.slice(pos, idx));
+      out.push(
+        <Text key={idx} style={isCurrent ? styles.findHighlightCurrent : styles.findHighlight}>
+          {text.slice(idx, idx + q.length)}
+        </Text>
+      );
+      pos = idx + q.length;
+      idx = lower.indexOf(q, pos);
+    }
+    if (pos < text.length) out.push(text.slice(pos));
+    return out;
+  };
+
+  useEffect(() => {
+    if (!currentMatch) return;
+    // Kapitlet expanderas i renderingen (se matchChapterId). Vänta lite så att kapitlet hinner expandera innan vi mäter positionen
+    const t = setTimeout(() => {
+      const node = sectionRefs.current[currentMatch.sectionId];
+      if (node && scrollViewRef.current) {
+        node.measureLayout(
+          scrollViewRef.current as any,
+          (_x, y) => {
+            scrollViewRef.current?.scrollTo({ y: Math.max(y - 20, 0), animated: true });
+          },
+          () => {}
+        );
+      }
+    }, 150);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentMatchId, findIndex]);
+
+  const stepMatch = (dir: 1 | -1) => {
+    if (findMatches.length === 0) return;
+    setFindIndex((i) => (i + dir + findMatches.length) % findMatches.length);
+  };
+
+  const closeFind = () => {
+    setFindVisible(false);
+    setFindQuery('');
+    setFindIndex(0);
+  };
+
+  // Spara paragrafen som ligger överst när scrollningen stannar
+  const saveReadingPosition = (scrollY: number) => {
+    if (!law) return;
+    const probe = scrollY + 120;
+    let best: { id: string; chapterNumber: number; number: number; abs: number } | null = null;
+    for (const [sid, info] of Object.entries(sectionY.current)) {
+      const open =
+        law.chaptered === false ||
+        expandedChapters.has(info.chapterId) ||
+        matchChapterId === info.chapterId;
+      if (!open) continue;
+      const abs =
+        (chapterY.current[info.chapterId] ?? 0) +
+        (sectionsBlockY.current[info.chapterId] ?? 0) +
+        info.y;
+      if (abs <= probe && (!best || abs > best.abs)) {
+        best = { id: sid, chapterNumber: info.chapterNumber, number: info.number, abs };
+      }
+    }
+    if (!best || best.id === lastSavedSection.current) return;
+    lastSavedSection.current = best.id;
+    addRecentlyViewed(law.id, law.title, best.chapterNumber, best.number, best.id);
+  };
+
+  // --- Kopiera / dela paragraf som citat ---
+  const handleShareSection = async (chapter: Chapter, sectionItem: { number: number; suffix?: string; label?: string; text: string }) => {
+    if (!law) return;
+    Haptics.selectionAsync().catch(() => {});
+    const place =
+      law.chaptered === false ? sectionLabel(sectionItem) : chapterSectionLabel(chapter, sectionItem);
+    const citation = lawCitation(law);
+    const message = `${law.title}${citation ? ` (${citation})` : ''}, ${place}\n\n${sectionItem.text}`;
+    try {
+      await Share.share({ message });
+    } catch {
+      // Användaren avbröt eller delning stöds inte - inget att göra
+    }
+  };
+
+  // Länk till gällande lag online (hoppar över EU-förordningar som saknar SFS-nummer)
+  const officialLawUrl =
+    law && law.sfsNumber && !law.citation
+      ? `https://rkrattsbaser.gov.se/sfst?bet=${encodeURIComponent(law.sfsNumber)}`
+      : null;
 
   useEffect(() => {
     if (section && law) {
@@ -176,6 +309,31 @@ export default function LawViewerScreen() {
     router.setParams({ section: targetId });
   };
 
+  // Innehållsförteckningen: fäll ut kapitlet (stäng aldrig) och scrolla dit
+  const jumpToChapter = (chapterId: string) => {
+    setExpandedChapters((prev) => new Set(prev).add(chapterId));
+    setShowTOC(false);
+    setTimeout(() => {
+      const node = chapterRefs.current[chapterId];
+      if (node && scrollViewRef.current) {
+        node.measureLayout(
+          scrollViewRef.current as any,
+          (_x, y) => {
+            scrollViewRef.current?.scrollTo({ y: Math.max(y - 8, 0), animated: true });
+          },
+          () => {}
+        );
+      }
+    }, 450);
+  };
+
+  const allExpanded = !!law && law.chapters.length > 0 && law.chapters.every((c) => expandedChapters.has(c.id));
+  const toggleAllChapters = () => {
+    if (!law) return;
+    Haptics.selectionAsync().catch(() => {});
+    setExpandedChapters(allExpanded ? new Set() : new Set(law.chapters.map((c) => c.id)));
+  };
+
   const toggleChapter = (chapterId: string) => {
     const newExpanded = new Set(expandedChapters);
     if (newExpanded.has(chapterId)) {
@@ -191,6 +349,7 @@ export default function LawViewerScreen() {
     chapterId: string,
     sectionId: string
   ) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
     if (isBookmarked(sectionId)) {
       await removeBookmark(sectionId);
     } else {
@@ -259,20 +418,65 @@ export default function LawViewerScreen() {
             color: colors.ink,
           },
           headerTintColor: colors.greenPrimary,
-          headerRight: () =>
-            law?.chaptered === false ? null : (
+          headerRight: () => (
+            <View style={styles.headerButtons}>
               <TouchableOpacity
-                onPress={() => setShowTOC(true)}
-                style={styles.headerButton}
+                onPress={() => (findVisible ? closeFind() : setFindVisible(true))}
+                accessibilityRole="button"
+                accessibilityLabel="Sök i lagen"
               >
-                <Ionicons name="list-outline" size={24} color={colors.greenPrimary} />
+                <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-            ),
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            </View>
+          ),
         }}
       />
       
+      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
+
+      {findVisible && (
+        <View style={styles.findBar}>
+          <Ionicons name="search" size={18} color={colors.mutedText} />
+          <TextInput
+            style={styles.findInput}
+            value={findQuery}
+            onChangeText={(t) => {
+              setFindQuery(t);
+              setFindIndex(0);
+            }}
+            placeholder="Sök i lagen"
+            placeholderTextColor={colors.mutedTextAlt}
+            autoFocus
+            autoCorrect={false}
+            returnKeyType="search"
+            onSubmitEditing={() => stepMatch(1)}
+            accessibilityLabel="Sök i lagen"
+          />
+          <Text style={styles.findCount}>
+            {findMatches.length > 0
+              ? `${Math.min(findIndex, findMatches.length - 1) + 1}/${findMatches.length}`
+              : findQuery.trim().length >= 2
+              ? 'Inga träffar'
+              : ''}
+          </Text>
+          <TouchableOpacity onPress={() => stepMatch(-1)} accessibilityLabel="Föregående träff" hitSlop={8}>
+            <Ionicons name="chevron-up" size={22} color={colors.greenPrimary} />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => stepMatch(1)} accessibilityLabel="Nästa träff" hitSlop={8}>
+            <Ionicons name="chevron-down" size={22} color={colors.greenPrimary} />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={closeFind} accessibilityLabel="Stäng sökning" hitSlop={8}>
+            <Ionicons name="close" size={22} color={colors.mutedText} />
+          </TouchableOpacity>
+        </View>
+      )}
+
       <ScrollView
         ref={scrollViewRef}
+        onMomentumScrollEnd={(e) => saveReadingPosition(e.nativeEvent.contentOffset.y)}
+        onScrollEndDrag={(e) => saveReadingPosition(e.nativeEvent.contentOffset.y)}
+        keyboardShouldPersistTaps="handled"
         style={styles.container}
         contentContainerStyle={styles.content}
       >
@@ -290,11 +494,51 @@ export default function LawViewerScreen() {
           <View style={styles.metadata}>
             <Text style={styles.metadataText}>Ändrad: {law.lastAmended}</Text>
           </View>
+          {officialLawUrl && (
+            <View style={styles.metadata}>
+              <Text style={styles.metadataText}>Källa: </Text>
+              <TouchableOpacity
+                onPress={() => Linking.openURL(officialLawUrl).catch(() => {})}
+                hitSlop={{ top: 12, bottom: 12, left: 8, right: 8 }}
+                accessibilityRole="link"
+                accessibilityLabel="Öppna källan, rkrattsbaser.gov.se, i webbläsaren"
+              >
+                <Text style={styles.sourceLinkText}>rkrattsbaser.gov.se</Text>
+              </TouchableOpacity>
+            </View>
+          )}
         </View>
+
+        {law.chaptered !== false && law.chapters.length > 1 && (
+          <TouchableOpacity
+            style={styles.expandAllButton}
+            onPress={toggleAllChapters}
+            accessibilityRole="button"
+            accessibilityLabel={allExpanded ? 'Fäll ihop alla kapitel' : 'Fäll ut alla kapitel'}
+          >
+            <Ionicons
+              name={allExpanded ? 'contract-outline' : 'expand-outline'}
+              size={16}
+              color={colors.greenText}
+            />
+            <Text style={styles.expandAllText}>
+              {allExpanded ? 'Fäll ihop alla kapitel' : 'Fäll ut alla kapitel'}
+            </Text>
+          </TouchableOpacity>
+        )}
 
         {/* Chapters */}
         {law.chapters.map((chapter) => (
-          <View key={chapter.id} style={styles.chapterContainer}>
+          <View
+            key={chapter.id}
+            ref={(el) => {
+              chapterRefs.current[chapter.id] = el;
+            }}
+            style={styles.chapterContainer}
+            onLayout={(e) => {
+              chapterY.current[chapter.id] = e.nativeEvent.layout.y;
+            }}
+          >
             {law.chaptered !== false && (
             <TouchableOpacity
               style={styles.chapterHeader}
@@ -305,15 +549,20 @@ export default function LawViewerScreen() {
                 <Text style={styles.chapterTitle}>{chapter.title}</Text>
               </View>
               <Ionicons
-                name={expandedChapters.has(chapter.id) ? 'chevron-up' : 'chevron-down'}
+                name={expandedChapters.has(chapter.id) || matchChapterId === chapter.id ? 'chevron-up' : 'chevron-down'}
                 size={20}
                 color={colors.mutedText}
               />
             </TouchableOpacity>
             )}
 
-            {(law.chaptered === false || expandedChapters.has(chapter.id)) && (
-              <View style={styles.sectionsContainer}>
+            {(law.chaptered === false || expandedChapters.has(chapter.id) || matchChapterId === chapter.id) && (
+              <View
+                style={styles.sectionsContainer}
+                onLayout={(e) => {
+                  sectionsBlockY.current[chapter.id] = e.nativeEvent.layout.y;
+                }}
+              >
                 {chapter.sections.map((sectionItem) => {
                   const sectionNote = getNote(sectionItem.id);
                   const bookmarked = isBookmarked(sectionItem.id);
@@ -331,6 +580,14 @@ export default function LawViewerScreen() {
                       ref={(el) => {
                         sectionRefs.current[sectionItem.id] = el;
                       }}
+                      onLayout={(e) => {
+                        sectionY.current[sectionItem.id] = {
+                          chapterId: chapter.id,
+                          chapterNumber: chapter.number,
+                          number: sectionItem.number,
+                          y: e.nativeEvent.layout.y,
+                        };
+                      }}
                       style={[
                         styles.sectionContainer,
                         section === sectionItem.id && styles.highlightedSection,
@@ -345,6 +602,14 @@ export default function LawViewerScreen() {
                       <View style={styles.sectionHeader}>
                         <Text style={styles.sectionNumber}>{sectionLabel(sectionItem)}</Text>
                         <View style={styles.sectionActions}>
+                          <TouchableOpacity
+                            onPress={() => handleShareSection(chapter, sectionItem)}
+                            style={styles.actionButton}
+                            accessibilityRole="button"
+                            accessibilityLabel="Kopiera eller dela paragrafen"
+                          >
+                            <Ionicons name="share-outline" size={20} color={colors.mutedText} />
+                          </TouchableOpacity>
                           <TouchableOpacity
                             onPress={() => handleNotePress(sectionItem.id)}
                             style={styles.actionButton}
@@ -389,7 +654,9 @@ export default function LawViewerScreen() {
                           </Text>
                         </TouchableOpacity>
                       )}
-                      <Text style={styles.sectionText}>{sectionItem.text}</Text>
+                      <Text style={styles.sectionText}>
+                        {highlightFind(sectionItem.text, currentMatchId === sectionItem.id)}
+                      </Text>
                       
                       {sectionNote && (
                         <View style={styles.notePreview}>
@@ -484,10 +751,7 @@ export default function LawViewerScreen() {
               <TouchableOpacity
                 key={chapter.id}
                 style={styles.tocItem}
-                onPress={() => {
-                  toggleChapter(chapter.id);
-                  setShowTOC(false);
-                }}
+                onPress={() => jumpToChapter(chapter.id)}
               >
                 <Text style={styles.tocChapterNumber}>{chapter.label ? chapter.label.toUpperCase() : `${chapter.number}${chapter.numberSuffix ? ' ' + chapter.numberSuffix : ''} KAP.`}</Text>
                 <Text style={styles.tocChapterTitle}>{chapter.title}</Text>
@@ -562,6 +826,51 @@ const styles = StyleSheet.create({
   headerButton: {
     marginRight: spacing.md,
   },
+  headerButtons: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 16,
+    marginRight: spacing.md,
+  },
+  findBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    backgroundColor: colors.greenTint,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.greenTintBorder,
+  },
+  findInput: {
+    flex: 1,
+    fontSize: 16,
+    paddingVertical: 6,
+    color: colors.ink,
+  },
+  findCount: {
+    fontSize: 13,
+    color: colors.mutedText,
+  },
+  expandAllButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    alignSelf: 'flex-end',
+    paddingVertical: 6,
+    paddingHorizontal: 4,
+    marginBottom: 4,
+  },
+  expandAllText: {
+    fontSize: 14,
+    color: colors.greenText,
+  },
+  sourceLinkText: {
+    fontSize: 13,
+    fontFamily: typography.fontFamily.regular,
+    color: colors.greenText,
+    textDecorationLine: 'underline',
+  },
   lawHeader: {
     backgroundColor: colors.white,
     borderRadius: borderRadius.md,
@@ -633,6 +942,14 @@ const styles = StyleSheet.create({
     paddingBottom: spacing.md,
     borderBottomWidth: 1,
     borderBottomColor: colors.dividerLight,
+  },
+  findHighlight: {
+    backgroundColor: '#fff3b0',
+    color: colors.ink,
+  },
+  findHighlightCurrent: {
+    backgroundColor: '#ffd54a',
+    color: colors.ink,
   },
   highlightedSection: {
     backgroundColor: '#e8f4f0',
