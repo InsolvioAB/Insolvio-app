@@ -24,6 +24,7 @@ import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
+import AppearanceButton from '../../src/components/AppearanceButton';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
 
@@ -430,6 +431,7 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),

@@ -9,6 +9,7 @@ import { activeNewsItems, updatedLawIds } from '../../src/content/newsContent';
 import { LAW_CATEGORIES, lawCategoriesById, type LawCategory } from '../../src/data/lawCategories';
 import PageHeader from '../../src/components/PageHeader';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
+import AppearanceButton from '../../src/components/AppearanceButton';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
@@ -66,7 +67,12 @@ export default function HomeScreen() {
       <PageHeader
         title="Lagar"
         subtitle="Svensk lagsamling för insolvensrätt"
-        right={<TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />}
+        right={
+          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <AppearanceButton />
+            <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+          </View>
+        }
       />
       {showTextSize && (
         <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />

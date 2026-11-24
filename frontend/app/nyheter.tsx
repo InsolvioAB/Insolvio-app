@@ -3,6 +3,7 @@ import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { Text } from '../src/components/AppText';
 import { useRouter, Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
+import AppearanceButton from '../src/components/AppearanceButton';
 import EmptyState from '../src/components/EmptyState';
 import { activeNewsItems } from '../src/content/newsContent';
 import { getAmendmentByNewsId } from '../src/content/lawAmendments';
@@ -24,6 +25,7 @@ export default function NyheterScreen() {
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),

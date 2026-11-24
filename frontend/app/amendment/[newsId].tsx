@@ -6,6 +6,7 @@ import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
 import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
+import AppearanceButton from '../../src/components/AppearanceButton';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
 
@@ -52,6 +53,7 @@ export default function AmendmentScreen() {
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),

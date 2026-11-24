@@ -8,7 +8,6 @@ import {
 } from '../contexts/TextSizeContext';
 import { typography, borderRadius, spacing, ThemeColors } from '../theme/theme';
 import { useTheme } from '../theme/useTheme';
-import { ThemeMode, THEME_MODE_LABEL } from '../contexts/ThemeContext';
 
 // Aa-knappen och dess val av textstorlek (Liten / Normal / Stor).
 // Används på Hem och på lagskärmen. Båda delar samma sparade inställning.
@@ -96,35 +95,6 @@ type PopoverProps = {
   top?: number;
 };
 
-function ThemeModeChoices({ onChosen }: ChoicesProps) {
-  const { colors, mode, setMode } = useTheme();
-  const styles = useMemo(() => makeStyles(colors), [colors]);
-  return (
-    <View style={styles.row}>
-      {(['auto', 'light', 'dark'] as ThemeMode[]).map((m) => {
-        const selected = mode === m;
-        return (
-          <TouchableOpacity
-            key={m}
-            style={[styles.button, selected && styles.buttonSelected]}
-            onPress={() => {
-              setMode(m);
-              onChosen?.();
-            }}
-            accessibilityRole="button"
-            accessibilityState={{ selected }}
-            accessibilityLabel={`Utseende ${THEME_MODE_LABEL[m]}`}
-          >
-            <RNText style={[styles.buttonText, selected && styles.buttonTextSelected, { fontSize: 15 }]}>
-              {THEME_MODE_LABEL[m]}
-            </RNText>
-          </TouchableOpacity>
-        );
-      })}
-    </View>
-  );
-}
-
 export function TextSizePopover({ onClose, top = 8 }: PopoverProps) {
   const { colors } = useTheme();
   const styles = useMemo(() => makeStyles(colors), [colors]);
@@ -139,8 +109,6 @@ export function TextSizePopover({ onClose, top = 8 }: PopoverProps) {
       <View style={[styles.popover, { top }]}>
         <RNText style={styles.label}>TEXTSTORLEK</RNText>
         <TextSizeChoices onChosen={onClose} />
-        <RNText style={[styles.label, styles.labelSpaced]}>UTSEENDE</RNText>
-        <ThemeModeChoices onChosen={onClose} />
       </View>
     </>
   );
@@ -192,9 +160,6 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
     fontFamily: typography.fontFamily.bold,
     fontWeight: '700',
     color: colors.mutedText,
-  },
-  labelSpaced: {
-    marginTop: 4,
   },
   row: {
     flexDirection: 'row',

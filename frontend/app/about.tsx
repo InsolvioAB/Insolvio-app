@@ -4,6 +4,7 @@ import { Text } from '../src/components/AppText';
 import { homeContent } from '../src/content/homeContent';
 import { Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
+import AppearanceButton from '../src/components/AppearanceButton';
 import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../src/theme/theme';
 import { useTheme } from '../src/theme/useTheme';
 
@@ -20,6 +21,7 @@ export default function AboutScreen() {
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),

@@ -16,6 +16,7 @@ import { formatSaved } from '../../src/utils/formatSaved';
 import { activeNewsItems } from '../../src/content/newsContent';
 import PageHeader from '../../src/components/PageHeader';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
+import AppearanceButton from '../../src/components/AppearanceButton';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
@@ -108,6 +109,7 @@ export default function HomeScreen() {
         title="Hem"
         right={
           <View style={styles.headerActions}>
+            <AppearanceButton />
             <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             <TouchableOpacity
               style={styles.infoButton}
