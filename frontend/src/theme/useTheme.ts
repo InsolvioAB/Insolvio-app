@@ -1,12 +1,20 @@
 import { useColorScheme } from 'react-native';
 import { lightColors, darkColors, ThemeColors } from './theme';
+import { useThemeMode, ThemeMode } from '../contexts/ThemeContext';
 
 /**
- * Ger färgerna för mobilens aktuella läge (ljust/mörkt).
- * Uppdateras direkt om användaren byter läge medan appen är öppen.
+ * Ger färgerna för aktuellt utseende. Valet Auto följer mobilens
+ * ljust/mörkt-inställning (och uppdateras direkt om den ändras medan appen
+ * är öppen); Ljust och Mörkt är användarens eget val.
  */
-export function useTheme(): { colors: ThemeColors; isDark: boolean } {
+export function useTheme(): {
+  colors: ThemeColors;
+  isDark: boolean;
+  mode: ThemeMode;
+  setMode: (mode: ThemeMode) => Promise<void>;
+} {
   const scheme = useColorScheme();
-  const isDark = scheme === 'dark';
-  return { colors: isDark ? darkColors : lightColors, isDark };
+  const { mode, setMode } = useThemeMode();
+  const isDark = mode === 'auto' ? scheme === 'dark' : mode === 'dark';
+  return { colors: isDark ? darkColors : lightColors, isDark, mode, setMode };
 }

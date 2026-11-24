@@ -10,8 +10,17 @@ import { RecentlyViewedProvider } from '../src/contexts/RecentlyViewedContext';
 import { TextSizeProvider } from '../src/contexts/TextSizeContext';
 import { StatusBar } from 'expo-status-bar';
 import { useTheme } from '../src/theme/useTheme';
+import { ThemeProvider } from '../src/contexts/ThemeContext';
 
 export default function RootLayout() {
+  return (
+    <ThemeProvider>
+      <AppShell />
+    </ThemeProvider>
+  );
+}
+
+function AppShell() {
   const { colors, isDark } = useTheme();
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
