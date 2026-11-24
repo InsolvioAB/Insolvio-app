@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
-  Text,
   ScrollView,
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import { useRouter } from 'expo-router';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts, sectionLabel, chapterSectionLabel, lawCitation } from '../../src/data/legalTexts';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
@@ -15,6 +15,7 @@ import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { formatSaved } from '../../src/utils/formatSaved';
 import { activeNewsItems } from '../../src/content/newsContent';
 import PageHeader from '../../src/components/PageHeader';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
@@ -64,6 +65,8 @@ function formatEntryPlace(
 
 export default function HomeScreen() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const [showTextSize, setShowTextSize] = useState(false);
   const { recentlyViewed } = useRecentlyViewed();
   const { bookmarks } = useBookmarks();
   // Senast visade: 3 rader som standard, "Visa alla" visar resten (EJU-193)
@@ -101,15 +104,21 @@ export default function HomeScreen() {
       <PageHeader
         title="Hem"
         right={
-          <TouchableOpacity
-            style={styles.infoButton}
-            onPress={() => router.push('/about')}
-            accessibilityLabel="Om Insolvio"
-          >
-            <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
-          </TouchableOpacity>
+          <View style={styles.headerActions}>
+            <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            <TouchableOpacity
+              style={styles.infoButton}
+              onPress={() => router.push('/about')}
+              accessibilityLabel="Om Insolvio"
+            >
+              <Ionicons name="information-circle-outline" size={24} color={colors.ink} />
+            </TouchableOpacity>
+          </View>
         }
       />
+      {showTextSize && (
+        <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
+      )}
 
       <ScrollView
         style={styles.content}
@@ -294,6 +303,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
+  },
+  headerActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
   },
   infoButton: {
     width: 36,

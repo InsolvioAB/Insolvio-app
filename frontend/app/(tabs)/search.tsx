@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   TextInput,
   SectionList,
@@ -12,12 +11,14 @@ import {
   ScrollView,
   Platform,
 } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { legalTexts, sectionLabel } from '../../src/data/legalTexts';
 import PageHeader from '../../src/components/PageHeader';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
 
@@ -152,6 +153,8 @@ export default function SearchScreen() {
     setFullyShownLawIds(new Set());
   }
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const [showTextSize, setShowTextSize] = useState(false);
 
   // "Sök i": null = alla lagar
   const [searchFocused, setSearchFocused] = useState(false);
@@ -375,7 +378,13 @@ export default function SearchScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      <PageHeader title="Sök" />
+      <PageHeader
+        title="Sök"
+        right={<TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />}
+      />
+      {showTextSize && (
+        <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
+      )}
       <View style={styles.searchContainer}>
         <View style={[styles.searchRing, searchFocused && styles.searchRingFocused]}>
         <Pressable

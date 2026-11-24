@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   SectionList,
   TouchableOpacity,
@@ -11,7 +10,8 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { Text } from '../../src/components/AppText';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
@@ -20,6 +20,7 @@ import { useNotes } from '../../src/contexts/NotesContext';
 import { legalTexts, sectionLabel, chapterSectionLabel } from '../../src/data/legalTexts';
 import { formatSaved } from '../../src/utils/formatSaved';
 import PageHeader from '../../src/components/PageHeader';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
 
@@ -45,6 +46,8 @@ export default function BookmarksScreen() {
   const { bookmarks, addBookmark, removeBookmark } = useBookmarks();
   const { addNote, updateNote, deleteNote, getNote } = useNotes();
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const [showTextSize, setShowTextSize] = useState(false);
 
   // Ångra efter borttagning
   const [undoBookmark, setUndoBookmark] = useState<BookmarkItem | null>(null);
@@ -221,7 +224,13 @@ export default function BookmarksScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      <PageHeader title="Bokmärken" />
+      <PageHeader
+        title="Bokmärken"
+        right={<TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />}
+      />
+      {showTextSize && (
+        <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
+      )}
       <SectionList
         sections={groups}
         keyExtractor={(item) => item.sectionId}

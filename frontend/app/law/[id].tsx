@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   ScrollView,
   TouchableOpacity,
@@ -14,6 +13,7 @@ import {
   Linking,
   Pressable,
 } from 'react-native';
+import { Text } from '../../src/components/AppText';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -23,7 +23,7 @@ import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
-import { useTextSize, TEXT_SIZE_LABEL, TEXT_SIZE_SCALE, TextSize } from '../../src/contexts/TextSizeContext';
+import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
 
 export default function LawViewerScreen() {
@@ -37,10 +37,8 @@ export default function LawViewerScreen() {
   const sectionsBlockY = useRef<Record<string, number>>({});
   const sectionY = useRef<Record<string, { chapterId: string; chapterNumber: number; number: number; y: number }>>({});
   const lastSavedSection = useRef<string | null>(null);
-  const { textSize, scale: textScale, setTextSize } = useTextSize();
   const [showTextSize, setShowTextSize] = useState(false);
-  const textScaleStyle = { fontSize: 15 * textScale, lineHeight: 24 * textScale };
-  
+    
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
   const [showTransitional, setShowTransitional] = useState(false);
@@ -407,9 +405,6 @@ export default function LawViewerScreen() {
     );
   };
 
-  // Aa visas bara när lagtext syns (något kapitel är öppet, träff i sökning, eller lag utan kapitel)
-  const lawTextVisible = law?.chaptered === false || expandedChapters.size > 0 || !!matchChapterId;
-
   return (
     <>
       <Stack.Screen
@@ -432,67 +427,13 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-              {lawTextVisible && (
-                <TouchableOpacity
-                  onPress={() => setShowTextSize((v) => !v)}
-                  hitSlop={{ top: 10, bottom: 10, left: 6, right: 6 }}
-                  accessibilityRole="button"
-                  accessibilityLabel="Textstorlek"
-                  accessibilityState={{ expanded: showTextSize }}
-                >
-                  <View style={styles.aaGlyph}>
-                    <Text style={styles.aaSmall}>A</Text>
-                    <Text style={styles.aaLarge}>a</Text>
-                  </View>
-                </TouchableOpacity>
-              )}
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),
         }}
       />
       
-      {showTextSize && lawTextVisible && (
-        <>
-          <Pressable
-            style={StyleSheet.absoluteFill}
-            onPress={() => setShowTextSize(false)}
-            accessibilityRole="button"
-            accessibilityLabel="Stäng textstorlek"
-          />
-          <View style={styles.textSizePopover}>
-            <Text style={styles.textSizeLabel}>TEXTSTORLEK</Text>
-            <View style={styles.textSizeRow}>
-              {(['small', 'normal', 'large'] as TextSize[]).map((size) => {
-                const selected = textSize === size;
-                return (
-                  <TouchableOpacity
-                    key={size}
-                    style={[styles.textSizeButton, selected && styles.textSizeButtonSelected]}
-                    onPress={() => {
-                      setTextSize(size);
-                      setShowTextSize(false);
-                    }}
-                    accessibilityRole="button"
-                    accessibilityState={{ selected }}
-                    accessibilityLabel={`Textstorlek ${TEXT_SIZE_LABEL[size]}`}
-                  >
-                    <Text
-                      style={[
-                        styles.textSizeButtonText,
-                        selected && styles.textSizeButtonTextSelected,
-                        { fontSize: 15 * TEXT_SIZE_SCALE[size] },
-                      ]}
-                    >
-                      {TEXT_SIZE_LABEL[size]}
-                    </Text>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-            <Text style={styles.textSizeNote}>Ändrar bara lagtexten. Sparas på din telefon.</Text>
-          </View>
-        </>
-      )}
+      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
 
       {findVisible && (
         <View style={styles.findBar}>
@@ -713,7 +654,7 @@ export default function LawViewerScreen() {
                           </Text>
                         </TouchableOpacity>
                       )}
-                      <Text style={[styles.sectionText, textScaleStyle]}>
+                      <Text style={styles.sectionText}>
                         {highlightFind(sectionItem.text, currentMatchId === sectionItem.id)}
                       </Text>
                       
@@ -782,7 +723,7 @@ export default function LawViewerScreen() {
                 {law.transitional.map((t) => (
                   <View key={t.sfs} style={styles.sectionContainer}>
                     <Text style={styles.sectionNumber}>SFS {t.sfs}</Text>
-                    <Text style={[styles.sectionText, textScaleStyle]}>{t.text}</Text>
+                    <Text style={styles.sectionText}>{t.text}</Text>
                   </View>
                 ))}
               </View>
@@ -929,79 +870,6 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.regular,
     color: colors.greenText,
     textDecorationLine: 'underline',
-  },
-  aaGlyph: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-  },
-  aaSmall: {
-    fontSize: 14,
-    fontFamily: typography.fontFamily.bold,
-    fontWeight: '700',
-    color: colors.greenPrimary,
-  },
-  aaLarge: {
-    fontSize: 22,
-    fontFamily: typography.fontFamily.bold,
-    fontWeight: '700',
-    color: colors.greenPrimary,
-  },
-  textSizePopover: {
-    position: 'absolute',
-    top: 8,
-    right: 12,
-    width: 252,
-    padding: 14,
-    gap: 10,
-    backgroundColor: colors.white,
-    borderWidth: 1,
-    borderColor: colors.greenTintBorder,
-    borderRadius: borderRadius.md,
-    shadowColor: '#000',
-    shadowOpacity: 0.16,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: 4 },
-    elevation: 8,
-    zIndex: 10,
-  },
-  textSizeLabel: {
-    fontSize: 11,
-    letterSpacing: 0.8,
-    fontFamily: typography.fontFamily.bold,
-    fontWeight: '700',
-    color: colors.mutedText,
-  },
-  textSizeRow: {
-    flexDirection: 'row',
-    borderWidth: 1,
-    borderColor: colors.greenTintBorder,
-    borderRadius: borderRadius.md,
-    overflow: 'hidden',
-  },
-  textSizeButton: {
-    flex: 1,
-    minHeight: 44,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.greenTint,
-  },
-  textSizeButtonSelected: {
-    backgroundColor: colors.greenPrimary,
-  },
-  textSizeButtonText: {
-    fontFamily: typography.fontFamily.regular,
-    color: colors.greenText,
-  },
-  textSizeButtonTextSelected: {
-    fontFamily: typography.fontFamily.bold,
-    fontWeight: '700',
-    color: colors.greenPrimaryForeground,
-  },
-  textSizeNote: {
-    fontSize: 12,
-    lineHeight: 18,
-    fontFamily: typography.fontFamily.regular,
-    color: colors.mutedText,
   },
   lawHeader: {
     backgroundColor: colors.white,
