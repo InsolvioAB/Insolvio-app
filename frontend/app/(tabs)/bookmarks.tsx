@@ -20,6 +20,7 @@ import { useNotes } from '../../src/contexts/NotesContext';
 import { legalTexts, sectionLabel, chapterSectionLabel } from '../../src/data/legalTexts';
 import { formatSaved } from '../../src/utils/formatSaved';
 import PageHeader from '../../src/components/PageHeader';
+import EmptyState from '../../src/components/EmptyState';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../../src/theme/theme';
@@ -231,6 +232,15 @@ export default function BookmarksScreen() {
       {showTextSize && (
         <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
       )}
+      {total === 0 ? (
+        <EmptyState
+          icon="bookmark-outline"
+          title="Inga bokmärken ännu"
+          text="Tryck på bokmärket vid en paragraf för att spara den. Då hittar du den snabbt här."
+          buttonLabel="Gå till Lagar"
+          onPress={() => router.navigate('/laws')}
+        />
+      ) : (
       <SectionList
         sections={groups}
         keyExtractor={(item) => item.sectionId}
@@ -250,6 +260,7 @@ export default function BookmarksScreen() {
         showsVerticalScrollIndicator={false}
         ListFooterComponent={total <= HELP_BOX_MAX_BOOKMARKS ? helpBox : null}
       />
+      )}
 
       {undoBookmark && (
         <View style={styles.snackbar}>
