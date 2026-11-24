@@ -3,7 +3,8 @@ import { View, Text, StyleSheet } from 'react-native';
 import { Tabs } from 'expo-router';
 import { PlatformPressable } from 'expo-router/react-navigation';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
-import { colors, typography } from '../../src/theme/theme';
+import { typography } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 import { HomeIcon, BookIcon, SearchIcon, BookmarkIcon } from '../../src/components/TabIcons';
 
 // Ikonerna ska ligga högre upp i flikraden, som i Sofies design (bild 1)
@@ -13,11 +14,12 @@ const TAB_BAR_ICON_OFFSET = 4;
 // aktiv flik inte bara visas med färg (EJU-193).
 // (props typad som any: pressColor-typen skiljer sig mellan expo-router och react-navigation)
 function TabButton(props: any) {
+  const { colors } = useTheme();
   // React Navigation skickar aria-selected (äldre versioner: accessibilityState)
   const selected = props['aria-selected'] ?? props.accessibilityState?.selected;
   return (
     <PlatformPressable {...props}>
-      {selected ? <View style={styles.indicator} /> : null}
+      {selected ? <View style={[styles.indicator, { backgroundColor: colors.greenAction }]} /> : null}
       {props.children}
     </PlatformPressable>
   );
@@ -25,6 +27,7 @@ function TabButton(props: any) {
 
 export default function TabLayout() {
   const { bookmarks } = useBookmarks();
+  const { colors } = useTheme();
 
   return (
     <Tabs
@@ -35,7 +38,7 @@ export default function TabLayout() {
         tabBarButton: (props) => <TabButton {...props} />,
         tabBarBadgeStyle: {
           backgroundColor: colors.greenAction,
-          color: colors.white,
+          color: colors.onAction,
           fontFamily: typography.fontFamily.bold,
           fontWeight: '700',
           fontSize: 12,
@@ -122,6 +125,5 @@ const styles = StyleSheet.create({
     width: 40,
     height: 2,
     borderRadius: 1,
-    backgroundColor: colors.greenAction,
   },
 });
