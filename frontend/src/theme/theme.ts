@@ -58,6 +58,20 @@ export const lightColors = {
   // Semantiska färger som byter värde i mörkt läge (EJU-248)
   surface: '#ffffff',        // Kortyta (kort, popover, modal)
   onAction: '#ffffff',       // Text/ikon ovanpå greenAction (vit på ljust, mörk på mörkt)
+
+  // Färgade ytor som tidigare var hårdkodade i skärmarna (EJU-248)
+  newsBannerBg: '#e4efe9',
+  newsBannerBorder: '#cfe3d9',
+  greenWash: '#e8f4f0',
+  updatedBadgeBg: '#d8f0e6',
+  findHighlight: '#fff3b0',
+  findHighlightCurrent: '#ffd54a',
+  pillBg: '#e3f1ea',
+  pillBorder: '#bfdccd',
+  noteBg: '#fef3c7',
+  noteText: '#92400e',
+  dangerBg: '#fee2e2',
+  dangerText: '#ef4444',
 };
 
 export type ThemeColors = typeof lightColors;
@@ -104,6 +118,19 @@ export const darkColors: ThemeColors = {
 
   surface: '#1a1a1a',
   onAction: '#1e2723',
+
+  newsBannerBg: '#1f3228',
+  newsBannerBorder: '#2f4a3b',
+  greenWash: '#1d2a24',
+  updatedBadgeBg: '#27402f',
+  findHighlight: '#5c4d12',
+  findHighlightCurrent: '#7a5f00',
+  pillBg: '#1f3228',
+  pillBorder: '#335443',
+  noteBg: '#2e2610',
+  noteText: '#f0c674',
+  dangerBg: '#3a1c1c',
+  dangerText: '#f87171',
 };
 
 // Ljust tema. Skärmar som inte har gjorts om till useTheme() än använder

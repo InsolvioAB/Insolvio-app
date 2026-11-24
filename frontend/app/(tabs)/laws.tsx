@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, StyleSheet, FlatList, TouchableOpacity, ScrollView } from 'react-native';
 import { Text } from '../../src/components/AppText';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -10,7 +10,8 @@ import { LAW_CATEGORIES, lawCategoriesById, type LawCategory } from '../../src/d
 import PageHeader from '../../src/components/PageHeader';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
-import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 // "17 kap." för lagar med kapitel, "70 §§" för lagar utan (t.ex. LAS)
 function lawSize(law: typeof legalTexts[0]): string {
@@ -24,6 +25,8 @@ function lawSize(law: typeof legalTexts[0]): string {
 }
 
 export default function HomeScreen() {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const [showTextSize, setShowTextSize] = React.useState(false);
@@ -104,7 +107,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -121,7 +124,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 10,
     borderRadius: borderRadius.sm,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderWidth: 1,
     borderColor: colors.dividerLight,
   },
@@ -136,7 +139,7 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   chipTextSelected: {
-    color: colors.white,
+    color: colors.onAction,
   },
   list: {
     flex: 1,
@@ -171,7 +174,7 @@ const styles = StyleSheet.create({
     color: colors.greenText,
   },
   lawCard: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     marginBottom: spacing.md,
@@ -205,7 +208,7 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   updatedBadge: {
-    backgroundColor: '#d8f0e6',
+    backgroundColor: colors.updatedBadgeBg,
     borderRadius: borderRadius.sm,
     paddingHorizontal: spacing.sm,
     paddingVertical: 2,

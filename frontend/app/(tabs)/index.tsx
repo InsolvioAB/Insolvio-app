@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   View,
   ScrollView,
@@ -17,7 +17,8 @@ import { activeNewsItems } from '../../src/content/newsContent';
 import PageHeader from '../../src/components/PageHeader';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import { getShortLawName } from '../../src/data/lawShortNames';
-import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 function formatRelativeTime(timestamp: number): string {
   const diffMs = Date.now() - timestamp;
@@ -64,6 +65,8 @@ function formatEntryPlace(
 }
 
 export default function HomeScreen() {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const [showTextSize, setShowTextSize] = useState(false);
@@ -299,7 +302,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -329,7 +332,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.sm,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.lg,
     paddingHorizontal: spacing.md,
     paddingVertical: 14,
@@ -363,7 +366,7 @@ const styles = StyleSheet.create({
   },
   logoBadgeText: {
     ...createHeadingStyle(28),
-    color: colors.white,
+    color: colors.onAction,
   },
   emptyTitle: {
     ...createHeadingStyle(20),
@@ -421,9 +424,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.md,
-    backgroundColor: '#e4efe9',
+    backgroundColor: colors.newsBannerBg,
     borderWidth: 1,
-    borderColor: '#cfe3d9',
+    borderColor: colors.newsBannerBorder,
     borderRadius: borderRadius.md,
     padding: spacing.md,
   },
@@ -449,7 +452,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.md,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     borderWidth: 1,
@@ -464,7 +467,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: borderRadius.md,
-    backgroundColor: '#e8f4f0',
+    backgroundColor: colors.greenWash,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -485,7 +488,7 @@ const styles = StyleSheet.create({
   },
   bookmarksCard: {
     gap: spacing.sm,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderWidth: 1,
     borderColor: colors.dividerLight,
     borderRadius: borderRadius.md,

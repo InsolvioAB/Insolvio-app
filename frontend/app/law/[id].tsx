@@ -24,9 +24,12 @@ import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
-import { colors, typography, spacing, borderRadius, createHeadingStyle, createLabelStyle } from '../../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
+import { useTheme } from '../../src/theme/useTheme';
 
 export default function LawViewerScreen() {
+  const { colors, isDark } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const { id, section } = useLocalSearchParams<{ id: string; section?: string }>();
   const router = useRouter();
   const scrollViewRef = useRef<ScrollView>(null);
@@ -439,6 +442,7 @@ export default function LawViewerScreen() {
         <View style={styles.findBar}>
           <Ionicons name="search" size={18} color={colors.mutedText} />
           <TextInput
+            keyboardAppearance={isDark ? 'dark' : 'light'}
             style={styles.findInput}
             value={findQuery}
             onChangeText={(t) => {
@@ -781,6 +785,7 @@ export default function LawViewerScreen() {
             </View>
             
             <TextInput
+            keyboardAppearance={isDark ? 'dark' : 'light'}
               style={styles.noteInput}
               value={noteText}
               onChangeText={setNoteText}
@@ -796,7 +801,7 @@ export default function LawViewerScreen() {
                   style={[styles.noteButton, styles.deleteButton]}
                   onPress={handleDeleteNote}
                 >
-                  <Ionicons name="trash-outline" size={20} color="#ef4444" />
+                  <Ionicons name="trash-outline" size={20} color={colors.dangerText} />
                   <Text style={styles.deleteButtonText}>Ta bort</Text>
                 </TouchableOpacity>
               )}
@@ -804,7 +809,7 @@ export default function LawViewerScreen() {
                 style={[styles.noteButton, styles.saveButton]}
                 onPress={handleSaveNote}
               >
-                <Ionicons name="checkmark" size={20} color={colors.white} />
+                <Ionicons name="checkmark" size={20} color={colors.onAction} />
                 <Text style={styles.saveButtonText}>Spara</Text>
               </TouchableOpacity>
             </View>
@@ -815,7 +820,7 @@ export default function LawViewerScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -872,7 +877,7 @@ const styles = StyleSheet.create({
     textDecorationLine: 'underline',
   },
   lawHeader: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: 20,
     marginBottom: spacing.md,
@@ -901,7 +906,7 @@ const styles = StyleSheet.create({
     color: colors.mutedText,
   },
   chapterContainer: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     marginBottom: spacing.md,
     shadowColor: '#000',
@@ -944,15 +949,15 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.dividerLight,
   },
   findHighlight: {
-    backgroundColor: '#fff3b0',
+    backgroundColor: colors.findHighlight,
     color: colors.ink,
   },
   findHighlightCurrent: {
-    backgroundColor: '#ffd54a',
+    backgroundColor: colors.findHighlightCurrent,
     color: colors.ink,
   },
   highlightedSection: {
-    backgroundColor: '#e8f4f0',
+    backgroundColor: colors.greenWash,
     marginHorizontal: -spacing.md,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.md,
@@ -981,9 +986,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     alignSelf: 'flex-start',
     gap: 6,
-    backgroundColor: '#e3f1ea',
+    backgroundColor: colors.pillBg,
     borderWidth: 1,
-    borderColor: '#bfdccd',
+    borderColor: colors.pillBorder,
     borderRadius: 999,
     paddingVertical: 4,
     paddingHorizontal: 10,
@@ -1017,7 +1022,7 @@ const styles = StyleSheet.create({
   notePreview: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    backgroundColor: '#fef3c7',
+    backgroundColor: colors.noteBg,
     padding: spacing.md,
     borderRadius: borderRadius.sm,
     marginTop: spacing.md,
@@ -1027,7 +1032,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 13,
     fontFamily: typography.fontFamily.regular,
-    color: '#92400e',
+    color: colors.noteText,
     lineHeight: 18,
   },
   referencesContainer: {
@@ -1061,7 +1066,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 20,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderBottomWidth: 1,
     borderBottomColor: colors.dividerLight,
   },
@@ -1074,7 +1079,7 @@ const styles = StyleSheet.create({
   },
   tocItem: {
     padding: spacing.md,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     marginHorizontal: spacing.md,
     marginTop: spacing.md,
     borderRadius: borderRadius.sm,
@@ -1098,7 +1103,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   noteModalContainer: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingTop: 20,
@@ -1140,12 +1145,12 @@ const styles = StyleSheet.create({
     gap: spacing.sm,
   },
   deleteButton: {
-    backgroundColor: '#fee2e2',
+    backgroundColor: colors.dangerBg,
   },
   deleteButtonText: {
     fontSize: 15,
     fontFamily: typography.fontFamily.semiBold,
-    color: '#ef4444',
+    color: colors.dangerText,
   },
   saveButton: {
     backgroundColor: colors.greenPrimary,

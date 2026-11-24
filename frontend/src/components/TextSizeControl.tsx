@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, StyleSheet, TouchableOpacity, Pressable, Text as RNText } from 'react-native';
 import {
   useTextSize,
@@ -6,7 +6,8 @@ import {
   TEXT_SIZE_SCALE,
   TextSize,
 } from '../contexts/TextSizeContext';
-import { colors, typography, borderRadius, spacing } from '../theme/theme';
+import { typography, borderRadius, spacing, ThemeColors } from '../theme/theme';
+import { useTheme } from '../theme/useTheme';
 
 // Aa-knappen och dess val av textstorlek (Liten / Normal / Stor).
 // Används på Hem och på lagskärmen. Båda delar samma sparade inställning.
@@ -18,6 +19,8 @@ type ButtonProps = {
 };
 
 export function TextSizeButton({ onPress, expanded }: ButtonProps) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   return (
     <TouchableOpacity
       onPress={onPress}
@@ -36,6 +39,8 @@ export function TextSizeButton({ onPress, expanded }: ButtonProps) {
 
 /** Liten rad med Aa-knappen längst till höger, för skärmar utan egen knapp i toppfältet. */
 export function TextSizeRow({ onPress, expanded }: ButtonProps) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   return (
     <View style={styles.aaRow}>
       <TextSizeButton onPress={onPress} expanded={expanded} />
@@ -49,6 +54,8 @@ type ChoicesProps = {
 };
 
 export function TextSizeChoices({ onChosen }: ChoicesProps) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const { textSize, setTextSize } = useTextSize();
   return (
     <View style={styles.row}>
@@ -89,6 +96,8 @@ type PopoverProps = {
 };
 
 export function TextSizePopover({ onClose, top = 8 }: PopoverProps) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   return (
     <>
       <Pressable
@@ -105,7 +114,7 @@ export function TextSizePopover({ onClose, top = 8 }: PopoverProps) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   aaRow: {
     alignItems: 'flex-end',
     paddingHorizontal: spacing.md,
@@ -134,7 +143,7 @@ const styles = StyleSheet.create({
     width: 252,
     padding: 14,
     gap: 10,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderWidth: 1,
     borderColor: colors.greenTintBorder,
     borderRadius: borderRadius.md,
