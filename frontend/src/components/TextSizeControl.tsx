@@ -100,7 +100,6 @@ export function TextSizePopover({ onClose, top = 8 }: PopoverProps) {
       <View style={[styles.popover, { top }]}>
         <RNText style={styles.label}>TEXTSTORLEK</RNText>
         <TextSizeChoices onChosen={onClose} />
-        <RNText style={styles.note}>Ändrar texten i hela appen. Sparas på din telefon.</RNText>
       </View>
     </>
   );
@@ -178,11 +177,5 @@ const styles = StyleSheet.create({
     fontFamily: typography.fontFamily.bold,
     fontWeight: '700',
     color: colors.greenPrimaryForeground,
-  },
-  note: {
-    fontSize: 12,
-    lineHeight: 18,
-    fontFamily: typography.fontFamily.regular,
-    color: colors.mutedText,
   },
 });
