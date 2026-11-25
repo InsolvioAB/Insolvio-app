@@ -7,6 +7,7 @@ import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '.
 import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import AppearanceButton from '../../src/components/AppearanceButton';
+import HeaderTitle from '../../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
 
@@ -50,6 +51,7 @@ export default function AmendmentScreen() {
           title: 'Jämför ändring',
           headerStyle: { backgroundColor: colors.cream },
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>

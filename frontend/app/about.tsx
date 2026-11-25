@@ -5,6 +5,7 @@ import { homeContent } from '../src/content/homeContent';
 import { Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
 import AppearanceButton from '../src/components/AppearanceButton';
+import HeaderTitle from '../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../src/theme/theme';
 import { useTheme } from '../src/theme/useTheme';
 
@@ -18,6 +19,7 @@ export default function AboutScreen() {
         options={{
           headerStyle: { backgroundColor: colors.cream },
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>

@@ -25,6 +25,7 @@ import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
 import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
 import AppearanceButton from '../../src/components/AppearanceButton';
+import HeaderTitle from '../../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
 
@@ -421,6 +422,7 @@ export default function LawViewerScreen() {
             fontFamily: typography.fontFamily.bold,
             color: colors.ink,
           },
+          headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={styles.headerButtons}>
@@ -431,8 +433,10 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-              <AppearanceButton />
-              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+              <View style={styles.headerIconGroup}>
+                <AppearanceButton />
+                <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+              </View>
             </View>
           ),
         }}
@@ -838,6 +842,10 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
     alignItems: 'center',
     gap: 16,
     marginRight: spacing.md,
+  },
+  headerIconGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   findBar: {
     flexDirection: 'row',
