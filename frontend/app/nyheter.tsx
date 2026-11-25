@@ -1,14 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { Text } from '../src/components/AppText';
 import { useRouter, Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
+import AppearanceButton from '../src/components/AppearanceButton';
 import EmptyState from '../src/components/EmptyState';
 import { activeNewsItems } from '../src/content/newsContent';
 import { getAmendmentByNewsId } from '../src/content/lawAmendments';
-import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
+import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../src/theme/theme';
+import { useTheme } from '../src/theme/useTheme';
 
 export default function NyheterScreen() {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const router = useRouter();
   const [showTextSize, setShowTextSize] = useState(false);
 
@@ -21,6 +25,7 @@ export default function NyheterScreen() {
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),
@@ -80,7 +85,7 @@ export default function NyheterScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -98,7 +103,7 @@ const styles = StyleSheet.create({
     color: colors.mutedText,
   },
   card: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: spacing.md,
     gap: spacing.xs,
@@ -116,7 +121,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   badge: {
-    backgroundColor: '#d8f0e6',
+    backgroundColor: colors.updatedBadgeBg,
     borderRadius: borderRadius.sm,
     paddingHorizontal: spacing.sm,
     paddingVertical: 3,

@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
 import { Text } from '../src/components/AppText';
 import { homeContent } from '../src/content/homeContent';
 import { Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
-import { colors, typography, spacing, borderRadius, createHeadingStyle } from '../src/theme/theme';
+import AppearanceButton from '../src/components/AppearanceButton';
+import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../src/theme/theme';
+import { useTheme } from '../src/theme/useTheme';
 
 export default function AboutScreen() {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   const [showTextSize, setShowTextSize] = useState(false);
   return (
     <View style={styles.container}>
@@ -17,6 +21,7 @@ export default function AboutScreen() {
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
+              <AppearanceButton />
               <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
             </View>
           ),
@@ -38,7 +43,7 @@ export default function AboutScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.cream,
@@ -51,7 +56,7 @@ const styles = StyleSheet.create({
     gap: spacing.md,
   },
   infoSection: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderRadius: borderRadius.md,
     padding: 20,
     gap: spacing.md,

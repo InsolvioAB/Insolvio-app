@@ -9,7 +9,7 @@
 // men värdena är uppdaterade för att matcha temat. De token som inte
 // har en direkt motsvarighet i Supabase-temat (t.ex. *Alt/*Alt2-nyanser)
 // är härledda matematiskt så att samma relativa gradient bevaras.
-export const colors = {
+export const lightColors = {
   // Primära färger
   deepGreen: '#121212',      // Mörk bakgrund (Supabase dark.background)
   cream: '#fcfcfc',          // Ljus bakgrund (Supabase light.background)
@@ -54,7 +54,110 @@ export const colors = {
 
   // Speciella
   white: '#ffffff',          // Ren vit (logotyp)
+
+  // Semantiska färger som byter värde i mörkt läge (EJU-248)
+  surface: '#ffffff',        // Kortyta (kort, popover, modal)
+  onAction: '#ffffff',       // Text/ikon ovanpå greenAction (vit på ljust, mörk på mörkt)
+
+  // Färgade ytor som tidigare var hårdkodade i skärmarna (EJU-248)
+  newsBannerBg: '#e4efe9',
+  newsBannerBorder: '#cfe3d9',
+  greenWash: '#e8f4f0',
+  updatedBadgeBg: '#d8f0e6',
+  findHighlight: '#fff3b0',
+  findHighlightCurrent: '#ffd54a',
+  pillBg: '#e3f1ea',
+  pillBorder: '#bfdccd',
+  noteBg: '#fef3c7',
+  noteText: '#92400e',
+  dangerBg: '#fee2e2',
+  dangerText: '#ef4444',
+  helpBoxBg: '#e8e8e8',
+  chipBg: '#ebebeb',
+  changeBadgeBg: '#fdf1e0',
+  changeBadgeText: '#8a5a1f',
+  upphavdBadgeBg: '#fbe3dc',
+  upphavdText: '#ca3214',
+  oldBlockBg: '#efefef',
+  diffRemovedBg: '#f6d9d4',
+  diffRemovedLine: '#b3402f',
+  diffRemovedText: '#7a2c20',
+  diffAddedBg: '#bfe3d0',
 };
+
+export type ThemeColors = typeof lightColors;
+
+// Mörkt läge (EJU-248): samma tokennamn, värden från mockuparna
+// (bakgrund #121212, kort #1a1a1a, kant #292929, dämpad text #a2a2a2).
+// Grön TEXT ljusas upp till #76af98 så att den syns på mörkt.
+export const darkColors: ThemeColors = {
+  deepGreen: '#121212',
+  cream: '#121212',
+
+  greenPrimary: '#59997f',
+  greenPrimaryForeground: '#1e2723',
+  greenHover: '#76af98',
+  greenText: '#76af98',
+  greenAction: '#59997f',
+  greenTint: '#1d2a24',
+  greenTintBorder: '#2a3d34',
+
+  ink: '#fafafa',
+  darkText: '#e8e8e8',
+  darkTextAlt: '#d6d6d6',
+  mutedText: '#a2a2a2',
+  mutedTextAlt: '#b0b0b0',
+
+  weakText: '#8d8d8d',
+  weakTextAlt: '#7d7d7d',
+  weakTextAlt2: '#6e6e6e',
+
+  lightText: '#e2e8f0',
+  lightTextAlt: '#eaeef4',
+  lightTextAlt2: '#f0f3f7',
+  mutedOnDark: '#a2a2a2',
+
+  dividerDark: '#292929',
+  dividerLight: '#292929',
+  dividerLightAlt: '#363636',
+
+  destructive: '#ca3214',
+  destructiveForeground: '#fffcfc',
+  inputBackground: '#1f1f1f',
+
+  white: '#ffffff',
+
+  surface: '#1a1a1a',
+  onAction: '#1e2723',
+
+  newsBannerBg: '#1f3228',
+  newsBannerBorder: '#2f4a3b',
+  greenWash: '#1d2a24',
+  updatedBadgeBg: '#27402f',
+  findHighlight: '#5c4d12',
+  findHighlightCurrent: '#7a5f00',
+  pillBg: '#1f3228',
+  pillBorder: '#335443',
+  noteBg: '#2e2610',
+  noteText: '#f0c674',
+  dangerBg: '#3a1c1c',
+  dangerText: '#f87171',
+  helpBoxBg: '#242424',
+  chipBg: '#262626',
+  changeBadgeBg: '#33280f',
+  changeBadgeText: '#e0b36a',
+  upphavdBadgeBg: '#3b1f1a',
+  upphavdText: '#f4907f',
+  oldBlockBg: '#262626',
+  diffRemovedBg: '#4a2520',
+  diffRemovedLine: '#e5604a',
+  diffRemovedText: '#f4b4a8',
+  diffAddedBg: '#24523c',
+};
+
+// Ljust tema. Skärmar som inte har gjorts om till useTheme() än använder
+// fortfarande detta (appen ser då ut som förut).
+export const colors = lightColors;
 
 export const typography = {
   // Font family - using 'Outfit' (Supabase-temats typsnitt), falls back to system font if not loaded

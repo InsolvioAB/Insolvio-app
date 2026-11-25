@@ -8,9 +8,20 @@ import { BookmarksProvider } from '../src/contexts/BookmarksContext';
 import { NotesProvider } from '../src/contexts/NotesContext';
 import { RecentlyViewedProvider } from '../src/contexts/RecentlyViewedContext';
 import { TextSizeProvider } from '../src/contexts/TextSizeContext';
-import { colors } from '../src/theme/theme';
+import { StatusBar } from 'expo-status-bar';
+import { useTheme } from '../src/theme/useTheme';
+import { ThemeProvider } from '../src/contexts/ThemeContext';
 
 export default function RootLayout() {
+  return (
+    <ThemeProvider>
+      <AppShell />
+    </ThemeProvider>
+  );
+}
+
+function AppShell() {
+  const { colors, isDark } = useTheme();
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
   useEffect(() => {
@@ -39,13 +50,14 @@ export default function RootLayout() {
   }
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.cream }}>
+      <StatusBar style={isDark ? 'light' : 'dark'} />
       <SafeAreaProvider>
       <TextSizeProvider>
       <BookmarksProvider>
         <NotesProvider>
           <RecentlyViewedProvider>
-          <Stack screenOptions={{ headerShown: false, headerBackTitle: 'Tillbaka' }}>
+          <Stack screenOptions={{ headerShown: false, headerBackTitle: 'Tillbaka', contentStyle: { backgroundColor: colors.cream } }}>
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="law/[id]" options={{ presentation: 'card', headerShown: true, title: 'Lag' }} />
             <Stack.Screen name="about" options={{ presentation: 'card', headerShown: true, title: 'Om Insolvio' }} />

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Text } from './AppText';
-import { colors, typography, spacing, createHeadingStyle } from '../theme/theme';
+import { typography, spacing, createHeadingStyle, ThemeColors } from '../theme/theme';
+import { useTheme } from '../theme/useTheme';
 
 type Props = {
   icon: React.ComponentProps<typeof Ionicons>['name'];
@@ -14,6 +15,8 @@ type Props = {
 
 /** Tomt läge: ikon, rubrik, kort förklaring och en knapp vidare. */
 export default function EmptyState({ icon, title, text, buttonLabel, onPress }: Props) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   return (
     <View style={styles.container}>
       <View style={styles.iconCircle}>
@@ -34,7 +37,7 @@ export default function EmptyState({ icon, title, text, buttonLabel, onPress }: 
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',

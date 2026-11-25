@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Text } from './AppText';
-import { colors, typography, spacing } from '../theme/theme';
+import { typography, spacing, ThemeColors } from '../theme/theme';
+import { useTheme } from '../theme/useTheme';
 
 type Props = {
   title: string;
@@ -12,6 +13,8 @@ type Props = {
 // Gemensam sidrubrik för alla flikar (Hem, Lagar, Sök, Bokmärken) -- EJU-193.
 // Stor vänsterställd rubrik, ingen extra luft ovanför.
 export default function PageHeader({ title, subtitle, right }: Props) {
+  const { colors } = useTheme();
+  const styles = useMemo(() => makeStyles(colors), [colors]);
   return (
     <View style={styles.container}>
       <View style={styles.textBlock}>
@@ -25,7 +28,7 @@ export default function PageHeader({ title, subtitle, right }: Props) {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
