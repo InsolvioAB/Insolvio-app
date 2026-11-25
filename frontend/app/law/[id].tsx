@@ -431,8 +431,10 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-              <AppearanceButton />
-              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+              <View style={styles.headerIconGroup}>
+                <AppearanceButton />
+                <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+              </View>
             </View>
           ),
         }}
@@ -838,6 +840,10 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
     alignItems: 'center',
     gap: 16,
     marginRight: spacing.md,
+  },
+  headerIconGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   findBar: {
     flexDirection: 'row',
