@@ -11,7 +11,7 @@ import {
   Platform,
 } from 'react-native';
 import { Text } from '../../src/components/AppText';
-import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
@@ -21,8 +21,6 @@ import { legalTexts, sectionLabel, chapterSectionLabel } from '../../src/data/le
 import { formatSaved } from '../../src/utils/formatSaved';
 import PageHeader from '../../src/components/PageHeader';
 import EmptyState from '../../src/components/EmptyState';
-import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
-import AppearanceButton from '../../src/components/AppearanceButton';
 import { getShortLawName } from '../../src/data/lawShortNames';
 import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
@@ -51,8 +49,6 @@ export default function BookmarksScreen() {
   const { bookmarks, addBookmark, removeBookmark } = useBookmarks();
   const { addNote, updateNote, deleteNote, getNote } = useNotes();
   const router = useRouter();
-  const insets = useSafeAreaInsets();
-  const [showTextSize, setShowTextSize] = useState(false);
 
   // Ångra efter borttagning
   const [undoBookmark, setUndoBookmark] = useState<BookmarkItem | null>(null);
@@ -231,16 +227,7 @@ export default function BookmarksScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <PageHeader
         title="Bokmärken"
-        right={
-          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-            <AppearanceButton />
-            <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
-          </View>
-        }
       />
-      {showTextSize && (
-        <TextSizePopover top={insets.top + 52} onClose={() => setShowTextSize(false)} />
-      )}
       {total === 0 ? (
         <EmptyState
           icon="bookmark-outline"

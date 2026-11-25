@@ -23,8 +23,6 @@ import { activeNewsItems } from '../../src/content/newsContent';
 import { useBookmarks } from '../../src/contexts/BookmarksContext';
 import { useNotes } from '../../src/contexts/NotesContext';
 import { useRecentlyViewed } from '../../src/contexts/RecentlyViewedContext';
-import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
-import AppearanceButton from '../../src/components/AppearanceButton';
 import HeaderTitle from '../../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
@@ -42,7 +40,6 @@ export default function LawViewerScreen() {
   const sectionsBlockY = useRef<Record<string, number>>({});
   const sectionY = useRef<Record<string, { chapterId: string; chapterNumber: number; number: number; y: number }>>({});
   const lastSavedSection = useRef<string | null>(null);
-  const [showTextSize, setShowTextSize] = useState(false);
     
   const [expandedChapters, setExpandedChapters] = useState<Set<string>>(new Set());
   const [showTOC, setShowTOC] = useState(false);
@@ -433,16 +430,10 @@ export default function LawViewerScreen() {
               >
                 <Ionicons name="search-outline" size={24} color={colors.greenPrimary} />
               </TouchableOpacity>
-              <View style={styles.headerIconGroup}>
-                <AppearanceButton />
-                <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
-              </View>
             </View>
           ),
         }}
       />
-      
-      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
 
       {findVisible && (
         <View style={styles.findBar}>
@@ -842,10 +833,6 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
     alignItems: 'center',
     gap: 16,
     marginRight: spacing.md,
-  },
-  headerIconGroup: {
-    flexDirection: 'row',
-    alignItems: 'center',
   },
   findBar: {
     flexDirection: 'row',

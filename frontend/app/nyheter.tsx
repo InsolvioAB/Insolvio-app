@@ -2,8 +2,6 @@ import React, { useState, useMemo } from 'react';
 import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import { Text } from '../src/components/AppText';
 import { useRouter, Stack } from 'expo-router';
-import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
-import AppearanceButton from '../src/components/AppearanceButton';
 import HeaderTitle from '../src/components/HeaderTitle';
 import EmptyState from '../src/components/EmptyState';
 import { activeNewsItems } from '../src/content/newsContent';
@@ -15,7 +13,6 @@ export default function NyheterScreen() {
   const { colors } = useTheme();
   const styles = useMemo(() => makeStyles(colors), [colors]);
   const router = useRouter();
-  const [showTextSize, setShowTextSize] = useState(false);
 
   return (
     <View style={styles.container}>
@@ -25,12 +22,6 @@ export default function NyheterScreen() {
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
           headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
-          headerRight: () => (
-            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
-              <AppearanceButton />
-              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
-            </View>
-          ),
         }}
       />
       {activeNewsItems.length === 0 ? (
@@ -82,7 +73,6 @@ export default function NyheterScreen() {
         })}
       </ScrollView>
       )}
-      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </View>
   );
 }
