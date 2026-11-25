@@ -4,6 +4,7 @@ import { Text } from '../src/components/AppText';
 import { useRouter, Stack } from 'expo-router';
 import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
 import AppearanceButton from '../src/components/AppearanceButton';
+import HeaderTitle from '../src/components/HeaderTitle';
 import EmptyState from '../src/components/EmptyState';
 import { activeNewsItems } from '../src/content/newsContent';
 import { getAmendmentByNewsId } from '../src/content/lawAmendments';
@@ -22,6 +23,7 @@ export default function NyheterScreen() {
         options={{
           headerStyle: { backgroundColor: colors.cream },
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
+          headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
           headerRight: () => (
             <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
