@@ -5,8 +5,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { getAmendmentByNewsId, AmendmentChangeType, AmendmentParagraph } from '../../src/content/lawAmendments';
 import { diffWords, DiffSegment } from '../../src/utils/wordDiff';
-import { TextSizeButton, TextSizePopover } from '../../src/components/TextSizeControl';
-import AppearanceButton from '../../src/components/AppearanceButton';
 import HeaderTitle from '../../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, createLabelStyle, ThemeColors } from '../../src/theme/theme';
 import { useTheme } from '../../src/theme/useTheme';
@@ -23,7 +21,6 @@ export default function AmendmentScreen() {
   const { newsId, paragraph: focusId } = useLocalSearchParams<{ newsId: string; paragraph?: string }>();
   const amendment = getAmendmentByNewsId(newsId);
   const listRef = useRef<FlatList<AmendmentParagraph>>(null);
-  const [showTextSize, setShowTextSize] = useState(false);
   const focusIndex = amendment && focusId ? amendment.paragraphs.findIndex((p) => p.id === focusId) : -1;
 
   // Kommer man från en paragraf i lagtexten ("Ändrad 1 juli 2026 ›") hoppar
@@ -53,12 +50,6 @@ export default function AmendmentScreen() {
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
           headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
-          headerRight: () => (
-            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
-              <AppearanceButton />
-              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
-            </View>
-          ),
         }}
       />
       <FlatList
@@ -119,7 +110,6 @@ export default function AmendmentScreen() {
           </View>
         )}
       />
-      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </>
   );
 }

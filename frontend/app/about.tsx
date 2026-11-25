@@ -3,8 +3,6 @@ import { View, ScrollView, StyleSheet } from 'react-native';
 import { Text } from '../src/components/AppText';
 import { homeContent } from '../src/content/homeContent';
 import { Stack } from 'expo-router';
-import { TextSizeButton, TextSizePopover } from '../src/components/TextSizeControl';
-import AppearanceButton from '../src/components/AppearanceButton';
 import HeaderTitle from '../src/components/HeaderTitle';
 import { typography, spacing, borderRadius, createHeadingStyle, ThemeColors } from '../src/theme/theme';
 import { useTheme } from '../src/theme/useTheme';
@@ -12,7 +10,6 @@ import { useTheme } from '../src/theme/useTheme';
 export default function AboutScreen() {
   const { colors } = useTheme();
   const styles = useMemo(() => makeStyles(colors), [colors]);
-  const [showTextSize, setShowTextSize] = useState(false);
   return (
     <View style={styles.container}>
       <Stack.Screen
@@ -21,12 +18,6 @@ export default function AboutScreen() {
           headerTitleStyle: { fontFamily: typography.fontFamily.bold, color: colors.ink },
           headerTitle: (props) => <HeaderTitle {...props} />,
           headerTintColor: colors.greenPrimary,
-          headerRight: () => (
-            <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: spacing.md }}>
-              <AppearanceButton />
-              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
-            </View>
-          ),
         }}
       />
       <ScrollView
@@ -40,7 +31,6 @@ export default function AboutScreen() {
           </View>
         ))}
       </ScrollView>
-      {showTextSize && <TextSizePopover onClose={() => setShowTextSize(false)} />}
     </View>
   );
 }
