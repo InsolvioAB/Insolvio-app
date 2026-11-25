@@ -109,8 +109,10 @@ export default function HomeScreen() {
         title="Hem"
         right={
           <View style={styles.headerActions}>
-            <AppearanceButton />
-            <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            <View style={styles.headerIconGroup}>
+              <AppearanceButton />
+              <TextSizeButton onPress={() => setShowTextSize((v) => !v)} expanded={showTextSize} />
+            </View>
             <TouchableOpacity
               style={styles.infoButton}
               onPress={() => router.push('/about')}
@@ -313,6 +315,10 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.md,
+  },
+  headerIconGroup: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   infoButton: {
     width: 36,

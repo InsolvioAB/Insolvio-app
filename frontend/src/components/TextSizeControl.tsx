@@ -124,6 +124,8 @@ const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   aaGlyph: {
     flexDirection: 'row',
     alignItems: 'baseline',
+    // Aa-bokstäverna ligger visuellt lägre än ikonerna bredvid; lyft dem så att de hamnar på samma linje
+    transform: [{ translateY: -3 }],
   },
   aaSmall: {
     fontSize: 14,
