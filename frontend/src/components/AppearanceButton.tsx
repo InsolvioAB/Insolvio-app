@@ -101,7 +101,7 @@ export default function AppearanceButton() {
 
 const makeStyles = (colors: ThemeColors) => StyleSheet.create({
   buttonWrap: {
-    marginRight: 12,
+    marginRight: 4,
   },
   popover: {
     position: 'absolute',
